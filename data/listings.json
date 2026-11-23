@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T13:13:46.340Z",
+  "generatedAt": "2026-11-23T13:50:09.168Z",
   "source": "alerts",
   "listings": [
     {
@@ -28,7 +28,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -51,23 +51,25 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "This four-bedroom St Georges home offers generous four-car parking near quality eastern suburb schooling. However, having only a single bathroom for four bedrooms at an asking price nearing $2 million presents a significant family compromise. With mortgage rates at 6.2%, buyers should account for the capital needed to add a second bathroom.",
+        "summary": "This 4-bedroom house in St Georges is priced at $1,998,888, aligning closely with recent suburb medians around $2.04M to $2.06M. However, having only a single bathroom for four bedrooms is a notable practical constraint for family living. High mortgage rates of 6.2% also warrant cautious borrowing at this price point.",
         "pros": [
-          "Four bedrooms suitable for family living",
-          "Generous four-car accommodation",
-          "Established St Georges location"
+          "Four bedrooms accommodate family needs",
+          "Ample parking with four car spaces",
+          "Priced slightly below suburb median",
+          "Located in desirable St Georges"
         ],
         "cons": [
           "Only one bathroom for four bedrooms",
-          "High asking price near two million",
-          "Land size is not disclosed"
+          "Land size is not disclosed",
+          "High interest rate environment limits borrowing"
         ],
-        "fairValueLow": 1750000,
-        "fairValueHigh": 1950000,
-        "verdict": "Overpriced",
+        "fairValueLow": 1850000,
+        "fairValueHigh": 2050000,
+        "verdict": "Fair",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:32:34.542Z",
-        "priceText": "$1,998,888"
+        "generatedAt": "2026-11-23T13:50:09.168Z",
+        "priceText": "$1,998,888",
+        "inputVersion": 2
       },
       "imported": true,
       "alsoAt": [
@@ -101,7 +103,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -124,22 +126,25 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "This Beaumont house provides four bedrooms, two bathrooms, and four parking spaces at an accessible price guide of $1,150,000 to $1,250,000. It offers family-ready accommodation in the eastern foothills near target school zones. Prospective buyers must inspect traffic conditions on Devereux Road and verify the unstated land dimensions.",
+        "summary": "Positioned well below Beaumont's recent median prices ($1.76M in 2025 to $1.88M in 2026), this listing offers four bedrooms, two bathrooms, and four parking spots. The asking range of $1,150,000 to $1,250,000 suggests strong relative value in the current high-rate market. Buyers should confirm site specifics, as land size is not disclosed.",
         "pros": [
-          "Competitive price guide for four bedrooms",
-          "Two bathrooms accommodate family routines",
-          "Substantial four-car parking capacity"
+          "Asking guide far below suburb median",
+          "Four bedrooms and two bathrooms",
+          "Generous four-car accommodation",
+          "More affordable entry to the area"
         ],
         "cons": [
-          "Situated on busy Devereux Road",
-          "Land size is not disclosed"
+          "Land size is not specified",
+          "Devereux Road may carry local traffic",
+          "Mortgage rate of 6.2% increases costs"
         ],
-        "fairValueLow": 1150000,
-        "fairValueHigh": 1280000,
+        "fairValueLow": 1200000,
+        "fairValueHigh": 1400000,
         "verdict": "Strong value",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:32:34.542Z",
-        "priceText": "$1,150,000 to $1,250,000"
+        "generatedAt": "2026-11-23T13:50:09.168Z",
+        "priceText": "$1,150,000 to $1,250,000",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -167,7 +172,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -190,22 +195,26 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "The asking price is not disclosed for this four-bedroom, two-bathroom family home in sought-after Glenunga. Because pricing and historical trend data are withheld, we establish a broad fair value estimate anchored to typical four-bedroom family housing in this high-demand zone. It warrants priority inspection given its central position near both Glenunga International High and Linden Park Primary.",
+        "summary": "Price is not disclosed for this 4-bedroom, 2-bathroom Glenunga residence. With Glenunga medians rising toward $2.27M in 2026, fair value is estimated broadly based on local historical trends. Its location directly in Glenunga is particularly attractive for families targeting local schools.",
         "pros": [
-          "Prime Glenunga location near schools",
-          "Functional four-bedroom, two-bathroom layout",
-          "Four car spaces provide ample parking"
+          "Sought-after Glenunga family address",
+          "Four bedrooms and two bathrooms",
+          "Four parking spaces provided",
+          "Direct access to school zones"
         ],
         "cons": [
-          "Asking price is not disclosed",
-          "Land size is not provided"
+          "Price is not disclosed",
+          "Land size is not provided",
+          "Suburb median trend exceeds $2M",
+          "Subject to elevated borrowing rates"
         ],
-        "fairValueLow": 1550000,
-        "fairValueHigh": 2150000,
+        "fairValueLow": 1800000,
+        "fairValueHigh": 2300000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:32:34.542Z",
-        "priceText": "Contact Agent"
+        "generatedAt": "2026-11-23T13:50:09.168Z",
+        "priceText": "Contact Agent",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -233,7 +242,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -256,23 +265,26 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "Offering five bedrooms and three bathrooms, this St Georges residence delivers generous internal scale for larger households. However, frontage to major arterial Portrush Road introduces significant traffic noise and access constraints. The $1,900,000 to $2,090,000 price guide balances substantial room counts against arterial road exposure.",
+        "summary": "Offering five bedrooms and three bathrooms, this home provides ample space for a larger family in St Georges. The asking range of $1,900,000 to $2,090,000 sits around the suburb's recent median levels of ~$2.04M to $2.06M. Being on Portrush Road represents an arterial thoroughfare location that may impact family appeal.",
         "pros": [
-          "Five bedrooms suit large families",
-          "Three bathrooms avoid morning congestion",
-          "Located within St Georges"
+          "Generous five bedrooms and three bathrooms",
+          "Price range spans suburb median",
+          "Two dedicated car spaces",
+          "Ample space for large families"
         ],
         "cons": [
-          "Directly fronts busy Portrush Road",
+          "Located on busy Portrush Road",
           "Land size is not disclosed",
-          "Top end exceeds two million dollars"
+          "Upper guide touches $2,090,000",
+          "High 6.2% mortgage rate context"
         ],
-        "fairValueLow": 1800000,
-        "fairValueHigh": 2020000,
+        "fairValueLow": 1850000,
+        "fairValueHigh": 2050000,
         "verdict": "Fair",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:32:34.542Z",
-        "priceText": "$1,900,000 -$2,090,000"
+        "generatedAt": "2026-11-23T13:50:09.168Z",
+        "priceText": "$1,900,000 -$2,090,000",
+        "inputVersion": 2
       },
       "imported": true,
       "alsoAt": [
@@ -306,7 +318,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -329,23 +341,25 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "Located right in Linden Park, this four-bedroom, two-bathroom home sits directly in the target primary school neighbourhood. The street address implies a subdivided allotment, indicating potentially modest outdoor space despite the undisclosed land measurement. At an asking price of $1,700,000, it reflects standard entry pricing for move-in family accommodation in this enclave.",
+        "summary": "This 4-bedroom, 2-bathroom property is situated directly in Linden Park with a firm asking price of $1,700,000. It is priced below the 2026 suburb median of $1,950,000, representing a reasonable entry point into this key school zone. Undisclosed land dimensions suggest buyers should verify site scale before offering.",
         "pros": [
           "Located directly in Linden Park",
-          "Practical four-bedroom, two-bathroom floorplan",
-          "Clear, transparent asking price"
+          "Asking price below 2026 median",
+          "Four bedrooms and two bathrooms",
+          "Desirable school zone location"
         ],
         "cons": [
-          "Address suggests a subdivided allotment",
-          "Land size is not provided",
-          "High interest rates limit borrowing capacity"
+          "Land size is not disclosed",
+          "Only two car spaces provided",
+          "Fixed asking price with no range"
         ],
-        "fairValueLow": 1620000,
-        "fairValueHigh": 1750000,
-        "verdict": "Fair",
+        "fairValueLow": 1650000,
+        "fairValueHigh": 1850000,
+        "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:32:34.542Z",
-        "priceText": "$1,700,000"
+        "generatedAt": "2026-11-23T13:50:09.168Z",
+        "priceText": "$1,700,000",
+        "inputVersion": 2
       },
       "imported": true,
       "alsoAt": [
@@ -379,7 +393,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -402,23 +416,23 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "This Glenside house offers 4 bedrooms, 3 bathrooms, and 2 car spaces with a price guide of $1,600,000 to $1,750,000. Land size and suburb historical data are not provided in the listing. Buyers should carefully evaluate repayment serviceability given the current 6.2% mortgage interest rate.",
+        "summary": "This 4-bedroom, 3-bathroom house in Glenside is offered with a guide of $1,600,000 to $1,750,000. This price range sits well below Glenside's 2025 median of $1,855,000 and 2026 median of $2,023,750. However, the listing does not disclose land size, requiring cautious verification before proceeding.",
         "pros": [
-          "Offers 4 bedrooms and 3 bathrooms",
-          "Includes 2 parking spaces",
-          "Transparent price guide provided"
+          "Price guide is below recent Glenside suburb medians.",
+          "Four bedrooms and three bathrooms suit family requirements.",
+          "Provides two car parking spaces."
         ],
         "cons": [
-          "Land size is not disclosed",
-          "Elevated 6.2 percent mortgage rate environment",
-          "Price guide begins at 1.6 million dollars"
+          "Land size is not disclosed in the listing.",
+          "Current 6.2 percent mortgage rates increase financing costs."
         ],
-        "fairValueLow": 1600000,
-        "fairValueHigh": 1750000,
-        "verdict": "Fair",
+        "fairValueLow": 1650000,
+        "fairValueHigh": 1900000,
+        "verdict": "Strong value",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:32:34.542Z",
-        "priceText": "Price Guide $1,600,000- $1,750,000"
+        "generatedAt": "2026-11-23T13:50:09.168Z",
+        "priceText": "Price Guide $1,600,000- $1,750,000",
+        "inputVersion": 2
       },
       "imported": true,
       "alsoAt": [
@@ -452,7 +466,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -475,23 +489,24 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "Located in Glenunga near key school zones, this property provides 4 bedrooms, 3 bathrooms, and 2 car spaces. The asking price is not disclosed, listed only as Contact Agent. With no land dimensions or suburb price trends supplied, fair value is estimated across a wide range.",
+        "summary": "The asking price for this 4-bedroom, 3-bathroom Glenunga home is not disclosed and requires contacting the agent. Glenunga medians have grown from $1,771,000 in 2025 to $2,271,111 in 2026 across 25 sales. Given the lack of price and land size data, buyer due diligence is essential.",
         "pros": [
-          "Desirable 4-bedroom and 3-bathroom layout",
-          "Located in Glenunga near target schools",
-          "Provides 2 garage spaces"
+          "Located in Glenunga near targeted primary and secondary schools.",
+          "Family-friendly layout featuring four bedrooms and three bathrooms.",
+          "Double car accommodation included."
         ],
         "cons": [
-          "Price is not disclosed by agent",
-          "Land size is not stated",
-          "Suburb median trend data is missing"
+          "Asking price is not disclosed by the vendor.",
+          "Land size is not stated in the facts.",
+          "High 6.2 percent mortgage rates constrain buyer budgets."
         ],
-        "fairValueLow": 1600000,
-        "fairValueHigh": 2400000,
+        "fairValueLow": 1800000,
+        "fairValueHigh": 2350000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:32:34.542Z",
-        "priceText": "Contact Agent"
+        "generatedAt": "2026-11-23T13:50:09.168Z",
+        "priceText": "Contact Agent",
+        "inputVersion": 2
       },
       "imported": true,
       "alsoAt": [
@@ -525,7 +540,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -548,23 +563,24 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "This Glenunga home features 4 bedrooms, 3 bathrooms, and substantial 4-car accommodation guided between $3,250,000 and $3,550,000. It commands a premium price point while land size and historical suburb trends remain unstated. Financing this purchase requires significant capital in a 4.85% cash rate environment.",
+        "summary": "This Glenunga property is seeking $3,250,000 to $3,550,000 for a 4-bedroom, 3-bathroom home with 4 car spaces. This asking range is substantially above Glenunga's 2026 median of $2,271,111. Without land dimensions or premium feature details provided, the premium is difficult to justify.",
         "pros": [
-          "Substantial 4-car parking capacity",
-          "4 bedrooms and 3 bathrooms",
-          "Glenunga location close to schools"
+          "Generous four car parking spaces available.",
+          "Four bedrooms and three bathrooms support family living.",
+          "Glenunga location aligns with preferred school areas."
         ],
         "cons": [
-          "High asking price up to 3.55 million",
-          "Land size is not specified",
-          "High financing burden at 6.2 percent interest"
+          "Price guide sits far above Glenunga 2026 median.",
+          "Land size is omitted from the listing.",
+          "Macro environment features elevated 6.2 percent mortgage rates."
         ],
-        "fairValueLow": 3200000,
-        "fairValueHigh": 3550000,
-        "verdict": "Fair",
+        "fairValueLow": 2300000,
+        "fairValueHigh": 2800000,
+        "verdict": "Overpriced",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:32:34.542Z",
-        "priceText": "$3,250,000.00 - $3,550,000.00"
+        "generatedAt": "2026-11-23T13:50:09.168Z",
+        "priceText": "$3,250,000.00 - $3,550,000.00",
+        "inputVersion": 2
       },
       "imported": true,
       "alsoAt": [
@@ -598,7 +614,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -621,23 +637,23 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "This 4-bedroom, 2-bathroom Glenside home has a comparatively narrow price guide of $1,550,000 to $1,590,000. It provides essential family accommodation and 2 parking spaces, though block size is not reported. The tighter asking bracket helps buyers benchmark costs against current 6.2% borrowing rates.",
+        "summary": "Priced between $1,550,000 and $1,590,000, this 4-bedroom, 2-bathroom house is positioned notably below Glenside's 2025 and 2026 median levels. It offers a practical family layout and two parking spaces in an adjacent suburb to Glenunga. Buyers should confirm the missing land area to verify comparability.",
         "pros": [
-          "Narrow price guide under 1.6 million",
-          "Family-friendly 4-bedroom and 2-bathroom configuration",
-          "Glenside location convenient to eastern schools"
+          "Asking price sits well below Glenside median trends.",
+          "Four bedrooms and two bathrooms suit family buyers.",
+          "Includes two dedicated car spaces."
         ],
         "cons": [
-          "Land size is not disclosed",
-          "Fewer bathrooms than competing 4-bedroom listings",
-          "Borrowing costs remain high at 6.2 percent"
+          "Listing does not provide land size details.",
+          "Macro mortgage rate of 6.2 percent restricts borrowing."
         ],
-        "fairValueLow": 1550000,
-        "fairValueHigh": 1590000,
-        "verdict": "Worth inspecting",
+        "fairValueLow": 1600000,
+        "fairValueHigh": 1850000,
+        "verdict": "Strong value",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:32:34.542Z",
-        "priceText": "$1.55m - $1.59m"
+        "generatedAt": "2026-11-23T13:50:09.168Z",
+        "priceText": "$1.55m - $1.59m",
+        "inputVersion": 2
       },
       "imported": true,
       "alsoAt": [
@@ -671,7 +687,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -694,23 +710,24 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "Situated in neighboring St Georges, this 4-bedroom, 2-bathroom property is offered through an Expressions of Interest campaign without a disclosed price. Without published land area or local historical price trends, valuation uncertainty is elevated. A wide fair value range is applied pending further details from the campaign.",
+        "summary": "This St Georges house is offered via Expressions of Interest with no price disclosed. Suburb median prices in St Georges have remained remarkably consistent, recording $2,040,000 in 2025 and $2,060,000 in 2026. While the 4-bedroom, 2-bathroom configuration matches family needs, land size remains unspecified.",
         "pros": [
-          "Proximity to Linden Park and Glenunga schools",
-          "4 bedrooms and 2 car spaces",
-          "Located in established suburb of St Georges"
+          "St Georges demonstrates consistent median values above two million.",
+          "Four bedrooms and two bathrooms provide practical accommodation.",
+          "Double car accommodation is included."
         ],
         "cons": [
-          "Price is undisclosed under expressions of interest",
-          "Land size is not provided",
-          "Market transparency is limited"
+          "Price is undisclosed under Expressions of Interest process.",
+          "Land size is omitted from the listing data.",
+          "Macro cash rate at 4.85 percent keeps borrowing tight."
         ],
-        "fairValueLow": 1600000,
-        "fairValueHigh": 2300000,
+        "fairValueLow": 1850000,
+        "fairValueHigh": 2250000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:32:34.542Z",
-        "priceText": "Expressions of Interest"
+        "generatedAt": "2026-11-23T13:50:09.168Z",
+        "priceText": "Expressions of Interest",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -738,7 +755,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -761,24 +778,24 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "The asking price is not disclosed as this four-bedroom, three-bathroom home is offered via Expressions of Interest. Located in St Georges, it provides practical accommodation near key eastern school zones, though land size is not provided. Due to missing pricing and median trend data, an expansive fair value range is warranted.",
+        "summary": "This four-bedroom, three-bathroom home in St Georges offers strong accommodation for a family seeking access to local schooling hubs. The asking price is not disclosed under an Expressions of Interest campaign. Given the steady St Georges median of $2,060,000 in 2026, fair value is estimated broadly around current suburb benchmarks.",
         "pros": [
-          "Four bedrooms and three bathrooms",
-          "Desirable St Georges address",
-          "Two dedicated parking spaces"
+          "Desirable four-bedroom, three-bathroom layout for families.",
+          "Situated in established suburb of St Georges.",
+          "Provides two off-street parking spaces."
         ],
         "cons": [
-          "Price is not disclosed",
-          "Land size is missing",
-          "Expressions of interest campaign creates uncertainty",
-          "Elevated mortgage rates at 6.2%"
+          "Price is undisclosed under expressions of interest.",
+          "Land size is not specified.",
+          "Current 6.2% mortgage rate elevates borrowing costs."
         ],
-        "fairValueLow": 1800000,
-        "fairValueHigh": 2800000,
+        "fairValueLow": 1900000,
+        "fairValueHigh": 2350000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:32:34.542Z",
-        "priceText": "Expressions of Interest"
+        "generatedAt": "2026-11-23T13:50:09.168Z",
+        "priceText": "Expressions of Interest",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -806,7 +823,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -829,24 +846,24 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "This four-bedroom, two-bathroom Beaumont property is currently listed as under contract, indicating an agreement has already been reached. The asking price was undisclosed, and no land size data was supplied in the listing. Its five-car parking capacity offered rare vehicle space for the eastern suburbs.",
+        "summary": "This Beaumont home features four bedrooms, two bathrooms, and substantial five-car accommodation suited to family living. The listing is already marked under contract with no transaction price disclosed. Based on Beaumont's 2026 median of $1,885,000 and the high parking capacity, a broad valuation range reflects typical local pricing.",
         "pros": [
-          "Substantial five-car parking accommodation",
-          "Four bedrooms suited for families",
-          "Sought-after Beaumont address"
+          "Substantial five-car parking capacity.",
+          "Functional four-bedroom, two-bathroom family design.",
+          "Beaumont median price expanded to $1,885,000 in 2026."
         ],
         "cons": [
-          "Currently under contract",
-          "Price was not disclosed",
-          "Land size is missing",
-          "High 6.2% prevailing mortgage rates"
+          "Property is already listed as under contract.",
+          "Price was not publicly disclosed.",
+          "Land area details are not provided."
         ],
-        "fairValueLow": 1600000,
-        "fairValueHigh": 2500000,
+        "fairValueLow": 1750000,
+        "fairValueHigh": 2150000,
         "verdict": "Fair",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:32:34.542Z",
-        "priceText": "UNDER CONTRACT"
+        "generatedAt": "2026-11-23T13:50:09.168Z",
+        "priceText": "UNDER CONTRACT",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -874,7 +891,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -897,24 +914,24 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "Situated directly in Linden Park, this four-bedroom, three-bathroom property is ideally positioned for Linden Park Primary School access. The sale method requires best offers with no published price guide, and the land size is unstated. Given the undisclosed price and lack of historical trend metrics, a wide valuation band is necessary.",
+        "summary": "Located directly in Linden Park, this home provides an advantageous location for target school zoning alongside four bedrooms and four car spaces. The price is not disclosed, with the vendor running a best-offers campaign. With Linden Park medians climbing to $1,950,000 in 2026, a wide valuation range is warranted given the generous layout.",
         "pros": [
-          "Direct Linden Park location near primary school",
-          "Four bedrooms and three bathrooms",
-          "Four-car parking capacity"
+          "Directly addresses Linden Park school zone preference.",
+          "Spacious four-bedroom, three-bathroom accommodation.",
+          "Generous four-car parking provision."
         ],
         "cons": [
-          "Price is not disclosed",
-          "Best-offers deadline creates competitive pressure",
-          "Land size is omitted",
-          "Current borrowing costs remain high"
+          "Price is not disclosed.",
+          "Competitive best-offers deadline creates price uncertainty.",
+          "Land parcel size is not disclosed."
         ],
-        "fairValueLow": 1900000,
-        "fairValueHigh": 3000000,
+        "fairValueLow": 1850000,
+        "fairValueHigh": 2350000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:32:34.542Z",
-        "priceText": "Best Offers By Mon 23rd Nov @ 3pm USP"
+        "generatedAt": "2026-11-23T13:50:09.168Z",
+        "priceText": "Best Offers By Mon 23rd Nov @ 3pm USP",
+        "inputVersion": 2
       },
       "imported": true,
       "alsoAt": [
@@ -948,7 +965,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -971,23 +988,24 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "This St Georges house offers four bedrooms, two bathrooms, and double parking, aligning well with family requirements in the school zone. The asking price is not disclosed, requiring direct agent contact, and land dimensions are not detailed. A conservative, wide valuation range accounts for the missing listing and trend information.",
+        "summary": "This property offers a conventional four-bedroom, two-bathroom configuration in the high-demand suburb of St Georges. The selling price is not disclosed, requiring direct agent contact. With St Georges median prices holding steady near $2,060,000 in 2026, fair value is framed widely across local mid-tier standards.",
         "pros": [
-          "Prime St Georges location",
-          "Family-friendly four-bedroom layout",
-          "Two secure car spaces"
+          "Family-appropriate four-bedroom, two-bathroom layout.",
+          "Desirable St Georges location near school catchments.",
+          "Includes two dedicated car spaces."
         ],
         "cons": [
-          "Price is not disclosed",
-          "Land size is not provided",
-          "6.2% mortgage rates constrain borrowing"
+          "Price is withheld by the agent.",
+          "Land dimensions are omitted from listing.",
+          "High 6.2% borrowing rates demand financial caution."
         ],
-        "fairValueLow": 1600000,
-        "fairValueHigh": 2600000,
+        "fairValueLow": 1850000,
+        "fairValueHigh": 2250000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:32:34.542Z",
-        "priceText": "Contact Agent"
+        "generatedAt": "2026-11-23T13:50:09.168Z",
+        "priceText": "Contact Agent",
+        "inputVersion": 2
       },
       "imported": true,
       "alsoAt": [
@@ -1021,7 +1039,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -1044,23 +1062,24 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "This generous five-bedroom home in Beaumont provides explicit price guidance of $2.65M to $2.85M via private treaty. It offers ample bedroom space for larger families seeking proximity to eastern schools, though land size is not reported. The quoted price represents a notable financial commitment in the current 6.2% mortgage rate climate.",
+        "summary": "This five-bedroom Beaumont house offers ample room for large families, with a published price guide of $2,650,000 to $2,850,000. However, this asking range sits substantially above the suburb's 2026 median of $1,885,000. In a tight credit environment with 6.2% mortgage rates, the high asking premium appears steep without disclosed land size to back it up.",
         "pros": [
-          "Transparent price guide provided",
-          "Generous five-bedroom family accommodation",
-          "Established Beaumont location"
+          "Five bedrooms accommodate larger family needs.",
+          "Explicit price guide provided by vendor.",
+          "Includes two secure parking spaces."
         ],
         "cons": [
-          "Land size is not disclosed",
-          "High barrier to entry above $2.65M",
-          "Heavy financing burden under current interest rates"
+          "Guide significantly exceeds Beaumont's $1,885,000 median.",
+          "Land size is completely undisclosed.",
+          "High rates increase carrying cost at this price point."
         ],
-        "fairValueLow": 2500000,
-        "fairValueHigh": 2900000,
-        "verdict": "Fair",
+        "fairValueLow": 2100000,
+        "fairValueHigh": 2500000,
+        "verdict": "Overpriced",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:32:34.542Z",
-        "priceText": "$2.65M — $2.85M"
+        "generatedAt": "2026-11-23T13:50:09.168Z",
+        "priceText": "$2.65M — $2.85M",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -1088,7 +1107,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -1111,23 +1130,24 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "The asking price is not disclosed for this four-bedroom, three-bathroom house in St Georges. Without land size or suburb median trend data provided, fair value must be viewed cautiously across a wide range. The family-friendly layout is well situated near the desired school zones.",
+        "summary": "The asking price is not disclosed for this four-bedroom, three-bathroom home in St Georges. Suburb medians have remained steady between $2.04M and $2.075M over the past few years. Given the substantial room count and prevailing 6.2% mortgage rates, buyers should confirm condition and block size before proceeding.",
         "pros": [
-          "Four bedrooms and three bathrooms suit families",
-          "Two dedicated off-street parking spaces",
-          "Positioned near target eastern suburbs schools"
+          "Four bedrooms and three bathrooms",
+          "Two dedicated parking spaces",
+          "Stable suburb median history"
         ],
         "cons": [
-          "Asking price is not disclosed",
-          "Land size is not provided",
-          "Mortgage rate of 6.2% increases financing costs"
+          "Price is not disclosed",
+          "Land size not provided",
+          "Mortgage rates remain elevated at 6.2%"
         ],
-        "fairValueLow": 1400000,
+        "fairValueLow": 1800000,
         "fairValueHigh": 2300000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:32:34.542Z",
-        "priceText": "Contact Agent"
+        "generatedAt": "2026-11-23T13:50:09.168Z",
+        "priceText": "Contact Agent",
+        "inputVersion": 2
       },
       "imported": true,
       "alsoAt": [
@@ -1163,7 +1183,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -1186,23 +1206,24 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "This Glen Osmond house provides four bedrooms and extensive parking, but the asking price is not disclosed. Without land dimensions or median price history provided, cautious assessment is essential in a 6.2% mortgage environment. Its proximity to Linden Park and Glenunga high school zones makes it relevant for families.",
+        "summary": "The asking price is not disclosed for this Glen Osmond home, which is being sold via a best-offers campaign. Suburb medians increased from $1.61M in 2025 to $2.11M in 2026. The property provides four bedrooms and substantial five-car capacity, though missing land data warrants due diligence.",
         "pros": [
-          "Four bedrooms accommodate family living",
-          "Generous parking capacity for five vehicles",
-          "Convenient access to target school zones"
+          "Substantial five-car parking accommodation",
+          "Four bedrooms and two bathrooms",
+          "Glen Osmond median trending upward"
         ],
         "cons": [
-          "Price is not disclosed by agent",
-          "Land size is unspecified",
-          "Offer deadline introduces competitive pressure"
+          "Price is not disclosed",
+          "Land size is omitted",
+          "Deadline sale creates bidding pressure"
         ],
-        "fairValueLow": 1350000,
-        "fairValueHigh": 2200000,
+        "fairValueLow": 1650000,
+        "fairValueHigh": 2250000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:32:34.542Z",
-        "priceText": "Best Offers By 7/12 (USP)"
+        "generatedAt": "2026-11-23T13:50:09.168Z",
+        "priceText": "Best Offers By 7/12 (USP)",
+        "inputVersion": 2
       },
       "imported": true,
       "alsoAt": [
@@ -1238,7 +1259,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -1261,23 +1282,24 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "This Beaumont house features four bedrooms and three bathrooms, but no asking price or land size is provided. The absence of suburb trend figures necessitates a broad valuation range given the 4.85% cash rate. Its room count fits family buyers seeking access to nearby quality schools.",
+        "summary": "No asking price is disclosed for this four-bedroom, three-bathroom house in Beaumont. Beaumont's median price has climbed moderately from $1.76M in 2024 to $1.885M in 2026. With zero feature or land descriptions available, inspection is essential to gauge true value.",
         "pros": [
-          "Four bedrooms and three bathrooms fit families",
-          "Includes two off-street car spaces",
-          "Located in quiet foothill suburb near schools"
+          "Four bedrooms and three bathrooms",
+          "Two-car parking included",
+          "Steady long-term median price growth"
         ],
         "cons": [
-          "Price is completely undisclosed",
-          "Land size is omitted from listing",
-          "No historical median trends available"
+          "No price information supplied",
+          "Land area not disclosed",
+          "High interest rate environment"
         ],
-        "fairValueLow": 1400000,
-        "fairValueHigh": 2350000,
+        "fairValueLow": 1600000,
+        "fairValueHigh": 2100000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:32:34.542Z",
-        "priceText": null
+        "generatedAt": "2026-11-23T13:50:09.168Z",
+        "priceText": null,
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -1305,7 +1327,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -1328,23 +1350,24 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "Situated directly in Linden Park, this four-bedroom home is exceptionally placed for Linden Park Primary School. The property is scheduled for auction without a disclosed price, and land size is not listed. Buyers must proceed cautiously under unconditional auction terms amid high mortgage interest rates.",
+        "summary": "This Linden Park home is heading to auction without a disclosed price guide. The suburb median has risen from $1.64M in 2025 to $1.95M in 2026 across 16 sales. Buyers need to be mindful that auctions require unconditional bidding under high 6.2% mortgage rates.",
         "pros": [
-          "Directly located within Linden Park suburb",
-          "Four bedrooms and two bathrooms suit families",
-          "Two-car off-street parking included"
+          "Located directly in Linden Park",
+          "Four bedrooms and two bathrooms",
+          "Two-car off-street parking"
         ],
         "cons": [
-          "Price is undisclosed ahead of auction",
-          "Land size is not specified",
-          "Auction method requires unconditional bidding"
+          "No auction price guide provided",
+          "Auction terms lack cooling-off rights",
+          "Land size is unspecified"
         ],
-        "fairValueLow": 1500000,
-        "fairValueHigh": 2500000,
+        "fairValueLow": 1650000,
+        "fairValueHigh": 2150000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:32:34.542Z",
-        "priceText": "Auction Fri 4 Dec"
+        "generatedAt": "2026-11-23T13:50:09.168Z",
+        "priceText": "Auction Fri 4 Dec",
+        "inputVersion": 2
       },
       "imported": true,
       "alsoAt": [
@@ -1380,7 +1403,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -1403,23 +1426,24 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "Offering five bedrooms and three bathrooms, this Glen Osmond home caters well to larger households. The asking price is undisclosed and being sold via best offers, with land area not recorded in the listing. Families must remain mindful of the 6.2% mortgage rate when formulating offers.",
+        "summary": "Featuring five bedrooms and three bathrooms, this Glen Osmond home has no disclosed price and is marketed via best offers. Glen Osmond medians reached $2.11M in 2026, making this sizable layout attractive for larger families. Buyers must establish land boundaries and physical condition before making an offer.",
         "pros": [
-          "Five bedrooms offer generous family accommodation",
-          "Three bathrooms reduce morning family bottlenecks",
-          "Close proximity to Glenunga International High"
+          "Generous five-bedroom, three-bathroom layout",
+          "Two parking spaces provided",
+          "Strong recent suburb median performance"
         ],
         "cons": [
-          "Asking price is not disclosed",
-          "Land size is omitted from data",
-          "Firm offer deadline limits due diligence time"
+          "Price is not disclosed",
+          "Land size not stated",
+          "Strict offer deadline applies"
         ],
-        "fairValueLow": 1550000,
-        "fairValueHigh": 2600000,
+        "fairValueLow": 1750000,
+        "fairValueHigh": 2350000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:32:34.542Z",
-        "priceText": "Best Offer By Monday 7th December @ 2:00PM"
+        "generatedAt": "2026-11-23T13:50:09.168Z",
+        "priceText": "Best Offer By Monday 7th December @ 2:00PM",
+        "inputVersion": 2
       },
       "imported": true,
       "alsoAt": [
@@ -1453,7 +1477,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -1476,23 +1500,24 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "This Linden Park residence offers five bedrooms, three bathrooms, and six parking spaces in the direct school target suburb. The price is not disclosed, with the vendor seeking best offers by November 24. With land size omitted and high 6.2% mortgage rates, fair value is estimated broadly based on configuration.",
+        "summary": "This five-bedroom, three-bathroom home is situated directly in Linden Park with generous six-car accommodation. The asking price is undisclosed and being sold via best offers, requiring cautious due diligence given current 6.2% mortgage rates. Based on the 2026 suburb median of $1,950,000 and the property's large configuration, fair value is estimated across a wide range.",
         "pros": [
-          "Located directly in target suburb Linden Park",
-          "Generous five-bedroom and three-bathroom configuration",
-          "Extensive parking capacity for six vehicles"
+          "Located directly in Linden Park",
+          "Substantial five-bedroom and three-bathroom configuration",
+          "Extensive parking with six car spaces"
         ],
         "cons": [
           "Asking price is not disclosed",
-          "Land size is not specified in the listing",
-          "High 6.2% mortgage rates increase borrowing costs"
+          "Land size is not provided in listing",
+          "High 6.2% mortgage rates elevate borrowing costs"
         ],
-        "fairValueLow": 1700000,
-        "fairValueHigh": 2500000,
+        "fairValueLow": 1800000,
+        "fairValueHigh": 2200000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:32:34.542Z",
-        "priceText": "Best offers By 24/11 @5pm (USP)"
+        "generatedAt": "2026-11-23T13:50:09.168Z",
+        "priceText": "Best offers By 24/11 @5pm (USP)",
+        "inputVersion": 2
       },
       "imported": true,
       "alsoAt": [
@@ -1526,7 +1551,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -1549,23 +1574,24 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "Located in Hazelwood Park, this house provides five bedrooms, three bathrooms, and two car spaces. It is listed for private treaty sale with a guided range of $1,800,000 to $1,950,000. The pricing aligns reasonably with substantial family dwellings in the eastern suburbs, though land size is undisclosed.",
+        "summary": "Positioned in Hazelwood Park, this five-bedroom home offers substantial family accommodation with three bathrooms and two car spaces. The price guide of $1.8M to $1.95M aligns closely with recent suburb median levels of $1,890,000 in 2026 and $1,925,750 in 2025. Given current borrowing headwinds, the asking expectations appear reasonable for a home of this size.",
         "pros": [
-          "Five bedrooms and three bathrooms suit large families",
-          "Clear price guide provided between $1.8M and $1.95M",
-          "Private treaty format allows transparent negotiation"
+          "Sizable five-bedroom, three-bathroom family layout",
+          "Price guide aligns closely with suburb median",
+          "Clear advertised price range provided"
         ],
         "cons": [
-          "Land size is omitted from listing details",
-          "Limited to two car spaces for large home",
-          "Elevated interest rate environment restricts buyer borrowing"
+          "Land size is not disclosed",
+          "Hazelwood Park median dipped slightly in 2026",
+          "Financing is constrained by 6.2% mortgage rates"
         ],
         "fairValueLow": 1800000,
         "fairValueHigh": 1950000,
         "verdict": "Fair",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:32:34.542Z",
-        "priceText": "$1.8M — $1.95M"
+        "generatedAt": "2026-11-23T13:50:09.168Z",
+        "priceText": "$1.8M — $1.95M",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -1593,7 +1619,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -1616,23 +1642,24 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "This Glenside house features four bedrooms, two bathrooms, and three car spaces close to target school areas. The price is not disclosed, with an end-date offer campaign closing December 8. Without disclosed land size or asking figures, valuation requires a cautious, wide estimate.",
+        "summary": "This Glenside house offers four bedrooms, two bathrooms, and three car parks, which suits standard family requirements. The asking price is not disclosed, with offers closing via an undisclosed sale process. With Glenside's median rising to $2,023,750 in 2026 across low sales volume, buyers should approach negotiations with a wide fair value range.",
         "pros": [
-          "Four-bedroom, two-bathroom layout suits family living",
-          "Three car spaces offer good vehicle storage",
-          "Positioned in tightly held neighbouring Glenside"
+          "Four bedrooms with practical three-car parking",
+          "Glenside median has trended upward through 2026",
+          "Desirable inner-eastern suburb location"
         ],
         "cons": [
-          "Asking price is undisclosed by the seller",
-          "Land area is not provided",
-          "Campaign deadline creates buyer pressure"
+          "Price is not disclosed by agent",
+          "Land size is unspecified in listing",
+          "2026 suburb trend reflects low transaction volume"
         ],
-        "fairValueLow": 1500000,
-        "fairValueHigh": 2200000,
+        "fairValueLow": 1750000,
+        "fairValueHigh": 2100000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:32:34.542Z",
-        "priceText": "Best Offers by Tue 8th Dec at 2PM (USP)"
+        "generatedAt": "2026-11-23T13:50:09.168Z",
+        "priceText": "Best Offers by Tue 8th Dec at 2PM (USP)",
+        "inputVersion": 2
       },
       "imported": true,
       "alsoAt": [
@@ -1666,7 +1693,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -1689,23 +1716,24 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "Situated in Beaumont, this property delivers four bedrooms, three bathrooms, and four car spaces. The vendor is inviting expressions of interest between $2,300,000 and $2,500,000 closing December 10. While spacious, the upper-tier price guide requires caution given current 6.2% mortgage rates.",
+        "summary": "Located in Beaumont, this four-bedroom, three-bathroom property provides ample parking with four car spaces. The guided EOI range of $2.3M to $2.5M sits well above Beaumont's 2026 median price of $1,885,000. With elevated interest rates of 6.2%, this premium guide appears ambitious without verified land size details.",
         "pros": [
-          "Four bedrooms with three full bathrooms",
-          "Generous four-car accommodation",
-          "Clear indicative price range provided"
+          "Generous four-bedroom, three-bathroom floor plan",
+          "Four parking spaces provide ample vehicle storage",
+          "Clear guide provided for expression of interest"
         ],
         "cons": [
-          "Land size is not stated",
-          "Substantial capital requirement above $2.3M",
-          "EOI process limits negotiation visibility"
+          "Guide is significantly above suburb median",
+          "Land area is not disclosed",
+          "High cash rate limits buyer borrowing capacity"
         ],
-        "fairValueLow": 2200000,
-        "fairValueHigh": 2500000,
-        "verdict": "Fair",
+        "fairValueLow": 1900000,
+        "fairValueHigh": 2200000,
+        "verdict": "Overpriced",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:32:34.542Z",
-        "priceText": "EOI: ($2.3M-$2.5M) Closes Thurs 10 Dec at 12pm"
+        "generatedAt": "2026-11-23T13:50:09.168Z",
+        "priceText": "EOI: ($2.3M-$2.5M) Closes Thurs 10 Dec at 12pm",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -1735,7 +1763,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -1758,23 +1786,24 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "This four-bedroom, three-bathroom home in St Georges is offered via private treaty between $2,250,000 and $2,475,000. It provides solid family accommodation near the target school zones. Financing costs should be weighed carefully, as land size details are not provided.",
+        "summary": "This St Georges home features four bedrooms, three bathrooms, and two car spaces. The asking range of $2,250,000 to $2,475,000 sits modestly above the suburb's stable median price of roughly $2,040,000 to $2,075,000 seen between 2023 and 2026. While the extra bedroom and bathroom configuration commands a premium, buyers must weigh this against 6.2% mortgage rates.",
         "pros": [
-          "Four bedrooms and three bathrooms provide ample space",
-          "Private treaty sale allows direct negotiation",
-          "Explicit price range provided by vendor"
+          "Spacious four-bedroom and three-bathroom accommodation",
+          "Located in stable higher-median suburb",
+          "Advertised with a transparent price range"
         ],
         "cons": [
-          "Land size is not disclosed",
-          "Only two car spaces provided",
-          "High cash rate of 4.85% increases repayment burden"
+          "Asking range sits above suburb median",
+          "Land size is not specified",
+          "High interest rate environment pressures serviceability"
         ],
-        "fairValueLow": 2200000,
-        "fairValueHigh": 2475000,
+        "fairValueLow": 2100000,
+        "fairValueHigh": 2350000,
         "verdict": "Fair",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:32:34.542Z",
-        "priceText": "$2,250,000-$2,475,000"
+        "generatedAt": "2026-11-23T13:50:09.168Z",
+        "priceText": "$2,250,000-$2,475,000",
+        "inputVersion": 2
       },
       "imported": true,
       "alsoAt": [
@@ -1808,7 +1837,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -1831,23 +1860,24 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "This Frewville house provides four bedrooms, two bathrooms, and two car spaces with a price guide of $1,800,000 to $1,900,000. No land size, interior features, or suburb historical trends are provided in the listing. At the current 6.2% mortgage rate, this represents a substantial borrowing commitment for a family.",
+        "summary": "This four-bedroom, two-bathroom house is guided between $1,800,000 and $1,900,000 via private treaty. The guide sits between Frewville's 2025 median of $1,640,000 and the low-volume 2026 median of $2,052,500. Given high mortgage rates of 6.2%, cautious valuation is warranted as land size is unspecified.",
         "pros": [
-          "Four bedrooms accommodate family living",
-          "Two parking spaces provided",
-          "Clear private treaty asking price range"
+          "Family-sized 4-bedroom, 2-bathroom layout",
+          "Located in close-in eastern suburb of Frewville",
+          "Asking price sits below the 2026 suburb median"
         ],
         "cons": [
-          "Land size is not disclosed",
-          "No listing description or features provided",
-          "Substantial borrowing costs at 6.2% mortgage rate"
+          "Land size is not disclosed in the listing",
+          "Frewville annual sales volume is historically very low",
+          "High 6.2% mortgage rates elevate servicing costs"
         ],
         "fairValueLow": 1750000,
         "fairValueHigh": 1950000,
         "verdict": "Fair",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:32:34.542Z",
-        "priceText": "$1,800,000 - $1,900,000"
+        "generatedAt": "2026-11-23T13:50:09.168Z",
+        "priceText": "$1,800,000 - $1,900,000",
+        "inputVersion": 2
       },
       "imported": true,
       "alsoAt": [
@@ -1881,7 +1911,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -1904,22 +1934,23 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "This Glen Osmond property is asking $2,750,000 for a four-bedroom, two-bathroom configuration with two parking spaces. The listing lacks any land measurement, property description, or feature list to substantiate this top-tier asking price. In a 6.2% interest rate environment, this price requires significant capital without clear evidence of value.",
+        "summary": "The property is offered at a fixed asking price of $2,750,000 for a four-bedroom, two-bathroom dwelling. This asking figure sits significantly above Glen Osmond's 2026 median of $2,107,500 and 2025 median of $1,614,500. Without land size or premium features disclosed, the substantial price premium appears difficult to justify.",
         "pros": [
-          "Offers four bedrooms and two bathrooms",
-          "Includes two dedicated car spaces"
+          "Generous 4-bedroom, 2-bathroom accommodation",
+          "Two dedicated car spaces provided"
         ],
         "cons": [
-          "High asking price of $2,750,000",
-          "Land size is completely omitted",
-          "No features or description provided to justify price"
+          "Asking price is significantly above Glen Osmond's median",
+          "Land size is unspecified in the listing",
+          "High borrowing costs make premium pricing risky"
         ],
-        "fairValueLow": 2300000,
-        "fairValueHigh": 2700000,
+        "fairValueLow": 2000000,
+        "fairValueHigh": 2250000,
         "verdict": "Overpriced",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:32:34.542Z",
-        "priceText": "$2,750,000"
+        "generatedAt": "2026-11-23T13:50:09.168Z",
+        "priceText": "$2,750,000",
+        "inputVersion": 2
       },
       "imported": true,
       "alsoAt": [
@@ -1953,7 +1984,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -1976,22 +2007,24 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "The asking price is not disclosed for this four-bedroom Beaumont home being sold via auction. Because no price guide, land dimensions, or property features are provided, fair value must be estimated broadly against comparable listings. Auction conditions also require unconditional commitments, increasing risk under prevailing 6.2% mortgage rates.",
+        "summary": "This four-bedroom, two-bathroom home is scheduled for auction, meaning no asking price is disclosed. Beaumont's median price has steadily increased to $1,885,000 in 2026 across 28 recorded sales. Without stated pricing or land dimensions, prospective buyers should estimate a wide fair-value band.",
         "pros": [
-          "Four-bedroom, two-bathroom layout suits family needs",
-          "Includes two parking spaces"
+          "Four-bedroom, two-bathroom family configuration",
+          "Located in prime eastern suburb Beaumont",
+          "Double car parking included"
         ],
         "cons": [
-          "Price is not disclosed by agent",
-          "Auction sale method limits conditional finance clauses",
-          "Land size and property features are missing"
+          "Price is not disclosed ahead of auction",
+          "Land size is not provided in listing",
+          "Auction conditions require unconditional finance approval"
         ],
-        "fairValueLow": 1400000,
-        "fairValueHigh": 1900000,
+        "fairValueLow": 1700000,
+        "fairValueHigh": 2000000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:32:34.542Z",
-        "priceText": "Auction Sat 28 Nov"
+        "generatedAt": "2026-11-23T13:50:09.168Z",
+        "priceText": "Auction Sat 28 Nov",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -2021,7 +2054,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -2044,23 +2077,23 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "Situated directly in Linden Park, this four-bedroom, two-bathroom home offers three car spaces at an asking range of $1,425,000 to $1,485,000. It presents the lowest entry price among the listed four-bedroom houses, making it budget-friendly for the school zone. However, land area and feature details are omitted and need physical confirmation.",
+        "summary": "Located directly in Linden Park, this 4-bedroom, 2-bathroom house with 3 parking spaces is priced between $1,425,000 and $1,485,000. This guide is well below the suburb's 2025 median of $1,635,000 and 2026 median of $1,950,000. It presents an attractive entry point into the target school catchment despite unstated land size.",
         "pros": [
-          "Located directly in Linden Park",
-          "Lowest asking price among listed four-bedroom homes",
-          "Three car parking spaces available",
-          "Four bedrooms suitable for families"
+          "Directly located in desirable Linden Park",
+          "Priced substantially below recent suburb median prices",
+          "Practical layout with four bedrooms and three parking spaces"
         ],
         "cons": [
-          "Land size is not disclosed",
-          "No property features or description supplied"
+          "Land size is omitted from the listing",
+          "Prevailing 6.2% mortgage rates limit borrowing capacity"
         ],
-        "fairValueLow": 1400000,
-        "fairValueHigh": 1550000,
+        "fairValueLow": 1600000,
+        "fairValueHigh": 1850000,
         "verdict": "Strong value",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:32:34.542Z",
-        "priceText": "$1,425,000 - $1,485,000"
+        "generatedAt": "2026-11-23T13:50:09.168Z",
+        "priceText": "$1,425,000 - $1,485,000",
+        "inputVersion": 2
       },
       "imported": true,
       "alsoAt": [
@@ -2094,7 +2127,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -2117,22 +2150,23 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "This Beaumont house offers four bedrooms, three bathrooms, and three parking spaces with an asking range of $1,600,000 to $1,700,000. The additional bathroom and third car space provide practical utility for a growing family compared to standard two-bath layouts. Key data such as land area and specific fixtures are missing from the listing.",
+        "summary": "Featuring four bedrooms, three bathrooms, and three car spaces, this Beaumont property is guided at $1,600,000 to $1,700,000. The asking price is positioned below Beaumont's 2025 median of $1,762,500 and 2026 median of $1,885,000. The additional bathroom and parking spaces offer practical appeal for a family under current macro pressures.",
         "pros": [
-          "Three bathrooms provide strong family utility",
-          "Accommodates three vehicles",
-          "Priced below other premium eastern suburb listings"
+          "Priced below Beaumont 2025 and 2026 medians",
+          "Generous three bathrooms and three car spaces",
+          "Four-bedroom layout well suited to families"
         ],
         "cons": [
-          "Land size is not specified",
-          "No feature details or condition notes provided"
+          "Land size is not disclosed",
+          "Current 6.2% mortgage rates impact borrowing"
         ],
-        "fairValueLow": 1550000,
-        "fairValueHigh": 1750000,
-        "verdict": "Worth inspecting",
+        "fairValueLow": 1750000,
+        "fairValueHigh": 1900000,
+        "verdict": "Strong value",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:32:34.542Z",
-        "priceText": "$1.6M — $1.7M"
+        "generatedAt": "2026-11-23T13:50:09.168Z",
+        "priceText": "$1.6M — $1.7M",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -2160,7 +2194,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -2183,23 +2217,25 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "This Frewville property offers a functional four-bedroom, three-bathroom configuration with two parking spaces. The asking price is explicitly guided between $1,399,000 and $1,488,000, although no land size or suburb trend data is provided. Given the high 6.2% mortgage rate environment, buyers should verify the allotment size to assess its true value.",
+        "summary": "This four-bedroom, three-bathroom home in Frewville has an asking guide of $1,399,000 to $1,488,000. The pricing sits well below Frewville's recent median prices of $1.64M in 2025 and $2.05M in 2026, though suburb transaction volumes are historically low. Without land size details provided, the property appears competitively priced relative to local sales benchmarks.",
         "pros": [
-          "Four bedrooms and three bathrooms",
-          "Transparent asking price guide provided",
-          "Two-car accommodation"
+          "Price guide sits below recent suburb medians",
+          "Four bedrooms and three bathrooms for families",
+          "Two dedicated car parking spaces",
+          "New listing with no prior price changes"
         ],
         "cons": [
           "Land size is not disclosed",
-          "No suburb median trend data provided",
-          "Mortgage rate pressure at 6.2 percent"
+          "Low suburb transaction volume skews median data",
+          "High mortgage rate of 6.2% impacts affordability"
         ],
-        "fairValueLow": 1350000,
-        "fairValueHigh": 1500000,
-        "verdict": "Fair",
+        "fairValueLow": 1400000,
+        "fairValueHigh": 1650000,
+        "verdict": "Strong value",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:32:34.542Z",
-        "priceText": "$1,399,000 - $1,488,000"
+        "generatedAt": "2026-11-23T13:50:09.168Z",
+        "priceText": "$1,399,000 - $1,488,000",
+        "inputVersion": 2
       },
       "imported": true,
       "alsoAt": [
@@ -2233,7 +2269,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -2256,23 +2292,24 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "This Glenside house provides five bedrooms and three bathrooms, catering well to larger families. The asking price is undisclosed, requiring buyers to contact the agent for pricing expectations. Because land dimensions and suburb trend figures are missing, a broad valuation range must be applied.",
+        "summary": "The price is not disclosed for this five-bedroom, three-bathroom house in Glenside. Glenside's median price has steadily climbed from $1.54M in 2023 to over $2.02M in 2026 across moderate sales volumes. Because pricing and land area are withheld, fair value is estimated broadly based on bedroom count and recent suburb trends.",
         "pros": [
-          "Generous five-bedroom family layout",
-          "Three bathrooms accommodate a large family",
-          "Two-car parking capacity"
+          "Five bedrooms accommodate larger families comfortably",
+          "Three bathrooms reduce morning family congestion",
+          "Strong upward median price trend in Glenside"
         ],
         "cons": [
-          "Price is not disclosed",
-          "Land area is not provided",
-          "No historical suburb price trend available"
+          "Price is not disclosed by the agent",
+          "Land size is not specified in listing",
+          "High 6.2% borrowing costs reduce purchasing power"
         ],
-        "fairValueLow": 1400000,
-        "fairValueHigh": 2000000,
+        "fairValueLow": 1800000,
+        "fairValueHigh": 2200000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:32:34.542Z",
-        "priceText": "Contact Agent"
+        "generatedAt": "2026-11-23T13:50:09.168Z",
+        "priceText": "Contact Agent",
+        "inputVersion": 2
       },
       "imported": true,
       "alsoAt": [
@@ -2306,7 +2343,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -2329,23 +2366,24 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "Located in Beaumont, this home features four bedrooms, three bathrooms, and two car spaces. The price is not disclosed, and neither the land size nor historical suburb trend data is available. Due to these missing metrics, fair value must be viewed across a wider spectrum.",
+        "summary": "The asking price is not disclosed for this four-bedroom, three-bathroom house in Beaumont. Beaumont has demonstrated reliable turnover with medians rising to $1.885M in 2026 from $1.76M in 2025. Given the lack of price transparency and missing land dimensions, fair value is pegged across a wider band around the suburb median.",
         "pros": [
-          "Four bedrooms and three bathrooms",
-          "Two designated parking spaces",
-          "Brand new listing with zero days on market"
+          "Four bedrooms and three bathrooms suit families",
+          "Two allocated car spaces included",
+          "High sales volumes support Beaumont price data"
         ],
         "cons": [
-          "Price not disclosed by agent",
-          "Land size is omitted",
-          "No suburb price trends supplied"
+          "Asking price is not disclosed",
+          "Undisclosed land size prevents rate evaluation",
+          "Macro environment reflects high 4.85% cash rate"
         ],
-        "fairValueLow": 1350000,
-        "fairValueHigh": 1900000,
+        "fairValueLow": 1700000,
+        "fairValueHigh": 2000000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:32:34.542Z",
-        "priceText": "Contact Agent"
+        "generatedAt": "2026-11-23T13:50:09.168Z",
+        "priceText": "Contact Agent",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -2373,7 +2411,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -2396,23 +2434,24 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "This Beaumont house provides substantial capacity with five bedrooms, three bathrooms, and five parking spaces. The asking price is withheld, meaning direct inquiry with the agent is necessary to establish expectations. With no land size or suburb median trends provided, valuation parameters remain wide.",
+        "summary": "Price is not disclosed for this five-bedroom, three-bathroom home in Beaumont. The property provides exceptional vehicle capacity with five car spaces, which adds utility for growing households. In the absence of an advertised price or land area, fair value is set broadly against Beaumont's 2026 median of $1.885M.",
         "pros": [
-          "Five bedrooms accommodate large family living",
-          "Three full bathrooms",
-          "Exceptional five-car parking capacity"
+          "Five bedrooms offer generous family accommodation",
+          "Outstanding five-car parking capacity",
+          "Three bathrooms provide ample family convenience"
         ],
         "cons": [
-          "Price is withheld",
-          "Land measurement is missing",
-          "No suburb trend data available"
+          "Price is withheld by the agent",
+          "Land size is omitted from details",
+          "Elevated mortgage rates constrain borrowing capacity"
         ],
-        "fairValueLow": 1500000,
-        "fairValueHigh": 2200000,
+        "fairValueLow": 1800000,
+        "fairValueHigh": 2250000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:32:34.542Z",
-        "priceText": "CONTACT AGENT"
+        "generatedAt": "2026-11-23T13:50:09.168Z",
+        "priceText": "CONTACT AGENT",
+        "inputVersion": 2
       },
       "imported": true,
       "alsoAt": [
@@ -2446,7 +2485,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -2469,23 +2508,24 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "This St Georges home features four bedrooms, two bathrooms, and four car spaces, seeking offers around $1,800,000. Land size details are not provided in the listing facts, and suburb trend data is not available. In the current 6.2% mortgage rate environment, the $1.8m price point represents a substantial financial commitment.",
+        "summary": "This four-bedroom, two-bathroom residence in St Georges is advertised with a best offer guide of $1,800,000. This asking level sits beneath the suburb's stable median of roughly $2.04M to $2.07M observed from 2023 to 2026. While land size is not provided, the four-car parking capacity and competitive entry price represent solid positioning.",
         "pros": [
-          "Clear best offer price guide of $1,800,000",
-          "Four-car accommodation capacity",
-          "Four bedrooms for family living"
+          "Asking price is lower than suburb median",
+          "Generous parking for up to four cars",
+          "Four bedrooms suit a standard family household"
         ],
         "cons": [
           "Only two bathrooms for four bedrooms",
           "Land size is not disclosed",
-          "High interest rate increases holding costs"
+          "Current 6.2% interest rates limit debt serviceability"
         ],
-        "fairValueLow": 1650000,
-        "fairValueHigh": 1850000,
-        "verdict": "Fair",
+        "fairValueLow": 1800000,
+        "fairValueHigh": 2100000,
+        "verdict": "Strong value",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:32:34.542Z",
-        "priceText": "Best Offer 1.8m"
+        "generatedAt": "2026-11-23T13:50:09.168Z",
+        "priceText": "Best Offer 1.8m",
+        "inputVersion": 2
       },
       "imported": true,
       "alsoAt": [
@@ -2519,7 +2559,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -2542,24 +2582,24 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "The asking price is not disclosed and is offered via Expression of Interest, requiring buyers to navigate unguided price expectations. Located directly in Glenunga, the home offers a substantial five-bedroom, three-bathroom configuration with extensive parking for family buyers. Without disclosed land size or historical suburb trends, the fair value is estimated broadly based on the home's size in a high-interest-rate environment.",
+        "summary": "This Glenunga property provides generous accommodation with five bedrooms, three bathrooms, and extensive six-car parking. The asking price is not disclosed, requiring buyers to negotiate via an Expression of Interest campaign. Based on Glenunga's rising median prices reaching $2,271,111 in 2026, its fair value is estimated across a broad upper-tier range.",
         "pros": [
-          "Located directly in target suburb Glenunga",
-          "Generous 5-bedroom and 3-bathroom layout",
-          "Ample parking with space for 6 cars"
+          "Substantial five-bedroom and three-bathroom family layout",
+          "Exceptional six-vehicle parking capacity",
+          "Glenunga median prices show strong upward trajectory"
         ],
         "cons": [
-          "Price is not disclosed",
-          "Land size is unspecified in listing facts",
-          "Expression of Interest method creates pricing uncertainty",
-          "Current mortgage rates sit at 6.2%"
+          "Asking price is not disclosed by the vendor",
+          "Land size is not provided in listing facts",
+          "Prevailing 6.2% mortgage rate increases borrowing costs"
         ],
-        "fairValueLow": 1500000,
-        "fairValueHigh": 2800000,
+        "fairValueLow": 1900000,
+        "fairValueHigh": 2500000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:32:34.542Z",
-        "priceText": "Expression Of Interest"
+        "generatedAt": "2026-11-23T13:50:09.168Z",
+        "priceText": "Expression Of Interest",
+        "inputVersion": 2
       },
       "imported": true,
       "alsoAt": [
@@ -2595,7 +2635,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -2618,23 +2658,24 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "This property is situated directly in Linden Park with four bedrooms and two bathrooms, making it functionally suitable for school-focused family living. However, the home is already marked as Under Contract and the final sale price is not disclosed. Without land details or suburb median trends provided, fair value is framed across a wide baseline range should the contract fail.",
+        "summary": "Offering four bedrooms and two bathrooms, this Linden Park home matches key family living requirements. However, the listing indicates it is already under contract and the price is not disclosed. Considering Linden Park's median rose to $1,950,000 in 2026, fair value sits broadly around prevailing suburb benchmarks.",
         "pros": [
-          "Situated directly in target suburb Linden Park",
-          "Functional 4-bedroom, 2-bathroom layout",
-          "Secure two-car parking provision"
+          "Desirable four-bedroom, two-bathroom family configuration",
+          "Located in Linden Park with strong median price growth",
+          "Two-car accommodation fits family vehicle needs"
         ],
         "cons": [
-          "Currently listed as under contract",
+          "Listing is already marked under contract",
           "Price is not disclosed",
-          "Land size data is missing from listing"
+          "Land area details are not supplied"
         ],
-        "fairValueLow": 1300000,
-        "fairValueHigh": 2400000,
+        "fairValueLow": 1650000,
+        "fairValueHigh": 2050000,
         "verdict": "Fair",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:32:34.542Z",
-        "priceText": "Under Contract"
+        "generatedAt": "2026-11-23T13:50:09.168Z",
+        "priceText": "Under Contract",
+        "inputVersion": 2
       },
       "imported": true,
       "alsoAt": [
@@ -2668,7 +2709,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -2691,23 +2732,24 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "The asking price is withheld under a 'Contact Agent' campaign, leaving pricing open to speculation. Situated in Beaumont, it provides an expansive five-bedroom, four-bathroom accommodation ideal for large families seeking eastern suburbs schooling access. Due to the lack of disclosed land dimensions and median data, a wide fair value estimate is applied.",
+        "summary": "This Beaumont house features a spacious five-bedroom, four-bathroom floorplan suitable for growing or multi-generational households. Pricing is not disclosed, with buyers directed to contact the agent. Beaumont's median price stands at $1,885,000 for 2026, placing this high-capacity home in a wide, premium value band.",
         "pros": [
-          "Expansive 5-bedroom and 4-bathroom accommodation",
-          "Close proximity to Linden Park and Glenunga",
-          "Offers two dedicated vehicle parking spaces"
+          "Large accommodation with five bedrooms and four bathrooms",
+          "Provides two off-street car parking spaces",
+          "Beaumont suburb median demonstrates steady long-term appreciation"
         ],
         "cons": [
-          "Price is undisclosed by the agent",
-          "Land size is not stated",
-          "High 6.2% mortgage rates constrain borrowing capacity"
+          "Asking price is undisclosed by the agent",
+          "Land size is omitted from listing details",
+          "High interest rate climate of 6.2% constrains borrowing"
         ],
-        "fairValueLow": 1400000,
-        "fairValueHigh": 2600000,
+        "fairValueLow": 1800000,
+        "fairValueHigh": 2350000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:32:34.542Z",
-        "priceText": "Contact Agent"
+        "generatedAt": "2026-11-23T13:50:09.168Z",
+        "priceText": "Contact Agent",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -2735,7 +2777,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -2758,23 +2800,24 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "Offered via a Best Offer campaign, the property does not disclose an asking price or price guide. The four-bedroom, two-bathroom house sits in Frewville, just adjacent to Glenunga, offering straightforward access to key local school zones. Lacking land area and suburb trend metrics, fair value is kept conservatively wide against the broader macroeconomic backdrop.",
+        "summary": "This four-bedroom, two-bathroom Frewville home offers practical family scale and two parking spaces. The sale is being handled by best offer deadline with no price guide disclosed. While Frewville sales volumes are thin, the suburb median reached $2,052,500 in 2026, establishing a wide estimated valuation.",
         "pros": [
-          "Located in Frewville adjacent to Glenunga",
-          "Practical 4-bedroom, 2-bathroom family layout",
-          "Double car parking space included"
+          "Balanced four-bedroom, two-bathroom family configuration",
+          "Includes two off-street parking spots",
+          "Frewville median prices have trended significantly higher"
         ],
         "cons": [
-          "Asking price is not disclosed",
-          "Land area is not provided",
-          "Fixed deadline restricts protracted negotiation"
+          "No price guide disclosed ahead of deadline",
+          "Land measurement is not stated",
+          "Low annual sales volume in Frewville creates volatility"
         ],
-        "fairValueLow": 1200000,
-        "fairValueHigh": 2200000,
+        "fairValueLow": 1650000,
+        "fairValueHigh": 2150000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:32:34.542Z",
-        "priceText": "BEST OFFER BY TUESDAY 8TH DECEMBER AT 2:00PM (USP)"
+        "generatedAt": "2026-11-23T13:50:09.168Z",
+        "priceText": "BEST OFFER BY TUESDAY 8TH DECEMBER AT 2:00PM (USP)",
+        "inputVersion": 2
       },
       "imported": true,
       "alsoAt": [
@@ -2808,7 +2851,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -2831,23 +2874,24 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "This five-bedroom, three-bathroom home in Glen Osmond offers generous accommodation for family living within the school zones. The asking price is clearly guided between $1,500,000 and $1,590,000, although land size and feature details are omitted. In the current 6.2% mortgage rate environment, it presents a practical option for larger households.",
+        "summary": "This five-bedroom, three-bathroom home in Glen Osmond features a transparent asking range of $1,500,000 to $1,590,000. With Glen Osmond's median climbing from $1,614,500 in 2025 to $2,107,500 in 2026, this large house is priced very competitively. It represents notable relative value given current suburb price benchmarks.",
         "pros": [
-          "Five bedrooms ideal for growing families",
-          "Three bathrooms provide ample convenience",
-          "Secure double parking space included"
+          "Clearly disclosed price guide of $1,500,000 - $1,590,000",
+          "Priced well below the 2026 Glen Osmond median",
+          "Generous five-bedroom, three-bathroom layout for families"
         ],
         "cons": [
-          "Block size is not disclosed",
-          "Interior condition and features are unspecified",
-          "Higher interest rates elevate repayment costs"
+          "Land dimensions are not specified in listing",
+          "Only two car spaces for a large five-bedroom home",
+          "Current 6.2% mortgage rates still limit buyer leverage"
         ],
-        "fairValueLow": 1450000,
-        "fairValueHigh": 1600000,
-        "verdict": "Fair",
+        "fairValueLow": 1650000,
+        "fairValueHigh": 2050000,
+        "verdict": "Strong value",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:45:38.941Z",
-        "priceText": "$1,500,000 - $1,590,000"
+        "generatedAt": "2026-11-23T13:50:09.168Z",
+        "priceText": "$1,500,000 - $1,590,000",
+        "inputVersion": 2
       },
       "imported": true,
       "alsoAt": [
@@ -2881,7 +2925,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -2954,7 +2998,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3027,7 +3071,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3100,7 +3144,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3167,7 +3211,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3235,7 +3279,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3303,7 +3347,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3371,7 +3415,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3438,7 +3482,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3505,7 +3549,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3572,7 +3616,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3640,7 +3684,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3707,7 +3751,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3774,7 +3818,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3841,7 +3885,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3908,7 +3952,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3975,7 +4019,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4042,7 +4086,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4109,7 +4153,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4176,7 +4220,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4245,7 +4289,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4314,7 +4358,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4383,7 +4427,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4450,7 +4494,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4517,7 +4561,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4585,7 +4629,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4652,7 +4696,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4719,7 +4763,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4786,7 +4830,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4852,7 +4896,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4919,7 +4963,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4986,7 +5030,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5053,7 +5097,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5120,7 +5164,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5187,7 +5231,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5254,7 +5298,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5323,7 +5367,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5392,7 +5436,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5461,7 +5505,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5529,7 +5573,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5598,7 +5642,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5668,7 +5712,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5737,7 +5781,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5806,7 +5850,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5875,7 +5919,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5945,7 +5989,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6014,7 +6058,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6083,7 +6127,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6151,7 +6195,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6219,7 +6263,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6287,7 +6331,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6356,7 +6400,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6424,7 +6468,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6493,7 +6537,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6561,7 +6605,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6630,7 +6674,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6699,7 +6743,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6768,7 +6812,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6837,7 +6881,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6906,7 +6950,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6975,7 +7019,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -7044,7 +7088,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -7113,7 +7157,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -7183,7 +7227,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 0,
+      "daysOnMarket": 1,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {

@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-11-23T13:13:46.340Z",
+  "generatedAt": "2026-11-23T13:50:09.168Z",
   "model": "gemini-flash-latest",
-  "headline": "High borrowing costs and economic headwinds meet resilient eastern suburbs pricing amid heightened uncertainty",
-  "outlook": "Adelaide's prestigious eastern suburbs continue to display substantial price resilience, with 2026 median values reaching approximately $1.89M in Beaumont, $1.95M in Linden Park, $2.06M in St Georges, $2.27M in Glenunga, and $2.92M in Toorak Gardens, alongside some fluctuations such as Tusmore moderating to $2.05M. However, these figures are drawn from low transaction volumes—ranging between 8 and 28 sales across three quarters of 2026—which increases statistical volatility. Simultaneously, the broader economy faces mounting strain: the RBA cash rate has climbed steadily to 4.85%, prevailing mortgage rates stand at 6.2%, annual CPI remains elevated at 3.9%, and official forecasts project unemployment rising past 5%. With simple cash rate models indicating a wide potential band between 3.41% and 5.83% over the next four quarters and headlines warning of slowing growth and recession risks, future price trajectories in these tightly held pockets remain genuinely uncertain.",
-  "timing": "For a family seeking a long-term home, purchasing should be dictated by borrowing prudence and household stability rather than attempting to predict price cycles. With mortgage rates at 6.2% and the cash rate projected to hold near 4.8% through late 2027 (with significant upside and downside forecast bands), buyers must ensure their finances can withstand persistent rate pressure and potential broader economic softness. Current stock is relatively constrained with 104 active listings and minimal auction activity, meaning securing a home that satisfies school zones and family requirements requires patience. If an appropriate property emerges within an affordable, stress-tested budget, proceeding is reasonable, but relying on imminent rate cuts or short-term capital appreciation carries clear financial risk.",
+  "headline": "Elevated borrowing rates and slowing growth test premium Adelaide eastern suburb resilience",
+  "outlook": "Purchasing in Adelaide's eastern suburbs presents a complex picture of sustained local demand set against mounting macroeconomic pressure. Within Linden Park, Glenunga, Toorak Gardens, and Beaumont, 2026 median prices have remained elevated—reaching $1,950,000 in Linden Park, $2,271,111 in Glenunga, and $2,920,000 in Toorak Gardens—while Tusmore has shown some pullback to $2,050,000. On the ground, conditions remain tight with 104 active listings, zero reported price cuts, and a median time on market of just 1 day. However, significant macro headwinds are building: the RBA cash rate sits at 4.85% following successive increases, average mortgage rates stand at 6.2%, headline inflation remains high at 3.9%, and unemployment is rising towards Treasury projections above 5%. Because sales volumes in these premium pockets are relatively thin (ranging from just 8 sales in Tusmore to 28 in Beaumont across three quarters of 2026), medians can be volatile, and future price trajectories remain fundamentally uncertain in an economy facing slower growth and higher borrowing costs.",
+  "timing": "For a family purchasing a long-term home, attempting to precisely time market cycles in these tightly held suburbs is not advisable given that the cash rate forecast for late 2027 ranges between 3.41% and 5.83%. If your household has substantial financial buffers and finds a property meeting your family's multi-year living requirements, moving forward is reasonable, provided you stress-test your finances against mortgage rates well above the current 6.2% level. Conversely, if your borrowing capacity is tightly stretched or your household income is sensitive to broader economic contraction, a patient approach may be safer while unemployment approaches 5% and RBA monetary policy works through household balance sheets. Waiting allows you to observe whether restrictive policy eventually introduces price negotiation opportunities, which currently do not appear in listing data.",
   "risks": [
-    "Elevated mortgage servicing burdens with average rates at 6.2% following cash rate increases to 4.85%",
-    "Macroeconomic contraction and labor market deterioration, with unemployment forecast to surpass 5.0%",
-    "Substantial interest rate uncertainty, reflected in cash rate forecast ranges extending as high as 5.83% in 2027",
-    "Thin transaction liquidity across premium suburbs (e.g. only 8 sales recorded in Tusmore in 2026 to date), which can exacerbate price volatility"
+    "High debt-servicing costs with the RBA cash rate at 4.85% and mortgage rates averaging 6.2%, squeezing family borrowing capacity.",
+    "Macroeconomic slowdown and rising unemployment, which Treasury projects will exceed 5%.",
+    "Substantial interest rate uncertainty, with model forecast intervals spanning between 3.41% and 5.83% by September 2027.",
+    "Thin transaction counts across these suburbs (e.g., 8 sales in Tusmore and 12 in Toorak Gardens in 2026), which heightens localized valuation volatility."
   ],
   "watch": [
-    "RBA cash rate determinations and shift in monetary policy stance from the current 4.85% level",
-    "Treasury releases regarding unemployment numbers and broader GDP revisions",
-    "Quarterly sales volumes and median price stability across Linden Park, Glenunga, and surrounding pockets",
-    "Inflation trajectory relative to the current 3.9% CPI mark and 4-quarter forecast of 3.36%"
+    "RBA cash rate announcements and commentary regarding inflation persistence or potential easing from 4.85%.",
+    "Local listing dynamics across the eastern suburbs, specifically any rise from zero price reductions or lengthening days on market.",
+    "Unemployment rate reports to assess whether joblessness exceeds the 5% threshold as warned by Treasury.",
+    "Progress of year-ended CPI towards the 3.36% four-quarter forecast from its current 3.9% level."
   ],
   "disclaimer": "Not financial advice."
 }
