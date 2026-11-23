@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T13:05:14.004Z",
+  "generatedAt": "2026-11-23T13:13:46.340Z",
   "source": "alerts",
   "listings": [
     {
@@ -23,7 +23,7 @@
       "saleMethod": "privateTreaty",
       "auctionDate": null,
       "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/dff0bcaec405503547da7ee4608a22eb6b7a9820c11d2d84b3dde7ffb434f608/main.jpg"
+        "https://rimh2.domainstatic.com.au/vJPYm0W71CMT2BbY7rnFVhCyOuY=/720x540/filters:format(webp):quality(85)/2020910852_24_3_260611_082710-w900-h1508"
       ],
       "description": "",
       "features": [],
@@ -69,7 +69,13 @@
         "generatedAt": "2026-11-23T12:32:34.542Z",
         "priceText": "$1,998,888"
       },
-      "imported": true
+      "imported": true,
+      "alsoAt": [
+        {
+          "origin": "domain",
+          "url": "https://www.domain.com.au/11-sunnyside-rd-st-georges-sa-5064-2020910852"
+        }
+      ]
     },
     {
       "id": "rea-121040341",
@@ -91,9 +97,7 @@
       "priceHigh": 1250000,
       "saleMethod": "privateTreaty",
       "auctionDate": null,
-      "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/7f1c3436652abb0f168fa65bff93570636d2c8f35b1757e866b6546ec1a45d33/main.jpg"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -159,9 +163,7 @@
       "priceHigh": null,
       "saleMethod": null,
       "auctionDate": null,
-      "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/44d608c72d8695cfb44068991c845443e8ceceb2d2c655cd027aac6507bf5e6e/main.jpg"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -227,9 +229,7 @@
       "priceHigh": 2090000,
       "saleMethod": "privateTreaty",
       "auctionDate": null,
-      "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/6bd612b9d630eca54318c21c9549f9b06a0d2bbe2137cbe479ffb3a41e57ffc7/main.jpg"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -274,7 +274,13 @@
         "generatedAt": "2026-11-23T12:32:34.542Z",
         "priceText": "$1,900,000 -$2,090,000"
       },
-      "imported": true
+      "imported": true,
+      "alsoAt": [
+        {
+          "origin": "domain",
+          "url": "https://www.domain.com.au/528-portrush-road-st-georges-sa-5064-2021221626"
+        }
+      ]
     },
     {
       "id": "rea-152518672",
@@ -296,9 +302,7 @@
       "priceHigh": 1700000,
       "saleMethod": "privateTreaty",
       "auctionDate": null,
-      "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/c6b7c48f1fbe4fb3e8c1dd35cd8beef75eec05752c6a131612d9f4f9d088283d/main.jpg"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -343,7 +347,13 @@
         "generatedAt": "2026-11-23T12:32:34.542Z",
         "priceText": "$1,700,000"
       },
-      "imported": true
+      "imported": true,
+      "alsoAt": [
+        {
+          "origin": "domain",
+          "url": "https://www.domain.com.au/58a-hay-road-linden-park-sa-5065-2021219652"
+        }
+      ]
     },
     {
       "id": "rea-152715572",
@@ -365,9 +375,7 @@
       "priceHigh": 1750000,
       "saleMethod": "privateTreaty",
       "auctionDate": null,
-      "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/fafb397505e27a44095be9e01bf5fe4306d8579d8a5f77376e86cc9512bba642/main.jpg"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -412,7 +420,13 @@
         "generatedAt": "2026-11-23T12:32:34.542Z",
         "priceText": "Price Guide $1,600,000- $1,750,000"
       },
-      "imported": true
+      "imported": true,
+      "alsoAt": [
+        {
+          "origin": "domain",
+          "url": "https://www.domain.com.au/2a-kyle-street-glenside-sa-5065-2021266296"
+        }
+      ]
     },
     {
       "id": "rea-152868080",
@@ -434,9 +448,7 @@
       "priceHigh": null,
       "saleMethod": null,
       "auctionDate": null,
-      "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/6bd612b9d630eca54318c21c9549f9b06a0d2bbe2137cbe479ffb3a41e57ffc7/main.jpg"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -481,7 +493,13 @@
         "generatedAt": "2026-11-23T12:32:34.542Z",
         "priceText": "Contact Agent"
       },
-      "imported": true
+      "imported": true,
+      "alsoAt": [
+        {
+          "origin": "domain",
+          "url": "https://www.domain.com.au/1-fowlers-road-glenunga-sa-5064-2021308522"
+        }
+      ]
     },
     {
       "id": "rea-152688012",
@@ -503,9 +521,7 @@
       "priceHigh": 3550000,
       "saleMethod": "privateTreaty",
       "auctionDate": null,
-      "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/382093da41467b62b4208f7e431081fc1e641af10c306331a50e4d78b8e6bdde/main.jpg"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -550,7 +566,13 @@
         "generatedAt": "2026-11-23T12:32:34.542Z",
         "priceText": "$3,250,000.00 - $3,550,000.00"
       },
-      "imported": true
+      "imported": true,
+      "alsoAt": [
+        {
+          "origin": "domain",
+          "url": "https://www.domain.com.au/68-sydney-street-glenunga-sa-5064-2021264828"
+        }
+      ]
     },
     {
       "id": "rea-151008136",
@@ -572,9 +594,7 @@
       "priceHigh": 1590000,
       "saleMethod": "privateTreaty",
       "auctionDate": null,
-      "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/4fc0cde5d784e6b8d48b3901a74fbf5ef77ac561da0539ea78bceef0b85e218b/main.jpg"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -619,7 +639,13 @@
         "generatedAt": "2026-11-23T12:32:34.542Z",
         "priceText": "$1.55m - $1.59m"
       },
-      "imported": true
+      "imported": true,
+      "alsoAt": [
+        {
+          "origin": "domain",
+          "url": "https://www.domain.com.au/41-lomandra-avenue-glenside-sa-5065-2020791532"
+        }
+      ]
     },
     {
       "id": "rea-152862880",
@@ -641,9 +667,7 @@
       "priceHigh": null,
       "saleMethod": "eoi",
       "auctionDate": null,
-      "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/5f1e76a24e069c3286ae288d352885c981691ad58741d67c7363221f88cbdf37/main.jpg"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -710,9 +734,7 @@
       "priceHigh": null,
       "saleMethod": "eoi",
       "auctionDate": null,
-      "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/5f1e76a24e069c3286ae288d352885c981691ad58741d67c7363221f88cbdf37/main.jpg"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -780,9 +802,7 @@
       "priceHigh": null,
       "saleMethod": null,
       "auctionDate": null,
-      "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/8548ca49e20d3ed20d6bd6f96c0deb57d27e9bd658b3f1ff59537f5c62984e24/main.jpg"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -850,9 +870,7 @@
       "priceHigh": null,
       "saleMethod": null,
       "auctionDate": null,
-      "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/c6b7c48f1fbe4fb3e8c1dd35cd8beef75eec05752c6a131612d9f4f9d088283d/main.jpg"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -898,7 +916,13 @@
         "generatedAt": "2026-11-23T12:32:34.542Z",
         "priceText": "Best Offers By Mon 23rd Nov @ 3pm USP"
       },
-      "imported": true
+      "imported": true,
+      "alsoAt": [
+        {
+          "origin": "domain",
+          "url": "https://www.domain.com.au/31-beatty-street-linden-park-sa-5065-2021305633"
+        }
+      ]
     },
     {
       "id": "rea-152912512",
@@ -920,9 +944,7 @@
       "priceHigh": null,
       "saleMethod": null,
       "auctionDate": null,
-      "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/6794d938d6cf3a62399e26722d3fa7e7b8eb965016c1405747437696a6b2d59a/main.jpg"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -967,7 +989,13 @@
         "generatedAt": "2026-11-23T12:32:34.542Z",
         "priceText": "Contact Agent"
       },
-      "imported": true
+      "imported": true,
+      "alsoAt": [
+        {
+          "origin": "domain",
+          "url": "https://www.domain.com.au/19a-woodcroft-avenue-st-georges-sa-5064-2021320562"
+        }
+      ]
     },
     {
       "id": "rea-152694772",
@@ -989,9 +1017,7 @@
       "priceHigh": 2850000,
       "saleMethod": "privateTreaty",
       "auctionDate": null,
-      "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/6091715b39c1fa2d75b7950b4c31025856909ddf657724f5e2a73b03f5361f8c/main.jpg"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -1058,9 +1084,7 @@
       "priceHigh": null,
       "saleMethod": null,
       "auctionDate": null,
-      "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/937ce01039e5ca3a5dc807550db99273c0e4a82720fe55bd6942245edede3888/main.jpg"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -1105,7 +1129,13 @@
         "generatedAt": "2026-11-23T12:32:34.542Z",
         "priceText": "Contact Agent"
       },
-      "imported": true
+      "imported": true,
+      "alsoAt": [
+        {
+          "origin": "domain",
+          "url": "https://www.domain.com.au/26-wootoona-terrace-st-georges-sa-5064-2020618331"
+        }
+      ]
     },
     {
       "id": "rea-152904728",
@@ -1128,7 +1158,7 @@
       "saleMethod": null,
       "auctionDate": null,
       "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/4b6bdcc383067798c726991bacf0fb0475e30f66df15010bb24d0509a6d43e1b/main.jpg"
+        "https://rimh2.domainstatic.com.au/nF2MhRIeLeujYVRrw72F1b5GbXQ=/720x540/filters:format(webp):quality(85)/2021318417_18_3_261111_014653-w1932-h2576"
       ],
       "description": "",
       "features": [],
@@ -1174,7 +1204,13 @@
         "generatedAt": "2026-11-23T12:32:34.542Z",
         "priceText": "Best Offers By 7/12 (USP)"
       },
-      "imported": true
+      "imported": true,
+      "alsoAt": [
+        {
+          "origin": "domain",
+          "url": "https://www.domain.com.au/8-gilles-road-glen-osmond-sa-5064-2021318417"
+        }
+      ]
     },
     {
       "id": "rea-152908704",
@@ -1265,9 +1301,7 @@
       "priceHigh": null,
       "saleMethod": "auction",
       "auctionDate": null,
-      "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/c6b7c48f1fbe4fb3e8c1dd35cd8beef75eec05752c6a131612d9f4f9d088283d/main.jpg"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -1312,7 +1346,13 @@
         "generatedAt": "2026-11-23T12:32:34.542Z",
         "priceText": "Auction Fri 4 Dec"
       },
-      "imported": true
+      "imported": true,
+      "alsoAt": [
+        {
+          "origin": "domain",
+          "url": "https://www.domain.com.au/17-jellicoe-street-linden-park-sa-5065-2021343943"
+        }
+      ]
     },
     {
       "id": "rea-152991004",
@@ -1335,7 +1375,7 @@
       "saleMethod": null,
       "auctionDate": null,
       "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/2e89931807703652ab0d67638d7b8074fea71c5ac27411aa8e149187bbc3a1e7/main.jpg"
+        "https://rimh2.domainstatic.com.au/aK8K1tXGl85qVMyu-bW3T9otK5M=/720x540/filters:format(webp):quality(85)/2021343427_22_3_261119_052050-w2481-h3508"
       ],
       "description": "",
       "features": [],
@@ -1381,7 +1421,13 @@
         "generatedAt": "2026-11-23T12:32:34.542Z",
         "priceText": "Best Offer By Monday 7th December @ 2:00PM"
       },
-      "imported": true
+      "imported": true,
+      "alsoAt": [
+        {
+          "origin": "domain",
+          "url": "https://www.domain.com.au/22a-sherwood-terrace-glen-osmond-sa-5064-2021343427"
+        }
+      ]
     },
     {
       "id": "rea-152837632",
@@ -1403,9 +1449,7 @@
       "priceHigh": null,
       "saleMethod": null,
       "auctionDate": null,
-      "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/937ce01039e5ca3a5dc807550db99273c0e4a82720fe55bd6942245edede3888/main.jpg"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -1450,7 +1494,13 @@
         "generatedAt": "2026-11-23T12:32:34.542Z",
         "priceText": "Best offers By 24/11 @5pm (USP)"
       },
-      "imported": true
+      "imported": true,
+      "alsoAt": [
+        {
+          "origin": "domain",
+          "url": "https://www.domain.com.au/9-hay-road-linden-park-sa-5065-2021300222"
+        }
+      ]
     },
     {
       "id": "rea-152837580",
@@ -1472,9 +1522,7 @@
       "priceHigh": 1950000,
       "saleMethod": "privateTreaty",
       "auctionDate": null,
-      "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/fc0cac0b9368aa7247766c4f03eac1ba249be2b5fe8a86bf0fe2a5611cb0678d/main.jpg"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -1541,9 +1589,7 @@
       "priceHigh": null,
       "saleMethod": null,
       "auctionDate": null,
-      "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/a2750af920dd381d73c408137002c239c3f354ac7a71ceb0e597d0ac1e29ef62/main.jpg"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -1588,7 +1634,13 @@
         "generatedAt": "2026-11-23T12:32:34.542Z",
         "priceText": "Best Offers by Tue 8th Dec at 2PM (USP)"
       },
-      "imported": true
+      "imported": true,
+      "alsoAt": [
+        {
+          "origin": "domain",
+          "url": "https://www.domain.com.au/55-l-estrange-street-glenside-sa-5065-2021342588"
+        }
+      ]
     },
     {
       "id": "rea-152986352",
@@ -1610,9 +1662,7 @@
       "priceHigh": 2500000,
       "saleMethod": "eoi",
       "auctionDate": null,
-      "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/f5c3e78d09925017986b259adc0c8f601e28568cceef3dc43906d3f92cba5bdc/main.jpg"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -1680,7 +1730,7 @@
       "saleMethod": "privateTreaty",
       "auctionDate": null,
       "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/ae3c9120bf88d8f2d463ae7877cddd3207915c9ac60c770b4517d54607fa2781/main.jpg"
+        "https://rimh2.domainstatic.com.au/t9I0C6KAZnTWIsLLWNqJGVHbTBw=/720x540/filters:format(webp):quality(85)/2021337334_35_3_261118_010454-w2339-h3308"
       ],
       "description": "",
       "features": [],
@@ -1726,7 +1776,13 @@
         "generatedAt": "2026-11-23T12:32:34.542Z",
         "priceText": "$2,250,000-$2,475,000"
       },
-      "imported": true
+      "imported": true,
+      "alsoAt": [
+        {
+          "origin": "domain",
+          "url": "https://www.domain.com.au/21a-highfield-avenue-st-georges-sa-5064-2021337334"
+        }
+      ]
     },
     {
       "id": "rea-152246724",
@@ -1748,9 +1804,7 @@
       "priceHigh": 1900000,
       "saleMethod": "privateTreaty",
       "auctionDate": null,
-      "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/06e4206304f46a5095e2703b015e61cf6fa79cfe87a214d59fd4fdd35a4e106c/main.jpg"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -1795,7 +1849,13 @@
         "generatedAt": "2026-11-23T12:32:34.542Z",
         "priceText": "$1,800,000 - $1,900,000"
       },
-      "imported": true
+      "imported": true,
+      "alsoAt": [
+        {
+          "origin": "domain",
+          "url": "https://www.domain.com.au/10-carr-avenue-frewville-sa-5063-2021129020"
+        }
+      ]
     },
     {
       "id": "rea-152420228",
@@ -1817,9 +1877,7 @@
       "priceHigh": 2750000,
       "saleMethod": "privateTreaty",
       "auctionDate": null,
-      "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/87fed3ad050390901758d48c6c7b53c32561547d2c3ae074fcdbfe4d8bc2aaca/main.jpg"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -1863,7 +1921,13 @@
         "generatedAt": "2026-11-23T12:32:34.542Z",
         "priceText": "$2,750,000"
       },
-      "imported": true
+      "imported": true,
+      "alsoAt": [
+        {
+          "origin": "domain",
+          "url": "https://www.domain.com.au/12-sherwood-terrace-glen-osmond-sa-5064-2021178488"
+        }
+      ]
     },
     {
       "id": "rea-152911432",
@@ -1885,9 +1949,7 @@
       "priceHigh": null,
       "saleMethod": "auction",
       "auctionDate": null,
-      "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/6ceed5b10ccb09b3beb605ca0737935170ea8f92992e873b990fb2b907a66c22/main.jpg"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -1954,7 +2016,7 @@
       "saleMethod": "privateTreaty",
       "auctionDate": null,
       "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/1974087bc084bf6cc45be28e9e9e7b9fdeb580bf667802b6f1fcbb93e080399c/main.jpg"
+        "https://rimh2.domainstatic.com.au/vGNhCuNwUJOMSeh30gKN4wtASgE=/720x540/filters:format(webp):quality(85)/2021078637_22_3_260817_081149-w900-h1273"
       ],
       "description": "",
       "features": [],
@@ -2000,7 +2062,13 @@
         "generatedAt": "2026-11-23T12:32:34.542Z",
         "priceText": "$1,425,000 - $1,485,000"
       },
-      "imported": true
+      "imported": true,
+      "alsoAt": [
+        {
+          "origin": "domain",
+          "url": "https://www.domain.com.au/56-hay-road-linden-park-sa-5065-2021078637"
+        }
+      ]
     },
     {
       "id": "rea-152362224",
@@ -2022,9 +2090,7 @@
       "priceHigh": 1700000,
       "saleMethod": "privateTreaty",
       "auctionDate": null,
-      "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/77a705dc4c29070594e396d6afeade979581d82e98d43c2ec23ef0bfca0dd137/main.jpg"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -2090,9 +2156,7 @@
       "priceHigh": 1488000,
       "saleMethod": "privateTreaty",
       "auctionDate": null,
-      "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/c444272708c43f25c9b1299608320f5467f0f7bc2eec648e2a8b551f0dde62d5/main.jpg"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -2137,7 +2201,13 @@
         "generatedAt": "2026-11-23T12:32:34.542Z",
         "priceText": "$1,399,000 - $1,488,000"
       },
-      "imported": true
+      "imported": true,
+      "alsoAt": [
+        {
+          "origin": "domain",
+          "url": "https://www.domain.com.au/79-conyngham-street-frewville-sa-5063-2021160302"
+        }
+      ]
     },
     {
       "id": "rea-152854668",
@@ -2159,9 +2229,7 @@
       "priceHigh": null,
       "saleMethod": null,
       "auctionDate": null,
-      "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/87fed3ad050390901758d48c6c7b53c32561547d2c3ae074fcdbfe4d8bc2aaca/main.jpg"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -2206,7 +2274,13 @@
         "generatedAt": "2026-11-23T12:32:34.542Z",
         "priceText": "Contact Agent"
       },
-      "imported": true
+      "imported": true,
+      "alsoAt": [
+        {
+          "origin": "domain",
+          "url": "https://www.domain.com.au/6-allinga-avenue-glenside-sa-5065-2021304798"
+        }
+      ]
     },
     {
       "id": "rea-152648584",
@@ -2228,9 +2302,7 @@
       "priceHigh": null,
       "saleMethod": null,
       "auctionDate": null,
-      "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/5f1e76a24e069c3286ae288d352885c981691ad58741d67c7363221f88cbdf37/main.jpg"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -2297,9 +2369,7 @@
       "priceHigh": null,
       "saleMethod": null,
       "auctionDate": null,
-      "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/0bdb3cb3bf582a339d31cdfb8b36ba5995918cf9753cfd8ddb16a49779713df9/main.jpg"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -2344,7 +2414,13 @@
         "generatedAt": "2026-11-23T12:32:34.542Z",
         "priceText": "CONTACT AGENT"
       },
-      "imported": true
+      "imported": true,
+      "alsoAt": [
+        {
+          "origin": "domain",
+          "url": "https://www.domain.com.au/2-montrose-place-beaumont-sa-5066-2021201440"
+        }
+      ]
     },
     {
       "id": "rea-151615468",
@@ -2366,9 +2442,7 @@
       "priceHigh": 1800000,
       "saleMethod": "privateTreaty",
       "auctionDate": null,
-      "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/6a8280b4c627bad90e6e39019188e398ff06911fefb11f21b68bf17943ad19b8/main.jpg"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -2413,7 +2487,13 @@
         "generatedAt": "2026-11-23T12:32:34.542Z",
         "priceText": "Best Offer 1.8m"
       },
-      "imported": true
+      "imported": true,
+      "alsoAt": [
+        {
+          "origin": "domain",
+          "url": "https://www.domain.com.au/2a-austin-crescent-st-georges-sa-5064-2020960536"
+        }
+      ]
     },
     {
       "id": "rea-152618996",
@@ -2435,9 +2515,7 @@
       "priceHigh": null,
       "saleMethod": "eoi",
       "auctionDate": null,
-      "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/937ce01039e5ca3a5dc807550db99273c0e4a82720fe55bd6942245edede3888/main.jpg"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -2483,7 +2561,13 @@
         "generatedAt": "2026-11-23T12:32:34.542Z",
         "priceText": "Expression Of Interest"
       },
-      "imported": true
+      "imported": true,
+      "alsoAt": [
+        {
+          "origin": "domain",
+          "url": "https://www.domain.com.au/10-taminga-avenue-glenunga-sa-5064-2021237053"
+        }
+      ]
     },
     {
       "id": "rea-152618876",
@@ -2506,7 +2590,7 @@
       "saleMethod": null,
       "auctionDate": null,
       "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/dff0bcaec405503547da7ee4608a22eb6b7a9820c11d2d84b3dde7ffb434f608/main.jpg"
+        "https://rimh2.domainstatic.com.au/DalwFguY_h7ZtdoCiVJvhHDwFDc=/720x540/filters:format(webp):quality(85)/2021237034_30_3_261013_093149-w1500-h1060"
       ],
       "description": "",
       "features": [],
@@ -2552,7 +2636,13 @@
         "generatedAt": "2026-11-23T12:32:34.542Z",
         "priceText": "Under Contract"
       },
-      "imported": true
+      "imported": true,
+      "alsoAt": [
+        {
+          "origin": "domain",
+          "url": "https://www.domain.com.au/1b-hewitt-ave-linden-park-sa-5065-2021237034"
+        }
+      ]
     },
     {
       "id": "rea-151768108",
@@ -2574,9 +2664,7 @@
       "priceHigh": null,
       "saleMethod": null,
       "auctionDate": null,
-      "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/f5e20d3d3ffb65791c8228fca7f87f1ca2f956c8341353663f4274d7d91760be/main.jpg"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -2643,9 +2731,7 @@
       "priceHigh": null,
       "saleMethod": null,
       "auctionDate": null,
-      "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/542b0483a52a454d0cb290a05b3c33d2336e4b2f99354fcad1df3b0baa7e0aba/main.jpg"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -2690,7 +2776,13 @@
         "generatedAt": "2026-11-23T12:32:34.542Z",
         "priceText": "BEST OFFER BY TUESDAY 8TH DECEMBER AT 2:00PM (USP)"
       },
-      "imported": true
+      "imported": true,
+      "alsoAt": [
+        {
+          "origin": "domain",
+          "url": "https://www.domain.com.au/85-conyngham-street-frewville-sa-5063-2021320843"
+        }
+      ]
     },
     {
       "id": "rea-152755040",
@@ -2712,9 +2804,7 @@
       "priceHigh": 1590000,
       "saleMethod": "privateTreaty",
       "auctionDate": null,
-      "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/5f98975db7b57cacf53f096149c92d25d09813623a5415c9165db793786b52fa/main.jpg"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -2759,7 +2849,13 @@
         "generatedAt": "2026-11-23T12:45:38.941Z",
         "priceText": "$1,500,000 - $1,590,000"
       },
-      "imported": true
+      "imported": true,
+      "alsoAt": [
+        {
+          "origin": "domain",
+          "url": "https://www.domain.com.au/6-allawah-avenue-glen-osmond-sa-5064-2021278516"
+        }
+      ]
     },
     {
       "id": "rea-152179888",
@@ -2781,9 +2877,7 @@
       "priceHigh": null,
       "saleMethod": null,
       "auctionDate": null,
-      "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/65fe4eaa5957a668149391f18cfb4fd75457854f9a213909377859debee08afb/main.jpg"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -2828,7 +2922,13 @@
         "generatedAt": "2026-11-23T12:45:38.941Z",
         "priceText": "Contact Agent"
       },
-      "imported": true
+      "imported": true,
+      "alsoAt": [
+        {
+          "origin": "domain",
+          "url": "https://www.domain.com.au/8-verdale-avenue-linden-park-sa-5065-2021109832"
+        }
+      ]
     },
     {
       "id": "rea-152322024",
@@ -2850,9 +2950,7 @@
       "priceHigh": null,
       "saleMethod": "auction",
       "auctionDate": null,
-      "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/7d52a82c9c5289bdaa84c050c5d53816f6705d949c1a701466a657626a07c749/main.jpg"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -2897,7 +2995,13 @@
         "generatedAt": "2026-11-23T12:45:38.941Z",
         "priceText": "Auction Mon 30 Nov"
       },
-      "imported": true
+      "imported": true,
+      "alsoAt": [
+        {
+          "origin": "domain",
+          "url": "https://www.domain.com.au/49-devereux-road-linden-park-sa-5065-2021150567"
+        }
+      ]
     },
     {
       "id": "rea-151988620",
@@ -2919,9 +3023,7 @@
       "priceHigh": 4000000,
       "saleMethod": "privateTreaty",
       "auctionDate": null,
-      "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/7d52a82c9c5289bdaa84c050c5d53816f6705d949c1a701466a657626a07c749/main.jpg"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -2966,7 +3068,13 @@
         "generatedAt": "2026-11-23T12:45:38.941Z",
         "priceText": "$4,000,000"
       },
-      "imported": true
+      "imported": true,
+      "alsoAt": [
+        {
+          "origin": "domain",
+          "url": "https://www.domain.com.au/32a-wootoona-terrace-st-georges-sa-5064-2021061592"
+        }
+      ]
     },
     {
       "id": "rea-147011308",
@@ -2988,9 +3096,7 @@
       "priceHigh": 2100000,
       "saleMethod": "privateTreaty",
       "auctionDate": null,
-      "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/d595b4480e748e34e0d1c8e5e3dd2c0588d0a08057b4cac560561fd99c035fb3/main.png"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -3242,144 +3348,6 @@
       "imported": true
     },
     {
-      "id": "2021343943",
-      "url": "https://www.domain.com.au/17-jellicoe-street-linden-park-sa-5065-2021343943",
-      "headline": null,
-      "address": "17 Jellicoe Street, Linden Park",
-      "suburb": "Linden Park",
-      "postcode": null,
-      "lat": -34.9401719,
-      "lng": 138.646014,
-      "propertyType": null,
-      "bedrooms": 4,
-      "bathrooms": 2,
-      "carspaces": 2,
-      "landArea": null,
-      "buildingArea": null,
-      "priceText": "Auction | Friday 4th Dec @ 1pm USP",
-      "priceLow": null,
-      "priceHigh": null,
-      "saleMethod": "auction",
-      "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/SzGRjKmo6J-JDqNQ5WrvwMK-ExM=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/20070/contact_1802914.jpeg?mod=261123-110836"
-      ],
-      "description": "",
-      "features": [],
-      "dateListed": null,
-      "daysOnMarket": 0,
-      "firstSeen": "2026-11-23",
-      "priceHistory": [
-        {
-          "date": "2026-11-23",
-          "priceText": "Auction | Friday 4th Dec @ 1pm USP",
-          "priceLow": null,
-          "priceHigh": null
-        }
-      ],
-      "salesHistory": [],
-      "inspections": [],
-      "agents": [],
-      "zones": [
-        "Linden Park Primary School",
-        "Glenunga International High School"
-      ],
-      "status": "active",
-      "alertKind": null,
-      "lastSeen": "2026-11-23",
-      "origin": "domain",
-      "via": "alerts",
-      "ai": {
-        "summary": "The asking price is not disclosed as this property is scheduled for auction. Offering four bedrooms, two bathrooms, and two car spaces, it provides practical scale for family living in Linden Park. In the absence of land size and price guidance, buyers should consider a broad valuation range.",
-        "pros": [
-          "Located directly in Linden Park",
-          "Four bedrooms suitable for family needs",
-          "Two bathrooms and two car spaces"
-        ],
-        "cons": [
-          "Price is not disclosed",
-          "Land size is not provided",
-          "Prevailing 6.2% mortgage rate limits borrowing"
-        ],
-        "fairValueLow": 1200000,
-        "fairValueHigh": 1800000,
-        "verdict": "Worth inspecting",
-        "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:58:38.840Z",
-        "priceText": "Auction | Friday 4th Dec @ 1pm USP"
-      },
-      "imported": true
-    },
-    {
-      "id": "2021342588",
-      "url": "https://www.domain.com.au/55-l-estrange-street-glenside-sa-5065-2021342588",
-      "headline": null,
-      "address": "55 L'Estrange Street, Glenside",
-      "suburb": "Glenside",
-      "postcode": null,
-      "lat": -34.9411418,
-      "lng": 138.635485,
-      "propertyType": null,
-      "bedrooms": 4,
-      "bathrooms": 2,
-      "carspaces": 3,
-      "landArea": null,
-      "buildingArea": null,
-      "priceText": "Best Offers by Tue 8th Dec at 2PM (USP)",
-      "priceLow": null,
-      "priceHigh": null,
-      "saleMethod": null,
-      "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/8yKmcq6D12eTyLAsBhy1ZdIYWKk=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/25278/contact_1864453.jpeg?mod=261123-172502"
-      ],
-      "description": "",
-      "features": [],
-      "dateListed": null,
-      "daysOnMarket": 0,
-      "firstSeen": "2026-11-23",
-      "priceHistory": [
-        {
-          "date": "2026-11-23",
-          "priceText": "Best Offers by Tue 8th Dec at 2PM (USP)",
-          "priceLow": null,
-          "priceHigh": null
-        }
-      ],
-      "salesHistory": [],
-      "inspections": [],
-      "agents": [],
-      "zones": [
-        "Linden Park Primary School",
-        "Glenunga International High School"
-      ],
-      "status": "active",
-      "alertKind": null,
-      "lastSeen": "2026-11-23",
-      "origin": "domain",
-      "via": "alerts",
-      "ai": {
-        "summary": "Price is not disclosed for this Glenside property marketed via a best-offers campaign. It offers four bedrooms, two bathrooms, and three car parking spaces near key eastern school catchments. Without disclosed land area or historical trend data, fair value must be viewed with a wide margin.",
-        "pros": [
-          "Four bedrooms accommodate growing families",
-          "Two bathrooms and three car spaces",
-          "Glenside location near priority schools"
-        ],
-        "cons": [
-          "Price is not disclosed",
-          "Land size is not specified",
-          "Deadline sale campaign can inflate competition"
-        ],
-        "fairValueLow": 1200000,
-        "fairValueHigh": 1800000,
-        "verdict": "Worth inspecting",
-        "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:58:38.840Z",
-        "priceText": "Best Offers by Tue 8th Dec at 2PM (USP)"
-      },
-      "imported": true
-    },
-    {
       "id": "2021341708",
       "url": "https://www.domain.com.au/7a-elinor-terrace-glen-osmond-sa-5064-2021341708",
       "headline": null,
@@ -3399,9 +3367,7 @@
       "priceHigh": 1100000,
       "saleMethod": "privateTreaty",
       "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/3t8lhkFD-IfMhWEutYmAhSDi2RQ=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/6188/contact_559536.jpeg?mod=261122-204024"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -3468,9 +3434,7 @@
       "priceHigh": null,
       "saleMethod": null,
       "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/9dgbJ3INjwicqMrgM7TaWAhjxJc=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/20070/contact_1802914.jpeg?mod=261123-110352"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -3537,9 +3501,7 @@
       "priceHigh": 1425000,
       "saleMethod": "privateTreaty",
       "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/6ulyRIEOaPwCrnxRf7frLmcd3-w=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/11698/contact_1238166.jpeg?mod=261120-110818"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -3587,77 +3549,6 @@
       "imported": true
     },
     {
-      "id": "2021320562",
-      "url": "https://www.domain.com.au/19a-woodcroft-avenue-st-georges-sa-5064-2021320562",
-      "headline": null,
-      "address": "19a Woodcroft Avenue, St Georges",
-      "suburb": "St Georges",
-      "postcode": null,
-      "lat": -34.9518185,
-      "lng": 138.6451918,
-      "propertyType": null,
-      "bedrooms": 4,
-      "bathrooms": 2,
-      "carspaces": 2,
-      "landArea": null,
-      "buildingArea": null,
-      "priceText": "Contact Agent",
-      "priceLow": null,
-      "priceHigh": null,
-      "saleMethod": null,
-      "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/yOO95nOYdvSFXGtrXoFniwx7GoU=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/19037/contact_1791597.jpeg?mod=261120-115847"
-      ],
-      "description": "",
-      "features": [],
-      "dateListed": null,
-      "daysOnMarket": 0,
-      "firstSeen": "2026-11-23",
-      "priceHistory": [
-        {
-          "date": "2026-11-23",
-          "priceText": "Contact Agent",
-          "priceLow": null,
-          "priceHigh": null
-        }
-      ],
-      "salesHistory": [],
-      "inspections": [],
-      "agents": [],
-      "zones": [
-        "Linden Park Primary School",
-        "Glenunga International High School"
-      ],
-      "status": "active",
-      "alertKind": null,
-      "lastSeen": "2026-11-23",
-      "origin": "domain",
-      "via": "alerts",
-      "ai": {
-        "summary": "The asking price is not disclosed for this four-bedroom, two-bathroom home in St Georges. With no land size or suburb trend data provided and mortgage rates at 6.2%, caution is advised when assessing affordability. Fair value is estimated broadly based on typical family home accommodation in this eastern suburb.",
-        "pros": [
-          "Four bedrooms accommodate family needs",
-          "Two bathrooms avoid morning bottlenecks",
-          "Provides two designated parking spaces",
-          "Desirable St Georges school-proximate location"
-        ],
-        "cons": [
-          "Price guide is not disclosed",
-          "Land size is unspecified",
-          "Missing suburb median price trend data",
-          "High 6.2% mortgage rate constrains borrowing"
-        ],
-        "fairValueLow": 1400000,
-        "fairValueHigh": 1900000,
-        "verdict": "Worth inspecting",
-        "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:58:38.840Z",
-        "priceText": "Contact Agent"
-      },
-      "imported": true
-    },
-    {
       "id": "2021288629",
       "url": "https://www.domain.com.au/15-holton-street-glenside-sa-5065-2021288629",
       "headline": null,
@@ -3677,9 +3568,7 @@
       "priceHigh": 1300000,
       "saleMethod": "privateTreaty",
       "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/2Te8jrAf4DjEhG-iT0vZ6990XPE=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/6748/contact_1866925.jpeg?mod=261119-181045"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -3728,216 +3617,6 @@
       "imported": true
     },
     {
-      "id": "2021278516",
-      "url": "https://www.domain.com.au/6-allawah-avenue-glen-osmond-sa-5064-2021278516",
-      "headline": null,
-      "address": "6 Allawah Avenue, Glen Osmond",
-      "suburb": "Glen Osmond",
-      "postcode": null,
-      "lat": -34.960984,
-      "lng": 138.6433106,
-      "propertyType": null,
-      "bedrooms": 5,
-      "bathrooms": 3,
-      "carspaces": 2,
-      "landArea": null,
-      "buildingArea": null,
-      "priceText": "$1,500,000 - $1,590,000",
-      "priceLow": 1500000,
-      "priceHigh": 1590000,
-      "saleMethod": "privateTreaty",
-      "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/oje0k7cpIzG_4RBo3eJUqok3bgY=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/7204/contact_2022455.jpeg?mod=261120-144415"
-      ],
-      "description": "",
-      "features": [],
-      "dateListed": null,
-      "daysOnMarket": 0,
-      "firstSeen": "2026-11-23",
-      "priceHistory": [
-        {
-          "date": "2026-11-23",
-          "priceText": "$1,500,000 - $1,590,000",
-          "priceLow": 1500000,
-          "priceHigh": 1590000
-        }
-      ],
-      "salesHistory": [],
-      "inspections": [],
-      "agents": [],
-      "zones": [
-        "Linden Park Primary School",
-        "Glenunga International High School"
-      ],
-      "status": "active",
-      "alertKind": null,
-      "lastSeen": "2026-11-23",
-      "origin": "domain",
-      "via": "alerts",
-      "ai": {
-        "summary": "Offering five bedrooms and three bathrooms, this Glen Osmond home delivers generous proportions for larger households. The asking range of $1,500,000 to $1,590,000 provides clarity, though land area details are missing from the listing. Financing at current 6.2% mortgage rates should be factored into affordability calculations.",
-        "pros": [
-          "Generous five-bedroom and three-bathroom accommodation",
-          "Clear private treaty price guide",
-          "Two dedicated vehicle parking spaces",
-          "Convenient access to local eastern schools"
-        ],
-        "cons": [
-          "Land area is not provided",
-          "Cash rate sits high at 4.85%",
-          "Missing suburb historical price trend data"
-        ],
-        "fairValueLow": 1480000,
-        "fairValueHigh": 1600000,
-        "verdict": "Worth inspecting",
-        "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:58:38.840Z",
-        "priceText": "$1,500,000 - $1,590,000"
-      },
-      "imported": true
-    },
-    {
-      "id": "2021221626",
-      "url": "https://www.domain.com.au/528-portrush-road-st-georges-sa-5064-2021221626",
-      "headline": null,
-      "address": "528 Portrush Road, St Georges",
-      "suburb": "St Georges",
-      "postcode": null,
-      "lat": -34.9529213,
-      "lng": 138.6434708,
-      "propertyType": null,
-      "bedrooms": 5,
-      "bathrooms": 3,
-      "carspaces": 2,
-      "landArea": null,
-      "buildingArea": null,
-      "priceText": "$1,900,000 -$2,090,000",
-      "priceLow": 1900000,
-      "priceHigh": 2090000,
-      "saleMethod": "privateTreaty",
-      "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/6YlxiDpYKxJOVNJD5GABSmHyc-o=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/16970/contact_1629325.jpeg?mod=261120-110304"
-      ],
-      "description": "",
-      "features": [],
-      "dateListed": null,
-      "daysOnMarket": 0,
-      "firstSeen": "2026-11-23",
-      "priceHistory": [
-        {
-          "date": "2026-11-23",
-          "priceText": "$1,900,000 -$2,090,000",
-          "priceLow": 1900000,
-          "priceHigh": 2090000
-        }
-      ],
-      "salesHistory": [],
-      "inspections": [],
-      "agents": [],
-      "zones": [
-        "Linden Park Primary School",
-        "Glenunga International High School"
-      ],
-      "status": "active",
-      "alertKind": null,
-      "lastSeen": "2026-11-23",
-      "origin": "domain",
-      "via": "alerts",
-      "ai": {
-        "summary": "This large five-bedroom home in St Georges is guided between $1,900,000 and $2,090,000. While spacious, its location on Portrush Road exposes residents to significant traffic volumes and arterial road noise. Given this locational compromise and elevated financing costs, the upper guide appears ambitious.",
-        "pros": [
-          "Substantial five-bedroom and three-bathroom layout",
-          "Double parking accommodates family vehicles",
-          "St Georges address near target schools"
-        ],
-        "cons": [
-          "Situated on busy Portrush Road",
-          "Ambitious price guide given main-road location",
-          "Land dimensions are omitted",
-          "Mortgage rate of 6.2% elevates repayments"
-        ],
-        "fairValueLow": 1700000,
-        "fairValueHigh": 1880000,
-        "verdict": "Overpriced",
-        "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:58:38.840Z",
-        "priceText": "$1,900,000 -$2,090,000"
-      },
-      "imported": true
-    },
-    {
-      "id": "2021150567",
-      "url": "https://www.domain.com.au/49-devereux-road-linden-park-sa-5065-2021150567",
-      "headline": null,
-      "address": "49 Devereux Road, Linden Park",
-      "suburb": "Linden Park",
-      "postcode": null,
-      "lat": -34.9443507,
-      "lng": 138.6515408,
-      "propertyType": null,
-      "bedrooms": 4,
-      "bathrooms": 2,
-      "carspaces": 2,
-      "landArea": null,
-      "buildingArea": null,
-      "priceText": "Auction Mon 30 Nov",
-      "priceLow": null,
-      "priceHigh": null,
-      "saleMethod": "auction",
-      "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/7HH0ijGGhRQuqbSjbyx_B0b72W0=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/20070/contact_1732089.png?mod=261123-104055"
-      ],
-      "description": "",
-      "features": [],
-      "dateListed": null,
-      "daysOnMarket": 0,
-      "firstSeen": "2026-11-23",
-      "priceHistory": [
-        {
-          "date": "2026-11-23",
-          "priceText": "Auction Mon 30 Nov",
-          "priceLow": null,
-          "priceHigh": null
-        }
-      ],
-      "salesHistory": [],
-      "inspections": [],
-      "agents": [],
-      "zones": [
-        "Linden Park Primary School",
-        "Glenunga International High School"
-      ],
-      "status": "active",
-      "alertKind": null,
-      "lastSeen": "2026-11-23",
-      "origin": "domain",
-      "via": "alerts",
-      "ai": {
-        "summary": "Located directly in Linden Park, this four-bedroom property is ideally positioned for families targeting local school catchments. The sale is scheduled via auction with no price guide disclosed, requiring thorough preparation amid a 6.2% mortgage rate environment. A wide fair value range reflects the lack of published land size and trend metrics.",
-        "pros": [
-          "Prime Linden Park school-zone location",
-          "Four bedrooms suitable for family living",
-          "Includes two bathrooms and double parking"
-        ],
-        "cons": [
-          "No asking price guide provided",
-          "Auction method requires unconditional bidding terms",
-          "Land size is completely unspecified",
-          "Lack of suburb trend data"
-        ],
-        "fairValueLow": 1500000,
-        "fairValueHigh": 2000000,
-        "verdict": "Worth inspecting",
-        "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:58:38.840Z",
-        "priceText": "Auction Mon 30 Nov"
-      },
-      "imported": true
-    },
-    {
       "id": "2021324454",
       "url": "https://www.domain.com.au/22-banksia-street-glenside-sa-5065-2021324454",
       "headline": null,
@@ -3957,9 +3636,7 @@
       "priceHigh": null,
       "saleMethod": null,
       "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/MgzsbwjZzDH52gukeSY0qcCF87Q=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/21126/contact_1725943.png?mod=261117-175044"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -4007,75 +3684,6 @@
       "imported": true
     },
     {
-      "id": "2021320843",
-      "url": "https://www.domain.com.au/85-conyngham-street-frewville-sa-5063-2021320843",
-      "headline": null,
-      "address": "85 Conyngham Street, Frewville",
-      "suburb": "Frewville",
-      "postcode": null,
-      "lat": -34.9487488,
-      "lng": 138.6343035,
-      "propertyType": null,
-      "bedrooms": 4,
-      "bathrooms": 2,
-      "carspaces": 2,
-      "landArea": null,
-      "buildingArea": null,
-      "priceText": "BEST OFFER BY TUESDAY 8TH DECEMBER AT 2:00PM (USP)",
-      "priceLow": null,
-      "priceHigh": null,
-      "saleMethod": null,
-      "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/Q_rEIeS8d6oeM4179uVfQ0jUoIs=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/21126/contact_1886194.jpeg?mod=261123-163046"
-      ],
-      "description": "",
-      "features": [],
-      "dateListed": null,
-      "daysOnMarket": 0,
-      "firstSeen": "2026-11-23",
-      "priceHistory": [
-        {
-          "date": "2026-11-23",
-          "priceText": "BEST OFFER BY TUESDAY 8TH DECEMBER AT 2:00PM (USP)",
-          "priceLow": null,
-          "priceHigh": null
-        }
-      ],
-      "salesHistory": [],
-      "inspections": [],
-      "agents": [],
-      "zones": [
-        "Linden Park Primary School",
-        "Glenunga International High School"
-      ],
-      "status": "active",
-      "alertKind": null,
-      "lastSeen": "2026-11-23",
-      "origin": "domain",
-      "via": "alerts",
-      "ai": {
-        "summary": "This Frewville property is offered via best offer with no price guide disclosed. With 4 bedrooms, 2 bathrooms, and 2 car spaces, it provides functional family accommodation. Because land size and price history are unavailable, valuation must remain wide amid 6.2% borrowing costs.",
-        "pros": [
-          "Four bedrooms offer ample family space.",
-          "Two bathrooms and two car spaces.",
-          "Located in inner-eastern Frewville."
-        ],
-        "cons": [
-          "Price guide is undisclosed.",
-          "Land size is not specified.",
-          "Current 6.2% mortgage rates elevate servicing costs."
-        ],
-        "fairValueLow": 1100000,
-        "fairValueHigh": 1650000,
-        "verdict": "Worth inspecting",
-        "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:58:38.840Z",
-        "priceText": "BEST OFFER BY TUESDAY 8TH DECEMBER AT 2:00PM (USP)"
-      },
-      "imported": true
-    },
-    {
       "id": "2021316763",
       "url": "https://www.domain.com.au/6-6-collyer-court-linden-park-sa-5065-2021316763",
       "headline": null,
@@ -4095,9 +3703,7 @@
       "priceHigh": 600000,
       "saleMethod": "privateTreaty",
       "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/o0bJNu7jhmtp8cV8PoijOxBUe3g=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/20070/contact_1802914.jpeg?mod=261123-110404"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -4164,9 +3770,7 @@
       "priceHigh": null,
       "saleMethod": null,
       "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/KhjfGQq-urXxvN3V363B-7vRJQc=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/35706/contact_1835491.jpeg?mod=261123-121856"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -4233,9 +3837,7 @@
       "priceHigh": 1650000,
       "saleMethod": "privateTreaty",
       "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/fLEPf_DmklD-cDk01o93XnwDfEA=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/6748/contact_1866925.jpeg?mod=261123-163454"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -4302,9 +3904,7 @@
       "priceHigh": 1375000,
       "saleMethod": "privateTreaty",
       "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/7w51MvIBSYKpU23ouBAE3GDjNCs=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/6188/contact_1820833.jpeg?mod=261123-171836"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -4371,9 +3971,7 @@
       "priceHigh": 990000,
       "saleMethod": "privateTreaty",
       "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/oeUp1hhAZscHXrqiX3uUb0dRRtQ=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/36379/contact_1867117.png?mod=261123-150235"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -4440,9 +4038,7 @@
       "priceHigh": 715000,
       "saleMethod": "privateTreaty",
       "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/lo_JyMcnDQJ2yLANDnRnUlLqt5c=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/31405/contact_1558767.jpeg?mod=261123-182244"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -4509,9 +4105,7 @@
       "priceHigh": 1850000,
       "saleMethod": "privateTreaty",
       "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/v6MArjXzqpyOG8HuBmTW6BDs68E=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/36379/contact_1867117.png?mod=261119-125632"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -4578,9 +4172,7 @@
       "priceHigh": 1470000,
       "saleMethod": "privateTreaty",
       "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/zaxOiPyPAQQLTCIfgscu40k1C6A=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/8008/contact_1398383.jpeg?mod=261118-154102"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -4835,213 +4427,6 @@
       "imported": true
     },
     {
-      "id": "2021237053",
-      "url": "https://www.domain.com.au/10-taminga-avenue-glenunga-sa-5064-2021237053",
-      "headline": null,
-      "address": "10 Taminga Avenue, Glenunga",
-      "suburb": "Glenunga",
-      "postcode": null,
-      "lat": -34.9547382,
-      "lng": 138.6420414,
-      "propertyType": null,
-      "bedrooms": 5,
-      "bathrooms": 3,
-      "carspaces": 6,
-      "landArea": null,
-      "buildingArea": null,
-      "priceText": "Expression Of Interest",
-      "priceLow": null,
-      "priceHigh": null,
-      "saleMethod": "eoi",
-      "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/X5BEws6uLSxulKUGZppKjz5XssE=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/15920/contact_1822333.jpeg?mod=261123-132126"
-      ],
-      "description": "",
-      "features": [],
-      "dateListed": null,
-      "daysOnMarket": 0,
-      "firstSeen": "2026-11-23",
-      "priceHistory": [
-        {
-          "date": "2026-11-23",
-          "priceText": "Expression Of Interest",
-          "priceLow": null,
-          "priceHigh": null
-        }
-      ],
-      "salesHistory": [],
-      "inspections": [],
-      "agents": [],
-      "zones": [
-        "Linden Park Primary School",
-        "Glenunga International High School"
-      ],
-      "status": "active",
-      "alertKind": null,
-      "lastSeen": "2026-11-23",
-      "origin": "domain",
-      "via": "alerts",
-      "ai": {
-        "summary": "This 5-bedroom, 3-bathroom home in Glenunga provides extensive accommodation with 6 car spaces. The price is not disclosed and is offered via Expression of Interest, with no land size or features reported. A wide fair value range is warranted until land dimensions and contract terms are clarified.",
-        "pros": [
-          "Sizable 5-bedroom and 3-bathroom layout",
-          "Extensive 6-car accommodation",
-          "Situated directly in Glenunga"
-        ],
-        "cons": [
-          "Asking price is not disclosed",
-          "Sale method is Expression of Interest",
-          "Land size is not provided"
-        ],
-        "fairValueLow": 1600000,
-        "fairValueHigh": 2400000,
-        "verdict": "Worth inspecting",
-        "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:58:38.840Z",
-        "priceText": "Expression Of Interest"
-      },
-      "imported": true
-    },
-    {
-      "id": "2021201440",
-      "url": "https://www.domain.com.au/2-montrose-place-beaumont-sa-5066-2021201440",
-      "headline": null,
-      "address": "2 Montrose Place, Beaumont",
-      "suburb": "Beaumont",
-      "postcode": null,
-      "lat": -34.9515945,
-      "lng": 138.6599948,
-      "propertyType": null,
-      "bedrooms": 5,
-      "bathrooms": 3,
-      "carspaces": 5,
-      "landArea": null,
-      "buildingArea": null,
-      "priceText": "CONTACT AGENT",
-      "priceLow": null,
-      "priceHigh": null,
-      "saleMethod": null,
-      "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/9onSYlu31OsOivogAbSQtj42rvU=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/21126/contact_1938876.png?mod=261026-122952"
-      ],
-      "description": "",
-      "features": [],
-      "dateListed": null,
-      "daysOnMarket": 0,
-      "firstSeen": "2026-11-23",
-      "priceHistory": [
-        {
-          "date": "2026-11-23",
-          "priceText": "CONTACT AGENT",
-          "priceLow": null,
-          "priceHigh": null
-        }
-      ],
-      "salesHistory": [],
-      "inspections": [],
-      "agents": [],
-      "zones": [
-        "Linden Park Primary School",
-        "Glenunga International High School"
-      ],
-      "status": "active",
-      "alertKind": null,
-      "lastSeen": "2026-11-23",
-      "origin": "domain",
-      "via": "alerts",
-      "ai": {
-        "summary": "Offering 5 bedrooms, 3 bathrooms, and 5 car spaces, this Beaumont residence suits larger family living. The asking price is undisclosed with instructions to contact the agent, and land measurements are missing from the listing. Buyers must assess the property's physical condition and land size to justify pricing against high mortgage rates.",
-        "pros": [
-          "Generous 5-bedroom layout for families",
-          "Three bathrooms prevent morning bottlenecks",
-          "Excellent 5-car accommodation"
-        ],
-        "cons": [
-          "Price is undisclosed by the agent",
-          "Land size is omitted from listing",
-          "Sale method is not specified"
-        ],
-        "fairValueLow": 1500000,
-        "fairValueHigh": 2300000,
-        "verdict": "Worth inspecting",
-        "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:58:38.840Z",
-        "priceText": "CONTACT AGENT"
-      },
-      "imported": true
-    },
-    {
-      "id": "2021129020",
-      "url": "https://www.domain.com.au/10-carr-avenue-frewville-sa-5063-2021129020",
-      "headline": null,
-      "address": "10 Carr Avenue, Frewville",
-      "suburb": null,
-      "postcode": null,
-      "lat": -34.9475892,
-      "lng": 138.6319807,
-      "propertyType": null,
-      "bedrooms": 4,
-      "bathrooms": 2,
-      "carspaces": 2,
-      "landArea": null,
-      "buildingArea": null,
-      "priceText": "$1,800,000 - $1,900,000",
-      "priceLow": 1800000,
-      "priceHigh": 1900000,
-      "saleMethod": "privateTreaty",
-      "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/fmpdJ7Ly6g7G5jWk3SAO_rOvShA=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/6188/contact_1249557.jpeg?mod=261120-143322"
-      ],
-      "description": "",
-      "features": [],
-      "dateListed": null,
-      "daysOnMarket": 0,
-      "firstSeen": "2026-11-23",
-      "priceHistory": [
-        {
-          "date": "2026-11-23",
-          "priceText": "$1,800,000 - $1,900,000",
-          "priceLow": 1800000,
-          "priceHigh": 1900000
-        }
-      ],
-      "salesHistory": [],
-      "inspections": [],
-      "agents": [],
-      "zones": [
-        "Linden Park Primary School",
-        "Glenunga International High School"
-      ],
-      "status": "active",
-      "alertKind": null,
-      "lastSeen": "2026-11-23",
-      "origin": "domain",
-      "via": "alerts",
-      "ai": {
-        "summary": "This Frewville property offers 4 bedrooms, 2 bathrooms, and 2 car spaces with an advertised price guide of $1,800,000 to $1,900,000. Crucial details such as land size, condition, and suburb trend data are omitted from the listing. In a 6.2% mortgage rate environment, buyers should verify block dimensions before committing.",
-        "pros": [
-          "Four bedrooms accommodate family living",
-          "Two car spaces provided",
-          "Clear asking price range disclosed"
-        ],
-        "cons": [
-          "Land size is not disclosed",
-          "No property features or description provided",
-          "No historical suburb trends available"
-        ],
-        "fairValueLow": 1750000,
-        "fairValueHigh": 1950000,
-        "verdict": "Fair",
-        "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:58:38.840Z",
-        "priceText": "$1,800,000 - $1,900,000"
-      },
-      "imported": true
-    },
-    {
       "id": "2021083428",
       "url": "https://www.domain.com.au/20-l-estrange-street-glenside-sa-5065-2021083428",
       "headline": null,
@@ -5061,9 +4446,7 @@
       "priceHigh": 1450000,
       "saleMethod": "privateTreaty",
       "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/okpcTJrJmf-DMc2p9oAMXKABzw0=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/6188/contact_559536.jpeg?mod=261123-161138"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -5111,75 +4494,6 @@
       "imported": true
     },
     {
-      "id": "2021061592",
-      "url": "https://www.domain.com.au/32a-wootoona-terrace-st-georges-sa-5064-2021061592",
-      "headline": null,
-      "address": "32A Wootoona Terrace, St Georges",
-      "suburb": "St Georges",
-      "postcode": null,
-      "lat": -34.9550202,
-      "lng": 138.6481268,
-      "propertyType": null,
-      "bedrooms": 5,
-      "bathrooms": 4,
-      "carspaces": 6,
-      "landArea": null,
-      "buildingArea": null,
-      "priceText": "$4,000,000",
-      "priceLow": 4000000,
-      "priceHigh": 4000000,
-      "saleMethod": "privateTreaty",
-      "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/kzWhZMlvPquFOElqMu9gsGw3ChQ=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/20070/contact_1732089.png?mod=261123-152909"
-      ],
-      "description": "",
-      "features": [],
-      "dateListed": null,
-      "daysOnMarket": 0,
-      "firstSeen": "2026-11-23",
-      "priceHistory": [
-        {
-          "date": "2026-11-23",
-          "priceText": "$4,000,000",
-          "priceLow": 4000000,
-          "priceHigh": 4000000
-        }
-      ],
-      "salesHistory": [],
-      "inspections": [],
-      "agents": [],
-      "zones": [
-        "Linden Park Primary School",
-        "Glenunga International High School"
-      ],
-      "status": "active",
-      "alertKind": null,
-      "lastSeen": "2026-11-23",
-      "origin": "domain",
-      "via": "alerts",
-      "ai": {
-        "summary": "This St Georges residence provides generous family accommodation with 5 bedrooms, 4 bathrooms, and 6 car spaces, listed at $4,000,000. While the high bedroom and bathroom count is ideal for a large family, land size and structural specifics are entirely omitted. At prevailing 6.2% mortgage rates, this represents a substantial capital commitment requiring thorough due diligence.",
-        "pros": [
-          "Five bedrooms ideal for large families",
-          "Four bathrooms minimize morning congestion",
-          "Extensive six-car parking capacity"
-        ],
-        "cons": [
-          "High asking price of $4,000,000",
-          "Land size is not disclosed",
-          "Lacks property description and feature details"
-        ],
-        "fairValueLow": 3600000,
-        "fairValueHigh": 4100000,
-        "verdict": "Worth inspecting",
-        "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:58:38.840Z",
-        "priceText": "$4,000,000"
-      },
-      "imported": true
-    },
-    {
       "id": "2021308697",
       "url": "https://www.domain.com.au/4-leslie-street-glen-osmond-sa-5064-2021308697",
       "headline": null,
@@ -5199,9 +4513,7 @@
       "priceHigh": null,
       "saleMethod": null,
       "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/c67ZSY2TvURTBGV5lXJs5_sIb00=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/21126/contact_1791833.jpeg?mod=261120-144640"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -5250,76 +4562,6 @@
       "imported": true
     },
     {
-      "id": "2021308522",
-      "url": "https://www.domain.com.au/1-fowlers-road-glenunga-sa-5064-2021308522",
-      "headline": null,
-      "address": "1 Fowlers Road, Glenunga",
-      "suburb": "Glenunga",
-      "postcode": null,
-      "lat": -34.9563262,
-      "lng": 138.6409763,
-      "propertyType": null,
-      "bedrooms": 4,
-      "bathrooms": 3,
-      "carspaces": 2,
-      "landArea": null,
-      "buildingArea": null,
-      "priceText": "Contact Agent",
-      "priceLow": null,
-      "priceHigh": null,
-      "saleMethod": null,
-      "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/6YlxiDpYKxJOVNJD5GABSmHyc-o=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/16970/contact_1629325.jpeg?mod=261120-110304"
-      ],
-      "description": "",
-      "features": [],
-      "dateListed": null,
-      "daysOnMarket": 0,
-      "firstSeen": "2026-11-23",
-      "priceHistory": [
-        {
-          "date": "2026-11-23",
-          "priceText": "Contact Agent",
-          "priceLow": null,
-          "priceHigh": null
-        }
-      ],
-      "salesHistory": [],
-      "inspections": [],
-      "agents": [],
-      "zones": [
-        "Linden Park Primary School",
-        "Glenunga International High School"
-      ],
-      "status": "active",
-      "alertKind": null,
-      "lastSeen": "2026-11-23",
-      "origin": "domain",
-      "via": "alerts",
-      "ai": {
-        "summary": "The asking price is not disclosed for this Glenunga residence, which offers a practical 4-bedroom, 3-bathroom, and 2-car configuration. No land size, description, or historical suburb trends are supplied in the listing data. Because price and block specifications are absent, fair value is estimated broadly based on its room count.",
-        "pros": [
-          "Four bedrooms well-suited for families",
-          "Three bathrooms provide ample convenience",
-          "Two car spaces included",
-          "Fresh listing with zero days on market"
-        ],
-        "cons": [
-          "Asking price is not disclosed",
-          "Land size is not provided",
-          "No listing description or features supplied"
-        ],
-        "fairValueLow": 1400000,
-        "fairValueHigh": 1950000,
-        "verdict": "Worth inspecting",
-        "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:58:38.840Z",
-        "priceText": "Contact Agent"
-      },
-      "imported": true
-    },
-    {
       "id": "2021307039",
       "url": "https://www.domain.com.au/lot-806-23-wootoona-terrace-st-georges-sa-5064-2021307039",
       "headline": null,
@@ -5339,9 +4581,7 @@
       "priceHigh": null,
       "saleMethod": "eoi",
       "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/xqB4R36NpKzuuuPlnuVk4eaMJ9g=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/15920/contact_897258.jpeg?mod=261120-121052"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -5408,9 +4648,7 @@
       "priceHigh": null,
       "saleMethod": "eoi",
       "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/xqB4R36NpKzuuuPlnuVk4eaMJ9g=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/15920/contact_897258.jpeg?mod=261120-121052"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -5458,213 +4696,6 @@
       "imported": true
     },
     {
-      "id": "2021305633",
-      "url": "https://www.domain.com.au/31-beatty-street-linden-park-sa-5065-2021305633",
-      "headline": null,
-      "address": "31 Beatty Street, Linden Park",
-      "suburb": "Linden Park",
-      "postcode": null,
-      "lat": -34.9428063,
-      "lng": 138.6440608,
-      "propertyType": null,
-      "bedrooms": 4,
-      "bathrooms": 3,
-      "carspaces": 4,
-      "landArea": null,
-      "buildingArea": null,
-      "priceText": "Best Offers By Mon 23rd Nov @ 3pm USP",
-      "priceLow": null,
-      "priceHigh": null,
-      "saleMethod": null,
-      "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/WaQb30WNjsrFu-BHBU4kzPLSCOg=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/20070/contact_1802914.jpeg?mod=261120-193727"
-      ],
-      "description": "",
-      "features": [],
-      "dateListed": null,
-      "daysOnMarket": 0,
-      "firstSeen": "2026-11-23",
-      "priceHistory": [
-        {
-          "date": "2026-11-23",
-          "priceText": "Best Offers By Mon 23rd Nov @ 3pm USP",
-          "priceLow": null,
-          "priceHigh": null
-        }
-      ],
-      "salesHistory": [],
-      "inspections": [],
-      "agents": [],
-      "zones": [
-        "Linden Park Primary School",
-        "Glenunga International High School"
-      ],
-      "status": "active",
-      "alertKind": null,
-      "lastSeen": "2026-11-23",
-      "origin": "domain",
-      "via": "alerts",
-      "ai": {
-        "summary": "The listing price is not disclosed for this best-offers campaign in Linden Park. The property offers 4 bedrooms, 3 bathrooms, and a notable 4-car capacity near local schools. Specific property features and land area are omitted from the provided information.",
-        "pros": [
-          "Directly located in Linden Park",
-          "Substantial four-car parking capacity",
-          "Generous four-bedroom, three-bathroom layout"
-        ],
-        "cons": [
-          "Asking price is not provided",
-          "No land dimensions are recorded",
-          "High cash rate limits purchasing capacity"
-        ],
-        "fairValueLow": 1600000,
-        "fairValueHigh": 2700000,
-        "verdict": "Worth inspecting",
-        "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:58:38.840Z",
-        "priceText": "Best Offers By Mon 23rd Nov @ 3pm USP"
-      },
-      "imported": true
-    },
-    {
-      "id": "2021304798",
-      "url": "https://www.domain.com.au/6-allinga-avenue-glenside-sa-5065-2021304798",
-      "headline": null,
-      "address": "6 Allinga Avenue, Glenside",
-      "suburb": "Glenside",
-      "postcode": null,
-      "lat": -34.9411223,
-      "lng": 138.6372327,
-      "propertyType": null,
-      "bedrooms": 5,
-      "bathrooms": 3,
-      "carspaces": 2,
-      "landArea": null,
-      "buildingArea": null,
-      "priceText": "Contact Agent",
-      "priceLow": null,
-      "priceHigh": null,
-      "saleMethod": null,
-      "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/wxupNRBjig3H4ljX8tPewj1qTM0=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/6188/contact_1184965.jpeg?mod=261121-092229"
-      ],
-      "description": "",
-      "features": [],
-      "dateListed": null,
-      "daysOnMarket": 0,
-      "firstSeen": "2026-11-23",
-      "priceHistory": [
-        {
-          "date": "2026-11-23",
-          "priceText": "Contact Agent",
-          "priceLow": null,
-          "priceHigh": null
-        }
-      ],
-      "salesHistory": [],
-      "inspections": [],
-      "agents": [],
-      "zones": [
-        "Linden Park Primary School",
-        "Glenunga International High School"
-      ],
-      "status": "active",
-      "alertKind": null,
-      "lastSeen": "2026-11-23",
-      "origin": "domain",
-      "via": "alerts",
-      "ai": {
-        "summary": "Price is not disclosed and buyers must contact the agent for this Glenside listing. It provides substantial accommodation with 5 bedrooms, 3 bathrooms, and 2 car spaces for a large family. Crucial details including land size and property features remain unspecified.",
-        "pros": [
-          "Five bedrooms ideal for large families",
-          "Three bathrooms ease morning routines",
-          "Well positioned in neighbouring Glenside"
-        ],
-        "cons": [
-          "Pricing guidance is not disclosed",
-          "Block size is not provided",
-          "Elevated mortgage rates reduce family budgets"
-        ],
-        "fairValueLow": 1600000,
-        "fairValueHigh": 2800000,
-        "verdict": "Worth inspecting",
-        "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:58:38.840Z",
-        "priceText": "Contact Agent"
-      },
-      "imported": true
-    },
-    {
-      "id": "2021300222",
-      "url": "https://www.domain.com.au/9-hay-road-linden-park-sa-5065-2021300222",
-      "headline": null,
-      "address": "9 Hay Road, Linden Park",
-      "suburb": "Linden Park",
-      "postcode": null,
-      "lat": -34.9468926,
-      "lng": 138.6444525,
-      "propertyType": null,
-      "bedrooms": 5,
-      "bathrooms": 3,
-      "carspaces": 6,
-      "landArea": null,
-      "buildingArea": null,
-      "priceText": "Best offers By 24/11 @5pm (USP)",
-      "priceLow": null,
-      "priceHigh": null,
-      "saleMethod": null,
-      "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/paTAaIeDkRRgURG6HqJod6CiObc=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/15920/contact_1822333.jpeg?mod=261123-132202"
-      ],
-      "description": "",
-      "features": [],
-      "dateListed": null,
-      "daysOnMarket": 0,
-      "firstSeen": "2026-11-23",
-      "priceHistory": [
-        {
-          "date": "2026-11-23",
-          "priceText": "Best offers By 24/11 @5pm (USP)",
-          "priceLow": null,
-          "priceHigh": null
-        }
-      ],
-      "salesHistory": [],
-      "inspections": [],
-      "agents": [],
-      "zones": [
-        "Linden Park Primary School",
-        "Glenunga International High School"
-      ],
-      "status": "active",
-      "alertKind": null,
-      "lastSeen": "2026-11-23",
-      "origin": "domain",
-      "via": "alerts",
-      "ai": {
-        "summary": "Offered via best offers with no disclosed price, this Linden Park property features 5 bedrooms and 3 bathrooms. It stands out with a 6-car capacity, making it practical for larger households with multiple vehicles. Land measurement is absent, requiring verification with the selling agent.",
-        "pros": [
-          "Located directly within Linden Park",
-          "Extensive six-car accommodation",
-          "Substantial five-bedroom floorplan"
-        ],
-        "cons": [
-          "Price guide is completely undisclosed",
-          "Land size is not recorded",
-          "High lending rates restrict borrowing capacity"
-        ],
-        "fairValueLow": 1700000,
-        "fairValueHigh": 3000000,
-        "verdict": "Worth inspecting",
-        "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:58:38.840Z",
-        "priceText": "Best offers By 24/11 @5pm (USP)"
-      },
-      "imported": true
-    },
-    {
       "id": "2021275826",
       "url": "https://www.domain.com.au/3-22-seaforth-avenue-hazelwood-park-sa-5066-2021275826",
       "headline": null,
@@ -5684,9 +4715,7 @@
       "priceHigh": 820000,
       "saleMethod": "privateTreaty",
       "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/mbQkD3pBbd72cJ01Hpg6UCKJ1fI=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/34615/contact_1952136.jpeg?mod=261121-224926"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -5734,75 +4763,6 @@
       "imported": true
     },
     {
-      "id": "2021264828",
-      "url": "https://www.domain.com.au/68-sydney-street-glenunga-sa-5064-2021264828",
-      "headline": null,
-      "address": "68 Sydney Street, Glenunga",
-      "suburb": "Glenunga",
-      "postcode": null,
-      "lat": -34.9469336,
-      "lng": 138.6414638,
-      "propertyType": null,
-      "bedrooms": 4,
-      "bathrooms": 3,
-      "carspaces": 4,
-      "landArea": null,
-      "buildingArea": null,
-      "priceText": "$3,250,000.00 - $3,550,000.00",
-      "priceLow": 3250000,
-      "priceHigh": 3550000,
-      "saleMethod": "privateTreaty",
-      "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/q6taXJUzR2H_kZ2cEcIima1EZK0=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/6748/contact_1771275.jpeg?mod=261122-105232"
-      ],
-      "description": "",
-      "features": [],
-      "dateListed": null,
-      "daysOnMarket": 0,
-      "firstSeen": "2026-11-23",
-      "priceHistory": [
-        {
-          "date": "2026-11-23",
-          "priceText": "$3,250,000.00 - $3,550,000.00",
-          "priceLow": 3250000,
-          "priceHigh": 3550000
-        }
-      ],
-      "salesHistory": [],
-      "inspections": [],
-      "agents": [],
-      "zones": [
-        "Linden Park Primary School",
-        "Glenunga International High School"
-      ],
-      "status": "active",
-      "alertKind": null,
-      "lastSeen": "2026-11-23",
-      "origin": "domain",
-      "via": "alerts",
-      "ai": {
-        "summary": "This substantial four-bedroom, three-bathroom residence in Glenunga is guided between $3,250,000 and $3,550,000. It offers generous accommodation and four car spaces directly within the targeted Glenunga precinct. High interest rates of 6.2% require careful budget assessment given the significant capital outlay.",
-        "pros": [
-          "Prime location directly within Glenunga",
-          "Generous four-bedroom and three-bathroom configuration",
-          "Four dedicated car spaces"
-        ],
-        "cons": [
-          "High price guide exceeding three million dollars",
-          "Land size is not specified in listing",
-          "Higher financing costs in current rate environment"
-        ],
-        "fairValueLow": 3200000,
-        "fairValueHigh": 3550000,
-        "verdict": "Worth inspecting",
-        "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:58:38.840Z",
-        "priceText": "$3,250,000.00 - $3,550,000.00"
-      },
-      "imported": true
-    },
-    {
       "id": "2021262729",
       "url": "https://www.domain.com.au/77-anglesey-avenue-st-georges-sa-5064-2021262729",
       "headline": null,
@@ -5822,9 +4782,7 @@
       "priceHigh": 1450000,
       "saleMethod": "privateTreaty",
       "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/BBbElWH8Vj6e2hV0O1BuJPxffTM=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/20070/contact_1802914.jpeg?mod=261123-110340"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -5890,9 +4848,7 @@
       "priceHigh": null,
       "saleMethod": null,
       "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/ot1659RCTcHilYFxrUgfOMgx-4w=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/35706/contact_1835491.jpeg?mod=261123-164239"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -5959,9 +4915,7 @@
       "priceHigh": 625000,
       "saleMethod": "privateTreaty",
       "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/nK3-YQOXf21dDXMojcf2tjGPYmo=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/35706/contact_1835491.jpeg?mod=261123-122906"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -6028,9 +4982,7 @@
       "priceHigh": null,
       "saleMethod": null,
       "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/76mxQytBkod_YIQv_DxviBcsWVw=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/36379/contact_1887297.jpeg?mod=261118-103255"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -6078,75 +5030,6 @@
       "imported": true
     },
     {
-      "id": "2021219652",
-      "url": "https://www.domain.com.au/58a-hay-road-linden-park-sa-5065-2021219652",
-      "headline": null,
-      "address": "58A Hay Road, Linden Park",
-      "suburb": "Linden Park",
-      "postcode": null,
-      "lat": -34.9472116,
-      "lng": 138.6509755,
-      "propertyType": null,
-      "bedrooms": 4,
-      "bathrooms": 2,
-      "carspaces": 2,
-      "landArea": null,
-      "buildingArea": null,
-      "priceText": "$1,700,000",
-      "priceLow": 1700000,
-      "priceHigh": 1700000,
-      "saleMethod": "privateTreaty",
-      "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/rtuTbk63MAvJrENxN4em47pjK8k=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/20070/contact_1802914.jpeg?mod=261123-110057"
-      ],
-      "description": "",
-      "features": [],
-      "dateListed": null,
-      "daysOnMarket": 0,
-      "firstSeen": "2026-11-23",
-      "priceHistory": [
-        {
-          "date": "2026-11-23",
-          "priceText": "$1,700,000",
-          "priceLow": 1700000,
-          "priceHigh": 1700000
-        }
-      ],
-      "salesHistory": [],
-      "inspections": [],
-      "agents": [],
-      "zones": [
-        "Linden Park Primary School",
-        "Glenunga International High School"
-      ],
-      "status": "active",
-      "alertKind": null,
-      "lastSeen": "2026-11-23",
-      "origin": "domain",
-      "via": "alerts",
-      "ai": {
-        "summary": "This Linden Park home offers a functional 4-bedroom, 2-bathroom configuration suited for family living with an asking price of $1,700,000. No land dimensions are provided in the listing facts, making on-site physical evaluation necessary. Financing this purchase requires managing high annual borrowing costs at a 6.2% mortgage rate.",
-        "pros": [
-          "Desirable Linden Park location",
-          "4 bedrooms ideal for family living",
-          "Two bathrooms and double parking spaces",
-          "Transparent asking price provided"
-        ],
-        "cons": [
-          "Land size is undisclosed",
-          "Significant debt commitment at 6.2% interest"
-        ],
-        "fairValueLow": 1550000,
-        "fairValueHigh": 1750000,
-        "verdict": "Fair",
-        "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:05:14.004Z",
-        "priceText": "$1,700,000"
-      },
-      "imported": true
-    },
-    {
       "id": "2021179492",
       "url": "https://www.domain.com.au/31-lomandra-avenue-glenside-sa-5065-2021179492",
       "headline": null,
@@ -6166,9 +5049,7 @@
       "priceHigh": null,
       "saleMethod": null,
       "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/kdpao-aOQNdLIoKf-r7F8ETKyrQ=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/35706/contact_1835491.jpeg?mod=261123-110233"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -6216,75 +5097,6 @@
       "imported": true
     },
     {
-      "id": "2021178488",
-      "url": "https://www.domain.com.au/12-sherwood-terrace-glen-osmond-sa-5064-2021178488",
-      "headline": null,
-      "address": "12 Sherwood Terrace, Glen Osmond",
-      "suburb": "Glen Osmond",
-      "postcode": null,
-      "lat": -34.9555664,
-      "lng": 138.6554508,
-      "propertyType": null,
-      "bedrooms": 4,
-      "bathrooms": 2,
-      "carspaces": 2,
-      "landArea": null,
-      "buildingArea": null,
-      "priceText": "$2,750,000",
-      "priceLow": 2750000,
-      "priceHigh": 2750000,
-      "saleMethod": "privateTreaty",
-      "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/wxupNRBjig3H4ljX8tPewj1qTM0=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/6188/contact_1184965.jpeg?mod=261121-092229"
-      ],
-      "description": "",
-      "features": [],
-      "dateListed": null,
-      "daysOnMarket": 0,
-      "firstSeen": "2026-11-23",
-      "priceHistory": [
-        {
-          "date": "2026-11-23",
-          "priceText": "$2,750,000",
-          "priceLow": 2750000,
-          "priceHigh": 2750000
-        }
-      ],
-      "salesHistory": [],
-      "inspections": [],
-      "agents": [],
-      "zones": [
-        "Linden Park Primary School",
-        "Glenunga International High School"
-      ],
-      "status": "active",
-      "alertKind": null,
-      "lastSeen": "2026-11-23",
-      "origin": "domain",
-      "via": "alerts",
-      "ai": {
-        "summary": "Located in Glen Osmond, this 4-bedroom, 2-bathroom home is offered at an asking price of $2,750,000. It provides generous room count and double vehicle accommodation for a family, though land size is omitted. At current 6.2% mortgage rates, this represents a major financial undertaking requiring thorough price justification.",
-        "pros": [
-          "Generous 4-bedroom family configuration",
-          "Two bathrooms and two car spaces",
-          "Located in adjacent Glen Osmond"
-        ],
-        "cons": [
-          "High asking price of $2,750,000",
-          "Land size is not disclosed",
-          "Substantial interest burden at 6.2% mortgage rates"
-        ],
-        "fairValueLow": 2400000,
-        "fairValueHigh": 2800000,
-        "verdict": "Fair",
-        "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:05:14.004Z",
-        "priceText": "$2,750,000"
-      },
-      "imported": true
-    },
-    {
       "id": "2021142954",
       "url": "https://www.domain.com.au/404-9-banksia-street-glenside-sa-5065-2021142954",
       "headline": null,
@@ -6304,9 +5116,7 @@
       "priceHigh": 875000,
       "saleMethod": "privateTreaty",
       "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/7Xz_4M6lwmdZVIOe4aYiVqfZECQ=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/35706/contact_1835491.jpeg?mod=261120-114843"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -6354,351 +5164,6 @@
       "imported": true
     },
     {
-      "id": "2021109832",
-      "url": "https://www.domain.com.au/8-verdale-avenue-linden-park-sa-5065-2021109832",
-      "headline": null,
-      "address": "8 Verdale Avenue, Linden Park",
-      "suburb": "Linden Park",
-      "postcode": null,
-      "lat": -34.9399566,
-      "lng": 138.6507956,
-      "propertyType": null,
-      "bedrooms": 4,
-      "bathrooms": 3,
-      "carspaces": 2,
-      "landArea": null,
-      "buildingArea": null,
-      "priceText": "Contact Agent",
-      "priceLow": null,
-      "priceHigh": null,
-      "saleMethod": null,
-      "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/jKicrYyqJIOIOY1sETa1hqiWTTU=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/31405/contact_1720967.jpeg?mod=261120-121447"
-      ],
-      "description": "",
-      "features": [],
-      "dateListed": null,
-      "daysOnMarket": 0,
-      "firstSeen": "2026-11-23",
-      "priceHistory": [
-        {
-          "date": "2026-11-23",
-          "priceText": "Contact Agent",
-          "priceLow": null,
-          "priceHigh": null
-        }
-      ],
-      "salesHistory": [],
-      "inspections": [],
-      "agents": [],
-      "zones": [
-        "Linden Park Primary School",
-        "Glenunga International High School"
-      ],
-      "status": "active",
-      "alertKind": null,
-      "lastSeen": "2026-11-23",
-      "origin": "domain",
-      "via": "alerts",
-      "ai": {
-        "summary": "The asking price is not disclosed for this four-bedroom, three-bathroom property in Linden Park. Without disclosed land size, feature details, or suburb median trends, valuation parameters must remain broad. Given high prevailing mortgage rates of 6.2%, buyers should obtain price guidance before committing resources.",
-        "pros": [
-          "Four bedrooms and three bathrooms",
-          "Two dedicated parking spaces",
-          "Located in Linden Park"
-        ],
-        "cons": [
-          "Asking price is not disclosed",
-          "Land size is not provided",
-          "No property features detailed"
-        ],
-        "fairValueLow": 1400000,
-        "fairValueHigh": 2000000,
-        "verdict": "Worth inspecting",
-        "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:05:14.004Z",
-        "priceText": "Contact Agent"
-      },
-      "imported": true
-    },
-    {
-      "id": "2020791532",
-      "url": "https://www.domain.com.au/41-lomandra-avenue-glenside-sa-5065-2020791532",
-      "headline": null,
-      "address": "41 Lomandra Avenue, Glenside",
-      "suburb": "Glenside",
-      "postcode": null,
-      "lat": -34.9409525,
-      "lng": 138.6287626,
-      "propertyType": null,
-      "bedrooms": 4,
-      "bathrooms": 2,
-      "carspaces": 2,
-      "landArea": null,
-      "buildingArea": null,
-      "priceText": "$1.55m - $1.59m",
-      "priceLow": 1550000,
-      "priceHigh": 1590000,
-      "saleMethod": "privateTreaty",
-      "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/lJcIa_o1YOeb_CVy8VhY3ZoNojg=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/19037/contact_1219035.jpeg?mod=261122-005016"
-      ],
-      "description": "",
-      "features": [],
-      "dateListed": null,
-      "daysOnMarket": 0,
-      "firstSeen": "2026-11-23",
-      "priceHistory": [
-        {
-          "date": "2026-11-23",
-          "priceText": "$1.55m - $1.59m",
-          "priceLow": 1550000,
-          "priceHigh": 1590000
-        }
-      ],
-      "salesHistory": [],
-      "inspections": [],
-      "agents": [],
-      "zones": [
-        "Linden Park Primary School",
-        "Glenunga International High School"
-      ],
-      "status": "active",
-      "alertKind": null,
-      "lastSeen": "2026-11-23",
-      "origin": "domain",
-      "via": "alerts",
-      "ai": {
-        "summary": "This Glenside residence offers four bedrooms, two bathrooms, and double parking with an asking price guide of $1.55m to $1.59m. The transparent price range assists budgeting amid elevated borrowing costs of 6.2%. However, the lack of land dimensions makes direct land-rate comparison impossible.",
-        "pros": [
-          "Clear asking price guide provided",
-          "Four bedrooms suitable for families",
-          "Double car accommodation"
-        ],
-        "cons": [
-          "Land size is not specified",
-          "No detailed features listed",
-          "Mortgage rates remain high at 6.2%"
-        ],
-        "fairValueLow": 1500000,
-        "fairValueHigh": 1650000,
-        "verdict": "Fair",
-        "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:05:14.004Z",
-        "priceText": "$1.55m - $1.59m"
-      },
-      "imported": true
-    },
-    {
-      "id": "2020618331",
-      "url": "https://www.domain.com.au/26-wootoona-terrace-st-georges-sa-5064-2020618331",
-      "headline": null,
-      "address": "26 Wootoona Terrace, St Georges",
-      "suburb": "St Georges",
-      "postcode": null,
-      "lat": -34.9550202,
-      "lng": 138.6481268,
-      "propertyType": null,
-      "bedrooms": 4,
-      "bathrooms": 3,
-      "carspaces": 2,
-      "landArea": null,
-      "buildingArea": null,
-      "priceText": "Contact Agent",
-      "priceLow": null,
-      "priceHigh": null,
-      "saleMethod": null,
-      "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/aWmwl0P26_avr_LiR2pFmr1InZc=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/15920/contact_1822333.jpeg?mod=261123-132043"
-      ],
-      "description": "",
-      "features": [],
-      "dateListed": null,
-      "daysOnMarket": 0,
-      "firstSeen": "2026-11-23",
-      "priceHistory": [
-        {
-          "date": "2026-11-23",
-          "priceText": "Contact Agent",
-          "priceLow": null,
-          "priceHigh": null
-        }
-      ],
-      "salesHistory": [],
-      "inspections": [],
-      "agents": [],
-      "zones": [
-        "Linden Park Primary School",
-        "Glenunga International High School"
-      ],
-      "status": "active",
-      "alertKind": null,
-      "lastSeen": "2026-11-23",
-      "origin": "domain",
-      "via": "alerts",
-      "ai": {
-        "summary": "This four-bedroom, three-bathroom home in St Georges has an undisclosed asking price. With missing lot size figures and absent suburb median trends, valuation requires a cautious and wide estimate. Buyers facing 6.2% interest rates should request price expectations early.",
-        "pros": [
-          "Four bedrooms and three bathrooms",
-          "Two car spaces",
-          "Located in St Georges"
-        ],
-        "cons": [
-          "Asking price is not disclosed",
-          "Land size is not specified",
-          "No interior features documented"
-        ],
-        "fairValueLow": 1500000,
-        "fairValueHigh": 2200000,
-        "verdict": "Worth inspecting",
-        "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:05:14.004Z",
-        "priceText": "Contact Agent"
-      },
-      "imported": true
-    },
-    {
-      "id": "2020960536",
-      "url": "https://www.domain.com.au/2a-austin-crescent-st-georges-sa-5064-2020960536",
-      "headline": null,
-      "address": "2A Austin Crescent, St Georges",
-      "suburb": "St Georges",
-      "postcode": null,
-      "lat": -34.9503815,
-      "lng": 138.6443078,
-      "propertyType": null,
-      "bedrooms": 4,
-      "bathrooms": 2,
-      "carspaces": 4,
-      "landArea": null,
-      "buildingArea": null,
-      "priceText": "Best Offer 1.8m",
-      "priceLow": 1800000,
-      "priceHigh": 1800000,
-      "saleMethod": "privateTreaty",
-      "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/hvMSVnTJUtciQu60se-ae_HGrh0=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/34755/contact_1831609.jpeg?mod=261123-001115"
-      ],
-      "description": "",
-      "features": [],
-      "dateListed": null,
-      "daysOnMarket": 0,
-      "firstSeen": "2026-11-23",
-      "priceHistory": [
-        {
-          "date": "2026-11-23",
-          "priceText": "Best Offer 1.8m",
-          "priceLow": 1800000,
-          "priceHigh": 1800000
-        }
-      ],
-      "salesHistory": [],
-      "inspections": [],
-      "agents": [],
-      "zones": [
-        "Linden Park Primary School",
-        "Glenunga International High School"
-      ],
-      "status": "active",
-      "alertKind": null,
-      "lastSeen": "2026-11-23",
-      "origin": "domain",
-      "via": "alerts",
-      "ai": {
-        "summary": "This St Georges home provides four bedrooms and substantial four-car parking, seeking offers around $1.8m. While vehicle accommodation is generous, no land dimensions or specific features are provided to substantiate the premium. Financing at 6.2% mortgage rates suggests buyers should negotiate carefully.",
-        "pros": [
-          "Generous four-car parking capacity",
-          "Four bedrooms for family living",
-          "Established St Georges location"
-        ],
-        "cons": [
-          "Higher asking guide of $1.8m",
-          "Land size is not disclosed",
-          "Macro financing costs are elevated"
-        ],
-        "fairValueLow": 1650000,
-        "fairValueHigh": 1850000,
-        "verdict": "Fair",
-        "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:05:14.004Z",
-        "priceText": "Best Offer 1.8m"
-      },
-      "imported": true
-    },
-    {
-      "id": "2021266296",
-      "url": "https://www.domain.com.au/2a-kyle-street-glenside-sa-5065-2021266296",
-      "headline": null,
-      "address": "2A Kyle Street, Glenside",
-      "suburb": "Glenside",
-      "postcode": null,
-      "lat": -34.940961,
-      "lng": 138.6389811,
-      "propertyType": null,
-      "bedrooms": 4,
-      "bathrooms": 3,
-      "carspaces": 2,
-      "landArea": null,
-      "buildingArea": null,
-      "priceText": "Price Guide $1,600,000- $1,750,000",
-      "priceLow": 1600000,
-      "priceHigh": 1750000,
-      "saleMethod": "privateTreaty",
-      "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/WKJOfwA6Cr-Ne-apvPmlF_JuSdw=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/32051/contact_1606619.jpeg?mod=261123-171102"
-      ],
-      "description": "",
-      "features": [],
-      "dateListed": null,
-      "daysOnMarket": 0,
-      "firstSeen": "2026-11-23",
-      "priceHistory": [
-        {
-          "date": "2026-11-23",
-          "priceText": "Price Guide $1,600,000- $1,750,000",
-          "priceLow": 1600000,
-          "priceHigh": 1750000
-        }
-      ],
-      "salesHistory": [],
-      "inspections": [],
-      "agents": [],
-      "zones": [
-        "Linden Park Primary School",
-        "Glenunga International High School"
-      ],
-      "status": "active",
-      "alertKind": null,
-      "lastSeen": "2026-11-23",
-      "origin": "domain",
-      "via": "alerts",
-      "ai": {
-        "summary": "Offering four bedrooms and three bathrooms in Glenside, this property carries an asking guide of $1.6m to $1.75m. It features one more bathroom than nearby 41 Lomandra Avenue, which accounts for part of the price premium. The top of the guide demands scrutiny in a 6.2% mortgage rate market.",
-        "pros": [
-          "Four bedrooms and three bathrooms",
-          "Two parking spaces",
-          "Clear asking guide provided"
-        ],
-        "cons": [
-          "Upper guide extends to $1.75m",
-          "Land size is not provided",
-          "Elevated 6.2% mortgage rates"
-        ],
-        "fairValueLow": 1550000,
-        "fairValueHigh": 1750000,
-        "verdict": "Fair",
-        "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:05:14.004Z",
-        "priceText": "Price Guide $1,600,000- $1,750,000"
-      },
-      "imported": true
-    },
-    {
       "id": "2021289142",
       "url": "https://www.domain.com.au/22-cator-street-glenside-sa-5065-2021289142",
       "headline": null,
@@ -6718,9 +5183,7 @@
       "priceHigh": null,
       "saleMethod": null,
       "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/8cGXZ8jVSC_pSqBHlccTQWIpboU=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/31405/contact_1558767.jpeg?mod=261123-181039"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -6787,9 +5250,7 @@
       "priceHigh": null,
       "saleMethod": null,
       "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/Rj6enzzbic6LpS07TP-vGwCq-FI=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/17597/contact_1986914.jpeg?mod=261027-104736"
-      ],
+      "photos": [],
       "description": "",
       "features": [],
       "dateListed": null,
@@ -6833,143 +5294,6 @@
         "model": "gemini-flash-latest",
         "generatedAt": "2026-11-23T13:05:14.004Z",
         "priceText": "Under Contract"
-      },
-      "imported": true
-    },
-    {
-      "id": "2021160302",
-      "url": "https://www.domain.com.au/79-conyngham-street-frewville-sa-5063-2021160302",
-      "headline": null,
-      "address": "79 Conyngham Street, Frewville",
-      "suburb": "Frewville",
-      "postcode": null,
-      "lat": -34.9487488,
-      "lng": 138.6343035,
-      "propertyType": null,
-      "bedrooms": 4,
-      "bathrooms": 3,
-      "carspaces": 2,
-      "landArea": null,
-      "buildingArea": null,
-      "priceText": "$1,399,000 - $1,488,000",
-      "priceLow": 1399000,
-      "priceHigh": 1488000,
-      "saleMethod": "privateTreaty",
-      "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/2pxYwK8E2nBDFvJSvkoSa_1334I=/90x90/filters:format(webp):quality(85)/https://images.domain.com.au/img/29223/contact_1970372.png?mod=261123-172727"
-      ],
-      "description": "",
-      "features": [],
-      "dateListed": null,
-      "daysOnMarket": 0,
-      "firstSeen": "2026-11-23",
-      "priceHistory": [
-        {
-          "date": "2026-11-23",
-          "priceText": "$1,399,000 - $1,488,000",
-          "priceLow": 1399000,
-          "priceHigh": 1488000
-        }
-      ],
-      "salesHistory": [],
-      "inspections": [],
-      "agents": [],
-      "zones": [
-        "Linden Park Primary School",
-        "Glenunga International High School"
-      ],
-      "status": "active",
-      "alertKind": null,
-      "lastSeen": "2026-11-23",
-      "origin": "domain",
-      "via": "alerts",
-      "ai": {
-        "summary": "This four-bedroom, three-bathroom home in Frewville offers ample accommodation suitable for a family near Glenunga International High. The asking guide of $1,399,000 to $1,488,000 aligns with market expectations for large dwellings in this precinct, though land size is unlisted.",
-        "pros": [
-          "Four bedrooms and three bathrooms suit family requirements",
-          "Convenient access to Linden Park and Glenunga schools",
-          "Provides two car spaces"
-        ],
-        "cons": [
-          "Land size is not disclosed",
-          "Requires significant capital outlay amid 6.2 percent borrowing rates"
-        ],
-        "fairValueLow": 1350000,
-        "fairValueHigh": 1500000,
-        "verdict": "Worth inspecting",
-        "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:05:14.004Z",
-        "priceText": "$1,399,000 - $1,488,000"
-      },
-      "imported": true
-    },
-    {
-      "id": "2021343427",
-      "url": "https://www.domain.com.au/22a-sherwood-terrace-glen-osmond-sa-5064-2021343427",
-      "headline": null,
-      "address": "22A Sherwood Terrace, Glen Osmond",
-      "suburb": "Glen Osmond",
-      "postcode": null,
-      "lat": -34.9555664,
-      "lng": 138.6554508,
-      "propertyType": null,
-      "bedrooms": 5,
-      "bathrooms": 3,
-      "carspaces": 2,
-      "landArea": null,
-      "buildingArea": null,
-      "priceText": "Best Offer By Monday 7th December @ 2:00PM",
-      "priceLow": null,
-      "priceHigh": null,
-      "saleMethod": null,
-      "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/aK8K1tXGl85qVMyu-bW3T9otK5M=/720x540/filters:format(webp):quality(85)/2021343427_22_3_261119_052050-w2481-h3508"
-      ],
-      "description": "",
-      "features": [],
-      "dateListed": null,
-      "daysOnMarket": 0,
-      "firstSeen": "2026-11-23",
-      "priceHistory": [
-        {
-          "date": "2026-11-23",
-          "priceText": "Best Offer By Monday 7th December @ 2:00PM",
-          "priceLow": null,
-          "priceHigh": null
-        }
-      ],
-      "salesHistory": [],
-      "inspections": [],
-      "agents": [],
-      "zones": [
-        "Linden Park Primary School",
-        "Glenunga International High School"
-      ],
-      "status": "active",
-      "alertKind": null,
-      "lastSeen": "2026-11-23",
-      "origin": "domain",
-      "via": "alerts",
-      "ai": {
-        "summary": "A large five-bedroom, three-bathroom property in Glen Osmond well-suited to larger families. The asking price is undisclosed and subject to a best-offer campaign, necessitating a wide fair value estimate without land size details.",
-        "pros": [
-          "Generous five-bedroom and three-bathroom accommodation",
-          "Well positioned in Glen Osmond near key schools",
-          "Two car spaces provided"
-        ],
-        "cons": [
-          "Price is not disclosed by the vendor",
-          "Best offer deadline sale method creates price uncertainty",
-          "Land size is not specified"
-        ],
-        "fairValueLow": 1300000,
-        "fairValueHigh": 1800000,
-        "verdict": "Worth inspecting",
-        "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:05:14.004Z",
-        "priceText": "Best Offer By Monday 7th December @ 2:00PM"
       },
       "imported": true
     },
@@ -7043,75 +5367,6 @@
       "imported": true
     },
     {
-      "id": "2021337334",
-      "url": "https://www.domain.com.au/21a-highfield-avenue-st-georges-sa-5064-2021337334",
-      "headline": null,
-      "address": "21A Highfield Avenue, St Georges",
-      "suburb": "St Georges",
-      "postcode": null,
-      "lat": -34.9484466,
-      "lng": 138.6512769,
-      "propertyType": null,
-      "bedrooms": 4,
-      "bathrooms": 3,
-      "carspaces": 2,
-      "landArea": null,
-      "buildingArea": null,
-      "priceText": "$2,250,000-$2,475,000",
-      "priceLow": 2250000,
-      "priceHigh": 2475000,
-      "saleMethod": "privateTreaty",
-      "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/t9I0C6KAZnTWIsLLWNqJGVHbTBw=/720x540/filters:format(webp):quality(85)/2021337334_35_3_261118_010454-w2339-h3308"
-      ],
-      "description": "",
-      "features": [],
-      "dateListed": null,
-      "daysOnMarket": 0,
-      "firstSeen": "2026-11-23",
-      "priceHistory": [
-        {
-          "date": "2026-11-23",
-          "priceText": "$2,250,000-$2,475,000",
-          "priceLow": 2250000,
-          "priceHigh": 2475000
-        }
-      ],
-      "salesHistory": [],
-      "inspections": [],
-      "agents": [],
-      "zones": [
-        "Linden Park Primary School",
-        "Glenunga International High School"
-      ],
-      "status": "active",
-      "alertKind": null,
-      "lastSeen": "2026-11-23",
-      "origin": "domain",
-      "via": "alerts",
-      "ai": {
-        "summary": "This St Georges home offers generous family accommodation with four bedrooms and three bathrooms. The listing does not disclose land size or structural features, requiring further enquiry before committing. At an asking range of $2,250,000 to $2,475,000, it represents a substantial outlay under current 6.2% mortgage rates.",
-        "pros": [
-          "Four bedrooms and three bathrooms",
-          "Two off-street car spaces",
-          "Clear private treaty price guide"
-        ],
-        "cons": [
-          "Land size is not disclosed",
-          "High capital outlay in high-rate environment",
-          "Property type and features are omitted"
-        ],
-        "fairValueLow": 2200000,
-        "fairValueHigh": 2500000,
-        "verdict": "Fair",
-        "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:05:14.004Z",
-        "priceText": "$2,250,000-$2,475,000"
-      },
-      "imported": true
-    },
-    {
       "id": "2021322420",
       "url": "https://www.domain.com.au/4-21-flemington-street-glenside-sa-5065-2021322420",
       "headline": null,
@@ -7177,75 +5432,6 @@
         "model": "gemini-flash-latest",
         "generatedAt": "2026-11-23T13:05:14.004Z",
         "priceText": "$899K — $949K"
-      },
-      "imported": true
-    },
-    {
-      "id": "2021318417",
-      "url": "https://www.domain.com.au/8-gilles-road-glen-osmond-sa-5064-2021318417",
-      "headline": null,
-      "address": "8 Gilles Road, Glen Osmond",
-      "suburb": "Glen Osmond",
-      "postcode": null,
-      "lat": -34.9573033,
-      "lng": 138.6481698,
-      "propertyType": null,
-      "bedrooms": 4,
-      "bathrooms": 2,
-      "carspaces": 5,
-      "landArea": null,
-      "buildingArea": null,
-      "priceText": "Best Offers By 7/12 (USP)",
-      "priceLow": null,
-      "priceHigh": null,
-      "saleMethod": null,
-      "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/nF2MhRIeLeujYVRrw72F1b5GbXQ=/720x540/filters:format(webp):quality(85)/2021318417_18_3_261111_014653-w1932-h2576"
-      ],
-      "description": "",
-      "features": [],
-      "dateListed": null,
-      "daysOnMarket": 0,
-      "firstSeen": "2026-11-23",
-      "priceHistory": [
-        {
-          "date": "2026-11-23",
-          "priceText": "Best Offers By 7/12 (USP)",
-          "priceLow": null,
-          "priceHigh": null
-        }
-      ],
-      "salesHistory": [],
-      "inspections": [],
-      "agents": [],
-      "zones": [
-        "Linden Park Primary School",
-        "Glenunga International High School"
-      ],
-      "status": "active",
-      "alertKind": null,
-      "lastSeen": "2026-11-23",
-      "origin": "domain",
-      "via": "alerts",
-      "ai": {
-        "summary": "The asking price is not disclosed for this Glen Osmond home, which is offered through a best offers campaign closing 7 December. It provides practical family scale with four bedrooms, two bathrooms, and parking for five cars. Because price, land dimensions, and features are omitted, a wide valuation range is warranted.",
-        "pros": [
-          "Four bedrooms suit family requirements",
-          "Substantial parking for five vehicles",
-          "Two full bathrooms"
-        ],
-        "cons": [
-          "Asking price is not disclosed",
-          "Sale by deadline introduces pricing ambiguity",
-          "Land size is omitted from details"
-        ],
-        "fairValueLow": 1300000,
-        "fairValueHigh": 1900000,
-        "verdict": "Worth inspecting",
-        "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:05:14.004Z",
-        "priceText": "Best Offers By 7/12 (USP)"
       },
       "imported": true
     },
@@ -7453,75 +5639,6 @@
         "model": "gemini-flash-latest",
         "generatedAt": "2026-11-23T13:05:14.004Z",
         "priceText": "$890,000 - $960,000"
-      },
-      "imported": true
-    },
-    {
-      "id": "2021237034",
-      "url": "https://www.domain.com.au/1b-hewitt-ave-linden-park-sa-5065-2021237034",
-      "headline": null,
-      "address": "1B Hewitt Ave, Linden Park",
-      "suburb": "Linden Park",
-      "postcode": null,
-      "lat": -34.9477406,
-      "lng": 138.6488417,
-      "propertyType": null,
-      "bedrooms": 4,
-      "bathrooms": 2,
-      "carspaces": 2,
-      "landArea": null,
-      "buildingArea": null,
-      "priceText": "Under Contract",
-      "priceLow": null,
-      "priceHigh": null,
-      "saleMethod": null,
-      "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/DalwFguY_h7ZtdoCiVJvhHDwFDc=/720x540/filters:format(webp):quality(85)/2021237034_30_3_261013_093149-w1500-h1060"
-      ],
-      "description": "",
-      "features": [],
-      "dateListed": null,
-      "daysOnMarket": 0,
-      "firstSeen": "2026-11-23",
-      "priceHistory": [
-        {
-          "date": "2026-11-23",
-          "priceText": "Under Contract",
-          "priceLow": null,
-          "priceHigh": null
-        }
-      ],
-      "salesHistory": [],
-      "inspections": [],
-      "agents": [],
-      "zones": [
-        "Linden Park Primary School",
-        "Glenunga International High School"
-      ],
-      "status": "active",
-      "alertKind": null,
-      "lastSeen": "2026-11-23",
-      "origin": "domain",
-      "via": "alerts",
-      "ai": {
-        "summary": "Well positioned directly in Linden Park, this four-bedroom, two-bathroom residence suits family requirements near Linden Park Primary School. The home is currently under contract, and no asking or sale price is disclosed in the data. With undisclosed land area and pricing, any valuation must remain wide.",
-        "pros": [
-          "Situated in desired suburb of Linden Park",
-          "Four bedrooms offer ample room for families",
-          "Provides two full bathrooms and two car spaces"
-        ],
-        "cons": [
-          "Currently listed as under contract",
-          "Asking price is not disclosed",
-          "Land size is completely omitted"
-        ],
-        "fairValueLow": 1100000,
-        "fairValueHigh": 1850000,
-        "verdict": "Fair",
-        "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:05:14.004Z",
-        "priceText": "Under Contract"
       },
       "imported": true
     },
@@ -7872,75 +5989,6 @@
       "imported": true
     },
     {
-      "id": "2021078637",
-      "url": "https://www.domain.com.au/56-hay-road-linden-park-sa-5065-2021078637",
-      "headline": null,
-      "address": "56 Hay Road, Linden Park",
-      "suburb": "Linden Park",
-      "postcode": null,
-      "lat": -34.9471698,
-      "lng": 138.6507649,
-      "propertyType": null,
-      "bedrooms": 4,
-      "bathrooms": 2,
-      "carspaces": 3,
-      "landArea": null,
-      "buildingArea": null,
-      "priceText": "$1,425,000 - $1,485,000",
-      "priceLow": 1425000,
-      "priceHigh": 1485000,
-      "saleMethod": "privateTreaty",
-      "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/vGNhCuNwUJOMSeh30gKN4wtASgE=/720x540/filters:format(webp):quality(85)/2021078637_22_3_260817_081149-w900-h1273"
-      ],
-      "description": "",
-      "features": [],
-      "dateListed": null,
-      "daysOnMarket": 0,
-      "firstSeen": "2026-11-23",
-      "priceHistory": [
-        {
-          "date": "2026-11-23",
-          "priceText": "$1,425,000 - $1,485,000",
-          "priceLow": 1425000,
-          "priceHigh": 1485000
-        }
-      ],
-      "salesHistory": [],
-      "inspections": [],
-      "agents": [],
-      "zones": [
-        "Linden Park Primary School",
-        "Glenunga International High School"
-      ],
-      "status": "active",
-      "alertKind": null,
-      "lastSeen": "2026-11-23",
-      "origin": "domain",
-      "via": "alerts",
-      "ai": {
-        "summary": "Located directly in Linden Park, this 4-bedroom, 2-bathroom home provides 3 car spaces and is guided at $1,425,000 to $1,485,000. The layout is well-proportioned for family requirements within walking distance of local schooling. At this price point for a 4-bedroom home in Linden Park, it presents an appealing proposition.",
-        "pros": [
-          "Prime Linden Park family location",
-          "4 bedrooms ideal for family living",
-          "Ample parking with 3 car spaces",
-          "Two full bathrooms provided"
-        ],
-        "cons": [
-          "Land size is not specified",
-          "High interest rate environment constrains borrowing"
-        ],
-        "fairValueLow": 1400000,
-        "fairValueHigh": 1520000,
-        "verdict": "Strong value",
-        "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:05:14.004Z",
-        "priceText": "$1,425,000 - $1,485,000"
-      },
-      "imported": true
-    },
-    {
       "id": "2021074117",
       "url": "https://www.domain.com.au/2-135-allinga-avenue-glenunga-sa-5064-2021074117",
       "headline": null,
@@ -8006,76 +6054,6 @@
         "model": "gemini-flash-latest",
         "generatedAt": "2026-11-23T13:05:14.004Z",
         "priceText": "$900,000 - $950,000"
-      },
-      "imported": true
-    },
-    {
-      "id": "2020910852",
-      "url": "https://www.domain.com.au/11-sunnyside-rd-st-georges-sa-5064-2020910852",
-      "headline": null,
-      "address": "11 Sunnyside Rd, St Georges",
-      "suburb": "St Georges",
-      "postcode": null,
-      "lat": -34.9531394,
-      "lng": 138.6521735,
-      "propertyType": null,
-      "bedrooms": 4,
-      "bathrooms": 1,
-      "carspaces": 4,
-      "landArea": null,
-      "buildingArea": null,
-      "priceText": "$1,998,888",
-      "priceLow": 1998888,
-      "priceHigh": 1998888,
-      "saleMethod": "privateTreaty",
-      "auctionDate": null,
-      "photos": [
-        "https://rimh2.domainstatic.com.au/vJPYm0W71CMT2BbY7rnFVhCyOuY=/720x540/filters:format(webp):quality(85)/2020910852_24_3_260611_082710-w900-h1508"
-      ],
-      "description": "",
-      "features": [],
-      "dateListed": null,
-      "daysOnMarket": 0,
-      "firstSeen": "2026-11-23",
-      "priceHistory": [
-        {
-          "date": "2026-11-23",
-          "priceText": "$1,998,888",
-          "priceLow": 1998888,
-          "priceHigh": 1998888
-        }
-      ],
-      "salesHistory": [],
-      "inspections": [],
-      "agents": [],
-      "zones": [
-        "Linden Park Primary School",
-        "Glenunga International High School"
-      ],
-      "status": "active",
-      "alertKind": null,
-      "lastSeen": "2026-11-23",
-      "origin": "domain",
-      "via": "alerts",
-      "ai": {
-        "summary": "Situated in St Georges, this property features 4 bedrooms, 4 car spaces, and an asking price of $1,998,888. While the bedroom count and extensive parking suit family logistics, having only 1 bathroom is a significant operational bottleneck at this price level. Without land size details, the near-$2M price tag appears steep in a 6.2% mortgage environment.",
-        "pros": [
-          "Well-regarded St Georges location",
-          "4 bedrooms accommodate a family",
-          "Generous 4-car parking capacity"
-        ],
-        "cons": [
-          "Only 1 bathroom for four bedrooms",
-          "High asking price near two million",
-          "Land size is not disclosed",
-          "Substantial mortgage costs at current rates"
-        ],
-        "fairValueLow": 1750000,
-        "fairValueHigh": 1920000,
-        "verdict": "Overpriced",
-        "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:05:14.004Z",
-        "priceText": "$1,998,888"
       },
       "imported": true
     },
@@ -8812,7 +6790,25 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "This 4-bedroom, 2-bathroom property in Glenside offers ample accommodation for a family seeking access to nearby Glenunga and Linden Park schools. The asking price is undisclosed and land size is not provided, requiring cautious inquiry. With current mortgage rates at 6.2%, overall borrowing capacity must be carefully weighed against unstated price expectations.",
+        "pros": [
+          "Four bedrooms accommodate family living well",
+          "Two bathrooms and two car spaces",
+          "Convenient Glenside location near key schools"
+        ],
+        "cons": [
+          "Asking price is not disclosed",
+          "Land size is not provided",
+          "Current high interest rates increase holding costs"
+        ],
+        "fairValueLow": 1200000,
+        "fairValueHigh": 1800000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:13:46.340Z",
+        "priceText": "FOR SALE"
+      },
       "imported": true
     },
     {
@@ -8863,7 +6859,25 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "Positioned directly in Linden Park, this 2-bedroom home offers affordable entry into a premium school zone. However, its position along Portrush Road entails significant traffic noise, and the two-bedroom floorplan offers limited space for a growing family. The asking price of $589k to $619k is consistent with entry-level units in the suburb.",
+        "pros": [
+          "Desirable Linden Park school zone address",
+          "Accessible price guide under $620,000",
+          "Two allocated car spaces"
+        ],
+        "cons": [
+          "Located on busy Portrush Road",
+          "Two bedrooms limit family expansion",
+          "Land size not disclosed"
+        ],
+        "fairValueLow": 570000,
+        "fairValueHigh": 620000,
+        "verdict": "Fair",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:13:46.340Z",
+        "priceText": "Offers Close: 25th Nov @ 12pm $589-$619K"
+      },
       "imported": true
     },
     {
@@ -8914,7 +6928,25 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "This Linden Park unit provides an entry-level pathway into the school zone at an advertised guide of $550,000 to $580,000. Tucked away on Collyer Court, it avoids the heavier traffic associated with main roads. However, a single bathroom and one car space may be tight for long-term family utility.",
+        "pros": [
+          "Quiet court setting in Linden Park",
+          "Affordable entry point into school zones",
+          "Price guide clearly disclosed"
+        ],
+        "cons": [
+          "Only two bedrooms and one bathroom",
+          "Single car parking space",
+          "Land size is not provided"
+        ],
+        "fairValueLow": 540000,
+        "fairValueHigh": 590000,
+        "verdict": "Fair",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:13:46.340Z",
+        "priceText": "PRICED TO SELL! $550K - $580k"
+      },
       "imported": true
     },
     {
@@ -8965,7 +6997,25 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "Located on Sydney Street in Glenunga, this three-bedroom home sits right in the heart of the desired high school catchment. The asking range of $1.55m to $1.65m reflects strong demand for standalone dwellings in this pocket. Buyers should note there is only one bathroom and land dimensions are not specified.",
+        "pros": [
+          "Prime Glenunga residential street location",
+          "Three bedrooms suitable for families",
+          "Two off-street car spaces"
+        ],
+        "cons": [
+          "Only one bathroom for three bedrooms",
+          "High price point amid 6.2% mortgage rates",
+          "Land size is not stated"
+        ],
+        "fairValueLow": 1450000,
+        "fairValueHigh": 1650000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:13:46.340Z",
+        "priceText": "$1.55m - $1.65m"
+      },
       "imported": true
     },
     {
@@ -9016,7 +7066,25 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "This Glenside 2-bedroom unit sits adjacent to school zones, offering a manageable footprint close to shopping and transport. The price is not disclosed, so buyers must request agency guidance to assess affordability. Proximity to Portrush Road brings traffic considerations that family buyers must weigh carefully.",
+        "pros": [
+          "Glenside location near school catchments",
+          "Low maintenance two-bedroom configuration"
+        ],
+        "cons": [
+          "Price is not disclosed",
+          "Located on busy Portrush Road",
+          "Only one car park and one bathroom",
+          "Land size is not provided"
+        ],
+        "fairValueLow": 480000,
+        "fairValueHigh": 620000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:13:46.340Z",
+        "priceText": "Contact Agent"
+      },
       "imported": true
     },
     {
@@ -9067,7 +7135,26 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "This two-bedroom, one-bathroom home in St Georges offers an entry into an eastern suburb near target schools, though the asking price is not disclosed. With no land size or property type details provided, caution is warranted regarding its suitability for a family. In a higher interest rate environment with mortgage rates at 6.2%, budgeting requires a wide valuation buffer.",
+        "pros": [
+          "Situated in desirable St Georges suburb.",
+          "Includes dedicated one-car parking.",
+          "Brand new to market with zero days listed."
+        ],
+        "cons": [
+          "Asking price is not disclosed.",
+          "Two bedrooms may be tight for family living.",
+          "Land size and property type are not specified.",
+          "Mortgage rates of 6.2% lift borrowing costs."
+        ],
+        "fairValueLow": 450000,
+        "fairValueHigh": 750000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:13:46.340Z",
+        "priceText": "Contact Agent"
+      },
       "imported": true
     },
     {
@@ -9118,7 +7205,26 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "Priced at $795,000, this two-bedroom residence provides two parking spaces in Fullarton within reach of Linden Park and Glenunga. However, its position on major arterial Glen Osmond Road presents traffic noise and safety considerations for a family. Missing land size and condition data make careful due diligence essential before committing.",
+        "pros": [
+          "Fixed asking price of $795,000 provided.",
+          "Provides two designated vehicle spaces.",
+          "Located in well-regarded suburb of Fullarton."
+        ],
+        "cons": [
+          "Located directly on busy Glen Osmond Road.",
+          "Two bedrooms provide limited family accommodation.",
+          "Land size and building specifications omitted.",
+          "Current 6.2% mortgage rates elevate holding costs."
+        ],
+        "fairValueLow": 680000,
+        "fairValueHigh": 800000,
+        "verdict": "Fair",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:13:46.340Z",
+        "priceText": "$795,000"
+      },
       "imported": true
     }
   ]
