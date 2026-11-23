@@ -1,5 +1,1077 @@
 {
-  "generatedAt": "2026-11-23T10:09:44.925Z",
-  "source": "none",
-  "listings": []
+  "generatedAt": "2026-11-23T12:25:47.338Z",
+  "source": "alerts",
+  "listings": [
+    {
+      "id": "rea-151467608",
+      "url": "https://www.realestate.com.au/property-house-sa-st+georges-151467608",
+      "headline": null,
+      "address": "11 Sunnyside Rd, St Georges",
+      "suburb": "St Georges",
+      "postcode": null,
+      "lat": -34.9531394,
+      "lng": 138.6521735,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 1,
+      "carspaces": 4,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "$1,998,888",
+      "priceLow": 1998888,
+      "priceHigh": 1998888,
+      "saleMethod": "privateTreaty",
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/dff0bcaec405503547da7ee4608a22eb6b7a9820c11d2d84b3dde7ffb434f608/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "$1,998,888",
+          "priceLow": 1998888,
+          "priceHigh": 1998888
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": null,
+      "imported": true
+    },
+    {
+      "id": "rea-121040341",
+      "url": "https://www.realestate.com.au/property-house-sa-beaumont-121040341",
+      "headline": null,
+      "address": "111 Devereux Road, Beaumont",
+      "suburb": "Beaumont",
+      "postcode": null,
+      "lat": -34.9492731,
+      "lng": 138.6533738,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "carspaces": 4,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "$1,150,000 to $1,250,000",
+      "priceLow": 1150000,
+      "priceHigh": 1250000,
+      "saleMethod": "privateTreaty",
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/7f1c3436652abb0f168fa65bff93570636d2c8f35b1757e866b6546ec1a45d33/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "$1,150,000 to $1,250,000",
+          "priceLow": 1150000,
+          "priceHigh": 1250000
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": null,
+      "imported": true
+    },
+    {
+      "id": "rea-151594120",
+      "url": "https://www.realestate.com.au/property-house-sa-glenunga-151594120",
+      "headline": null,
+      "address": "102 Sydney Street, Glenunga",
+      "suburb": "Glenunga",
+      "postcode": null,
+      "lat": -34.9469336,
+      "lng": 138.6414638,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "carspaces": 4,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "Contact Agent",
+      "priceLow": null,
+      "priceHigh": null,
+      "saleMethod": null,
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/44d608c72d8695cfb44068991c845443e8ceceb2d2c655cd027aac6507bf5e6e/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "Contact Agent",
+          "priceLow": null,
+          "priceHigh": null
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": null,
+      "imported": true
+    },
+    {
+      "id": "rea-152566308",
+      "url": "https://www.realestate.com.au/property-house-sa-st+georges-152566308",
+      "headline": null,
+      "address": "528 Portrush Road, St Georges",
+      "suburb": "St Georges",
+      "postcode": null,
+      "lat": -34.9529213,
+      "lng": 138.6434708,
+      "propertyType": "House",
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "carspaces": 2,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "$1,900,000 -$2,090,000",
+      "priceLow": 1900000,
+      "priceHigh": 2090000,
+      "saleMethod": "privateTreaty",
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/6bd612b9d630eca54318c21c9549f9b06a0d2bbe2137cbe479ffb3a41e57ffc7/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "$1,900,000 -$2,090,000",
+          "priceLow": 1900000,
+          "priceHigh": 2090000
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": null,
+      "imported": true
+    },
+    {
+      "id": "rea-152518672",
+      "url": "https://www.realestate.com.au/property-house-sa-linden+park-152518672",
+      "headline": null,
+      "address": "58A Hay Road, Linden Park",
+      "suburb": "Linden Park",
+      "postcode": null,
+      "lat": -34.9472116,
+      "lng": 138.6509755,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "carspaces": 2,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "$1,700,000",
+      "priceLow": 1700000,
+      "priceHigh": 1700000,
+      "saleMethod": "privateTreaty",
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/c6b7c48f1fbe4fb3e8c1dd35cd8beef75eec05752c6a131612d9f4f9d088283d/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "$1,700,000",
+          "priceLow": 1700000,
+          "priceHigh": 1700000
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": null,
+      "imported": true
+    },
+    {
+      "id": "rea-152715572",
+      "url": "https://www.realestate.com.au/property-house-sa-glenside-152715572",
+      "headline": null,
+      "address": "2A Kyle Street, Glenside",
+      "suburb": "Glenside",
+      "postcode": null,
+      "lat": -34.940961,
+      "lng": 138.6389811,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "carspaces": 2,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "Price Guide $1,600,000- $1,750,000",
+      "priceLow": 1600000,
+      "priceHigh": 1750000,
+      "saleMethod": "privateTreaty",
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/fafb397505e27a44095be9e01bf5fe4306d8579d8a5f77376e86cc9512bba642/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "Price Guide $1,600,000- $1,750,000",
+          "priceLow": 1600000,
+          "priceHigh": 1750000
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": null,
+      "imported": true
+    },
+    {
+      "id": "rea-152868080",
+      "url": "https://www.realestate.com.au/property-house-sa-glenunga-152868080",
+      "headline": null,
+      "address": "1 Fowlers Road, Glenunga",
+      "suburb": "Glenunga",
+      "postcode": null,
+      "lat": -34.9563262,
+      "lng": 138.6409763,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "carspaces": 2,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "Contact Agent",
+      "priceLow": null,
+      "priceHigh": null,
+      "saleMethod": null,
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/6bd612b9d630eca54318c21c9549f9b06a0d2bbe2137cbe479ffb3a41e57ffc7/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "Contact Agent",
+          "priceLow": null,
+          "priceHigh": null
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": null,
+      "imported": true
+    },
+    {
+      "id": "rea-152688012",
+      "url": "https://www.realestate.com.au/property-house-sa-glenunga-152688012",
+      "headline": null,
+      "address": "68 Sydney Street, Glenunga",
+      "suburb": "Glenunga",
+      "postcode": null,
+      "lat": -34.9469336,
+      "lng": 138.6414638,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "carspaces": 4,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "$3,250,000.00 - $3,550,000.00",
+      "priceLow": 3250000,
+      "priceHigh": 3550000,
+      "saleMethod": "privateTreaty",
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/382093da41467b62b4208f7e431081fc1e641af10c306331a50e4d78b8e6bdde/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "$3,250,000.00 - $3,550,000.00",
+          "priceLow": 3250000,
+          "priceHigh": 3550000
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": null,
+      "imported": true
+    },
+    {
+      "id": "rea-151008136",
+      "url": "https://www.realestate.com.au/property-house-sa-glenside-151008136",
+      "headline": null,
+      "address": "41 Lomandra Avenue, Glenside",
+      "suburb": "Glenside",
+      "postcode": null,
+      "lat": -34.9409525,
+      "lng": 138.6287626,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "carspaces": 2,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "$1.55m - $1.59m",
+      "priceLow": 1550000,
+      "priceHigh": 1590000,
+      "saleMethod": "privateTreaty",
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/4fc0cde5d784e6b8d48b3901a74fbf5ef77ac561da0539ea78bceef0b85e218b/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "$1.55m - $1.59m",
+          "priceLow": 1550000,
+          "priceHigh": 1590000
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": null,
+      "imported": true
+    },
+    {
+      "id": "rea-152862880",
+      "url": "https://www.realestate.com.au/property-house-sa-st+georges-152862880",
+      "headline": null,
+      "address": "Lot 806/23 Wootoona Terrace, St Georges",
+      "suburb": "St Georges",
+      "postcode": null,
+      "lat": -34.9550202,
+      "lng": 138.6481268,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "carspaces": 2,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "Expressions of Interest",
+      "priceLow": null,
+      "priceHigh": null,
+      "saleMethod": "eoi",
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/5f1e76a24e069c3286ae288d352885c981691ad58741d67c7363221f88cbdf37/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "Expressions of Interest",
+          "priceLow": null,
+          "priceHigh": null
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": null,
+      "imported": true
+    },
+    {
+      "id": "rea-152862116",
+      "url": "https://www.realestate.com.au/property-house-sa-st+georges-152862116",
+      "headline": null,
+      "address": "Lot 800/23 Wootoona Terrace, St Georges",
+      "suburb": "St Georges",
+      "postcode": null,
+      "lat": -34.9550202,
+      "lng": 138.6481268,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "carspaces": 2,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "Expressions of Interest",
+      "priceLow": null,
+      "priceHigh": null,
+      "saleMethod": "eoi",
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/5f1e76a24e069c3286ae288d352885c981691ad58741d67c7363221f88cbdf37/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "Expressions of Interest",
+          "priceLow": null,
+          "priceHigh": null
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": null,
+      "imported": true
+    },
+    {
+      "id": "rea-152698972",
+      "url": "https://www.realestate.com.au/property-house-sa-beaumont-152698972",
+      "headline": null,
+      "address": "2B Bennett Avenue, Beaumont",
+      "suburb": "Beaumont",
+      "postcode": null,
+      "lat": -34.9492753,
+      "lng": 138.6561152,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "carspaces": 5,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "UNDER CONTRACT",
+      "priceLow": null,
+      "priceHigh": null,
+      "saleMethod": null,
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/8548ca49e20d3ed20d6bd6f96c0deb57d27e9bd658b3f1ff59537f5c62984e24/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "UNDER CONTRACT",
+          "priceLow": null,
+          "priceHigh": null
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": null,
+      "imported": true
+    },
+    {
+      "id": "rea-152857632",
+      "url": "https://www.realestate.com.au/property-house-sa-linden+park-152857632",
+      "headline": null,
+      "address": "31 Beatty Street, Linden Park",
+      "suburb": "Linden Park",
+      "postcode": null,
+      "lat": -34.9428063,
+      "lng": 138.6440608,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "carspaces": 4,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "Best Offers By Mon 23rd Nov @ 3pm USP",
+      "priceLow": null,
+      "priceHigh": null,
+      "saleMethod": null,
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/c6b7c48f1fbe4fb3e8c1dd35cd8beef75eec05752c6a131612d9f4f9d088283d/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "Best Offers By Mon 23rd Nov @ 3pm USP",
+          "priceLow": null,
+          "priceHigh": null
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": null,
+      "imported": true
+    },
+    {
+      "id": "rea-152912512",
+      "url": "https://www.realestate.com.au/property-house-sa-st+georges-152912512",
+      "headline": null,
+      "address": "19a Woodcroft Avenue, St Georges",
+      "suburb": "St Georges",
+      "postcode": null,
+      "lat": -34.9518185,
+      "lng": 138.6451918,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "carspaces": 2,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "Contact Agent",
+      "priceLow": null,
+      "priceHigh": null,
+      "saleMethod": null,
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/6794d938d6cf3a62399e26722d3fa7e7b8eb965016c1405747437696a6b2d59a/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "Contact Agent",
+          "priceLow": null,
+          "priceHigh": null
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": null,
+      "imported": true
+    },
+    {
+      "id": "rea-152694772",
+      "url": "https://www.realestate.com.au/property-house-sa-beaumont-152694772",
+      "headline": null,
+      "address": "14 Tennyson Drive, Beaumont",
+      "suburb": "Beaumont",
+      "postcode": null,
+      "lat": -34.9527587,
+      "lng": 138.6566237,
+      "propertyType": "House",
+      "bedrooms": 5,
+      "bathrooms": 2,
+      "carspaces": 2,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "$2.65M — $2.85M",
+      "priceLow": 2650000,
+      "priceHigh": 2850000,
+      "saleMethod": "privateTreaty",
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/6091715b39c1fa2d75b7950b4c31025856909ddf657724f5e2a73b03f5361f8c/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "$2.65M — $2.85M",
+          "priceLow": 2650000,
+          "priceHigh": 2850000
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": null,
+      "imported": true
+    },
+    {
+      "id": "rea-150353352",
+      "url": "https://www.realestate.com.au/property-house-sa-st+georges-150353352",
+      "headline": null,
+      "address": "26 Wootoona Terrace, St Georges",
+      "suburb": "St Georges",
+      "postcode": null,
+      "lat": -34.9550202,
+      "lng": 138.6481268,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "carspaces": 2,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "Contact Agent",
+      "priceLow": null,
+      "priceHigh": null,
+      "saleMethod": null,
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/937ce01039e5ca3a5dc807550db99273c0e4a82720fe55bd6942245edede3888/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "Contact Agent",
+          "priceLow": null,
+          "priceHigh": null
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": null,
+      "imported": true
+    },
+    {
+      "id": "rea-152904728",
+      "url": "https://www.realestate.com.au/property-house-sa-glen+osmond-152904728",
+      "headline": null,
+      "address": "8 Gilles Road, Glen Osmond",
+      "suburb": "Glen Osmond",
+      "postcode": null,
+      "lat": -34.9573033,
+      "lng": 138.6481698,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "carspaces": 5,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "Best Offers By 7/12 (USP)",
+      "priceLow": null,
+      "priceHigh": null,
+      "saleMethod": null,
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/4b6bdcc383067798c726991bacf0fb0475e30f66df15010bb24d0509a6d43e1b/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "Best Offers By 7/12 (USP)",
+          "priceLow": null,
+          "priceHigh": null
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": null,
+      "imported": true
+    },
+    {
+      "id": "rea-152908704",
+      "url": "https://www.realestate.com.au/property-house-sa-beaumont-152908704",
+      "headline": null,
+      "address": "16 Vansittart Place, Beaumont",
+      "suburb": "Beaumont",
+      "postcode": null,
+      "lat": -34.9459385,
+      "lng": 138.6585984,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "carspaces": 2,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "Best Offers By 30/11 (USP)",
+      "priceLow": null,
+      "priceHigh": null,
+      "saleMethod": null,
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/fc0cac0b9368aa7247766c4f03eac1ba249be2b5fe8a86bf0fe2a5611cb0678d/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "Best Offers By 30/11 (USP)",
+          "priceLow": null,
+          "priceHigh": null
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": null,
+      "imported": true
+    },
+    {
+      "id": "rea-152992812",
+      "url": "https://www.realestate.com.au/property-house-sa-linden+park-152992812",
+      "headline": null,
+      "address": "17 Jellicoe Street, Linden Park",
+      "suburb": "Linden Park",
+      "postcode": null,
+      "lat": -34.9401719,
+      "lng": 138.646014,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "carspaces": 2,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "Auction Fri 4 Dec",
+      "priceLow": null,
+      "priceHigh": null,
+      "saleMethod": "auction",
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/c6b7c48f1fbe4fb3e8c1dd35cd8beef75eec05752c6a131612d9f4f9d088283d/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "Auction Fri 4 Dec",
+          "priceLow": null,
+          "priceHigh": null
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": null,
+      "imported": true
+    },
+    {
+      "id": "rea-152991004",
+      "url": "https://www.realestate.com.au/property-house-sa-glen+osmond-152991004",
+      "headline": null,
+      "address": "22A Sherwood Terrace, Glen Osmond",
+      "suburb": "Glen Osmond",
+      "postcode": null,
+      "lat": -34.9555664,
+      "lng": 138.6554508,
+      "propertyType": "House",
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "carspaces": 2,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "Best Offer By Monday 7th December @ 2:00PM",
+      "priceLow": null,
+      "priceHigh": null,
+      "saleMethod": null,
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/2e89931807703652ab0d67638d7b8074fea71c5ac27411aa8e149187bbc3a1e7/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "Best Offer By Monday 7th December @ 2:00PM",
+          "priceLow": null,
+          "priceHigh": null
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": null,
+      "imported": true
+    },
+    {
+      "id": "rea-152837632",
+      "url": "https://www.realestate.com.au/property-house-sa-linden+park-152837632",
+      "headline": null,
+      "address": "9 Hay Road, Linden Park",
+      "suburb": "Linden Park",
+      "postcode": null,
+      "lat": -34.9468926,
+      "lng": 138.6444525,
+      "propertyType": "House",
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "carspaces": 6,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "Best offers By 24/11 @5pm (USP)",
+      "priceLow": null,
+      "priceHigh": null,
+      "saleMethod": null,
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/937ce01039e5ca3a5dc807550db99273c0e4a82720fe55bd6942245edede3888/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "Best offers By 24/11 @5pm (USP)",
+          "priceLow": null,
+          "priceHigh": null
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": null,
+      "imported": true
+    }
+  ]
 }
