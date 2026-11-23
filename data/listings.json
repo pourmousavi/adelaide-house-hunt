@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T12:32:34.542Z",
+  "generatedAt": "2026-11-23T12:45:38.941Z",
   "source": "alerts",
   "listings": [
     {
@@ -2689,6 +2689,555 @@
         "model": "gemini-flash-latest",
         "generatedAt": "2026-11-23T12:32:34.542Z",
         "priceText": "BEST OFFER BY TUESDAY 8TH DECEMBER AT 2:00PM (USP)"
+      },
+      "imported": true
+    },
+    {
+      "id": "rea-152755040",
+      "url": "https://www.realestate.com.au/property-house-sa-glen+osmond-152755040",
+      "headline": null,
+      "address": "6 Allawah Avenue, Glen Osmond",
+      "suburb": "Glen Osmond",
+      "postcode": null,
+      "lat": -34.960984,
+      "lng": 138.6433106,
+      "propertyType": "House",
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "carspaces": 2,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "$1,500,000 - $1,590,000",
+      "priceLow": 1500000,
+      "priceHigh": 1590000,
+      "saleMethod": "privateTreaty",
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/5f98975db7b57cacf53f096149c92d25d09813623a5415c9165db793786b52fa/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "$1,500,000 - $1,590,000",
+          "priceLow": 1500000,
+          "priceHigh": 1590000
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "This five-bedroom, three-bathroom home in Glen Osmond offers generous accommodation for family living within the school zones. The asking price is clearly guided between $1,500,000 and $1,590,000, although land size and feature details are omitted. In the current 6.2% mortgage rate environment, it presents a practical option for larger households.",
+        "pros": [
+          "Five bedrooms ideal for growing families",
+          "Three bathrooms provide ample convenience",
+          "Secure double parking space included"
+        ],
+        "cons": [
+          "Block size is not disclosed",
+          "Interior condition and features are unspecified",
+          "Higher interest rates elevate repayment costs"
+        ],
+        "fairValueLow": 1450000,
+        "fairValueHigh": 1600000,
+        "verdict": "Fair",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:45:38.941Z",
+        "priceText": "$1,500,000 - $1,590,000"
+      },
+      "imported": true
+    },
+    {
+      "id": "rea-152179888",
+      "url": "https://www.realestate.com.au/property-house-sa-linden+park-152179888",
+      "headline": null,
+      "address": "8 Verdale Avenue, Linden Park",
+      "suburb": "Linden Park",
+      "postcode": null,
+      "lat": -34.9399566,
+      "lng": 138.6507956,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "carspaces": 2,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "Contact Agent",
+      "priceLow": null,
+      "priceHigh": null,
+      "saleMethod": null,
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/65fe4eaa5957a668149391f18cfb4fd75457854f9a213909377859debee08afb/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "Contact Agent",
+          "priceLow": null,
+          "priceHigh": null
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "The property is situated directly in Linden Park and offers four bedrooms and three bathrooms for family buyers. The asking price is not disclosed by the agent, requiring a broad valuation estimate based on the room count and suburb. With missing land size data, prospective buyers must perform thorough due diligence before committing.",
+        "pros": [
+          "Desirable Linden Park school catchment location",
+          "Four bedrooms suited to family requirements",
+          "Three bathrooms avoid morning congestion"
+        ],
+        "cons": [
+          "Price guide is not disclosed",
+          "Land area is completely omitted",
+          "No feature or condition information provided"
+        ],
+        "fairValueLow": 1400000,
+        "fairValueHigh": 1900000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:45:38.941Z",
+        "priceText": "Contact Agent"
+      },
+      "imported": true
+    },
+    {
+      "id": "rea-152322024",
+      "url": "https://www.realestate.com.au/property-house-sa-linden+park-152322024",
+      "headline": null,
+      "address": "49 Devereux Road, Linden Park",
+      "suburb": "Linden Park",
+      "postcode": null,
+      "lat": -34.9443507,
+      "lng": 138.6515408,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "carspaces": 2,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "Auction Mon 30 Nov",
+      "priceLow": null,
+      "priceHigh": null,
+      "saleMethod": "auction",
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/7d52a82c9c5289bdaa84c050c5d53816f6705d949c1a701466a657626a07c749/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "Auction Mon 30 Nov",
+          "priceLow": null,
+          "priceHigh": null
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "Positioned on Devereux Road in Linden Park, this four-bedroom house sits in immediate proximity to local schooling. The property is scheduled for auction with no price guide disclosed, requiring a cautious wide fair value range. Without land dimensions or descriptive details, the exact value proposition will depend on auction conditions.",
+        "pros": [
+          "Prime location within Linden Park",
+          "Four-bedroom layout fits typical family needs",
+          "Two car spaces provided"
+        ],
+        "cons": [
+          "Price guide is withheld for auction",
+          "Land measurement is not provided",
+          "Auction terms remove cooling-off flexibility"
+        ],
+        "fairValueLow": 1350000,
+        "fairValueHigh": 1850000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:45:38.941Z",
+        "priceText": "Auction Mon 30 Nov"
+      },
+      "imported": true
+    },
+    {
+      "id": "rea-151988620",
+      "url": "https://www.realestate.com.au/property-house-sa-st+georges-151988620",
+      "headline": null,
+      "address": "32A Wootoona Terrace, St Georges",
+      "suburb": "St Georges",
+      "postcode": null,
+      "lat": -34.9550202,
+      "lng": 138.6481268,
+      "propertyType": "House",
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "carspaces": 6,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "$4,000,000",
+      "priceLow": 4000000,
+      "priceHigh": 4000000,
+      "saleMethod": "privateTreaty",
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/7d52a82c9c5289bdaa84c050c5d53816f6705d949c1a701466a657626a07c749/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "$4,000,000",
+          "priceLow": 4000000,
+          "priceHigh": 4000000
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "This St Georges home offers a substantial five-bedroom, four-bathroom layout with extensive six-car parking. At a fixed asking price of $4,000,000, it sits at the high end of the local market where a 6.2% borrowing rate implies substantial holding costs. Crucial land size figures and specific feature details are not supplied in the listing.",
+        "pros": [
+          "Extensive five-bedroom, four-bathroom accommodation",
+          "Exceptional six-car vehicle capacity",
+          "Prestigious St Georges location near schools"
+        ],
+        "cons": [
+          "High $4,000,000 purchase price point",
+          "Total land area is unlisted",
+          "Specific architectural features are omitted"
+        ],
+        "fairValueLow": 3700000,
+        "fairValueHigh": 4100000,
+        "verdict": "Fair",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:45:38.941Z",
+        "priceText": "$4,000,000"
+      },
+      "imported": true
+    },
+    {
+      "id": "rea-147011308",
+      "url": "https://www.realestate.com.au/property-house-sa-beaumont-147011308",
+      "headline": null,
+      "address": "63 Dashwood Road, Beaumont",
+      "suburb": "Beaumont",
+      "postcode": null,
+      "lat": -34.9505014,
+      "lng": 138.662802,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "carspaces": 6,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "$2.1m",
+      "priceLow": 2100000,
+      "priceHigh": 2100000,
+      "saleMethod": "privateTreaty",
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/d595b4480e748e34e0d1c8e5e3dd2c0588d0a08057b4cac560561fd99c035fb3/main.png"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "$2.1m",
+          "priceLow": 2100000,
+          "priceHigh": 2100000
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "Located in Beaumont, this four-bedroom home offers three bathrooms and parking for up to six vehicles. The asking price is set at $2,100,000, but no land size or interior descriptions are provided to justify the pricing tier. Families will appreciate the generous room count and vehicle accommodation close to school catchments.",
+        "pros": [
+          "Substantial six-car parking capacity",
+          "Four bedrooms and three bathrooms",
+          "Close to eastern suburbs school network"
+        ],
+        "cons": [
+          "Land size is completely unspecified",
+          "No property features or descriptions provided",
+          "Substantial $2,100,000 capital outlay required"
+        ],
+        "fairValueLow": 1900000,
+        "fairValueHigh": 2150000,
+        "verdict": "Fair",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:45:38.941Z",
+        "priceText": "$2.1m"
+      },
+      "imported": true
+    },
+    {
+      "id": "rea-152442804",
+      "url": "https://www.realestate.com.au/property-house-sa-beaumont-152442804",
+      "headline": null,
+      "address": "12A Adnunda Place, Beaumont",
+      "suburb": "Beaumont",
+      "postcode": null,
+      "lat": -34.9460693,
+      "lng": 138.6561859,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "carspaces": 2,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "Contact Agent",
+      "priceLow": null,
+      "priceHigh": null,
+      "saleMethod": null,
+      "auctionDate": null,
+      "photos": [],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "Contact Agent",
+          "priceLow": null,
+          "priceHigh": null
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "The asking price is not disclosed for this 4-bedroom, 3-bathroom house in Beaumont. Without land size, property description, or historical suburb trends provided, precise valuation is difficult amid 6.2% mortgage rates. The family-friendly layout in Beaumont makes it worth pursuing further details.",
+        "pros": [
+          "Four bedrooms and three bathrooms",
+          "Two dedicated car spaces",
+          "Beaumont location near eastern schools"
+        ],
+        "cons": [
+          "Asking price is not disclosed",
+          "Land size is not specified",
+          "No suburb trend data available",
+          "High 6.2% mortgage interest rates"
+        ],
+        "fairValueLow": 1300000,
+        "fairValueHigh": 2300000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:45:38.941Z",
+        "priceText": "Contact Agent"
+      },
+      "imported": true
+    },
+    {
+      "id": "rea-152442800",
+      "url": "https://www.realestate.com.au/property-house-sa-beaumont-152442800",
+      "headline": null,
+      "address": "10A Adnunda Place, Beaumont",
+      "suburb": "Beaumont",
+      "postcode": null,
+      "lat": -34.9460693,
+      "lng": 138.6561859,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "carspaces": 2,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "Contact Agent",
+      "priceLow": null,
+      "priceHigh": null,
+      "saleMethod": null,
+      "auctionDate": null,
+      "photos": [],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "Contact Agent",
+          "priceLow": null,
+          "priceHigh": null
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "This listing offers a 4-bedroom, 3-bathroom house in Beaumont with undisclosed pricing. Critical information including land area and property features is omitted from the listing data. Given the desirable Beaumont location near target schools, direct inspection is necessary to assess true value.",
+        "pros": [
+          "Four bedrooms suit family living",
+          "Three bathrooms prevent morning bottlenecks",
+          "Beaumont location close to schools"
+        ],
+        "cons": [
+          "Asking price is not disclosed",
+          "Land size is omitted",
+          "No suburb median trend data",
+          "Macro mortgage rate headwinds"
+        ],
+        "fairValueLow": 1300000,
+        "fairValueHigh": 2300000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:45:38.941Z",
+        "priceText": "Contact Agent"
+      },
+      "imported": true
+    },
+    {
+      "id": "rea-152040976",
+      "url": "https://www.realestate.com.au/property-other-sa-frewville-152040976",
+      "headline": null,
+      "address": "7A Avenue Road, Frewville",
+      "suburb": "Frewville",
+      "postcode": null,
+      "lat": -34.9486188,
+      "lng": 138.6305535,
+      "propertyType": null,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "carspaces": 4,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "Contact Agent",
+      "priceLow": null,
+      "priceHigh": null,
+      "saleMethod": null,
+      "auctionDate": null,
+      "photos": [],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "Contact Agent",
+          "priceLow": null,
+          "priceHigh": null
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "The property provides 4 bedrooms, 3 bathrooms, and 4 car spaces in Frewville, but the asking price is not disclosed. Property type and allotment size are also absent from the data. Its prime positioning near Glenunga International High School justifies inspection despite the lack of initial data.",
+        "pros": [
+          "Four car parking spaces",
+          "Four bedrooms and three bathrooms",
+          "Frewville location adjacent to Glenunga"
+        ],
+        "cons": [
+          "Asking price is not disclosed",
+          "Property type and land unspecified",
+          "No suburb trend data provided",
+          "High borrowing costs at 6.2%"
+        ],
+        "fairValueLow": 1200000,
+        "fairValueHigh": 2200000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:45:38.941Z",
+        "priceText": "Contact Agent"
       },
       "imported": true
     }
