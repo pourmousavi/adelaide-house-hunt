@@ -207,7 +207,7 @@ async function chat(token, system, user) {
   const r = await fetch(AI_URL, {
     method: "POST",
     headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
-    body: JSON.stringify({ model: MODEL, temperature: 0.3, max_tokens: 3000, response_format: { type: "json_object" },
+    body: JSON.stringify({ model: MODEL, temperature: 0.3, max_tokens: 8000, // Gemini 2.5 spends part of this on hidden thinking; 3000 cut replies off mid-JSON response_format: { type: "json_object" },
       messages: [{ role: "system", content: system }, { role: "user", content: JSON.stringify(user) }] }),
     signal: AbortSignal.timeout(90000),
   });
@@ -233,9 +233,9 @@ async function aiListingsStep(listingsRes, macro, token) {
   if (!todo.length) return console.log("  no listings need analysis");
   const byId = new Map(file0.listings.map((l) => [l.id, l]));
   let done = 0;
-  try {
-    for (let i = 0; i < todo.length && i / AI_BATCH < AI_MAX_REQUESTS; i += AI_BATCH) {
-      const batch = todo.slice(i, i + AI_BATCH);
+  for (let i = 0; i < todo.length && i / AI_BATCH < AI_MAX_REQUESTS; i += AI_BATCH) {
+    const batch = todo.slice(i, i + AI_BATCH);
+    try {
       const res = await chat(token, LISTING_SYSTEM, {
         macro: macroBrief(macro),
         listings: batch.map((l) => ({
@@ -250,10 +250,10 @@ async function aiListingsStep(listingsRes, macro, token) {
         const ai = l && L.cleanAi(r, { model: MODEL, priceText: l.priceText, now: nowIso });
         if (ai) { l.ai = ai; done++; }
       }
+    } catch (e) {
+      if (e instanceof AiUnavailable) { warn(`${e.message}; keeping previous AI values`); break; }
+      warn(`AI listings batch ${i / AI_BATCH + 1}: ${e.message}`); // a bad reply only loses its own batch
     }
-  } catch (e) {
-    if (!(e instanceof AiUnavailable)) warn(`AI listings: ${e.message}`);
-    else warn(`${e.message}; keeping previous AI values`);
   }
   if (done) writeJson("listings.json", { ...file0, listings: file0.listings });
   console.log(`  AI analysed ${done}/${todo.length} listings`);
