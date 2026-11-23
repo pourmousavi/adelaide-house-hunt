@@ -5,6 +5,7 @@ import { readFileSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import * as L from "./lib.mjs";
+import { suburbKey } from "../assets/estimate.js";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const DATA = join(ROOT, "data");
@@ -221,7 +222,7 @@ async function chat(token, system, user) {
 }
 
 const trend = (suburbs, l) => {
-  const rows = suburbs?.[`${l.suburb}|${l.postcode}`]?.[/unit|apartment/i.test(l.propertyType ?? "") ? "unit" : "house"] ?? [];
+  const rows = suburbs?.[suburbKey(l, suburbs)]?.[/unit|apartment/i.test(l.propertyType ?? "") ? "unit" : "house"] ?? [];
   return rows.slice(-6).map((r) => ({ year: r.year, median: r.median, sales: r.sales }));
 };
 const macroBrief = (m) => m && {

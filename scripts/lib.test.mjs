@@ -296,3 +296,11 @@ test("isAgentPhoto spots headshots, not house photos", () => {
   assert.ok(L.isAgentPhoto("https://rimh2.domainstatic.com.au/a=/90x90/filters:q/https://images.domain.com.au/img/1/contact_1.jpeg"));
   assert.ok(!L.isAgentPhoto("https://i2.au.reastatic.net/800x600-resize,extend/x/image.jpg"));
 });
+
+test("needsAi re-runs analyses made with older inputs", () => {
+  const base = { status: "active", priceText: "$1m" };
+  assert.equal(L.needsAi({ ...base, ai: { priceText: "$1m" } }), true); // pre-version analysis
+  const ai = L.cleanAi({ summary: "s", verdict: "Fair" }, { model: "m", priceText: "$1m", now: "t" });
+  assert.equal(L.needsAi({ ...base, ai }), false);
+  assert.equal(L.needsAi({ ...base, priceText: "$1.1m", ai }), true);
+});

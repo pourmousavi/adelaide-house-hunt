@@ -493,8 +493,10 @@ export function mergeAlertListings(prev, fresh, today, outside = new Set(), keep
 
 export const VERDICTS = ["Worth inspecting", "Fair", "Overpriced", "Strong value"];
 
-// Listings that need (re)analysis: new, or asking price text changed since the last analysis.
-export const needsAi = (l) => l.status !== "removed" && (!l.ai || l.ai.priceText !== l.priceText);
+// Bump to re-run every analysis on the next fetches (2: inputs now include the suburb trend for postcode-less listings).
+export const AI_INPUT_VERSION = 2;
+// Listings that need (re)analysis: new, asking price text changed, or analysed with older inputs.
+export const needsAi = (l) => l.status !== "removed" && (!l.ai || l.ai.priceText !== l.priceText || (l.ai.inputVersion ?? 1) < AI_INPUT_VERSION);
 
 export function parseJsonLoose(text) {
   const t = String(text).trim().replace(/^```(?:json)?\s*/i, "").replace(/\s*```$/, "");
@@ -512,6 +514,7 @@ export function cleanAi(r, { model, priceText, now }) {
     fairValueLow: num(r.fairValueLow), fairValueHigh: num(r.fairValueHigh),
     verdict: r.verdict, model, generatedAt: now,
     priceText, // which asking price this analysis was for (additive field, used to detect changes)
+    inputVersion: AI_INPUT_VERSION,
   };
 }
 
