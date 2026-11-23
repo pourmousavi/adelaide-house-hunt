@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T10:10:51.775Z",
+  "generatedAt": "2026-11-23T10:11:50.313Z",
   "items": [
     {
       "title": "Enough with your whining, Jim, just put out the fire",
@@ -276,17 +276,6 @@
       "importance": 2
     },
     {
-      "title": "RBA Rate Hike November 2026: Home Loan Announcements",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9nSkp5S002SDNPVlNEeVFhR1psMzBJdEs1XzM4RHp0QUNYcmVaYkVvVkpfWlNJall3NEQ3WG93VXB4WFpPOVE2a2ZfVDZVcENqM3VUU0s4SE1rNlJvNTVoS253?oc=5",
-      "source": "Savings.com.au",
-      "date": "2026-11-20T08:00:00.000Z",
-      "category": "rba",
-      "topics": [
-        "rates"
-      ],
-      "importance": 2
-    },
-    {
       "title": "Australia’s unemployment rate hits a five-year high. Has the RBA finally finished raising interest rates?",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWWZ2Z0NtMElYdGdhM0VpT2NEZmJ6dWlPdzRJOWVFVnNTbGQzc1JmVDdKbDQ1MzBLY1pRbTV2dzdMZzdobzdmekxHcWJGVk8xR0NVamhkakh3Uzdxa2lZS0RZbVJBSTBpMzJjRDhqcXhkRVZwWG83NzFTdTFiVDdoeFFRMlFjLXN4VndIUVU5MzBEU1lCTXczZWFwSmZNdTZlc1Y1Z2h0ZE0tUExwUmNRWnJ5ZUdKRzBJdXFWbTVpTjJ0ZkZHb1czaEc0WjFNZw?oc=5",
       "source": "Property Update",
@@ -428,6 +417,18 @@
         "housing"
       ],
       "importance": 0.75
+    },
+    {
+      "title": "Adelaide housing market update [video] | November 2026",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNXJtNmpWN0tBS2FvUk9uTThsNkhGdVlRQUpFcXJyWWN0a2R2TF9PZjNkal96Y0UxMTI0QUNLd1BpazR3YmRUQVJMYTR1bDJGS2ZYN3BSUTk3ODJ2RG9EWi15ZnpsX2hNaUFHcnZnWlhxRkY5ZHluQ29scjNyclpJWg?oc=5",
+      "source": "Property Update",
+      "date": "2026-11-15T08:00:00.000Z",
+      "category": "adelaide",
+      "topics": [
+        "housing",
+        "adelaide"
+      ],
+      "importance": 1.25
     }
   ]
 }
