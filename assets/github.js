@@ -13,7 +13,8 @@ function headers(token) {
 async function gh(path, token, init = {}) {
   let res;
   try {
-    res = await fetch(`${API}${path}`, { ...init, headers: { ...headers(token), ...(init.headers || {}) } });
+    // no-store: the browser otherwise reuses GitHub's GET answer for 60 s, and a stale sha makes the next save fail with 409
+    res = await fetch(`${API}${path}`, { cache: 'no-store', ...init, headers: { ...headers(token), ...(init.headers || {}) } });
   } catch {
     throw new Error('Could not reach api.github.com (offline?)');
   }
@@ -42,6 +43,20 @@ export function putFile(repo, token, path, text, { sha, message }) {
     method: 'PUT',
     body: JSON.stringify({ message, content: encodeB64(text), sha: sha || undefined, branch: 'main' }),
   });
+}
+
+// Read a JSON file, change it with update(current) -> { data, message, ...extra } (or null to skip), write it back.
+// Re-reads and retries when someone else saved in between (409), e.g. the data pipeline or another tab.
+export async function updateJson(repo, token, path, fallback, update) {
+  for (let attempt = 1; ; attempt++) {
+    let current = fallback, sha = null;
+    try { const f = await getFile(repo, token, path); sha = f.sha; current = JSON.parse(f.content); }
+    catch (e) { if (!/ 404/.test(e.message)) throw e; }
+    const r = update(current);
+    if (!r) return null;
+    try { await putFile(repo, token, path, `${JSON.stringify(r.data, null, 2)}\n`, { sha, message: r.message }); return r; }
+    catch (e) { if (!/ 409/.test(e.message) || attempt >= 3) throw e; }
+  }
 }
 
 export function encodeB64(str) {

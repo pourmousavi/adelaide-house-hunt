@@ -5,7 +5,7 @@ import { h, icon, relTime, daysSince, toast } from './util.js';
 import { filterListings, sortListings, renderCard, renderFilters, observeCharts, activeFilterCount, SORT_OPTIONS } from './listings.js';
 import { renderMacroStrip, renderNewsStrip, emptyState, renderOutlook, renderFinancePage, renderAreas, renderSettings, renderMore } from './views.js';
 import { createMap } from './map.js';
-import { getFile, putFile, dispatchFetch } from './github.js';
+import { getFile, putFile, updateJson, dispatchFetch } from './github.js';
 import { mergeImport } from './bookmarklet.js';
 
 const $ = (sel, el = document) => el.querySelector(sel);
@@ -201,10 +201,10 @@ function renderImportPanel() {
     if (!gh.token) { status.replaceChildren('Importing needs the GitHub token. Save it in ', h('a', { href: '#settings', text: 'Settings' }), ', then click the bookmarklet again.'); return; }
     e.currentTarget.disabled = true; status.textContent = 'Saving…';
     try {
-      let list = [], sha = null;
-      try { const file = await getFile(gh.repo, gh.token, 'data/manual.json'); sha = file.sha; list = JSON.parse(file.content); } catch (err) { if (!/404/.test(err.message)) throw err; }
-      const r = mergeImport(list, imp.items, new Date().toISOString().slice(0, 10));
-      await putFile(gh.repo, gh.token, 'data/manual.json', `${JSON.stringify(r.list, null, 2)}\n`, { sha, message: `Import ${r.added} new, ${r.updated} updated listings from ${imp.from}` });
+      const r = await updateJson(gh.repo, gh.token, 'data/manual.json', [], (list) => {
+        const m = mergeImport(list, imp.items, new Date().toISOString().slice(0, 10));
+        return { ...m, data: m.list, message: `Import ${m.added} new, ${m.updated} updated listings from ${imp.from}` };
+      });
       let note = `Imported: ${r.added} new, ${r.updated} updated${r.skipped ? `, ${r.skipped} skipped` : ''}.`;
       try { await dispatchFetch(gh.repo, gh.token); note += ' A fetch has started; those inside your zones appear in a few minutes.'; }
       catch (err) { note += ` They appear after the next scheduled fetch (could not start one: ${err.message}).`; }
@@ -248,13 +248,13 @@ function renderAddListing() {
     const btn = form.querySelector('button[type=submit]');
     btn.disabled = true; status.textContent = 'Saving…';
     try {
-      let list = [], sha = null;
-      try { const file = await getFile(gh.repo, gh.token, 'data/manual.json'); sha = file.sha; list = JSON.parse(file.content); } catch (err) { if (!/404/.test(err.message)) throw err; }
       const key = listingKey(url);
-      if (list.some((m) => listingKey(m.url) === key)) { status.textContent = 'That listing is already added.'; return; }
-      list.push({ url: url.split(/[?#]/)[0], address, priceText: f['al-price'].trim() || null,
-        beds: f['al-beds'] || null, baths: f['al-baths'] || null, cars: f['al-cars'] || null, addedAt: new Date().toISOString().slice(0, 10) });
-      await putFile(gh.repo, gh.token, 'data/manual.json', `${JSON.stringify(list, null, 2)}\n`, { sha, message: `Add listing by hand: ${address}` });
+      const saved = await updateJson(gh.repo, gh.token, 'data/manual.json', [], (list) => (list.some((m) => listingKey(m.url) === key) ? null : {
+        data: [...list, { url: url.split(/[?#]/)[0], address, priceText: f['al-price'].trim() || null,
+          beds: f['al-beds'] || null, baths: f['al-baths'] || null, cars: f['al-cars'] || null, addedAt: new Date().toISOString().slice(0, 10) }],
+        message: `Add listing by hand: ${address}`,
+      }));
+      if (!saved) { status.textContent = 'That listing is already added.'; return; }
       let note = `Added ${address}.`;
       try { await dispatchFetch(gh.repo, gh.token); note += ' A fetch has started; it appears in the list in a few minutes.'; }
       catch (err) { note += ` It appears after the next scheduled fetch (could not start one now: ${err.message}).`; }
