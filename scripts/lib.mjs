@@ -429,9 +429,40 @@ export function manualToAlertItem(m, today) {
     suburb: a?.suburb ?? u.suburb ?? null, postcode: a?.postcode ?? address.match(/\b(5\d{3})\b/)?.[1] ?? null,
     propertyType: u.propertyType, priceText: m.priceText?.trim() || null,
     beds: n(m.beds), baths: n(m.baths), cars: n(m.cars),
-    image: m.image ?? null,
+    image: m.image && !isAgentPhoto(m.image) ? m.image : null,
     firstSeen: m.addedAt ?? today, lastSeen: m.via === "bookmarklet" ? (m.seenAt ?? m.addedAt ?? today) : today, alertKind: null,
   };
+}
+
+// Agent headshots that the first bookmarklet version picked up instead of the house photo.
+// Square thumbnails are headshots; house photos are 4:3 or 3:2.
+export const isAgentPhoto = (u) => /contact_\d+|gravity=north|\/(\d{2,3})x\1[/-]/i.test(String(u ?? ""));
+
+// "528 Portrush Road, St Georges SA 5064" and "528 Portrush Rd, St Georges" -> "528 portrush rd st georges"
+const STREET_ABBR = { street: "st", road: "rd", avenue: "ave", av: "ave", terrace: "tce", drive: "dr", place: "pl", court: "ct", crescent: "cres", parade: "pde", lane: "ln", highway: "hwy", grove: "gr", close: "cl", boulevard: "bvd", circuit: "cct", square: "sq" };
+export const addressKey = (a) => String(a ?? "").toLowerCase()
+  .replace(/,?\s*(sa|south australia)?\s*\d{4}\s*$/, "").replace(/[^a-z0-9/ ]+/g, " ")
+  .split(/\s+/).filter(Boolean).map((w) => STREET_ABBR[w] ?? w).join(" ");
+
+// The same home listed on both portals (different ids): keep one card. realestate.com.au's copy is kept
+// (so its id, shortlist and AI stay stable) and gaps are filled from the other; the other's link goes in `alsoAt`.
+// Returns { listings, dropped } where dropped are the ids folded into another listing.
+export function dedupeByAddress(listings) {
+  const byKey = new Map(), dropped = new Set(), out = [];
+  const rank = (l) => (l.origin === "rea" ? 0 : 1);
+  for (const l of [...listings].sort((a, b) => rank(a) - rank(b))) {
+    const k = addressKey(l.address);
+    const keep = k && /^\S*\d/.test(k) ? byKey.get(k) : null; // only street-numbered addresses are matched
+    if (!keep) { if (k) byKey.set(k, l); out.push(l); continue; }
+    for (const f of ["priceText", "priceLow", "priceHigh", "saleMethod", "propertyType", "bedrooms", "bathrooms", "carspaces", "lat", "lng", "postcode"]) keep[f] ??= l[f];
+    if (!keep.photos?.length && l.photos?.length) keep.photos = l.photos;
+    if (l.sold && !keep.sold) Object.assign(keep, { sold: true, status: "removed", removedDate: l.removedDate });
+    if (l.firstSeen && (!keep.firstSeen || l.firstSeen < keep.firstSeen)) keep.firstSeen = l.firstSeen;
+    keep.ai ??= l.ai;
+    keep.alsoAt = [...(keep.alsoAt ?? []).filter((x) => x.url !== l.url), { origin: l.origin, url: l.url }];
+    dropped.add(l.id);
+  }
+  return { listings: out, dropped };
 }
 
 export const inExtraSuburbs = (l, areas) =>

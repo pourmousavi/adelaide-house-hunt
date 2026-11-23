@@ -179,8 +179,11 @@ async function alertsStep(areas, geojson) {
     // hand-added (manual) listings stay even outside the zones
     if (l.manual || L.zoneMatches(l.zones, zones, areas.zoneMatch) || L.inExtraSuburbs(l, areas)) fresh.push(l); else outside.add(l.id);
   }
-  const merged = L.mergeAlertListings(prev, fresh, today, outside);
-  console.log(`  alerts: ${raw.length} in worker, ${manual.length} from manual.json, ${fresh.length} inside zones, ${outside.size} outside, ${unlocated} not located, ${called} geocoded, ${merged.length} kept`);
+  // same home on both portals -> one listing; the folded copy is treated like "outside" so it is not kept from prev
+  const { listings: unique, dropped } = L.dedupeByAddress(fresh);
+  dropped.forEach((id) => outside.add(id));
+  const merged = L.dedupeByAddress(L.mergeAlertListings(prev, unique, today, outside)).listings;
+  console.log(`  alerts: ${raw.length} in worker, ${manual.length} from manual.json, ${unique.length} inside zones (${dropped.size} cross-site duplicates merged), ${outside.size - dropped.size} outside, ${unlocated} not located, ${called} geocoded, ${merged.length} kept`);
   return merged;
 }
 

@@ -342,7 +342,9 @@ function buildDetails(l, ctx) {
     ),
   ))) : h('p', { class: 'muted', text: 'No agent details.' })));
 
-  if (l.url) out.push(h('p', { class: 'dsec' }, h('a', { class: 'btn btn-secondary', href: l.url, target: '_blank', rel: 'noopener noreferrer' }, 'View original listing', icon('external'))));
+  const site = (o, url) => (o === 'rea' || /realestate\.com\.au/.test(url) ? 'realestate.com.au' : o === 'domain' || /domain\.com\.au/.test(url) ? 'Domain' : 'original listing');
+  const links = [l.url && { url: l.url, origin: l.origin }, ...(l.alsoAt || [])].filter((x) => x?.url);
+  if (links.length) out.push(h('p', { class: 'dsec row-wrap' }, links.map((x) => h('a', { class: 'btn btn-secondary', href: x.url, target: '_blank', rel: 'noopener noreferrer' }, `View on ${site(x.origin, x.url)}`, icon('external')))));
 
   out.push(section('AI analysis', l.ai ? aiBlock(l) : h('p', { class: 'muted', text: 'Not analysed yet. The analysis runs on the next data fetch.' })));
   out.push(section('Finance', financeMini(l, ctx)));

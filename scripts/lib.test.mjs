@@ -277,3 +277,22 @@ test("manualToAlertItem: bookmarklet imports expire 60 days after the last impor
   assert.deepEqual([i.lastSeen, i.firstSeen, i.image], ["2026-10-01", "2026-09-01", "https://x/1.jpg"]);
   assert.equal(L.manualToAlertItem({ ...m, seenAt: "2026-09-01" }, "2026-11-23"), null);
 });
+
+test("dedupeByAddress folds the Domain copy of a realestate.com.au listing into it", () => {
+  const rea = { id: "rea-1", origin: "rea", url: "https://www.realestate.com.au/property-house-sa-st+georges-1", address: "528 Portrush Road, St Georges", propertyType: "House", priceText: "$1.9m", bedrooms: 5, photos: [], ai: null, firstSeen: "2026-11-23" };
+  const dom = { id: "2021221626", origin: "domain", url: "https://www.domain.com.au/528-portrush-road-st-georges-sa-5064-2021221626", address: "528 Portrush Rd, St Georges SA 5064", propertyType: null, postcode: "5064", photos: ["https://x/house.jpg"], ai: { verdict: "Fair" }, firstSeen: "2026-11-20" };
+  const other = { id: "rea-2", origin: "rea", address: "12 Portrush Road, St Georges", photos: [] };
+  const { listings, dropped } = L.dedupeByAddress([dom, rea, other]);
+  assert.deepEqual(listings.map((l) => l.id), ["rea-1", "rea-2"]);
+  assert.deepEqual([...dropped], ["2021221626"]);
+  const k = listings[0];
+  assert.deepEqual([k.propertyType, k.postcode, k.photos[0], k.ai.verdict, k.firstSeen], ["House", "5064", "https://x/house.jpg", "Fair", "2026-11-20"]);
+  assert.equal(k.alsoAt[0].url, dom.url);
+  assert.equal(L.dedupeByAddress([{ id: "a", address: "Address on request, Beaumont" }, { id: "b", address: "Address on request, Beaumont" }]).listings.length, 2, "no street number: never merged");
+});
+
+test("isAgentPhoto spots headshots, not house photos", () => {
+  assert.ok(L.isAgentPhoto("https://i2.au.reastatic.net/200x200-crop,gravity=north/x/main.jpg"));
+  assert.ok(L.isAgentPhoto("https://rimh2.domainstatic.com.au/a=/90x90/filters:q/https://images.domain.com.au/img/1/contact_1.jpeg"));
+  assert.ok(!L.isAgentPhoto("https://i2.au.reastatic.net/800x600-resize,extend/x/image.jpg"));
+});

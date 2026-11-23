@@ -35,7 +35,11 @@ export function grab(APP) {
     const priceText = shortest(texts, (t) => PRICE.test(t) && !ADDR.test(t) && !/\b(bed|bath|car|parking|m²|sqm)/i.test(t));
     const feat = [...labels, ...texts].join(' | ');
     const num = (re) => { const m = feat.match(re); return m ? +m[1] : null; };
-    const img = [...card.querySelectorAll('img')].map((i) => i.currentSrc || i.src).find((s) => /^https:/.test(s) && !/logo|agent|avatar|\.svg/i.test(s));
+    // the house photo = the biggest non-square picture; agent headshots and logos are small and square-ish
+    const img = [...card.querySelectorAll('img')]
+      .map((i) => ({ src: i.currentSrc || i.src, w: i.naturalWidth || i.width, h: i.naturalHeight || i.height }))
+      .filter((i) => /^https:/.test(i.src) && !/logo|agent|avatar|contact_\d|gravity=north|\.svg/i.test(i.src) && !/\/(\d{2,3})x\1[/-]/.test(i.src) && !(i.w && i.h && Math.abs(i.w - i.h) < 0.1 * i.w))
+      .sort((a, b) => b.w * b.h - a.w * a.h)[0]?.src;
     items.push({
       url: a.href.split(/[?#]/)[0], address, priceText,
       beds: num(/(\d+)\s*(?:beds?|bedrooms?)(?![a-z])/i), baths: num(/(\d+)\s*(?:baths?|bathrooms?)(?![a-z])/i),
