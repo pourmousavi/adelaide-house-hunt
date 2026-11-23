@@ -342,7 +342,11 @@ input::placeholder, textarea::placeholder { color: var(--ink-3); opacity: 1; }
 .seg-item:has(input:checked) { background: var(--paper); color: var(--ink); box-shadow: var(--shadow-sm); }
 .seg-item input { position: absolute; opacity: 0; width: 1px; height: 1px; }
 .seg-item:has(input:focus-visible) { outline: 2px solid var(--accent); outline-offset: 1px; }
-.result-summary { margin: 0 0 12px; }
+.result-summary { margin: 0 0 12px; display: grid; gap: 8px; }
+.filter-chips { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.chip-filter { display: inline-flex; align-items: center; gap: 4px; border: 1px solid var(--line-strong); color: var(--ink); cursor: pointer; font: inherit; font-size: 12.5px; min-height: 28px; }
+.chip-filter .icon { width: 12px; height: 12px; }
+@media (hover: hover) { .chip-filter:hover { border-color: var(--ink-3); } }
 .cards { display: grid; gap: 16px; container-type: inline-size; }
 
 /* ---------- card ---------- */

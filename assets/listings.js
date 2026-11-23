@@ -471,10 +471,18 @@ export function renderFilters(root, prefs, onChange, { typeOptions = Object.keys
   }
 }
 
-export function activeFilterCount(prefs) {
-  let n = 0;
-  if (prefs.minBeds) n++; if (prefs.minBaths) n++; if (prefs.minCars) n++;
-  if (prefs.maxPrice) n++; if (prefs.minLand) n++;
-  if (prefs.types?.length) n++; if (prefs.mustHave?.length) n++;
-  return n;
+// Active filters as removable chips: { label, clear } where clear is the prefs patch that removes it.
+export function activeFilters(prefs) {
+  const out = [];
+  const add = (on, label, clear) => on && out.push({ label, clear });
+  add(prefs.minBeds, `${prefs.minBeds}+ beds`, { minBeds: 0 });
+  add(prefs.minBaths, `${prefs.minBaths}+ baths`, { minBaths: 0 });
+  add(prefs.minCars, `${prefs.minCars}+ cars`, { minCars: 0 });
+  add(prefs.maxPrice, `Up to ${fmtMoney(prefs.maxPrice)}`, { maxPrice: null });
+  add(prefs.minLand, `Land ${fmtNum(prefs.minLand)} m²+`, { minLand: null });
+  add(prefs.types?.length, (prefs.types || []).map((t) => TYPE_LABELS[t] || t).join(', '), { types: [] });
+  for (const k of prefs.mustHave || []) add(k, `Has "${k}"`, { mustHave: prefs.mustHave.filter((x) => x !== k) });
+  return out;
 }
+
+export const activeFilterCount = (prefs) => activeFilters(prefs).length;

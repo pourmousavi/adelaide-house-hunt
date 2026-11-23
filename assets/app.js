@@ -2,7 +2,7 @@
 import { loadAll, loadZones, latestGeneratedAt, applyZonesLocally, IS_FIXTURES } from './data.js';
 import * as store from './store.js';
 import { h, icon, relTime, daysSince, toast } from './util.js';
-import { filterListings, sortListings, renderCard, renderFilters, observeCharts, activeFilterCount, SORT_OPTIONS } from './listings.js';
+import { filterListings, sortListings, renderCard, renderFilters, observeCharts, activeFilterCount, activeFilters, SORT_OPTIONS } from './listings.js';
 import { renderMacroStrip, renderNewsStrip, emptyState, renderOutlook, renderFinancePage, renderAreas, renderSettings, renderMore } from './views.js';
 import { createMap } from './map.js';
 import { getFile, putFile, updateJson, dispatchFetch } from './github.js';
@@ -156,7 +156,13 @@ function renderListings() {
     h('div', { class: 'toolbar-right' }, h('label', { for: 'sort', class: 'muted small', text: 'Sort' }), sortSel),
   );
   const zoneNote = state.areas.zones?.length ? `${state.areas.zoneMatch === 'any' ? 'in any of' : 'inside all of'}: ${state.areas.zones.join(', ')}` : 'no zone filter';
-  const summary = h('p', { class: 'result-summary muted small' }, view === 'all' ? `${visible.length} of ${all.length} listings · ${zoneNote}` : view === 'shortlist' ? `${visible.length} shortlisted` : `${visible.length} hidden`);
+  const filters = view === 'all' ? activeFilters(state.prefs) : [];
+  const summary = h('div', { class: 'result-summary' },
+    h('p', { class: 'muted small' }, view === 'all' ? `${visible.length} of ${all.length} listings · ${zoneNote}` : view === 'shortlist' ? `${visible.length} shortlisted` : `${visible.length} hidden`),
+    filters.length > 0 && h('div', { class: 'filter-chips', role: 'group', 'aria-label': 'Active filters' },
+      h('span', { class: 'small muted', text: 'Filtered by:' }),
+      filters.map((f) => h('button', { type: 'button', class: 'chip chip-filter', 'aria-label': `Remove filter ${f.label}`, onclick: () => setPrefs(f.clear) }, f.label, icon('x'))),
+      filters.length > 1 && h('button', { type: 'button', class: 'btn btn-ghost btn-sm', onclick: () => setPrefs({ ...store.DEFAULT_PREFS, sort: state.prefs.sort, view, notes: state.prefs.notes }) }, 'Clear all')));
   if (!visible.length) {
     const msg = view === 'shortlist' ? ['Nothing shortlisted yet', 'Tap Shortlist on a listing to keep it here.']
       : view === 'hidden' ? ['No hidden listings', 'Hide a listing to move it out of the main list.']
