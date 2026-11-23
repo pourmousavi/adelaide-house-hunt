@@ -5720,24 +5720,24 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "This Glenunga property offers a family-friendly layout of three bedrooms, two bathrooms, and two car spaces near Glenunga International High School. The disclosed asking range of $890,000 to $960,000 provides clear budget expectations amid 6.2% mortgage rates. However, specific land dimensions and property classification are omitted from the listing.",
+        "summary": "This 3-bedroom, 2-bathroom residence offers an accessible entry point into the coveted Glenunga school catchment. The asking range of $890,000 to $960,000 sits substantially below the suburb's detached median of over $1.7M, reflecting its unit format. With two dedicated parking spaces and a practical layout, it represents a viable family alternative in a high-demand suburb.",
         "pros": [
-          "Located in target Glenunga school catchment",
-          "Disclosed price guide between $890,000 and $960,000",
-          "Practical layout with three bedrooms and two bathrooms",
-          "Two car parking spaces included"
+          "Located within prime Glenunga school zones",
+          "Functional 3-bedroom, 2-bathroom layout",
+          "Two car spaces provided",
+          "Priced significantly below Glenunga suburb median"
         ],
         "cons": [
-          "Land size is not disclosed",
-          "Unit numbering suggests community or strata title",
-          "Mortgage rates of 6.2% tighten family budgets"
+          "Unit title implies shared strata property",
+          "Land size is not disclosed"
         ],
         "fairValueLow": 880000,
         "fairValueHigh": 970000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:05:14.004Z",
-        "priceText": "$890,000 - $960,000"
+        "generatedAt": "2026-11-23T19:59:14.159Z",
+        "priceText": "$890,000 - $960,000",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -5790,23 +5790,23 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "This three-bedroom, two-bathroom home sits on Glenunga Avenue within easy reach of the local high school. It is already marked under contract, restricting immediate purchase opportunities. Because no pricing or land metrics are provided, fair value is estimated broadly.",
+        "summary": "The property is listed as under contract with no asking price disclosed. It offers a family-friendly configuration of 3 bedrooms, 2 bathrooms, and 2 parking spaces in prime Glenunga. Because it is already under contract, active negotiation is currently limited unless the existing contract lapses.",
         "pros": [
-          "Prime Glenunga address near target schools",
-          "Three bedrooms and two bathrooms suit family living",
-          "Includes two off-street parking spots"
+          "Sought-after Glenunga family address",
+          "Accommodating 3 beds, 2 baths, and 2 cars"
         ],
         "cons": [
-          "Property is already under contract",
-          "Price is undisclosed in the listing",
-          "Total land area is not provided"
+          "Already under contract",
+          "Price is not disclosed",
+          "Land size is unspecified"
         ],
-        "fairValueLow": 950000,
-        "fairValueHigh": 1600000,
+        "fairValueLow": 1300000,
+        "fairValueHigh": 1850000,
         "verdict": "Fair",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:05:14.004Z",
-        "priceText": "Under Contract"
+        "generatedAt": "2026-11-23T19:59:14.159Z",
+        "priceText": "Under Contract",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -5859,23 +5859,24 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "Positioned in Frewville adjacent to Glenunga, this home features two bedrooms, one bathroom, and an extensive five parking spaces. The $695,000 to $750,000 price guide provides an accessible entry point near eastern suburb schools. Nonetheless, the two-bedroom capacity may be limiting for an expanding family.",
+        "summary": "Positioned in neighboring Frewville, this 2-bedroom unit is quoted at $695,000 to $750,000 with an unusually generous 5-car accommodation. The asking price is well below Frewville's median house prices, making it budget-friendly for the area. However, the 2-bedroom, 1-bathroom footprint will feel tight for most growing families.",
         "pros": [
-          "Accessible price guide of $695,000 to $750,000",
-          "Exceptional parking capacity with five car spaces",
-          "Close proximity to Glenunga school zone"
+          "Affordable entry into the eastern suburbs",
+          "Extensive 5-car parking capacity",
+          "Proximity to Glenunga facilities and shopping"
         ],
         "cons": [
-          "Only two bedrooms may constrain family living",
-          "Single bathroom configuration",
-          "Land size is not specified"
+          "Only 2 bedrooms and 1 bathroom",
+          "Unit title setting with shared grounds",
+          "Land size is not disclosed"
         ],
-        "fairValueLow": 690000,
+        "fairValueLow": 680000,
         "fairValueHigh": 760000,
-        "verdict": "Worth inspecting",
+        "verdict": "Fair",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:05:14.004Z",
-        "priceText": "$695,000 - $750,000"
+        "generatedAt": "2026-11-23T19:59:14.159Z",
+        "priceText": "$695,000 - $750,000",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -5928,23 +5929,24 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "Located in St Georges near both Linden Park Primary and Glenunga International High, this home offers three bedrooms, two bathrooms, and two car spots. The price is withheld behind a contact agent status, reducing transparency for buyers managing 6.2% mortgage rates. Without disclosed land size or pricing, fair value must be viewed with a wide margin.",
+        "summary": "Price is not disclosed for this 3-bedroom, 2-bathroom home in prestigious St Georges. St Georges consistently records median sales above $2.0M, reflecting strong sustained demand in the area. Given the absence of pricing and land measurements, fair value is estimated across a wide range consistent with the suburb trend.",
         "pros": [
-          "Desirable St Georges setting near school zones",
-          "Three bedrooms and two bathrooms suit families",
-          "Accommodates two vehicles"
+          "Desirable St Georges location near premier schools",
+          "Solid 3-bedroom, 2-bathroom family layout",
+          "Includes two car spaces"
         ],
         "cons": [
-          "Price is undisclosed by the vendor",
-          "Land area is not documented",
-          "Current 6.2% mortgage rates demand cautious borrowing"
+          "Price is not disclosed",
+          "Land size is unspecified",
+          "High suburb median indicates premium price expectations"
         ],
-        "fairValueLow": 950000,
-        "fairValueHigh": 1700000,
+        "fairValueLow": 1650000,
+        "fairValueHigh": 2200000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:05:14.004Z",
-        "priceText": "contact agent"
+        "generatedAt": "2026-11-23T19:59:14.159Z",
+        "priceText": "contact agent",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -5997,24 +5999,24 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "The asking price is not disclosed for this 2-bedroom, 1-bathroom Glenunga unit being sold via best offers. While located in a prime school zone suburb, the compact footprint may prove tight for family living. Fair value is estimated with a wide range due to the absence of disclosed pricing and land area.",
+        "summary": "The price is not disclosed, with the property being offered via a best-offers campaign. As a 2-bedroom, 1-bathroom unit with single parking, it offers an economical pathway into Glenunga schooling zones. However, the compact floorplan and single bathroom may present practical limitations for family living.",
         "pros": [
-          "Located in Glenunga near target schools",
-          "Low-maintenance 2-bedroom footprint",
-          "Includes dedicated single car space"
+          "Zoned directly in Glenunga",
+          "Low-maintenance entry into an elite catchment"
         ],
         "cons": [
-          "Price is not disclosed by agent",
-          "Only 1 bathroom for the home",
-          "Two bedrooms may limit family usability",
-          "Land size is not specified"
+          "Price is not disclosed",
+          "Only two bedrooms and one bathroom",
+          "Single car space available",
+          "Land size is unspecified"
         ],
         "fairValueLow": 550000,
-        "fairValueHigh": 750000,
+        "fairValueHigh": 720000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:05:14.004Z",
-        "priceText": "Best Offers by 1/12/26 12pm USP"
+        "generatedAt": "2026-11-23T19:59:14.159Z",
+        "priceText": "Best Offers by 1/12/26 12pm USP",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -6067,23 +6069,24 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "This St Georges home offers a functional 3-bedroom, 2-bathroom configuration with an asking range of $1,350,000 to $1,485,000. It sits in a high-demand suburb adjacent to Glenunga and Linden Park, making it practical for school access. However, it only provides parking for one car, and land dimensions are not specified.",
+        "summary": "This 3-bedroom, 2-bathroom home is asking $1,350,000 to $1,485,000, which sits comfortably below the St Georges median of over $2,000,000. However, land size and property type are undisclosed, and parking is limited to a single vehicle. In a 6.2% mortgage rate environment, it offers an accessible entry point to the area if the parcel meets family needs.",
         "pros": [
-          "Convenient St Georges location",
-          "Functional 3-bedroom and 2-bathroom layout",
-          "Clear asking price guide provided"
+          "Asking price sits well below suburb median",
+          "Provides 3 bedrooms and 2 bathrooms",
+          "Located in high-demand St Georges"
         ],
         "cons": [
-          "Only 1 car parking space",
-          "Land size is not disclosed",
-          "Current 6.2% mortgage rates elevate repayments"
+          "Only one car space provided",
+          "Land size and property type undisclosed",
+          "High interest rates limit borrowing capacity"
         ],
         "fairValueLow": 1350000,
         "fairValueHigh": 1500000,
-        "verdict": "Fair",
+        "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:05:14.004Z",
-        "priceText": "$1,350,000 - $1,485,000"
+        "generatedAt": "2026-11-23T19:59:14.159Z",
+        "priceText": "$1,350,000 - $1,485,000",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -6136,23 +6139,24 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "This Glenunga property provides 3 bedrooms, 2 bathrooms, and 2 parking spaces with a defined price guide of $900,000 to $950,000. It offers an attainable entry point into the Glenunga school precinct for a family needing multiple bedrooms and bathrooms. As a unit dwelling, overall parcel size is not stated.",
+        "summary": "Priced between $900,000 and $950,000, this 3-bedroom, 2-bathroom unit provides an affordable entry into Glenunga compared to the suburb median of over $1.7M. The unit title and lack of land data suggest strata living rather than a standalone house. It is a practical school-zone prospect for families comfortable with medium-density living.",
         "pros": [
-          "Glenunga address close to key schools",
-          "3 bedrooms and 2 bathrooms layout",
-          "Dedicated parking for 2 vehicles",
-          "Accessible sub-million dollar price guide"
+          "Sub-$1M entry into Glenunga school zones",
+          "Three bedrooms and two bathrooms",
+          "Two allocated car spaces"
         ],
         "cons": [
-          "Unit title format limits outdoor space",
-          "Land size is not disclosed"
+          "Unit address indicates strata or shared land",
+          "Land size is not disclosed",
+          "Tight macro lending conditions persist"
         ],
-        "fairValueLow": 880000,
-        "fairValueHigh": 960000,
+        "fairValueLow": 900000,
+        "fairValueHigh": 975000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:05:14.004Z",
-        "priceText": "$900,000 - $950,000"
+        "generatedAt": "2026-11-23T19:59:14.159Z",
+        "priceText": "$900,000 - $950,000",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -6205,22 +6209,24 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "This property is situated in Glenunga near key schooling options with an asking range of $900,000 to $935,000. However, the listing omits core physical details including bedroom count, bathrooms, and land size. A cautious approach is necessary to verify the dwelling type and physical condition against the price guide.",
+        "summary": "This listing is asking $900,000 to $935,000 in Glenunga, but completely lacks details on bedrooms, bathrooms, cars, and land size. The price is well below the suburb median, suggesting it could be vacant land or a compact dwelling. Buyers must exercise extreme caution until property specifications are clarified.",
         "pros": [
-          "Located in Glenunga near target schools",
-          "Clear private treaty price guide provided"
+          "Low asking price for Glenunga",
+          "Direct access to sought-after school zones"
         ],
         "cons": [
-          "Bedroom and bathroom counts are undisclosed",
-          "Land size is omitted",
-          "Mortgage rates at 6.2% increase holding costs"
+          "Bedrooms and bathrooms are undisclosed",
+          "Land size and property type missing",
+          "High uncertainty regarding family suitability",
+          "Elevated interest rate environment"
         ],
-        "fairValueLow": 850000,
+        "fairValueLow": 880000,
         "fairValueHigh": 950000,
         "verdict": "Fair",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:05:14.004Z",
-        "priceText": "$900,000-$935,000"
+        "generatedAt": "2026-11-23T19:59:14.159Z",
+        "priceText": "$900,000-$935,000",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -6273,22 +6279,23 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "Positioned on Brooker Street in Glenunga, this listing has an asking price of $1.825m. The property details provide no land size, bedroom count, or architectural type to evaluate directly. Due to the high price point and missing specifications, extensive due diligence is required before inspecting.",
+        "summary": "With an asking price of $1,825,000, this listing sits in line with Glenunga's recent median sales trend between $1.73M and $2.27M. However, key details including bedroom count, bathroom count, and land area are omitted. Without these core facts, verifying whether the price matches the physical dwelling is impossible.",
         "pros": [
-          "Located in desirable Glenunga school zone",
-          "Fixed asking price via private treaty"
+          "Asking price aligns with Glenunga median",
+          "Prime location for Glenunga schools"
         ],
         "cons": [
-          "Zero data on bedrooms or bathrooms",
-          "Land size is completely undisclosed",
-          "High capital outlay in high-rate climate"
+          "Bedroom and bathroom counts missing",
+          "Land area is completely undisclosed",
+          "Substantial capital commitment at 6.2% interest"
         ],
-        "fairValueLow": 1650000,
+        "fairValueLow": 1700000,
         "fairValueHigh": 1900000,
         "verdict": "Fair",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:05:14.004Z",
-        "priceText": "$1.825m"
+        "generatedAt": "2026-11-23T19:59:14.159Z",
+        "priceText": "$1.825m",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -6341,22 +6348,25 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "The asking price is not disclosed by the agent for this Glenunga property. It offers a 2-bedroom, 1-bathroom configuration with single-car parking near local schools. Because land size and price are withheld, fair value must be framed broadly until further details emerge.",
+        "summary": "The listing price is not disclosed, requiring a wide fair value estimate based on its 2-bedroom, 1-bath unit configuration in Glenunga. The two-bedroom layout and single parking space will likely be tight for a growing family seeking long-term accommodation. It offers an entry-level pathway into the school zone if pricing remains modest.",
         "pros": [
-          "Desirable Glenunga address near top schools",
-          "Functional 2-bedroom layout with dedicated parking"
+          "Zoned for premier local schools",
+          "Includes dedicated off-street parking",
+          "Accessible unit format in Glenunga"
         ],
         "cons": [
           "Price is not disclosed",
-          "Land size is not stated",
-          "Two bedrooms may constrain a growing family"
+          "Only two bedrooms and one bathroom",
+          "Unit address suggests shared strata title",
+          "Land size is unspecified"
         ],
         "fairValueLow": 550000,
         "fairValueHigh": 750000,
-        "verdict": "Worth inspecting",
+        "verdict": "Fair",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:05:14.004Z",
-        "priceText": "CONTACT AGENT"
+        "generatedAt": "2026-11-23T19:59:14.159Z",
+        "priceText": "CONTACT AGENT",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -6409,23 +6419,25 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "The asking price is not disclosed for this 2-bedroom, 1-bathroom home in Linden Park. Its address offers proximity to Linden Park Primary School, which is a major benefit for families. Due to absent price and allotment dimensions, fair value is estimated broadly based on limited dwelling features.",
+        "summary": "This two-bedroom unit is located in Linden Park with an undisclosed asking price. Because overall suburb medians reflect larger freestanding homes, a unit of this size sits well below the suburb median of $1,950,000. With interest rates at 6.2%, entry into this tightly held school catchment remains appealing if priced sensibly.",
         "pros": [
-          "Situated directly in Linden Park",
-          "Includes 2 bedrooms and allocated parking",
-          "Close to Linden Park Primary School"
+          "Desirable Linden Park location near key schools",
+          "Low-maintenance two-bedroom configuration",
+          "Includes dedicated off-street car space",
+          "Only 1 day on the market"
         ],
         "cons": [
-          "Price is not disclosed",
-          "Land size and type are omitted",
-          "Two bedrooms may limit family accommodation"
+          "Asking price is not disclosed by agent",
+          "Only one bathroom may limit family living",
+          "Block size and property type not stated"
         ],
         "fairValueLow": 550000,
         "fairValueHigh": 750000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:05:14.004Z",
-        "priceText": "Contact Agent"
+        "generatedAt": "2026-11-23T19:59:14.159Z",
+        "priceText": "Contact Agent",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -6478,22 +6490,25 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "Listed at $955,000, this Glenunga property features 3 bedrooms, 2 bathrooms, and 1 car space. The layout offers practical family accommodation within reach of Glenunga International High School. The exact land area is unlisted, but the confirmed specs support genuine buyer inspection.",
+        "summary": "Offering three bedrooms and two bathrooms in Glenunga, this property is listed at an accessible $955,000. It sits substantially lower than the 2026 Glenunga median sale price of $2,271,111. It represents an attractive entry point for families prioritizing school zoning in a high-rate environment.",
         "pros": [
-          "Family-appropriate 3-bedroom, 2-bathroom layout",
-          "Situated in prime Glenunga school catchment",
-          "Clear asking price provided"
+          "Strong value compared to Glenunga median prices",
+          "Three bedrooms and two bathrooms suit families",
+          "Prime school catchment location",
+          "Fixed asking price provides clarity"
         ],
         "cons": [
-          "Land area is not specified",
-          "Prevailing 6.2% mortgage rates lift borrowing costs"
+          "Land size is not disclosed",
+          "Only one car space provided",
+          "Likely a unit or strata titled home"
         ],
         "fairValueLow": 900000,
-        "fairValueHigh": 1000000,
-        "verdict": "Worth inspecting",
+        "fairValueHigh": 1050000,
+        "verdict": "Strong value",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:05:14.004Z",
-        "priceText": "$955,000"
+        "generatedAt": "2026-11-23T19:59:14.159Z",
+        "priceText": "$955,000",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -6546,23 +6561,26 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "This allotment on Allawah Avenue in Glen Osmond is offered between $875,000 and $925,000. No details are provided regarding dwelling type, bedroom count, or land dimensions, necessitating full verification for family suitability. The location sits within reach of high-demand eastern suburb schools.",
+        "summary": "This listing is an allotment along Allawah Avenue in Glen Osmond guided at $875,000 to $925,000. Key metrics including land area are not disclosed, creating uncertainty regarding construction viability. However, it sits well below the suburb's recent median price of $2,107,500.",
         "pros": [
-          "Accessible sub-$1M price point for Glen Osmond",
-          "Glen Osmond location convenient to targeted schools",
-          "Private treaty enables direct negotiation"
+          "Asking price well below suburb median",
+          "Opportunity to build a tailored family home",
+          "Located in desirable Glen Osmond area",
+          "Fresh listing with zero price reductions"
         ],
         "cons": [
-          "Bed, bath, and car counts are omitted",
-          "Land size and dwelling type are unspecified",
-          "Mortgage rates at 6.2% increase borrowing costs"
+          "Land dimensions and size not disclosed",
+          "Requires significant additional capital to build",
+          "Construction risks in a 6.2% mortgage environment",
+          "No existing dwelling for immediate occupancy"
         ],
-        "fairValueLow": 850000,
-        "fairValueHigh": 925000,
+        "fairValueLow": 820000,
+        "fairValueHigh": 950000,
         "verdict": "Fair",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:05:14.004Z",
-        "priceText": "$875,000 - $925,000"
+        "generatedAt": "2026-11-23T19:59:14.159Z",
+        "priceText": "$875,000 - $925,000",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -6615,22 +6633,26 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "Offered with an asking guide of $1,025,000 to $1,075,000, this Glen Osmond address is situated well for local schooling. However, the listing omits all structural details, including room counts and block size. Buyers must clarify what improvements or land area are included before progressing.",
+        "summary": "Priced between $1,025,000 and $1,075,000, this parcel in Glen Osmond offers a building opportunity in a premium eastern suburb. Essential property details including land size and dimensions are omitted from the listing. When factored alongside construction costs, overall project expenditure will be high in the current interest rate environment.",
         "pros": [
-          "Positioned in desirable Glen Osmond school zone",
-          "Private treaty method allows standard conditions"
+          "Glen Osmond address close to top schools",
+          "Blank canvas for custom home design",
+          "Entry price below suburb median sales",
+          "Recently listed to the market"
         ],
         "cons": [
-          "No bedroom or bathroom numbers provided",
           "Land area is completely undisclosed",
-          "Priced notably higher than neighboring Lot 3"
+          "Substantial construction costs required on top",
+          "Higher guide price than neighboring Lot 3",
+          "No bedrooms or ready accommodation"
         ],
-        "fairValueLow": 975000,
-        "fairValueHigh": 1075000,
+        "fairValueLow": 950000,
+        "fairValueHigh": 1100000,
         "verdict": "Fair",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:05:14.004Z",
-        "priceText": "$1,025,000 - 1,075,000"
+        "generatedAt": "2026-11-23T19:59:14.159Z",
+        "priceText": "$1,025,000 - 1,075,000",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -6683,23 +6705,25 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "This Glen Osmond property offers three bedrooms, one bathroom, and three vehicle spaces, guiding at $1,550,000 to $1,650,000. While the bedroom and car accommodation suit family living, a single bathroom may create bottlenecks for a growing household. Land size is not disclosed in the listing data.",
+        "summary": "This three-bedroom Glen Osmond home is guided at $1,550,000 to $1,650,000 with ample parking for three vehicles. The asking guide aligns reasonably well with Glen Osmond's recent median prices between $1,614,500 and $2,107,500. However, having only a single bathroom may pose practical constraints for a growing family.",
         "pros": [
-          "Three bedrooms suit a growing family",
-          "Three parking spaces provide ample vehicle storage",
-          "Glen Osmond address offers school proximity"
+          "Three bedrooms accommodate family needs well",
+          "Ample parking with three vehicle spaces",
+          "Priced competitively against Glen Osmond medians",
+          "Positioned well for eastern suburbs schooling"
         ],
         "cons": [
-          "Single bathroom is restrictive for families",
-          "Land size is not stated",
-          "High interest rate climate demands careful budgeting"
+          "Only one bathroom for three bedrooms",
+          "Land size is not provided",
+          "Current mortgage rates make repayments substantial"
         ],
         "fairValueLow": 1500000,
-        "fairValueHigh": 1650000,
+        "fairValueHigh": 1680000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:05:14.004Z",
-        "priceText": "$1,550,000 - $1,650,000"
+        "generatedAt": "2026-11-23T19:59:14.159Z",
+        "priceText": "$1,550,000 - $1,650,000",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -6752,23 +6776,24 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "The asking price is not disclosed for this Frewville property, which provides three bedrooms, two bathrooms, and four car spaces. Because no price guide or historical median data is supplied, the estimated fair value is kept wide based strictly on its family-oriented layout and inner-east location. It offers practical features for family buyers targeting nearby Glenunga and Linden Park schools.",
+        "summary": "The asking price is not disclosed for this three-bedroom, two-bathroom home in Frewville. Based on recent suburb median trends between $1.55m and $2.05m, a broad fair value estimate is applied. The property offers generous four-car accommodation near key eastern suburbs schooling corridors.",
         "pros": [
-          "Three bedrooms and two bathrooms suit families",
-          "Four car spaces provide generous parking",
-          "Frewville offers excellent school catchment proximity"
+          "Desirable three-bedroom, two-bathroom configuration",
+          "Ample four-car parking capacity",
+          "Close proximity to Glenunga school zone"
         ],
         "cons": [
-          "Asking price is not disclosed by agent",
-          "Land measurement is not provided",
-          "Sale method is not stated"
+          "Asking price is not disclosed",
+          "Land size is unspecified in listing facts",
+          "Frewville sales volume is historically low"
         ],
-        "fairValueLow": 1150000,
-        "fairValueHigh": 1750000,
+        "fairValueLow": 1450000,
+        "fairValueHigh": 1850000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:05:14.004Z",
-        "priceText": "Contact Agent"
+        "generatedAt": "2026-11-23T19:59:14.159Z",
+        "priceText": "Contact Agent",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -6821,23 +6846,24 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "Located directly on Portrush Road in Glenunga, this property is advertised at a fixed price of $1.65 million. While placed in the primary school and high school zones, arterial road traffic will be a persistent issue for families. No details are supplied concerning bedroom, bathroom, or land dimensions to justify the asking figure.",
+        "summary": "This property on Portrush Road is listed for private treaty with a $1.65m asking price, below recent Glenunga median price levels. However, critical specifications such as bedroom count, bathrooms, and land area are entirely undisclosed. Its location on a major arterial road warrants careful inspection regarding traffic noise and family safety.",
         "pros": [
-          "Located directly within Glenunga school catchment",
-          "Private treaty offers clear price expectations"
+          "Located within prime Glenunga suburb boundary",
+          "Asking price sits below recent suburb medians",
+          "Convenient access to local amenities and schools"
         ],
         "cons": [
-          "Main road frontage on busy Portrush Road",
-          "No bedroom or bathroom data provided",
-          "Land size is entirely omitted",
-          "Firm $1.65M price lacks supporting property specifications"
+          "Located on a busy arterial road",
+          "Bedrooms, bathrooms, and land size are unspecified",
+          "Traffic impact may challenge family living"
         ],
         "fairValueLow": 1450000,
-        "fairValueHigh": 1650000,
-        "verdict": "Overpriced",
+        "fairValueHigh": 1700000,
+        "verdict": "Fair",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:05:14.004Z",
-        "priceText": "$1.65m"
+        "generatedAt": "2026-11-23T19:59:14.159Z",
+        "priceText": "$1.65m",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -6890,23 +6916,24 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "This 4-bedroom, 2-bathroom property in Glenside offers ample accommodation for a family seeking access to nearby Glenunga and Linden Park schools. The asking price is undisclosed and land size is not provided, requiring cautious inquiry. With current mortgage rates at 6.2%, overall borrowing capacity must be carefully weighed against unstated price expectations.",
+        "summary": "The asking price is not disclosed for this four-bedroom, two-bathroom family home in Glenside. With Glenside median prices trending between $1.73m and $2.02m from 2024 to 2026, it represents a well-proportioned layout for families targeting surrounding schools. Detailed land area is not provided, requiring buyer verification.",
         "pros": [
-          "Four bedrooms accommodate family living well",
-          "Two bathrooms and two car spaces",
-          "Convenient Glenside location near key schools"
+          "Family-friendly four-bedroom and two-bathroom layout",
+          "Two dedicated car spaces",
+          "Situated in highly regarded Glenside area"
         ],
         "cons": [
           "Asking price is not disclosed",
-          "Land size is not provided",
-          "Current high interest rates increase holding costs"
+          "Land size is not specified in listing",
+          "Elevated interest rate environment limits borrowing power"
         ],
-        "fairValueLow": 1200000,
-        "fairValueHigh": 1800000,
+        "fairValueLow": 1650000,
+        "fairValueHigh": 2050000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:13:46.340Z",
-        "priceText": "FOR SALE"
+        "generatedAt": "2026-11-23T19:59:14.159Z",
+        "priceText": "FOR SALE",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -6959,23 +6986,24 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "Positioned directly in Linden Park, this 2-bedroom home offers affordable entry into a premium school zone. However, its position along Portrush Road entails significant traffic noise, and the two-bedroom floorplan offers limited space for a growing family. The asking price of $589k to $619k is consistent with entry-level units in the suburb.",
+        "summary": "This two-bedroom, one-bathroom unit in Linden Park is guided between $589,000 and $619,000. It offers an affordable entry point into the sought-after Linden Park Primary School and Glenunga International High School zones. A significant consideration for families is its location directly on busy Portrush Road.",
         "pros": [
-          "Desirable Linden Park school zone address",
-          "Accessible price guide under $620,000",
-          "Two allocated car spaces"
+          "Affordable entry into premium school zones",
+          "Two parking spaces provided",
+          "Priced accessibly compared to suburb medians"
         ],
         "cons": [
-          "Located on busy Portrush Road",
-          "Two bedrooms limit family expansion",
-          "Land size not disclosed"
+          "Frontage on high-traffic Portrush Road",
+          "Two bedrooms may constrain growing families",
+          "Only one bathroom facility available"
         ],
         "fairValueLow": 570000,
-        "fairValueHigh": 620000,
+        "fairValueHigh": 630000,
         "verdict": "Fair",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:13:46.340Z",
-        "priceText": "Offers Close: 25th Nov @ 12pm $589-$619K"
+        "generatedAt": "2026-11-23T19:59:14.159Z",
+        "priceText": "Offers Close: 25th Nov @ 12pm $589-$619K",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -7028,23 +7056,24 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "This Linden Park unit provides an entry-level pathway into the school zone at an advertised guide of $550,000 to $580,000. Tucked away on Collyer Court, it avoids the heavier traffic associated with main roads. However, a single bathroom and one car space may be tight for long-term family utility.",
+        "summary": "Guided at $550,000 to $580,000, this two-bedroom unit offers another entry-level pathway into Linden Park's prized school zones. Positioned in a residential court rather than an arterial corridor, it provides a quieter environment than main road alternatives. The compact layout will require compromises for family buyers needing more space.",
         "pros": [
-          "Quiet court setting in Linden Park",
-          "Affordable entry point into school zones",
-          "Price guide clearly disclosed"
+          "Located on a quiet court rather than arterial road",
+          "Low price point for premier school zoning",
+          "Well under the suburb's whole-house median price"
         ],
         "cons": [
-          "Only two bedrooms and one bathroom",
-          "Single car parking space",
-          "Land size is not provided"
+          "Limited to two bedrooms and one bathroom",
+          "Only one dedicated car space",
+          "Land and unit dimensions not provided"
         ],
         "fairValueLow": 540000,
         "fairValueHigh": 590000,
-        "verdict": "Fair",
+        "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:13:46.340Z",
-        "priceText": "PRICED TO SELL! $550K - $580k"
+        "generatedAt": "2026-11-23T19:59:14.159Z",
+        "priceText": "PRICED TO SELL! $550K - $580k",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -7097,23 +7126,26 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "Located on Sydney Street in Glenunga, this three-bedroom home sits right in the heart of the desired high school catchment. The asking range of $1.55m to $1.65m reflects strong demand for standalone dwellings in this pocket. Buyers should note there is only one bathroom and land dimensions are not specified.",
+        "summary": "This 3-bedroom, 1-bathroom home in Glenunga is listed between $1.55m and $1.65m. The asking range sits comfortably below the suburb median of $1.77m in 2025 and $2.27m in 2026, offering entry into desirable school zones. However, with no land size disclosed and only a single bathroom, family practicality must be weighed carefully.",
         "pros": [
-          "Prime Glenunga residential street location",
-          "Three bedrooms suitable for families",
-          "Two off-street car spaces"
+          "Desirable Glenunga school zone location",
+          "Asking price sits below suburb median",
+          "Provides two off-street parking spaces",
+          "Three bedrooms suitable for small families"
         ],
         "cons": [
           "Only one bathroom for three bedrooms",
-          "High price point amid 6.2% mortgage rates",
-          "Land size is not stated"
+          "Land size is not disclosed",
+          "Property type and features omitted",
+          "Mortgage rates at 6.2% constrain borrowing"
         ],
-        "fairValueLow": 1450000,
-        "fairValueHigh": 1650000,
+        "fairValueLow": 1500000,
+        "fairValueHigh": 1700000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:13:46.340Z",
-        "priceText": "$1.55m - $1.65m"
+        "generatedAt": "2026-11-23T19:59:14.159Z",
+        "priceText": "$1.55m - $1.65m",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -7166,23 +7198,25 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "This Glenside 2-bedroom unit sits adjacent to school zones, offering a manageable footprint close to shopping and transport. The price is not disclosed, so buyers must request agency guidance to assess affordability. Proximity to Portrush Road brings traffic considerations that family buyers must weigh carefully.",
+        "summary": "The asking price is not disclosed for this 2-bedroom, 1-bathroom property in Glenside. While the suburb median exceeds $1.85m to $2.0m, that figure reflects detached houses, whereas this unit-style dwelling warrants a much lower valuation. Its position on busy Portrush Road also presents traffic noise and accessibility drawbacks for a family.",
         "pros": [
-          "Glenside location near school catchments",
-          "Low maintenance two-bedroom configuration"
+          "Access to reputable eastern suburb schools",
+          "Includes dedicated vehicle parking",
+          "Low-maintenance two-bedroom accommodation"
         ],
         "cons": [
           "Price is not disclosed",
           "Located on busy Portrush Road",
-          "Only one car park and one bathroom",
-          "Land size is not provided"
+          "Only two bedrooms limits family utility",
+          "Land size and type unknown"
         ],
-        "fairValueLow": 480000,
-        "fairValueHigh": 620000,
-        "verdict": "Worth inspecting",
+        "fairValueLow": 500000,
+        "fairValueHigh": 750000,
+        "verdict": "Fair",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:13:46.340Z",
-        "priceText": "Contact Agent"
+        "generatedAt": "2026-11-23T19:59:14.159Z",
+        "priceText": "Contact Agent",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -7235,24 +7269,25 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "This two-bedroom, one-bathroom home in St Georges offers an entry into an eastern suburb near target schools, though the asking price is not disclosed. With no land size or property type details provided, caution is warranted regarding its suitability for a family. In a higher interest rate environment with mortgage rates at 6.2%, budgeting requires a wide valuation buffer.",
+        "summary": "Price is not disclosed for this 2-bedroom, 1-bathroom property on Crossing Street in St Georges. St Georges detached home medians consistently exceed $2.0m, so this smaller dwelling should trade at a significant discount. The address offers strong school proximity, though two bedrooms will restrict long-term family living.",
         "pros": [
-          "Situated in desirable St Georges suburb.",
-          "Includes dedicated one-car parking.",
-          "Brand new to market with zero days listed."
+          "Situated in prestigious St Georges",
+          "Close to Linden Park Primary School",
+          "Includes off-street car parking"
         ],
         "cons": [
-          "Asking price is not disclosed.",
-          "Two bedrooms may be tight for family living.",
-          "Land size and property type are not specified.",
-          "Mortgage rates of 6.2% lift borrowing costs."
+          "Price is undisclosed by agent",
+          "Only two bedrooms for growing families",
+          "Single bathroom limits household convenience",
+          "Land size not provided in listing"
         ],
-        "fairValueLow": 450000,
-        "fairValueHigh": 750000,
-        "verdict": "Worth inspecting",
+        "fairValueLow": 550000,
+        "fairValueHigh": 800000,
+        "verdict": "Fair",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:13:46.340Z",
-        "priceText": "Contact Agent"
+        "generatedAt": "2026-11-23T19:59:14.159Z",
+        "priceText": "Contact Agent",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -7305,24 +7340,26 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "Priced at $795,000, this two-bedroom residence provides two parking spaces in Fullarton within reach of Linden Park and Glenunga. However, its position on major arterial Glen Osmond Road presents traffic noise and safety considerations for a family. Missing land size and condition data make careful due diligence essential before committing.",
+        "summary": "Positioned on Glen Osmond Road in Fullarton, this 2-bedroom, 1-bathroom home is offered at $795,000. The clear asking price sits far below Fullarton's house medians of $1.74m to $1.90m, reflecting its smaller scale and main-road position. Two car spaces add practicality, but heavy arterial traffic may deter family buyers.",
         "pros": [
-          "Fixed asking price of $795,000 provided.",
-          "Provides two designated vehicle spaces.",
-          "Located in well-regarded suburb of Fullarton."
+          "Transparent asking price under $800,000",
+          "Substantially below Fullarton suburb median",
+          "Two off-street parking spaces provided",
+          "Convenient access to city transport routes"
         ],
         "cons": [
-          "Located directly on busy Glen Osmond Road.",
-          "Two bedrooms provide limited family accommodation.",
-          "Land size and building specifications omitted.",
-          "Current 6.2% mortgage rates elevate holding costs."
+          "Frontage on arterial Glen Osmond Road",
+          "Two-bedroom layout limits family space",
+          "Only one bathroom available",
+          "Land size is not stated"
         ],
-        "fairValueLow": 680000,
+        "fairValueLow": 720000,
         "fairValueHigh": 800000,
         "verdict": "Fair",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:13:46.340Z",
-        "priceText": "$795,000"
+        "generatedAt": "2026-11-23T19:59:14.159Z",
+        "priceText": "$795,000",
+        "inputVersion": 2
       },
       "imported": true
     }
