@@ -79,11 +79,7 @@ function renderBanner() {
   if (IS_FIXTURES) el.append(h('div', { class: 'banner banner-info' }, icon('info'), h('span', {}, 'Previewing sample fixtures from ', h('code', { text: 'dev/fixtures/' }), '. ', h('a', { href: location.pathname, text: 'Use live data' }))));
   if (d?.listings?.source === 'sample') {
     el.append(h('div', { class: 'banner banner-warn', role: 'status' }, icon('alert'), h('div', {},
-      h('b', { text: 'Showing sample listings — add your free Domain API key to see real ones.' }),
-      h('details', {}, h('summary', { text: 'How' }), h('ol', {},
-        h('li', {}, 'Create a free developer account at ', h('a', { href: 'https://developer.domain.com.au', target: '_blank', rel: 'noopener noreferrer', text: 'developer.domain.com.au' }), ' and create a project to get an API key.'),
-        h('li', { text: 'In the GitHub repo open Settings → Secrets and variables → Actions and add two secrets: DOMAIN_CLIENT_ID and DOMAIN_CLIENT_SECRET (and AI_API_KEY from aistudio.google.com/apikey for the AI analysis).' }),
-        h('li', { text: 'Press "Fetch new listings" (with a token in Settings) or wait for the next scheduled run.' }))))));
+      h('b', { text: 'No listings yet — they appear after your first realestate.com.au alert email arrives' }))));
   }
   const errs = Object.entries(d?.errors || {}).filter(([k]) => k === 'listings' || k === 'macro');
   if (errs.length) {

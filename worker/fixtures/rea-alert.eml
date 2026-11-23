@@ -1,0 +1,82 @@
+From: "realestate.com.au" <noreply@mail.realestate.com.au>
+To: jane.example@gmail.com
+Subject: 3 new properties for sale
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="BOUNDARY42"
+
+--BOUNDARY42
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+UGxhaW4gdGV4dCBhbHRlcm5hdGl2ZS4gMTIgRXhhbXBsZSBTdHJlZXQsIExpbmRlbiBQYXJr
+
+--BOUNDARY42
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html><head><style>.x{color:red}</style></head>
+<body>
+<!-- SYNTHETIC fixture: hand-made to look like a realestate.com.au saved-se=
+arch alert. Replace with a real alert once one arrives. -->
+<table width=3D"600">
+<tr><td><img src=3D"https://www.realestate.com.au/images/logo.png" alt=3D"r=
+ealestate.com.au"></td></tr>
+<tr><td>Hi Jane Example, here are 3 new properties matching your saved sear=
+ch "Linden Park + Glenunga".</td></tr>
+
+<tr><td>
+  <a href=3D"https://www.realestate.com.au/property-house-sa-linden+park-14=
+3456789?cid=3Demail&amp;utm_source=3Dalert"><img src=3D"https://i2.au.reast=
+atic.net/800x600/abc123/main.jpg" alt=3D"12 Example Street, Linden Park SA =
+5065" width=3D"560"></a>
+  <div><a href=3D"https://www.realestate.com.au/property-house-sa-linden+pa=
+rk-143456789?cid=3Demail">12 Example Street, Linden Park SA 5065</a></div>
+  <div class=3D"label">New</div>
+  <div>$1,450,000 - $1,550,000</div>
+  <table><tr>
+    <td><img src=3D"https://www.realestate.com.au/static/icon-bed.png" alt=
+=3D"Bedrooms"> 4</td>
+    <td><img src=3D"https://www.realestate.com.au/static/icon-bath.png" alt=
+=3D"Bathrooms"> 2</td>
+    <td><img src=3D"https://www.realestate.com.au/static/icon-car.png" alt=
+=3D"Car spaces"> 2</td>
+  </tr></table>
+  <a href=3D"https://www.realestate.com.au/property-house-sa-linden+park-14=
+3456789?cid=3Demail">View property</a>
+</td></tr>
+
+<tr><td>
+  <a href=3D"https://click.mail.realestate.com.au/r?u=3Dhttps%3A%2F%2Fwww.r=
+ealestate.com.au%2Fproperty-townhouse-sa-glenunga-138888001%3Fx%3D1&amp;t=
+=3DSECRETTRACKINGTOKEN"><img src=3D"https://i2.au.reastatic.net/800x600/def=
+456/main.jpg" alt=3D""></a>
+  <div><a href=3D"https://click.mail.realestate.com.au/r?u=3Dhttps%3A%2F%2F=
+www.realestate.com.au%2Fproperty-townhouse-sa-glenunga-138888001%3Fx%3D1&am=
+p;t=3DSECRETTRACKINGTOKEN">3/45 Smith Road, Glenunga SA 5064</a></div>
+  <div>Price reduced</div>
+  <div>Auction Sat 5 Dec</div>
+  <div>3 Beds &nbsp; 1 Bath &nbsp; 1 Car</div>
+</td></tr>
+
+<tr><td>
+  <a href=3D"https://www.domain.com.au/7-sample-avenue-glenunga-sa-5064-201=
+9876543"><img src=3D"https://rimh2.domainstatic.com.au/abc/photo.jpg" alt=
+=3D""></a>
+  <div>7 Sample Avenue, Glenunga SA 5064</div>
+  <div>Offers over $1.2m</div>
+  <div>Sold</div>
+  <div>Bedrooms 5 Bathrooms 3 Parking 2</div>
+  <div>House</div>
+</td></tr>
+
+<tr><td>
+  This email was sent to jane.example@gmail.com.
+  <a href=3D"https://click.mail.realestate.com.au/unsubscribe?token=3DSECRE=
+TTOKEN&amp;email=3Djane.example%40gmail.com">Unsubscribe</a>
+  <div>3 Bedrooms 9 Bathrooms</div>
+</td></tr>
+</table>
+</body></html>
+
+--BOUNDARY42--

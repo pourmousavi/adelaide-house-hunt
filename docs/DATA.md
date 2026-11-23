@@ -22,7 +22,7 @@ FeatureCollection, `properties: { school, type: "PRIM" | "SEC" }`.
 ```json
 {
   "generatedAt": "2026-11-23T05:00:00Z",
-  "source": "domain" | "sample",      // "sample" = Domain key not configured yet; UI must show a clear banner
+  "source": "alerts" | "domain" | "sample", // "alerts" = listings parsed from saved-search emails; "domain" = Domain API returned listings (alerts may be merged in); "sample" = no real listings yet, UI must show a clear banner
   "listings": [{
     "id": "2019876543",
     "url": "https://www.domain.com.au/...",
@@ -48,7 +48,9 @@ FeatureCollection, `properties: { school, type: "PRIM" | "SEC" }`.
     "inspections": [{ "start": "2026-11-29T10:00:00+10:30", "end": "2026-11-29T10:30:00+10:30" }],
     "agents": [{ "name": "Jane Smith", "phone": "0400 000 000", "email": "jane@agency.com.au", "agency": "Agency Name", "photo": null }],
     "zones": ["Linden Park Primary School", "Glenunga International High School"],
-    "status": "active" | "underOffer" | "removed",   // "removed" kept 30 days after it disappears
+    "status": "active" | "underOffer" | "removed",   // Domain API: "removed" kept 30 days after it disappears. Alert listings: see below
+    "origin": "rea" | "domain",                       // which portal the listing is from (additive; absent on sample/legacy rows)
+    "via": "alerts" | "api",                          // how the pipeline got it (additive)
     "ai": {
       "summary": "2-3 sentences", "pros": ["..."], "cons": ["..."],
       "fairValueLow": 1400000, "fairValueHigh": 1520000,
@@ -59,12 +61,37 @@ FeatureCollection, `properties: { school, type: "PRIM" | "SEC" }`.
 }
 ```
 
-## data/suburbs.json  (multi-year trend, Domain suburb performance statistics)
-```json
-{ "Linden Park|5065": { "house": [{ "year": 2016, "median": 820000, "sales": 64 }], "unit": [...] } }
-```
+### Email-alert listings (`via: "alerts"`)
+Listings come from saved-search alert emails (realestate.com.au, domain.com.au). A Cloudflare Email Worker (`worker/`, name `house-alerts`) forwards each alert and stores the listings it can parse in KV; `GET <worker>/listings.json` serves them (public fields only: source, id, url, address, suburb, postcode, priceText, beds/baths/cars, image, propertyType, alertKind, sold, firstSeen, lastSeen, priceHistory). Never stored or served: recipient, unsubscribe or tracking links, the raw email.
 
-Additive fields written by the pipeline (UI may ignore): listing `removedDate` (set when status is "removed"), `ai.priceText` (asking price the analysis was for), per-suburb `fetchedAt` in suburbs.json. Keys starting with `_` in suburbs.json (e.g. `_sample`) are metadata, not suburbs. `agents[].phone/email` come from Domain GET /v1/agents/{id} (cached 30 days in `data/agents.json`, keyed by contact id: `{name, phone, email, agency, photo, fetchedAt}`); null if that scope is unavailable.
+The pipeline `alerts` step (`scripts/fetch.mjs`, helpers in `scripts/lib.mjs`):
+- maps each item to the listing contract. `id` is `rea-<digits>` for realestate.com.au and the plain Domain id for domain.com.au (so an API copy and an email copy of the same listing dedupe; the API copy wins). Fields an email cannot give are `null`, `[]` or `""` (land and building area, description, agents, inspections, auction date, sales history).
+- geocodes the address with OpenStreetMap Nominatim (max 1 request/second, User-Agent `adelaide-house-hunt/1.0 (...)`). Results are cached in `data/geocode.json` keyed by the normalised address (`{ "lat", "lng" }`); a cached address is never looked up again. A failed lookup is cached as `{ "miss": "<iso>" }` and retried after 7 days; HTTP errors are not cached. Only street or building level hits count (suburb centroids are rejected), and only inside South Australia.
+- keeps the listing if its point is inside the selected zones (`zoneMatch`) or its suburb is in `extraSuburbs`; others are dropped. A listing with no map point is kept only if its suburb is in `extraSuburbs` (`lat`/`lng` null).
+- an alert listing is never marked `removed` because it is absent from a run. It stays `active` until 60 days after `lastSeen`, then is dropped. If an alert says it is sold, `status` becomes `"removed"` with `sold: true` and `removedDate` = the alert date; it is dropped on the same 60-day rule.
+- additive fields: `lastSeen` (date of the latest alert that mentioned it), `alertKind` (`"new" | "priceChange" | "openHome" | "sold" | null`), `urlIsRedirect` (true only when the email link could not be decoded, so `url` is a tracking redirect), `sold`.
+- `priceHistory` comes from the worker (asking-price text changes seen in alerts). `firstSeen` is the date of the first alert; `dateListed` is `null`, so `daysOnMarket` counts from `firstSeen`.
+
+`source` is `"domain"` when Domain API listings exist, else `"alerts"` when any alert listing exists, else `"sample"`. Domain credentials are optional; with them the Domain search runs as before and alert listings are merged in.
+
+## data/geocode.json
+`{ "<normalised address>": { "lat": -34.94, "lng": 138.63 } | { "miss": "2026-11-23T05:00:00Z" } }`. Written by the `alerts` step.
+
+## data/suburbs.json  (multi-year trend)
+```json
+{
+  "_source": "SA Valuer-General via data.sa.gov.au",
+  "_fetchedAt": "2026-11-23T05:00:00Z",
+  "_method": "...",
+  "Linden Park|5065": { "house": [{ "year": 2016, "median": 820000, "sales": 64, "quarters": 4 }], "unit": [] }
+}
+```
+Primary source is `scripts/sa_medians.py` (weekly; it skips itself while `_fetchedAt` is under 7 days old, `--force` overrides). It reads the SA Government dataset "Metro median house sales" on data.sa.gov.au (Valuer-General sales by suburb; one quarterly XLSX per quarter from Q1 2015, discovered through the CKAN API; downloads cached in `.cache/sa_medians/`, which is gitignored and cached by the workflow). It covers all ~425 metro suburbs it can map to a postcode (postcodes come from the open australian_postcodes.csv, with a built-in list as fallback).
+- The files carry no annual figure: each gives quarterly sales and median price for a quarter and the same quarter a year earlier. `house[].median` is the **median of that year's quarterly medians** (not a median of all sales), `sales` is the sum of the quarterly sales counts, `quarters` is how many quarters contributed (4 = full year; the current year is partial). Years start at 2015. `unit` is `[]` (the dataset is houses only).
+- Domain suburb statistics (`fetchedAt` per suburb, `unit` filled) override the SA series for the same suburb when the Domain API is configured, and are preserved by the SA script.
+- The sample file (`_sample: true`) is only written when no real suburb data exists.
+
+Additive fields written by the pipeline (UI may ignore): `house[].quarters` in suburbs.json, listing `removedDate` (set when status is "removed"), `ai.priceText` (asking price the analysis was for), per-suburb `fetchedAt` in suburbs.json. Keys starting with `_` in suburbs.json (e.g. `_sample`) are metadata, not suburbs. `agents[].phone/email` come from Domain GET /v1/agents/{id} (cached 30 days in `data/agents.json`, keyed by contact id: `{name, phone, email, agency, photo, fetchedAt}`); null if that scope is unavailable.
 
 ## data/macro.json
 ```json

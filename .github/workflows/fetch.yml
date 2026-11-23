@@ -27,15 +27,22 @@ jobs:
         with:
           node-version: 22
       - name: Unit tests
-        run: node --test scripts/*.test.mjs
+        run: node --test scripts/*.test.mjs assets/*.test.mjs worker/test.mjs
       - name: Fetch data
         run: node scripts/fetch.mjs
         env:
+          ALERTS_URL: ${{ vars.ALERTS_URL }}
           DOMAIN_CLIENT_ID: ${{ secrets.DOMAIN_CLIENT_ID }}
           DOMAIN_CLIENT_SECRET: ${{ secrets.DOMAIN_CLIENT_SECRET }}
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
           AI_BASE_URL: ${{ vars.AI_BASE_URL }}
           AI_MODEL: ${{ vars.AI_MODEL }}
+      - name: Cache SA median downloads
+        uses: actions/cache@v4
+        with:
+          path: .cache/sa_medians
+          key: sa-medians-${{ github.run_id }}
+          restore-keys: sa-medians-
       - uses: actions/setup-python@v5
         continue-on-error: true
         with:
@@ -48,6 +55,11 @@ jobs:
         run: |
           pip install -r scripts/requirements-timesfm.txt --extra-index-url https://download.pytorch.org/whl/cpu
           python scripts/timesfm_forecast.py
+      - name: Suburb median trends (SA Valuer-General, weekly)
+        # the script skips itself while data/suburbs.json _fetchedAt is under 7 days old
+        continue-on-error: true
+        timeout-minutes: 5
+        run: python scripts/sa_medians.py
       - name: Blend forecasts
         run: node scripts/fetch.mjs --blend-only
       - name: Commit data

@@ -1,0 +1,10 @@
+name = "house-alerts"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+
+[vars]
+FORWARD_TO = "ali.pourmousavi@gmail.com"
+
+[[kv_namespaces]]
+binding = "ALERTS"
+id = "250ca2b89b6e4a6aac9ea3feb01a7d4c"

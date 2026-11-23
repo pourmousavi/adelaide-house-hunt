@@ -417,6 +417,97 @@ export function mergeListings(prev, fresh, today, keepRemovedDays = 30) {
   return out;
 }
 
+// ---------- email-alert listings ----------
+
+export const ALERT_KEEP_DAYS = 60; // alert listings stay active this long after the last alert that mentioned them
+export const GEOCODE_RETRY_DAYS = 7; // a failed geocode lookup is retried after this long
+
+export const normAddress = (s) => String(s ?? "").toLowerCase().replace(/[^a-z0-9 ]+/g, " ").replace(/\s+/g, " ").trim();
+export const geoKey = (l) => normAddress(l.address);
+
+// Nominatim copes badly with "3/45 Smith Rd": query by the street number instead.
+export const geocodeQuery = (l) => `${String(l.address ?? "").replace(/^((?:unit|apt|apartment|lot|u)\s*)?\d+[a-z]?\s*\/\s*/i, "")}`.trim();
+
+const COARSE = new Set(["suburb", "city", "town", "village", "state", "county", "postcode", "region", "neighbourhood", "quarter", "city_district", "municipality", "country", "district", "hamlet", "locality"]);
+
+// Nominatim json -> { lat, lng } for the first precise (street or building level) result in South Australia, else null.
+export function parseNominatim(json) {
+  for (const r of Array.isArray(json) ? json : []) {
+    const lat = parseFloat(r.lat), lng = parseFloat(r.lon);
+    if (!Number.isFinite(lat) || !Number.isFinite(lng) || COARSE.has(r.addresstype) || r.class === "boundary") continue;
+    if (lat < -38.2 || lat > -25.9 || lng < 129 || lng > 141.1) continue;
+    return { lat, lng };
+  }
+  return null;
+}
+
+const SALE_WORDS = /auction/i;
+
+// Worker /listings.json item -> contract listing (no coordinates yet). null if unusable.
+export function mapAlertItem(it, today) {
+  if (!it || !it.id || !it.source) return null;
+  const origin = it.source === "rea" ? "rea" : "domain";
+  const { priceLow, priceHigh } = parsePriceText(it.priceText);
+  const firstSeen = isoDate(it.firstSeen) ?? today, lastSeen = isoDate(it.lastSeen) ?? today;
+  const priceHistory = (it.priceHistory?.length ? it.priceHistory : [{ date: firstSeen, priceText: it.priceText ?? null }])
+    .map((h) => ({ date: isoDate(h.date) ?? firstSeen, priceText: h.priceText ?? null, ...parsePriceText(h.priceText) }));
+  const sold = !!it.sold;
+  return {
+    id: origin === "rea" ? `rea-${it.id}` : String(it.id), // domain alert ids share Domain's id space, so API and email copies dedupe
+    url: it.url ?? null,
+    ...(it.urlIsRedirect && { urlIsRedirect: true }),
+    headline: null,
+    address: it.address ?? null,
+    suburb: it.suburb ?? null, postcode: it.postcode ?? null,
+    lat: null, lng: null,
+    propertyType: it.propertyType ?? null,
+    bedrooms: it.beds ?? null, bathrooms: it.baths ?? null, carspaces: it.cars ?? null,
+    landArea: null, buildingArea: null,
+    priceText: it.priceText ?? null, priceLow, priceHigh,
+    saleMethod: SALE_WORDS.test(it.priceText ?? "") ? "auction" : /expression|eoi/i.test(it.priceText ?? "") ? "eoi" : priceLow ? "privateTreaty" : null,
+    auctionDate: null,
+    photos: it.image ? [it.image] : [],
+    description: "",
+    features: [],
+    dateListed: null,
+    daysOnMarket: Math.max(0, daysBetween(firstSeen, today)),
+    firstSeen,
+    priceHistory,
+    salesHistory: [], inspections: [], agents: [],
+    zones: [],
+    status: sold ? "removed" : "active",
+    ...(sold && { removedDate: isoDate(it.soldAt) ?? lastSeen, sold: true }),
+    alertKind: it.alertKind ?? null,
+    lastSeen,
+    origin, via: "alerts",
+    ai: null,
+  };
+}
+
+export const inExtraSuburbs = (l, areas) =>
+  (areas.extraSuburbs ?? []).some((s) => String(s.suburb).toLowerCase() === String(l.suburb ?? "").toLowerCase() && (!s.postcode || !l.postcode || s.postcode === l.postcode));
+
+// prev: previous alert listings; fresh: this run's mapped, located and in-zone listings; outside: ids seen this run but outside the zones.
+// An absent listing is not removed: it stays until ALERT_KEEP_DAYS after lastSeen, then is dropped.
+export function mergeAlertListings(prev, fresh, today, outside = new Set(), keepDays = ALERT_KEEP_DAYS) {
+  const old = new Map(prev.map((l) => [l.id, l]));
+  const seen = new Set();
+  const out = [];
+  for (const f of fresh) {
+    seen.add(f.id);
+    const p = old.get(f.id);
+    const l = { ...p, ...f, ai: p?.ai ?? null };
+    if (!f.sold) { delete l.removedDate; delete l.sold; if (p?.sold) { l.status = "removed"; l.sold = true; l.removedDate = p.removedDate; } }
+    out.push(l);
+  }
+  for (const p of prev) {
+    if (seen.has(p.id) || outside.has(p.id)) continue;
+    if (daysBetween(p.lastSeen ?? p.firstSeen ?? today, today) > keepDays) continue;
+    out.push({ ...p, daysOnMarket: Math.max(0, daysBetween(p.firstSeen ?? today, today)) });
+  }
+  return out;
+}
+
 // ---------- suburb stats ----------
 
 // Domain suburbPerformanceStatistics v2 response -> [{ year, median, sales }]
@@ -457,7 +548,7 @@ export function cleanAi(r, { model, priceText, now }) {
 export const SEED_SUBURBS = [
   { suburb: "Linden Park", postcode: "5065" }, { suburb: "Glenunga", postcode: "5064" },
   { suburb: "Tusmore", postcode: "5065" }, { suburb: "Toorak Gardens", postcode: "5065" },
-  { suburb: "St Georges", postcode: "5065" }, { suburb: "Beaumont", postcode: "5066" },
+  { suburb: "St Georges", postcode: "5064" }, { suburb: "Beaumont", postcode: "5066" },
 ];
 
 // Deterministic grid scan: up to n points spread across the zone intersection.

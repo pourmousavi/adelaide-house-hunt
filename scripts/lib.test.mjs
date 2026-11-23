@@ -224,3 +224,84 @@ test("applyBlend: fresh file blends and keeps components; stale or absent revert
     assert.equal(r.method, L.FORECAST_METHOD);
   }
 });
+
+// ---------- email alerts ----------
+
+test("geocodeQuery strips unit numbers; geoKey normalises", () => {
+  assert.equal(L.geocodeQuery({ address: "3/45 Smith Road, Glenunga SA 5064" }), "45 Smith Road, Glenunga SA 5064");
+  assert.equal(L.geocodeQuery({ address: "Unit 3/45 Smith Road, Glenunga SA 5064" }), "45 Smith Road, Glenunga SA 5064");
+  assert.equal(L.geocodeQuery({ address: "12 Example St, Linden Park SA 5065" }), "12 Example St, Linden Park SA 5065");
+  assert.equal(L.geoKey({ address: "12 Example St,  Linden Park SA 5065" }), "12 example st linden park sa 5065");
+});
+
+test("parseNominatim accepts precise results only", () => {
+  const hit = { lat: "-34.95", lon: "138.65", addresstype: "house", class: "place" };
+  assert.deepEqual(L.parseNominatim([hit]), { lat: -34.95, lng: 138.65 });
+  assert.equal(L.parseNominatim([{ ...hit, addresstype: "suburb" }]), null);
+  assert.equal(L.parseNominatim([{ ...hit, class: "boundary" }]), null);
+  assert.equal(L.parseNominatim([{ ...hit, lat: "-33.9", lon: "151.2" }]), null); // not South Australia
+  assert.deepEqual(L.parseNominatim([{ ...hit, addresstype: "city" }, hit]), { lat: -34.95, lng: 138.65 });
+  assert.equal(L.parseNominatim([]), null);
+  assert.equal(L.parseNominatim(null), null);
+});
+
+const alertItem = (o = {}) => ({
+  source: "rea", id: "143456789", url: "https://www.realestate.com.au/property-house-sa-linden+park-143456789",
+  address: "12 Example Street, Linden Park SA 5065", suburb: "Linden Park", postcode: "5065", priceText: "$1,450,000 - $1,550,000",
+  beds: 4, baths: 2, cars: 2, image: "https://i2.au.reastatic.net/a.jpg", propertyType: "House",
+  firstSeen: "2026-11-20T01:00:00.000Z", lastSeen: "2026-11-22T01:00:00.000Z",
+  priceHistory: [{ date: "2026-11-20", priceText: "$1,500,000 - $1,600,000" }, { date: "2026-11-22", priceText: "$1,450,000 - $1,550,000" }], ...o,
+});
+
+test("mapAlertItem maps to the listing contract", () => {
+  const l = L.mapAlertItem(alertItem(), "2026-11-23");
+  assert.equal(l.id, "rea-143456789");
+  assert.deepEqual([l.origin, l.via, l.status, l.bedrooms, l.bathrooms, l.carspaces, l.propertyType], ["rea", "alerts", "active", 4, 2, 2, "House"]);
+  assert.deepEqual([l.priceLow, l.priceHigh, l.saleMethod], [1450000, 1550000, "privateTreaty"]);
+  assert.deepEqual(l.photos, ["https://i2.au.reastatic.net/a.jpg"]);
+  assert.equal(l.priceHistory.length, 2);
+  assert.deepEqual([l.priceHistory[0].priceLow, l.firstSeen, l.lastSeen, l.daysOnMarket], [1500000, "2026-11-20", "2026-11-22", 3]);
+  assert.equal(L.mapAlertItem(alertItem({ source: "domain", id: "2019876543" }), "2026-11-23").id, "2019876543");
+  assert.equal(L.mapAlertItem(alertItem({ source: "domain" }), "2026-11-23").origin, "domain");
+  assert.equal(L.mapAlertItem(alertItem({ priceText: "Auction Sat 5 Dec" }), "2026-11-23").saleMethod, "auction");
+  const sold = L.mapAlertItem(alertItem({ sold: true, soldAt: "2026-11-22T05:00:00Z" }), "2026-11-23");
+  assert.deepEqual([sold.status, sold.sold, sold.removedDate], ["removed", true, "2026-11-22"]);
+  assert.equal(L.mapAlertItem({ id: "1" }, "2026-11-23"), null);
+  // no history from the worker: one entry from the current price
+  assert.equal(L.mapAlertItem(alertItem({ priceHistory: undefined }), "2026-11-23").priceHistory.length, 1);
+});
+
+test("inExtraSuburbs matches by suburb (and postcode when both known)", () => {
+  const areas = { extraSuburbs: [{ suburb: "Burnside", postcode: "5066" }, { suburb: "Beaumont" }] };
+  assert.ok(L.inExtraSuburbs({ suburb: "burnside", postcode: "5066" }, areas));
+  assert.ok(!L.inExtraSuburbs({ suburb: "Burnside", postcode: "5000" }, areas));
+  assert.ok(L.inExtraSuburbs({ suburb: "Beaumont", postcode: null }, areas));
+  assert.ok(!L.inExtraSuburbs({ suburb: "Glenunga" }, areas));
+  assert.ok(!L.inExtraSuburbs({ suburb: "Glenunga" }, {}));
+});
+
+test("mergeAlertListings: absent listings stay active for 60 days after lastSeen, then drop; AI is kept", () => {
+  const mk = (id, lastSeen, extra = {}) => ({ ...L.mapAlertItem(alertItem({ id, lastSeen: `${lastSeen}T00:00:00Z` }), "2026-11-23"), ...extra });
+  const prev = [mk("1", "2026-11-22", { ai: { summary: "x" } }), mk("2", "2026-09-30"), mk("3", "2026-09-20"), mk("4", "2026-11-22")];
+  const fresh = [mk("1", "2026-11-23")];
+  const out = L.mergeAlertListings(prev, fresh, "2026-11-23", new Set(["rea-4"]));
+  const byId = Object.fromEntries(out.map((l) => [l.id, l]));
+  assert.deepEqual(Object.keys(byId).sort(), ["rea-1", "rea-2"]);          // 3 is 64 days old, 4 is now outside the zones
+  assert.equal(byId["rea-2"].status, "active");                              // absent, but never marked removed
+  assert.deepEqual(byId["rea-1"].ai, { summary: "x" });
+  assert.equal(byId["rea-1"].lastSeen, "2026-11-23");
+});
+
+test("mergeAlertListings: sold sticks, even when a later alert lacks the flag", () => {
+  const sold = L.mapAlertItem(alertItem({ sold: true, soldAt: "2026-11-21T00:00:00Z" }), "2026-11-23");
+  const later = L.mapAlertItem(alertItem(), "2026-11-24");
+  const [m] = L.mergeAlertListings([sold], [later], "2026-11-24");
+  assert.deepEqual([m.status, m.sold, m.removedDate], ["removed", true, "2026-11-21"]);
+});
+
+test("alert listing inside Linden Park x Glenunga zones passes the pipeline filter; far one does not", () => {
+  const [lat, lng] = L.samplePoints(zones, 1)[0];
+  const inside = L.zonesContaining(lat, lng, zones);
+  assert.ok(L.zoneMatches(inside, zones, "all"));
+  assert.ok(!L.zoneMatches(L.zonesContaining(-34.6, 138.5, zones), zones, "all"));
+});

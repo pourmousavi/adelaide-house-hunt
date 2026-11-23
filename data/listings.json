@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T05:33:32.972Z",
+  "generatedAt": "2026-11-23T09:59:06.560Z",
   "source": "sample",
   "listings": [
     {
@@ -69,7 +69,7 @@
       ],
       "status": "active",
       "ai": {
-        "summary": "SAMPLE analysis. Real summaries appear once Domain and GitHub Models are configured.",
+        "summary": "SAMPLE analysis. Real summaries appear once the Domain and AI keys are configured.",
         "pros": [
           "Sample pro"
         ],
@@ -80,7 +80,7 @@
         "fairValueHigh": 1581000,
         "verdict": "Fair",
         "model": "sample",
-        "generatedAt": "2026-11-23T05:33:32.972Z",
+        "generatedAt": "2026-11-23T09:59:06.560Z",
         "priceText": "$1.45m - $1.55m"
       }
     },
@@ -151,7 +151,7 @@
       ],
       "status": "active",
       "ai": {
-        "summary": "SAMPLE analysis. Real summaries appear once Domain and GitHub Models are configured.",
+        "summary": "SAMPLE analysis. Real summaries appear once the Domain and AI keys are configured.",
         "pros": [
           "Sample pro"
         ],
@@ -162,7 +162,7 @@
         "fairValueHigh": 1150000,
         "verdict": "Worth inspecting",
         "model": "sample",
-        "generatedAt": "2026-11-23T05:33:32.972Z",
+        "generatedAt": "2026-11-23T09:59:06.560Z",
         "priceText": "Contact agent"
       }
     },
@@ -233,7 +233,7 @@
       ],
       "status": "active",
       "ai": {
-        "summary": "SAMPLE analysis. Real summaries appear once Domain and GitHub Models are configured.",
+        "summary": "SAMPLE analysis. Real summaries appear once the Domain and AI keys are configured.",
         "pros": [
           "Sample pro"
         ],
@@ -244,7 +244,7 @@
         "fairValueHigh": 1150000,
         "verdict": "Overpriced",
         "model": "sample",
-        "generatedAt": "2026-11-23T05:33:32.972Z",
+        "generatedAt": "2026-11-23T09:59:06.560Z",
         "priceText": "Auction"
       }
     },
@@ -315,7 +315,7 @@
       ],
       "status": "underOffer",
       "ai": {
-        "summary": "SAMPLE analysis. Real summaries appear once Domain and GitHub Models are configured.",
+        "summary": "SAMPLE analysis. Real summaries appear once the Domain and AI keys are configured.",
         "pros": [
           "Sample pro"
         ],
@@ -326,7 +326,7 @@
         "fairValueHigh": 1224000,
         "verdict": "Strong value",
         "model": "sample",
-        "generatedAt": "2026-11-23T05:33:32.972Z",
+        "generatedAt": "2026-11-23T09:59:06.560Z",
         "priceText": "Offers over $1.2m"
       }
     },
@@ -334,9 +334,9 @@
       "id": "SAMPLE-5",
       "url": null,
       "headline": "SAMPLE – 4 bedroom house near the schools",
-      "address": "5 Sample Street, St Georges SA 5065",
+      "address": "5 Sample Street, St Georges SA 5064",
       "suburb": "St Georges",
-      "postcode": "5065",
+      "postcode": "5064",
       "lat": -34.947999124999996,
       "lng": 138.64110186666667,
       "propertyType": "House",
@@ -397,7 +397,7 @@
       ],
       "status": "active",
       "ai": {
-        "summary": "SAMPLE analysis. Real summaries appear once Domain and GitHub Models are configured.",
+        "summary": "SAMPLE analysis. Real summaries appear once the Domain and AI keys are configured.",
         "pros": [
           "Sample pro"
         ],
@@ -408,7 +408,7 @@
         "fairValueHigh": 1836000,
         "verdict": "Fair",
         "model": "sample",
-        "generatedAt": "2026-11-23T05:33:32.972Z",
+        "generatedAt": "2026-11-23T09:59:06.560Z",
         "priceText": "$1.8m"
       }
     },
@@ -479,7 +479,7 @@
       ],
       "status": "active",
       "ai": {
-        "summary": "SAMPLE analysis. Real summaries appear once Domain and GitHub Models are configured.",
+        "summary": "SAMPLE analysis. Real summaries appear once the Domain and AI keys are configured.",
         "pros": [
           "Sample pro"
         ],
@@ -490,7 +490,7 @@
         "fairValueHigh": 1071000,
         "verdict": "Worth inspecting",
         "model": "sample",
-        "generatedAt": "2026-11-23T05:33:32.972Z",
+        "generatedAt": "2026-11-23T09:59:06.560Z",
         "priceText": "$950,000 - $1,050,000"
       }
     },
@@ -561,7 +561,7 @@
       ],
       "status": "active",
       "ai": {
-        "summary": "SAMPLE analysis. Real summaries appear once Domain and GitHub Models are configured.",
+        "summary": "SAMPLE analysis. Real summaries appear once the Domain and AI keys are configured.",
         "pros": [
           "Sample pro"
         ],
@@ -572,7 +572,7 @@
         "fairValueHigh": 1150000,
         "verdict": "Overpriced",
         "model": "sample",
-        "generatedAt": "2026-11-23T05:33:32.972Z",
+        "generatedAt": "2026-11-23T09:59:06.560Z",
         "priceText": "Expressions of interest"
       }
     },
@@ -643,7 +643,7 @@
       ],
       "status": "active",
       "ai": {
-        "summary": "SAMPLE analysis. Real summaries appear once Domain and GitHub Models are configured.",
+        "summary": "SAMPLE analysis. Real summaries appear once the Domain and AI keys are configured.",
         "pros": [
           "Sample pro"
         ],
@@ -654,7 +654,7 @@
         "fairValueHigh": 795600,
         "verdict": "Strong value",
         "model": "sample",
-        "generatedAt": "2026-11-23T05:33:32.972Z",
+        "generatedAt": "2026-11-23T09:59:06.560Z",
         "priceText": "$780k"
       }
     }
