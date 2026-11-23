@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T05:33:32.972Z",
+  "generatedAt": "2026-11-23T11:56:34.759Z",
   "cashRate": {
     "current": 4.85,
     "asOf": "2026-11-20",
@@ -1431,25 +1431,6 @@
     ],
     "label": "Owner-occupier variable, new loans, all institutions (RBA F6)"
   },
-  "method": "Two models, averaged with equal weight. Model 1 is our own simple model: inflation drifts back toward the RBA's 2.5% target (AR(1) mean reversion), and the cash rate moves part of the way each quarter toward a Taylor-type target of 3.5% neutral + 1.5 x (forecast inflation - 2.5%). Model 2 is TimesFM, Google's open-source pretrained forecasting model, run on the RBA history with no tuning. The central path is the average of the two (cash rate rounded to 0.05-point steps). The 80% band is deliberately wide: it runs from the lower of the two models' bands to the higher of their upper bands. Not an official forecast; use as a rough guide only.",
-  "sources": [
-    {
-      "name": "RBA F1 (cash rate target, daily)",
-      "url": "https://www.rba.gov.au/statistics/tables/csv/f1-data.csv"
-    },
-    {
-      "name": "RBA G1 (CPI year-ended)",
-      "url": "https://www.rba.gov.au/statistics/tables/csv/g1-data.csv"
-    },
-    {
-      "name": "RBA F6 (housing lending rates)",
-      "url": "https://www.rba.gov.au/statistics/tables/csv/f6-data.csv"
-    },
-    {
-      "name": "RBA H5 (labour force, unemployment rate)",
-      "url": "https://www.rba.gov.au/statistics/tables/csv/h5-data.csv"
-    }
-  ],
   "unemployment": {
     "current": 4.9,
     "asOf": "2026-10",
@@ -2024,5 +2005,24 @@
       }
     ],
     "label": "Seasonally adjusted, % of labour force (ABS via RBA H5)"
-  }
+  },
+  "method": "Two models, averaged with equal weight. Model 1 is our own simple model: inflation drifts back toward the RBA's 2.5% target (AR(1) mean reversion), and the cash rate moves part of the way each quarter toward a Taylor-type target of 3.5% neutral + 1.5 x (forecast inflation - 2.5%). Model 2 is TimesFM, Google's open-source pretrained forecasting model, run on the RBA history with no tuning. The central path is the average of the two (cash rate rounded to 0.05-point steps). The 80% band is deliberately wide: it runs from the lower of the two models' bands to the higher of their upper bands. Not an official forecast; use as a rough guide only.",
+  "sources": [
+    {
+      "name": "RBA F1 (cash rate target, daily)",
+      "url": "https://www.rba.gov.au/statistics/tables/csv/f1-data.csv"
+    },
+    {
+      "name": "RBA G1 (CPI year-ended)",
+      "url": "https://www.rba.gov.au/statistics/tables/csv/g1-data.csv"
+    },
+    {
+      "name": "RBA F6 (housing lending rates)",
+      "url": "https://www.rba.gov.au/statistics/tables/csv/f6-data.csv"
+    },
+    {
+      "name": "RBA H5 (labour force, unemployment rate)",
+      "url": "https://www.rba.gov.au/statistics/tables/csv/h5-data.csv"
+    }
+  ]
 }

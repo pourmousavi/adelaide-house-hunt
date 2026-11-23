@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-11-23T10:11:50.313Z",
+  "generatedAt": "2026-11-23T11:56:34.759Z",
   "model": "gemini-flash-latest",
-  "headline": "High Borrowing Costs and Tight Supply Create a Complex Backdrop for Adelaide's Eastern Suburbs",
-  "outlook": "Adelaide's premier eastern suburbs—including Linden Park, Glenunga, Tusmore, Toorak Gardens, St Georges, and Beaumont—continue to exhibit elevated price medians ranging from approximately $1.9M to nearly $3M in 2026, supported by structural demand for established family homes and schooling catchments. However, this segment operates against substantial macroeconomic headwinds: the RBA cash rate sits at 4.85%, mortgage rates average 6.2%, and forecasts project official rates remaining near 4.80% through late 2027. Suburb sales volumes remain thin, causing noticeable median volatility (such as Tusmore's recorded pullback alongside Glenunga's sharp gains), while rising unemployment and broader economic deceleration introduce genuine uncertainty around future capital values and buyer borrowing limits.",
-  "timing": "For a family seeking a long-term home, purchasing decisions should hinge on borrowing safety and property suitability rather than attempting to time price shifts. With borrowing costs expected to stay restrictive over the next 12 months and economic conditions tightening, overextending on debt presents elevated risk. If a property matches your multi-year requirements and serviceability is thoroughly stress-tested against prevailing 6.2% mortgage rates with ample buffer, acquiring in these tightly held enclaves can be justified; conversely, if finances are stretched, maintaining flexibility while monitoring economic stability and potential monetary easing into 2028 provides a prudent alternative.",
+  "headline": "Adelaide Eastern Suburbs: Strong Historical Price Resilience Meets Tightening Macroeconomic Headwinds",
+  "outlook": "Across Adelaide's blue-chip eastern suburbs—such as Linden Park, Glenunga, Beaumont, and Toorak Gardens—median prices have demonstrated considerable resilience through 2026, with several suburbs reaching record medians despite thin transaction volumes. However, the macroeconomic landscape introduces substantial uncertainty. The Reserve Bank of Australia cash rate currently sits elevated at 4.85%, translating to average mortgage rates around 6.20%, while CPI remains above target at 3.90%. With economic indicators pointing toward slowing domestic growth and unemployment approaching 5.0%, these high debt-servicing burdens could test household borrowing capacity. Suburb-level data shows uneven performance, such as Tusmore moderating from 2025 levels and St Georges flattening, underscoring that premium prestige pockets are not completely immune to broader financial conditions.",
+  "timing": "For a family purchasing a long-term home in these tightly held catchments, attempts to time the broader market are fraught with uncertainty and generally secondary to finding a suitable home. With current listing inventory virtually non-existent in available data and high competition for quality family layouts near key schools, waiting carries the risk of missing scarce opportunities. However, given economic projections pointing to harder conditions ahead and cash rate forecast bands spanning between 3.41% and 5.83% over the next four quarters, purchasers should prioritize strict serviceability stress-testing above prevailing 6.20% mortgage rates rather than banking on rapid rate relief or continuous capital growth.",
   "risks": [
-    "Sustained high debt servicing costs, with cash rates forecast to hover around 4.80% through 2027 alongside mortgage rates exceeding 6.2%.",
-    "Macroeconomic strain and rising national unemployment (forecast to surpass 5%), which could dampen high-end purchasing power.",
-    "Thin transaction depth across prestige eastern suburbs, where sparse quarterly sales can mask genuine liquidity and pricing shifts.",
-    "Risk of overcommitting financially in competitive school zones amidst an uncertain economic growth backdrop."
+    "Prolonged elevated borrowing costs, with mortgage rates at 6.20% and wide cash rate forecast bounds reaching up to 5.83% in 2027.",
+    "Macroeconomic deterioration, marked by rising unemployment projected to surpass 5% and softening economic activity.",
+    "Low transaction depth in suburbs like Tusmore and Toorak Gardens, which can lead to higher median price volatility and erratic comparables.",
+    "Potential inflation stickiness (CPI at 3.90%) delaying any forecast monetary policy easing."
   ],
   "watch": [
-    "RBA cash rate updates and whether CPI moderates toward the 2-3% target band from the current 3.9% level.",
-    "Shifts in local active listing volumes and vendor discounting across the 5064, 5065, and 5066 postcodes.",
-    "Labor market trends, specifically South Australian and national unemployment figures crossing the 5% threshold.",
-    "Lender assessment buffers and mortgage serviceability policies impacting high-value loan approvals."
+    "Reserve Bank of Australia cash rate announcements, particularly any divergence from the 4.80% 4-quarter projection.",
+    "Local eastern suburbs new listing flow and sales depth to gauge if vendor supply loosens.",
+    "National unemployment figures as labor market weakness tests broader mortgage serviceability.",
+    "Federal fiscal updates and potential housing taxation policy shifts referenced in recent RBA modelling."
   ],
   "disclaimer": "Not financial advice."
 }
