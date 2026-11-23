@@ -147,6 +147,10 @@ test("email(): forwards first, stores listings, keeps only 10 raw bodies, serves
   assert.equal(list.length, 3);
   assert.equal(list.find((l) => l.id === "143456789").priceHistory.length, 1);
   assert.ok(!JSON.stringify(list).includes("jane"));
+  const st = await (await worker.fetch(new Request("https://x.example/status.json"), env)).json();
+  assert.equal(st.rea.listings, 3);
+  assert.ok(st.rea.at);
+  assert.equal(st.domain, null);
   assert.equal((await worker.fetch(new Request("https://x.example/raw"), env)).status, 404);
   assert.equal((await worker.fetch(new Request("https://x.example/listings.json", { method: "POST" }), env)).status, 404);
 });

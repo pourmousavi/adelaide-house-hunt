@@ -1,14 +1,14 @@
 // Entry point: boot, routing between views, data (re)loading, the fetch workflow, and listings orchestration.
 import { loadAll, loadZones, latestGeneratedAt, applyZonesLocally, IS_FIXTURES } from './data.js';
 import * as store from './store.js';
-import { h, icon, relTime, fmtDate, daysSince, toast } from './util.js';
+import { h, icon, relTime, daysSince, toast } from './util.js';
 import { filterListings, sortListings, renderCard, renderFilters, observeCharts, activeFilterCount, SORT_OPTIONS } from './listings.js';
 import { renderMacroStrip, renderNewsStrip, emptyState, renderOutlook, renderFinancePage, renderAreas, renderSettings, renderMore } from './views.js';
 import { createMap } from './map.js';
-import { runWorkflowAndWait, getFile, putFile, dispatchFetch } from './github.js';
+import { getFile, putFile, dispatchFetch } from './github.js';
 
 const $ = (sel, el = document) => el.querySelector(sel);
-const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+const ALERTS_URL = 'https://house-alerts.alipourmousavi.workers.dev';
 const VIEWS = ['listings', 'map', 'outlook', 'finance', 'areas', 'settings', 'more'];
 const TITLES = { listings: 'Listings', map: 'Map', outlook: 'Outlook', finance: 'Finance', areas: 'Areas', settings: 'Settings', more: 'More' };
 const DEFAULT_AREAS = {
@@ -27,7 +27,7 @@ const effectiveAreas = () => store.getAreasLocal() || state.data?.areas || DEFAU
 
 async function boot() {
   applyTheme(store.get(store.KEYS.theme, 'auto'));
-  $('#fetch-btn').addEventListener('click', onFetch);
+  renderAlertStatus();
   $('#filters-toggle').addEventListener('click', (e) => {
     const open = $('#filters-panel').classList.toggle('is-open');
     e.currentTarget.setAttribute('aria-expanded', String(open));
@@ -92,7 +92,7 @@ function updateUpdatedLabel() {
   const el = $('#updated');
   const ts = latestGeneratedAt(state.data);
   if (!ts) { el.textContent = state.data ? 'No data published yet' : 'Loading…'; el.removeAttribute('title'); el.classList.remove('is-stale'); return; }
-  el.textContent = `Data updated ${relTime(ts)}`;
+  el.textContent = `Processed ${relTime(ts)}`;
   el.title = new Date(ts).toLocaleString('en-AU', { timeZone: 'Australia/Adelaide' });
   el.classList.toggle('is-stale', (daysSince(ts) ?? 0) >= 3);
 }
@@ -307,57 +307,16 @@ function renderSettingsView() {
   });
 }
 
-// ---------------------------------------------------------------- fetch workflow
+// ---------------------------------------------------------------- alert status
 
-function setFetchState(phase, text, url) {
-  const el = $('#fetch-status');
-  if (!phase) { el.hidden = true; el.replaceChildren(); return; }
-  const steps = ['queued', 'running', 'done'];
-  const idx = phase === 'failed' || phase === 'warn' ? 3 : steps.indexOf(phase);
-  el.hidden = false;
-  el.dataset.phase = phase;
-  el.replaceChildren(...[
-    h('span', { class: 'fetch-steps', 'aria-hidden': 'true' }, steps.map((s, i) => h('span', { class: `fetch-step${i < idx ? ' is-done' : i === idx ? ' is-active' : ''}` }))),
-    h('span', { class: 'fetch-text', text: text }),
-    url ? h('a', { href: url, target: '_blank', rel: 'noopener noreferrer', class: 'small', text: 'view run' }) : null,
-    h('button', { type: 'button', class: 'btn btn-ghost btn-sm', 'aria-label': 'Dismiss', onclick: () => setFetchState(null) }, icon('x')),
-  ].filter(Boolean));
-}
-
-async function onFetch() {
-  if (state.fetching) return;
-  const btn = $('#fetch-btn');
-  const gh = store.getGh();
-  state.fetching = true;
-  btn.disabled = true;
-  btn.setAttribute('aria-busy', 'true');
-  try {
-    if (!gh.token) {
-      setFetchState('running', 'Reloading the latest published data…');
-      const before = latestGeneratedAt(state.data);
-      const d = await reloadData({ bust: true });
-      const after = latestGeneratedAt(d);
-      setFetchState('done', after && after !== before ? 'Loaded newer data.' : `Up to date — data ${after ? relTime(after) : 'not published yet'}. To trigger a fresh fetch, add a GitHub token in Settings.`);
-      return;
-    }
-    const before = latestGeneratedAt(state.data);
-    await runWorkflowAndWait(gh.repo, gh.token, { onStatus: ({ phase, text, run }) => setFetchState(phase, text, run?.html_url) });
-    setFetchState('running', 'Fetch finished — waiting for GitHub Pages to publish the new data…');
-    let updated = false;
-    for (let i = 0; i < 10; i++) {
-      await sleep(i === 0 ? 8000 : 15000);
-      const d = await reloadData({ bust: true });
-      if (latestGeneratedAt(d) !== before) { updated = true; break; }
-    }
-    setFetchState(updated ? 'done' : 'warn', updated ? `Data updated ${fmtDate(latestGeneratedAt(state.data))}.` : 'The fetch finished but the published data has not changed yet. Try again in a minute.');
-    if (updated) toast('New data loaded');
-  } catch (e) {
-    setFetchState('failed', e.message);
-  } finally {
-    state.fetching = false;
-    btn.disabled = false;
-    btn.removeAttribute('aria-busy');
-  }
+// Last realestate.com.au / Domain alert email the worker received (live), next to when the pipeline last processed them.
+async function renderAlertStatus() {
+  const el = $('#alerts-status');
+  let st = null;
+  try { const r = await fetch(`${ALERTS_URL}/status.json`, { cache: 'no-store' }); if (r.ok) st = await r.json(); } catch {}
+  const row = (name, s) => h('li', { title: s?.at ? new Date(s.at).toLocaleString('en-AU', { timeZone: 'Australia/Adelaide' }) : '' },
+    h('b', { text: name }), ' ', !st ? 'unavailable' : s?.at ? `${relTime(s.at)} · ${s.listings} listing${s.listings === 1 ? '' : 's'}` : 'no alert yet');
+  el.replaceChildren(h('span', { class: 'alerts-h', text: 'Last alert received' }), h('ul', { class: 'list-plain' }, row('realestate', st?.rea), row('Domain', st?.domain)));
 }
 
 boot().catch((e) => {

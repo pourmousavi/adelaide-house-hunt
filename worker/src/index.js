@@ -27,6 +27,8 @@ export default {
       console.log("alert parse failed:", diag.error);
     }
     try { await env.ALERTS.put("diag:last", JSON.stringify(diag), { expirationTtl: RAW_TTL }); } catch {}
+    // last alert per source, served by /status.json (no TTL: "never" vs "3 weeks ago" both matter)
+    if (diag.source) try { await env.ALERTS.put(`last:${diag.source}`, JSON.stringify({ at: diag.at, listings: diag.listings ?? 0 })); } catch {}
   },
 
   async fetch(request, env) {
@@ -35,6 +37,12 @@ export default {
     if (request.method === "GET" && url.pathname === "/listings.json") {
       const listings = await allListings(env);
       return new Response(JSON.stringify(listings), {
+        headers: { "Content-Type": "application/json; charset=utf-8", "Cache-Control": "public, max-age=60", ...CORS },
+      });
+    }
+    if (request.method === "GET" && url.pathname === "/status.json") {
+      const [rea, domain] = await Promise.all(["rea", "domain"].map((s) => env.ALERTS.get(`last:${s}`, "json")));
+      return new Response(JSON.stringify({ rea, domain }), {
         headers: { "Content-Type": "application/json; charset=utf-8", "Cache-Control": "public, max-age=60", ...CORS },
       });
     }
@@ -61,6 +69,7 @@ async function handleAlert(message, raw, env, diag) {
   diag.matched = senderMatches(...senders);
   if (!diag.matched) return;
   diag.senderDomains = [...new Set(senders.map((s) => String(s).match(/@([a-z0-9.-]+)/i)?.[1]?.toLowerCase()).filter(Boolean))]; // domains only, no addresses
+  diag.source = diag.senderDomains.some((d) => /domain\.com\.au$/.test(d)) ? "domain" : "rea";
 
   const html = htmlPart(raw);
   diag.htmlFound = !!html;

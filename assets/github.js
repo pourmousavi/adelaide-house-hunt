@@ -32,11 +32,6 @@ async function gh(path, token, init = {}) {
 export const dispatchFetch = (repo, token) =>
   gh(`/repos/${repo}/actions/workflows/${WORKFLOW}/dispatches`, token, { method: 'POST', body: JSON.stringify({ ref: 'main' }) });
 
-export async function latestRun(repo, token) {
-  const j = await gh(`/repos/${repo}/actions/workflows/${WORKFLOW}/runs?per_page=1`, token);
-  return j?.workflow_runs?.[0] || null;
-}
-
 export async function getFile(repo, token, path) {
   const j = await gh(`/repos/${repo}/contents/${path}?ref=main`, token);
   return { sha: j.sha, content: j.encoding === 'base64' ? decodeB64(j.content) : j.content };
@@ -59,30 +54,4 @@ export function encodeB64(str) {
 export function decodeB64(b64) {
   const bin = atob(String(b64).replace(/\s/g, ''));
   return new TextDecoder().decode(Uint8Array.from(bin, (c) => c.charCodeAt(0)));
-}
-
-const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-
-/**
- * Dispatch the workflow and poll its newest run until it completes.
- * onStatus({ phase: 'queued'|'running'|'done'|'failed', text, run })
- */
-export async function runWorkflowAndWait(repo, token, { onStatus, intervalMs = 10000, timeoutMs = 20 * 60 * 1000 } = {}) {
-  const before = await latestRun(repo, token).catch(() => null);
-  await dispatchFetch(repo, token);
-  onStatus?.({ phase: 'queued', text: 'Fetch requested — waiting for GitHub to start it' });
-  const started = Date.now();
-  while (Date.now() - started < timeoutMs) {
-    await sleep(intervalMs);
-    const run = await latestRun(repo, token).catch(() => null);
-    const ours = run && (!before || run.id !== before.id);
-    if (!ours) { onStatus?.({ phase: 'queued', text: 'Queued on GitHub…' }); continue; }
-    if (run.status === 'completed') {
-      const ok = run.conclusion === 'success';
-      onStatus?.({ phase: ok ? 'done' : 'failed', run, text: ok ? 'Fetch finished' : `Fetch ${run.conclusion || 'failed'}` });
-      return run;
-    }
-    onStatus?.({ phase: run.status === 'in_progress' ? 'running' : 'queued', run, text: run.status === 'in_progress' ? 'Fetching listings and data…' : 'Queued on GitHub…' });
-  }
-  throw new Error('Timed out waiting for the workflow to finish');
 }
