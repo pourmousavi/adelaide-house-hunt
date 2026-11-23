@@ -6,6 +6,7 @@ import { filterListings, sortListings, renderCard, renderFilters, observeCharts,
 import { renderMacroStrip, renderNewsStrip, emptyState, renderOutlook, renderFinancePage, renderAreas, renderSettings, renderMore } from './views.js';
 import { createMap } from './map.js';
 import { getFile, putFile, dispatchFetch } from './github.js';
+import { mergeImport } from './bookmarklet.js';
 
 const $ = (sel, el = document) => el.querySelector(sel);
 const ALERTS_URL = 'https://house-alerts.alipourmousavi.workers.dev';
@@ -18,7 +19,7 @@ const DEFAULT_AREAS = {
 
 const state = {
   data: null, prefs: store.getPrefs(), saved: store.getSaved(), areas: DEFAULT_AREAS,
-  current: null, mapApi: null, mapInit: false, mapPending: null, financePrice: null, fetching: false, settingsRendered: false,
+  pendingImport: null, current: null, mapApi: null, mapInit: false, mapPending: null, financePrice: null, fetching: false, settingsRendered: false,
 };
 
 const effectiveAreas = () => store.getAreasLocal() || state.data?.areas || DEFAULT_AREAS;
@@ -33,9 +34,11 @@ async function boot() {
     e.currentTarget.setAttribute('aria-expanded', String(open));
   });
   window.matchMedia('(prefers-color-scheme: dark)').addEventListener?.('change', () => { if (state.mapApi) toast('Reload to switch the map tiles to the new theme.'); });
+  takeImportFromHash();
   await reloadData({ bust: false });
   route();
-  window.addEventListener('hashchange', route);
+  if (state.pendingImport) $('#import-root').scrollIntoView({ block: 'start' });
+  window.addEventListener('hashchange', () => { if (takeImportFromHash()) renderImportPanel(); route(); });
   setInterval(updateUpdatedLabel, 60000);
   if ('serviceWorker' in navigator && location.protocol === 'https:') navigator.serviceWorker.register('sw.js').catch(() => {});
 }
@@ -128,6 +131,7 @@ const cardCtx = () => ({
 
 function renderListings() {
   renderAddListing();
+  if (state.pendingImport && !$('#import-root').childElementCount) renderImportPanel();
   const root = $('#listings-root');
   const toolbar = $('#listings-toolbar');
   const d = state.data;
@@ -165,6 +169,60 @@ function renderListings() {
   const ctx = cardCtx();
   root.replaceChildren(summary, ...visible.map((l) => renderCard(l, ctx)));
   observeCharts(root);
+}
+
+// ---------------------------------------------------------------- bookmarklet import (#import=…)
+
+// The hash can come from any link, so it is only a proposal: validated here and imported after you confirm.
+function takeImportFromHash() {
+  if (!location.hash.startsWith('#import=')) return false;
+  let p = null;
+  try { p = JSON.parse(decodeURIComponent(location.hash.slice(8))); } catch { /* bad payload */ }
+  history.replaceState(null, '', `${location.pathname}${location.search}#listings`);
+  const str = (v, n) => (typeof v === 'string' && v.trim() ? v.replace(/\s+/g, ' ').trim().slice(0, n) : null);
+  const int = (v) => (Number.isInteger(v) && v >= 0 && v <= 20 ? v : null);
+  const items = (Array.isArray(p?.items) ? p.items : []).filter((it) => LISTING_URL_RE.test(it?.url || '')).slice(0, 200).map((it) => ({
+    url: it.url.split(/[?#]/)[0], address: str(it.address, 120), priceText: str(it.priceText, 80),
+    beds: int(it.beds), baths: int(it.baths), cars: int(it.cars), image: /^https:\/\//.test(it.image || '') ? it.image.slice(0, 500) : null,
+  }));
+  state.pendingImport = { from: str(p?.from, 40) || 'the page', items };
+  return true;
+}
+
+function renderImportPanel() {
+  const root = $('#import-root');
+  const imp = state.pendingImport;
+  if (!imp) { root.replaceChildren(); return; }
+  const ok = imp.items.filter((i) => i.address);
+  const status = h('p', { class: 'small', role: 'status' });
+  const close = () => { state.pendingImport = null; renderImportPanel(); };
+  const go = async (e) => {
+    const gh = store.getGh();
+    if (!gh.token) { status.replaceChildren('Importing needs the GitHub token. Save it in ', h('a', { href: '#settings', text: 'Settings' }), ', then click the bookmarklet again.'); return; }
+    e.currentTarget.disabled = true; status.textContent = 'Saving…';
+    try {
+      let list = [], sha = null;
+      try { const file = await getFile(gh.repo, gh.token, 'data/manual.json'); sha = file.sha; list = JSON.parse(file.content); } catch (err) { if (!/404/.test(err.message)) throw err; }
+      const r = mergeImport(list, imp.items, new Date().toISOString().slice(0, 10));
+      await putFile(gh.repo, gh.token, 'data/manual.json', `${JSON.stringify(r.list, null, 2)}\n`, { sha, message: `Import ${r.added} new, ${r.updated} updated listings from ${imp.from}` });
+      let note = `Imported: ${r.added} new, ${r.updated} updated${r.skipped ? `, ${r.skipped} skipped` : ''}.`;
+      try { await dispatchFetch(gh.repo, gh.token); note += ' A fetch has started; those inside your zones appear in a few minutes.'; }
+      catch (err) { note += ` They appear after the next scheduled fetch (could not start one: ${err.message}).`; }
+      state.pendingImport = null;
+      $('#import-root').replaceChildren(h('div', { class: 'set-sec' }, h('p', { text: note }), h('button', { type: 'button', class: 'btn btn-secondary', onclick: close }, 'Close')));
+      toast('Listings imported');
+    } catch (err) { status.textContent = `Could not import: ${err.message}`; e.currentTarget.disabled = false; }
+  };
+  root.replaceChildren(h('section', { class: 'set-sec import-panel', 'aria-labelledby': 'import-h' },
+    h('h3', { id: 'import-h', text: `Import ${ok.length} listing${ok.length === 1 ? '' : 's'} from ${imp.from}?` }),
+    imp.items.length > ok.length && h('p', { class: 'small muted', text: `${imp.items.length - ok.length} found without a readable street address will be skipped (add those with "Add a listing").` }),
+    !imp.items.length && h('p', { class: 'small', text: 'Nothing usable was found in that import.' }),
+    ok.length > 0 && h('ul', { class: 'import-list' }, ok.map((i) => h('li', {},
+      h('span', { text: i.address }), h('span', { class: 'muted small', text: [i.priceText, i.beds != null && `${i.beds} bed`, i.baths != null && `${i.baths} bath`, i.cars != null && `${i.cars} car`].filter(Boolean).join(' · ') })))),
+    h('p', { class: 'small muted', text: 'Only those inside your school zones (or extra suburbs) will show. Imports drop off 60 days after you last imported them, unless an alert email mentions them again.' }),
+    h('div', { class: 'row-wrap' }, ok.length > 0 && h('button', { type: 'button', class: 'btn btn-primary', onclick: go }, 'Import'), h('button', { type: 'button', class: 'btn btn-secondary', onclick: close }, 'Cancel')),
+    status));
+  if (state.current === 'listings') root.scrollIntoView({ block: 'start' }); // bookmarklet used again while the app is open
 }
 
 // ---------------------------------------------------------------- add a listing by hand

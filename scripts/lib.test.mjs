@@ -270,3 +270,10 @@ test("manualToAlertItem turns a link + address into a listing", () => {
   assert.equal(L.manualToAlertItem({ url: "https://www.realestate.com.au/buy/in-linden+park/list-1", address: "1 A St" }, "2026-11-23"), null, "search page rejected");
   assert.equal(L.manualToAlertItem({ url: "https://www.domain.com.au/7-a-st-glenunga-sa-5064-2019876543", address: "" }, "2026-11-23"), null, "address required");
 });
+
+test("manualToAlertItem: bookmarklet imports expire 60 days after the last import", () => {
+  const m = { url: "https://www.domain.com.au/7-a-st-glenunga-sa-5064-2019876543", address: "7 A St, Glenunga SA 5064", via: "bookmarklet", addedAt: "2026-09-01", seenAt: "2026-10-01", image: "https://x/1.jpg" };
+  const i = L.manualToAlertItem(m, "2026-11-23");
+  assert.deepEqual([i.lastSeen, i.firstSeen, i.image], ["2026-10-01", "2026-09-01", "https://x/1.jpg"]);
+  assert.equal(L.manualToAlertItem({ ...m, seenAt: "2026-09-01" }, "2026-11-23"), null);
+});

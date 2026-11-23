@@ -415,11 +415,13 @@ export function mapAlertItem(it, today) {
 }
 
 // data/manual.json entry (added from the app: listing link + address) -> worker-shaped item for mapAlertItem, or null.
-// lastSeen is today so a manual listing stays until it is removed from manual.json or an alert says it sold.
+// Hand-added: lastSeen is today, so it stays until removed from manual.json or an alert says it sold.
+// Bookmarklet imports (via "bookmarklet"): lastSeen is the last import, so they expire like alert listings.
 export function manualToAlertItem(m, today) {
   const u = resolveListingUrl(m?.url);
   const address = String(m?.address ?? "").trim();
   if (!u || !address) return null;
+  if (m.via === "bookmarklet" && daysBetween(m.seenAt ?? m.addedAt ?? today, today) > ALERT_KEEP_DAYS) return null; // not re-imported for 60 days
   const a = parseAddress(address.replace(/\s+SA\s+(\d{4})$/i, ", SA $1"));
   const n = (x) => (x === "" || x == null || !Number.isFinite(+x) ? null : +x);
   return {
@@ -427,7 +429,8 @@ export function manualToAlertItem(m, today) {
     suburb: a?.suburb ?? u.suburb ?? null, postcode: a?.postcode ?? address.match(/\b(5\d{3})\b/)?.[1] ?? null,
     propertyType: u.propertyType, priceText: m.priceText?.trim() || null,
     beds: n(m.beds), baths: n(m.baths), cars: n(m.cars),
-    firstSeen: m.addedAt ?? today, lastSeen: today, alertKind: null,
+    image: m.image ?? null,
+    firstSeen: m.addedAt ?? today, lastSeen: m.via === "bookmarklet" ? (m.seenAt ?? m.addedAt ?? today) : today, alertKind: null,
   };
 }
 

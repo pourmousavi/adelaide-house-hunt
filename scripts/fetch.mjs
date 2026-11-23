@@ -162,8 +162,10 @@ async function alertsStep(areas, geojson) {
 
   // Listings added by hand in the app (data/manual.json). An alert copy of the same listing wins.
   const workerIds = new Set(raw.map((r) => `${r?.source}:${r?.id}`));
-  const manual = readJson("manual.json", []).map((m) => L.manualToAlertItem(m, today)).filter((m) => m && !workerIds.has(`${m.source}:${m.id}`));
-  const items = [...raw.map((r) => L.mapAlertItem(r, today)), ...manual.map((m) => ({ ...L.mapAlertItem(m, today), manual: true }))].filter(Boolean)
+  // Bookmarklet imports go through the zone filter like alerts; hand-added ones (manual: true) are always kept.
+  const manual = readJson("manual.json", []).map((m) => [m, L.manualToAlertItem(m, today)]).filter(([, i]) => i && !workerIds.has(`${i.source}:${i.id}`));
+  const items = [...raw.map((r) => L.mapAlertItem(r, today)),
+    ...manual.map(([m, i]) => ({ ...L.mapAlertItem(i, today), ...(m.via === "bookmarklet" ? { imported: true } : { manual: true }) }))].filter(Boolean)
     .filter((l) => l.manual || !l.propertyType || !areas.propertyTypes || areas.propertyTypes.includes(l.propertyType));
   const called = await geocodeAll(items.filter((l) => l.address));
   const fresh = [], outside = new Set();

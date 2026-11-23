@@ -4,6 +4,7 @@ import { renderChart } from './charts.js';
 import { computeFinance } from './finance.js';
 import * as store from './store.js';
 import { DATA_BASE, IS_FIXTURES } from './data.js';
+import { bookmarkletHref } from './bookmarklet.js';
 
 const YEAR = 365.25 * 86400000;
 export const emptyState = (title, body, action) => h('div', { class: 'empty' }, h('p', { class: 'empty-title', text: title }), body && h('p', { class: 'muted', text: body }), action);
@@ -411,6 +412,19 @@ export function renderSettings(root, { onTheme, onLocalDataChanged }) {
       h('li', { text: 'Set an expiry you are comfortable with, generate, and paste it above.' }))),
   );
   root.append(h('section', { class: 'set-sec' }, h('h3', { text: 'GitHub (live fetching and area edits)' }), ghForm));
+
+  // bookmarklet
+  const appUrl = `${location.origin}${location.pathname}`;
+  root.append(h('section', { class: 'set-sec' }, h('h3', { text: 'Import from a search page (bookmarklet)' }),
+    h('p', { class: 'muted', text: 'A bookmark that works like a button: on a realestate.com.au or domain.com.au search-results page, click it and every listing on that page is sent here for you to confirm. One click per results page. Works best on a computer.' }),
+    h('p', {}, h('a', { class: 'btn btn-primary bookmarklet-link', href: bookmarkletHref(appUrl), title: 'Drag me to the bookmarks bar', onclick: (e) => { e.preventDefault(); toast('Drag this button to your bookmarks bar instead of clicking it.'); } }, icon('bookmark'), 'House Hunt import')),
+    h('details', { class: 'howto' }, h('summary', { text: 'How to install and use it' }), h('ol', {},
+      h('li', { text: 'Show the bookmarks bar (Chrome / Edge: Cmd/Ctrl + Shift + B; Safari: View → Show Favorites Bar).' }),
+      h('li', { text: 'Drag the "House Hunt import" button above onto the bookmarks bar.' }),
+      h('li', { text: 'On realestate.com.au or domain.com.au, search your suburbs and scroll to the bottom of the results so every card has loaded.' }),
+      h('li', { text: 'Click "House Hunt import" in the bookmarks bar. This app opens in a new tab with the listings it found; check them and click Import.' }),
+      h('li', { text: 'Go to the next results page and repeat. Importing the same listing again just refreshes it.' }))),
+    h('p', { class: 'small muted', text: 'It reads only what is on the page you are viewing; nothing is sent anywhere except this app. Importing saves data/manual.json with the GitHub token above. If a site changes its page layout the bookmarklet may stop finding listings; tell Claude and it can be adjusted.' })));
 
   // data source
   root.append(h('section', { class: 'set-sec' }, h('h3', { text: 'Data' }),

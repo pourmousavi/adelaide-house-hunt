@@ -532,6 +532,10 @@ input::placeholder, textarea::placeholder { color: var(--ink-3); opacity: 1; }
 .howto ol { margin-top: 8px; display: grid; gap: 4px; font-size: 13.5px; }
 .add-listing { max-width: none; padding: 12px 18px; }
 .add-listing[open] summary { margin-bottom: 4px; }
+.import-panel { max-width: none; }
+.import-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 6px; max-height: 320px; overflow: auto; }
+.import-list li { display: grid; gap: 2px; padding: 6px 0; border-bottom: 1px solid var(--line); }
+.bookmarklet-link { cursor: grab; }
 .more-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; max-width: 560px; }
 .more-item { display: flex; align-items: center; gap: 12px; padding: 12px 14px; background: var(--paper); box-shadow: var(--shadow-card); border-radius: var(--radius-lg); color: var(--ink); text-decoration: none; min-height: 60px; transition: box-shadow 150ms ease; }
 @media (hover: hover) { .more-item:hover { box-shadow: var(--shadow-pop); } }
