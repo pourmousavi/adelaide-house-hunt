@@ -23,6 +23,8 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main # latest main, not the trigger commit: a queued run must see the data the run before it committed
       - uses: actions/setup-node@v4
         with:
           node-version: 22

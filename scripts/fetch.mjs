@@ -176,10 +176,11 @@ async function alertsStep(areas, geojson) {
       unlocated++; continue;
     }
     l.zones = L.zonesContaining(l.lat, l.lng, zones);
-    if (l.manual || L.zoneMatches(l.zones, zones, areas.zoneMatch) || L.inExtraSuburbs(l, areas)) fresh.push(l); // you added it, so it stays even outside the zones else outside.add(l.id);
+    // hand-added (manual) listings stay even outside the zones
+    if (l.manual || L.zoneMatches(l.zones, zones, areas.zoneMatch) || L.inExtraSuburbs(l, areas)) fresh.push(l); else outside.add(l.id);
   }
   const merged = L.mergeAlertListings(prev, fresh, today, outside);
-  console.log(`  alerts: ${raw.length} in worker, ${manual.length} added by hand, ${fresh.length} inside zones, ${outside.size} outside, ${unlocated} not located, ${called} geocoded, ${merged.length} kept`);
+  console.log(`  alerts: ${raw.length} in worker, ${manual.length} from manual.json, ${fresh.length} inside zones, ${outside.size} outside, ${unlocated} not located, ${called} geocoded, ${merged.length} kept`);
   return merged;
 }
 
