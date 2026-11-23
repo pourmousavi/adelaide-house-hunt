@@ -11,7 +11,7 @@ export function h(tag, attrs = {}, ...children) {
     else if (k === 'text') el.textContent = v;
     else if (k === 'html') el.innerHTML = v;
     else if (k === 'dataset') Object.assign(el.dataset, v);
-    else if (k === 'style' && typeof v === 'object') Object.assign(el.style, v);
+    else if (k === 'style' && typeof v === 'object') for (const [p, val] of Object.entries(v)) el.style.setProperty(p.startsWith('--') ? p : p.replace(/[A-Z]/g, (c) => '-' + c.toLowerCase()), val);
     else if (k.startsWith('on') && typeof v === 'function') el.addEventListener(k.slice(2).toLowerCase(), v);
     else if (v === true) el.setAttribute(k, '');
     else el.setAttribute(k, String(v));
@@ -92,6 +92,7 @@ const TZ = 'Australia/Adelaide';
 export function parseDate(s) {
   if (s instanceof Date) return s;
   if (s == null) return null;
+  if (typeof s === 'number') return Number.isFinite(s) ? new Date(s) : null;
   const str = String(s);
   if (/^\d{4}-\d{2}$/.test(str)) return new Date(Date.UTC(+str.slice(0, 4), +str.slice(5, 7) - 1, 1));
   if (/^\d{4}-\d{2}-\d{2}$/.test(str)) return new Date(Date.UTC(+str.slice(0, 4), +str.slice(5, 7) - 1, +str.slice(8, 10)));

@@ -4,6 +4,29 @@ import { h, fmtMonthYear } from './util.js';
 
 const NS = 'http://www.w3.org/2000/svg';
 const YEAR = 365.25 * 86400000;
+let gradSeq = 0;
+
+// Monotone cubic (Fritsch–Carlson) path through screen points: smooth, never overshoots,
+// so flat stretches (e.g. cash-rate holds) stay flat.
+export function monotonePath(P) {
+  const n = P.length;
+  if (n < 3) return P.map(([x, y], i) => `${i ? 'L' : 'M'}${x.toFixed(1)},${y.toFixed(1)}`).join('');
+  const d = [], m = new Array(n);
+  for (let i = 0; i < n - 1; i++) d.push((P[i + 1][1] - P[i][1]) / ((P[i + 1][0] - P[i][0]) || 1e-9));
+  m[0] = d[0]; m[n - 1] = d[n - 2];
+  for (let i = 1; i < n - 1; i++) m[i] = d[i - 1] * d[i] <= 0 ? 0 : (d[i - 1] + d[i]) / 2;
+  for (let i = 0; i < n - 1; i++) {
+    if (d[i] === 0) { m[i] = 0; m[i + 1] = 0; continue; }
+    const a = m[i] / d[i], b = m[i + 1] / d[i], t = a * a + b * b;
+    if (t > 9) { const k = 3 / Math.sqrt(t); m[i] = k * a * d[i]; m[i + 1] = k * b * d[i]; }
+  }
+  let out = `M${P[0][0].toFixed(1)},${P[0][1].toFixed(1)}`;
+  for (let i = 0; i < n - 1; i++) {
+    const h3 = (P[i + 1][0] - P[i][0]) / 3;
+    out += `C${(P[i][0] + h3).toFixed(1)},${(P[i][1] + m[i] * h3).toFixed(1)} ${(P[i + 1][0] - h3).toFixed(1)},${(P[i + 1][1] - m[i + 1] * h3).toFixed(1)} ${P[i + 1][0].toFixed(1)},${P[i + 1][1].toFixed(1)}`;
+  }
+  return out;
+}
 
 function s(tag, attrs = {}, ...kids) {
   const el = document.createElementNS(NS, tag);
@@ -51,7 +74,8 @@ export function renderChart(container, opts) {
   const draw = () => {
     const w = container.clientWidth;
     if (w < 40) return;
-    container.replaceChildren(buildChart({ ...container._chartOpts, width: w }));
+    container.replaceChildren(buildChart({ ...container._chartOpts, width: w, animate: !container._chartDrawn }));
+    container._chartDrawn = true;
   };
   draw();
   if (window.ResizeObserver && !container._chartRO) {
@@ -150,12 +174,27 @@ function buildChart(o) {
     if (m.label) svg.append(s('text', { x: x + 4, y: pad.t + 9, class: 'chart-note' }, m.label));
   }
 
-  // series lines
+  // series lines (the first solid series gets a soft gradient area fill)
+  const defs = s('defs');
+  svg.prepend(defs);
+  let filled = false;
   for (const sr of o.series || []) {
     const pts = (sr.points || []).filter((p) => Number.isFinite(p.x) && Number.isFinite(p.y));
     if (!pts.length) continue;
-    const d = pts.map((p, i) => `${i ? 'L' : 'M'}${X(p.x).toFixed(1)},${Y(p.y).toFixed(1)}`).join('');
-    svg.append(s('path', { d, fill: 'none', stroke: sr.color, 'stroke-width': sr.width || 2, 'stroke-linejoin': 'round', 'stroke-linecap': 'round', 'stroke-dasharray': sr.dashed ? '5 4' : null }));
+    const P = pts.map((p) => [X(p.x), Y(p.y)]);
+    const d = monotonePath(P);
+    if (!sr.dashed && !filled && P.length > 1 && sr.area !== false) {
+      filled = true;
+      const id = `cg${++gradSeq}`;
+      defs.append(s('linearGradient', { id, x1: 0, y1: 0, x2: 0, y2: 1 },
+        s('stop', { offset: '0%', style: `stop-color:${sr.color};stop-opacity:0.22` }),
+        s('stop', { offset: '100%', style: `stop-color:${sr.color};stop-opacity:0` })));
+      const base = (pad.t + ph).toFixed(1);
+      svg.append(s('path', { d: `${d}L${P[P.length - 1][0].toFixed(1)},${base}L${P[0][0].toFixed(1)},${base}Z`, fill: `url(#${id})`, class: o.animate ? 'chart-area' : null }));
+    }
+    const line = s('path', { d, fill: 'none', stroke: sr.color, 'stroke-width': sr.width || 2, 'stroke-linejoin': 'round', 'stroke-linecap': 'round', 'stroke-dasharray': sr.dashed ? '5 4' : null });
+    if (o.animate && !sr.dashed) { line.setAttribute('class', 'chart-line-anim'); line.style.setProperty('--len', Math.ceil(P.reduce((a, p, i) => a + (i ? Math.hypot(p[0] - P[i - 1][0], p[1] - P[i - 1][1]) : 0), 0) * 1.2)); }
+    svg.append(line);
     if (sr.endDot) {
       const p = pts[pts.length - 1];
       svg.append(s('circle', { cx: X(p.x).toFixed(1), cy: Y(p.y).toFixed(1), r: 3.5, fill: sr.color, class: 'chart-dot' }));
@@ -172,6 +211,8 @@ function buildChart(o) {
   // hover layer
   const cross = s('line', { y1: pad.t, y2: pad.t + ph, class: 'chart-cross', visibility: 'hidden' });
   svg.append(cross);
+  const hoverDots = s('g');
+  svg.append(hoverDots);
 
   const fig = h('figure', { class: 'chart-fig' });
   fig.append(svg);
@@ -195,6 +236,7 @@ function buildChart(o) {
       const near = all.filter((p) => Math.abs(p.x - best.x) <= tol);
       const cx = X(best.x);
       cross.setAttribute('x1', cx); cross.setAttribute('x2', cx); cross.setAttribute('visibility', 'visible');
+      hoverDots.replaceChildren(...near.filter((p) => p.kind === 'series').map((p) => s('circle', { cx, cy: Y(p.y).toFixed(1), r: 4.5, fill: p.color, class: 'chart-hover-dot' })));
       tip.replaceChildren(
         h('div', { class: 'chart-tip-date', text: xFmt(best.x) }),
         ...near.map((p) => h('div', { class: 'chart-tip-row' },
@@ -208,7 +250,7 @@ function buildChart(o) {
       tip.style.top = '4px';
     };
     svg.addEventListener('pointermove', onMove);
-    svg.addEventListener('pointerleave', () => { tip.hidden = true; cross.setAttribute('visibility', 'hidden'); });
+    svg.addEventListener('pointerleave', () => { tip.hidden = true; cross.setAttribute('visibility', 'hidden'); hoverDots.replaceChildren(); });
   }
 
   // legend (only when two or more things are plotted)

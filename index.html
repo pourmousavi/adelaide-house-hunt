@@ -6,16 +6,15 @@
 <title>House Hunt · Linden Park &amp; Glenunga</title>
 <meta name="description" content="Private house-hunting workbench for the Linden Park Primary and Glenunga International High School zones in Adelaide: listings in context, map, finance and market outlook.">
 <meta name="color-scheme" content="light dark">
-<meta name="theme-color" content="#F3F3EF" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#15201E" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#F7F7F7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121212" media="(prefers-color-scheme: dark)">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="House Hunt">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource-variable/newsreader@5.2.10/index.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource-variable/source-sans-3@5.2.9/index.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource-variable/inter@5.2.5/opsz.css">
 <link rel="stylesheet" href="assets/styles.css">
 <script>
   // Apply a saved theme before first paint to avoid a flash.
@@ -62,16 +61,19 @@
 <header class="topbar">
   <div class="topbar-inner">
     <a class="brand" href="#listings">
-      <h1 class="brand-name">House Hunt</h1>
-      <span class="brand-sub">Linden Park &amp; Glenunga zones</span>
+      <span class="brand-mark" aria-hidden="true"><svg class="icon"><use href="#i-home"/></svg></span>
+      <div class="brand-text">
+        <h1 class="brand-name">House Hunt</h1>
+        <span class="brand-sub">Linden Park &amp; Glenunga zones</span>
+      </div>
     </a>
     <nav class="topnav" aria-label="Primary">
-      <a href="#listings">Listings</a>
-      <a href="#map">Map</a>
-      <a href="#outlook">Outlook</a>
-      <a href="#finance">Finance</a>
-      <a href="#areas">Areas</a>
-      <a href="#settings">Settings</a>
+      <a href="#listings"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-list"/></svg><span>Listings</span></a>
+      <a href="#map"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-map"/></svg><span>Map</span></a>
+      <a href="#outlook"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chart"/></svg><span>Outlook</span></a>
+      <a href="#finance"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-calc"/></svg><span>Finance</span></a>
+      <a href="#areas"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-pin"/></svg><span>Areas</span></a>
+      <a href="#settings"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-settings"/></svg><span>Settings</span></a>
     </nav>
     <div class="topbar-tools">
       <span id="updated" class="updated">Loading…</span>
