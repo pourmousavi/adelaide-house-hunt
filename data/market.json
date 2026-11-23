@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-11-23T12:32:34.542Z",
+  "generatedAt": "2026-11-23T12:39:10.365Z",
   "model": "gemini-flash-latest",
-  "headline": "Adelaide Eastern Suburbs Face Macroeconomic Headwinds Amid Elevated Borrowing Costs and Tight Local Supply",
-  "outlook": "The property landscape across Adelaide's premier eastern suburbs—including Linden Park, Glenunga, Tusmore, Toorak Gardens, St Georges, and Beaumont—presents a complex balance between constrained market depth and significant macroeconomic pressure. While recent 2026 data reflects continued nominal strength in suburbs like Toorak Gardens ($2,920,000 median) and Glenunga ($2,271,111 median), others like Tusmore have seen medians pull back to $2,050,000 from $2,378,190 in 2025, demonstrating localized volatility across thin transaction numbers. At the macro level, the RBA cash rate sits elevated at 4.85% with standard mortgage rates at 6.2%, and headline inflation remains sticky at 3.9%. Forecast ranges for the cash rate in 2027 span widely from 3.41% to 5.83%, underscoring deep macroeconomic uncertainty. With rising national unemployment (currently 4.9% and projected to surpass 5%) and warnings of broader economic slowdown, the capacity of buyers to sustain recent price levels remains untested, despite supply remaining remarkably tight with only 39 active listings.",
-  "timing": "For a family purchasing a long-term home, decision-making should be grounded in household balance-sheet resilience rather than attempting to time price shifts in an unpredictable interest rate environment. With borrowing costs at multi-year highs and active inventory tightly constrained, buyers must rigorously stress-test mortgage serviceability well above the current 6.2% rate, allowing for potential economic disruption or further rate adjustments. The current low stock environment (39 active listings across these suburbs) means prime family properties in preferred school zones remain scarce, which may justify purchasing when the right home emerges. However, given softening national conditions and the prospect of rising unemployment, rushing into leveraged bidding without conservative financial buffers carries elevated risk.",
+  "headline": "Elevated borrowing costs and economic headwinds challenge prestige eastern suburbs despite tight local listing supply",
+  "outlook": "Adelaide’s premier eastern suburbs—including Linden Park, Glenunga, Tusmore, Toorak Gardens, St Georges, and Beaumont—present a complex picture characterized by tight supply and macroeconomic friction. Current market data reveals low available stock, with just 39 active listings and a median asking midpoint of $1,850,000. Historic median prices across 2025 and 2026 highlight the premium nature of the area, ranging from approximately $1.88M in Beaumont to over $2.9M in Toorak Gardens, though individual suburbs display divergence on low sales volumes—such as Tusmore easing to $2,050,000 across 8 sales in 2026 while Glenunga climbed to $2,271,111 across 25 sales. These local factors exist alongside macro pressures: the RBA cash rate sits at 4.85% following a sharp tightening cycle, prevailing mortgage rates stand at 6.2%, and national unemployment has reached 4.9% with forecasts warning of further softening. Because high interest rates compress borrowing capacity while constrained eastern-suburbs inventory provides baseline scarcity, price trajectories remain highly uncertain.",
+  "timing": "For families looking to establish a long-term home, the current environment demands prioritising balance sheet resilience over attempting to time the market. With mortgage rates at 6.2% and simple cash rate projections remaining around 4.8% through much of 2027 (with wide uncertainty bounds ranging from 3.41% to 5.83%), households should strictly stress-test their serviceability against the potential for rates to stay higher for longer. While limited eastern suburbs stock (39 active listings) means quality family homes rarely sit idle, purchasing should be dictated by finding an appropriate property that fits long-term family requirements without overleveraging, especially as Treasury anticipates broader economic slowing and unemployment rising above 5%.",
   "risks": [
-    "Mortgage serviceability pressure stemming from a 4.85% cash rate and 6.2% standard home loan rate, with forecast upper bounds reaching up to 5.83% in 2027.",
-    "Macroeconomic contraction and rising joblessness, with national unemployment already at 4.9% and projected by Treasury to exceed 5%.",
-    "Persistently high inflation (CPI at 3.9%) potentially prolonging restrictive monetary policy settings.",
-    "Thin transaction volumes in prestige pockets (e.g., Tusmore recording only 8 sales in 2026 to date), making median price benchmarks volatile and sensitive to compositional mix."
+    "Persistent mortgage burden, with headline home loan rates at 6.2% and the cash rate holding at 4.85%.",
+    "Macroeconomic deterioration, with national unemployment at 4.9% and forecasted to surpass 5%, potentially curbing broader buyer demand.",
+    "Data volatility caused by low sales volumes across tightly held enclaves like Tusmore and Toorak Gardens.",
+    "Policy and inflation uncertainty, with RBA modelling highlighting potential inflation persistence and lingering recession risks."
   ],
   "watch": [
-    "RBA monetary policy decisions to see whether the cash rate stabilizes near the projected 4.80% or faces renewed upward pressure.",
-    "Quarterly CPI releases to track progress toward the forecasted 3.36% level over the next four quarters.",
-    "Labor market data, specifically whether national unemployment crosses above the anticipated 5.0% mark.",
-    "Local inventory levels and days on market across the eastern suburbs to detect any build-up from the current 39 active listings."
+    "Upcoming RBA cash rate announcements and whether policy remains restrictive around 4.85% into 2027.",
+    "Headline CPI trajectory, currently at 3.9% year-ended against a 3.36% four-quarter forecast.",
+    "Active listing levels in the eastern suburbs to see if current tight inventory (39 listings) begins to expand.",
+    "National unemployment figures as they test the Treasury's projected 5.0%+ threshold."
   ],
   "disclaimer": "Not financial advice."
 }

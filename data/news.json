@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T12:32:34.542Z",
+  "generatedAt": "2026-11-23T12:39:10.365Z",
   "items": [
     {
       "title": "753,700 Australians Out of Work as Treasury Expects Unemployment to Peak Above 5%",
@@ -30,6 +30,17 @@
       "topics": [
         "rates",
         "inflation"
+      ],
+      "importance": 2.25
+    },
+    {
+      "title": "Jim Chalmers’ net save pledge a pipe dream, economists warn",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPMVJGQ1NsMHhQRzFVd3NBRTVJLW9VMnV1cDExQlIyZ05TTDYtd1dsbXI2M09JVzd3LWNra2lROVd2cldMU3NKenJTc3I4MDhQaHVDVFA2NE12dEZJd3dqa3R2bDZhR3VyTkZQeFlUTkpDYm1TX3FfNGNrdVlyYVNtb0piSkg1U3VMZk9ZM3lVRnc5TWoyM3ZfR0d3d2JlV0NuX0VfaXFucnBZUTREeE9LdDZZUHVzTEcweGs5YXJkbTZYOGw4TXdfVXFqZ3V6RVFnaEtyM1V1SlBpTkw0YkE?oc=5",
+      "source": "The Australian",
+      "date": "2026-11-23T10:07:19.000Z",
+      "category": "economy",
+      "topics": [
+        "budget"
       ],
       "importance": 2.25
     },
@@ -297,17 +308,6 @@
       "importance": 2
     },
     {
-      "title": "RBA Rate Hike November 2026: Home Loan Announcements",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9nSkp5S002SDNPVlNEeVFhR1psMzBJdEs1XzM4RHp0QUNYcmVaYkVvVkpfWlNJall3NEQ3WG93VXB4WFpPOVE2a2ZfVDZVcENqM3VUU0s4SE1rNlJvNTVoS253?oc=5",
-      "source": "Savings.com.au",
-      "date": "2026-11-20T08:00:00.000Z",
-      "category": "rba",
-      "topics": [
-        "rates"
-      ],
-      "importance": 2
-    },
-    {
       "title": "Game on: Why falling home prices are bringing Aussie buyers back to the table",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZERzbk0tZFpqcTlfWDJvLWkzOThqMlhrM0JpeWc0SWlwcjhLd0ZUY2NRTlk1Q1M2NDZmUmdQZEtZTWlfT05Ickc0ZG5NNjdmbWstc3pLNm04MGluYjBnVHpkbHVqbHNqQXJwaHdWWGg0NDZ4WUd6N0ZXakJDcl9TYWJBR3NuanAwMlVSRmEzSVlEWDdxLXdPS1BTbUJrbGE2N2xIMVAtZXBJQ0d2Ty1EcEFB?oc=5",
       "source": "Real Estate",
@@ -339,17 +339,6 @@
         "housing"
       ],
       "importance": 1
-    },
-    {
-      "title": "RBA November 2026 Rate Decision: Why Did Three Board Members Oppose the Increase?",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdnRreFd0LUVES1dpeHo4c0ZpdmRJUWpmU2tiUTNVWFlGd05fMUcteWI2d3NKenItZDhiQ1h3eHJob2JTYkZEcWd1VDdPWE82a2FUT2E3UGVyWVBNcG1BV3hjbWpUUDBWNnNHOXg0QVFnOTMtVk1OZnpqdHloZzNtNHphMGZaSzc4ckZJVEg5Tm1SM1JrekRKZExQdU5RV05yVjA1YkJNVEFXN245c2N1VVdsOXZZcGw4QllzUlBB?oc=5",
-      "source": "Kalkine",
-      "date": "2026-11-18T05:41:00.000Z",
-      "category": "rba",
-      "topics": [
-        "rates"
-      ],
-      "importance": 2
     },
     {
       "title": "Three RBA Speakers Scheduled Ahead of December’s Interest Rate Decision",
@@ -428,6 +417,17 @@
         "adelaide"
       ],
       "importance": 1.25
+    },
+    {
+      "title": "Young couple score $676k coastal home as Aussie property prices plunge first time in years: 'Got lucky'",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQcjV1alNTRFFVS1hhU212RTh0QTFIaWpBX0Q4cmNINElEYmdsTnNtcEFPdl82bmFfdi12OWl2dU1iOUZ6bkNCTzlSQ2I2T1BONU1MSXBpSVZVNzF3REtvVHZNQ0R0LWtsdk15NW92ZkIyUV9Td1VURldmSlptdWl2QjE4WnFBSXIzd254a2VObmpobE9PMWFiYTZ3OHVzblhUd25zY2Qzd2hnNkxuOG5fdTlPTGljR3NKVk9kSDU3d0Y3RzBOejVqVjBlUEJuYy1uMGtTSTJZQQ?oc=5",
+      "source": "Yahoo News Australia",
+      "date": "2026-11-15T02:10:00.000Z",
+      "category": "property",
+      "topics": [
+        "housing"
+      ],
+      "importance": 0.75
     }
   ]
 }
