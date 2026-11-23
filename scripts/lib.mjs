@@ -215,17 +215,52 @@ export function categorise(title, fallback = "economy") {
   return fallback;
 }
 
-// feeds: [{ items, category (fallback), source (fallback) }]
+// ---- relevance + importance ----
+// General business feeds (ABC) carry plenty of unrelated stories; keep only titles that mention these.
+const RELEVANT = /\binflation\b|\bCPI\b|interest rates?|rate hikes?|rate cuts?|\bRBA\b|Reserve Bank|mortgage|housing|property|house prices?|home loans?|\bbudget\b|Treasury|Chalmers|unemployment|recession|\beconomy\b|\beconomic\b|Adelaide|South Australia|\bSA\b|rate (rise|rises|hold)|cash rate|borrowers?/;
+export const isRelevantNews = (title) => RELEVANT.test(String(title ?? ""));
+const OFF_TOPIC = /South Africa/i; // "South African" house prices are not ours (Google News matches "SA property prices")
+
+const TOPIC_RES = {
+  rates: /interest rates?|rate (hikes?|cuts?|rises?|hold)|cash rate|\bRBA\b|Reserve Bank|mortgage|home loans?|borrowers?/i,
+  inflation: /\binflation\b|\bCPI\b|cost of living/i,
+  housing: /housing|property|house prices?|home prices?|real estate|dwelling|auction|rent/i,
+  adelaide: /Adelaide|South Australia|\bSA\b/,
+  budget: /\bbudget\b|Treasury|Chalmers|\bMYEFO\b/i,
+};
+export function newsTopics(title) {
+  const t = String(title ?? "");
+  return Object.entries(TOPIC_RES).filter(([, re]) => re.test(t)).map(([k]) => k);
+}
+
+/** 0-3: inflation/rates/RBA/Treasury terms and Adelaide housing score highest; recency adds up to 0.75. */
+export function newsImportance(title, date, now = new Date()) {
+  const t = String(title ?? "");
+  const topics = newsTopics(t);
+  let score = 0;
+  if (/\binflation\b|\bCPI\b|\bRBA\b|Reserve Bank|cash rate|rate (hikes?|cuts?|rises?|hold)|interest rates?|Treasury|Chalmers|forecast/i.test(t)) score += 1.5;
+  else if (topics.includes("rates") || topics.includes("budget")) score += 1;
+  if (topics.includes("adelaide") && topics.includes("housing")) score += 1;
+  else if (topics.includes("adelaide") || topics.includes("housing")) score += 0.5;
+  const age = date ? (now - new Date(date)) / 864e5 : 60;
+  score += age <= 2 ? 0.75 : age <= 7 ? 0.5 : age <= 21 ? 0.25 : 0;
+  return Math.min(3, Math.round(score * 4) / 4);
+}
+
+// feeds: [{ items, category (fallback), source (fallback), filter (true = keep only relevant titles) }]
 // perFeed: Google News is ordered by relevance, so cap each feed's newest items or one feed floods the list.
-export function buildNews(feeds, now = new Date(), max = 30, maxAgeDays = 60, perFeed = 7) {
+export function buildNews(feeds, now = new Date(), max = 40, maxAgeDays = 60, perFeed = 10) {
   const seen = new Set(), out = [];
   for (const f of feeds) {
-    const items = [...f.items].filter((i) => i.date).sort((a, b) => b.date.localeCompare(a.date)).slice(0, perFeed);
+    const items = [...f.items].filter((i) => i.date && !OFF_TOPIC.test(i.title) && (!f.filter || isRelevantNews(i.title))).sort((a, b) => b.date.localeCompare(a.date)).slice(0, perFeed);
     for (const i of items) {
       const key = i.title.toLowerCase().replace(/[^a-z0-9]/g, "");
       if (!i.date || seen.has(key) || now - new Date(i.date) > maxAgeDays * 864e5) continue;
       seen.add(key);
-      out.push({ title: i.title, link: i.link, source: i.source ?? f.source, date: i.date, category: categorise(i.title, f.category) });
+      out.push({
+        title: i.title, link: i.link, source: i.source ?? f.source, date: i.date, category: categorise(i.title, f.category),
+        topics: newsTopics(i.title), importance: newsImportance(i.title, i.date, now),
+      });
     }
   }
   return out.sort((a, b) => b.date.localeCompare(a.date)).slice(0, max);
@@ -543,7 +578,7 @@ export function cleanAi(r, { model, priceText, now }) {
   };
 }
 
-// ---------- sample data ----------
+// ---------- seed suburbs ----------
 
 export const SEED_SUBURBS = [
   { suburb: "Linden Park", postcode: "5065" }, { suburb: "Glenunga", postcode: "5064" },
@@ -551,7 +586,7 @@ export const SEED_SUBURBS = [
   { suburb: "St Georges", postcode: "5064" }, { suburb: "Beaumont", postcode: "5066" },
 ];
 
-// Deterministic grid scan: up to n points spread across the zone intersection.
+// Deterministic grid scan: up to n points spread across the zone intersection (used by tests).
 export function samplePoints(zones, n) {
   const box = searchBox(zones, "all") ?? bboxOf(zones[0].geometry);
   const pts = [];
@@ -563,68 +598,6 @@ export function samplePoints(zones, n) {
   }
   const step = Math.max(1, Math.floor(pts.length / n));
   return pts.filter((_, i) => i % step === Math.floor(step / 2)).slice(0, n);
-}
-
-export function sampleListings(zones, today, nowIso) {
-  const pts = samplePoints(zones, 8);
-  const addDays = (d, n) => new Date(Date.parse(d) + n * 864e5).toISOString().slice(0, 10);
-  const specs = [
-    ["$1.45m - $1.55m", "privateTreaty", "House", 4, 2, 2, 720, "Fair"],
-    ["Contact agent", null, "House", 3, 1, 1, 610, "Worth inspecting"],
-    ["Auction", "auction", "House", 5, 3, 2, 850, "Overpriced"],
-    ["Offers over $1.2m", "privateTreaty", "Townhouse", 3, 2, 2, 320, "Strong value"],
-    ["$1.8m", "privateTreaty", "House", 4, 2, 3, 790, "Fair"],
-    ["$950,000 - $1,050,000", "privateTreaty", "Villa", 3, 1, 1, 540, "Worth inspecting"],
-    ["Expressions of interest", "eoi", "House", 4, 3, 2, 690, "Overpriced"],
-    ["$780k", "privateTreaty", "Unit", 2, 1, 1, null, "Strong value"],
-  ];
-  return pts.map(([lat, lng], i) => {
-    const [priceText, saleMethod, propertyType, bedrooms, bathrooms, carspaces, landArea, verdict] = specs[i];
-    const { suburb, postcode } = SEED_SUBURBS[i % SEED_SUBURBS.length];
-    const { priceLow, priceHigh } = parsePriceText(priceText);
-    const listed = addDays(today, -(3 + i * 4));
-    const agent = { name: "Sample Agent", phone: "0400 000 000", email: "sample.agent@example.com", agency: "Sample Realty", photo: null };
-    return {
-      id: `SAMPLE-${i + 1}`, url: null,
-      headline: `SAMPLE – ${bedrooms} bedroom ${propertyType.toLowerCase()} near the schools`,
-      address: `${i + 1} Sample Street, ${suburb} SA ${postcode}`, suburb, postcode, lat, lng,
-      propertyType, bedrooms, bathrooms, carspaces, landArea, buildingArea: null,
-      priceText, priceLow, priceHigh, saleMethod,
-      auctionDate: saleMethod === "auction" ? `${addDays(today, 14)}T11:00:00+10:30` : null,
-      photos: [`https://picsum.photos/seed/sample${i + 1}/800/600`, `https://picsum.photos/seed/sample${i + 1}b/800/600`],
-      description: "SAMPLE listing for UI development. This is not a real property.",
-      features: ["Sample feature", i % 2 ? "Ducted air" : "Pool"],
-      dateListed: listed, daysOnMarket: 3 + i * 4, firstSeen: listed,
-      priceHistory: [{ date: listed, priceText, priceLow, priceHigh }],
-      salesHistory: [{ date: "2015-03-12", price: 820000 }],
-      inspections: [{ start: `${addDays(today, 5)}T10:00:00+10:30`, end: `${addDays(today, 5)}T10:30:00+10:30` }],
-      agents: [agent],
-      zones: zones.map((z) => z.name),
-      status: i === 3 ? "underOffer" : "active",
-      ai: {
-        summary: "SAMPLE analysis. Real summaries appear once the Domain and AI keys are configured.",
-        pros: ["Sample pro"], cons: ["Sample con"],
-        fairValueLow: priceLow ? Math.round(priceLow * 0.95) : 1000000, fairValueHigh: priceHigh ? Math.round(priceHigh * 1.02) : 1150000,
-        verdict, model: "sample", generatedAt: nowIso, priceText,
-      },
-    };
-  });
-}
-
-// Plausible but invented 10-year trends so the UI can draw charts.
-export function sampleSuburbs(today) {
-  const lastYear = +today.slice(0, 4) - 1;
-  const bases = { "Linden Park": 1.0e6, Glenunga: 1.15e6, Tusmore: 1.1e6, "Toorak Gardens": 1.3e6, "St Georges": 1.2e6, Beaumont: 1.25e6 };
-  const out = { _sample: true };
-  SEED_SUBURBS.forEach(({ suburb, postcode }, k) => {
-    const series = (base, sales) => Array.from({ length: 10 }, (_, i) => ({
-      year: lastYear - 9 + i,
-      median: Math.round((base * 1.065 ** i * (1 + 0.03 * Math.sin(i + k))) / 5000) * 5000,
-      sales: Math.round(sales * (1 + 0.2 * Math.cos(i * 1.3 + k))),
-    }));
-    out[`${suburb}|${postcode}`] = { house: series(bases[suburb], 60), unit: series(bases[suburb] * 0.55, 25) };
-  });
-  return out;
 }
 
 export const DEFAULT_AREAS = {

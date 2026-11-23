@@ -1,215 +1,433 @@
 {
-  "generatedAt": "2026-11-23T10:00:36.580Z",
+  "generatedAt": "2026-11-23T10:10:51.775Z",
   "items": [
+    {
+      "title": "Enough with your whining, Jim, just put out the fire",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPbnlFYzdlM1Nqa0Q1VVpVOEV6MXZ3ZTBCN2tvTEtlcElwbnJUTVFGRkNJS0VQTUVsUkltWXBfdDRGdG9jY2Nrc052aU1jLXBveTJZcjU4SjNYVWI4R2N0X05sZTlsMTByTkMyazlsSUFZdTZmS1drdFlycWxWZ1NMZXFQTW1rUGFranlEbng1d2xmLVlQRXlIRlYyZEhVZW9wTTNGRmdEazlnMnBwYnZuLWFHU1RYczBOVVRmZjdxMlJEUWhabzJfeUF4YVRsRkdLR0NqcjVENy0yeGIzcVJBcVlFSnVwNldBRm00RnFSdG0ydw?oc=5",
+      "source": "The Australian",
+      "date": "2026-11-23T09:36:11.000Z",
+      "category": "economy",
+      "topics": [],
+      "importance": 0.75
+    },
     {
       "title": "Rising unemployment, slower growth will add to hardship",
       "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNTXB6Y29vaTV4MmFVbGhERjBXYWpXd1A3R3ZOZTNYX3lHa0hsZl80RFVCbXd2RTgwcE5YWFlZRzhsWmRkTWVPRnExd211alRVVTV5Y2pIVkpQRWFHNWJvTnFBOVo4T05vT0hRRl9nTjFONVZmZ19tT1VGZkk0Y3BTM0xJYjhnWjBGZWtxTkZRRkNsZUROSEM2bkNBSTA4ZURoSjVFNGtkQzFkSDlJT0s2SFZKNkJXRFcxNU9tMWRLVW5CX2dId3ZHdDViZThlNG9vdTcyV3pOS3p2eXJqV251cEo4eXBXell5UFpkLQ?oc=5",
       "source": "The Australian",
       "date": "2026-11-23T09:30:51.000Z",
-      "category": "economy"
+      "category": "economy",
+      "topics": [],
+      "importance": 0.75
     },
     {
       "title": "Jim’s budget sneak peek: smaller economy, bigger deficits",
       "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOcExvaE9WVVpWWW5RclRQaU5ScFpaeWpnUHpSMmZ4SG9QZVhMaGZ0aGdjNXdfQTlORzFDOVVkSmU2elEzdDBJWkY3VndYQUxDbWFDamY0Ulg2R0JYM3BMUHRac2diMkc0a3ZhdGN0TndNdHFuVExGRG0zbWZJUEl2RnBYME9UakNNMmpvbFBpdTJ1X1djdzYwZXVISkdqOW1IZ1hKUHg3MVVnOVlHbHUyUFFOSDJPcWpLV2ZyOGdPdkFkUXAzLUdDS0hKcnhDZzE2WGVXTGdzc3ZSTENUMUVURFBtU094dUxGXzRVTjFQcHFrVFBIQnpWcHZqTVZ2OXIySW9qZkJR?oc=5",
       "source": "The Australian",
       "date": "2026-11-23T08:55:24.000Z",
-      "category": "economy"
+      "category": "economy",
+      "topics": [
+        "budget"
+      ],
+      "importance": 1.75
     },
     {
-      "title": "No life jackets, lifeboat or functioning radio on airboat during 2023 crash",
-      "link": "https://www.abc.net.au/news/2026-11-23/matt-wright-kaia-wright-plead-guilty-top-end-safari-camp-charges/107418486",
-      "source": "ABC News",
-      "date": "2026-11-23T08:18:26.000Z",
-      "category": "economy"
+      "title": "Unemployment to surpass 5% and ‘things will get a bit harder’, treasurer Jim Chalmers warns",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNb0lHcUlnVVdTLWQwN1QycFdxUlY0all3WDFzYnJjWWJsVkF4YV9SWXBUSlE4MDV1YnZmbWJnRjhjWmp3S3JmX1laVFVKZVhDbEUxUTN3NmdEbUNBNGxsQWJGQlAxRUNuNDFfYk9lQi1kbVBWcVVCdHB4N29DNWtyaTQweDY0QTVSeGttLVRfSjhSZzF2VWFxSEJTajNFQ1V0RDJud19pc1Y3ck53M095bG1HN2RSY2Y2WkszZ2toRHhpYWd6aTFxenhnSWJTSmpETDR4TEU4YTNIUQ?oc=5",
+      "source": "The Guardian",
+      "date": "2026-11-23T08:40:00.000Z",
+      "category": "economy",
+      "topics": [
+        "budget"
+      ],
+      "importance": 2.25
     },
     {
       "title": "Chalmers primes Australians for more bad news",
       "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNMDlFUHVqMmY2MWpUR0dLSFlxaWRFMnQxbjRUU0JvRi1CY3VZWHd0QmU0OVhVeG9yQ1I1UFQtWmZJMFlseTRBdEFnWUxHekNkQ29DWkU5a1VZWjg2X2prTENTT3FiNzQxYk42ZmZOWkljdTdiTC1MWjVpa1BDRHNDbVIwWEszU2RGLTVJbjlpcWdCc25GR0RVOVowTkEta09KWnZjR1cxcXYwSDVhc3NxZnIxeUVQTkpob3NOVUVzYzMyNm9HSHd1SDU0MU51WnNBZ3NMZXl0VmczdXVuMUVBSkZLbmx4ODJqMFE?oc=5",
       "source": "The Nightly",
       "date": "2026-11-23T08:00:00.000Z",
-      "category": "economy"
+      "category": "economy",
+      "topics": [
+        "budget"
+      ],
+      "importance": 2.25
     },
     {
       "title": "Aussies warned to brace for ‘harder’ times",
       "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPeFlDSGdIY1NVZnBhOXF4TEEzS0JHUl9BdkZzTzd5UXY2S0ljaWhfaUxMdmpkcFYyOXY1WWpMRU1BQ2lFdDlFX2NvMVdkdnlGSG4wb3VaZTduV2RKWWJRemdyeDR6Q2NleWpMSG1BbEg5bWYxcHpPWGdJTTZkZHlqR2lieW04NXJLWlNXeDJmcHowTG9PcndzX2ZTUk9OV0ZJVlJQOVZZNHQzMWhidG80UzlXTUZYb1BXdEhQTjhhdlR1QTlUNXgxNDFVanppejNQQV91WjdHU2lHdno2N2YxN0I4cU8xX056bm1oM3BBZ3o3ZzlvMW9HeGpZaHFQMTZrOWV1OW5GQUFPT2xVVHUxRTZtVGc1ZE94eEZ6TdIBogJBVV95cUxPeUhfOE4wenFfbVBTVk9yMmktb1BJeXIybEs1LWwwRk4zQ2hNaVMyakpSakxBbjdMRzcxS0FnVEpXWmVrQ2hHUEhTbEVhMEJuWE05eDJyM0N1OU05LVM1MTdudDdYbnZtZk1qV29QVHJBOEc0RzFQa1YwSXRTZ3JUT21YOTVGYWFOQnVxMkotUk03bEhJeHZpTmxTa2tpZTJmS19nZTdxTXloRkkxMmhFVHQ3MUpWQkZaQTJVRkNoRnhicFN0OWhsWmRVWXhYZmV1aXhaY2FET2dobU5VempXZzJQQlRWYjBQcndXMllYMUxmV1BCLWtHM0p5TUhZYzJpZUpMVHkyRzBQQXNLZ1ozM1NKTVNTdlNGem1JZ2NSYnYtZw?oc=5",
       "source": "News.com.au",
       "date": "2026-11-23T07:18:45.000Z",
-      "category": "economy"
+      "category": "economy",
+      "topics": [],
+      "importance": 0.75
+    },
+    {
+      "title": "Grim Jim: Chalmers warns things could get worse before they get better",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTmZXbWZWb2h3UHMzVDRRMlpCS3RDSWFrRlFoOVdCN3djT2xaRDVLTXJQTlQxdU5YTjBNMEE5aUZvamRQd1lQNWhmRURLY2wxejVaNFVqY0pZcG5pemR0QXZwYnQ5N2E5NmV3ZHFMYTJ2enV4aEVVWTNTSEpwUGZKYkh3ZERjUlFIZ0xBcWIwWDFaU3Q4anJYczJZX2hxYjVqWU4tNGI5bTZBVjZWWktidGNvNWR2dw?oc=5",
+      "source": "AFR",
+      "date": "2026-11-23T06:59:00.000Z",
+      "category": "economy",
+      "topics": [
+        "budget"
+      ],
+      "importance": 2.25
     },
     {
       "title": "RBA modelling: Labor’s CGT changes could fuel inflation",
       "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxONG90dXBuZnRlSlhwTnkyYUdlVENfeHBnd1pRMzNwb1Z4TmFielRYVHRjVW15SnRGZ2F0Qk9hLU5VUmFpRmNYQUxVNGo1UlpxR1FHcnoxQWRoWTZRSDk0VkphdHltTUlfZ3B2YlAtMXl2MlZ1dGZPS29kWWxGM1VkVjJoMmpreWQzSFdaaGhQbm8wNjN4ZkJKZklRSW5UdVRVbGExQnFBSUJCLXBBanVXRVlwSkJjUVZET2dlem1YcU9oYk9lbnZMeHAxaS1EY1dmcEpveFJZb0hKNERzUmZfTjdxZl9Ec3hCVkpfQnZCTmlkRXZUdm1DVXo5djlMWng2YTJfMW53NU5CeE9uZlNOaEJiZ9IBmAJBVV95cUxPdDVfWnozbWhkNVdpMUhsMmJSeXhxVW5OcUx4SmNZeFlFUGktWDZERENySHRJSnBNTWxDVmU5bzBmeHVJUm1qTzUwNVhUMlZjTm5tTGJSMmFwY0Y4Mk9WREJuLW9UUE4wTnZpTDBGR3lGNTFrOFdYZkpfOHpTekhNTXRkZU1ma0o1QkwzVmxDbHJZM0gtbXd4UmczSk5jMGlyd0RTY0VxSVRxWW9CM3VzX2pDTmJDZHV1bjRGa2pxQUtrQmhHaFpwN0xJSzhRWUdwUC1mQmZIUmduTThWV1RLaW9yYWNMdTlVTndBZVUxZzlBa2hUanIyeG9oMkY1WXVpNk5rdUhMZEs5ckloc2lkSVJoQzk2MmNV?oc=5",
       "source": "News24",
       "date": "2026-11-23T06:50:12.000Z",
-      "category": "rba"
+      "category": "rba",
+      "topics": [
+        "rates",
+        "inflation"
+      ],
+      "importance": 2.25
     },
     {
       "title": "Australian Dollar: RBA tightening raises recession risks – Rabobank",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaGdoY0hmMG5DSTcyOHNuNHFNNFAzZW5CQnl0eWMtTFd4RW1qY2NzZVJCSWpidEpzNHBZcFl1Q0d6QmtsUnZwSnlhUkRLN3J1Y1lqcUJIUHc0ZG44RjhJcmhxOEU3Q3A1ZHFPWGRtZkdGLVptQnU5Z21ad3hxSS1wQTVTblNiVTFZaV9aTGI4ZEVhV0swbWRuYXhfMWlrQTV0Wk9EejY3SjNLY0E?oc=5",
       "source": "FXStreet",
       "date": "2026-11-23T06:44:03.000Z",
-      "category": "rba"
+      "category": "rba",
+      "topics": [
+        "rates"
+      ],
+      "importance": 2.25
     },
     {
       "title": "Australia to Lower Nominal Economy Estimate in Budget Update",
       "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNSFhINWJsTzE3ODFqMnUwZ2NTOWN1X0Z1UDlLV1BmQUFrd2xCY1BGbHJBQlVyYXpLNkdWSGVxbVdnaW1VRXZGVTdEc3NjNWdvSVVlMEtXc3pZOWZUMEVJR3FDNWpGWlQxdU9helFoZkxibk4tMzFzY1RfaGowenZ2cnlaX21NellWQm1uQUc0WG9IRm1LTURmVVotM2xWRVA3Y0JCYkpsM05yOHdMa0VrR0VZcVlzdl9kSVcwcDRGdE5QRVpUd2x0OFhrUW5SRHBfUU5XRTdrLWNpeFk?oc=5",
       "source": "Bloomberg.com",
       "date": "2026-11-23T06:39:00.000Z",
-      "category": "economy"
+      "category": "economy",
+      "topics": [
+        "budget"
+      ],
+      "importance": 1.75
     },
     {
       "title": "'Serious moment': economic headaches set to continue",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOLW83NkZBXzRDclBESGQxNkwwNEtDUFp4Z21tcEg5UmJnU1JpZG5DTXhMQ2NDYmdSbENKSmdHTWZkekREaTZPdTVOZ25xVzBaTHVJNzdvcTdFdmxFSmJySndZX3JwS0FGeWxneTBoajhNR2JTT1J0N2N2RTVfVHprRVMyZ1VWcVhl?oc=5",
       "source": "Yahoo News Australia",
       "date": "2026-11-23T06:25:00.000Z",
-      "category": "economy"
+      "category": "economy",
+      "topics": [],
+      "importance": 0.75
     },
     {
-      "title": "Woolworths orders $100k returned to workers over supply chain underpayments",
-      "link": "https://www.abc.net.au/news/2026-11-23/supply-chain-reviews-modern-slavery-report-as-taskforce-formed/107416486",
-      "source": "ABC News",
-      "date": "2026-11-23T06:18:53.000Z",
-      "category": "economy"
+      "title": "'Things will get a bit harder': Jim Chalmers' grim warning for struggling Aussies as prices soar, unemployment rises and the economy slows",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNUt5bzJQY1BYekhva21QdGg4ZHNGYTBvRmlmeTBlY1Y5ZzFsanhVWDR6Q1VPdlJNVHlpVzBpdXFsTGVxWWdIVjhWbERmMGFpaVZ2dGZzRUhmcnBDTy1rWVZPb1R3MkZhUWYxUGlJY1JkeEdsR1ZfZUVJYkZFb3RLU0l1SUd4a0RGb1NRTE5XVzhtMUhZdjhxaTZB0gGfAUFVX3lxTE1RbGVrQ3IxUEkzdnRscDNMdHBPN1Mybzd6WHJDSTRLbHhkNmx4MDdVdVdqbGJ6dGcyUXB6X3hKc2VDOW5MQW03RVpqZVNFZXo4Q0pqRklnR0ZvN2ROR1R2VEVzWWQ5MzZTLXZ0QmZiajYtSFh2dG4wb0djcjhucERHZElrT0hZcXlaa3Izb3JLeWtBRERoTVNUZy1Felp6VQ?oc=5",
+      "source": "Daily Mail",
+      "date": "2026-11-23T05:45:54.000Z",
+      "category": "economy",
+      "topics": [
+        "budget"
+      ],
+      "importance": 2.25
     },
     {
       "title": "Jim Chalmers says he doesn't expect a recession, but 'things might get a bit harder'",
       "link": "https://www.abc.net.au/news/2026-11-23/chalmers-flags-net-spending-cuts-in-mid-year-budget/107417628",
       "source": "ABC News",
       "date": "2026-11-23T05:18:24.000Z",
-      "category": "economy"
+      "category": "economy",
+      "topics": [
+        "budget"
+      ],
+      "importance": 2.25
+    },
+    {
+      "title": "Australia’s treasurer warns jobless rate to climb above 5% as rate hikes bite",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORW1KYWdGQUVYR0xBWC1VWDFaa1NMaW5zaXc4bUM5U1FIOFRIdmQ1RnF3U284S1ROSHM4UTNVaTFDYU81LVNqbXQ3a0FVZnpGWTZ4VDZHNW1zQ0c2ZGFKTEl1TnZueXY2aFpFNElHaW15UDVJbmdfRFpZSVF3aTRIVUtsaVY4dWltSzhHd2xkMEFUbGVxa1htQ055dHhlX1I0SmZ6NndINndxUC1VTFNKSlI0MExZLUE?oc=5",
+      "source": "The Business Times",
+      "date": "2026-11-23T05:18:00.000Z",
+      "category": "rba",
+      "topics": [
+        "rates"
+      ],
+      "importance": 2.25
+    },
+    {
+      "title": "Chalmers Warns of Slowdown and Rising Unemployment",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNS0tiemV3ZXREQnZ2ZXlEQjFURHJ5ZE1ULTlZekVIMFdCTmtmei1yYW5tX0sxaTZubGJIcUJIa0lSb01vMl80Tm9LbVlpckN0Zm1RcFRBcF83OF9yNGZUQm9DUHF0ZGdHT2tlM3lwbmZudFRRbWRkRDBhRjhLaDB3WXpvMVJ4Z0RhbUgzd1QwUFc?oc=5",
+      "source": "Wisevoter",
+      "date": "2026-11-23T04:54:11.000Z",
+      "category": "economy",
+      "topics": [
+        "budget"
+      ],
+      "importance": 2.25
+    },
+    {
+      "title": "'Concerning': treasurer warns economic pain to continue",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQmtnQUVkS29nODN4Rms2Z2hiaE5nc3BOalAzazN5R0pleV9sVE84TEV3VmMwUm43amhjMENzRjU3VUQ3MjIxWkl4YWRTREp0Q0ZrSGh3bHhwV0NXN1FGMjhlbkRLZGhuQnQ2cnhnaDRSYUJYZFEwRWkwZldMMVByaUhpSGtzMlMwUHhsRw?oc=5",
+      "source": "https://aapnews.aap.com.au/",
+      "date": "2026-11-23T04:49:53.000Z",
+      "category": "economy",
+      "topics": [],
+      "importance": 0.75
+    },
+    {
+      "title": "Chalmers flags slowing growth, warns Australians ‘things might get a bit harder’",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVm5xZVBtajkxS1dnOUdNWTI2VTgxUE9oTEw2MVAtOGJjV1pMaHlVZXBpY0QzUVBjZUhYeWtnYnZDQ0dzaWFBaTJXT0hsdzlOaGxwVnhZM29rSWFnWUttcUNLeGpSZlJ4NkpmazJSeXNDYzlsUUtEMzNjcFNqRm9mbjdaY1U1emV6UHZwYlFlcThhelA2ZmhOb0tmeFN6a3JHLVdRUnhGbWlxcF8wNDRhZUxn?oc=5",
+      "source": "The Conversation",
+      "date": "2026-11-23T04:30:00.000Z",
+      "category": "economy",
+      "topics": [
+        "budget"
+      ],
+      "importance": 2.25
+    },
+    {
+      "title": "Treasurer confirms ‘modest’ net savings found but warns of economic triple-whammy",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQ3hHczJkVFN4SC1zTkh6bWNLNlU2dzhqNTdxREtMeXR3eW1LRzJwVV94UFN1c1JCc1JwQ25KRXl3TUdabWREUmttdVNYYXVTZmVXcFdOczJ6RS1HX3FLYVdXVHFhOFpXSm1ZdGxWdmlqS1lwTjNnS0tBeEdpQ3Raei00NlZuQzhMSXZteUtFSnVFay1MdzJKRWladUpxeDFTNGVwZDdMZklQR05kVDBWVFZza1JMdXR3dmN5a2w4eEtDdmpZaUhTTA?oc=5",
+      "source": "Nine.com.au",
+      "date": "2026-11-23T04:12:17.000Z",
+      "category": "economy",
+      "topics": [],
+      "importance": 0.75
+    },
+    {
+      "title": "‘No use pretending otherwise’: Chalmers warns of tough year ahead as jobless and inflation forecasts worsen",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1PUFE4WEtWR2hNOHI1VzRYX21VeVVqVjdOaXpiT1RQTXo1U0pFWDNzclhOX3pFc0FUSXBZREU0Wm5HQXJQeG1uaEVXQi1IWWJBN21j?oc=5",
+      "source": "شبكة تواصل الإخبارية",
+      "date": "2026-11-23T04:08:54.000Z",
+      "category": "economy",
+      "topics": [
+        "inflation",
+        "budget"
+      ],
+      "importance": 2.25
     },
     {
       "title": "Australian borrowers face threat of further rate hikes before relief in late 2027",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNjBBclB2LUtSbVltN1dybGxVUVpyQlVtRGZoRWx5bDk5Xzd6cDVTOEVQdEI1U19DZlhoSUFrMG1LWW1UMlM2WlhfQnc3TVhiTHJtRFAwNlVKbGVfU0RLSjZ5YnFDTXM4aFhDRVNUYnk1YXJMTkg3T29IbV9ZdV9iMTN1NUs1V2F0U3lDbVpVWHpuWW8wb003Z2htV1pBVER4dlRYVTZ2N3VtMlFFVUF5LU80MEZYX0pr?oc=5",
       "source": "Real Estate",
       "date": "2026-11-23T03:57:46.000Z",
-      "category": "rba"
-    },
-    {
-      "title": "Climate talks crash a sign of anger with oil lobby, scientist says",
-      "link": "https://www.abc.net.au/news/2026-11-23/cop-climate-change-negotiation-failure-a-sign-of-anger/107415518",
-      "source": "ABC News",
-      "date": "2026-11-23T00:18:49.000Z",
-      "category": "economy"
-    },
-    {
-      "title": "Hydrogen energy company cuts staff two months after $49m federal grant",
-      "link": "https://www.abc.net.au/news/2026-11-23/hydrogen-company-hysata-cuts-jobs-after-49m-grant/107410440",
-      "source": "ABC News",
-      "date": "2026-11-22T22:43:15.000Z",
-      "category": "economy"
-    },
-    {
-      "title": "Wall Street crashes to correction territory and ASX falls — as it happened",
-      "link": "https://www.abc.net.au/news/2026-11-23/asx-markets-business-live-news-november-23/107414602",
-      "source": "ABC News",
-      "date": "2026-11-22T19:43:19.000Z",
-      "category": "economy"
-    },
-    {
-      "title": "Experts say nostalgia for traditional industries resonates with voters",
-      "link": "https://www.abc.net.au/news/2026-11-23/victorian-election-promises-industry-nostalgia/107317574",
-      "source": "ABC News",
-      "date": "2026-11-22T19:30:56.000Z",
-      "category": "economy"
+      "category": "rba",
+      "topics": [
+        "rates"
+      ],
+      "importance": 2.25
     },
     {
       "title": "Recession could hit Australia by next month on one closely-watched indicator",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNkpWNk1XNjIwaTVlclVrOW00bGd4N3p0QjNGdkd5MjZZNHFwcVlJbktGay1uWVNqMFFJQjNUOEExcFZMc0VVckJYZUJSazM3dEw5MkhuNTRVSE5Rd19saHhmTl9PYVRHUGY4UlRyOGt2d2d4VlJnSDNuakFiRUJNRV9uUTI0Nk5lanJCTWJad0gzUjQ2UnEwVUlPZkp6LTJvZ2hHSg?oc=5",
       "source": "ABC News & Headlines – Australian Broadcasting Corporation",
       "date": "2026-11-22T18:00:00.000Z",
-      "category": "economy"
+      "category": "economy",
+      "topics": [],
+      "importance": 0.75
     },
     {
       "title": "Labor has avoided recession at the expense of mortgage holders",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRTlRcUN5WjZGN2pvb1p4Y1RvSU10RE56T19SYXRIQTNQa3ROcGJKLXRxdXRrUXR1TUJYaGVHMUN4LUZSeFNVS242emxzU0tPcTZ1OG04Z1VwT0xJY3JPV3p6eTlCdnpfazlKNENYSkNYREo5Q2l3MERXVzdzMUxJLUZJbmlZRzgyS1RzSWNidGxwVFVaY21NVU5zNVJ4VnZsYTk1ejlpMA?oc=5",
       "source": "MacroBusiness",
       "date": "2026-11-22T10:00:02.000Z",
-      "category": "property"
+      "category": "property",
+      "topics": [
+        "rates"
+      ],
+      "importance": 1.75
     },
     {
       "title": "Why has the RBA lifted interest rates five times? Don’t they realise how much pain I’m already in",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObnNqUVo4bjlDQnZpZk9JenFrNHQ2bkRLaWJlNVZPN3p4V2xxZk4zdlpOVlRpUXNIdGtLWnd6UEdYdEhwc05wYUdGTFZpbWw5YkFqNHlndHdoYllLcUttcjFuamFPWHoweEpLb0ZCLW93QVNEdTFOV0Ryc3ZVOVBYc21INDlZeUdQTVhyOU5rSUNURmYzZVhjQXBXcGV6dThNWVBzSlF1THp4VWdaQkNOMDRRaGo3QlA4QkItbXprR1lPdGM?oc=5",
       "source": "Property Update",
       "date": "2026-11-22T05:34:35.000Z",
-      "category": "rba"
+      "category": "rba",
+      "topics": [
+        "rates"
+      ],
+      "importance": 2.25
+    },
+    {
+      "title": "Far from home and family, islanders find community in SA's food bowl",
+      "link": "https://www.abc.net.au/news/2026-11-22/palm-worker-pacific-islanders-find-community-sa-food-bowl/107297904",
+      "source": "ABC News",
+      "date": "2026-11-21T20:54:47.000Z",
+      "category": "adelaide",
+      "topics": [
+        "adelaide"
+      ],
+      "importance": 1.25
     },
     {
       "title": "Has the RBA gone too far? Australia’s unemployment shock raises serious questions about interest rates",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcGhXTkI1TUZZZXlWSnZucGdTWXl0VXpCRUp1ZmNrUmFqbm1PSTBQT1I1aG52cmd2U3pjZ1BrWEFsc2c1ZWY5S05RTDVydTBTMnI0bjFZQTEzeE9tUXpDN0dPUUtHVXJCUlljdWg5QmZMWmRkZi1hUi1ILTgxbFJJNDlqMG9KZEpHZVljTzNPbXdXZzg2Y1NqWkNHeWxDUWVPaEQzR3NqNFBxMGJid1JkaXlwTlc4NHFjbzZkelVRUk5QTC1Wc0VmTS1hQQ?oc=5",
       "source": "Property Update",
       "date": "2026-11-21T08:34:34.000Z",
-      "category": "rba"
+      "category": "rba",
+      "topics": [
+        "rates"
+      ],
+      "importance": 2
+    },
+    {
+      "title": "How RBA and Fed Divergence Pressures AUD/JPY in Risk-Off Markets",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSHV4LXRhV1RyWC1HT1BQcjRCbTJHYUVJOXBPNnFfWHdIZm51azNSN1didktZYUtIQUg4Q20zSElXNUpmZUg5TzZTRDN4WFFac0thWF9NVzU1S0MxQ203M2NPQ283WV9Ea2ZPSEZUSmpyOFpTelh0eWw4Z1UwZkVxRDdSTkhmT044Vk9NUXkxQzBnVWVLQkZqRUUtZWR4azFMLUE?oc=5",
+      "source": "StoneX",
+      "date": "2026-11-20T15:30:23.000Z",
+      "category": "rba",
+      "topics": [
+        "rates"
+      ],
+      "importance": 2
+    },
+    {
+      "title": "RBA Rate Hike November 2026: Home Loan Announcements",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9nSkp5S002SDNPVlNEeVFhR1psMzBJdEs1XzM4RHp0QUNYcmVaYkVvVkpfWlNJall3NEQ3WG93VXB4WFpPOVE2a2ZfVDZVcENqM3VUU0s4SE1rNlJvNTVoS253?oc=5",
+      "source": "Savings.com.au",
+      "date": "2026-11-20T08:00:00.000Z",
+      "category": "rba",
+      "topics": [
+        "rates"
+      ],
+      "importance": 2
+    },
+    {
+      "title": "Australia’s unemployment rate hits a five-year high. Has the RBA finally finished raising interest rates?",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWWZ2Z0NtMElYdGdhM0VpT2NEZmJ6dWlPdzRJOWVFVnNTbGQzc1JmVDdKbDQ1MzBLY1pRbTV2dzdMZzdobzdmekxHcWJGVk8xR0NVamhkakh3Uzdxa2lZS0RZbVJBSTBpMzJjRDhqcXhkRVZwWG83NzFTdTFiVDdoeFFRMlFjLXN4VndIUVU5MzBEU1lCTXczZWFwSmZNdTZlc1Y1Z2h0ZE0tUExwUmNRWnJ5ZUdKRzBJdXFWbTVpTjJ0ZkZHb1czaEc0WjFNZw?oc=5",
+      "source": "Property Update",
+      "date": "2026-11-20T06:48:37.000Z",
+      "category": "rba",
+      "topics": [
+        "rates"
+      ],
+      "importance": 2
+    },
+    {
+      "title": "Rising unemployment rate quashes prospect of December rate hike - latest finance news - API Magazine",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZ2RuT1daeWVhaENuRWh4MmRrc1NGVTZsUGRLcm5UTWRJd3N5d1lWcExBSjdsd2VsQUV0dzc1LWJTY3BvbFhFdEM0Wmh1c0RjLTdUUUc5anVXNzBBbmwtTml4Rk83c1dvMVJ5RXRaS1RnVzFaNkEwdHJpUGtZUDBhckVfcmtXY0hJS2xLeDFMMmZxM2p3bVJ0OThmY2lYSmdudF94aVpHc0REbUE?oc=5",
+      "source": "Australian Property Investor Magazine",
+      "date": "2026-11-20T06:42:02.000Z",
+      "category": "rba",
+      "topics": [
+        "rates"
+      ],
+      "importance": 2
+    },
+    {
+      "title": "Game on: Why falling home prices are bringing Aussie buyers back to the table",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZERzbk0tZFpqcTlfWDJvLWkzOThqMlhrM0JpeWc0SWlwcjhLd0ZUY2NRTlk1Q1M2NDZmUmdQZEtZTWlfT05Ickc0ZG5NNjdmbWstc3pLNm04MGluYjBnVHpkbHVqbHNqQXJwaHdWWGg0NDZ4WUd6N0ZXakJDcl9TYWJBR3NuanAwMlVSRmEzSVlEWDdxLXdPS1BTbUJrbGE2N2xIMVAtZXBJQ0d2Ty1EcEFB?oc=5",
+      "source": "Real Estate",
+      "date": "2026-11-20T04:23:11.000Z",
+      "category": "economy",
+      "topics": [
+        "housing"
+      ],
+      "importance": 1
+    },
+    {
+      "title": "Interest rate cuts are coming: Latest expert views on when and how much",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSWpoc21MTU00N0FUTncwZmkwR29BLUI5ay1ucnV3VzY1M1I0cDRBVkNGSnZ6STdpdWQtcWQwdEV0V0ZPV0ZvQUJaVG5Hd2JDd3NTZlZvY1hJY3ZUWVhOdlhFbkg0WUxoSnM2TzF2Qk1iRTN6RklmR0dFX2x3c3d0RnZFMGcxaWxxeHNPX1VSdDdFcTBWeDZUc2xrSEdUYWV5VXNYLTNhNUgwUQ?oc=5",
+      "source": "Market Index",
+      "date": "2026-11-20T03:45:05.000Z",
+      "category": "rba",
+      "topics": [
+        "rates"
+      ],
+      "importance": 2
     },
     {
       "title": "House prices face double-digit falls before 2028 recovery",
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNM3pZQWdjNTd5YVVXRS1VcV85bEhKa0JQWGdlLUl6ckFyQXNpdnFqUE5haXVGTXBET3dXeTdQQXlDeEd2bUFZMGFNODhTem1jckE0RFgzYkRRcS1DVjYxMUlEcU1aYzJlckFUQld6VTg4UkUyNFFyQ2xaaFJGS0pXY2Rn?oc=5",
       "source": "Domain",
       "date": "2026-11-18T13:29:00.000Z",
-      "category": "property"
+      "category": "property",
+      "topics": [
+        "housing"
+      ],
+      "importance": 1
+    },
+    {
+      "title": "RBA November 2026 Rate Decision: Why Did Three Board Members Oppose the Increase?",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdnRreFd0LUVES1dpeHo4c0ZpdmRJUWpmU2tiUTNVWFlGd05fMUcteWI2d3NKenItZDhiQ1h3eHJob2JTYkZEcWd1VDdPWE82a2FUT2E3UGVyWVBNcG1BV3hjbWpUUDBWNnNHOXg0QVFnOTMtVk1OZnpqdHloZzNtNHphMGZaSzc4ckZJVEg5Tm1SM1JrekRKZExQdU5RV05yVjA1YkJNVEFXN245c2N1VVdsOXZZcGw4QllzUlBB?oc=5",
+      "source": "Kalkine",
+      "date": "2026-11-18T05:41:00.000Z",
+      "category": "rba",
+      "topics": [
+        "rates"
+      ],
+      "importance": 2
+    },
+    {
+      "title": "Three RBA Speakers Scheduled Ahead of December’s Interest Rate Decision",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNM3ZaWnNaNEZMSVdKTlh1aDBQbjl2Q0o5RjRwbHBVZ2Rlam96dWVZdHVRZ194U1MyMldrRkdfNWs1ZV82ZGlhNTd0NjNKRmgxY29CcGh3M1hQRGlVQWFmRTV2VFU4clNFTkxHM0JzdkpDa0xUbEFxcy1IZkJtZFF0LW00dDJUZ0VLSVdyNHYwNDlZUkVZb0NIeGlRWTQ2d05JaWxpSVo1eDBWd2dadWNrajVB?oc=5",
+      "source": "Kalkine",
+      "date": "2026-11-17T11:32:00.000Z",
+      "category": "rba",
+      "topics": [
+        "rates"
+      ],
+      "importance": 2
+    },
+    {
+      "title": "RBA Rate Decision: Why Forecast Job Growth Supported the Majority",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOR09fakFfbGwwUDZjdDJESlU2SUJsM1M0clpCYnd1ODZGSTk1RlE2Vnh3SE80LWhMNGRXcUs0ekVmTHZIUjNFamFCZnVVaXRWV0Y0aVJ0a2FLaWJ0YTY1alg3cnRMalJWRWVQMmI5RC12LXY1Q0w0SUFmMUg3b2dycXk1eVA5b1BJTFNnVC1kZFNXbzNCdTQwRkk2NVE3MjdYVkQxWGVqSlZkZw?oc=5",
+      "source": "Kalkine",
+      "date": "2026-11-17T11:32:00.000Z",
+      "category": "rba",
+      "topics": [
+        "rates"
+      ],
+      "importance": 2
+    },
+    {
+      "title": "What Do the RBA’s November Minutes Reveal About the December Rate Decision?",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVEV1VEd2eUNYdUZtM0FpTDI3VXhMTVdsSVo1bFJvSHhmeXNFcnlRSHlpUXN2dzkwa095QWtVOTAtTUpQS3hsc1NRaGltdFpLLWR4TjZlUlo1N3lUUE9CM0dsclJfLTFoTkFwQW1VUEJnSU42M0hzV3piSVJISEF5bUtPUm1PMmdIclVWdFNZMFRWNnZ1a0lIaUVSVHpFMmRfU051SjJoVUt4SGZ0a05Kb3FHYlU0UQ?oc=5",
+      "source": "Kalkine",
+      "date": "2026-11-17T10:48:00.000Z",
+      "category": "rba",
+      "topics": [
+        "rates"
+      ],
+      "importance": 2
+    },
+    {
+      "title": "RBA pause increasingly likely after November’s split vote",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeFY2bVdUUmJ0d245dzBybGVMR2hza3pyempRbDNyeGs4Ni1HeS1mOURYMndmeUVKb2NPazBfS3U0T2FjYV91UF9ENmFyUTFLVXVNOTJMQVBXMUlEckZYQmw4Q3BoaGN3SFRkU3BlVE9yODFMVHpOb2d0d1lBMDZmd3A0VFhjZDQwb0l1VGFoTHZOVE5wX0toYUZZS2RBTzQ?oc=5",
+      "source": "CommBank",
+      "date": "2026-11-17T05:19:53.000Z",
+      "category": "rba",
+      "topics": [
+        "rates"
+      ],
+      "importance": 2
     },
     {
       "title": "The one statistic this property expert says shows the difference for Melbourne and Sydney markets",
       "link": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxPZFpKWEJDRWYxcExodkUzQ3lGdlBUYVlmaHBGMlpKdVdqeWlYczd0dHdxcWM2U09ydFpuVFRicTU4SlJXYktFdENnTGh3WEZvZE5sN2pkLUlQa2QwM3FqVUhmd2tlbHVBcHVpTXNLb2E4eFVXNGpNakhmM3NMZ0NiTjJiVG1nQWYtQU5oWkFxLTVYZlJaZmpoMFhwQUoycVd4MmtudTFldWN2NHhfVlRKZUs5LURhVHZNNDNKemdpaVB6TjBEOElxaTFreXQ3NG5RWlRUakxrdDhLUDVudmNFWkh6M3BUaDVjSHpwVmpENEwxb04zX3g3d1pWdEY4WC1tM2dYWEk3UnE2bmlmcWRTS1ExOXBSQkxZcUpZYTJvQWpJb0RsWWEtTW16aXkxYVAxNDVhQzZjSEJURE9vd3lUQjV6aGtpTDcyTC01N2RuZy1YQdIB1wJBVV95cUxNaVF5MzlrQjdBTXJ4enYySmJSR1FhX09Ca2oyV0IxY3lfT3FjOTNYVjA4SzdzbmFySGhPNjRUdXJGNFFHSF9lSjJXNmV6ZFZEaXpvYXJZdzVGLXhkVnZaTTlSVk1Qd2hyTjBzWXowSk1yeHlfRVdWYlhSZzhpVHNwNnN4Q3BabTk3RDRpZlNFcVY5N1UzZmVPMXlfQ1ZFRTZhUmUtSzJkWi1jYUZqUU5CVlJBTWxVbE9PZUVxaW1VNUVsc1lEQmhBenNYT242TUhZSGYtM0VuNVB2OTBMYW01aGxPT2JHUEtfRTdwczJJb2FsWjkzV2tXY0lMR1JJTDhWa18zSVF4RTNyR19wX0VveVJtV1gta2M2U0FPYlNQeHB3RzQtSmpJUVoyOGV3NlZ6bkFtOHB3ajJsNWZPUzM5aWVwWGhrNHVUM3J2VTA3M1UwU25FU1Zz?oc=5",
       "source": "News24",
       "date": "2026-11-16T18:01:40.000Z",
-      "category": "property"
+      "category": "property",
+      "topics": [
+        "housing"
+      ],
+      "importance": 1
     },
     {
       "title": "Latest Property Price Forecasts. Australian Property Market Outlook 2026-2027: Navigating a Market Correction",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE90RlgtODZENjZyYkoxdTcxN3JRWi04akllOG9vZ3FOaDJwZG9TbWRwM1drOGJsZVZpc3NFZ1VRRllPNGFsM285Nkt6NTluLUJMNmszVi1ZcTZVc1ZrbWttMmZ3V1EwQ2RhX3BnTV95RkNYWUtOenktNA?oc=5",
       "source": "Property Update",
       "date": "2026-11-16T08:00:00.000Z",
-      "category": "property"
+      "category": "property",
+      "topics": [
+        "housing"
+      ],
+      "importance": 2.25
     },
     {
       "title": "This week’s Australian Property Market Update – Latest Data, State by State November 17th 2026",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE84MFhXelJEYlV6a1FBY0lUVHZHRWlWY3VpV0paOVRGTkxBYllNY0wwenI1WEpRRjlISG16bWoySkdiblVsb3YzMVVLX2VFa2QwalJEc2FJaWUzYXVfNFZjUTUwdTd0SzNI?oc=5",
       "source": "Property Update",
       "date": "2026-11-16T08:00:00.000Z",
-      "category": "property"
-    },
-    {
-      "title": "Adelaide housing market update [video] | November 2026",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNXJtNmpWN0tBS2FvUk9uTThsNkhGdVlRQUpFcXJyWWN0a2R2TF9PZjNkal96Y0UxMTI0QUNLd1BpazR3YmRUQVJMYTR1bDJGS2ZYN3BSUTk3ODJ2RG9EWi15ZnpsX2hNaUFHcnZnWlhxRkY5ZHluQ29scjNyclpJWg?oc=5",
-      "source": "Property Update",
-      "date": "2026-11-15T08:00:00.000Z",
-      "category": "adelaide"
-    },
-    {
-      "title": "Young couple score $676k coastal home as Aussie property prices plunge first time in years: 'Got lucky'",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQcjV1alNTRFFVS1hhU212RTh0QTFIaWpBX0Q4cmNINElEYmdsTnNtcEFPdl82bmFfdi12OWl2dU1iOUZ6bkNCTzlSQ2I2T1BONU1MSXBpSVZVNzF3REtvVHZNQ0R0LWtsdk15NW92ZkIyUV9Td1VURldmSlptdWl2QjE4WnFBSXIzd254a2VObmpobE9PMWFiYTZ3OHVzblhUd25zY2Qzd2hnNkxuOG5fdTlPTGljR3NKVk9kSDU3d0Y3RzBOejVqVjBlUEJuYy1uMGtTSTJZQQ?oc=5",
-      "source": "Yahoo News Australia",
-      "date": "2026-11-15T02:10:00.000Z",
-      "category": "property"
-    },
-    {
-      "title": "Designation of Prosegur Australia Pty Ltd under the Cash Distribution Framework Act 2026",
-      "link": "https://www.rba.gov.au/media-releases/2026/mr-26-31.html",
-      "source": "RBA",
-      "date": "2026-11-05T23:45:00.000Z",
-      "category": "rba"
-    },
-    {
-      "title": "Adelaide suburbs defying housing downturn with $300k-plus price surge",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUFJqRmhTWU4zUzVYY2NXNlRGX2ttUTVub2pDdHFOdUdRWmE2TDFrOWVEQVFfS3hHOGhGbVlHRkN6NXVjSzZDWHIzWjBNRmhRQ3U4WURnRnNfZXAxM3FGczJ2SkNXeU1kQ2Y3STBvV3R4WjV6UUlUa3l6YVFRbVVlb2JacDFxQ2VsLWpCYnE4UFpaYUZCYnVNSXdiY0kxRV92ZDJqYUVn?oc=5",
-      "source": "Real Estate",
-      "date": "2026-11-05T08:00:00.000Z",
-      "category": "adelaide"
-    },
-    {
-      "title": "The Latest Median Property Prices in Australian Cities",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNemdhYW5hUGJLQVZGZW41ZzNocWxoOHpjXzhRUXJ2TFRSS2FMWDhRZnlqYXUwVlNGb0tNNHBldUNsTTdTWlFGcjBxakl2SGtKZ3FzWDBkOGVoUHJGZXZnUzZGVGRnLUU0S2xKcVgxU2ZvZ0ZjYnVfbVZQRDBIY1VHZ3ZPa0w5QmxYdFJIUkVLT1R3NHpSWmc?oc=5",
-      "source": "Property Update",
-      "date": "2026-11-04T08:00:00.000Z",
-      "category": "property"
-    },
-    {
-      "title": "Home prices tipped for record 14% downturn: CommBank economists",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUGFnTUt4NkV0aklnR1dhVUZ2VXdGWEpldEw0eC03UXpzekpHNU9NN1lTYlhuOEpjeFRqWEdkYmNGLXdTTW1KbmxIVDc4Y3ZMZl9tdHlqeVh1cnI4Z0hDUER0eEVRU0Zia084ZUtvb3p6U21waUxUeEk5WlppcjNhYm1aQnJuLTJqbXJCXzdLZzZjMTFyVVNGeVJpZVhHOGlWWkdNWHM4SW9kdw?oc=5",
-      "source": "CommBank",
-      "date": "2026-11-03T08:00:00.000Z",
-      "category": "property"
+      "category": "property",
+      "topics": [
+        "housing"
+      ],
+      "importance": 0.75
     }
   ]
 }

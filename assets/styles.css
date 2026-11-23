@@ -422,6 +422,17 @@ input::placeholder, textarea::placeholder { color: var(--ink-3); opacity: 1; }
 .news-item a { color: var(--ink); text-decoration: none; font-weight: 500; }
 .news-item a:hover { text-decoration: underline; }
 .news-meta { font-size: 13px; color: var(--ink-3); }
+.news-strip { margin-bottom: 18px; background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: 10px 14px 4px; }
+.news-strip[hidden] { display: none; }
+.news-strip-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.news-strip-title { font-size: 15px; font-weight: 600; }
+.news-strip-more { font-size: 14px; color: var(--accent); display: inline-flex; align-items: center; min-height: 32px; }
+.news-strip .news-item:last-child { border-bottom: 0; }
+@media (min-width: 900px) { .news-strip .news-list { grid-template-columns: 1fr 1fr; column-gap: 28px; } }
+.chart-tools { display: flex; justify-content: flex-end; margin: -4px 0 2px; }
+.chart-toggle { border: 1px solid var(--line-strong); }
+.chart-toggle.is-on { background: var(--accent-soft); color: var(--ink); border-color: var(--accent); }
+.chart-infl { margin: 6px 0 0; color: var(--ink-2); }
 
 /* ---------- finance ---------- */
 .fin-layout { display: grid; gap: 24px; }

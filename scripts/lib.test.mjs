@@ -116,6 +116,28 @@ test("parseRss, categorise, buildNews", () => {
   assert.deepEqual(news.map((n) => n.category), ["rba", "adelaide", "economy"]);
   assert.ok(news[0].date > news[1].date, "newest first");
   assert.equal(news[2].source, "Feed");
+  assert.deepEqual(news[0].topics, ["rates"]);
+  assert.ok(news.every((n) => n.importance >= 0 && n.importance <= 3));
+});
+
+test("news relevance filter and importance score", () => {
+  const keep = ["Chalmers primes Australians for more bad news", "Australian borrowers face threat of further rate hikes before relief in late 2027"];
+  const drop = "No life jackets on airboat during 2023 crash";
+  const now = new Date("2026-11-23T05:00:00Z");
+  const d = (days) => new Date(now - days * 864e5).toISOString();
+  for (const t of keep) {
+    assert.ok(L.isRelevantNews(t), t);
+    assert.ok(L.newsImportance(t, d(1), now) >= 2, t);
+  }
+  assert.ok(!L.isRelevantNews(drop));
+  assert.ok(L.newsImportance("Adelaide house prices climb again", d(1), now) >= 1.5);
+  assert.ok(L.newsImportance("Chalmers primes Australians for more bad news", d(1), now) > L.newsImportance("Chalmers primes Australians for more bad news", d(40), now));
+  assert.deepEqual(L.newsTopics("Australian borrowers face threat of further rate hikes"), ["rates"]);
+  const feed = { filter: true, source: "ABC", category: "economy", items: [...keep, drop].map((title, i) => ({ title, link: `http://x/${i}`, date: d(1 + i) })) };
+  const out = L.buildNews([feed], now);
+  assert.deepEqual(out.map((n) => n.title), keep);
+  const many = { source: "G", category: "economy", items: Array.from({ length: 60 }, (_, i) => ({ title: `Inflation story ${i}`, link: `http://y/${i}`, date: d(i / 20) })) };
+  assert.equal(L.buildNews([many, many, many, many, many], now, 40, 60, 60).length, 40);
 });
 
 const base = (o = {}) => ({
@@ -175,16 +197,6 @@ test("cleanAi validates model output", () => {
   assert.equal(ok.fairValueLow, 1000000);
   assert.equal(L.cleanAi({ summary: "s", verdict: "Great!" }, { model: "m", priceText: "p", now: "n" }), null);
   assert.deepEqual(L.parseJsonLoose('```json\n{"a":1}\n```'), { a: 1 });
-});
-
-test("sample data lies inside both zones and is labelled", () => {
-  const s = L.sampleListings(zones, "2026-11-23", "2026-11-23T00:00:00Z");
-  assert.equal(s.length, 8);
-  for (const l of s) {
-    assert.ok(l.headline.startsWith("SAMPLE"));
-    assert.equal(L.zonesContaining(l.lat, l.lng, zones).length, 2, l.address);
-  }
-  assert.equal(L.sampleSuburbs("2026-11-23")._sample, true);
 });
 
 test("agent mapping and cache", () => {

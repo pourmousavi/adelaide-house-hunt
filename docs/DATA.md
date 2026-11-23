@@ -22,7 +22,7 @@ FeatureCollection, `properties: { school, type: "PRIM" | "SEC" }`.
 ```json
 {
   "generatedAt": "2026-11-23T05:00:00Z",
-  "source": "alerts" | "domain" | "sample", // "alerts" = listings parsed from saved-search emails; "domain" = Domain API returned listings (alerts may be merged in); "sample" = no real listings yet, UI must show a clear banner
+  "source": "alerts" | "domain" | "none", // "alerts" = listings parsed from saved-search emails; "domain" = Domain API returned listings (alerts may be merged in); "none" = no real listings yet, `listings` is `[]` and the UI shows an empty state
   "listings": [{
     "id": "2019876543",
     "url": "https://www.domain.com.au/...",
@@ -72,7 +72,7 @@ The pipeline `alerts` step (`scripts/fetch.mjs`, helpers in `scripts/lib.mjs`):
 - additive fields: `lastSeen` (date of the latest alert that mentioned it), `alertKind` (`"new" | "priceChange" | "openHome" | "sold" | null`), `urlIsRedirect` (true only when the email link could not be decoded, so `url` is a tracking redirect), `sold`.
 - `priceHistory` comes from the worker (asking-price text changes seen in alerts). `firstSeen` is the date of the first alert; `dateListed` is `null`, so `daysOnMarket` counts from `firstSeen`.
 
-`source` is `"domain"` when Domain API listings exist, else `"alerts"` when any alert listing exists, else `"sample"`. Domain credentials are optional; with them the Domain search runs as before and alert listings are merged in.
+`source` is `"domain"` when Domain API listings exist, else `"alerts"` when any alert listing exists, else `"none"` (`{ "source": "none", "listings": [] }`). The pipeline never writes sample listings or sample suburbs to `data/`; sample data lives only in `dev/fixtures/` (open the app with `?data=dev/fixtures`). Domain credentials are optional; with them the Domain search runs as before and alert listings are merged in.
 
 ## data/geocode.json
 `{ "<normalised address>": { "lat": -34.94, "lng": 138.63 } | { "miss": "2026-11-23T05:00:00Z" } }`. Written by the `alerts` step.
@@ -89,9 +89,8 @@ The pipeline `alerts` step (`scripts/fetch.mjs`, helpers in `scripts/lib.mjs`):
 Primary source is `scripts/sa_medians.py` (weekly; it skips itself while `_fetchedAt` is under 7 days old, `--force` overrides). It reads the SA Government dataset "Metro median house sales" on data.sa.gov.au (Valuer-General sales by suburb; one quarterly XLSX per quarter from Q1 2015, discovered through the CKAN API; downloads cached in `.cache/sa_medians/`, which is gitignored and cached by the workflow). It covers all ~425 metro suburbs it can map to a postcode (postcodes come from the open australian_postcodes.csv, with a built-in list as fallback).
 - The files carry no annual figure: each gives quarterly sales and median price for a quarter and the same quarter a year earlier. `house[].median` is the **median of that year's quarterly medians** (not a median of all sales), `sales` is the sum of the quarterly sales counts, `quarters` is how many quarters contributed (4 = full year; the current year is partial). Years start at 2015. `unit` is `[]` (the dataset is houses only).
 - Domain suburb statistics (`fetchedAt` per suburb, `unit` filled) override the SA series for the same suburb when the Domain API is configured, and are preserved by the SA script.
-- The sample file (`_sample: true`) is only written when no real suburb data exists.
 
-Additive fields written by the pipeline (UI may ignore): `house[].quarters` in suburbs.json, listing `removedDate` (set when status is "removed"), `ai.priceText` (asking price the analysis was for), per-suburb `fetchedAt` in suburbs.json. Keys starting with `_` in suburbs.json (e.g. `_sample`) are metadata, not suburbs. `agents[].phone/email` come from Domain GET /v1/agents/{id} (cached 30 days in `data/agents.json`, keyed by contact id: `{name, phone, email, agency, photo, fetchedAt}`); null if that scope is unavailable.
+Additive fields written by the pipeline (UI may ignore): `house[].quarters` in suburbs.json, listing `removedDate` (set when status is "removed"), `ai.priceText` (asking price the analysis was for), per-suburb `fetchedAt` in suburbs.json. Keys starting with `_` in suburbs.json are metadata, not suburbs. `agents[].phone/email` come from Domain GET /v1/agents/{id} (cached 30 days in `data/agents.json`, keyed by contact id: `{name, phone, email, agency, photo, fetchedAt}`); null if that scope is unavailable.
 
 ## data/macro.json
 ```json
@@ -109,9 +108,10 @@ When a fresh (under 2 days) `data/forecast_timesfm.json` exists, `forecast` is t
 
 ## data/news.json
 ```json
-{ "generatedAt": "...", "items": [{ "title": "...", "link": "...", "source": "ABC News", "date": "...", "category": "adelaide" | "property" | "economy" | "rba" }] }
+{ "generatedAt": "...", "items": [{ "title": "...", "link": "...", "source": "ABC News", "date": "...", "category": "adelaide" | "property" | "economy" | "rba",
+  "topics": ["rates", "inflation", "housing", "adelaide", "budget"], "importance": 2.5 }] }
 ```
-Max ~30 items, newest first, deduped by title.
+Max 40 items, newest first, deduped by title. Feeds: RBA media releases, the ABC business feed (kept only when the title matches relevance keywords such as inflation, CPI, interest rate, RBA, mortgage, housing, budget, Treasury, Chalmers, Adelaide, SA; the rest is dropped) and Google News queries (Adelaide property/house prices/housing market, SA property prices, RBA interest rates and cash rate decision, Australia/Chalmers/Treasury inflation and budget). `topics` is zero or more tags from the title; `importance` is 0-3 (inflation, rates, RBA, Treasury and forecast terms and Adelaide housing score higher, plus a recency bonus). Older files may lack `topics` and `importance`; the UI falls back to `category`.
 
 ## data/market.json  (AI market view)
 ```json

@@ -110,8 +110,31 @@ function tile({ label, data, deltaMode, digits, sub, derived }) {
 // Outlook + News
 // =====================================================================
 
-const CAT_LABELS = { adelaide: 'Adelaide', property: 'Property', rba: 'RBA', economy: 'Economy' };
-const CAT_ORDER = ['adelaide', 'property', 'rba', 'economy'];
+const TOPIC_LABELS = { rates: 'Interest rates & the RBA', inflation: 'Inflation', housing: 'Housing & property', adelaide: 'Adelaide & South Australia', budget: 'Budget & Treasury' };
+const TOPIC_ORDER = ['rates', 'inflation', 'housing', 'adelaide', 'budget'];
+// Older news.json rows have no topics/importance: fall back to category so the UI still groups them.
+const CAT_TOPIC = { rba: 'rates', adelaide: 'adelaide', property: 'housing', economy: 'inflation' };
+const itemTopics = (it) => (it.topics?.length ? it.topics : [CAT_TOPIC[it.category]].filter(Boolean));
+const byImportance = (a, b) => (b.importance ?? 0) - (a.importance ?? 0) || String(b.date).localeCompare(String(a.date));
+
+function newsItem(it) {
+  return h('li', { class: 'news-item' },
+    it.link ? h('a', { href: it.link, target: '_blank', rel: 'noopener noreferrer', text: it.title }) : h('span', { text: it.title }),
+    h('span', { class: 'news-meta', text: [it.source, it.date && relTime(it.date)].filter(Boolean).join(' · ') }));
+}
+
+/** Compact "What's moving rates & prices" strip for the top of the Listings view. */
+export function renderNewsStrip(root, news, limit = 4) {
+  root.replaceChildren();
+  const items = [...(news?.items || [])].sort(byImportance).slice(0, limit);
+  root.hidden = !items.length;
+  if (!items.length) return;
+  root.append(
+    h('div', { class: 'news-strip-head' },
+      h('h2', { id: 'news-strip-h', class: 'news-strip-title', text: "What's moving rates & prices" }),
+      h('a', { class: 'news-strip-more', href: '#outlook', text: 'More in Outlook' })),
+    h('ul', { class: 'news-list' }, items.map(newsItem)));
+}
 
 export function renderOutlook(root, market, news, errors = {}) {
   root.replaceChildren();
@@ -136,14 +159,15 @@ export function renderOutlook(root, market, news, errors = {}) {
   if (!items.length) {
     ns.append(emptyState('No headlines yet', 'Headlines appear after the first fetch.'));
   } else {
+    // Each story sits under its most important topic (first in TOPIC_ORDER), so nothing repeats.
     const groups = new Map();
-    for (const it of items) { const c = it.category || 'other'; if (!groups.has(c)) groups.set(c, []); groups.get(c).push(it); }
-    const cats = [...CAT_ORDER.filter((c) => groups.has(c)), ...[...groups.keys()].filter((c) => !CAT_ORDER.includes(c))];
-    for (const c of cats) {
-      ns.append(h('h3', { class: 'news-cat', text: CAT_LABELS[c] || c }),
-        h('ul', { class: 'news-list' }, groups.get(c).map((it) => h('li', { class: 'news-item' },
-          it.link ? h('a', { href: it.link, target: '_blank', rel: 'noopener noreferrer', text: it.title }) : h('span', { text: it.title }),
-          h('span', { class: 'news-meta', text: [it.source, it.date && relTime(it.date)].filter(Boolean).join(' · ') })))));
+    for (const it of [...items].sort(byImportance)) {
+      const t = TOPIC_ORDER.find((k) => itemTopics(it).includes(k)) || 'other';
+      if (!groups.has(t)) groups.set(t, []);
+      groups.get(t).push(it);
+    }
+    for (const t of [...TOPIC_ORDER, 'other'].filter((k) => groups.has(k))) {
+      ns.append(h('h3', { class: 'news-cat', text: TOPIC_LABELS[t] || 'Other' }), h('ul', { class: 'news-list' }, groups.get(t).map(newsItem)));
     }
     if (news.generatedAt) ns.append(h('p', { class: 'small muted', text: `Collected ${relTime(news.generatedAt)}.` }));
   }

@@ -3,6 +3,7 @@
 import { h, icon, fmtMoney, fmtMoneyFull, fmtNum, fmtPct, fmtDate, fmtDateTime, fmtInspection, parseDate, downloadText, debounce, moneyHint } from './util.js';
 import { renderChart } from './charts.js';
 import { computeFinance } from './finance.js';
+import { realGrowth, deflate } from './inflation.js';
 import * as store from './store.js';
 
 export const TYPE_LABELS = {
@@ -251,29 +252,53 @@ export function observeCharts(root) {
   root.querySelectorAll('.chart-lazy').forEach((el) => chartObserver.observe(el));
 }
 
-export function buildPriceChart(container, l, ctx) {
+export function buildPriceChart(container, l, ctx, { real = false } = {}) {
   container.classList.remove('chart-lazy');
   const key = `${l.suburb}|${l.postcode}`;
   const kind = seriesKind(l.propertyType);
-  const stats = ctx.suburbs?.[key]?.[kind] || [];
+  const stats = (ctx.suburbs?.[key]?.[kind] || []).filter((r) => r && r.median != null && r.year);
   const now = Date.now();
-  const pts = stats.filter((r) => r && r.median != null && r.year).map((r) => ({ x: Date.UTC(r.year, 6, 1), y: r.median }));
-  const dots = (l.salesHistory || []).filter((r) => r?.price != null && r.date).map((r) => ({
-    x: parseDate(r.date)?.getTime(), y: r.price, label: `Sold ${fmtDate(r.date)}`, color: 'var(--ink)',
-  })).filter((d) => Number.isFinite(d.x));
+  const cpiHist = ctx.macro?.cpi?.history || [];
+  const growth = realGrowth(stats.map((r) => ({ year: r.year, median: r.median })), cpiHist);
+  const idx = growth?.index;
+  const toReal = real && idx;
+  const adj = (v, year) => (toReal ? deflate(v, year, idx, growth.lastYear) : v);
+  const pts = stats.map((r) => ({ x: Date.UTC(r.year, 6, 1), y: adj(r.median, r.year) }));
+  const inflPts = growth ? stats.filter((r) => idx[r.year] != null).map((r) => ({ x: Date.UTC(r.year, 6, 1), y: adj(stats[0].median * idx[r.year], r.year) })) : [];
+  const dots = (l.salesHistory || []).filter((r) => r?.price != null && r.date).map((r) => {
+    const x = parseDate(r.date)?.getTime();
+    return { x, y: adj(r.price, new Date(x).getUTCFullYear()), label: `Sold ${fmtDate(r.date)}${toReal ? " (today's dollars)" : ''}`, color: 'var(--ink)' };
+  }).filter((d) => Number.isFinite(d.x));
   const asking = l.priceLow != null || l.priceHigh != null ? { lo: l.priceLow ?? l.priceHigh, hi: l.priceHigh ?? l.priceLow } : null;
   const fair = l.ai && l.ai.fairValueLow != null && l.ai.fairValueHigh != null ? { lo: l.ai.fairValueLow, hi: l.ai.fairValueHigh } : null;
   if (!pts.length && !dots.length && !asking) {
     container.replaceChildren(h('p', { class: 'chart-empty', text: ctx.suburbs ? `No price history for ${l.suburb || 'this suburb'} yet.` : 'Suburb trends are not available (suburbs.json missing).' }));
     return;
   }
+
+  // Inflation tools (toggle + one-line verdict) sit around the chart; only when there is a CPI comparison to make.
+  const wrap = container.closest('.card-chart');
+  if (wrap) {
+    wrap.querySelectorAll('.chart-tools, .chart-infl').forEach((n) => n.remove());
+    if (growth) {
+      const toggle = h('button', { type: 'button', class: `btn btn-ghost btn-sm chart-toggle${real ? ' is-on' : ''}`, 'aria-pressed': String(real) }, "Today's dollars");
+      toggle.addEventListener('click', () => buildPriceChart(container, l, ctx, { real: !real }));
+      container.before(h('div', { class: 'chart-tools' }, toggle));
+      const g = growth;
+      container.after(h('p', { class: 'chart-infl small', text: `Since ${g.firstYear}, median up ${fmtPct(g.nominalPct, 0)} vs inflation ${fmtPct(g.inflationPct, 0)} (real growth ${signedPct(g.realPctPa)} p.a.)${g.lastYear < stats[stats.length - 1].year ? ` to ${g.lastYear}` : ''}` }));
+    }
+  }
+
   const xsAll = [...pts.map((p) => p.x), ...dots.map((d) => d.x)];
   const xMin = Math.min(now - 10 * YEAR, ...(xsAll.length ? xsAll : [now - 10 * YEAR]));
   renderChart(container, {
     height: 220,
     xDomain: [xMin, now + 0.9 * YEAR],
     yMin: 0,
-    series: pts.length ? [{ label: `${l.suburb} ${kind} median`, points: pts, color: 'var(--chart-1)', endDot: true }] : [],
+    series: [
+      pts.length && { label: `${l.suburb} ${kind} median${toReal ? " (today's dollars)" : ''}`, points: pts, color: 'var(--chart-1)', endDot: true },
+      inflPts.length > 1 && { label: 'Inflation only', points: inflPts, color: 'var(--ink-3)', dashed: true, width: 1.75 },
+    ].filter(Boolean),
     dots, dotsLabel: 'This home sold',
     hBands: [
       asking && { label: 'Asking', lo: asking.lo, hi: asking.hi, from: now, color: 'var(--chart-2)' },
@@ -281,9 +306,11 @@ export function buildPriceChart(container, l, ctx) {
     ].filter(Boolean),
     vMarkers: [{ x: now, label: 'now' }],
     yFormat: (v) => fmtMoney(v),
-    ariaLabel: `Price trend for ${l.address}: ${l.suburb} ${kind} median over ten years${dots.length ? `, ${dots.length} past sale${dots.length === 1 ? '' : 's'}` : ''}${asking ? `, asking ${l.priceText}` : ''}`,
+    ariaLabel: `Price trend for ${l.address}: ${l.suburb} ${kind} median over ten years${toReal ? " in today's dollars" : ''}${inflPts.length > 1 ? ', with an inflation-only line' : ''}${dots.length ? `, ${dots.length} past sale${dots.length === 1 ? '' : 's'}` : ''}${asking ? `, asking ${l.priceText}` : ''}`,
   });
 }
+
+const signedPct = (v) => `${v >= 0 ? '+' : '−'}${Math.abs(v).toFixed(1)}%`;
 
 // ---------- details ----------
 

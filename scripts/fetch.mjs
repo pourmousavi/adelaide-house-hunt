@@ -13,9 +13,9 @@ const UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (
 // ---- config ----
 const RBA = "https://www.rba.gov.au/statistics/tables/csv";
 const FEEDS = [
-  { url: "https://www.abc.net.au/news/feed/51892/rss.xml", category: "economy", source: "ABC News" },
+  { url: "https://www.abc.net.au/news/feed/51892/rss.xml", category: "economy", source: "ABC News", filter: true },
   { url: "https://www.rba.gov.au/rss/rss-cb-media-releases.xml", category: "rba", source: "RBA" },
-  ...["Adelaide property market", "Adelaide house prices", "RBA interest rates", "Australia inflation"].map((q) => ({
+  ...["Adelaide property market", "Adelaide house prices", "RBA interest rates", "Australia inflation", "Chalmers inflation", "Treasury inflation forecast budget", "RBA cash rate decision", "Adelaide housing market", "SA property prices"].map((q) => ({
     url: `https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=en-AU&gl=AU&ceid=AU:en`,
     category: q.startsWith("Adelaide") ? "property" : "economy", source: "Google News",
   })),
@@ -248,7 +248,7 @@ async function listingsStep(areas, geojson, alertListings) {
   if (!zones.length) throw new Error("areas.json zones match nothing in zones.geojson");
   const id = process.env.DOMAIN_CLIENT_ID, secret = process.env.DOMAIN_CLIENT_SECRET;
   // API listings = anything not from alerts (legacy files have no `via`); samples never count as real.
-  const prevApi = (prevFile?.listings ?? []).filter((l) => l.via !== "alerts" && !String(l.id).startsWith("SAMPLE-"));
+  const prevApi = (prevFile?.listings ?? []).filter((l) => l.via !== "alerts" && !String(l.id).startsWith("SAMPLE-")); // legacy sample rows are dropped
   const alerts = alertListings ?? (prevFile?.listings ?? []).filter((l) => l.via === "alerts"); // alerts step failed: keep previous
 
   let api = prevApi, suburbs = readJson("suburbs.json", {});
@@ -260,13 +260,10 @@ async function listingsStep(areas, geojson, alertListings) {
   const source = api.length ? "domain" : alerts.length ? "alerts" : null;
 
   if (!source) {
-    if (id && secret) { writeJson("listings.json", { generatedAt: nowIso, source: "domain", listings }); return { listings, suburbs }; }
-    // never replace real data with samples
-    console.log("  no real listings yet (no alerts, no Domain credentials); writing SAMPLE data");
-    const sample = L.sampleListings(zones, today, nowIso);
-    writeJson("listings.json", { generatedAt: nowIso, source: "sample", listings: sample });
-    if (!Object.keys(suburbs).length || suburbs._sample) { suburbs = L.sampleSuburbs(today); writeJson("suburbs.json", suburbs); }
-    return { listings: sample, suburbs, sample: true };
+    // never write samples: no real listings means an empty list
+    console.log("  no real listings yet (no alerts, no Domain credentials); writing empty list");
+    writeJson("listings.json", { generatedAt: nowIso, source: "none", listings: [] });
+    return { listings: [], suburbs };
   }
   writeJson("listings.json", { generatedAt: nowIso, source, listings });
   return { listings, suburbs };
@@ -448,8 +445,8 @@ const news = readJson("news.json");
 const ghToken = process.env.AI_API_KEY;
 if (!ghToken) console.log("[ai]\n  no AI_API_KEY secret; keeping previous AI values");
 else {
-  if (listingsRes && !listingsRes.sample) { await step("ai listings", () => aiListingsStep(listingsRes, macro, ghToken)); }
-  const real = listingsRes && !listingsRes.sample ? listingsRes : { listings: [], suburbs: {} }; // never feed sample data to the model
+  if (listingsRes?.listings.length) { await step("ai listings", () => aiListingsStep(listingsRes, macro, ghToken)); }
+  const real = listingsRes ?? { listings: [], suburbs: {} };
   await step("ai market", () => aiMarketStep(real, macro, news, ghToken));
 }
 console.log("done");

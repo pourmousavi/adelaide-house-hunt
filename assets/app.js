@@ -3,7 +3,7 @@ import { loadAll, loadZones, latestGeneratedAt, applyZonesLocally, IS_FIXTURES }
 import * as store from './store.js';
 import { h, icon, relTime, fmtDate, daysSince, toast } from './util.js';
 import { filterListings, sortListings, renderCard, renderFilters, observeCharts, activeFilterCount, SORT_OPTIONS } from './listings.js';
-import { renderMacroStrip, renderOutlook, renderFinancePage, renderAreas, renderSettings, renderMore } from './views.js';
+import { renderMacroStrip, renderNewsStrip, emptyState, renderOutlook, renderFinancePage, renderAreas, renderSettings, renderMore } from './views.js';
 import { createMap } from './map.js';
 import { runWorkflowAndWait, getFile, putFile, dispatchFetch } from './github.js';
 
@@ -62,6 +62,7 @@ async function reloadData({ bust }) {
   }
   renderBanner();
   renderMacroStrip($('#macro'), data.macro, data.errors.macro);
+  renderNewsStrip($('#news-strip'), data.news);
   renderListings();
   renderOutlook($('#outlook-root'), data.market, data.news, data.errors);
   if (state.mapApi) state.mapApi.setListings(visibleListings());
@@ -77,10 +78,6 @@ function renderBanner() {
   el.replaceChildren();
   const d = state.data;
   if (IS_FIXTURES) el.append(h('div', { class: 'banner banner-info' }, icon('info'), h('span', {}, 'Previewing sample fixtures from ', h('code', { text: 'dev/fixtures/' }), '. ', h('a', { href: location.pathname, text: 'Use live data' }))));
-  if (d?.listings?.source === 'sample') {
-    el.append(h('div', { class: 'banner banner-warn', role: 'status' }, icon('alert'), h('div', {},
-      h('b', { text: 'No listings yet — they appear after your first realestate.com.au alert email arrives' }))));
-  }
   const errs = Object.entries(d?.errors || {}).filter(([k]) => k === 'listings' || k === 'macro');
   if (errs.length) {
     const names = { areas: 'areas.json', listings: 'listings.json', suburbs: 'suburbs.json', macro: 'macro.json', news: 'news.json', market: 'market.json' };
@@ -101,6 +98,8 @@ function updateUpdatedLabel() {
 }
 
 // ---------------------------------------------------------------- listings
+
+const NO_LISTINGS_TEXT = "They'll appear after the first realestate.com.au / Domain alert email arrives (alerts are set up for Linden Park, Glenunga, St Georges, Frewville, Glenside, Glen Osmond, Beaumont, Hazelwood Park, Mount Osmond).";
 
 function listingsAll() { return state.data?.listings?.listings || []; }
 function visibleListings(view = state.prefs.view || 'all') {
@@ -156,7 +155,8 @@ function renderListings() {
   if (!visible.length) {
     const msg = view === 'shortlist' ? ['Nothing shortlisted yet', 'Tap Shortlist on a listing to keep it here.']
       : view === 'hidden' ? ['No hidden listings', 'Hide a listing to move it out of the main list.']
-        : all.length ? ['No listings match', 'Loosen the filters, or widen the areas.'] : ['No listings yet', 'The next fetch will populate this list.'];
+        : all.length ? ['No listings match', 'Loosen the filters, or widen the areas.'] : null;
+    if (!msg) { root.replaceChildren(emptyState('No listings yet', NO_LISTINGS_TEXT)); return; }
     root.replaceChildren(summary, h('div', { class: 'empty' }, h('p', { class: 'empty-title', text: msg[0] }), h('p', { class: 'muted', text: msg[1] }),
       view === 'all' && all.length && activeFilterCount(state.prefs) ? h('button', { type: 'button', class: 'btn btn-secondary', onclick: () => setPrefs({ ...store.DEFAULT_PREFS, sort: state.prefs.sort, view, notes: state.prefs.notes }) }, 'Clear filters') : null));
     return;
