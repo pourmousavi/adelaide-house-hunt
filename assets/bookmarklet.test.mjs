@@ -26,3 +26,20 @@ test("bookmarkletHref is a javascript: URL that parses", () => {
   assert.ok(href.startsWith("javascript:"));
   new Function(decodeURIComponent(href.slice(11))); // throws on a syntax error
 });
+
+test("mergeImport: a sold item marks the existing entry sold without touching its asking price", () => {
+  const list = [
+    { url: "https://www.realestate.com.au/property-house-sa-glenunga-111111", address: "1 A St, Glenunga", priceText: "$1.7m", via: "bookmarklet", seenAt: "2026-11-01" },
+    { url: "https://www.realestate.com.au/property-house-sa-glenunga-222222", address: "2 B St, Glenunga", priceText: "$2m" }, // hand-added
+  ];
+  const items = [
+    { url: "https://www.realestate.com.au/sold/property-house-sa-glenunga-111111", address: "1 A St, Glenunga", sold: true, soldDate: "2026-11-15", soldPriceText: "$1,850,000" },
+    { url: "https://www.realestate.com.au/sold/property-house-sa-glenunga-222222", address: "2 B St, Glenunga", sold: true, soldDate: "2026-11-16", soldPriceText: null },
+    { url: "https://www.realestate.com.au/sold/property-house-sa-glenunga-333333", address: "3 C St, Glenunga", sold: true, soldDate: "2026-11-10", soldPriceText: "$1.2m" },
+  ];
+  const r = mergeImport(list, items, "2026-11-24");
+  assert.deepEqual([r.added, r.updated, r.sold], [1, 2, 3]);
+  assert.deepEqual([r.list[0].priceText, r.list[0].sold, r.list[0].soldPriceText], ["$1.7m", true, "$1,850,000"]);
+  assert.deepEqual([r.list[1].priceText, r.list[1].sold, r.list[1].via], ["$2m", true, undefined]);
+  assert.deepEqual([r.list[2].priceText, r.list[2].soldDate], [null, "2026-11-10"]);
+});

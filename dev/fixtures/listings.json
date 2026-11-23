@@ -1,806 +1,906 @@
 {
- "_note": "SAMPLE DATA for development. Addresses, agents and prices are invented.",
- "generatedAt": "2026-11-23T05:00:00Z",
- "source": "sample",
- "listings": [
-  {
-   "id": "2019876543",
-   "url": "https://www.domain.com.au/sample-listing-2019876543",
-   "headline": "Character bluestone villa on a tree-lined street",
-   "address": "14 Hewitt Avenue, Linden Park SA 5065",
-   "suburb": "Linden Park",
-   "postcode": "5065",
-   "lat": -34.9458,
-   "lng": 138.6442,
-   "propertyType": "House",
-   "bedrooms": 4,
-   "bathrooms": 2,
-   "carspaces": 2,
-   "landArea": 790,
-   "priceText": "$1.85m - $1.95m",
-   "priceLow": 1850000,
-   "priceHigh": 1950000,
-   "saleMethod": "privateTreaty",
-   "photos": [
-    "https://picsum.photos/seed/hha0/960/640",
-    "https://picsum.photos/seed/hha1/960/640",
-    "https://picsum.photos/seed/hha2/960/640",
-    "https://picsum.photos/seed/hha3/960/640",
-    "https://picsum.photos/seed/hha4/960/640"
-   ],
-   "description": "Set behind a mature hedge on one of Linden Park's quietest streets, this c.1910 bluestone villa pairs original character with a sympathetic rear extension completed in 2016. Four generous bedrooms, two bathrooms, a formal sitting room with open fireplace and a north-facing open-plan living area opening to a wide verandah and established garden. Ducted reverse-cycle, 6.6kW solar, double garage with rear access. Walk to Linden Park Primary and the Burnside Village shops.",
-   "features": [
-    "Ducted reverse-cycle air",
-    "Open fireplace",
-    "6.6kW solar",
-    "Double garage",
-    "North-facing rear",
-    "Established garden"
-   ],
-   "dateListed": "2026-10-30",
-   "daysOnMarket": 24,
-   "firstSeen": "2026-11-01",
-   "priceHistory": [
+  "_note": "SAMPLE DATA for development. Addresses, agents and prices are invented.",
+  "generatedAt": "2026-11-23T05:00:00Z",
+  "source": "sample",
+  "listings": [
     {
-     "date": "2026-11-01",
-     "priceText": "$1.95m - $2.05m",
-     "priceLow": 1950000,
-     "priceHigh": 2050000
+      "id": "2019876543",
+      "url": "https://www.domain.com.au/sample-listing-2019876543",
+      "headline": "Character bluestone villa on a tree-lined street",
+      "address": "14 Hewitt Avenue, Linden Park SA 5065",
+      "suburb": "Linden Park",
+      "postcode": "5065",
+      "lat": -34.9458,
+      "lng": 138.6442,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "carspaces": 2,
+      "landArea": 790,
+      "priceText": "$1.85m - $1.95m",
+      "priceLow": 1850000,
+      "priceHigh": 1950000,
+      "saleMethod": "privateTreaty",
+      "photos": [
+        "https://picsum.photos/seed/hha0/960/640",
+        "https://picsum.photos/seed/hha1/960/640",
+        "https://picsum.photos/seed/hha2/960/640",
+        "https://picsum.photos/seed/hha3/960/640",
+        "https://picsum.photos/seed/hha4/960/640"
+      ],
+      "description": "Set behind a mature hedge on one of Linden Park's quietest streets, this c.1910 bluestone villa pairs original character with a sympathetic rear extension completed in 2016. Four generous bedrooms, two bathrooms, a formal sitting room with open fireplace and a north-facing open-plan living area opening to a wide verandah and established garden. Ducted reverse-cycle, 6.6kW solar, double garage with rear access. Walk to Linden Park Primary and the Burnside Village shops.",
+      "features": [
+        "Ducted reverse-cycle air",
+        "Open fireplace",
+        "6.6kW solar",
+        "Double garage",
+        "North-facing rear",
+        "Established garden"
+      ],
+      "dateListed": "2026-10-30",
+      "daysOnMarket": 24,
+      "firstSeen": "2026-11-01",
+      "priceHistory": [
+        {
+          "date": "2026-11-01",
+          "priceText": "$1.95m - $2.05m",
+          "priceLow": 1950000,
+          "priceHigh": 2050000
+        },
+        {
+          "date": "2026-11-15",
+          "priceText": "$1.85m - $1.95m",
+          "priceLow": 1850000,
+          "priceHigh": 1950000
+        }
+      ],
+      "salesHistory": [
+        {
+          "date": "2009-04-18",
+          "price": 880000
+        },
+        {
+          "date": "2016-11-05",
+          "price": 1410000
+        }
+      ],
+      "inspections": [
+        {
+          "start": "2026-11-29T10:00:00+10:30",
+          "end": "2026-11-29T10:30:00+10:30"
+        },
+        {
+          "start": "2026-12-02T17:30:00+10:30",
+          "end": "2026-12-02T18:00:00+10:30"
+        }
+      ],
+      "agents": [
+        {
+          "name": "Sample Agent (Priya)",
+          "phone": "0400 000 001",
+          "email": "priya@sample-realty.example",
+          "agency": "Sample Realty Burnside",
+          "photo": null
+        },
+        {
+          "name": "Sample Agent (Tom)",
+          "phone": "0400 000 002",
+          "email": "tom@sample-realty.example",
+          "agency": "Sample Realty Burnside",
+          "photo": null
+        }
+      ],
+      "ai": {
+        "summary": "A well-kept period home with a modern rear on a full-size block in the heart of the zone. The vendor has already trimmed the guide once, which suggests limited buyer depth at the original price.",
+        "pros": [
+          "Both school zones",
+          "790 m\u00b2 with rear lane access",
+          "Extension done, little to do"
+        ],
+        "cons": [
+          "Original bathrooms are dated",
+          "Street has some commuter traffic in the morning",
+          "Price guide still above recent comparable sales"
+        ],
+        "fairValueLow": 1780000,
+        "fairValueHigh": 1900000,
+        "verdict": "Worth inspecting",
+        "model": "openai/gpt-4.1-mini",
+        "generatedAt": "2026-11-22T20:10:00Z"
+      },
+      "buildingArea": null,
+      "auctionDate": null,
+      "status": "active",
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ]
     },
     {
-     "date": "2026-11-15",
-     "priceText": "$1.85m - $1.95m",
-     "priceLow": 1850000,
-     "priceHigh": 1950000
-    }
-   ],
-   "salesHistory": [
-    {
-     "date": "2009-04-18",
-     "price": 880000
+      "id": "2019877110",
+      "url": "https://www.domain.com.au/sample-listing-2019877110",
+      "headline": "Low-maintenance townhouse minutes from Tusmore Park",
+      "address": "3/22 Stirling Street, Tusmore SA 5065",
+      "suburb": "Tusmore",
+      "postcode": "5065",
+      "lat": -34.9405,
+      "lng": 138.649,
+      "propertyType": "Townhouse",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "carspaces": 1,
+      "landArea": 310,
+      "priceText": "$1.1m - $1.2m",
+      "priceLow": 1100000,
+      "priceHigh": 1200000,
+      "saleMethod": "auction",
+      "auctionDate": "2026-12-06T11:00:00+10:30",
+      "photos": [
+        "https://picsum.photos/seed/hhb0/960/640",
+        "https://picsum.photos/seed/hhb1/960/640",
+        "https://picsum.photos/seed/hhb2/960/640"
+      ],
+      "description": "One of three in a boutique group, this two-storey townhouse offers three bedrooms upstairs, a ground-floor open-plan living zone and a private paved courtyard. Stone benchtops, gas cooking, split-system air to living and main bedroom, single garage with internal access. Ideal lock-up-and-leave within walking distance of Tusmore Park and the Burnside Village precinct.",
+      "features": [
+        "Stone benchtops",
+        "Split-system air",
+        "Internal garage access",
+        "Courtyard"
+      ],
+      "dateListed": "2026-11-08",
+      "daysOnMarket": 15,
+      "firstSeen": "2026-11-08",
+      "priceHistory": [
+        {
+          "date": "2026-11-08",
+          "priceText": "$1.1m - $1.2m",
+          "priceLow": 1100000,
+          "priceHigh": 1200000
+        }
+      ],
+      "salesHistory": [
+        {
+          "date": "2018-09-22",
+          "price": 760000
+        }
+      ],
+      "inspections": [
+        {
+          "start": "2026-11-28T11:00:00+10:30",
+          "end": "2026-11-28T11:30:00+10:30"
+        }
+      ],
+      "agents": [
+        {
+          "name": "Sample Agent (Mei)",
+          "phone": "0400 000 003",
+          "email": "mei@sample-eastside.example",
+          "agency": "Sample Eastside Property",
+          "photo": null
+        }
+      ],
+      "ai": {
+        "summary": "A tidy townhouse that will suit downsizers and small families; land is small but the location is strong. Auction with a realistic guide given the recent run of townhouse results in Tusmore.",
+        "pros": [
+          "Walkable to shops and park",
+          "Nothing to spend"
+        ],
+        "cons": [
+          "310 m\u00b2 of land",
+          "Single garage",
+          "Body corporate fees"
+        ],
+        "fairValueLow": 1120000,
+        "fairValueHigh": 1210000,
+        "verdict": "Fair",
+        "model": "openai/gpt-4.1-mini",
+        "generatedAt": "2026-11-22T20:10:00Z"
+      },
+      "buildingArea": null,
+      "status": "active",
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ]
     },
     {
-     "date": "2016-11-05",
-     "price": 1410000
-    }
-   ],
-   "inspections": [
-    {
-     "start": "2026-11-29T10:00:00+10:30",
-     "end": "2026-11-29T10:30:00+10:30"
+      "id": "2019880451",
+      "url": "https://www.domain.com.au/sample-listing-2019880451",
+      "headline": "Ground-floor unit with a private north courtyard",
+      "address": "2/5 Devereux Road, Hazelwood Park SA 5066",
+      "suburb": "Hazelwood Park",
+      "postcode": "5066",
+      "lat": -34.9455,
+      "lng": 138.659,
+      "propertyType": "Unit",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "carspaces": 1,
+      "landArea": null,
+      "priceText": "$620,000 - $660,000",
+      "priceLow": 620000,
+      "priceHigh": 660000,
+      "saleMethod": "privateTreaty",
+      "photos": [
+        "https://picsum.photos/seed/hhc0/960/640",
+        "https://picsum.photos/seed/hhc1/960/640",
+        "https://picsum.photos/seed/hhc2/960/640",
+        "https://picsum.photos/seed/hhc3/960/640"
+      ],
+      "description": "Light-filled ground-floor unit in a small, well-kept group of six. Two double bedrooms with built-in robes, updated kitchen with dishwasher, renovated bathroom, and a north-facing courtyard that catches winter sun. Carport plus visitor parking. Hazelwood Park and the Burnside swimming centre are at the end of the street.",
+      "features": [
+        "Built-in robes",
+        "Renovated bathroom",
+        "Carport",
+        "North courtyard"
+      ],
+      "dateListed": "2026-11-18",
+      "daysOnMarket": 5,
+      "firstSeen": "2026-11-18",
+      "priceHistory": [
+        {
+          "date": "2026-11-18",
+          "priceText": "$620,000 - $660,000",
+          "priceLow": 620000,
+          "priceHigh": 660000
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [
+        {
+          "start": "2026-11-29T12:00:00+10:30",
+          "end": "2026-11-29T12:30:00+10:30"
+        }
+      ],
+      "agents": [
+        {
+          "name": "Sample Agent (Priya)",
+          "phone": "0400 000 001",
+          "email": "priya@sample-realty.example",
+          "agency": "Sample Realty Burnside",
+          "photo": null
+        }
+      ],
+      "ai": {
+        "summary": "Priced under the suburb's unit median with recent renovations and a rare north-facing courtyard. Small group keeps strata costs modest.",
+        "pros": [
+          "Under median for the suburb",
+          "Ground floor with courtyard",
+          "Low strata"
+        ],
+        "cons": [
+          "One bathroom",
+          "Carport only"
+        ],
+        "fairValueLow": 640000,
+        "fairValueHigh": 690000,
+        "verdict": "Strong value",
+        "model": "openai/gpt-4.1-mini",
+        "generatedAt": "2026-11-22T20:10:00Z"
+      },
+      "buildingArea": null,
+      "auctionDate": null,
+      "status": "active",
+      "zones": [
+        "Linden Park Primary School",
+        "Burnside Primary School",
+        "Glenunga International High School"
+      ]
     },
     {
-     "start": "2026-12-02T17:30:00+10:30",
-     "end": "2026-12-02T18:00:00+10:30"
-    }
-   ],
-   "agents": [
-    {
-     "name": "Sample Agent (Priya)",
-     "phone": "0400 000 001",
-     "email": "priya@sample-realty.example",
-     "agency": "Sample Realty Burnside",
-     "photo": null
+      "id": "2019882209",
+      "url": "https://www.domain.com.au/sample-listing-2019882209",
+      "headline": "Mid-century home on a generous allotment with scope to extend, renovate or rebuild (STCC)",
+      "address": "41 Lockwood Road, Burnside SA 5066",
+      "suburb": "Burnside",
+      "postcode": "5066",
+      "lat": -34.9395,
+      "lng": 138.6578,
+      "propertyType": "House",
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "carspaces": 2,
+      "landArea": 1010,
+      "priceText": "Contact agent",
+      "priceLow": null,
+      "priceHigh": null,
+      "saleMethod": "eoi",
+      "photos": [
+        "https://picsum.photos/seed/hhd0/960/640",
+        "https://picsum.photos/seed/hhd1/960/640"
+      ],
+      "description": "Offered for the first time in 25 years, this solid 1960s brick home sits on 1,010 m\u00b2 with a 20 m frontage. Three bedrooms, one bathroom, separate lounge and dining, large rear garden with mature fruit trees. Live in, extend or start again (subject to council consent). Expressions of interest closing Tuesday 9 December at 5pm.",
+      "features": [
+        "1,010 m\u00b2 allotment",
+        "20 m frontage",
+        "Fruit trees",
+        "Double carport"
+      ],
+      "dateListed": "2026-11-12",
+      "daysOnMarket": 11,
+      "firstSeen": "2026-11-12",
+      "priceHistory": [
+        {
+          "date": "2026-11-12",
+          "priceText": "Contact agent",
+          "priceLow": null,
+          "priceHigh": null
+        }
+      ],
+      "salesHistory": [
+        {
+          "date": "2001-06-30",
+          "price": 395000
+        }
+      ],
+      "agents": [
+        {
+          "name": "Sample Agent (Tom)",
+          "phone": "0400 000 002",
+          "email": "tom@sample-realty.example",
+          "agency": "Sample Realty Burnside",
+          "photo": null
+        }
+      ],
+      "ai": null,
+      "buildingArea": null,
+      "auctionDate": null,
+      "inspections": [],
+      "status": "active",
+      "zones": [
+        "Linden Park Primary School",
+        "Burnside Primary School",
+        "Glenunga International High School"
+      ]
     },
     {
-     "name": "Sample Agent (Tom)",
-     "phone": "0400 000 002",
-     "email": "tom@sample-realty.example",
-     "agency": "Sample Realty Burnside",
-     "photo": null
-    }
-   ],
-   "ai": {
-    "summary": "A well-kept period home with a modern rear on a full-size block in the heart of the zone. The vendor has already trimmed the guide once, which suggests limited buyer depth at the original price.",
-    "pros": [
-     "Both school zones",
-     "790 m² with rear lane access",
-     "Extension done, little to do"
-    ],
-    "cons": [
-     "Original bathrooms are dated",
-     "Street has some commuter traffic in the morning",
-     "Price guide still above recent comparable sales"
-    ],
-    "fairValueLow": 1780000,
-    "fairValueHigh": 1900000,
-    "verdict": "Worth inspecting",
-    "model": "openai/gpt-4.1-mini",
-    "generatedAt": "2026-11-22T20:10:00Z"
-   },
-   "buildingArea": null,
-   "auctionDate": null,
-   "status": "active",
-   "zones": [
-    "Linden Park Primary School",
-    "Glenunga International High School"
-   ]
-  },
-  {
-   "id": "2019877110",
-   "url": "https://www.domain.com.au/sample-listing-2019877110",
-   "headline": "Low-maintenance townhouse minutes from Tusmore Park",
-   "address": "3/22 Stirling Street, Tusmore SA 5065",
-   "suburb": "Tusmore",
-   "postcode": "5065",
-   "lat": -34.9405,
-   "lng": 138.649,
-   "propertyType": "Townhouse",
-   "bedrooms": 3,
-   "bathrooms": 2,
-   "carspaces": 1,
-   "landArea": 310,
-   "priceText": "$1.1m - $1.2m",
-   "priceLow": 1100000,
-   "priceHigh": 1200000,
-   "saleMethod": "auction",
-   "auctionDate": "2026-12-06T11:00:00+10:30",
-   "photos": [
-    "https://picsum.photos/seed/hhb0/960/640",
-    "https://picsum.photos/seed/hhb1/960/640",
-    "https://picsum.photos/seed/hhb2/960/640"
-   ],
-   "description": "One of three in a boutique group, this two-storey townhouse offers three bedrooms upstairs, a ground-floor open-plan living zone and a private paved courtyard. Stone benchtops, gas cooking, split-system air to living and main bedroom, single garage with internal access. Ideal lock-up-and-leave within walking distance of Tusmore Park and the Burnside Village precinct.",
-   "features": [
-    "Stone benchtops",
-    "Split-system air",
-    "Internal garage access",
-    "Courtyard"
-   ],
-   "dateListed": "2026-11-08",
-   "daysOnMarket": 15,
-   "firstSeen": "2026-11-08",
-   "priceHistory": [
-    {
-     "date": "2026-11-08",
-     "priceText": "$1.1m - $1.2m",
-     "priceLow": 1100000,
-     "priceHigh": 1200000
-    }
-   ],
-   "salesHistory": [
-    {
-     "date": "2018-09-22",
-     "price": 760000
-    }
-   ],
-   "inspections": [
-    {
-     "start": "2026-11-28T11:00:00+10:30",
-     "end": "2026-11-28T11:30:00+10:30"
-    }
-   ],
-   "agents": [
-    {
-     "name": "Sample Agent (Mei)",
-     "phone": "0400 000 003",
-     "email": "mei@sample-eastside.example",
-     "agency": "Sample Eastside Property",
-     "photo": null
-    }
-   ],
-   "ai": {
-    "summary": "A tidy townhouse that will suit downsizers and small families; land is small but the location is strong. Auction with a realistic guide given the recent run of townhouse results in Tusmore.",
-    "pros": [
-     "Walkable to shops and park",
-     "Nothing to spend"
-    ],
-    "cons": [
-     "310 m² of land",
-     "Single garage",
-     "Body corporate fees"
-    ],
-    "fairValueLow": 1120000,
-    "fairValueHigh": 1210000,
-    "verdict": "Fair",
-    "model": "openai/gpt-4.1-mini",
-    "generatedAt": "2026-11-22T20:10:00Z"
-   },
-   "buildingArea": null,
-   "status": "active",
-   "zones": [
-    "Linden Park Primary School",
-    "Glenunga International High School"
-   ]
-  },
-  {
-   "id": "2019880451",
-   "url": "https://www.domain.com.au/sample-listing-2019880451",
-   "headline": "Ground-floor unit with a private north courtyard",
-   "address": "2/5 Devereux Road, Hazelwood Park SA 5066",
-   "suburb": "Hazelwood Park",
-   "postcode": "5066",
-   "lat": -34.9455,
-   "lng": 138.659,
-   "propertyType": "Unit",
-   "bedrooms": 2,
-   "bathrooms": 1,
-   "carspaces": 1,
-   "landArea": null,
-   "priceText": "$620,000 - $660,000",
-   "priceLow": 620000,
-   "priceHigh": 660000,
-   "saleMethod": "privateTreaty",
-   "photos": [
-    "https://picsum.photos/seed/hhc0/960/640",
-    "https://picsum.photos/seed/hhc1/960/640",
-    "https://picsum.photos/seed/hhc2/960/640",
-    "https://picsum.photos/seed/hhc3/960/640"
-   ],
-   "description": "Light-filled ground-floor unit in a small, well-kept group of six. Two double bedrooms with built-in robes, updated kitchen with dishwasher, renovated bathroom, and a north-facing courtyard that catches winter sun. Carport plus visitor parking. Hazelwood Park and the Burnside swimming centre are at the end of the street.",
-   "features": [
-    "Built-in robes",
-    "Renovated bathroom",
-    "Carport",
-    "North courtyard"
-   ],
-   "dateListed": "2026-11-18",
-   "daysOnMarket": 5,
-   "firstSeen": "2026-11-18",
-   "priceHistory": [
-    {
-     "date": "2026-11-18",
-     "priceText": "$620,000 - $660,000",
-     "priceLow": 620000,
-     "priceHigh": 660000
-    }
-   ],
-   "salesHistory": [],
-   "inspections": [
-    {
-     "start": "2026-11-29T12:00:00+10:30",
-     "end": "2026-11-29T12:30:00+10:30"
-    }
-   ],
-   "agents": [
-    {
-     "name": "Sample Agent (Priya)",
-     "phone": "0400 000 001",
-     "email": "priya@sample-realty.example",
-     "agency": "Sample Realty Burnside",
-     "photo": null
-    }
-   ],
-   "ai": {
-    "summary": "Priced under the suburb's unit median with recent renovations and a rare north-facing courtyard. Small group keeps strata costs modest.",
-    "pros": [
-     "Under median for the suburb",
-     "Ground floor with courtyard",
-     "Low strata"
-    ],
-    "cons": [
-     "One bathroom",
-     "Carport only"
-    ],
-    "fairValueLow": 640000,
-    "fairValueHigh": 690000,
-    "verdict": "Strong value",
-    "model": "openai/gpt-4.1-mini",
-    "generatedAt": "2026-11-22T20:10:00Z"
-   },
-   "buildingArea": null,
-   "auctionDate": null,
-   "status": "active",
-   "zones": [
-    "Linden Park Primary School",
-    "Burnside Primary School",
-    "Glenunga International High School"
-   ]
-  },
-  {
-   "id": "2019882209",
-   "url": "https://www.domain.com.au/sample-listing-2019882209",
-   "headline": "Mid-century home on a generous allotment with scope to extend, renovate or rebuild (STCC)",
-   "address": "41 Lockwood Road, Burnside SA 5066",
-   "suburb": "Burnside",
-   "postcode": "5066",
-   "lat": -34.9395,
-   "lng": 138.6578,
-   "propertyType": "House",
-   "bedrooms": 3,
-   "bathrooms": 1,
-   "carspaces": 2,
-   "landArea": 1010,
-   "priceText": "Contact agent",
-   "priceLow": null,
-   "priceHigh": null,
-   "saleMethod": "eoi",
-   "photos": [
-    "https://picsum.photos/seed/hhd0/960/640",
-    "https://picsum.photos/seed/hhd1/960/640"
-   ],
-   "description": "Offered for the first time in 25 years, this solid 1960s brick home sits on 1,010 m² with a 20 m frontage. Three bedrooms, one bathroom, separate lounge and dining, large rear garden with mature fruit trees. Live in, extend or start again (subject to council consent). Expressions of interest closing Tuesday 9 December at 5pm.",
-   "features": [
-    "1,010 m² allotment",
-    "20 m frontage",
-    "Fruit trees",
-    "Double carport"
-   ],
-   "dateListed": "2026-11-12",
-   "daysOnMarket": 11,
-   "firstSeen": "2026-11-12",
-   "priceHistory": [
-    {
-     "date": "2026-11-12",
-     "priceText": "Contact agent",
-     "priceLow": null,
-     "priceHigh": null
-    }
-   ],
-   "salesHistory": [
-    {
-     "date": "2001-06-30",
-     "price": 395000
-    }
-   ],
-   "agents": [
-    {
-     "name": "Sample Agent (Tom)",
-     "phone": "0400 000 002",
-     "email": "tom@sample-realty.example",
-     "agency": "Sample Realty Burnside",
-     "photo": null
-    }
-   ],
-   "ai": null,
-   "buildingArea": null,
-   "auctionDate": null,
-   "inspections": [],
-   "status": "active",
-   "zones": [
-    "Linden Park Primary School",
-    "Burnside Primary School",
-    "Glenunga International High School"
-   ]
-  },
-  {
-   "id": "2019884870",
-   "url": "https://www.domain.com.au/sample-listing-2019884870",
-   "headline": "Elevated contemporary home with city views",
-   "address": "18 Yarrabee Road, Glen Osmond SA 5064",
-   "suburb": "Glen Osmond",
-   "postcode": "5064",
-   "lat": -34.957,
-   "lng": 138.6505,
-   "propertyType": "House",
-   "bedrooms": 5,
-   "bathrooms": 3,
-   "carspaces": 2,
-   "landArea": 850,
-   "priceText": "$2.4m - $2.6m",
-   "priceLow": 2400000,
-   "priceHigh": 2600000,
-   "saleMethod": "privateTreaty",
-   "photos": [
-    "https://picsum.photos/seed/hhe0/960/640",
-    "https://picsum.photos/seed/hhe1/960/640",
-    "https://picsum.photos/seed/hhe2/960/640",
-    "https://picsum.photos/seed/hhe3/960/640",
-    "https://picsum.photos/seed/hhe4/960/640",
-    "https://picsum.photos/seed/hhe5/960/640"
-   ],
-   "description": "Architect-designed in 2014 and finished to a high standard, this two-level home captures sweeping views across the city to the coast. Five bedrooms including a ground-floor guest suite, three bathrooms, a home office, a 10 m lap pool, and a double garage with workshop. Ducted zoned air, hydronic heating, automated irrigation.",
-   "features": [
-    "City views",
-    "Lap pool",
-    "Home office",
-    "Hydronic heating",
-    "Ducted zoned air",
-    "Workshop"
-   ],
-   "dateListed": "2026-09-20",
-   "daysOnMarket": 64,
-   "firstSeen": "2026-11-01",
-   "priceHistory": [
-    {
-     "date": "2026-11-01",
-     "priceText": "$2.4m - $2.6m",
-     "priceLow": 2400000,
-     "priceHigh": 2600000
-    }
-   ],
-   "salesHistory": [
-    {
-     "date": "2013-02-14",
-     "price": 1250000
-    }
-   ],
-   "agents": [
-    {
-     "name": "Sample Agent (Mei)",
-     "phone": "0400 000 003",
-     "email": "mei@sample-eastside.example",
-     "agency": "Sample Eastside Property",
-     "photo": null
-    }
-   ],
-   "status": "underOffer",
-   "ai": {
-    "summary": "Impressive house but the guide sits well above the suburb's upper quartile and the home has lingered for two months. Now under offer, so likely transacting near the lower end of the guide.",
-    "pros": [
-     "Views",
-     "Pool and office",
-     "Recent build"
-    ],
-    "cons": [
-     "Steep driveway",
-     "Above comparable sales",
-     "64 days on market"
-    ],
-    "fairValueLow": 2200000,
-    "fairValueHigh": 2350000,
-    "verdict": "Overpriced",
-    "model": "openai/gpt-4.1-mini",
-    "generatedAt": "2026-11-22T20:10:00Z"
-   },
-   "buildingArea": null,
-   "auctionDate": null,
-   "inspections": [],
-   "zones": [
-    "Linden Park Primary School",
-    "Glen Osmond Primary School",
-    "Glenunga International High School"
-   ]
-  },
-  {
-   "id": "2019870001",
-   "url": "https://www.domain.com.au/sample-listing-2019870001",
-   "headline": "Classic sandstone-fronted home with a north-facing rear garden",
-   "address": "9 Cooper Place, Beaumont SA 5066",
-   "suburb": "Beaumont",
-   "postcode": "5066",
-   "lat": -34.949,
-   "lng": 138.656,
-   "propertyType": "House",
-   "bedrooms": 4,
-   "bathrooms": 2,
-   "carspaces": 2,
-   "landArea": 700,
-   "priceText": "$1.65m - $1.75m",
-   "priceLow": 1650000,
-   "priceHigh": 1750000,
-   "saleMethod": "privateTreaty",
-   "photos": [
-    "https://picsum.photos/seed/hhf0/960/640",
-    "https://picsum.photos/seed/hhf1/960/640",
-    "https://picsum.photos/seed/hhf2/960/640"
-   ],
-   "description": "Sandstone-fronted 1920s bungalow with high ceilings, polished boards and a well-planned 2008 extension. Four bedrooms, two bathrooms, open-plan living to a north-facing deck and lawn. Double carport. Close to Beaumont and Hazelwood Park reserves.",
-   "features": [
-    "Polished floorboards",
-    "High ceilings",
-    "North-facing deck",
-    "Double carport"
-   ],
-   "dateListed": "2026-10-05",
-   "daysOnMarket": 49,
-   "firstSeen": "2026-11-01",
-   "priceHistory": [
-    {
-     "date": "2026-11-01",
-     "priceText": "$1.65m - $1.75m",
-     "priceLow": 1650000,
-     "priceHigh": 1750000
-    }
-   ],
-   "salesHistory": [
-    {
-     "date": "2007-11-10",
-     "price": 640000
-    }
-   ],
-   "agents": [
-    {
-     "name": "Sample Agent (Priya)",
-     "phone": "0400 000 001",
-     "email": "priya@sample-realty.example",
-     "agency": "Sample Realty Burnside",
-     "photo": null
-    }
-   ],
-   "status": "removed",
-   "ai": {
-    "summary": "Fairly priced family home that has now been withdrawn or sold. Kept here for reference against similar stock.",
-    "pros": [
-     "North-facing rear",
-     "Good extension"
-    ],
-    "cons": [
-     "Carport rather than garage",
-     "Busy corner"
-    ],
-    "fairValueLow": 1620000,
-    "fairValueHigh": 1720000,
-    "verdict": "Fair",
-    "model": "openai/gpt-4.1-mini",
-    "generatedAt": "2026-11-22T20:10:00Z"
-   },
-   "buildingArea": null,
-   "auctionDate": null,
-   "inspections": [],
-   "zones": [
-    "Linden Park Primary School",
-    "Burnside Primary School",
-    "Glenunga International High School"
-   ]
-  },
-  {
-   "id": "2019890330",
-   "url": "https://www.domain.com.au/sample-listing-2019890330",
-   "headline": "Sandstone villa, lovingly restored",
-   "address": "26 Kennaway Street, Tusmore SA 5065",
-   "suburb": "Tusmore",
-   "postcode": "5065",
-   "lat": -34.9415,
-   "lng": 138.6525,
-   "propertyType": "Villa",
-   "bedrooms": 3,
-   "bathrooms": 2,
-   "carspaces": 1,
-   "landArea": 560,
-   "priceText": "$1.55m",
-   "priceLow": 1550000,
-   "priceHigh": 1550000,
-   "saleMethod": "privateTreaty",
-   "photos": [],
-   "description": "Fully restored return-verandah villa with three bedrooms, two bathrooms and a light-filled rear living room. Leadlight, ornate ceilings, original fireplaces, new kitchen in 2023. Secure off-street parking for one car plus a studio at the rear.",
-   "features": [
-    "Return verandah",
-    "Leadlight",
-    "New kitchen 2023",
-    "Studio"
-   ],
-   "dateListed": "2026-11-15",
-   "daysOnMarket": 8,
-   "firstSeen": "2026-11-15",
-   "priceHistory": [
-    {
-     "date": "2026-11-15",
-     "priceText": "$1.55m",
-     "priceLow": 1550000,
-     "priceHigh": 1550000
-    }
-   ],
-   "salesHistory": [
-    {
-     "date": "2012-10-12",
-     "price": 905000
+      "id": "2019884870",
+      "url": "https://www.domain.com.au/sample-listing-2019884870",
+      "headline": "Elevated contemporary home with city views",
+      "address": "18 Yarrabee Road, Glen Osmond SA 5064",
+      "suburb": "Glen Osmond",
+      "postcode": "5064",
+      "lat": -34.957,
+      "lng": 138.6505,
+      "propertyType": "House",
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "carspaces": 2,
+      "landArea": 850,
+      "priceText": "$2.4m - $2.6m",
+      "priceLow": 2400000,
+      "priceHigh": 2600000,
+      "saleMethod": "privateTreaty",
+      "photos": [
+        "https://picsum.photos/seed/hhe0/960/640",
+        "https://picsum.photos/seed/hhe1/960/640",
+        "https://picsum.photos/seed/hhe2/960/640",
+        "https://picsum.photos/seed/hhe3/960/640",
+        "https://picsum.photos/seed/hhe4/960/640",
+        "https://picsum.photos/seed/hhe5/960/640"
+      ],
+      "description": "Architect-designed in 2014 and finished to a high standard, this two-level home captures sweeping views across the city to the coast. Five bedrooms including a ground-floor guest suite, three bathrooms, a home office, a 10 m lap pool, and a double garage with workshop. Ducted zoned air, hydronic heating, automated irrigation.",
+      "features": [
+        "City views",
+        "Lap pool",
+        "Home office",
+        "Hydronic heating",
+        "Ducted zoned air",
+        "Workshop"
+      ],
+      "dateListed": "2026-09-20",
+      "daysOnMarket": 64,
+      "firstSeen": "2026-11-01",
+      "priceHistory": [
+        {
+          "date": "2026-11-01",
+          "priceText": "$2.4m - $2.6m",
+          "priceLow": 2400000,
+          "priceHigh": 2600000
+        }
+      ],
+      "salesHistory": [
+        {
+          "date": "2013-02-14",
+          "price": 1250000
+        }
+      ],
+      "agents": [
+        {
+          "name": "Sample Agent (Mei)",
+          "phone": "0400 000 003",
+          "email": "mei@sample-eastside.example",
+          "agency": "Sample Eastside Property",
+          "photo": null
+        }
+      ],
+      "status": "underOffer",
+      "ai": {
+        "summary": "Impressive house but the guide sits well above the suburb's upper quartile and the home has lingered for two months. Now under offer, so likely transacting near the lower end of the guide.",
+        "pros": [
+          "Views",
+          "Pool and office",
+          "Recent build"
+        ],
+        "cons": [
+          "Steep driveway",
+          "Above comparable sales",
+          "64 days on market"
+        ],
+        "fairValueLow": 2200000,
+        "fairValueHigh": 2350000,
+        "verdict": "Overpriced",
+        "model": "openai/gpt-4.1-mini",
+        "generatedAt": "2026-11-22T20:10:00Z"
+      },
+      "buildingArea": null,
+      "auctionDate": null,
+      "inspections": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glen Osmond Primary School",
+        "Glenunga International High School"
+      ]
     },
     {
-     "date": "2019-03-30",
-     "price": 1280000
-    }
-   ],
-   "inspections": [
-    {
-     "start": "2026-11-29T13:00:00+10:30",
-     "end": "2026-11-29T13:30:00+10:30"
-    }
-   ],
-   "agents": [
-    {
-     "name": "Sample Agent (Tom)",
-     "phone": "0400 000 002",
-     "email": "tom@sample-realty.example",
-     "agency": "Sample Realty Burnside",
-     "photo": null
-    }
-   ],
-   "ai": {
-    "summary": "A charming, finished villa at a fixed price just under the suburb median. The single car space and smaller block are the trade-offs.",
-    "pros": [
-     "Nothing to do",
-     "Fixed price, no auction",
-     "Studio for work-from-home"
-    ],
-    "cons": [
-     "One car space",
-     "560 m²"
-    ],
-    "fairValueLow": 1500000,
-    "fairValueHigh": 1600000,
-    "verdict": "Worth inspecting",
-    "model": "openai/gpt-4.1-mini",
-    "generatedAt": "2026-11-22T20:10:00Z"
-   },
-   "buildingArea": null,
-   "auctionDate": null,
-   "status": "active",
-   "zones": [
-    "Linden Park Primary School",
-    "Burnside Primary School",
-    "Glenunga International High School"
-   ]
-  },
-  {
-   "id": "2019893377",
-   "url": "https://www.domain.com.au/sample-listing-2019893377",
-   "headline": "Brand-new double-storey home in Beaumont",
-   "address": "5 Sunnyside Road, Beaumont SA 5066",
-   "suburb": "Beaumont",
-   "postcode": "5066",
-   "lat": -34.9478,
-   "lng": 138.6648,
-   "propertyType": "House",
-   "bedrooms": 4,
-   "bathrooms": 3,
-   "carspaces": 2,
-   "landArea": 450,
-   "priceText": "$2.1m - $2.25m",
-   "priceLow": 2100000,
-   "priceHigh": 2250000,
-   "saleMethod": "auction",
-   "auctionDate": "2026-12-13T10:30:00+10:30",
-   "photos": [
-    "https://picsum.photos/seed/hhg0/960/640",
-    "https://picsum.photos/seed/hhg1/960/640",
-    "https://picsum.photos/seed/hhg2/960/640",
-    "https://picsum.photos/seed/hhg3/960/640"
-   ],
-   "description": "Completed in 2026 by a boutique builder, this four-bedroom, three-bathroom home offers two living areas, a butler's pantry, a ground-floor guest bedroom, 7-star energy rating with 10kW solar and a battery, and a double garage. Low-maintenance landscaped garden with an alfresco kitchen.",
-   "features": [
-    "New build 2026",
-    "10kW solar + battery",
-    "Butler's pantry",
-    "Alfresco kitchen",
-    "Two living areas"
-   ],
-   "dateListed": "2026-11-20",
-   "daysOnMarket": 3,
-   "firstSeen": "2026-11-20",
-   "priceHistory": [
-    {
-     "date": "2026-11-20",
-     "priceText": "$2.1m - $2.25m",
-     "priceLow": 2100000,
-     "priceHigh": 2250000
-    }
-   ],
-   "salesHistory": [
-    {
-     "date": "2024-05-18",
-     "price": 980000
-    }
-   ],
-   "inspections": [
-    {
-     "start": "2026-11-28T10:00:00+10:30",
-     "end": "2026-11-28T10:30:00+10:30"
+      "id": "2019870001",
+      "url": "https://www.domain.com.au/sample-listing-2019870001",
+      "headline": "Classic sandstone-fronted home with a north-facing rear garden",
+      "address": "9 Cooper Place, Beaumont SA 5066",
+      "suburb": "Beaumont",
+      "postcode": "5066",
+      "lat": -34.949,
+      "lng": 138.656,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "carspaces": 2,
+      "landArea": 700,
+      "priceText": "$1.65m - $1.75m",
+      "priceLow": 1650000,
+      "priceHigh": 1750000,
+      "saleMethod": "privateTreaty",
+      "photos": [
+        "https://picsum.photos/seed/hhf0/960/640",
+        "https://picsum.photos/seed/hhf1/960/640",
+        "https://picsum.photos/seed/hhf2/960/640"
+      ],
+      "description": "Sandstone-fronted 1920s bungalow with high ceilings, polished boards and a well-planned 2008 extension. Four bedrooms, two bathrooms, open-plan living to a north-facing deck and lawn. Double carport. Close to Beaumont and Hazelwood Park reserves.",
+      "features": [
+        "Polished floorboards",
+        "High ceilings",
+        "North-facing deck",
+        "Double carport"
+      ],
+      "dateListed": "2026-10-05",
+      "daysOnMarket": 49,
+      "firstSeen": "2026-11-01",
+      "priceHistory": [
+        {
+          "date": "2026-11-01",
+          "priceText": "$1.65m - $1.75m",
+          "priceLow": 1650000,
+          "priceHigh": 1750000
+        }
+      ],
+      "salesHistory": [
+        {
+          "date": "2007-11-10",
+          "price": 640000
+        }
+      ],
+      "agents": [
+        {
+          "name": "Sample Agent (Priya)",
+          "phone": "0400 000 001",
+          "email": "priya@sample-realty.example",
+          "agency": "Sample Realty Burnside",
+          "photo": null
+        }
+      ],
+      "status": "removed",
+      "ai": {
+        "summary": "Fairly priced family home that has now been withdrawn or sold. Kept here for reference against similar stock.",
+        "pros": [
+          "North-facing rear",
+          "Good extension"
+        ],
+        "cons": [
+          "Carport rather than garage",
+          "Busy corner"
+        ],
+        "fairValueLow": 1620000,
+        "fairValueHigh": 1720000,
+        "verdict": "Fair",
+        "model": "openai/gpt-4.1-mini",
+        "generatedAt": "2026-11-22T20:10:00Z"
+      },
+      "buildingArea": null,
+      "auctionDate": null,
+      "inspections": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Burnside Primary School",
+        "Glenunga International High School"
+      ]
     },
     {
-     "start": "2026-12-05T10:00:00+10:30",
-     "end": "2026-12-05T10:30:00+10:30"
-    }
-   ],
-   "agents": [
-    {
-     "name": "Sample Agent (Mei)",
-     "phone": "0400 000 003",
-     "email": "mei@sample-eastside.example",
-     "agency": "Sample Eastside Property",
-     "photo": null
+      "id": "2019890330",
+      "url": "https://www.domain.com.au/sample-listing-2019890330",
+      "headline": "Sandstone villa, lovingly restored",
+      "address": "26 Kennaway Street, Tusmore SA 5065",
+      "suburb": "Tusmore",
+      "postcode": "5065",
+      "lat": -34.9415,
+      "lng": 138.6525,
+      "propertyType": "Villa",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "carspaces": 1,
+      "landArea": 560,
+      "priceText": "$1.55m",
+      "priceLow": 1550000,
+      "priceHigh": 1550000,
+      "saleMethod": "privateTreaty",
+      "photos": [],
+      "description": "Fully restored return-verandah villa with three bedrooms, two bathrooms and a light-filled rear living room. Leadlight, ornate ceilings, original fireplaces, new kitchen in 2023. Secure off-street parking for one car plus a studio at the rear.",
+      "features": [
+        "Return verandah",
+        "Leadlight",
+        "New kitchen 2023",
+        "Studio"
+      ],
+      "dateListed": "2026-11-15",
+      "daysOnMarket": 8,
+      "firstSeen": "2026-11-15",
+      "priceHistory": [
+        {
+          "date": "2026-11-15",
+          "priceText": "$1.55m",
+          "priceLow": 1550000,
+          "priceHigh": 1550000
+        }
+      ],
+      "salesHistory": [
+        {
+          "date": "2012-10-12",
+          "price": 905000
+        },
+        {
+          "date": "2019-03-30",
+          "price": 1280000
+        }
+      ],
+      "inspections": [
+        {
+          "start": "2026-11-29T13:00:00+10:30",
+          "end": "2026-11-29T13:30:00+10:30"
+        }
+      ],
+      "agents": [
+        {
+          "name": "Sample Agent (Tom)",
+          "phone": "0400 000 002",
+          "email": "tom@sample-realty.example",
+          "agency": "Sample Realty Burnside",
+          "photo": null
+        }
+      ],
+      "ai": {
+        "summary": "A charming, finished villa at a fixed price just under the suburb median. The single car space and smaller block are the trade-offs.",
+        "pros": [
+          "Nothing to do",
+          "Fixed price, no auction",
+          "Studio for work-from-home"
+        ],
+        "cons": [
+          "One car space",
+          "560 m\u00b2"
+        ],
+        "fairValueLow": 1500000,
+        "fairValueHigh": 1600000,
+        "verdict": "Worth inspecting",
+        "model": "openai/gpt-4.1-mini",
+        "generatedAt": "2026-11-22T20:10:00Z"
+      },
+      "buildingArea": null,
+      "auctionDate": null,
+      "status": "active",
+      "zones": [
+        "Linden Park Primary School",
+        "Burnside Primary School",
+        "Glenunga International High School"
+      ]
     },
     {
-     "name": "Sample Agent (Priya)",
-     "phone": "0400 000 001",
-     "email": "priya@sample-realty.example",
-     "agency": "Sample Realty Burnside",
-     "photo": null
-    }
-   ],
-   "ai": {
-    "summary": "New build on a small block; the 2024 land purchase at $980k plus a quality build puts the vendor's cost near the low end of the guide. Premium for 'new' is real in this pocket but thin at the top of the range.",
-    "pros": [
-     "Nothing to do for a decade",
-     "Energy efficient",
-     "Both zones"
-    ],
-    "cons": [
-     "450 m²",
-     "Auction campaign",
-     "Little garden"
-    ],
-    "fairValueLow": 2000000,
-    "fairValueHigh": 2150000,
-    "verdict": "Fair",
-    "model": "openai/gpt-4.1-mini",
-    "generatedAt": "2026-11-22T20:10:00Z"
-   },
-   "buildingArea": null,
-   "status": "active",
-   "zones": [
-    "Burnside Primary School",
-    "Glenunga International High School"
-   ]
-  },
-  {
-   "id": "2019895501",
-   "url": "https://www.domain.com.au/sample-listing-2019895501",
-   "headline": "Family home with pool near Glenunga International High School",
-   "address": "7 Conyngham Street, Glenunga SA 5064",
-   "suburb": "Glenunga",
-   "postcode": "5064",
-   "lat": -34.9538,
-   "lng": 138.6395,
-   "propertyType": "House",
-   "bedrooms": 4,
-   "bathrooms": 2,
-   "carspaces": 2,
-   "landArea": 680,
-   "priceText": "$1.5m - $1.6m",
-   "priceLow": 1500000,
-   "priceHigh": 1600000,
-   "saleMethod": "privateTreaty",
-   "photos": [
-    "https://picsum.photos/seed/hhh0/960/640",
-    "https://picsum.photos/seed/hhh1/960/640",
-    "https://picsum.photos/seed/hhh2/960/640",
-    "https://picsum.photos/seed/hhh3/960/640"
-   ],
-   "description": "Renovated 1950s home with four bedrooms, two bathrooms, a large family room opening to a solar-heated pool and covered alfresco. Double garage, ducted air, 5kW solar. A short walk to Glenunga International High and Webb Street shops.",
-   "features": [
-    "Solar-heated pool",
-    "Ducted air",
-    "5kW solar",
-    "Double garage"
-   ],
-   "dateListed": "2026-11-02",
-   "daysOnMarket": 21,
-   "firstSeen": "2026-11-02",
-   "priceHistory": [
+      "id": "2019893377",
+      "url": "https://www.domain.com.au/sample-listing-2019893377",
+      "headline": "Brand-new double-storey home in Beaumont",
+      "address": "5 Sunnyside Road, Beaumont SA 5066",
+      "suburb": "Beaumont",
+      "postcode": "5066",
+      "lat": -34.9478,
+      "lng": 138.6648,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "carspaces": 2,
+      "landArea": 450,
+      "priceText": "$2.1m - $2.25m",
+      "priceLow": 2100000,
+      "priceHigh": 2250000,
+      "saleMethod": "auction",
+      "auctionDate": "2026-12-13T10:30:00+10:30",
+      "photos": [
+        "https://picsum.photos/seed/hhg0/960/640",
+        "https://picsum.photos/seed/hhg1/960/640",
+        "https://picsum.photos/seed/hhg2/960/640",
+        "https://picsum.photos/seed/hhg3/960/640"
+      ],
+      "description": "Completed in 2026 by a boutique builder, this four-bedroom, three-bathroom home offers two living areas, a butler's pantry, a ground-floor guest bedroom, 7-star energy rating with 10kW solar and a battery, and a double garage. Low-maintenance landscaped garden with an alfresco kitchen.",
+      "features": [
+        "New build 2026",
+        "10kW solar + battery",
+        "Butler's pantry",
+        "Alfresco kitchen",
+        "Two living areas"
+      ],
+      "dateListed": "2026-11-20",
+      "daysOnMarket": 3,
+      "firstSeen": "2026-11-20",
+      "priceHistory": [
+        {
+          "date": "2026-11-20",
+          "priceText": "$2.1m - $2.25m",
+          "priceLow": 2100000,
+          "priceHigh": 2250000
+        }
+      ],
+      "salesHistory": [
+        {
+          "date": "2024-05-18",
+          "price": 980000
+        }
+      ],
+      "inspections": [
+        {
+          "start": "2026-11-28T10:00:00+10:30",
+          "end": "2026-11-28T10:30:00+10:30"
+        },
+        {
+          "start": "2026-12-05T10:00:00+10:30",
+          "end": "2026-12-05T10:30:00+10:30"
+        }
+      ],
+      "agents": [
+        {
+          "name": "Sample Agent (Mei)",
+          "phone": "0400 000 003",
+          "email": "mei@sample-eastside.example",
+          "agency": "Sample Eastside Property",
+          "photo": null
+        },
+        {
+          "name": "Sample Agent (Priya)",
+          "phone": "0400 000 001",
+          "email": "priya@sample-realty.example",
+          "agency": "Sample Realty Burnside",
+          "photo": null
+        }
+      ],
+      "ai": {
+        "summary": "New build on a small block; the 2024 land purchase at $980k plus a quality build puts the vendor's cost near the low end of the guide. Premium for 'new' is real in this pocket but thin at the top of the range.",
+        "pros": [
+          "Nothing to do for a decade",
+          "Energy efficient",
+          "Both zones"
+        ],
+        "cons": [
+          "450 m\u00b2",
+          "Auction campaign",
+          "Little garden"
+        ],
+        "fairValueLow": 2000000,
+        "fairValueHigh": 2150000,
+        "verdict": "Fair",
+        "model": "openai/gpt-4.1-mini",
+        "generatedAt": "2026-11-22T20:10:00Z"
+      },
+      "buildingArea": null,
+      "status": "active",
+      "zones": [
+        "Burnside Primary School",
+        "Glenunga International High School"
+      ]
+    },
     {
-     "date": "2026-11-02",
-     "priceText": "$1.5m - $1.6m",
-     "priceLow": 1500000,
-     "priceHigh": 1600000
-    }
-   ],
-   "salesHistory": [
+      "id": "2019895501",
+      "url": "https://www.domain.com.au/sample-listing-2019895501",
+      "headline": "Family home with pool near Glenunga International High School",
+      "address": "7 Conyngham Street, Glenunga SA 5064",
+      "suburb": "Glenunga",
+      "postcode": "5064",
+      "lat": -34.9538,
+      "lng": 138.6395,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "carspaces": 2,
+      "landArea": 680,
+      "priceText": "$1.5m - $1.6m",
+      "priceLow": 1500000,
+      "priceHigh": 1600000,
+      "saleMethod": "privateTreaty",
+      "photos": [
+        "https://picsum.photos/seed/hhh0/960/640",
+        "https://picsum.photos/seed/hhh1/960/640",
+        "https://picsum.photos/seed/hhh2/960/640",
+        "https://picsum.photos/seed/hhh3/960/640"
+      ],
+      "description": "Renovated 1950s home with four bedrooms, two bathrooms, a large family room opening to a solar-heated pool and covered alfresco. Double garage, ducted air, 5kW solar. A short walk to Glenunga International High and Webb Street shops.",
+      "features": [
+        "Solar-heated pool",
+        "Ducted air",
+        "5kW solar",
+        "Double garage"
+      ],
+      "dateListed": "2026-11-02",
+      "daysOnMarket": 21,
+      "firstSeen": "2026-11-02",
+      "priceHistory": [
+        {
+          "date": "2026-11-02",
+          "priceText": "$1.5m - $1.6m",
+          "priceLow": 1500000,
+          "priceHigh": 1600000
+        }
+      ],
+      "salesHistory": [
+        {
+          "date": "2015-08-01",
+          "price": 905000
+        }
+      ],
+      "inspections": [
+        {
+          "start": "2026-11-29T11:00:00+10:30",
+          "end": "2026-11-29T11:30:00+10:30"
+        }
+      ],
+      "agents": [
+        {
+          "name": "Sample Agent (Tom)",
+          "phone": "0400 000 002",
+          "email": "tom@sample-realty.example",
+          "agency": "Sample Realty Burnside",
+          "photo": null
+        }
+      ],
+      "ai": {
+        "summary": "Solid, well-presented family home with a pool at a price in line with Glenunga's median. Check whether it falls inside the Linden Park Primary zone boundary before committing.",
+        "pros": [
+          "Pool and alfresco",
+          "Near the high school",
+          "Fair guide"
+        ],
+        "cons": [
+          "Older bathrooms",
+          "Pool upkeep"
+        ],
+        "fairValueLow": 1480000,
+        "fairValueHigh": 1580000,
+        "verdict": "Fair",
+        "model": "openai/gpt-4.1-mini",
+        "generatedAt": "2026-11-22T20:10:00Z"
+      },
+      "buildingArea": null,
+      "auctionDate": null,
+      "status": "active",
+      "zones": [
+        "Linden Park Primary School",
+        "Glen Osmond Primary School",
+        "Glenunga International High School"
+      ]
+    },
     {
-     "date": "2015-08-01",
-     "price": 905000
+      "id": "SOLD-1",
+      "url": "https://www.domain.com.au/sample-listing-2019876543",
+      "headline": "Character bluestone villa on a tree-lined street",
+      "address": "5 Sample Court, Glenunga SA 5064",
+      "suburb": "Linden Park",
+      "postcode": "5065",
+      "lat": -34.9458,
+      "lng": 138.6442,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "carspaces": 2,
+      "landArea": 790,
+      "priceText": "$1.85m - $1.95m",
+      "priceLow": 1850000,
+      "priceHigh": 1950000,
+      "saleMethod": "privateTreaty",
+      "photos": [
+        "https://picsum.photos/seed/hha0/960/640",
+        "https://picsum.photos/seed/hha1/960/640",
+        "https://picsum.photos/seed/hha2/960/640",
+        "https://picsum.photos/seed/hha3/960/640",
+        "https://picsum.photos/seed/hha4/960/640"
+      ],
+      "description": "Set behind a mature hedge on one of Linden Park's quietest streets, this c.1910 bluestone villa pairs original character with a sympathetic rear extension completed in 2016. Four generous bedrooms, two bathrooms, a formal sitting room with open fireplace and a north-facing open-plan living area opening to a wide verandah and established garden. Ducted reverse-cycle, 6.6kW solar, double garage with rear access. Walk to Linden Park Primary and the Burnside Village shops.",
+      "features": [
+        "Ducted reverse-cycle air",
+        "Open fireplace",
+        "6.6kW solar",
+        "Double garage",
+        "North-facing rear",
+        "Established garden"
+      ],
+      "dateListed": "2026-10-30",
+      "daysOnMarket": 24,
+      "firstSeen": "2026-11-01",
+      "priceHistory": [
+        {
+          "date": "2026-11-01",
+          "priceText": "$1.95m - $2.05m",
+          "priceLow": 1950000,
+          "priceHigh": 2050000
+        },
+        {
+          "date": "2026-11-15",
+          "priceText": "$1.85m - $1.95m",
+          "priceLow": 1850000,
+          "priceHigh": 1950000
+        }
+      ],
+      "salesHistory": [
+        {
+          "date": "2009-04-18",
+          "price": 880000
+        },
+        {
+          "date": "2016-11-05",
+          "price": 1410000
+        }
+      ],
+      "inspections": [
+        {
+          "start": "2026-11-29T10:00:00+10:30",
+          "end": "2026-11-29T10:30:00+10:30"
+        },
+        {
+          "start": "2026-12-02T17:30:00+10:30",
+          "end": "2026-12-02T18:00:00+10:30"
+        }
+      ],
+      "agents": [
+        {
+          "name": "Sample Agent (Priya)",
+          "phone": "0400 000 001",
+          "email": "priya@sample-realty.example",
+          "agency": "Sample Realty Burnside",
+          "photo": null
+        },
+        {
+          "name": "Sample Agent (Tom)",
+          "phone": "0400 000 002",
+          "email": "tom@sample-realty.example",
+          "agency": "Sample Realty Burnside",
+          "photo": null
+        }
+      ],
+      "ai": null,
+      "buildingArea": null,
+      "auctionDate": null,
+      "status": "removed",
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "sold": true,
+      "removedDate": "2026-11-15",
+      "soldPriceText": "$1,850,000",
+      "soldPrice": 1850000
     }
-   ],
-   "inspections": [
-    {
-     "start": "2026-11-29T11:00:00+10:30",
-     "end": "2026-11-29T11:30:00+10:30"
-    }
-   ],
-   "agents": [
-    {
-     "name": "Sample Agent (Tom)",
-     "phone": "0400 000 002",
-     "email": "tom@sample-realty.example",
-     "agency": "Sample Realty Burnside",
-     "photo": null
-    }
-   ],
-   "ai": {
-    "summary": "Solid, well-presented family home with a pool at a price in line with Glenunga's median. Check whether it falls inside the Linden Park Primary zone boundary before committing.",
-    "pros": [
-     "Pool and alfresco",
-     "Near the high school",
-     "Fair guide"
-    ],
-    "cons": [
-     "Older bathrooms",
-     "Pool upkeep"
-    ],
-    "fairValueLow": 1480000,
-    "fairValueHigh": 1580000,
-    "verdict": "Fair",
-    "model": "openai/gpt-4.1-mini",
-    "generatedAt": "2026-11-22T20:10:00Z"
-   },
-   "buildingArea": null,
-   "auctionDate": null,
-   "status": "active",
-   "zones": [
-    "Linden Park Primary School",
-    "Glen Osmond Primary School",
-    "Glenunga International High School"
-   ]
-  }
- ]
+  ]
 }

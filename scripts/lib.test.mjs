@@ -304,3 +304,19 @@ test("needsAi re-runs analyses made with older inputs", () => {
   assert.equal(L.needsAi({ ...base, ai }), false);
   assert.equal(L.needsAi({ ...base, priceText: "$1.1m", ai }), true);
 });
+
+test("sold: imported sale carries price/date, keeps 12 months, and folds into the active listing at the same address", () => {
+  const active = L.mapAlertItem(L.manualToAlertItem({ url: "https://www.realestate.com.au/property-house-sa-glenunga-111111", address: "1 A St, Glenunga SA 5064", priceText: "$1.7m - $1.8m", via: "bookmarklet", addedAt: "2026-10-01", seenAt: "2026-11-20" }, "2026-11-24"), "2026-11-24");
+  const soldM = { url: "https://www.realestate.com.au/sold/property-house-sa-glenunga-222222", address: "1 A Street, Glenunga", via: "bookmarklet", addedAt: "2026-11-24", seenAt: "2026-11-24", sold: true, soldDate: "2026-11-15", soldPriceText: "$1,850,000" };
+  const sold = L.mapAlertItem(L.manualToAlertItem(soldM, "2026-11-24"), "2026-11-24");
+  assert.deepEqual([sold.status, sold.sold, sold.removedDate, sold.soldPrice], ["removed", true, "2026-11-15", 1850000]);
+  const { listings } = L.dedupeByAddress([sold, active]);
+  assert.equal(listings.length, 1);
+  assert.deepEqual([listings[0].id, listings[0].sold, listings[0].soldPrice, listings[0].priceText], ["rea-111111", true, 1850000, "$1.7m - $1.8m"]);
+  // an old sale of the same address does not mark a new listing sold
+  const old = { ...sold, id: "rea-3", removedDate: "2025-01-10" };
+  assert.equal(L.dedupeByAddress([old, active]).listings[0].sold, undefined);
+  assert.equal(L.manualToAlertItem({ ...soldM, soldDate: "2025-10-01" }, "2026-11-24"), null, "dropped a year after the sale");
+  assert.ok(L.manualToAlertItem({ ...soldM, seenAt: "2026-01-01" }, "2026-11-24"), "sold entries ignore the 60-day re-import rule");
+  assert.equal(L.recentSales({ id: "x", suburb: "Glenunga" }, [{ ...sold, suburb: "Glenunga" }], "2026-11-24")[0].soldPrice, 1850000);
+});

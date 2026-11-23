@@ -5,9 +5,19 @@
 // ponytail: no site class names; cards are found from listing links, so it survives most redesigns but not all.
 
 export function grab(APP) {
-  const LINK = /realestate\.com\.au\/property-[a-z0-9+%.-]+-(\d{5,})|domain\.com\.au\/[a-z0-9-]+-(\d{7,})(?:[/?#]|$)/i;
+  const LINK = /realestate\.com\.au\/(?:sold\/)?property-[a-z0-9+%.-]+-(\d{5,})|domain\.com\.au\/(?:sold\/)?[a-z0-9-]+-(\d{7,})(?:[/?#]|$)/i;
   const ADDR = /^(?:(?:unit|apt|lot)\s+)?\d+[a-z]?(?:\s*[/-]\s*\d+[a-z]?)?\s+[a-z0-9' .-]{2,60},\s*[a-z][a-z' .-]{1,40}(?:,?\s*(?:sa|south australia))?(?:\s+\d{4})?$/i;
-  const PRICE = /\$\s?\d|auction|contact agent|offers|expressions? of interest|\beoi\b|price guide|for sale|best offer|by negotiation|under contract/i;
+  const PRICE = /\$\s?\d|auction|contact agent|offers|expressions? of interest|\beoi\b|price guide|for sale|best offer|by negotiation|under contract|withheld|undisclosed/i;
+  const MONTHS = { jan: 1, feb: 2, mar: 3, apr: 4, may: 5, jun: 6, jul: 7, aug: 8, sep: 9, oct: 10, nov: 11, dec: 12 };
+  const pad = (n) => String(n).padStart(2, '0');
+  // "Sold on 12 Nov 2026", "SOLD BY PRIVATE TREATY 12 NOV 2026", "Sold 12/11/2026" -> "2026-11-12"
+  const soldDateOf = (t) => {
+    let m = t.match(/(\d{1,2})(?:st|nd|rd|th)?\s+(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?\s+(\d{4})/i);
+    if (m) return `${m[3]}-${pad(MONTHS[m[2].toLowerCase()])}-${pad(m[1])}`;
+    m = t.match(/(\d{1,2})\/(\d{1,2})\/(\d{4}|\d{2})\b/);
+    return m ? `${m[3].length === 2 ? '20' + m[3] : m[3]}-${pad(m[2])}-${pad(m[1])}` : null;
+  };
+  const soldPage = /\/sold\b/i.test(location.pathname);
   const clean = (s) => String(s || '').replace(/\s+/g, ' ').trim();
   const idOf = (href) => { const m = String(href).match(LINK); return m && (m[1] || m[2]); };
 
@@ -40,8 +50,11 @@ export function grab(APP) {
       .map((i) => ({ src: i.currentSrc || i.src, w: i.naturalWidth || i.width, h: i.naturalHeight || i.height }))
       .filter((i) => /^https:/.test(i.src) && !/logo|agent|avatar|contact_\d|gravity=north|\.svg/i.test(i.src) && !/\/(\d{2,3})x\1[/-]/.test(i.src) && !(i.w && i.h && Math.abs(i.w - i.h) < 0.1 * i.w))
       .sort((a, b) => b.w * b.h - a.w * a.h)[0]?.src;
+    const soldText = shortest(texts, (t) => /^sold\b/i.test(t) || /\bsold (on|at|by|prior|under)\b/i.test(t));
+    const sold = soldPage || !!soldText;
     items.push({
-      url: a.href.split(/[?#]/)[0], address, priceText,
+      url: a.href.split(/[?#]/)[0], address, priceText: sold ? null : priceText,
+      ...(sold && { sold: true, soldDate: soldDateOf(soldText || texts.join(' ')), soldPriceText: priceText && /\$\s?\d|withheld|undisclosed/i.test(priceText) ? priceText : null }),
       beds: num(/(\d+)\s*(?:beds?|bedrooms?)(?![a-z])/i), baths: num(/(\d+)\s*(?:baths?|bathrooms?)(?![a-z])/i),
       cars: num(/(\d+)\s*(?:cars?|car spaces?|parking(?: spaces?)?|garages?)(?![a-z])/i),
       image: img || null,
@@ -55,24 +68,27 @@ export function grab(APP) {
 // The javascript: URL for the bookmark, pointing back at this app.
 export const bookmarkletHref = (appUrl) => 'javascript:' + encodeURIComponent(`(${grab.toString()})(${JSON.stringify(appUrl)})`);
 
-// Merge imported items into data/manual.json entries. Hand-added entries are left alone;
-// imported ones are refreshed (price, beds…, seenAt). Items without an address are skipped.
+// Merge imported items into data/manual.json entries. Hand-added entries keep their details;
+// imported ones are refreshed (price, beds…, seenAt). A sold item marks any matching entry sold (hand-added too)
+// without overwriting its asking price. Items without an address are skipped.
 export function mergeImport(list, items, today) {
   const key = (u) => String(u).match(/-(\d{5,})(?:[/?#]|$)/)?.[1];
   const out = list.map((m) => ({ ...m }));
   const at = new Map(out.map((m, i) => [key(m.url), i]));
-  let added = 0, updated = 0, skipped = 0;
+  let added = 0, updated = 0, skipped = 0, sold = 0;
   for (const it of items) {
     const k = key(it.url);
     if (!k || !it.address) { skipped++; continue; }
-    const row = { url: it.url, address: it.address, priceText: it.priceText ?? null, beds: it.beds ?? null, baths: it.baths ?? null, cars: it.cars ?? null, image: it.image ?? null };
+    const soldFields = it.sold ? { sold: true, soldDate: it.soldDate ?? null, soldPriceText: it.soldPriceText ?? null } : {};
+    if (it.sold) sold++;
+    const row = { url: it.url, address: it.address, beds: it.beds ?? null, baths: it.baths ?? null, cars: it.cars ?? null, image: it.image ?? null };
     if (at.has(k)) {
       const m = out[at.get(k)];
-      if (m.via !== 'bookmarklet') { skipped++; continue; } // added by hand: yours wins
-      Object.assign(m, row, { seenAt: today }); updated++;
+      if (m.via !== 'bookmarklet') { if (!it.sold) { skipped++; continue; } Object.assign(m, soldFields); updated++; continue; } // added by hand: only the sale is recorded
+      Object.assign(m, row, it.sold ? soldFields : { priceText: it.priceText ?? null }, { seenAt: today }); updated++;
     } else {
-      at.set(k, out.push({ ...row, via: 'bookmarklet', addedAt: today, seenAt: today }) - 1); added++;
+      at.set(k, out.push({ ...row, priceText: it.sold ? null : it.priceText ?? null, ...soldFields, via: 'bookmarklet', addedAt: today, seenAt: today }) - 1); added++;
     }
   }
-  return { list: out, added, updated, skipped };
+  return { list: out, added, updated, skipped, sold };
 }

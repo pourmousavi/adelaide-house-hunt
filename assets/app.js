@@ -112,9 +112,10 @@ function visibleListings(view = state.prefs.view || 'all') {
 }
 function savedCounts() {
   const ids = new Set(listingsAll().map((l) => String(l.id)));
+  const sold = filterListings(listingsAll(), { prefs: state.prefs, saved: state.saved, areas: state.areas, view: 'sold' }).length;
   let shortlist = 0; let hidden = 0;
   for (const [id, v] of Object.entries(state.saved)) { if (!ids.has(String(id))) continue; if (v?.status === 'shortlist') shortlist++; if (v?.status === 'hidden') hidden++; }
-  return { shortlist, hidden };
+  return { shortlist, hidden, sold };
 }
 
 const cardCtx = () => ({
@@ -154,13 +155,13 @@ function renderListings() {
   const sortSel = h('select', { id: 'sort', 'aria-label': 'Sort listings', onchange: (e) => setPrefs({ sort: e.target.value }) },
     SORT_OPTIONS.map(([v, l]) => h('option', { value: v, selected: state.prefs.sort === v, text: l })));
   toolbar.replaceChildren(
-    h('div', { class: 'seg', role: 'group', 'aria-label': 'Which listings' }, seg('all', 'All', visible.length || (view === 'all' ? 0 : null)), seg('shortlist', 'Shortlist', counts.shortlist), seg('hidden', 'Hidden', counts.hidden)),
+    h('div', { class: 'seg', role: 'group', 'aria-label': 'Which listings' }, seg('all', 'All', view === 'all' ? visible.length : null), seg('shortlist', 'Shortlist', counts.shortlist), seg('hidden', 'Hidden', counts.hidden), seg('sold', 'Sold', counts.sold)),
     h('div', { class: 'toolbar-right' }, h('label', { for: 'sort', class: 'muted small', text: 'Sort' }), sortSel),
   );
   const zoneNote = state.areas.zones?.length ? `${state.areas.zoneMatch === 'any' ? 'in any of' : 'inside all of'}: ${state.areas.zones.join(', ')}` : 'no zone filter';
-  const filters = view === 'all' ? activeFilters(state.prefs) : [];
+  const filters = view === 'all' || view === 'sold' ? activeFilters(state.prefs) : [];
   const summary = h('div', { class: 'result-summary' },
-    h('p', { class: 'muted small' }, view === 'all' ? `${visible.length} of ${all.length} listings · ${zoneNote}` : view === 'shortlist' ? `${visible.length} shortlisted` : `${visible.length} hidden`),
+    h('p', { class: 'muted small' }, view === 'all' ? `${visible.length} of ${all.filter((l) => !l.sold).length} listings · ${zoneNote}` : view === 'sold' ? `${visible.length} sold in the last 12 months · ${zoneNote}` : view === 'shortlist' ? `${visible.length} shortlisted` : `${visible.length} hidden`),
     filters.length > 0 && h('div', { class: 'filter-chips', role: 'group', 'aria-label': 'Active filters' },
       h('span', { class: 'small muted', text: 'Filtered by:' }),
       filters.map((f) => h('button', { type: 'button', class: 'chip chip-filter', 'aria-label': `Remove filter ${f.label}`, onclick: () => setPrefs(f.clear) }, f.label, icon('x'))),
@@ -168,10 +169,11 @@ function renderListings() {
   if (!visible.length) {
     const msg = view === 'shortlist' ? ['Nothing shortlisted yet', 'Tap Shortlist on a listing to keep it here.']
       : view === 'hidden' ? ['No hidden listings', 'Hide a listing to move it out of the main list.']
+        : view === 'sold' ? ['No sold homes yet', 'On realestate.com.au or domain.com.au, search your suburbs with "Sold" selected and click the House Hunt import bookmarklet on each results page. Homes in your list that appear there move here with their sale price.']
         : all.length ? ['No listings match', 'Loosen the filters, or widen the areas.'] : null;
     if (!msg) { root.replaceChildren(emptyState('No listings yet', NO_LISTINGS_TEXT)); return; }
     root.replaceChildren(summary, h('div', { class: 'empty' }, h('p', { class: 'empty-title', text: msg[0] }), h('p', { class: 'muted', text: msg[1] }),
-      view === 'all' && all.length && activeFilterCount(state.prefs) ? h('button', { type: 'button', class: 'btn btn-secondary', onclick: () => setPrefs({ ...store.DEFAULT_PREFS, sort: state.prefs.sort, view, notes: state.prefs.notes }) }, 'Clear filters') : null));
+      (view === 'all' || view === 'sold') && all.length && activeFilterCount(state.prefs) ? h('button', { type: 'button', class: 'btn btn-secondary', onclick: () => setPrefs({ ...store.DEFAULT_PREFS, sort: state.prefs.sort, view, notes: state.prefs.notes }) }, 'Clear filters') : null));
     return;
   }
   const ctx = cardCtx();
@@ -235,7 +237,7 @@ function renderImportPanel() {
 
 // ---------------------------------------------------------------- add a listing by hand
 
-const LISTING_URL_RE = /^https?:\/\/(www\.)?(realestate\.com\.au\/property-[^?#]*-\d{5,}|domain\.com\.au\/[a-z0-9-]+-\d{7,})/i;
+const LISTING_URL_RE = /^https?:\/\/(www\.)?(realestate\.com\.au\/(sold\/)?property-[^?#]*-\d{5,}|domain\.com\.au\/(sold\/)?[a-z0-9-]+-\d{7,})/i;
 const listingKey = (url) => String(url).match(/-(\d{5,})(?:[/?#]|$)/)?.[1];
 
 function renderAddListing() {
@@ -315,7 +317,7 @@ function openCard(id) {
 
 function route() {
   let name = (location.hash || '#listings').slice(1).split('?')[0];
-  if (name === 'shortlist' || name === 'hidden') { setPrefs({ view: name }); name = 'listings'; }
+  if (name === 'shortlist' || name === 'hidden' || name === 'sold') { setPrefs({ view: name }); name = 'listings'; }
   if (!VIEWS.includes(name)) name = 'listings';
   showView(name);
 }

@@ -92,9 +92,9 @@ const titleCase = (s) => String(s).toLowerCase().replace(/(^|[\s'-])([a-z])/g, (
 // ---------- listing URLs ----------
 
 // realestate.com.au/property-house-sa-linden+park-143456789   (id = trailing digits)
-const REA_RE = /(?:https?:\/\/)?(?:www\.)?realestate\.com\.au\/property-([a-z0-9+%.-]+?)-sa-([a-z0-9+%.-]+?)-(\d{5,})(?=[/?#&"'\s]|$)/i;
+const REA_RE = /(?:https?:\/\/)?(?:www\.)?realestate\.com\.au\/(?:sold\/)?property-([a-z0-9+%.-]+?)-sa-([a-z0-9+%.-]+?)-(\d{5,})(?=[/?#&"'\s]|$)/i;
 // domain.com.au/12-example-st-linden-park-sa-5065-2019876543
-const DOM_RE = /(?:https?:\/\/)?(?:www\.)?domain\.com\.au\/([a-z0-9-]+?)-(\d{7,})(?=[/?#&"'\s]|$)/i;
+const DOM_RE = /(?:https?:\/\/)?(?:www\.)?domain\.com\.au\/(?:sold\/)?([a-z0-9-]+?)-(\d{7,})(?=[/?#&"'\s]|$)/i;
 
 const safeDecode = (s) => { try { return decodeURIComponent(s); } catch { return s; } };
 

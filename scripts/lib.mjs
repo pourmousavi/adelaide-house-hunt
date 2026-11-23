@@ -349,6 +349,7 @@ export const isFresh = (fetchedAt, days, now = Date.now()) => !!fetchedAt && (no
 
 // ---------- email-alert listings ----------
 
+export const SOLD_KEEP_DAYS = 365; // sold homes stay (in the Sold tab, and as comparables for the AI) this long after the sale
 export const ALERT_KEEP_DAYS = 60; // alert listings stay active this long after the last alert that mentioned them
 export const GEOCODE_RETRY_DAYS = 7; // a failed geocode lookup is retried after this long
 
@@ -406,7 +407,7 @@ export function mapAlertItem(it, today) {
     salesHistory: [], inspections: [], agents: [],
     zones: [],
     status: sold ? "removed" : "active",
-    ...(sold && { removedDate: isoDate(it.soldAt) ?? lastSeen, sold: true }),
+    ...(sold && { removedDate: isoDate(it.soldAt) ?? lastSeen, sold: true, soldPriceText: it.soldPriceText ?? null, soldPrice: parsePriceText(it.soldPriceText).priceHigh }),
     alertKind: it.alertKind ?? null,
     lastSeen,
     origin, via: "alerts",
@@ -421,7 +422,8 @@ export function manualToAlertItem(m, today) {
   const u = resolveListingUrl(m?.url);
   const address = String(m?.address ?? "").trim();
   if (!u || !address) return null;
-  if (m.via === "bookmarklet" && daysBetween(m.seenAt ?? m.addedAt ?? today, today) > ALERT_KEEP_DAYS) return null; // not re-imported for 60 days
+  if (m.sold) { if (m.soldDate && daysBetween(m.soldDate, today) > SOLD_KEEP_DAYS) return null; } // sold over a year ago
+  else if (m.via === "bookmarklet" && daysBetween(m.seenAt ?? m.addedAt ?? today, today) > ALERT_KEEP_DAYS) return null; // not re-imported for 60 days
   const a = parseAddress(address.replace(/\s+SA\s+(\d{4})$/i, ", SA $1"));
   const n = (x) => (x === "" || x == null || !Number.isFinite(+x) ? null : +x);
   return {
@@ -431,6 +433,7 @@ export function manualToAlertItem(m, today) {
     beds: n(m.beds), baths: n(m.baths), cars: n(m.cars),
     image: m.image && !isAgentPhoto(m.image) ? m.image : null,
     firstSeen: m.addedAt ?? today, lastSeen: m.via === "bookmarklet" ? (m.seenAt ?? m.addedAt ?? today) : today, alertKind: null,
+    ...(m.sold && { sold: true, soldAt: m.soldDate ?? m.seenAt ?? today, soldPriceText: m.soldPriceText ?? null }),
   };
 }
 
@@ -440,6 +443,7 @@ export const isAgentPhoto = (u) => /contact_\d+|gravity=north|\/(\d{2,3})x\1[/-]
 
 // "528 Portrush Road, St Georges SA 5064" and "528 Portrush Rd, St Georges" -> "528 portrush rd st georges"
 const STREET_ABBR = { street: "st", road: "rd", avenue: "ave", av: "ave", terrace: "tce", drive: "dr", place: "pl", court: "ct", crescent: "cres", parade: "pde", lane: "ln", highway: "hwy", grove: "gr", close: "cl", boulevard: "bvd", circuit: "cct", square: "sq" };
+const daysAgo = (d, n) => new Date(Date.parse(isoDate(d)) - n * 864e5).toISOString().slice(0, 10);
 export const addressKey = (a) => String(a ?? "").toLowerCase()
   .replace(/,?\s*(sa|south australia)?\s*\d{4}\s*$/, "").replace(/[^a-z0-9/ ]+/g, " ")
   .split(/\s+/).filter(Boolean).map((w) => STREET_ABBR[w] ?? w).join(" ");
@@ -449,14 +453,16 @@ export const addressKey = (a) => String(a ?? "").toLowerCase()
 // Returns { listings, dropped } where dropped are the ids folded into another listing.
 export function dedupeByAddress(listings) {
   const byKey = new Map(), dropped = new Set(), out = [];
-  const rank = (l) => (l.origin === "rea" ? 0 : 1);
-  for (const l of [...listings].sort((a, b) => rank(a) - rank(b))) {
+  const rank = (l) => (l.sold ? 2 : 0) + (l.origin === "rea" ? 0 : 1); // a current listing is kept over a sold copy, realestate.com.au over Domain
+  for (const l of listings.map((x) => ({ ...x })).sort((a, b) => rank(a) - rank(b))) { // copies: inputs are not changed
     const k = addressKey(l.address);
     const keep = k && /^\S*\d/.test(k) ? byKey.get(k) : null; // only street-numbered addresses are matched
     if (!keep) { if (k) byKey.set(k, l); out.push(l); continue; }
     for (const f of ["priceText", "priceLow", "priceHigh", "saleMethod", "propertyType", "bedrooms", "bathrooms", "carspaces", "lat", "lng", "postcode"]) keep[f] ??= l[f];
     if (!keep.photos?.length && l.photos?.length) keep.photos = l.photos;
-    if (l.sold && !keep.sold) Object.assign(keep, { sold: true, status: "removed", removedDate: l.removedDate });
+    if (l.sold && !keep.sold && (!keep.firstSeen || (l.removedDate ?? "") >= daysAgo(keep.firstSeen, 30)))
+      Object.assign(keep, { sold: true, status: "removed", removedDate: l.removedDate, soldPriceText: l.soldPriceText ?? null, soldPrice: l.soldPrice ?? null });
+    else if (l.sold && keep.sold) { keep.soldPriceText ??= l.soldPriceText; keep.soldPrice ??= l.soldPrice; }
     if (l.firstSeen && (!keep.firstSeen || l.firstSeen < keep.firstSeen)) keep.firstSeen = l.firstSeen;
     keep.ai ??= l.ai;
     keep.alsoAt = [...(keep.alsoAt ?? []).filter((x) => x.url !== l.url), { origin: l.origin, url: l.url }];
@@ -478,15 +484,22 @@ export function mergeAlertListings(prev, fresh, today, outside = new Set(), keep
     seen.add(f.id);
     const p = old.get(f.id);
     const l = { ...p, ...f, ai: p?.ai ?? null };
-    if (!f.sold) { delete l.removedDate; delete l.sold; if (p?.sold) { l.status = "removed"; l.sold = true; l.removedDate = p.removedDate; } }
+    if (!f.sold) { delete l.removedDate; delete l.sold; if (p?.sold) { l.status = "removed"; l.sold = true; l.removedDate = p.removedDate; l.soldPriceText = p.soldPriceText ?? null; l.soldPrice = p.soldPrice ?? null; } }
     out.push(l);
   }
   for (const p of prev) {
     if (seen.has(p.id) || outside.has(p.id)) continue;
-    if (daysBetween(p.lastSeen ?? p.firstSeen ?? today, today) > keepDays) continue;
+    if (p.sold ? daysBetween(p.removedDate ?? p.lastSeen ?? today, today) > SOLD_KEEP_DAYS : daysBetween(p.lastSeen ?? p.firstSeen ?? today, today) > keepDays) continue;
     out.push({ ...p, daysOnMarket: Math.max(0, daysBetween(p.firstSeen ?? today, today)) });
   }
   return out;
+}
+
+// Sold homes in the same suburb in the last year, newest first: comparables for the AI.
+export function recentSales(listing, all, today, max = 6) {
+  return all.filter((s) => s.sold && s.id !== listing.id && s.suburb === listing.suburb && s.soldPrice && daysBetween(s.removedDate ?? today, today) <= SOLD_KEEP_DAYS)
+    .sort((a, b) => String(b.removedDate).localeCompare(String(a.removedDate))).slice(0, max)
+    .map((s) => ({ address: s.address, type: s.propertyType, beds: s.bedrooms, baths: s.bathrooms, soldPrice: s.soldPrice, soldDate: s.removedDate }));
 }
 
 // ---------- AI ----------

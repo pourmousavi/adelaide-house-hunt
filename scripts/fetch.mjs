@@ -230,7 +230,7 @@ const macroBrief = (m) => m && {
   cpiYearEnded: m.cpi.current, cpiForecast4q: m.cpi.forecast[3]?.value, mortgageRate: m.mortgageRate.current, unemploymentRate: m.unemployment?.current,
 };
 
-const LISTING_SYSTEM = `You are a cautious Adelaide residential property analyst helping a family buy a home near Linden Park Primary School and Glenunga International High School. For each listing in "listings", give a short, honest assessment using only the facts provided (listing facts, suburb median price trend, macro data). Do not invent facts; if the price is not disclosed, say so and base fair value on the suburb trend and features, keeping the range wide. Return JSON: {"results":[{"id":string,"summary":"2-3 sentences","pros":[string],"cons":[string],"fairValueLow":number AUD,"fairValueHigh":number AUD,"verdict":"Worth inspecting"|"Fair"|"Overpriced"|"Strong value"}]}. Max 4 pros and 4 cons, each under 12 words.`;
+const LISTING_SYSTEM = `You are a cautious Adelaide residential property analyst helping a family buy a home near Linden Park Primary School and Glenunga International High School. For each listing in "listings", give a short, honest assessment using only the facts provided (listing facts, suburb median price trend, recentSalesNearby = actual recent sale prices in the same suburb, macro data). When recentSalesNearby has comparable homes (similar type and bedrooms), weigh them more than the suburb median. Do not invent facts; if the price is not disclosed, say so and base fair value on the suburb trend and features, keeping the range wide. Return JSON: {"results":[{"id":string,"summary":"2-3 sentences","pros":[string],"cons":[string],"fairValueLow":number AUD,"fairValueHigh":number AUD,"verdict":"Worth inspecting"|"Fair"|"Overpriced"|"Strong value"}]}. Max 4 pros and 4 cons, each under 12 words.`;
 
 async function aiListingsStep(listingsRes, macro, token) {
   const file0 = readJson("listings.json");
@@ -247,7 +247,7 @@ async function aiListingsStep(listingsRes, macro, token) {
           id: l.id, address: l.address, suburb: l.suburb, type: l.propertyType, beds: l.bedrooms, baths: l.bathrooms, cars: l.carspaces,
           landM2: l.landArea, askingPrice: l.priceText, priceLow: l.priceLow, priceHigh: l.priceHigh, saleMethod: l.saleMethod,
           daysOnMarket: l.daysOnMarket, priceChanges: l.priceHistory.length - 1, features: l.features, description: l.description?.slice(0, 400),
-          suburbMedianTrend: trend(listingsRes.suburbs, l),
+          suburbMedianTrend: trend(listingsRes.suburbs, l), recentSalesNearby: L.recentSales(l, file0.listings, today),
         })),
       });
       for (const r of res.results ?? []) {

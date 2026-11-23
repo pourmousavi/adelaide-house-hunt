@@ -64,7 +64,8 @@ export function filterListings(all, { prefs, saved, areas, view }) {
     if (view === 'shortlist') return st === 'shortlist';
     if (view === 'hidden') return st === 'hidden';
     if (st === 'hidden') return false;
-    if (!prefs.includeRemoved && l.status === 'removed') return false;
+    if (view === 'sold') { if (!l.sold) return false; } // the Sold tab: other filters (areas, beds…) still apply
+    else if (!prefs.includeRemoved && l.status === 'removed') return false;
     if (!l.manual && !matchesAreas(l, areas)) return false; // added by hand: shown even outside the areas
     if ((l.bedrooms ?? 0) < (prefs.minBeds || 0)) return false;
     if ((l.bathrooms ?? 0) < (prefs.minBaths || 0)) return false;
@@ -93,12 +94,15 @@ export function sortListings(list, sort) {
   };
   const time = (s) => (parseDate(s)?.getTime() ?? 0);
   switch (sort) {
-    case 'priceAsc': return arr.sort(byNum((l) => l.priceLow ?? l.priceHigh));
-    case 'priceDesc': return arr.sort(byNum((l) => l.priceHigh ?? l.priceLow, -1));
+    case 'priceAsc': return arr.sort(byNum((l) => l.soldPrice ?? l.priceLow ?? l.priceHigh));
+    case 'priceDesc': return arr.sort(byNum((l) => l.soldPrice ?? l.priceHigh ?? l.priceLow, -1));
     case 'dom': return arr.sort(byNum((l) => l.daysOnMarket));
     case 'value': return arr.sort(byNum(valueScore));
     case 'newest':
-    default: return arr.sort((a, b) => (time(b.firstSeen) - time(a.firstSeen)) || (time(b.dateListed) - time(a.dateListed)));
+    default: {
+      const t = (l) => time(l.sold ? l.removedDate : l.firstSeen); // sold homes: most recent sale first
+      return arr.sort((a, b) => (t(b) - t(a)) || (time(b.dateListed) - time(a.dateListed)));
+    }
   }
 }
 
@@ -122,7 +126,9 @@ export function renderCard(l, ctx) {
   const pc = priceChange(l);
   body.append(h('div', { class: 'card-head' },
     h('div', { class: 'card-price-row' },
-      h('span', { class: `card-price${l.priceLow == null && l.priceHigh == null ? ' is-unknown' : ''}`, text: l.priceText || 'Price on request' }),
+      l.sold
+        ? h('span', { class: `card-price${l.soldPrice == null ? ' is-unknown' : ''}`, text: l.soldPrice != null ? `Sold ${l.soldPriceText}` : 'Sold · price withheld' })
+        : h('span', { class: `card-price${l.priceLow == null && l.priceHigh == null ? ' is-unknown' : ''}`, text: l.priceText || 'Price on request' }),
       l.estimate && h('span', { class: 'badge badge-estimate', title: estimateNote(l.estimate) },
         h('b', { text: 'Estimated' }), ` ${fmtMoney(l.estimate.low)} – ${fmtMoney(l.estimate.high)}`),
       pc && h('span', { class: `badge badge-price dir-${pc.dir}`, title: `Guide changed ${fmtDate(pc.date)}` },
@@ -130,6 +136,7 @@ export function renderCard(l, ctx) {
         pc.delta != null ? `${pc.dir === 'down' ? 'Cut' : 'Up'} ${fmtMoney(Math.abs(pc.delta))}` : 'Guide changed', ` · ${fmtDate(pc.date, { year: undefined })}`),
     ),
     h('h3', { class: 'card-address', id: `t-${l.id}`, text: l.address || 'Address not provided' }),
+    l.sold && h('p', { class: 'muted small', text: [l.removedDate && `Sold ${fmtDate(l.removedDate)}`, l.priceText && `asked ${l.priceText}`].filter(Boolean).join(' · ') || 'Sold' }),
     l.headline && h('p', { class: 'card-headline', text: l.headline }),
   ));
 
@@ -140,7 +147,7 @@ export function renderCard(l, ctx) {
   ));
 
   const badges = [];
-  const statusLabel = STATUS_LABELS[l.status];
+  const statusLabel = l.sold ? 'Sold' : STATUS_LABELS[l.status];
   if (statusLabel) badges.push(h('span', { class: `badge badge-status s-${l.status}`, text: statusLabel }));
   if (l.saleMethod === 'auction') badges.push(h('span', { class: 'badge badge-auction' }, l.auctionDate ? `Auction ${fmtDateTime(l.auctionDate)}` : 'Auction'));
   else if (l.saleMethod === 'eoi') badges.push(h('span', { class: 'badge', text: 'Expressions of interest' }));
