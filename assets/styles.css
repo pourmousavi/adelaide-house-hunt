@@ -191,7 +191,8 @@ th { color: var(--ink-3); font-weight: 500; font-size: 12px; }
 .macro-tiles { display: flex; gap: 10px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 4px; margin: 0 calc(-1 * var(--gutter)); padding-left: var(--gutter); padding-right: var(--gutter); scrollbar-width: none; }
 .macro-tiles::-webkit-scrollbar { display: none; }
 .tile { flex: 0 0 min(84vw, 340px); scroll-snap-align: start; background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 14px 8px; display: grid; gap: 2px; min-width: 0; }
-@media (min-width: 760px) { .macro-tiles { display: grid; grid-template-columns: repeat(3, 1fr); overflow: visible; margin: 0; padding: 0; } .tile { flex: auto; } }
+@media (min-width: 760px) { .macro-tiles { display: grid; grid-template-columns: repeat(2, 1fr); overflow: visible; margin: 0; padding: 0; } .tile { flex: auto; } }
+@media (min-width: 1100px) { .macro-tiles { grid-template-columns: repeat(4, 1fr); } }
 .tile-top { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
 .tile-label { font-weight: 500; color: var(--ink-2); font-size: 14px; }
 .tile-asof { font-size: 12px; color: var(--ink-3); white-space: nowrap; }

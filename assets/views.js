@@ -23,6 +23,7 @@ export function renderMacroStrip(root, macro, error) {
     tile({ label: 'RBA cash rate', data: cash, deltaMode: 'lastMove', digits: 2, sub: 'target, % p.a.' }),
     tile({ label: 'CPI inflation', data: macro.cpi, deltaMode: 'prev', digits: 1, sub: 'year-ended, %' }),
     tile({ label: 'Mortgage rate', data: mortgageWithForecast(macro.mortgageRate, cash), deltaMode: 'prev', digits: 2, sub: macro.mortgageRate?.label || 'variable, % p.a.', derived: !macro.mortgageRate?.forecast }),
+    tile({ label: 'Unemployment', data: macro.unemployment, deltaMode: 'prev', digits: 1, sub: macro.unemployment?.label || 'seasonally adjusted, %' }),
   ];
   const strip = h('div', { class: 'macro-tiles' }, tiles.map((t) => t.el));
   const panel = h('div', { class: 'macro-method', id: 'macro-method', hidden: true },

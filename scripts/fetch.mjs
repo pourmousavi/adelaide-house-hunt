@@ -70,6 +70,10 @@ async function macroStep() {
   const cpi = L.toMonthly(L.parseRbaCsv(g1, ["GCPIAGYP"]).series.GCPIAGYP);
   const mort = L.parseRbaCsv(f6, ["FLRHOFVA"]).series.FLRHOFVA; // owner-occupier, variable, new loans, all institutions
   if (!cash.length || !cpi.length || !mort.length) throw new Error("RBA series empty");
+  // ponytail: optional series; a failed H5 fetch keeps the previous history instead of failing the whole step
+  let unemp = null;
+  try { unemp = L.toMonthly(L.parseRbaCsv(await (await http(`${RBA}/h5-data.csv`)).text(), ["GLFSURSA"]).series.GLFSURSA); if (!unemp.length) throw new Error("empty"); }
+  catch (e) { warn(`unemployment (H5) failed, keeping previous: ${e.message}`); }
 
   const since = (a) => a.filter((p) => p.date >= "2015-01");
   const cashMonthly = L.toMonthly(cash);
@@ -90,11 +94,13 @@ async function macroStep() {
     cashRate: { current: last(cash).value, asOf: last(cash).date, history: since(cashMonthly), forecast: cashFc },
     cpi: { current: last(cpi).value, asOf: last(cpi).date, history: since(cpi), forecast: cpiFc },
     mortgageRate: { current: last(mm).value, asOf: last(mm).date, history: since(mm), label: "Owner-occupier variable, new loans, all institutions (RBA F6)" },
+    unemployment: unemp ? { current: last(unemp).value, asOf: last(unemp).date, history: since(unemp), label: "Seasonally adjusted, % of labour force (ABS via RBA H5)" } : prev?.unemployment,
     method,
     sources: [
       { name: "RBA F1 (cash rate target, daily)", url: `${RBA}/f1-data.csv` },
       { name: "RBA G1 (CPI year-ended)", url: `${RBA}/g1-data.csv` },
       { name: "RBA F6 (housing lending rates)", url: `${RBA}/f6-data.csv` },
+      { name: "RBA H5 (labour force, unemployment rate)", url: `${RBA}/h5-data.csv` },
     ],
   };
   const blended = L.applyBlend(data, readJson("forecast_timesfm.json"));
@@ -358,7 +364,7 @@ const trend = (suburbs, l) => {
 };
 const macroBrief = (m) => m && {
   cashRate: m.cashRate.current, cashRateForecast4q: m.cashRate.forecast[3]?.value,
-  cpiYearEnded: m.cpi.current, cpiForecast4q: m.cpi.forecast[3]?.value, mortgageRate: m.mortgageRate.current,
+  cpiYearEnded: m.cpi.current, cpiForecast4q: m.cpi.forecast[3]?.value, mortgageRate: m.mortgageRate.current, unemploymentRate: m.unemployment?.current,
 };
 
 const LISTING_SYSTEM = `You are a cautious Adelaide residential property analyst helping a family buy a home near Linden Park Primary School and Glenunga International High School. For each listing in "listings", give a short, honest assessment using only the facts provided (listing facts, suburb median price trend, macro data). Do not invent facts; if the price is not disclosed, say so and base fair value on the suburb trend and features, keeping the range wide. Return JSON: {"results":[{"id":string,"summary":"2-3 sentences","pros":[string],"cons":[string],"fairValueLow":number AUD,"fairValueHigh":number AUD,"verdict":"Worth inspecting"|"Fair"|"Overpriced"|"Strong value"}]}. Max 4 pros and 4 cons, each under 12 words.`;

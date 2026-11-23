@@ -99,6 +99,7 @@ Additive fields written by the pipeline (UI may ignore): `house[].quarters` in s
   "cashRate":     { "current": 3.60, "asOf": "2026-11-04", "history": [{ "date": "2016-01", "value": 2.0 }], "forecast": [{ "date": "2027-03", "value": 3.5, "lo": 3.1, "hi": 3.85 }] },
   "cpi":          { "current": 3.0,  "asOf": "2026-09", "history": [{ "date": "2016-03", "value": 1.3 }], "forecast": [{ "date": "2027-03", "value": 2.8, "lo": 2.2, "hi": 3.4 }] },
   "mortgageRate": { "current": 5.9,  "asOf": "2026-10", "history": [...], "label": "Owner-occupier variable, new loans, all institutions (RBA F6)" }  // no forecast for mortgageRate; its history starts 2019 (F6 start),
+  "unemployment": { "current": 4.9, "asOf": "2026-10", "history": [...], "label": "Seasonally adjusted, % of labour force (ABS via RBA H5)" }  // monthly, no forecast; kept from the previous file if H5 fails,
   "method": "Plain-English description of the forecast model",
   "sources": [{ "name": "RBA F1.1", "url": "https://www.rba.gov.au/statistics/tables/csv/f1.1-data.csv" }]
 }
