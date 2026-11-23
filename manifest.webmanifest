@@ -1,0 +1,13 @@
+{
+  "name": "House Hunt — Linden Park & Glenunga",
+  "short_name": "House Hunt",
+  "description": "Private house-hunting workbench for the Linden Park Primary and Glenunga International High School zones.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F3F3EF",
+  "theme_color": "#1F6B52",
+  "icons": [
+    { "src": "assets/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

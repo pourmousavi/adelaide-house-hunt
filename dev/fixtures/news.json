@@ -1,0 +1,103 @@
+{
+ "generatedAt": "2026-11-23T05:00:00Z",
+ "items": [
+  {
+   "title": "Glenunga International High zone pressure pushes Linden Park prices",
+   "link": "https://example.com/sample-news/11",
+   "source": "realestate.com.au",
+   "date": "2026-11-21",
+   "category": "adelaide"
+  },
+  {
+   "title": "RBA Governor flags patience on rates amid sticky services inflation",
+   "link": "https://example.com/sample-news/9",
+   "source": "RBA",
+   "date": "2026-11-20",
+   "category": "rba"
+  },
+  {
+   "title": "Burnside council approves new tree canopy rules for renovations",
+   "link": "https://example.com/sample-news/8",
+   "source": "InDaily",
+   "date": "2026-11-19",
+   "category": "adelaide"
+  },
+  {
+   "title": "New listings in Adelaide up 9% on last spring, Domain says",
+   "link": "https://example.com/sample-news/6",
+   "source": "Domain",
+   "date": "2026-11-18",
+   "category": "property"
+  },
+  {
+   "title": "Eastern suburbs auctions clear at 72% despite thinner crowds",
+   "link": "https://example.com/sample-news/3",
+   "source": "The Advertiser",
+   "date": "2026-11-16",
+   "category": "adelaide"
+  },
+  {
+   "title": "Wage growth slows to 3.2%, easing pressure on the RBA",
+   "link": "https://example.com/sample-news/12",
+   "source": "ABC News",
+   "date": "2026-11-14",
+   "category": "economy"
+  },
+  {
+   "title": "Unemployment steady at 4.3% in October",
+   "link": "https://example.com/sample-news/7",
+   "source": "ABS",
+   "date": "2026-11-13",
+   "category": "economy"
+  },
+  {
+   "title": "Lenders trim fixed rates as markets price a 2027 cut",
+   "link": "https://example.com/sample-news/5",
+   "source": "AFR",
+   "date": "2026-11-12",
+   "category": "property"
+  },
+  {
+   "title": "Stamp duty relief for first-home buyers extended to established homes? Not yet, says Treasurer",
+   "link": "https://example.com/sample-news/10",
+   "source": "The Advertiser",
+   "date": "2026-11-10",
+   "category": "property"
+  },
+  {
+   "title": "SA population growth hits 20-year high",
+   "link": "https://example.com/sample-news/14",
+   "source": "InDaily",
+   "date": "2026-11-09",
+   "category": "adelaide"
+  },
+  {
+   "title": "Banks tighten serviceability buffers for investors",
+   "link": "https://example.com/sample-news/13",
+   "source": "AFR",
+   "date": "2026-11-06",
+   "category": "property"
+  },
+  {
+   "title": "RBA holds cash rate at 3.60% as inflation edges higher",
+   "link": "https://example.com/sample-news/1",
+   "source": "ABC News",
+   "date": "2026-11-04",
+   "category": "rba"
+  },
+  {
+   "title": "Adelaide house prices rise 0.6% in October, outpacing national average",
+   "link": "https://example.com/sample-news/2",
+   "source": "InDaily",
+   "date": "2026-11-03",
+   "category": "adelaide"
+  },
+  {
+   "title": "CPI rises 3.0% over the year to September quarter",
+   "link": "https://example.com/sample-news/4",
+   "source": "ABS",
+   "date": "2026-10-29",
+   "category": "economy"
+  }
+ ]
+}

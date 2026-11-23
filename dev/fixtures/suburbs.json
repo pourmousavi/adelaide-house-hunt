@@ -1,0 +1,1046 @@
+{
+ "Linden Park|5065": {
+  "house": [
+   {
+    "year": 2016,
+    "median": 1029000,
+    "sales": 51
+   },
+   {
+    "year": 2017,
+    "median": 1116000,
+    "sales": 37
+   },
+   {
+    "year": 2018,
+    "median": 1121000,
+    "sales": 35
+   },
+   {
+    "year": 2019,
+    "median": 1125000,
+    "sales": 37
+   },
+   {
+    "year": 2020,
+    "median": 1130000,
+    "sales": 72
+   },
+   {
+    "year": 2021,
+    "median": 1250000,
+    "sales": 51
+   },
+   {
+    "year": 2022,
+    "median": 1445000,
+    "sales": 47
+   },
+   {
+    "year": 2023,
+    "median": 1540000,
+    "sales": 51
+   },
+   {
+    "year": 2024,
+    "median": 1719000,
+    "sales": 77
+   },
+   {
+    "year": 2025,
+    "median": 1816000,
+    "sales": 76
+   },
+   {
+    "year": 2026,
+    "median": 1939000,
+    "sales": 42
+   }
+  ],
+  "unit": [
+   {
+    "year": 2016,
+    "median": 550000,
+    "sales": 8
+   },
+   {
+    "year": 2017,
+    "median": 573000,
+    "sales": 17
+   },
+   {
+    "year": 2018,
+    "median": 574000,
+    "sales": 20
+   },
+   {
+    "year": 2019,
+    "median": 573000,
+    "sales": 16
+   },
+   {
+    "year": 2020,
+    "median": 574000,
+    "sales": 6
+   },
+   {
+    "year": 2021,
+    "median": 621000,
+    "sales": 23
+   },
+   {
+    "year": 2022,
+    "median": 651000,
+    "sales": 8
+   },
+   {
+    "year": 2023,
+    "median": 664000,
+    "sales": 17
+   },
+   {
+    "year": 2024,
+    "median": 711000,
+    "sales": 26
+   },
+   {
+    "year": 2025,
+    "median": 748000,
+    "sales": 13
+   },
+   {
+    "year": 2026,
+    "median": 766000,
+    "sales": 21
+   }
+  ]
+ },
+ "Tusmore|5065": {
+  "house": [
+   {
+    "year": 2016,
+    "median": 1111000,
+    "sales": 29
+   },
+   {
+    "year": 2017,
+    "median": 1152000,
+    "sales": 50
+   },
+   {
+    "year": 2018,
+    "median": 1219000,
+    "sales": 51
+   },
+   {
+    "year": 2019,
+    "median": 1185000,
+    "sales": 41
+   },
+   {
+    "year": 2020,
+    "median": 1210000,
+    "sales": 69
+   },
+   {
+    "year": 2021,
+    "median": 1328000,
+    "sales": 52
+   },
+   {
+    "year": 2022,
+    "median": 1497000,
+    "sales": 55
+   },
+   {
+    "year": 2023,
+    "median": 1607000,
+    "sales": 74
+   },
+   {
+    "year": 2024,
+    "median": 1832000,
+    "sales": 38
+   },
+   {
+    "year": 2025,
+    "median": 1929000,
+    "sales": 57
+   },
+   {
+    "year": 2026,
+    "median": 2057000,
+    "sales": 58
+   }
+  ],
+  "unit": [
+   {
+    "year": 2016,
+    "median": 578000,
+    "sales": 21
+   },
+   {
+    "year": 2017,
+    "median": 605000,
+    "sales": 29
+   },
+   {
+    "year": 2018,
+    "median": 616000,
+    "sales": 9
+   },
+   {
+    "year": 2019,
+    "median": 600000,
+    "sales": 25
+   },
+   {
+    "year": 2020,
+    "median": 604000,
+    "sales": 26
+   },
+   {
+    "year": 2021,
+    "median": 644000,
+    "sales": 30
+   },
+   {
+    "year": 2022,
+    "median": 685000,
+    "sales": 16
+   },
+   {
+    "year": 2023,
+    "median": 711000,
+    "sales": 18
+   },
+   {
+    "year": 2024,
+    "median": 730000,
+    "sales": 10
+   },
+   {
+    "year": 2025,
+    "median": 772000,
+    "sales": 10
+   },
+   {
+    "year": 2026,
+    "median": 792000,
+    "sales": 17
+   }
+  ]
+ },
+ "Hazelwood Park|5066": {
+  "house": [
+   {
+    "year": 2016,
+    "median": 1079000,
+    "sales": 29
+   },
+   {
+    "year": 2017,
+    "median": 1153000,
+    "sales": 36
+   },
+   {
+    "year": 2018,
+    "median": 1186000,
+    "sales": 44
+   },
+   {
+    "year": 2019,
+    "median": 1161000,
+    "sales": 44
+   },
+   {
+    "year": 2020,
+    "median": 1140000,
+    "sales": 57
+   },
+   {
+    "year": 2021,
+    "median": 1315000,
+    "sales": 60
+   },
+   {
+    "year": 2022,
+    "median": 1475000,
+    "sales": 56
+   },
+   {
+    "year": 2023,
+    "median": 1554000,
+    "sales": 39
+   },
+   {
+    "year": 2024,
+    "median": 1774000,
+    "sales": 48
+   },
+   {
+    "year": 2025,
+    "median": 1895000,
+    "sales": 34
+   },
+   {
+    "year": 2026,
+    "median": 1965000,
+    "sales": 77
+   }
+  ],
+  "unit": [
+   {
+    "year": 2016,
+    "median": null,
+    "sales": 29
+   },
+   {
+    "year": 2017,
+    "median": 551000,
+    "sales": 12
+   },
+   {
+    "year": 2018,
+    "median": 548000,
+    "sales": 22
+   },
+   {
+    "year": 2019,
+    "median": 560000,
+    "sales": 10
+   },
+   {
+    "year": 2020,
+    "median": 561000,
+    "sales": 22
+   },
+   {
+    "year": 2021,
+    "median": 600000,
+    "sales": 10
+   },
+   {
+    "year": 2022,
+    "median": 613000,
+    "sales": 25
+   },
+   {
+    "year": 2023,
+    "median": 657000,
+    "sales": 25
+   },
+   {
+    "year": 2024,
+    "median": 691000,
+    "sales": 22
+   },
+   {
+    "year": 2025,
+    "median": 727000,
+    "sales": 7
+   },
+   {
+    "year": 2026,
+    "median": 734000,
+    "sales": 20
+   }
+  ]
+ },
+ "Burnside|5066": {
+  "house": [
+   {
+    "year": 2016,
+    "median": 1084000,
+    "sales": 32
+   },
+   {
+    "year": 2017,
+    "median": 1152000,
+    "sales": 40
+   },
+   {
+    "year": 2018,
+    "median": 1146000,
+    "sales": 60
+   },
+   {
+    "year": 2019,
+    "median": 1158000,
+    "sales": 44
+   },
+   {
+    "year": 2020,
+    "median": 1166000,
+    "sales": 35
+   },
+   {
+    "year": 2021,
+    "median": 1272000,
+    "sales": 32
+   },
+   {
+    "year": 2022,
+    "median": 1467000,
+    "sales": 37
+   },
+   {
+    "year": 2023,
+    "median": 1568000,
+    "sales": 36
+   },
+   {
+    "year": 2024,
+    "median": 1747000,
+    "sales": 59
+   },
+   {
+    "year": 2025,
+    "median": 1883000,
+    "sales": 55
+   },
+   {
+    "year": 2026,
+    "median": 1940000,
+    "sales": 48
+   }
+  ],
+  "unit": [
+   {
+    "year": 2016,
+    "median": 526000,
+    "sales": 25
+   },
+   {
+    "year": 2017,
+    "median": 533000,
+    "sales": 20
+   },
+   {
+    "year": 2018,
+    "median": 543000,
+    "sales": 28
+   },
+   {
+    "year": 2019,
+    "median": 547000,
+    "sales": 12
+   },
+   {
+    "year": 2020,
+    "median": 526000,
+    "sales": 16
+   },
+   {
+    "year": 2021,
+    "median": 564000,
+    "sales": 15
+   },
+   {
+    "year": 2022,
+    "median": 615000,
+    "sales": 26
+   },
+   {
+    "year": 2023,
+    "median": 621000,
+    "sales": 13
+   },
+   {
+    "year": 2024,
+    "median": 660000,
+    "sales": 27
+   },
+   {
+    "year": 2025,
+    "median": 692000,
+    "sales": 18
+   },
+   {
+    "year": 2026,
+    "median": 712000,
+    "sales": 17
+   }
+  ]
+ },
+ "Glen Osmond|5064": {
+  "house": [
+   {
+    "year": 2016,
+    "median": 871000,
+    "sales": 56
+   },
+   {
+    "year": 2017,
+    "median": 926000,
+    "sales": 60
+   },
+   {
+    "year": 2018,
+    "median": 983000,
+    "sales": 34
+   },
+   {
+    "year": 2019,
+    "median": 935000,
+    "sales": 45
+   },
+   {
+    "year": 2020,
+    "median": 975000,
+    "sales": 44
+   },
+   {
+    "year": 2021,
+    "median": 1105000,
+    "sales": 72
+   },
+   {
+    "year": 2022,
+    "median": 1179000,
+    "sales": 55
+   },
+   {
+    "year": 2023,
+    "median": 1322000,
+    "sales": 79
+   },
+   {
+    "year": 2024,
+    "median": 1461000,
+    "sales": 35
+   },
+   {
+    "year": 2025,
+    "median": 1578000,
+    "sales": 45
+   },
+   {
+    "year": 2026,
+    "median": 1622000,
+    "sales": 35
+   }
+  ],
+  "unit": [
+   {
+    "year": 2016,
+    "median": 471000,
+    "sales": 18
+   },
+   {
+    "year": 2017,
+    "median": 483000,
+    "sales": 9
+   },
+   {
+    "year": 2018,
+    "median": 491000,
+    "sales": 14
+   },
+   {
+    "year": 2019,
+    "median": 494000,
+    "sales": 19
+   },
+   {
+    "year": 2020,
+    "median": 489000,
+    "sales": 23
+   },
+   {
+    "year": 2021,
+    "median": 519000,
+    "sales": 14
+   },
+   {
+    "year": 2022,
+    "median": 555000,
+    "sales": 14
+   },
+   {
+    "year": 2023,
+    "median": 578000,
+    "sales": 25
+   },
+   {
+    "year": 2024,
+    "median": 602000,
+    "sales": 16
+   },
+   {
+    "year": 2025,
+    "median": 639000,
+    "sales": 7
+   },
+   {
+    "year": 2026,
+    "median": 653000,
+    "sales": 14
+   }
+  ]
+ },
+ "Glenunga|5064": {
+  "house": [
+   {
+    "year": 2016,
+    "median": 833000,
+    "sales": 47
+   },
+   {
+    "year": 2017,
+    "median": 911000,
+    "sales": 60
+   },
+   {
+    "year": 2018,
+    "median": 903000,
+    "sales": 44
+   },
+   {
+    "year": 2019,
+    "median": 935000,
+    "sales": 40
+   },
+   {
+    "year": 2020,
+    "median": 939000,
+    "sales": 80
+   },
+   {
+    "year": 2021,
+    "median": 1035000,
+    "sales": 53
+   },
+   {
+    "year": 2022,
+    "median": 1169000,
+    "sales": 49
+   },
+   {
+    "year": 2023,
+    "median": 1259000,
+    "sales": 50
+   },
+   {
+    "year": 2024,
+    "median": 1356000,
+    "sales": 44
+   },
+   {
+    "year": 2025,
+    "median": 1465000,
+    "sales": 60
+   },
+   {
+    "year": 2026,
+    "median": 1566000,
+    "sales": 30
+   }
+  ],
+  "unit": [
+   {
+    "year": 2016,
+    "median": 443000,
+    "sales": 22
+   },
+   {
+    "year": 2017,
+    "median": 454000,
+    "sales": 14
+   },
+   {
+    "year": 2018,
+    "median": null,
+    "sales": 6
+   },
+   {
+    "year": 2019,
+    "median": 468000,
+    "sales": 13
+   },
+   {
+    "year": 2020,
+    "median": 454000,
+    "sales": 27
+   },
+   {
+    "year": 2021,
+    "median": 506000,
+    "sales": 15
+   },
+   {
+    "year": 2022,
+    "median": 543000,
+    "sales": 28
+   },
+   {
+    "year": 2023,
+    "median": 545000,
+    "sales": 10
+   },
+   {
+    "year": 2024,
+    "median": 596000,
+    "sales": 7
+   },
+   {
+    "year": 2025,
+    "median": 630000,
+    "sales": 15
+   },
+   {
+    "year": 2026,
+    "median": 645000,
+    "sales": 11
+   }
+  ]
+ },
+ "Beaumont|5066": {
+  "house": [
+   {
+    "year": 2016,
+    "median": 1046000,
+    "sales": 51
+   },
+   {
+    "year": 2017,
+    "median": 1091000,
+    "sales": 47
+   },
+   {
+    "year": 2018,
+    "median": 1093000,
+    "sales": 58
+   },
+   {
+    "year": 2019,
+    "median": 1116000,
+    "sales": 28
+   },
+   {
+    "year": 2020,
+    "median": 1102000,
+    "sales": 53
+   },
+   {
+    "year": 2021,
+    "median": 1278000,
+    "sales": 61
+   },
+   {
+    "year": 2022,
+    "median": 1426000,
+    "sales": 66
+   },
+   {
+    "year": 2023,
+    "median": 1535000,
+    "sales": 46
+   },
+   {
+    "year": 2024,
+    "median": 1669000,
+    "sales": 73
+   },
+   {
+    "year": 2025,
+    "median": 1812000,
+    "sales": 60
+   },
+   {
+    "year": 2026,
+    "median": 1915000,
+    "sales": 80
+   }
+  ],
+  "unit": [
+   {
+    "year": 2016,
+    "median": 488000,
+    "sales": 23
+   },
+   {
+    "year": 2017,
+    "median": 498000,
+    "sales": 11
+   },
+   {
+    "year": 2018,
+    "median": 511000,
+    "sales": 26
+   },
+   {
+    "year": 2019,
+    "median": 517000,
+    "sales": 8
+   },
+   {
+    "year": 2020,
+    "median": null,
+    "sales": 15
+   },
+   {
+    "year": 2021,
+    "median": 537000,
+    "sales": 10
+   },
+   {
+    "year": 2022,
+    "median": 586000,
+    "sales": 16
+   },
+   {
+    "year": 2023,
+    "median": 604000,
+    "sales": 26
+   },
+   {
+    "year": 2024,
+    "median": 651000,
+    "sales": 26
+   },
+   {
+    "year": 2025,
+    "median": 676000,
+    "sales": 22
+   },
+   {
+    "year": 2026,
+    "median": 692000,
+    "sales": 27
+   }
+  ]
+ },
+ "Frewville|5063": {
+  "house": [
+   {
+    "year": 2016,
+    "median": 765000,
+    "sales": 71
+   },
+   {
+    "year": 2017,
+    "median": 772000,
+    "sales": 36
+   },
+   {
+    "year": 2018,
+    "median": 795000,
+    "sales": 31
+   },
+   {
+    "year": 2019,
+    "median": 812000,
+    "sales": 44
+   },
+   {
+    "year": 2020,
+    "median": 818000,
+    "sales": 62
+   },
+   {
+    "year": 2021,
+    "median": 876000,
+    "sales": 44
+   },
+   {
+    "year": 2022,
+    "median": 986000,
+    "sales": 42
+   },
+   {
+    "year": 2023,
+    "median": 1073000,
+    "sales": 58
+   },
+   {
+    "year": 2024,
+    "median": 1204000,
+    "sales": 69
+   },
+   {
+    "year": 2025,
+    "median": 1252000,
+    "sales": 75
+   },
+   {
+    "year": 2026,
+    "median": 1334000,
+    "sales": 31
+   }
+  ],
+  "unit": [
+   {
+    "year": 2016,
+    "median": 440000,
+    "sales": 26
+   },
+   {
+    "year": 2017,
+    "median": 427000,
+    "sales": 9
+   },
+   {
+    "year": 2018,
+    "median": 442000,
+    "sales": 26
+   },
+   {
+    "year": 2019,
+    "median": null,
+    "sales": 8
+   },
+   {
+    "year": 2020,
+    "median": 444000,
+    "sales": 22
+   },
+   {
+    "year": 2021,
+    "median": 481000,
+    "sales": 14
+   },
+   {
+    "year": 2022,
+    "median": 513000,
+    "sales": 20
+   },
+   {
+    "year": 2023,
+    "median": 526000,
+    "sales": 15
+   },
+   {
+    "year": 2024,
+    "median": 568000,
+    "sales": 25
+   },
+   {
+    "year": 2025,
+    "median": 586000,
+    "sales": 25
+   },
+   {
+    "year": 2026,
+    "median": 598000,
+    "sales": 27
+   }
+  ]
+ },
+ "Glenside|5065": {
+  "house": [
+   {
+    "year": 2016,
+    "median": 856000,
+    "sales": 25
+   },
+   {
+    "year": 2017,
+    "median": 903000,
+    "sales": 13
+   },
+   {
+    "year": 2018,
+    "median": 916000,
+    "sales": 25
+   },
+   {
+    "year": 2019,
+    "median": 918000,
+    "sales": 24
+   },
+   {
+    "year": 2020,
+    "median": 917000,
+    "sales": 16
+   },
+   {
+    "year": 2021,
+    "median": 1039000,
+    "sales": 21
+   },
+   {
+    "year": 2022,
+    "median": 1187000,
+    "sales": 21
+   },
+   {
+    "year": 2023,
+    "median": 1270000,
+    "sales": 25
+   },
+   {
+    "year": 2024,
+    "median": 1408000,
+    "sales": 21
+   },
+   {
+    "year": 2025,
+    "median": 1548000,
+    "sales": 20
+   },
+   {
+    "year": 2026,
+    "median": 1626000,
+    "sales": 10
+   }
+  ],
+  "unit": [
+   {
+    "year": 2016,
+    "median": 433000,
+    "sales": 22
+   },
+   {
+    "year": 2017,
+    "median": 449000,
+    "sales": 23
+   },
+   {
+    "year": 2018,
+    "median": null,
+    "sales": 20
+   },
+   {
+    "year": 2019,
+    "median": 457000,
+    "sales": 18
+   },
+   {
+    "year": 2020,
+    "median": null,
+    "sales": 8
+   },
+   {
+    "year": 2021,
+    "median": 488000,
+    "sales": 26
+   },
+   {
+    "year": 2022,
+    "median": 530000,
+    "sales": 21
+   },
+   {
+    "year": 2023,
+    "median": 536000,
+    "sales": 18
+   },
+   {
+    "year": 2024,
+    "median": 574000,
+    "sales": 9
+   },
+   {
+    "year": 2025,
+    "median": 599000,
+    "sales": 9
+   },
+   {
+    "year": 2026,
+    "median": 622000,
+    "sales": 15
+   }
+  ]
+ }
+}

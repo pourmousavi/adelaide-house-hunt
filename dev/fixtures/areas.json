@@ -1,0 +1,18 @@
+{
+ "zones": [
+  "Linden Park Primary School",
+  "Glenunga International High School"
+ ],
+ "zoneMatch": "all",
+ "extraSuburbs": [],
+ "propertyTypes": [
+  "House",
+  "Townhouse",
+  "Villa",
+  "Unit",
+  "ApartmentUnitFlat",
+  "Duplex",
+  "SemiDetached",
+  "Terrace"
+ ]
+}

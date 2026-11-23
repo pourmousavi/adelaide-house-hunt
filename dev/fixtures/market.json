@@ -1,0 +1,21 @@
+{
+ "generatedAt": "2026-11-23T05:00:00Z",
+ "model": "openai/gpt-4.1-mini",
+ "headline": "Steady, not cheap: eastern-suburbs family homes keep rising slowly while rates sit still",
+ "outlook": "Adelaide's inner-east has outperformed the national market for three years and the school-zone premium in Linden Park and Glenunga has widened. Stock is slightly higher than last spring, which is giving buyers a little more choice, but well-presented family homes on full blocks still sell inside three weeks. With the cash rate on hold and only one or two cuts priced for 2027, borrowing capacity is unlikely to jump; price growth should stay in the low single digits.",
+ "timing": "There is no strong reason to wait. A 25-50 bp rate cut in 2027 would lift borrowing capacity by roughly 3-5%, and sellers in this pocket tend to price that in quickly. Buy when the right house appears, negotiate hard on anything that has been listed more than four weeks or has already dropped its guide, and keep a buffer for rates staying higher for longer.",
+ "risks": [
+  "Inflation re-accelerating and the next move being a hike rather than a cut",
+  "Unemployment rising faster than forecast, which would weigh on household confidence",
+  "A larger spring/summer listings surge softening auction clearance",
+  "Planning changes (tree canopy, infill rules) affecting renovation plans"
+ ],
+ "watch": [
+  "RBA decisions: 9 Dec 2026, Feb 2027",
+  "Monthly CPI indicator on the last Wednesday of each month",
+  "Auction clearance rates in Burnside council area",
+  "Days-on-market for 4-bed houses in the zone",
+  "Number of price-guide reductions among current listings"
+ ],
+ "disclaimer": "Not financial advice. Generated from public data and news by a language model; verify before acting."
+}
