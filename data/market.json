@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-11-23T12:45:38.941Z",
+  "generatedAt": "2026-11-23T12:49:38.655Z",
   "model": "gemini-flash-latest",
-  "headline": "Adelaide Eastern Suburbs Market Shows Elevated Pricing Amid Restrictive Macro Backdrop",
-  "outlook": "Buyers targeting Adelaide's premium eastern belt (Linden Park, Glenunga, Tusmore, Toorak Gardens, St Georges, Beaumont) face a tightly supplied market where median transaction values remain historically high, exemplified by 2026 medians reaching $1,885,000 in Beaumont, $1,950,000 in Linden Park, $2,060,000 in St Georges, $2,271,111 in Glenunga, and $2,920,000 in Toorak Gardens, while Tusmore recorded $2,050,000. However, macroeconomic conditions present genuine headwinds: the RBA cash rate sits at 4.85% following successive tightenings through late 2026, standard mortgage rates are 6.2%, and unemployment has lifted to 4.9% with official expectations to peak above 5%. While simple model forecasts anticipate the cash rate edging slightly lower to 4.80% in 2027 and headline CPI moderating toward 3.36%, forecast bands reflect broad uncertainty (cash rate range of 3.41% to 5.83% by late 2027). Although current active stock is limited at 47 listings across the area with a median asking midpoint of $1,875,000 and zero recorded price reductions, broader economic softening and elevated borrowing costs create clear uncertainty regarding future asset price trajectories.",
-  "timing": "For a family purchasing a long-term home, timing should be guided by borrowing capacity and household stability rather than attempting to time market fluctuations. Given mortgage interest rates of 6.2% and Treasury projections pointing toward slowing economic activity and rising joblessness, prospective buyers should thoroughly stress-test family finances against potential high-side rate outcomes rather than relying on rapid monetary easing. Current tight local inventory provides minimal vendor discounting, but broader macroeconomic strain could eventually temper demand across high-value tiers. Families ready to proceed should remain selective, prioritizing property-specific suitability and prudent borrowing buffers over rushing to compete in low-volume conditions.",
+  "headline": "High borrowing costs and broader economic headwinds confront tight supply across Adelaide's premier eastern suburbs.",
+  "outlook": "Buyers targeting Adelaide's eastern suburbs—such as Linden Park, Glenunga, Tusmore, Toorak Gardens, St Georges, and Beaumont—face a complex environment defined by macroeconomic tension and local micro-market tightness. Nationally, the RBA cash rate sits elevated at 4.85% alongside a 6.2% average mortgage rate, with treasury forecasts flagging rising unemployment above 5% and heightened recession risks. Concurrently, historical sales data across these suburbs shows high price thresholds (2026 medians ranging from $1.885m in Beaumont to $2.92m in Toorak Gardens), supported locally by limited listing stock (47 active listings and a median asking price of $1.875m). However, substantial uncertainty remains: transactional volume is historically thin across these pockets (e.g., Tusmore recording just 8 sales across three quarters of 2026), and cash rate forecast bands remain exceptionally wide (spanning 3.41% to 5.83% by late 2027). While current supply constraints appear to underpin pricing, broader economic softening means prospective price trajectories cannot be guaranteed.",
+  "timing": "For a family seeking a long-term home, purchasing decisions should hinge on family horizon, household balance sheet durability, and property suitability rather than attempting to time cyclical peaks or troughs. With official interest rates projected to remain around 4.80% across 2027 and economic headwinds building, buyers have little incentive to stretch beyond comfortable borrowing limits. Families should stress-test finances against sustained mortgage rates above current 6.2% levels, given model upper bands allow for potential cash rate increases up to 5.92%. Taking a patient, selective approach allows your household to secure the right home when quality stock arises without entering into overleveraged bidding.",
   "risks": [
-    "High mortgage interest rates (currently 6.2%) testing borrowing limits and debt-servicing buffers for premium property purchases.",
-    "Macroeconomic deterioration, with national unemployment rising to 4.9% and forecasted to surpass 5% as broader economic growth slows.",
-    "Wide policy uncertainty, with RBA cash rate forecast ranges spanning from 3.41% to 5.83% through late 2027.",
-    "Potential volatility and thin transaction depth in premium enclaves, where low annual sales volumes (e.g., Tusmore recording 8 sales in 2026) can make local price measures sensitive."
+    "Sustained high borrowing costs: Cash rates at 4.85% and mortgage rates of 6.2% severely compress borrowing capacity, with forecast models showing potential upside risk to 5.92%.",
+    "Macroeconomic deterioration: Rising national unemployment (4.9%, forecast to exceed 5%) and warnings of broader economic slowdown may dampen buyer demand.",
+    "Thin local market liquidity: Suburbs like Tusmore and St Georges record relatively few annual transactions, magnifying statistical volatility and making precise valuations uncertain.",
+    "Policy and tax uncertainty: Upcoming capital gains tax reforms flagged in RBA modeling could influence investor behavior and domestic inflation trajectories."
   ],
   "watch": [
-    "RBA cash rate announcements following the increase to 4.85% in November 2026.",
-    "Changes in local eastern suburb stock levels from the current 47 active listings.",
-    "Shifts in vendor pricing behaviour, specifically whether the current zero price-cut rate begins to rise.",
-    "National labour market reports and Treasury budget updates regarding economic slowdown and unemployment surpassing 5%."
+    "RBA rate determinations and whether the cash rate holds at 4.85% or shifts toward the forecast range.",
+    "Local inventory levels and whether active listings (currently 47) rise, giving buyers greater choice.",
+    "Shifts in vendor pricing behavior, particularly if the current lack of price cuts begins to reverse.",
+    "National unemployment figures as Treasury forecasts suggest joblessness will climb past 5.0%."
   ],
   "disclaimer": "Not financial advice."
 }

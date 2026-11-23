@@ -55,6 +55,10 @@
     "lat": -34.9494444,
     "lng": 138.6535336
   },
+  "114 swaine avenue toorak gardens": {
+    "lat": -34.9331053,
+    "lng": 138.6363171
+  },
   "12 12a chisholm avenue burnside": {
     "lat": -34.9333395,
     "lng": 138.6620947
@@ -63,9 +67,17 @@
     "lat": -34.9555664,
     "lng": 138.6554508
   },
+  "125 cambridge terrace malvern": {
+    "lat": -34.9613639,
+    "lng": 138.6127
+  },
   "12a adnunda place beaumont": {
     "lat": -34.9460693,
     "lng": 138.6561859
+  },
+  "13 liston street parkside": {
+    "lat": -34.9421112,
+    "lng": 138.6079337
   },
   "14 east terrace beaumont": {
     "lat": -34.9475797,
@@ -75,9 +87,21 @@
     "lat": -34.9527587,
     "lng": 138.6566237
   },
+  "144 fisher street malvern": {
+    "lat": -34.9573168,
+    "lng": 138.6162603
+  },
   "15 burton avenue beaumont": {
     "lat": -34.9498752,
     "lng": 138.655749
+  },
+  "15 katherine street fullarton": {
+    "lat": -34.9519813,
+    "lng": 138.6329609
+  },
+  "15 martindale avenue toorak gardens": {
+    "lat": -34.9355298,
+    "lng": 138.6402638
   },
   "158 yarrabee road greenhill": {
     "lat": -34.9496345,
@@ -86,6 +110,10 @@
   "16 vansittart place beaumont": {
     "lat": -34.9459385,
     "lng": 138.6585984
+  },
+  "16 wellington terrace fullarton": {
+    "lat": -34.9522203,
+    "lng": 138.6288408
   },
   "17 burke street tusmore": {
     "lat": -34.937638,
@@ -98,6 +126,18 @@
   "17 undelcarra road burnside": {
     "lat": -34.9323254,
     "lng": 138.6651232
+  },
+  "17 willowbridge grove burnside": {
+    "lat": -34.9371541,
+    "lng": 138.6706378
+  },
+  "18 florence street fullarton": {
+    "lat": -34.9506094,
+    "lng": 138.6305277
+  },
+  "18 ifould drive burnside": {
+    "lat": -34.9436385,
+    "lng": 138.6700744
   },
   "19a woodcroft avenue st georges": {
     "lat": -34.9518185,
@@ -115,6 +155,10 @@
     "lat": -34.9441075,
     "lng": 138.6542652
   },
+  "21 mingara avenue stonyfell": {
+    "lat": -34.9332154,
+    "lng": 138.6738614
+  },
   "21a highfield avenue st georges": {
     "lat": -34.9484466,
     "lng": 138.6512769
@@ -122,6 +166,14 @@
   "22a sherwood terrace glen osmond": {
     "lat": -34.9555664,
     "lng": 138.6554508
+  },
+  "24 howard street beulah park": {
+    "lat": -34.9193187,
+    "lng": 138.643708
+  },
+  "26 5 mount barker road urrbrae": {
+    "lat": -34.964318,
+    "lng": 138.6454127
   },
   "26 wootoona terrace st georges": {
     "lat": -34.9550202,
@@ -179,9 +231,24 @@
     "lat": -34.934234,
     "lng": 138.6424343
   },
+  "36 royal avenue burnside": {
+    "lat": -34.9423021,
+    "lng": 138.6713418
+  },
+  "37 godfrey terrace leabrook": {
+    "lat": -34.9273833,
+    "lng": 138.6575207
+  },
   "377 fullarton road fullarton": {
     "lat": -34.9509177,
     "lng": 138.6253992
+  },
+  "394a kensington road erindale": {
+    "miss": "2026-11-23T12:49:38.655Z"
+  },
+  "39a claremont avenue netherby": {
+    "lat": -34.9707032,
+    "lng": 138.6285189
   },
   "41 lomandra avenue glenside": {
     "lat": -34.9409525,
@@ -199,9 +266,21 @@
     "lat": -34.9228631,
     "lng": 138.6299017
   },
+  "50 wyatt road burnside": {
+    "lat": -34.9430578,
+    "lng": 138.6663215
+  },
+  "52 austral terrace malvern": {
+    "lat": -34.9634198,
+    "lng": 138.6117065
+  },
   "528 portrush road st georges": {
     "lat": -34.9529213,
     "lng": 138.6434708
+  },
+  "549 fullarton road netherby": {
+    "lat": -34.9663443,
+    "lng": 138.6266287
   },
   "55 l estrange street glenside": {
     "lat": -34.9411418,
@@ -231,6 +310,14 @@
     "lat": -34.9469336,
     "lng": 138.6414638
   },
+  "7 edinburgh avenue stonyfell": {
+    "lat": -34.9331739,
+    "lng": 138.6766028
+  },
+  "7 moorcroft court burnside": {
+    "lat": -34.9321191,
+    "lng": 138.6623482
+  },
   "709 greenhill road burnside": {
     "lat": -34.9460656,
     "lng": 138.6715656
@@ -247,6 +334,10 @@
     "lat": -34.9486188,
     "lng": 138.6305535
   },
+  "8 brierbank terrace stonyfell": {
+    "lat": -34.932167,
+    "lng": 138.6697542
+  },
   "8 gilles road glen osmond": {
     "lat": -34.9573033,
     "lng": 138.6481698
@@ -258,6 +349,10 @@
   "8 verdale avenue linden park": {
     "lat": -34.9399566,
     "lng": 138.6507956
+  },
+  "80 cheltenham street malvern": {
+    "lat": -34.9596685,
+    "lng": 138.6115853
   },
   "85 conyngham street frewville": {
     "lat": -34.9487488,
