@@ -140,58 +140,6 @@ test("news relevance filter and importance score", () => {
   assert.equal(L.buildNews([many, many, many, many, many], now, 40, 60, 60).length, 40);
 });
 
-const base = (o = {}) => ({
-  id: "1", priceText: "$1.5m", priceLow: 1500000, priceHigh: 1500000, status: "active",
-  dateListed: "2026-11-01", photos: [], suburb: "Linden Park", ...o,
-});
-
-test("mergeListings keeps firstSeen, appends priceHistory, marks removed, drops after 30 days", () => {
-  const day1 = L.mergeListings([], [base({ id: "1" }), base({ id: "2", dateListed: null })], "2026-11-10");
-  assert.equal(day1[0].firstSeen, "2026-11-10");
-  assert.equal(day1[0].priceHistory.length, 1);
-  assert.equal(day1[0].daysOnMarket, 9);
-  assert.equal(day1[1].daysOnMarket, 0, "falls back to firstSeen");
-  assert.equal(day1[0].ai, null);
-
-  day1[0].ai = { summary: "kept", priceText: "$1.5m" };
-  const day2 = L.mergeListings(day1, [base({ id: "1", priceText: "$1.4m", priceLow: 1400000, priceHigh: 1400000 })], "2026-11-12");
-  const a = day2.find((l) => l.id === "1");
-  assert.equal(a.firstSeen, "2026-11-10");
-  assert.equal(a.priceHistory.length, 2);
-  assert.equal(a.priceHistory[1].priceText, "$1.4m");
-  assert.equal(a.ai.summary, "kept");
-  assert.equal(L.needsAi(a), true, "price text changed since analysis");
-  const b = day2.find((l) => l.id === "2");
-  assert.equal(b.status, "removed");
-  assert.equal(b.removedDate, "2026-11-12");
-
-  const same = L.mergeListings(day2, [base({ id: "1", priceText: "$1.4m", priceLow: 1400000, priceHigh: 1400000 })], "2026-11-13");
-  assert.equal(same.find((l) => l.id === "1").priceHistory.length, 2, "unchanged price adds nothing");
-  assert.equal(same.find((l) => l.id === "2").status, "removed");
-  const later = L.mergeListings(same, [base({ id: "1", priceText: "$1.4m", priceLow: 1400000, priceHigh: 1400000 })], "2026-12-20");
-  assert.equal(later.find((l) => l.id === "2"), undefined, "dropped after 30 days");
-});
-
-test("normalizeSearchItem maps a Domain search result", () => {
-  const l = L.normalizeSearchItem({ type: "PropertyListing", listing: {
-    id: 2013958589, headline: "Nice", priceDetails: { displayPrice: "$1.1m - $1.2m" },
-    propertyDetails: { state: "SA", suburb: "LINDEN PARK", postcode: "5065", displayableAddress: "1 Test St, Linden Park", latitude: -34.95, longitude: 138.65, bedrooms: 4, propertyType: "House", landArea: 700, features: ["Pool"] },
-    summaryDescription: "<b>Hi</b><br />there &amp; you", media: [{ category: "Image", url: "https://x/1.jpg" }],
-    advertiser: { name: "Agency", contacts: [{ name: "Jo", photoUrl: "p" }] }, listingSlug: "slug-1",
-    auctionSchedule: { time: "2026-12-06T11:00:00" }, labels: ["Under Offer"],
-  } });
-  assert.equal(l.id, "2013958589");
-  assert.equal(l.suburb, "Linden Park");
-  assert.equal(l.address, "1 Test St, Linden Park SA 5065");
-  assert.equal(l.priceLow, 1100000);
-  assert.equal(l.saleMethod, "auction");
-  assert.equal(l.auctionDate, "2026-12-06T11:00:00+10:30");
-  assert.equal(l.description, "Hi there & you");
-  assert.equal(l.status, "underOffer");
-  assert.equal(l.url, "https://www.domain.com.au/slug-1");
-  assert.equal(L.normalizeSearchItem({ type: "Project", listing: {} }), null);
-});
-
 test("cleanAi validates model output", () => {
   const ok = L.cleanAi({ summary: "s", pros: ["a"], cons: [], fairValueLow: "1000000", fairValueHigh: 1200000, verdict: "Fair" }, { model: "m", priceText: "p", now: "n" });
   assert.equal(ok.fairValueLow, 1000000);
@@ -199,11 +147,7 @@ test("cleanAi validates model output", () => {
   assert.deepEqual(L.parseJsonLoose('```json\n{"a":1}\n```'), { a: 1 });
 });
 
-test("agent mapping and cache", () => {
-  const a = L.parseAgent({ firstName: "Jane", lastName: "Smith", mobile: "0400 000 000", phone: "08 1", email: "j@x.com", agencyName: "Ag", photo: "p" });
-  assert.deepEqual(a, { name: "Jane Smith", phone: "0400 000 000", email: "j@x.com", agency: "Ag", photo: "p" });
-  const cache = { 7: { ...a, fetchedAt: "2026-11-01T00:00:00Z" } };
-  assert.deepEqual(L.agentsFromCache([7, 8], cache, [null, { name: "Fallback" }]), [a, { name: "Fallback" }]);
+test("isFresh", () => {
   assert.ok(L.isFresh("2026-11-01T00:00:00Z", 30, Date.parse("2026-11-20")));
   assert.ok(!L.isFresh("2026-09-01T00:00:00Z", 30, Date.parse("2026-11-20")));
 });
@@ -316,4 +260,13 @@ test("alert listing inside Linden Park x Glenunga zones passes the pipeline filt
   const inside = L.zonesContaining(lat, lng, zones);
   assert.ok(L.zoneMatches(inside, zones, "all"));
   assert.ok(!L.zoneMatches(L.zonesContaining(-34.6, 138.5, zones), zones, "all"));
+});
+
+test("manualToAlertItem turns a link + address into a listing", () => {
+  const m = L.manualToAlertItem({ url: "https://www.realestate.com.au/property-house-sa-linden+park-145678901?rsf=x", address: "12 Example St, Linden Park SA 5065", beds: "4", priceText: "" }, "2026-11-23");
+  assert.deepEqual([m.source, m.id, m.suburb, m.postcode, m.propertyType, m.beds, m.priceText, m.lastSeen], ["rea", "145678901", "Linden Park", "5065", "House", 4, null, "2026-11-23"]);
+  const l = L.mapAlertItem(m, "2026-11-23");
+  assert.equal(l.id, "rea-145678901");
+  assert.equal(L.manualToAlertItem({ url: "https://www.realestate.com.au/buy/in-linden+park/list-1", address: "1 A St" }, "2026-11-23"), null, "search page rejected");
+  assert.equal(L.manualToAlertItem({ url: "https://www.domain.com.au/7-a-st-glenunga-sa-5064-2019876543", address: "" }, "2026-11-23"), null, "address required");
 });

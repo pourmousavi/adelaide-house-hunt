@@ -1,4 +1,5 @@
 // Pure functions for the data pipeline. No I/O here so everything is unit-testable.
+import { resolveListingUrl, parseAddress } from "../worker/src/parse.js";
 
 export const TARGET = 2.5; // RBA inflation target midpoint, %
 const Z80 = 1.2816; // z-score for a two-sided 80% band
@@ -341,116 +342,10 @@ export function parsePriceText(text) {
 
 // ---------- listings ----------
 
-const titleCase = (s) => String(s ?? "").toLowerCase().replace(/\b[a-z]/g, (c) => c.toUpperCase());
-const stripHtml = (s) => decodeEntities(String(s ?? "").replace(/<br\s*\/?>/gi, " ").replace(/<[^>]+>/g, " ")).replace(/\s+/g, " ").trim();
 const isoDate = (s) => (s ? String(s).slice(0, 10) : null);
 export const daysBetween = (a, b) => Math.round((Date.parse(isoDate(b)) - Date.parse(isoDate(a))) / 864e5);
-const adl = (t) => (t && !/(Z|[+-]\d\d:?\d\d)$/.test(t) ? `${t}+10:30` : t ?? null); // Domain omits the offset on some times
-
-// Domain search result item -> contract listing (details fetched later fill the rest). null if unusable.
-export function normalizeSearchItem(item) {
-  const l = item?.listing;
-  if (item?.type !== "PropertyListing" || !l?.id) return null;
-  const p = l.propertyDetails ?? {}, pd = l.priceDetails ?? {};
-  const priceText = pd.displayPrice?.trim() || null;
-  const parsed = pd.priceFrom || pd.priceTo || pd.price
-    ? { priceLow: pd.priceFrom ?? pd.price ?? pd.priceTo, priceHigh: pd.priceTo ?? pd.price ?? pd.priceFrom }
-    : parsePriceText(priceText);
-  const hasLatLng = Number.isFinite(p.latitude) && Number.isFinite(p.longitude);
-  const labels = (l.labels ?? []).join(" ");
-  return {
-    id: String(l.id),
-    url: l.listingSlug ? `https://www.domain.com.au/${l.listingSlug}` : null,
-    headline: l.headline ?? null,
-    address: `${p.displayableAddress ?? ""} ${p.state ?? ""} ${p.postcode ?? ""}`.replace(/\s+/g, " ").trim(),
-    suburb: titleCase(p.suburb), postcode: p.postcode ?? null,
-    lat: hasLatLng ? p.latitude : null, lng: hasLatLng ? p.longitude : null,
-    propertyType: p.propertyType ?? null,
-    bedrooms: p.bedrooms ?? null, bathrooms: p.bathrooms ?? null, carspaces: p.carspaces ?? null,
-    landArea: p.landArea ?? null, buildingArea: p.buildingArea ?? null,
-    priceText, priceLow: parsed.priceLow ?? null, priceHigh: parsed.priceHigh ?? null,
-    saleMethod: l.auctionSchedule?.time ? "auction" : /expression|eoi/i.test(priceText ?? "") ? "eoi" : priceText && parsed.priceLow ? "privateTreaty" : null,
-    auctionDate: adl(l.auctionSchedule?.time),
-    photos: (l.media ?? []).filter((m) => /image/i.test(m.category ?? "image")).map((m) => m.url).slice(0, 12),
-    description: stripHtml(l.summaryDescription).slice(0, 600),
-    features: p.features ?? [],
-    ...(l.dateListed && { dateListed: isoDate(l.dateListed) }),
-    inspections: (l.inspectionSchedule?.times ?? []).map((t) => ({ start: adl(t.openingTime), end: adl(t.closingTime) })),
-    agents: (l.advertiser?.contacts ?? []).map((c) => ({ name: c.name ?? null, phone: null, email: null, agency: l.advertiser?.name ?? null, photo: c.photoUrl ?? null })),
-    status: /under\s*offer/i.test(labels) ? "underOffer" : "active",
-  };
-}
-
-// Overlay GET /v1/listings/{id} onto a normalized listing. Only fields the detail endpoint documents are used.
-export function applyDetail(listing, d) {
-  const out = { ...listing };
-  if (d.description) out.description = stripHtml(d.description).slice(0, 600);
-  if (d.dateListed) out.dateListed = isoDate(d.dateListed);
-  if (d.seoUrl) out.url = d.seoUrl;
-  if (d.features?.length) out.features = d.features;
-  const insp = d.inspectionDetails?.inspections;
-  if (insp?.length) out.inspections = insp.map((t) => ({ start: adl(t.openingTime), end: adl(t.closingTime) }));
-  const media = (d.media ?? []).filter((m) => /image|photo/i.test(`${m.category} ${m.type}`)).map((m) => m.url);
-  if (media.length) out.photos = media.slice(0, 12);
-  // Contact phone/email are not part of the documented listing payload; take them only if present.
-  const contacts = d.contacts ?? d.advertiserContacts ?? [];
-  if (contacts.length) {
-    out.agents = contacts.map((c, i) => ({
-      ...(out.agents[i] ?? { agency: null, photo: null }),
-      name: c.name ?? out.agents[i]?.name ?? null,
-      phone: c.phone ?? c.mobile ?? null, email: c.email ?? null,
-    }));
-  }
-  return out;
-}
-
-// GET /v1/agents/{id} -> cache entry (fetchedAt added by caller)
-export function parseAgent(a) {
-  const name = a.name ?? [a.firstName, a.lastName].filter(Boolean).join(" ");
-  return {
-    name: name || null, phone: a.mobile ?? a.phone ?? null, email: a.email ?? null,
-    agency: a.agencyName ?? a.agency?.name ?? null, photo: a.photo ?? a.photoUrl ?? null,
-  };
-}
-
-// Listing agents from the cache; contact ids not in the cache keep the search-result agent at the same index.
-export function agentsFromCache(contactIds, cache, fallback = []) {
-  return contactIds.map((id, i) => {
-    const { fetchedAt, ...a } = cache[id] ?? {};
-    return fetchedAt ? a : fallback[i];
-  }).filter(Boolean);
-}
 
 export const isFresh = (fetchedAt, days, now = Date.now()) => !!fetchedAt && (now - Date.parse(fetchedAt)) / 864e5 < days;
-
-// prev: previous listings.json listings; fresh: this run's normalized listings; today: 'YYYY-MM-DD'.
-export function mergeListings(prev, fresh, today, keepRemovedDays = 30) {
-  const old = new Map(prev.map((l) => [l.id, l]));
-  const seen = new Set();
-  const out = [];
-  for (const f of fresh) {
-    seen.add(f.id);
-    const p = old.get(f.id);
-    const l = { ...p, ...f };
-    delete l.removedDate;
-    l.firstSeen = p?.firstSeen ?? today;
-    l.priceHistory = [...(p?.priceHistory ?? [])];
-    if (l.priceHistory.at(-1)?.priceText !== f.priceText) {
-      l.priceHistory.push({ date: today, priceText: f.priceText, priceLow: f.priceLow, priceHigh: f.priceHigh });
-    }
-    l.salesHistory = f.salesHistory ?? p?.salesHistory ?? [];
-    l.ai = p?.ai ?? null;
-    l.dateListed ??= null;
-    l.daysOnMarket = Math.max(0, daysBetween(l.dateListed ?? l.firstSeen, today));
-    out.push(l);
-  }
-  for (const p of prev) {
-    if (seen.has(p.id)) continue;
-    if (p.status !== "removed") out.push({ ...p, status: "removed", removedDate: today });
-    else if (daysBetween(p.removedDate ?? today, today) <= keepRemovedDays) out.push(p);
-  }
-  return out;
-}
 
 // ---------- email-alert listings ----------
 
@@ -481,14 +376,14 @@ const SALE_WORDS = /auction/i;
 // Worker /listings.json item -> contract listing (no coordinates yet). null if unusable.
 export function mapAlertItem(it, today) {
   if (!it || !it.id || !it.source) return null;
-  const origin = it.source === "rea" ? "rea" : "domain";
+  const origin = it.source === "rea" ? "rea" : "domain"; // which portal sent the alert
   const { priceLow, priceHigh } = parsePriceText(it.priceText);
   const firstSeen = isoDate(it.firstSeen) ?? today, lastSeen = isoDate(it.lastSeen) ?? today;
   const priceHistory = (it.priceHistory?.length ? it.priceHistory : [{ date: firstSeen, priceText: it.priceText ?? null }])
     .map((h) => ({ date: isoDate(h.date) ?? firstSeen, priceText: h.priceText ?? null, ...parsePriceText(h.priceText) }));
   const sold = !!it.sold;
   return {
-    id: origin === "rea" ? `rea-${it.id}` : String(it.id), // domain alert ids share Domain's id space, so API and email copies dedupe
+    id: origin === "rea" ? `rea-${it.id}` : String(it.id),
     url: it.url ?? null,
     ...(it.urlIsRedirect && { urlIsRedirect: true }),
     headline: null,
@@ -519,6 +414,23 @@ export function mapAlertItem(it, today) {
   };
 }
 
+// data/manual.json entry (added from the app: listing link + address) -> worker-shaped item for mapAlertItem, or null.
+// lastSeen is today so a manual listing stays until it is removed from manual.json or an alert says it sold.
+export function manualToAlertItem(m, today) {
+  const u = resolveListingUrl(m?.url);
+  const address = String(m?.address ?? "").trim();
+  if (!u || !address) return null;
+  const a = parseAddress(address.replace(/\s+SA\s+(\d{4})$/i, ", SA $1"));
+  const n = (x) => (x === "" || x == null || !Number.isFinite(+x) ? null : +x);
+  return {
+    source: u.source, id: u.id, url: u.url, address,
+    suburb: a?.suburb ?? u.suburb ?? null, postcode: a?.postcode ?? address.match(/\b(5\d{3})\b/)?.[1] ?? null,
+    propertyType: u.propertyType, priceText: m.priceText?.trim() || null,
+    beds: n(m.beds), baths: n(m.baths), cars: n(m.cars),
+    firstSeen: m.addedAt ?? today, lastSeen: today, alertKind: null,
+  };
+}
+
 export const inExtraSuburbs = (l, areas) =>
   (areas.extraSuburbs ?? []).some((s) => String(s.suburb).toLowerCase() === String(l.suburb ?? "").toLowerCase() && (!s.postcode || !l.postcode || s.postcode === l.postcode));
 
@@ -541,15 +453,6 @@ export function mergeAlertListings(prev, fresh, today, outside = new Set(), keep
     out.push({ ...p, daysOnMarket: Math.max(0, daysBetween(p.firstSeen ?? today, today)) });
   }
   return out;
-}
-
-// ---------- suburb stats ----------
-
-// Domain suburbPerformanceStatistics v2 response -> [{ year, median, sales }]
-export function parseSuburbStats(json) {
-  return (json?.series?.seriesInfo ?? [])
-    .map((s) => ({ year: s.year, median: s.values?.medianSoldPrice ?? null, sales: s.values?.numberSold ?? null }))
-    .filter((s) => Number.isFinite(s.year));
 }
 
 // ---------- AI ----------
@@ -577,14 +480,6 @@ export function cleanAi(r, { model, priceText, now }) {
     priceText, // which asking price this analysis was for (additive field, used to detect changes)
   };
 }
-
-// ---------- seed suburbs ----------
-
-export const SEED_SUBURBS = [
-  { suburb: "Linden Park", postcode: "5065" }, { suburb: "Glenunga", postcode: "5064" },
-  { suburb: "Tusmore", postcode: "5065" }, { suburb: "Toorak Gardens", postcode: "5065" },
-  { suburb: "St Georges", postcode: "5064" }, { suburb: "Beaumont", postcode: "5066" },
-];
 
 // Deterministic grid scan: up to n points spread across the zone intersection (used by tests).
 export function samplePoints(zones, n) {

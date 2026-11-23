@@ -99,7 +99,7 @@ function updateUpdatedLabel() {
 
 // ---------------------------------------------------------------- listings
 
-const NO_LISTINGS_TEXT = "They'll appear after the first realestate.com.au / Domain alert email arrives (alerts are set up for Linden Park, Glenunga, St Georges, Frewville, Glenside, Glen Osmond, Beaumont, Hazelwood Park, Mount Osmond).";
+const NO_LISTINGS_TEXT = "New ones appear when a realestate.com.au / Domain alert email arrives. Homes already on the market can be added above with \"Add a listing\" (alerts are set up for Linden Park, Glenunga, St Georges, Frewville, Glenside, Glen Osmond, Beaumont, Hazelwood Park, Mount Osmond).";
 
 function listingsAll() { return state.data?.listings?.listings || []; }
 function visibleListings(view = state.prefs.view || 'all') {
@@ -127,6 +127,7 @@ const cardCtx = () => ({
 });
 
 function renderListings() {
+  renderAddListing();
   const root = $('#listings-root');
   const toolbar = $('#listings-toolbar');
   const d = state.data;
@@ -164,6 +165,53 @@ function renderListings() {
   const ctx = cardCtx();
   root.replaceChildren(summary, ...visible.map((l) => renderCard(l, ctx)));
   observeCharts(root);
+}
+
+// ---------------------------------------------------------------- add a listing by hand
+
+const LISTING_URL_RE = /^https?:\/\/(www\.)?(realestate\.com\.au\/property-[^?#]*-\d{5,}|domain\.com\.au\/[a-z0-9-]+-\d{7,})/i;
+const listingKey = (url) => String(url).match(/-(\d{5,})(?:[/?#]|$)/)?.[1];
+
+function renderAddListing() {
+  const root = $('#add-listing-root');
+  if (root.dataset.rendered) return;
+  root.dataset.rendered = '1';
+  const field = (id, label, attrs, hint) => h('div', { class: 'field' }, h('label', { for: id, text: label }), h('input', { id, name: id, autocomplete: 'off', ...attrs }), hint && h('span', { class: 'hint', text: hint }));
+  const num = (id, label) => field(id, label, { type: 'number', min: '0', max: '20', step: '1', inputmode: 'numeric' });
+  const status = h('p', { class: 'small', role: 'status' });
+  const form = h('form', { class: 'set-form', onsubmit: async (e) => {
+    e.preventDefault();
+    const f = Object.fromEntries(new FormData(form));
+    const url = f['al-url'].trim(), address = f['al-address'].trim().replace(/\s+/g, ' ');
+    if (!LISTING_URL_RE.test(url)) { status.textContent = 'That is not a single-listing link. Open the property on realestate.com.au or domain.com.au and copy the link from the address bar.'; form['al-url'].focus(); return; }
+    if (!/^\S*\d.*\s\S+/.test(address)) { status.textContent = 'Enter the street address, e.g. 12 Example St, Linden Park SA 5065.'; form['al-address'].focus(); return; }
+    const gh = store.getGh();
+    if (!gh.token) { status.replaceChildren('Adding needs the GitHub token. Save it in ', h('a', { href: '#settings', text: 'Settings' }), ' first.'); return; }
+    const btn = form.querySelector('button[type=submit]');
+    btn.disabled = true; status.textContent = 'Saving…';
+    try {
+      let list = [], sha = null;
+      try { const file = await getFile(gh.repo, gh.token, 'data/manual.json'); sha = file.sha; list = JSON.parse(file.content); } catch (err) { if (!/404/.test(err.message)) throw err; }
+      const key = listingKey(url);
+      if (list.some((m) => listingKey(m.url) === key)) { status.textContent = 'That listing is already added.'; return; }
+      list.push({ url: url.split(/[?#]/)[0], address, priceText: f['al-price'].trim() || null,
+        beds: f['al-beds'] || null, baths: f['al-baths'] || null, cars: f['al-cars'] || null, addedAt: new Date().toISOString().slice(0, 10) });
+      await putFile(gh.repo, gh.token, 'data/manual.json', `${JSON.stringify(list, null, 2)}\n`, { sha, message: `Add listing by hand: ${address}` });
+      let note = `Added ${address}.`;
+      try { await dispatchFetch(gh.repo, gh.token); note += ' A fetch has started; it appears in the list in a few minutes.'; }
+      catch (err) { note += ` It appears after the next scheduled fetch (could not start one now: ${err.message}).`; }
+      status.textContent = note; toast('Listing added');
+      form.reset();
+    } catch (err) { status.textContent = `Could not add it: ${err.message}`; }
+    finally { btn.disabled = false; }
+  } },
+    field('al-url', 'Listing link', { type: 'url', required: true, placeholder: 'https://www.realestate.com.au/property-house-sa-…', spellcheck: 'false' }, 'One property per entry, not a search page.'),
+    field('al-address', 'Street address', { type: 'text', required: true, placeholder: '12 Example St, Linden Park SA 5065' }, 'Needed to place it on the map; the link does not contain it.'),
+    field('al-price', 'Price (optional)', { type: 'text', placeholder: '$1.45m - $1.55m' }),
+    h('div', { class: 'field-row' }, num('al-beds', 'Beds'), num('al-baths', 'Baths'), num('al-cars', 'Cars')),
+    h('div', { class: 'row-wrap' }, h('button', { type: 'submit', class: 'btn btn-primary', text: 'Add listing' })),
+    status);
+  root.replaceChildren(h('details', { class: 'howto set-sec add-listing' }, h('summary', { text: 'Add a listing' }), form));
 }
 
 function renderFiltersPanel() {

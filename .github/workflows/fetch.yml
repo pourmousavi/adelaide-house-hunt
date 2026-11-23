@@ -32,8 +32,6 @@ jobs:
         run: node scripts/fetch.mjs
         env:
           ALERTS_URL: ${{ vars.ALERTS_URL }}
-          DOMAIN_CLIENT_ID: ${{ secrets.DOMAIN_CLIENT_ID }}
-          DOMAIN_CLIENT_SECRET: ${{ secrets.DOMAIN_CLIENT_SECRET }}
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
           AI_BASE_URL: ${{ vars.AI_BASE_URL }}
           AI_MODEL: ${{ vars.AI_MODEL }}

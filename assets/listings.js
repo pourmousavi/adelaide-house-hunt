@@ -64,7 +64,7 @@ export function filterListings(all, { prefs, saved, areas, view }) {
     if (view === 'hidden') return st === 'hidden';
     if (st === 'hidden') return false;
     if (!prefs.includeRemoved && l.status === 'removed') return false;
-    if (!matchesAreas(l, areas)) return false;
+    if (!l.manual && !matchesAreas(l, areas)) return false; // added by hand: shown even outside the areas
     if ((l.bedrooms ?? 0) < (prefs.minBeds || 0)) return false;
     if ((l.bathrooms ?? 0) < (prefs.minBaths || 0)) return false;
     if ((l.carspaces ?? 0) < (prefs.minCars || 0)) return false;
@@ -142,6 +142,7 @@ export function renderCard(l, ctx) {
   if (l.saleMethod === 'auction') badges.push(h('span', { class: 'badge badge-auction' }, l.auctionDate ? `Auction ${fmtDateTime(l.auctionDate)}` : 'Auction'));
   else if (l.saleMethod === 'eoi') badges.push(h('span', { class: 'badge', text: 'Expressions of interest' }));
   for (const z of l.zones || []) badges.push(h('span', { class: `badge badge-zone${ctx.areas?.zones?.includes(z) ? ' is-target' : ''}`, title: z, text: shortZone(z) }));
+  if (l.manual) badges.push(h('span', { class: 'badge', text: 'Added by you' }));
   if (l.ai?.verdict) badges.push(h('span', { class: `badge badge-verdict v-${slug(l.ai.verdict)}`, text: l.ai.verdict }));
   body.append(h('div', { class: 'badges' }, badges));
 

@@ -215,13 +215,7 @@ def main():
         return 1
 
     pcs = postcode_map()
-    prev = {}
-    try:
-        prev = json.loads(OUT.read_text())
-    except Exception:  # noqa: BLE001
-        pass
-    # Keep Domain-sourced suburbs (they carry fetchedAt) so they override the SA series.
-    out = {k: v for k, v in prev.items() if not k.startswith("_") and isinstance(v, dict) and v.get("fetchedAt")}
+    out = {}
     skipped = []
     for sub, q in sorted(cells.items()):
         known = pcs.get(norm(sub))

@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Data pipeline: RBA macro + forecast, news, email-alert listings (+ optional Domain API), AI analysis (Gemini free tier) -> data/*.json
+// Data pipeline: RBA macro + forecast, news, email-alert listings, AI analysis (Gemini free tier) -> data/*.json
 // Node 20+, no dependencies. Each step is independent; a failing step keeps its previous JSON.
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
 import { dirname, join } from "node:path";
@@ -20,14 +20,6 @@ const FEEDS = [
     category: q.startsWith("Adelaide") ? "property" : "economy", source: "Google News",
   })),
 ];
-// Domain: one token per scope so a plan lacking one scope does not break the others (confirmed from the docs:
-// search + GET listing = api_listings_read, properties = api_properties_read, suburb stats = api_suburbperformance_read).
-const SCOPES = { listings: "api_listings_read", properties: "api_properties_read", agents: "api_agencies_read", suburbs: "api_suburbperformance_read" };
-const DOMAIN_TOKEN_URL = "https://auth.domain.com.au/v1/connect/token";
-const DOMAIN_API = "https://api.domain.com.au";
-const DOMAIN_CALL_BUDGET = 150; // free tier is 500/day and we run ~2x/day plus manual runs
-const SUBURB_CACHE_DAYS = 7, AGENT_CACHE_DAYS = 30;
-const PROPERTY_LOOKUPS_PER_RUN = 15;
 // Any OpenAI-compatible chat endpoint. Default: Google Gemini free tier (GitHub Models was retired 30 Jul 2026).
 const AI_URL = process.env.AI_BASE_URL || "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions";
 const MODEL = process.env.AI_MODEL || "gemini-flash-latest";
@@ -168,177 +160,41 @@ async function alertsStep(areas, geojson) {
   catch (e) { warn(`alerts fetch failed, keeping ${prev.length} previous alert listings: ${e.message}`); return prev; }
   if (!Array.isArray(raw)) throw new Error("alerts /listings.json is not an array");
 
-  const items = raw.map((r) => L.mapAlertItem(r, today)).filter(Boolean)
-    .filter((l) => !l.propertyType || !areas.propertyTypes || areas.propertyTypes.includes(l.propertyType));
+  // Listings added by hand in the app (data/manual.json). An alert copy of the same listing wins.
+  const workerIds = new Set(raw.map((r) => `${r?.source}:${r?.id}`));
+  const manual = readJson("manual.json", []).map((m) => L.manualToAlertItem(m, today)).filter((m) => m && !workerIds.has(`${m.source}:${m.id}`));
+  const items = [...raw.map((r) => L.mapAlertItem(r, today)), ...manual.map((m) => ({ ...L.mapAlertItem(m, today), manual: true }))].filter(Boolean)
+    .filter((l) => l.manual || !l.propertyType || !areas.propertyTypes || areas.propertyTypes.includes(l.propertyType));
   const called = await geocodeAll(items.filter((l) => l.address));
   const fresh = [], outside = new Set();
   let unlocated = 0;
   for (const l of items) {
     if (l.lat === null) {
-      if (L.inExtraSuburbs(l, areas)) { fresh.push(l); continue; } // in a chosen suburb but no map point: keep, shown without a pin
+      if (l.manual || L.inExtraSuburbs(l, areas)) { fresh.push(l); continue; } // in a chosen suburb but no map point: keep, shown without a pin
       unlocated++; continue;
     }
     l.zones = L.zonesContaining(l.lat, l.lng, zones);
-    if (L.zoneMatches(l.zones, zones, areas.zoneMatch) || L.inExtraSuburbs(l, areas)) fresh.push(l); else outside.add(l.id);
+    if (l.manual || L.zoneMatches(l.zones, zones, areas.zoneMatch) || L.inExtraSuburbs(l, areas)) fresh.push(l); // you added it, so it stays even outside the zones else outside.add(l.id);
   }
   const merged = L.mergeAlertListings(prev, fresh, today, outside);
-  console.log(`  alerts: ${raw.length} in worker, ${fresh.length} inside zones, ${outside.size} outside, ${unlocated} not located, ${called} geocoded, ${merged.length} kept`);
+  console.log(`  alerts: ${raw.length} in worker, ${manual.length} added by hand, ${fresh.length} inside zones, ${outside.size} outside, ${unlocated} not located, ${called} geocoded, ${merged.length} kept`);
   return merged;
 }
 
 // ---- d. listings ----
-function makeDomain(id, secret) {
-  const tokens = {};
-  const budget = { left: DOMAIN_CALL_BUDGET };
-  async function token(scope) {
-    if (!tokens[scope]) {
-      const r = await http(DOMAIN_TOKEN_URL, {
-        method: "POST", headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: new URLSearchParams({ client_id: id, client_secret: secret, grant_type: "client_credentials", scope }),
-      }, 0);
-      tokens[scope] = (await r.json()).access_token;
-    }
-    return tokens[scope];
-  }
-  return {
-    budget,
-    async call(scopeKey, path, body) {
-      if (budget.left-- <= 0) throw new Error("Domain call budget exhausted");
-      const r = await http(DOMAIN_API + path, {
-        method: body ? "POST" : "GET",
-        headers: { Authorization: `Bearer ${await token(SCOPES[scopeKey])}`, ...(body && { "Content-Type": "application/json" }) },
-        ...(body && { body: JSON.stringify(body) }),
-      }, 0);
-      return r.json();
-    },
-  };
-}
-
-async function searchAll(domain, criteria) {
-  const out = [], pageSize = 100;
-  for (let pageNumber = 1; pageNumber <= 10; pageNumber++) { // search is capped at 1000 results anyway
-    const page = await domain.call("listings", "/v1/listings/residential/_search", { listingType: "Sale", ...criteria, pageNumber, pageSize });
-    out.push(...page);
-    if (page.length < pageSize) break;
-  }
-  return out;
-}
-
-async function fetchSuburbs(domain, wanted, prev) {
-  const out = { ...prev };
-  for (const { suburb, postcode } of wanted) {
-    const key = `${suburb}|${postcode}`;
-    const old = prev[key];
-    if (L.isFresh(old?.fetchedAt, SUBURB_CACHE_DAYS)) continue;
-    try {
-      const get = async (cat) => L.parseSuburbStats(await domain.call("suburbs",
-        `/v2/suburbPerformanceStatistics/SA/${encodeURIComponent(suburb)}/${postcode}?propertyCategory=${cat}&periodSize=years&startingPeriodRelativeToCurrent=1&totalPeriods=10`));
-      out[key] = { house: await get("house"), unit: await get("unit"), fetchedAt: nowIso };
-    } catch (e) { warn(`suburb ${key}: ${e.message}`); if (/budget|40[13]/.test(e.message)) break; }
-  }
-  return out;
-}
-
-async function salesHistory(domain, address) {
-  const hits = await domain.call("properties", `/v1/properties/_suggest?terms=${encodeURIComponent(address)}&pageSize=1`);
-  if (!hits?.[0]?.id) return [];
-  const p = await domain.call("properties", `/v1/properties/${hits[0].id}`);
-  return (p.salesHistory ?? p.sales ?? [])
-    .map((s) => ({ date: String(s.date ?? s.soldDate ?? s.contractDate ?? "").slice(0, 10), price: s.price ?? s.soldPrice ?? null }))
-    .filter((s) => s.date && s.price);
-}
-
 async function listingsStep(areas, geojson, alertListings) {
   const prevFile = readJson("listings.json");
-  const zones = L.selectZones(areas, geojson);
-  if (!zones.length) throw new Error("areas.json zones match nothing in zones.geojson");
-  const id = process.env.DOMAIN_CLIENT_ID, secret = process.env.DOMAIN_CLIENT_SECRET;
-  // API listings = anything not from alerts (legacy files have no `via`); samples never count as real.
-  const prevApi = (prevFile?.listings ?? []).filter((l) => l.via !== "alerts" && !String(l.id).startsWith("SAMPLE-")); // legacy sample rows are dropped
-  const alerts = alertListings ?? (prevFile?.listings ?? []).filter((l) => l.via === "alerts"); // alerts step failed: keep previous
-
-  let api = prevApi, suburbs = readJson("suburbs.json", {});
-  if (id && secret) ({ listings: api, suburbs } = await domainListings(areas, zones, prevApi, id, secret));
-  else if (prevApi.length) console.log("  no Domain credentials; keeping previous Domain listings");
-
-  const apiIds = new Set(api.map((l) => l.id));
-  const listings = [...api, ...alerts.filter((l) => !apiIds.has(l.id))]; // the richer API copy wins when both exist
-  const source = api.length ? "domain" : alerts.length ? "alerts" : null;
-
-  if (!source) {
+  if (!L.selectZones(areas, geojson).length) throw new Error("areas.json zones match nothing in zones.geojson");
+  // alerts step failed: keep previous alert listings (rows from the removed Domain API path are dropped)
+  const listings = alertListings ?? (prevFile?.listings ?? []).filter((l) => l.via === "alerts");
+  const suburbs = readJson("suburbs.json", {});
+  if (!listings.length) {
     // never write samples: no real listings means an empty list
-    console.log("  no real listings yet (no alerts, no Domain credentials); writing empty list");
+    console.log("  no alert listings yet; writing empty list");
     writeJson("listings.json", { generatedAt: nowIso, source: "none", listings: [] });
     return { listings: [], suburbs };
   }
-  writeJson("listings.json", { generatedAt: nowIso, source, listings });
-  return { listings, suburbs };
-}
-
-async function domainListings(areas, zones, prev, id, secret) {
-  const domain = makeDomain(id, secret);
-  const prevById = new Map(prev.map((l) => [l.id, l]));
-
-  const commonCriteria = { propertyTypes: areas.propertyTypes };
-  const raw = [];
-  const box = L.searchBox(zones, areas.zoneMatch);
-  if (box) {
-    // Domain geoWindow box shape per the Domain swagger (topLeft / bottomRight, lat + lon)
-    raw.push(...(await searchAll(domain, { ...commonCriteria, geoWindow: { box: { topLeft: { lat: box.maxLat, lon: box.minLng }, bottomRight: { lat: box.minLat, lon: box.maxLng } } } })));
-  } else warn("selected zones do not overlap; skipping geo search");
-  const extraIds = new Set();
-  if (areas.extraSuburbs?.length) {
-    const locations = areas.extraSuburbs.map((s) => ({ state: "SA", suburb: s.suburb, postCode: s.postcode ?? "", includeSurroundingSuburbs: false }));
-    for (const it of await searchAll(domain, { ...commonCriteria, locations })) { raw.push(it); extraIds.add(String(it.listing?.id)); }
-  }
-
-  const fresh = new Map();
-  for (const item of raw) {
-    const l = L.normalizeSearchItem(item);
-    if (!l || fresh.has(l.id) || l.lat === null) continue;
-    l.zones = L.zonesContaining(l.lat, l.lng, zones);
-    l.origin = "domain"; l.via = "api";
-    if (L.zoneMatches(l.zones, zones, areas.zoneMatch) || extraIds.has(l.id)) fresh.set(l.id, l);
-  }
-  console.log(`  search: ${raw.length} results, ${fresh.size} inside zones`);
-
-  // Details only for new listings or ones whose price text changed.
-  const agentCache = readJson("agents.json", {});
-  let agentsOk = true;
-  let lookups = PROPERTY_LOOKUPS_PER_RUN, propertiesOk = true;
-  for (const [lid, l] of fresh) {
-    const p = prevById.get(lid);
-    if (p && p.priceText === l.priceText) { delete l.description; continue; }
-    try {
-      const d = await domain.call("listings", `/v1/listings/${lid}`);
-      const detailed = L.applyDetail(l, d);
-      const ids = d.advertiserIdentifiers?.contactIds ?? [];
-      for (const aid of ids) {
-        if (!agentsOk || L.isFresh(agentCache[aid]?.fetchedAt, AGENT_CACHE_DAYS)) continue;
-        try { agentCache[aid] = { ...L.parseAgent(await domain.call("agents", `/v1/agents/${aid}`)), fetchedAt: nowIso }; }
-        catch (e) { if (/40[13]|budget/.test(e.message)) agentsOk = false; warn(`agent ${aid}: ${e.message}`); }
-      }
-      detailed.agents = L.agentsFromCache(ids, agentCache, detailed.agents);
-      fresh.set(lid, detailed);
-    } catch (e) { warn(`detail ${lid}: ${e.message}`); }
-    if (!p && propertiesOk && lookups > 0 && domain.budget.left > 20) {
-      lookups--;
-      try { const h = await salesHistory(domain, l.address); if (h.length) fresh.get(lid).salesHistory = h; }
-      catch (e) { if (/40[13]|budget/.test(e.message)) propertiesOk = false; warn(`sales history ${lid}: ${e.message}`); }
-    }
-  }
-
-  writeJson("agents.json", agentCache);
-  const listings = L.mergeListings(prev, [...fresh.values()], today);
-
-  const wanted = [...L.SEED_SUBURBS, ...(areas.extraSuburbs ?? []).map((s) => ({ suburb: s.suburb, postcode: s.postcode })),
-    ...listings.filter((l) => l.status !== "removed").map((l) => ({ suburb: l.suburb, postcode: l.postcode }))];
-  const uniq = [...new Map(wanted.filter((w) => w.suburb && w.postcode).map((w) => [`${w.suburb}|${w.postcode}`, w])).values()];
-  const prevSub = readJson("suburbs.json", {});
-  // Domain stats override the SA Valuer-General series for the same suburb; other suburbs and _ metadata are kept.
-  const suburbs = await fetchSuburbs(domain, uniq, prevSub._sample ? {} : prevSub);
-  writeJson("suburbs.json", suburbs);
-  console.log(`  domain calls used: ${DOMAIN_CALL_BUDGET - domain.budget.left}`);
+  writeJson("listings.json", { generatedAt: nowIso, source: "alerts", listings });
   return { listings, suburbs };
 }
 
@@ -384,7 +240,7 @@ async function aiListingsStep(listingsRes, macro, token) {
           id: l.id, address: l.address, suburb: l.suburb, type: l.propertyType, beds: l.bedrooms, baths: l.bathrooms, cars: l.carspaces,
           landM2: l.landArea, askingPrice: l.priceText, priceLow: l.priceLow, priceHigh: l.priceHigh, saleMethod: l.saleMethod,
           daysOnMarket: l.daysOnMarket, priceChanges: l.priceHistory.length - 1, features: l.features, description: l.description?.slice(0, 400),
-          pastSales: l.salesHistory, suburbMedianTrend: trend(listingsRes.suburbs, l),
+          suburbMedianTrend: trend(listingsRes.suburbs, l),
         })),
       });
       for (const r of res.results ?? []) {
