@@ -15,11 +15,18 @@ export function buildYear(l) {
   return m ? +m[1] : null;
 }
 
-function suburbMedian(l, suburbs) {
+/** suburbs.json key for a listing; listings from alerts often have no postcode, so fall back to the name. */
+export function suburbKey(l, suburbs) {
   if (!suburbs || !l.suburb) return null;
-  const kind = ['Unit', 'ApartmentUnitFlat'].includes(l.propertyType) ? 'unit' : 'house';
   const name = l.suburb.toLowerCase();
-  const key = Object.keys(suburbs).find((k) => k.toLowerCase() === `${name}|${l.postcode}`) ?? Object.keys(suburbs).find((k) => k.toLowerCase().startsWith(`${name}|`));
+  const keys = Object.keys(suburbs);
+  return keys.find((k) => k.toLowerCase() === `${name}|${l.postcode}`) ?? keys.find((k) => k.toLowerCase().startsWith(`${name}|`)) ?? null;
+}
+
+function suburbMedian(l, suburbs) {
+  const key = suburbKey(l, suburbs);
+  if (!key) return null;
+  const kind = ['Unit', 'ApartmentUnitFlat'].includes(l.propertyType) ? 'unit' : 'house';
   const rows = (suburbs[key]?.[kind] || []).filter((r) => r?.median);
   return rows.length ? rows.at(-1).median : null;
 }

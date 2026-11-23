@@ -32,3 +32,11 @@ test('pool and build year parsed from text', () => {
   assert.equal(buildYear({ headline: 'Brand new family home' }), new Date().getFullYear());
   assert.equal(buildYear({ description: '' }), null);
 });
+
+test('suburbKey falls back to the name when postcode is missing', async () => {
+  const { suburbKey } = await import('./estimate.js');
+  const S = { 'Glen Osmond|5064': {}, 'Glenunga|5064': {} };
+  assert.equal(suburbKey({ suburb: 'Glen Osmond', postcode: null }, S), 'Glen Osmond|5064');
+  assert.equal(suburbKey({ suburb: 'glenunga', postcode: 5064 }, S), 'Glenunga|5064');
+  assert.equal(suburbKey({ suburb: 'Nowhere' }, S), null);
+});

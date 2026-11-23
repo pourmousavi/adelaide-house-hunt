@@ -5,6 +5,7 @@ import { renderChart } from './charts.js';
 import { computeFinance } from './finance.js';
 import { realGrowth, deflate } from './inflation.js';
 import * as store from './store.js';
+import { suburbKey } from './estimate.js';
 
 export const TYPE_LABELS = {
   House: 'House', Townhouse: 'Townhouse', Villa: 'Villa', Unit: 'Unit', ApartmentUnitFlat: 'Apartment',
@@ -257,7 +258,7 @@ export function observeCharts(root) {
 
 export function buildPriceChart(container, l, ctx, { real = false } = {}) {
   container.classList.remove('chart-lazy');
-  const key = `${l.suburb}|${l.postcode}`;
+  const key = suburbKey(l, ctx.suburbs);
   const kind = seriesKind(l.propertyType);
   const stats = (ctx.suburbs?.[key]?.[kind] || []).filter((r) => r && r.median != null && r.year);
   const now = Date.now();
@@ -274,7 +275,8 @@ export function buildPriceChart(container, l, ctx, { real = false } = {}) {
   }).filter((d) => Number.isFinite(d.x));
   const asking = l.priceLow != null || l.priceHigh != null ? { lo: l.priceLow ?? l.priceHigh, hi: l.priceHigh ?? l.priceLow } : null;
   const fair = l.ai && l.ai.fairValueLow != null && l.ai.fairValueHigh != null ? { lo: l.ai.fairValueLow, hi: l.ai.fairValueHigh } : null;
-  if (!pts.length && !dots.length && !asking) {
+  const est = !asking && l.estimate ? { lo: l.estimate.low, hi: l.estimate.high } : null;
+  if (!pts.length && !dots.length && !asking && !est) {
     container.replaceChildren(h('p', { class: 'chart-empty', text: ctx.suburbs ? `No price history for ${l.suburb || 'this suburb'} yet.` : 'Suburb trends are not available (suburbs.json missing).' }));
     return;
   }
@@ -305,11 +307,12 @@ export function buildPriceChart(container, l, ctx, { real = false } = {}) {
     dots, dotsLabel: 'This home sold',
     hBands: [
       asking && { label: 'Asking', lo: asking.lo, hi: asking.hi, from: now, color: 'var(--chart-2)' },
+      est && { label: 'Estimated (no guide)', lo: est.lo, hi: est.hi, from: now, color: 'var(--ink-3)' },
       fair && { label: 'AI fair value', lo: fair.lo, hi: fair.hi, from: now, color: 'var(--chart-3)', outline: true },
     ].filter(Boolean),
     vMarkers: [{ x: now, label: 'now' }],
     yFormat: (v) => fmtMoney(v),
-    ariaLabel: `Price trend for ${l.address}: ${l.suburb} ${kind} median over ten years${toReal ? " in today's dollars" : ''}${inflPts.length > 1 ? ', with an inflation-only line' : ''}${dots.length ? `, ${dots.length} past sale${dots.length === 1 ? '' : 's'}` : ''}${asking ? `, asking ${l.priceText}` : ''}`,
+    ariaLabel: `Price trend for ${l.address}: ${l.suburb} ${kind} median over ten years${toReal ? " in today's dollars" : ''}${inflPts.length > 1 ? ', with an inflation-only line' : ''}${dots.length ? `, ${dots.length} past sale${dots.length === 1 ? '' : 's'}` : ''}${asking ? `, asking ${l.priceText}` : ''}${est ? `, estimated ${fmtMoney(est.lo)} to ${fmtMoney(est.hi)} (no price guide published)` : ''}`,
   });
 }
 
