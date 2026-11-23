@@ -3,6 +3,14 @@
     "lat": -34.9563262,
     "lng": 138.6409763
   },
+  "10 carr avenue frewville": {
+    "lat": -34.9475892,
+    "lng": 138.6319807
+  },
+  "10 taminga avenue glenunga": {
+    "lat": -34.9547382,
+    "lng": 138.6420414
+  },
   "102 sydney street glenunga": {
     "lat": -34.9469336,
     "lng": 138.6414638
@@ -10,6 +18,10 @@
   "11 bonython avenue beaumont": {
     "lat": -34.9453858,
     "lng": 138.6627738
+  },
+  "11 duncan road beaumont": {
+    "lat": -34.9487587,
+    "lng": 138.6651453
   },
   "11 sunnyside rd st georges": {
     "lat": -34.9531394,
@@ -19,9 +31,25 @@
     "lat": -34.9492731,
     "lng": 138.6533738
   },
+  "113 devereux road beaumont": {
+    "lat": -34.9494444,
+    "lng": 138.6535336
+  },
+  "12 sherwood terrace glen osmond": {
+    "lat": -34.9555664,
+    "lng": 138.6554508
+  },
+  "14 east terrace beaumont": {
+    "lat": -34.9475797,
+    "lng": 138.6597583
+  },
   "14 tennyson drive beaumont": {
     "lat": -34.9527587,
     "lng": 138.6566237
+  },
+  "15 burton avenue beaumont": {
+    "lat": -34.9498752,
+    "lng": 138.655749
   },
   "16 vansittart place beaumont": {
     "lat": -34.9459385,
@@ -35,6 +63,22 @@
     "lat": -34.9518185,
     "lng": 138.6451918
   },
+  "1b hewitt ave linden park": {
+    "lat": -34.9477406,
+    "lng": 138.6488417
+  },
+  "2 montrose place beaumont": {
+    "lat": -34.9515945,
+    "lng": 138.6599948
+  },
+  "20 collingwood avenue hazelwood park": {
+    "lat": -34.9441075,
+    "lng": 138.6542652
+  },
+  "21a highfield avenue st georges": {
+    "lat": -34.9484466,
+    "lng": 138.6512769
+  },
   "22a sherwood terrace glen osmond": {
     "lat": -34.9555664,
     "lng": 138.6554508
@@ -42,6 +86,18 @@
   "26 wootoona terrace st georges": {
     "lat": -34.9550202,
     "lng": 138.6481268
+  },
+  "27 lascelles avenue beaumont": {
+    "lat": -34.9540632,
+    "lng": 138.6545609
+  },
+  "28 duncan road beaumont": {
+    "lat": -34.9487587,
+    "lng": 138.6651453
+  },
+  "2a austin crescent st georges": {
+    "lat": -34.9503815,
+    "lng": 138.6443078
   },
   "2a kyle street glenside": {
     "lat": -34.940961,
@@ -51,25 +107,57 @@
     "lat": -34.9492753,
     "lng": 138.6561152
   },
+  "3 evelyn court beaumont": {
+    "lat": -34.9480265,
+    "lng": 138.6649804
+  },
+  "30 katoomba road beaumont": {
+    "lat": -34.947223,
+    "lng": 138.6633853
+  },
   "31 beatty street linden park": {
     "lat": -34.9428063,
     "lng": 138.6440608
+  },
+  "33 davenport terrace hazelwood park": {
+    "lat": -34.9346931,
+    "lng": 138.6548278
   },
   "41 lomandra avenue glenside": {
     "lat": -34.9409525,
     "lng": 138.6287626
   },
+  "49 mount osmond road mount osmond": {
+    "lat": -34.9629967,
+    "lng": 138.6570511
+  },
   "528 portrush road st georges": {
     "lat": -34.9529213,
     "lng": 138.6434708
+  },
+  "55 l estrange street glenside": {
+    "lat": -34.9411418,
+    "lng": 138.635485
+  },
+  "56 hay road linden park": {
+    "lat": -34.9471698,
+    "lng": 138.6507649
   },
   "58a hay road linden park": {
     "lat": -34.9472116,
     "lng": 138.6509755
   },
+  "6 allinga avenue glenside": {
+    "lat": -34.9411223,
+    "lng": 138.6372327
+  },
   "68 sydney street glenunga": {
     "lat": -34.9469336,
     "lng": 138.6414638
+  },
+  "79 conyngham street frewville": {
+    "lat": -34.9487488,
+    "lng": 138.6343035
   },
   "8 gilles road glen osmond": {
     "lat": -34.9573033,
@@ -79,6 +167,10 @@
     "lat": -34.9472678,
     "lng": 138.6642667
   },
+  "85 conyngham street frewville": {
+    "lat": -34.9487488,
+    "lng": 138.6343035
+  },
   "9 gill terrace glen osmond": {
     "lat": -34.9634053,
     "lng": 138.648682
@@ -86,6 +178,10 @@
   "9 hay road linden park": {
     "lat": -34.9468926,
     "lng": 138.6444525
+  },
+  "9 sturt place beaumont": {
+    "lat": -34.9461282,
+    "lng": 138.6539239
   },
   "lot 800 23 wootoona terrace st georges": {
     "lat": -34.9550202,

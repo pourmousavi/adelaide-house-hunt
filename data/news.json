@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T12:25:47.338Z",
+  "generatedAt": "2026-11-23T12:32:34.542Z",
   "items": [
     {
       "title": "753,700 Australians Out of Work as Treasury Expects Unemployment to Peak Above 5%",
@@ -210,18 +210,6 @@
       "importance": 0.75
     },
     {
-      "title": "‘No use pretending otherwise’: Chalmers warns of tough year ahead as jobless and inflation forecasts worsen",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1PUFE4WEtWR2hNOHI1VzRYX21VeVVqVjdOaXpiT1RQTXo1U0pFWDNzclhOX3pFc0FUSXBZREU0Wm5HQXJQeG1uaEVXQi1IWWJBN21j?oc=5",
-      "source": "شبكة تواصل الإخبارية",
-      "date": "2026-11-23T04:08:54.000Z",
-      "category": "economy",
-      "topics": [
-        "inflation",
-        "budget"
-      ],
-      "importance": 2.25
-    },
-    {
       "title": "Australian borrowers face threat of further rate hikes before relief in late 2027",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNjBBclB2LUtSbVltN1dybGxVUVpyQlVtRGZoRWx5bDk5Xzd6cDVTOEVQdEI1U19DZlhoSUFrMG1LWW1UMlM2WlhfQnc3TVhiTHJtRFAwNlVKbGVfU0RLSjZ5YnFDTXM4aFhDRVNUYnk1YXJMTkg3T29IbV9ZdV9iMTN1NUs1V2F0U3lDbVpVWHpuWW8wb003Z2htV1pBVER4dlRYVTZ2N3VtMlFFVUF5LU80MEZYX0pr?oc=5",
       "source": "Real Estate",
@@ -231,6 +219,18 @@
         "rates"
       ],
       "importance": 2.25
+    },
+    {
+      "title": "Rising unemployment raises questions over RBA rate hike as property prices fall",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcXAwT2x4bWFWZGg4NXpINnB3UXVrUzQ5MnNlX3EwMlZPUENCZUtjUnJyajNsblE2dDlXQTN4ZEQ0TWVrWVdVOUVWdUgzQzQxUXc5Qk5YT3F3WkZISTl1dE1HVmJPWmVDM1hTd01MR0pSajhzNGpoaHF4XzJLZDdtQVA2WWhGQ0VrV2tYNnlfcHluRUVZM0E?oc=5",
+      "source": "Elite Agent",
+      "date": "2026-11-23T00:27:15.000Z",
+      "category": "rba",
+      "topics": [
+        "rates",
+        "housing"
+      ],
+      "importance": 2.75
     },
     {
       "title": "Recession could hit Australia by next month on one closely-watched indicator",
@@ -297,10 +297,10 @@
       "importance": 2
     },
     {
-      "title": "Australia’s unemployment rate hits a five-year high. Has the RBA finally finished raising interest rates?",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWWZ2Z0NtMElYdGdhM0VpT2NEZmJ6dWlPdzRJOWVFVnNTbGQzc1JmVDdKbDQ1MzBLY1pRbTV2dzdMZzdobzdmekxHcWJGVk8xR0NVamhkakh3Uzdxa2lZS0RZbVJBSTBpMzJjRDhqcXhkRVZwWG83NzFTdTFiVDdoeFFRMlFjLXN4VndIUVU5MzBEU1lCTXczZWFwSmZNdTZlc1Y1Z2h0ZE0tUExwUmNRWnJ5ZUdKRzBJdXFWbTVpTjJ0ZkZHb1czaEc0WjFNZw?oc=5",
-      "source": "Property Update",
-      "date": "2026-11-20T06:48:37.000Z",
+      "title": "RBA Rate Hike November 2026: Home Loan Announcements",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9nSkp5S002SDNPVlNEeVFhR1psMzBJdEs1XzM4RHp0QUNYcmVaYkVvVkpfWlNJall3NEQ3WG93VXB4WFpPOVE2a2ZfVDZVcENqM3VUU0s4SE1rNlJvNTVoS253?oc=5",
+      "source": "Savings.com.au",
+      "date": "2026-11-20T08:00:00.000Z",
       "category": "rba",
       "topics": [
         "rates"
@@ -319,6 +319,17 @@
       "importance": 1
     },
     {
+      "title": "Interest rate cuts are coming: Latest expert views on when and how much",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSWpoc21MTU00N0FUTncwZmkwR29BLUI5ay1ucnV3VzY1M1I0cDRBVkNGSnZ6STdpdWQtcWQwdEV0V0ZPV0ZvQUJaVG5Hd2JDd3NTZlZvY1hJY3ZUWVhOdlhFbkg0WUxoSnM2TzF2Qk1iRTN6RklmR0dFX2x3c3d0RnZFMGcxaWxxeHNPX1VSdDdFcTBWeDZUc2xrSEdUYWV5VXNYLTNhNUgwUQ?oc=5",
+      "source": "Market Index",
+      "date": "2026-11-20T03:45:05.000Z",
+      "category": "rba",
+      "topics": [
+        "rates"
+      ],
+      "importance": 2
+    },
+    {
       "title": "House prices face double-digit falls before 2028 recovery",
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNM3pZQWdjNTd5YVVXRS1VcV85bEhKa0JQWGdlLUl6ckFyQXNpdnFqUE5haXVGTXBET3dXeTdQQXlDeEd2bUFZMGFNODhTem1jckE0RFgzYkRRcS1DVjYxMUlEcU1aYzJlckFUQld6VTg4UkUyNFFyQ2xaaFJGS0pXY2Rn?oc=5",
       "source": "Domain",
@@ -328,6 +339,61 @@
         "housing"
       ],
       "importance": 1
+    },
+    {
+      "title": "RBA November 2026 Rate Decision: Why Did Three Board Members Oppose the Increase?",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdnRreFd0LUVES1dpeHo4c0ZpdmRJUWpmU2tiUTNVWFlGd05fMUcteWI2d3NKenItZDhiQ1h3eHJob2JTYkZEcWd1VDdPWE82a2FUT2E3UGVyWVBNcG1BV3hjbWpUUDBWNnNHOXg0QVFnOTMtVk1OZnpqdHloZzNtNHphMGZaSzc4ckZJVEg5Tm1SM1JrekRKZExQdU5RV05yVjA1YkJNVEFXN245c2N1VVdsOXZZcGw4QllzUlBB?oc=5",
+      "source": "Kalkine",
+      "date": "2026-11-18T05:41:00.000Z",
+      "category": "rba",
+      "topics": [
+        "rates"
+      ],
+      "importance": 2
+    },
+    {
+      "title": "Three RBA Speakers Scheduled Ahead of December’s Interest Rate Decision",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNM3ZaWnNaNEZMSVdKTlh1aDBQbjl2Q0o5RjRwbHBVZ2Rlam96dWVZdHVRZ194U1MyMldrRkdfNWs1ZV82ZGlhNTd0NjNKRmgxY29CcGh3M1hQRGlVQWFmRTV2VFU4clNFTkxHM0JzdkpDa0xUbEFxcy1IZkJtZFF0LW00dDJUZ0VLSVdyNHYwNDlZUkVZb0NIeGlRWTQ2d05JaWxpSVo1eDBWd2dadWNrajVB?oc=5",
+      "source": "Kalkine",
+      "date": "2026-11-17T11:32:00.000Z",
+      "category": "rba",
+      "topics": [
+        "rates"
+      ],
+      "importance": 2
+    },
+    {
+      "title": "RBA Rate Decision: Why Forecast Job Growth Supported the Majority",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOR09fakFfbGwwUDZjdDJESlU2SUJsM1M0clpCYnd1ODZGSTk1RlE2Vnh3SE80LWhMNGRXcUs0ekVmTHZIUjNFamFCZnVVaXRWV0Y0aVJ0a2FLaWJ0YTY1alg3cnRMalJWRWVQMmI5RC12LXY1Q0w0SUFmMUg3b2dycXk1eVA5b1BJTFNnVC1kZFNXbzNCdTQwRkk2NVE3MjdYVkQxWGVqSlZkZw?oc=5",
+      "source": "Kalkine",
+      "date": "2026-11-17T11:32:00.000Z",
+      "category": "rba",
+      "topics": [
+        "rates"
+      ],
+      "importance": 2
+    },
+    {
+      "title": "What Do the RBA’s November Minutes Reveal About the December Rate Decision?",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVEV1VEd2eUNYdUZtM0FpTDI3VXhMTVdsSVo1bFJvSHhmeXNFcnlRSHlpUXN2dzkwa095QWtVOTAtTUpQS3hsc1NRaGltdFpLLWR4TjZlUlo1N3lUUE9CM0dsclJfLTFoTkFwQW1VUEJnSU42M0hzV3piSVJISEF5bUtPUm1PMmdIclVWdFNZMFRWNnZ1a0lIaUVSVHpFMmRfU051SjJoVUt4SGZ0a05Kb3FHYlU0UQ?oc=5",
+      "source": "Kalkine",
+      "date": "2026-11-17T10:48:00.000Z",
+      "category": "rba",
+      "topics": [
+        "rates"
+      ],
+      "importance": 2
+    },
+    {
+      "title": "RBA pause increasingly likely after November’s split vote",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeFY2bVdUUmJ0d245dzBybGVMR2hza3pyempRbDNyeGs4Ni1HeS1mOURYMndmeUVKb2NPazBfS3U0T2FjYV91UF9ENmFyUTFLVXVNOTJMQVBXMUlEckZYQmw4Q3BoaGN3SFRkU3BlVE9yODFMVHpOb2d0d1lBMDZmd3A0VFhjZDQwb0l1VGFoTHZOVE5wX0toYUZZS2RBTzQ?oc=5",
+      "source": "CommBank",
+      "date": "2026-11-17T05:19:53.000Z",
+      "category": "rba",
+      "topics": [
+        "rates"
+      ],
+      "importance": 2
     },
     {
       "title": "Latest Property Price Forecasts. Australian Property Market Outlook 2026-2027: Navigating a Market Correction",
@@ -362,71 +428,6 @@
         "adelaide"
       ],
       "importance": 1.25
-    },
-    {
-      "title": "Young couple score $676k coastal home as Aussie property prices plunge first time in years: 'Got lucky'",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQcjV1alNTRFFVS1hhU212RTh0QTFIaWpBX0Q4cmNINElEYmdsTnNtcEFPdl82bmFfdi12OWl2dU1iOUZ6bkNCTzlSQ2I2T1BONU1MSXBpSVZVNzF3REtvVHZNQ0R0LWtsdk15NW92ZkIyUV9Td1VURldmSlptdWl2QjE4WnFBSXIzd254a2VObmpobE9PMWFiYTZ3OHVzblhUd25zY2Qzd2hnNkxuOG5fdTlPTGljR3NKVk9kSDU3d0Y3RzBOejVqVjBlUEJuYy1uMGtTSTJZQQ?oc=5",
-      "source": "Yahoo News Australia",
-      "date": "2026-11-15T02:10:00.000Z",
-      "category": "property",
-      "topics": [
-        "housing"
-      ],
-      "importance": 0.75
-    },
-    {
-      "title": "Designation of Prosegur Australia Pty Ltd under the Cash Distribution Framework Act 2026",
-      "link": "https://www.rba.gov.au/media-releases/2026/mr-26-31.html",
-      "source": "RBA",
-      "date": "2026-11-05T23:45:00.000Z",
-      "category": "rba",
-      "topics": [],
-      "importance": 0.25
-    },
-    {
-      "title": "Adelaide suburbs defying housing downturn with $300k-plus price surge",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUFJqRmhTWU4zUzVYY2NXNlRGX2ttUTVub2pDdHFOdUdRWmE2TDFrOWVEQVFfS3hHOGhGbVlHRkN6NXVjSzZDWHIzWjBNRmhRQ3U4WURnRnNfZXAxM3FGczJ2SkNXeU1kQ2Y3STBvV3R4WjV6UUlUa3l6YVFRbVVlb2JacDFxQ2VsLWpCYnE4UFpaYUZCYnVNSXdiY0kxRV92ZDJqYUVn?oc=5",
-      "source": "Real Estate",
-      "date": "2026-11-05T08:00:00.000Z",
-      "category": "adelaide",
-      "topics": [
-        "housing",
-        "adelaide"
-      ],
-      "importance": 1.25
-    },
-    {
-      "title": "The Latest Median Property Prices in Australian Cities",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNemdhYW5hUGJLQVZGZW41ZzNocWxoOHpjXzhRUXJ2TFRSS2FMWDhRZnlqYXUwVlNGb0tNNHBldUNsTTdTWlFGcjBxakl2SGtKZ3FzWDBkOGVoUHJGZXZnUzZGVGRnLUU0S2xKcVgxU2ZvZ0ZjYnVfbVZQRDBIY1VHZ3ZPa0w5QmxYdFJIUkVLT1R3NHpSWmc?oc=5",
-      "source": "Property Update",
-      "date": "2026-11-04T08:00:00.000Z",
-      "category": "property",
-      "topics": [
-        "housing"
-      ],
-      "importance": 0.75
-    },
-    {
-      "title": "Home prices tipped for record 14% downturn: CommBank economists",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUGFnTUt4NkV0aklnR1dhVUZ2VXdGWEpldEw0eC03UXpzekpHNU9NN1lTYlhuOEpjeFRqWEdkYmNGLXdTTW1KbmxIVDc4Y3ZMZl9tdHlqeVh1cnI4Z0hDUER0eEVRU0Zia084ZUtvb3p6U21waUxUeEk5WlppcjNhYm1aQnJuLTJqbXJCXzdLZzZjMTFyVVNGeVJpZVhHOGlWWkdNWHM4SW9kdw?oc=5",
-      "source": "CommBank",
-      "date": "2026-11-03T08:00:00.000Z",
-      "category": "property",
-      "topics": [
-        "housing"
-      ],
-      "importance": 0.75
-    },
-    {
-      "title": "Adelaide home values plunge for fifth straight month, new data shows",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYlpvNG1qTS1XeDQ0aklBcE1EOHBNZ3hmZDJrSjd3N2pEaW5sQWt0bERKVGQ3WVRqZzItMkdwdGdGdXZuWW5kV0ctTkdtSzJtOFpLUU9EeUw2blk3MGlBU19OWmhxRDVvcmVGbEEtX0ZOWG51NDhSUElIanNqdlpaSmItckNRekVKMkY1UndONzV3SnBBc0RvVTZiZlFvUlNrWlEzSXRn?oc=5",
-      "source": "Real Estate",
-      "date": "2026-11-02T08:00:00.000Z",
-      "category": "adelaide",
-      "topics": [
-        "adelaide"
-      ],
-      "importance": 0.5
     }
   ]
 }

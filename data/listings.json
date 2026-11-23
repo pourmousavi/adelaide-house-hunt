@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T12:25:47.338Z",
+  "generatedAt": "2026-11-23T12:32:34.542Z",
   "source": "alerts",
   "listings": [
     {
@@ -50,7 +50,25 @@
       "lastSeen": "2026-11-23",
       "origin": "rea",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "This four-bedroom St Georges home offers generous four-car parking near quality eastern suburb schooling. However, having only a single bathroom for four bedrooms at an asking price nearing $2 million presents a significant family compromise. With mortgage rates at 6.2%, buyers should account for the capital needed to add a second bathroom.",
+        "pros": [
+          "Four bedrooms suitable for family living",
+          "Generous four-car accommodation",
+          "Established St Georges location"
+        ],
+        "cons": [
+          "Only one bathroom for four bedrooms",
+          "High asking price near two million",
+          "Land size is not disclosed"
+        ],
+        "fairValueLow": 1750000,
+        "fairValueHigh": 1950000,
+        "verdict": "Overpriced",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:32:34.542Z",
+        "priceText": "$1,998,888"
+      },
       "imported": true
     },
     {
@@ -101,7 +119,24 @@
       "lastSeen": "2026-11-23",
       "origin": "rea",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "This Beaumont house provides four bedrooms, two bathrooms, and four parking spaces at an accessible price guide of $1,150,000 to $1,250,000. It offers family-ready accommodation in the eastern foothills near target school zones. Prospective buyers must inspect traffic conditions on Devereux Road and verify the unstated land dimensions.",
+        "pros": [
+          "Competitive price guide for four bedrooms",
+          "Two bathrooms accommodate family routines",
+          "Substantial four-car parking capacity"
+        ],
+        "cons": [
+          "Situated on busy Devereux Road",
+          "Land size is not disclosed"
+        ],
+        "fairValueLow": 1150000,
+        "fairValueHigh": 1280000,
+        "verdict": "Strong value",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:32:34.542Z",
+        "priceText": "$1,150,000 to $1,250,000"
+      },
       "imported": true
     },
     {
@@ -152,7 +187,24 @@
       "lastSeen": "2026-11-23",
       "origin": "rea",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "The asking price is not disclosed for this four-bedroom, two-bathroom family home in sought-after Glenunga. Because pricing and historical trend data are withheld, we establish a broad fair value estimate anchored to typical four-bedroom family housing in this high-demand zone. It warrants priority inspection given its central position near both Glenunga International High and Linden Park Primary.",
+        "pros": [
+          "Prime Glenunga location near schools",
+          "Functional four-bedroom, two-bathroom layout",
+          "Four car spaces provide ample parking"
+        ],
+        "cons": [
+          "Asking price is not disclosed",
+          "Land size is not provided"
+        ],
+        "fairValueLow": 1550000,
+        "fairValueHigh": 2150000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:32:34.542Z",
+        "priceText": "Contact Agent"
+      },
       "imported": true
     },
     {
@@ -203,7 +255,25 @@
       "lastSeen": "2026-11-23",
       "origin": "rea",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "Offering five bedrooms and three bathrooms, this St Georges residence delivers generous internal scale for larger households. However, frontage to major arterial Portrush Road introduces significant traffic noise and access constraints. The $1,900,000 to $2,090,000 price guide balances substantial room counts against arterial road exposure.",
+        "pros": [
+          "Five bedrooms suit large families",
+          "Three bathrooms avoid morning congestion",
+          "Located within St Georges"
+        ],
+        "cons": [
+          "Directly fronts busy Portrush Road",
+          "Land size is not disclosed",
+          "Top end exceeds two million dollars"
+        ],
+        "fairValueLow": 1800000,
+        "fairValueHigh": 2020000,
+        "verdict": "Fair",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:32:34.542Z",
+        "priceText": "$1,900,000 -$2,090,000"
+      },
       "imported": true
     },
     {
@@ -254,7 +324,25 @@
       "lastSeen": "2026-11-23",
       "origin": "rea",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "Located right in Linden Park, this four-bedroom, two-bathroom home sits directly in the target primary school neighbourhood. The street address implies a subdivided allotment, indicating potentially modest outdoor space despite the undisclosed land measurement. At an asking price of $1,700,000, it reflects standard entry pricing for move-in family accommodation in this enclave.",
+        "pros": [
+          "Located directly in Linden Park",
+          "Practical four-bedroom, two-bathroom floorplan",
+          "Clear, transparent asking price"
+        ],
+        "cons": [
+          "Address suggests a subdivided allotment",
+          "Land size is not provided",
+          "High interest rates limit borrowing capacity"
+        ],
+        "fairValueLow": 1620000,
+        "fairValueHigh": 1750000,
+        "verdict": "Fair",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:32:34.542Z",
+        "priceText": "$1,700,000"
+      },
       "imported": true
     },
     {
@@ -305,7 +393,25 @@
       "lastSeen": "2026-11-23",
       "origin": "rea",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "This Glenside house offers 4 bedrooms, 3 bathrooms, and 2 car spaces with a price guide of $1,600,000 to $1,750,000. Land size and suburb historical data are not provided in the listing. Buyers should carefully evaluate repayment serviceability given the current 6.2% mortgage interest rate.",
+        "pros": [
+          "Offers 4 bedrooms and 3 bathrooms",
+          "Includes 2 parking spaces",
+          "Transparent price guide provided"
+        ],
+        "cons": [
+          "Land size is not disclosed",
+          "Elevated 6.2 percent mortgage rate environment",
+          "Price guide begins at 1.6 million dollars"
+        ],
+        "fairValueLow": 1600000,
+        "fairValueHigh": 1750000,
+        "verdict": "Fair",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:32:34.542Z",
+        "priceText": "Price Guide $1,600,000- $1,750,000"
+      },
       "imported": true
     },
     {
@@ -356,7 +462,25 @@
       "lastSeen": "2026-11-23",
       "origin": "rea",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "Located in Glenunga near key school zones, this property provides 4 bedrooms, 3 bathrooms, and 2 car spaces. The asking price is not disclosed, listed only as Contact Agent. With no land dimensions or suburb price trends supplied, fair value is estimated across a wide range.",
+        "pros": [
+          "Desirable 4-bedroom and 3-bathroom layout",
+          "Located in Glenunga near target schools",
+          "Provides 2 garage spaces"
+        ],
+        "cons": [
+          "Price is not disclosed by agent",
+          "Land size is not stated",
+          "Suburb median trend data is missing"
+        ],
+        "fairValueLow": 1600000,
+        "fairValueHigh": 2400000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:32:34.542Z",
+        "priceText": "Contact Agent"
+      },
       "imported": true
     },
     {
@@ -407,7 +531,25 @@
       "lastSeen": "2026-11-23",
       "origin": "rea",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "This Glenunga home features 4 bedrooms, 3 bathrooms, and substantial 4-car accommodation guided between $3,250,000 and $3,550,000. It commands a premium price point while land size and historical suburb trends remain unstated. Financing this purchase requires significant capital in a 4.85% cash rate environment.",
+        "pros": [
+          "Substantial 4-car parking capacity",
+          "4 bedrooms and 3 bathrooms",
+          "Glenunga location close to schools"
+        ],
+        "cons": [
+          "High asking price up to 3.55 million",
+          "Land size is not specified",
+          "High financing burden at 6.2 percent interest"
+        ],
+        "fairValueLow": 3200000,
+        "fairValueHigh": 3550000,
+        "verdict": "Fair",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:32:34.542Z",
+        "priceText": "$3,250,000.00 - $3,550,000.00"
+      },
       "imported": true
     },
     {
@@ -458,7 +600,25 @@
       "lastSeen": "2026-11-23",
       "origin": "rea",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "This 4-bedroom, 2-bathroom Glenside home has a comparatively narrow price guide of $1,550,000 to $1,590,000. It provides essential family accommodation and 2 parking spaces, though block size is not reported. The tighter asking bracket helps buyers benchmark costs against current 6.2% borrowing rates.",
+        "pros": [
+          "Narrow price guide under 1.6 million",
+          "Family-friendly 4-bedroom and 2-bathroom configuration",
+          "Glenside location convenient to eastern schools"
+        ],
+        "cons": [
+          "Land size is not disclosed",
+          "Fewer bathrooms than competing 4-bedroom listings",
+          "Borrowing costs remain high at 6.2 percent"
+        ],
+        "fairValueLow": 1550000,
+        "fairValueHigh": 1590000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:32:34.542Z",
+        "priceText": "$1.55m - $1.59m"
+      },
       "imported": true
     },
     {
@@ -509,7 +669,25 @@
       "lastSeen": "2026-11-23",
       "origin": "rea",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "Situated in neighboring St Georges, this 4-bedroom, 2-bathroom property is offered through an Expressions of Interest campaign without a disclosed price. Without published land area or local historical price trends, valuation uncertainty is elevated. A wide fair value range is applied pending further details from the campaign.",
+        "pros": [
+          "Proximity to Linden Park and Glenunga schools",
+          "4 bedrooms and 2 car spaces",
+          "Located in established suburb of St Georges"
+        ],
+        "cons": [
+          "Price is undisclosed under expressions of interest",
+          "Land size is not provided",
+          "Market transparency is limited"
+        ],
+        "fairValueLow": 1600000,
+        "fairValueHigh": 2300000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:32:34.542Z",
+        "priceText": "Expressions of Interest"
+      },
       "imported": true
     },
     {
@@ -560,7 +738,26 @@
       "lastSeen": "2026-11-23",
       "origin": "rea",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "The asking price is not disclosed as this four-bedroom, three-bathroom home is offered via Expressions of Interest. Located in St Georges, it provides practical accommodation near key eastern school zones, though land size is not provided. Due to missing pricing and median trend data, an expansive fair value range is warranted.",
+        "pros": [
+          "Four bedrooms and three bathrooms",
+          "Desirable St Georges address",
+          "Two dedicated parking spaces"
+        ],
+        "cons": [
+          "Price is not disclosed",
+          "Land size is missing",
+          "Expressions of interest campaign creates uncertainty",
+          "Elevated mortgage rates at 6.2%"
+        ],
+        "fairValueLow": 1800000,
+        "fairValueHigh": 2800000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:32:34.542Z",
+        "priceText": "Expressions of Interest"
+      },
       "imported": true
     },
     {
@@ -611,7 +808,26 @@
       "lastSeen": "2026-11-23",
       "origin": "rea",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "This four-bedroom, two-bathroom Beaumont property is currently listed as under contract, indicating an agreement has already been reached. The asking price was undisclosed, and no land size data was supplied in the listing. Its five-car parking capacity offered rare vehicle space for the eastern suburbs.",
+        "pros": [
+          "Substantial five-car parking accommodation",
+          "Four bedrooms suited for families",
+          "Sought-after Beaumont address"
+        ],
+        "cons": [
+          "Currently under contract",
+          "Price was not disclosed",
+          "Land size is missing",
+          "High 6.2% prevailing mortgage rates"
+        ],
+        "fairValueLow": 1600000,
+        "fairValueHigh": 2500000,
+        "verdict": "Fair",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:32:34.542Z",
+        "priceText": "UNDER CONTRACT"
+      },
       "imported": true
     },
     {
@@ -662,7 +878,26 @@
       "lastSeen": "2026-11-23",
       "origin": "rea",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "Situated directly in Linden Park, this four-bedroom, three-bathroom property is ideally positioned for Linden Park Primary School access. The sale method requires best offers with no published price guide, and the land size is unstated. Given the undisclosed price and lack of historical trend metrics, a wide valuation band is necessary.",
+        "pros": [
+          "Direct Linden Park location near primary school",
+          "Four bedrooms and three bathrooms",
+          "Four-car parking capacity"
+        ],
+        "cons": [
+          "Price is not disclosed",
+          "Best-offers deadline creates competitive pressure",
+          "Land size is omitted",
+          "Current borrowing costs remain high"
+        ],
+        "fairValueLow": 1900000,
+        "fairValueHigh": 3000000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:32:34.542Z",
+        "priceText": "Best Offers By Mon 23rd Nov @ 3pm USP"
+      },
       "imported": true
     },
     {
@@ -713,7 +948,25 @@
       "lastSeen": "2026-11-23",
       "origin": "rea",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "This St Georges house offers four bedrooms, two bathrooms, and double parking, aligning well with family requirements in the school zone. The asking price is not disclosed, requiring direct agent contact, and land dimensions are not detailed. A conservative, wide valuation range accounts for the missing listing and trend information.",
+        "pros": [
+          "Prime St Georges location",
+          "Family-friendly four-bedroom layout",
+          "Two secure car spaces"
+        ],
+        "cons": [
+          "Price is not disclosed",
+          "Land size is not provided",
+          "6.2% mortgage rates constrain borrowing"
+        ],
+        "fairValueLow": 1600000,
+        "fairValueHigh": 2600000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:32:34.542Z",
+        "priceText": "Contact Agent"
+      },
       "imported": true
     },
     {
@@ -764,7 +1017,25 @@
       "lastSeen": "2026-11-23",
       "origin": "rea",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "This generous five-bedroom home in Beaumont provides explicit price guidance of $2.65M to $2.85M via private treaty. It offers ample bedroom space for larger families seeking proximity to eastern schools, though land size is not reported. The quoted price represents a notable financial commitment in the current 6.2% mortgage rate climate.",
+        "pros": [
+          "Transparent price guide provided",
+          "Generous five-bedroom family accommodation",
+          "Established Beaumont location"
+        ],
+        "cons": [
+          "Land size is not disclosed",
+          "High barrier to entry above $2.65M",
+          "Heavy financing burden under current interest rates"
+        ],
+        "fairValueLow": 2500000,
+        "fairValueHigh": 2900000,
+        "verdict": "Fair",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:32:34.542Z",
+        "priceText": "$2.65M — $2.85M"
+      },
       "imported": true
     },
     {
@@ -815,7 +1086,25 @@
       "lastSeen": "2026-11-23",
       "origin": "rea",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "The asking price is not disclosed for this four-bedroom, three-bathroom house in St Georges. Without land size or suburb median trend data provided, fair value must be viewed cautiously across a wide range. The family-friendly layout is well situated near the desired school zones.",
+        "pros": [
+          "Four bedrooms and three bathrooms suit families",
+          "Two dedicated off-street parking spaces",
+          "Positioned near target eastern suburbs schools"
+        ],
+        "cons": [
+          "Asking price is not disclosed",
+          "Land size is not provided",
+          "Mortgage rate of 6.2% increases financing costs"
+        ],
+        "fairValueLow": 1400000,
+        "fairValueHigh": 2300000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:32:34.542Z",
+        "priceText": "Contact Agent"
+      },
       "imported": true
     },
     {
@@ -866,7 +1155,25 @@
       "lastSeen": "2026-11-23",
       "origin": "rea",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "This Glen Osmond house provides four bedrooms and extensive parking, but the asking price is not disclosed. Without land dimensions or median price history provided, cautious assessment is essential in a 6.2% mortgage environment. Its proximity to Linden Park and Glenunga high school zones makes it relevant for families.",
+        "pros": [
+          "Four bedrooms accommodate family living",
+          "Generous parking capacity for five vehicles",
+          "Convenient access to target school zones"
+        ],
+        "cons": [
+          "Price is not disclosed by agent",
+          "Land size is unspecified",
+          "Offer deadline introduces competitive pressure"
+        ],
+        "fairValueLow": 1350000,
+        "fairValueHigh": 2200000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:32:34.542Z",
+        "priceText": "Best Offers By 7/12 (USP)"
+      },
       "imported": true
     },
     {
@@ -884,13 +1191,13 @@
       "carspaces": 2,
       "landArea": null,
       "buildingArea": null,
-      "priceText": "Best Offers By 30/11 (USP)",
+      "priceText": null,
       "priceLow": null,
       "priceHigh": null,
       "saleMethod": null,
       "auctionDate": null,
       "photos": [
-        "https://i2.au.reastatic.net/200x200-crop,gravity=north/fc0cac0b9368aa7247766c4f03eac1ba249be2b5fe8a86bf0fe2a5611cb0678d/main.jpg"
+        "https://i2.au.reastatic.net/480x360-format=webp/30d3ac3262656bac778a1314dd428195e9f2cec3994ef19a17c4ab139340a2b4/image.jpg"
       ],
       "description": "",
       "features": [],
@@ -900,7 +1207,7 @@
       "priceHistory": [
         {
           "date": "2026-11-23",
-          "priceText": "Best Offers By 30/11 (USP)",
+          "priceText": null,
           "priceLow": null,
           "priceHigh": null
         }
@@ -917,7 +1224,25 @@
       "lastSeen": "2026-11-23",
       "origin": "rea",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "This Beaumont house features four bedrooms and three bathrooms, but no asking price or land size is provided. The absence of suburb trend figures necessitates a broad valuation range given the 4.85% cash rate. Its room count fits family buyers seeking access to nearby quality schools.",
+        "pros": [
+          "Four bedrooms and three bathrooms fit families",
+          "Includes two off-street car spaces",
+          "Located in quiet foothill suburb near schools"
+        ],
+        "cons": [
+          "Price is completely undisclosed",
+          "Land size is omitted from listing",
+          "No historical median trends available"
+        ],
+        "fairValueLow": 1400000,
+        "fairValueHigh": 2350000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:32:34.542Z",
+        "priceText": null
+      },
       "imported": true
     },
     {
@@ -968,7 +1293,25 @@
       "lastSeen": "2026-11-23",
       "origin": "rea",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "Situated directly in Linden Park, this four-bedroom home is exceptionally placed for Linden Park Primary School. The property is scheduled for auction without a disclosed price, and land size is not listed. Buyers must proceed cautiously under unconditional auction terms amid high mortgage interest rates.",
+        "pros": [
+          "Directly located within Linden Park suburb",
+          "Four bedrooms and two bathrooms suit families",
+          "Two-car off-street parking included"
+        ],
+        "cons": [
+          "Price is undisclosed ahead of auction",
+          "Land size is not specified",
+          "Auction method requires unconditional bidding"
+        ],
+        "fairValueLow": 1500000,
+        "fairValueHigh": 2500000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:32:34.542Z",
+        "priceText": "Auction Fri 4 Dec"
+      },
       "imported": true
     },
     {
@@ -1019,7 +1362,25 @@
       "lastSeen": "2026-11-23",
       "origin": "rea",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "Offering five bedrooms and three bathrooms, this Glen Osmond home caters well to larger households. The asking price is undisclosed and being sold via best offers, with land area not recorded in the listing. Families must remain mindful of the 6.2% mortgage rate when formulating offers.",
+        "pros": [
+          "Five bedrooms offer generous family accommodation",
+          "Three bathrooms reduce morning family bottlenecks",
+          "Close proximity to Glenunga International High"
+        ],
+        "cons": [
+          "Asking price is not disclosed",
+          "Land size is omitted from data",
+          "Firm offer deadline limits due diligence time"
+        ],
+        "fairValueLow": 1550000,
+        "fairValueHigh": 2600000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:32:34.542Z",
+        "priceText": "Best Offer By Monday 7th December @ 2:00PM"
+      },
       "imported": true
     },
     {
@@ -1070,7 +1431,1265 @@
       "lastSeen": "2026-11-23",
       "origin": "rea",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "This Linden Park residence offers five bedrooms, three bathrooms, and six parking spaces in the direct school target suburb. The price is not disclosed, with the vendor seeking best offers by November 24. With land size omitted and high 6.2% mortgage rates, fair value is estimated broadly based on configuration.",
+        "pros": [
+          "Located directly in target suburb Linden Park",
+          "Generous five-bedroom and three-bathroom configuration",
+          "Extensive parking capacity for six vehicles"
+        ],
+        "cons": [
+          "Asking price is not disclosed",
+          "Land size is not specified in the listing",
+          "High 6.2% mortgage rates increase borrowing costs"
+        ],
+        "fairValueLow": 1700000,
+        "fairValueHigh": 2500000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:32:34.542Z",
+        "priceText": "Best offers By 24/11 @5pm (USP)"
+      },
+      "imported": true
+    },
+    {
+      "id": "rea-152837580",
+      "url": "https://www.realestate.com.au/property-house-sa-hazelwood+park-152837580",
+      "headline": null,
+      "address": "20 Collingwood Avenue, Hazelwood Park",
+      "suburb": "Hazelwood Park",
+      "postcode": null,
+      "lat": -34.9441075,
+      "lng": 138.6542652,
+      "propertyType": "House",
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "carspaces": 2,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "$1.8M — $1.95M",
+      "priceLow": 1800000,
+      "priceHigh": 1950000,
+      "saleMethod": "privateTreaty",
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/fc0cac0b9368aa7247766c4f03eac1ba249be2b5fe8a86bf0fe2a5611cb0678d/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "$1.8M — $1.95M",
+          "priceLow": 1800000,
+          "priceHigh": 1950000
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "Located in Hazelwood Park, this house provides five bedrooms, three bathrooms, and two car spaces. It is listed for private treaty sale with a guided range of $1,800,000 to $1,950,000. The pricing aligns reasonably with substantial family dwellings in the eastern suburbs, though land size is undisclosed.",
+        "pros": [
+          "Five bedrooms and three bathrooms suit large families",
+          "Clear price guide provided between $1.8M and $1.95M",
+          "Private treaty format allows transparent negotiation"
+        ],
+        "cons": [
+          "Land size is omitted from listing details",
+          "Limited to two car spaces for large home",
+          "Elevated interest rate environment restricts buyer borrowing"
+        ],
+        "fairValueLow": 1800000,
+        "fairValueHigh": 1950000,
+        "verdict": "Fair",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:32:34.542Z",
+        "priceText": "$1.8M — $1.95M"
+      },
+      "imported": true
+    },
+    {
+      "id": "rea-152987688",
+      "url": "https://www.realestate.com.au/property-house-sa-glenside-152987688",
+      "headline": null,
+      "address": "55 L'Estrange Street, Glenside",
+      "suburb": "Glenside",
+      "postcode": null,
+      "lat": -34.9411418,
+      "lng": 138.635485,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "carspaces": 3,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "Best Offers by Tue 8th Dec at 2PM (USP)",
+      "priceLow": null,
+      "priceHigh": null,
+      "saleMethod": null,
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/a2750af920dd381d73c408137002c239c3f354ac7a71ceb0e597d0ac1e29ef62/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "Best Offers by Tue 8th Dec at 2PM (USP)",
+          "priceLow": null,
+          "priceHigh": null
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "This Glenside house features four bedrooms, two bathrooms, and three car spaces close to target school areas. The price is not disclosed, with an end-date offer campaign closing December 8. Without disclosed land size or asking figures, valuation requires a cautious, wide estimate.",
+        "pros": [
+          "Four-bedroom, two-bathroom layout suits family living",
+          "Three car spaces offer good vehicle storage",
+          "Positioned in tightly held neighbouring Glenside"
+        ],
+        "cons": [
+          "Asking price is undisclosed by the seller",
+          "Land area is not provided",
+          "Campaign deadline creates buyer pressure"
+        ],
+        "fairValueLow": 1500000,
+        "fairValueHigh": 2200000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:32:34.542Z",
+        "priceText": "Best Offers by Tue 8th Dec at 2PM (USP)"
+      },
+      "imported": true
+    },
+    {
+      "id": "rea-152986352",
+      "url": "https://www.realestate.com.au/property-house-sa-beaumont-152986352",
+      "headline": null,
+      "address": "14 East Terrace, Beaumont",
+      "suburb": "Beaumont",
+      "postcode": null,
+      "lat": -34.9475797,
+      "lng": 138.6597583,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "carspaces": 4,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "EOI: ($2.3M-$2.5M) Closes Thurs 10 Dec at 12pm",
+      "priceLow": 2300000,
+      "priceHigh": 2500000,
+      "saleMethod": "eoi",
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/f5c3e78d09925017986b259adc0c8f601e28568cceef3dc43906d3f92cba5bdc/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "EOI: ($2.3M-$2.5M) Closes Thurs 10 Dec at 12pm",
+          "priceLow": 2300000,
+          "priceHigh": 2500000
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "Situated in Beaumont, this property delivers four bedrooms, three bathrooms, and four car spaces. The vendor is inviting expressions of interest between $2,300,000 and $2,500,000 closing December 10. While spacious, the upper-tier price guide requires caution given current 6.2% mortgage rates.",
+        "pros": [
+          "Four bedrooms with three full bathrooms",
+          "Generous four-car accommodation",
+          "Clear indicative price range provided"
+        ],
+        "cons": [
+          "Land size is not stated",
+          "Substantial capital requirement above $2.3M",
+          "EOI process limits negotiation visibility"
+        ],
+        "fairValueLow": 2200000,
+        "fairValueHigh": 2500000,
+        "verdict": "Fair",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:32:34.542Z",
+        "priceText": "EOI: ($2.3M-$2.5M) Closes Thurs 10 Dec at 12pm"
+      },
+      "imported": true
+    },
+    {
+      "id": "rea-152918928",
+      "url": "https://www.realestate.com.au/property-house-sa-st+georges-152918928",
+      "headline": null,
+      "address": "21A Highfield Avenue, St Georges",
+      "suburb": "St Georges",
+      "postcode": null,
+      "lat": -34.9484466,
+      "lng": 138.6512769,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "carspaces": 2,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "$2,250,000-$2,475,000",
+      "priceLow": 2250000,
+      "priceHigh": 2475000,
+      "saleMethod": "privateTreaty",
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/ae3c9120bf88d8f2d463ae7877cddd3207915c9ac60c770b4517d54607fa2781/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "$2,250,000-$2,475,000",
+          "priceLow": 2250000,
+          "priceHigh": 2475000
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "This four-bedroom, three-bathroom home in St Georges is offered via private treaty between $2,250,000 and $2,475,000. It provides solid family accommodation near the target school zones. Financing costs should be weighed carefully, as land size details are not provided.",
+        "pros": [
+          "Four bedrooms and three bathrooms provide ample space",
+          "Private treaty sale allows direct negotiation",
+          "Explicit price range provided by vendor"
+        ],
+        "cons": [
+          "Land size is not disclosed",
+          "Only two car spaces provided",
+          "High cash rate of 4.85% increases repayment burden"
+        ],
+        "fairValueLow": 2200000,
+        "fairValueHigh": 2475000,
+        "verdict": "Fair",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:32:34.542Z",
+        "priceText": "$2,250,000-$2,475,000"
+      },
+      "imported": true
+    },
+    {
+      "id": "rea-152246724",
+      "url": "https://www.realestate.com.au/property-house-sa-frewville-152246724",
+      "headline": null,
+      "address": "10 Carr Avenue, Frewville",
+      "suburb": "Frewville",
+      "postcode": null,
+      "lat": -34.9475892,
+      "lng": 138.6319807,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "carspaces": 2,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "$1,800,000 - $1,900,000",
+      "priceLow": 1800000,
+      "priceHigh": 1900000,
+      "saleMethod": "privateTreaty",
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/06e4206304f46a5095e2703b015e61cf6fa79cfe87a214d59fd4fdd35a4e106c/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "$1,800,000 - $1,900,000",
+          "priceLow": 1800000,
+          "priceHigh": 1900000
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "This Frewville house provides four bedrooms, two bathrooms, and two car spaces with a price guide of $1,800,000 to $1,900,000. No land size, interior features, or suburb historical trends are provided in the listing. At the current 6.2% mortgage rate, this represents a substantial borrowing commitment for a family.",
+        "pros": [
+          "Four bedrooms accommodate family living",
+          "Two parking spaces provided",
+          "Clear private treaty asking price range"
+        ],
+        "cons": [
+          "Land size is not disclosed",
+          "No listing description or features provided",
+          "Substantial borrowing costs at 6.2% mortgage rate"
+        ],
+        "fairValueLow": 1750000,
+        "fairValueHigh": 1950000,
+        "verdict": "Fair",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:32:34.542Z",
+        "priceText": "$1,800,000 - $1,900,000"
+      },
+      "imported": true
+    },
+    {
+      "id": "rea-152420228",
+      "url": "https://www.realestate.com.au/property-house-sa-glen+osmond-152420228",
+      "headline": null,
+      "address": "12 Sherwood Terrace, Glen Osmond",
+      "suburb": "Glen Osmond",
+      "postcode": null,
+      "lat": -34.9555664,
+      "lng": 138.6554508,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "carspaces": 2,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "$2,750,000",
+      "priceLow": 2750000,
+      "priceHigh": 2750000,
+      "saleMethod": "privateTreaty",
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/87fed3ad050390901758d48c6c7b53c32561547d2c3ae074fcdbfe4d8bc2aaca/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "$2,750,000",
+          "priceLow": 2750000,
+          "priceHigh": 2750000
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "This Glen Osmond property is asking $2,750,000 for a four-bedroom, two-bathroom configuration with two parking spaces. The listing lacks any land measurement, property description, or feature list to substantiate this top-tier asking price. In a 6.2% interest rate environment, this price requires significant capital without clear evidence of value.",
+        "pros": [
+          "Offers four bedrooms and two bathrooms",
+          "Includes two dedicated car spaces"
+        ],
+        "cons": [
+          "High asking price of $2,750,000",
+          "Land size is completely omitted",
+          "No features or description provided to justify price"
+        ],
+        "fairValueLow": 2300000,
+        "fairValueHigh": 2700000,
+        "verdict": "Overpriced",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:32:34.542Z",
+        "priceText": "$2,750,000"
+      },
+      "imported": true
+    },
+    {
+      "id": "rea-152911432",
+      "url": "https://www.realestate.com.au/property-house-sa-beaumont-152911432",
+      "headline": null,
+      "address": "9 Sturt Place, Beaumont",
+      "suburb": "Beaumont",
+      "postcode": null,
+      "lat": -34.9461282,
+      "lng": 138.6539239,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "carspaces": 2,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "Auction Sat 28 Nov",
+      "priceLow": null,
+      "priceHigh": null,
+      "saleMethod": "auction",
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/6ceed5b10ccb09b3beb605ca0737935170ea8f92992e873b990fb2b907a66c22/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "Auction Sat 28 Nov",
+          "priceLow": null,
+          "priceHigh": null
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "The asking price is not disclosed for this four-bedroom Beaumont home being sold via auction. Because no price guide, land dimensions, or property features are provided, fair value must be estimated broadly against comparable listings. Auction conditions also require unconditional commitments, increasing risk under prevailing 6.2% mortgage rates.",
+        "pros": [
+          "Four-bedroom, two-bathroom layout suits family needs",
+          "Includes two parking spaces"
+        ],
+        "cons": [
+          "Price is not disclosed by agent",
+          "Auction sale method limits conditional finance clauses",
+          "Land size and property features are missing"
+        ],
+        "fairValueLow": 1400000,
+        "fairValueHigh": 1900000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:32:34.542Z",
+        "priceText": "Auction Sat 28 Nov"
+      },
+      "imported": true
+    },
+    {
+      "id": "rea-152069516",
+      "url": "https://www.realestate.com.au/property-house-sa-linden+park-152069516",
+      "headline": null,
+      "address": "56 Hay Road, Linden Park",
+      "suburb": "Linden Park",
+      "postcode": null,
+      "lat": -34.9471698,
+      "lng": 138.6507649,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "carspaces": 3,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "$1,425,000 - $1,485,000",
+      "priceLow": 1425000,
+      "priceHigh": 1485000,
+      "saleMethod": "privateTreaty",
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/1974087bc084bf6cc45be28e9e9e7b9fdeb580bf667802b6f1fcbb93e080399c/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "$1,425,000 - $1,485,000",
+          "priceLow": 1425000,
+          "priceHigh": 1485000
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "Situated directly in Linden Park, this four-bedroom, two-bathroom home offers three car spaces at an asking range of $1,425,000 to $1,485,000. It presents the lowest entry price among the listed four-bedroom houses, making it budget-friendly for the school zone. However, land area and feature details are omitted and need physical confirmation.",
+        "pros": [
+          "Located directly in Linden Park",
+          "Lowest asking price among listed four-bedroom homes",
+          "Three car parking spaces available",
+          "Four bedrooms suitable for families"
+        ],
+        "cons": [
+          "Land size is not disclosed",
+          "No property features or description supplied"
+        ],
+        "fairValueLow": 1400000,
+        "fairValueHigh": 1550000,
+        "verdict": "Strong value",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:32:34.542Z",
+        "priceText": "$1,425,000 - $1,485,000"
+      },
+      "imported": true
+    },
+    {
+      "id": "rea-152362224",
+      "url": "https://www.realestate.com.au/property-house-sa-beaumont-152362224",
+      "headline": null,
+      "address": "113 Devereux Road, Beaumont",
+      "suburb": "Beaumont",
+      "postcode": null,
+      "lat": -34.9494444,
+      "lng": 138.6535336,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "carspaces": 3,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "$1.6M — $1.7M",
+      "priceLow": 1600000,
+      "priceHigh": 1700000,
+      "saleMethod": "privateTreaty",
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/77a705dc4c29070594e396d6afeade979581d82e98d43c2ec23ef0bfca0dd137/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "$1.6M — $1.7M",
+          "priceLow": 1600000,
+          "priceHigh": 1700000
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "This Beaumont house offers four bedrooms, three bathrooms, and three parking spaces with an asking range of $1,600,000 to $1,700,000. The additional bathroom and third car space provide practical utility for a growing family compared to standard two-bath layouts. Key data such as land area and specific fixtures are missing from the listing.",
+        "pros": [
+          "Three bathrooms provide strong family utility",
+          "Accommodates three vehicles",
+          "Priced below other premium eastern suburb listings"
+        ],
+        "cons": [
+          "Land size is not specified",
+          "No feature details or condition notes provided"
+        ],
+        "fairValueLow": 1550000,
+        "fairValueHigh": 1750000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:32:34.542Z",
+        "priceText": "$1.6M — $1.7M"
+      },
+      "imported": true
+    },
+    {
+      "id": "rea-152358776",
+      "url": "https://www.realestate.com.au/property-house-sa-frewville-152358776",
+      "headline": null,
+      "address": "79 Conyngham Street, Frewville",
+      "suburb": "Frewville",
+      "postcode": null,
+      "lat": -34.9487488,
+      "lng": 138.6343035,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "carspaces": 2,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "$1,399,000 - $1,488,000",
+      "priceLow": 1399000,
+      "priceHigh": 1488000,
+      "saleMethod": "privateTreaty",
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/c444272708c43f25c9b1299608320f5467f0f7bc2eec648e2a8b551f0dde62d5/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "$1,399,000 - $1,488,000",
+          "priceLow": 1399000,
+          "priceHigh": 1488000
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "This Frewville property offers a functional four-bedroom, three-bathroom configuration with two parking spaces. The asking price is explicitly guided between $1,399,000 and $1,488,000, although no land size or suburb trend data is provided. Given the high 6.2% mortgage rate environment, buyers should verify the allotment size to assess its true value.",
+        "pros": [
+          "Four bedrooms and three bathrooms",
+          "Transparent asking price guide provided",
+          "Two-car accommodation"
+        ],
+        "cons": [
+          "Land size is not disclosed",
+          "No suburb median trend data provided",
+          "Mortgage rate pressure at 6.2 percent"
+        ],
+        "fairValueLow": 1350000,
+        "fairValueHigh": 1500000,
+        "verdict": "Fair",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:32:34.542Z",
+        "priceText": "$1,399,000 - $1,488,000"
+      },
+      "imported": true
+    },
+    {
+      "id": "rea-152854668",
+      "url": "https://www.realestate.com.au/property-house-sa-glenside-152854668",
+      "headline": null,
+      "address": "6 Allinga Avenue, Glenside",
+      "suburb": "Glenside",
+      "postcode": null,
+      "lat": -34.9411223,
+      "lng": 138.6372327,
+      "propertyType": "House",
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "carspaces": 2,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "Contact Agent",
+      "priceLow": null,
+      "priceHigh": null,
+      "saleMethod": null,
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/87fed3ad050390901758d48c6c7b53c32561547d2c3ae074fcdbfe4d8bc2aaca/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "Contact Agent",
+          "priceLow": null,
+          "priceHigh": null
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "This Glenside house provides five bedrooms and three bathrooms, catering well to larger families. The asking price is undisclosed, requiring buyers to contact the agent for pricing expectations. Because land dimensions and suburb trend figures are missing, a broad valuation range must be applied.",
+        "pros": [
+          "Generous five-bedroom family layout",
+          "Three bathrooms accommodate a large family",
+          "Two-car parking capacity"
+        ],
+        "cons": [
+          "Price is not disclosed",
+          "Land area is not provided",
+          "No historical suburb price trend available"
+        ],
+        "fairValueLow": 1400000,
+        "fairValueHigh": 2000000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:32:34.542Z",
+        "priceText": "Contact Agent"
+      },
+      "imported": true
+    },
+    {
+      "id": "rea-152648584",
+      "url": "https://www.realestate.com.au/property-house-sa-beaumont-152648584",
+      "headline": null,
+      "address": "15 Burton Avenue, Beaumont",
+      "suburb": "Beaumont",
+      "postcode": null,
+      "lat": -34.9498752,
+      "lng": 138.655749,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "carspaces": 2,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "Contact Agent",
+      "priceLow": null,
+      "priceHigh": null,
+      "saleMethod": null,
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/5f1e76a24e069c3286ae288d352885c981691ad58741d67c7363221f88cbdf37/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "Contact Agent",
+          "priceLow": null,
+          "priceHigh": null
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "Located in Beaumont, this home features four bedrooms, three bathrooms, and two car spaces. The price is not disclosed, and neither the land size nor historical suburb trend data is available. Due to these missing metrics, fair value must be viewed across a wider spectrum.",
+        "pros": [
+          "Four bedrooms and three bathrooms",
+          "Two designated parking spaces",
+          "Brand new listing with zero days on market"
+        ],
+        "cons": [
+          "Price not disclosed by agent",
+          "Land size is omitted",
+          "No suburb price trends supplied"
+        ],
+        "fairValueLow": 1350000,
+        "fairValueHigh": 1900000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:32:34.542Z",
+        "priceText": "Contact Agent"
+      },
+      "imported": true
+    },
+    {
+      "id": "rea-152495440",
+      "url": "https://www.realestate.com.au/property-house-sa-beaumont-152495440",
+      "headline": null,
+      "address": "2 Montrose Place, Beaumont",
+      "suburb": "Beaumont",
+      "postcode": null,
+      "lat": -34.9515945,
+      "lng": 138.6599948,
+      "propertyType": "House",
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "carspaces": 5,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "CONTACT AGENT",
+      "priceLow": null,
+      "priceHigh": null,
+      "saleMethod": null,
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/0bdb3cb3bf582a339d31cdfb8b36ba5995918cf9753cfd8ddb16a49779713df9/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "CONTACT AGENT",
+          "priceLow": null,
+          "priceHigh": null
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "This Beaumont house provides substantial capacity with five bedrooms, three bathrooms, and five parking spaces. The asking price is withheld, meaning direct inquiry with the agent is necessary to establish expectations. With no land size or suburb median trends provided, valuation parameters remain wide.",
+        "pros": [
+          "Five bedrooms accommodate large family living",
+          "Three full bathrooms",
+          "Exceptional five-car parking capacity"
+        ],
+        "cons": [
+          "Price is withheld",
+          "Land measurement is missing",
+          "No suburb trend data available"
+        ],
+        "fairValueLow": 1500000,
+        "fairValueHigh": 2200000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:32:34.542Z",
+        "priceText": "CONTACT AGENT"
+      },
+      "imported": true
+    },
+    {
+      "id": "rea-151615468",
+      "url": "https://www.realestate.com.au/property-house-sa-st+georges-151615468",
+      "headline": null,
+      "address": "2A Austin Crescent, St Georges",
+      "suburb": "St Georges",
+      "postcode": null,
+      "lat": -34.9503815,
+      "lng": 138.6443078,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "carspaces": 4,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "Best Offer 1.8m",
+      "priceLow": 1800000,
+      "priceHigh": 1800000,
+      "saleMethod": "privateTreaty",
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/6a8280b4c627bad90e6e39019188e398ff06911fefb11f21b68bf17943ad19b8/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "Best Offer 1.8m",
+          "priceLow": 1800000,
+          "priceHigh": 1800000
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "This St Georges home features four bedrooms, two bathrooms, and four car spaces, seeking offers around $1,800,000. Land size details are not provided in the listing facts, and suburb trend data is not available. In the current 6.2% mortgage rate environment, the $1.8m price point represents a substantial financial commitment.",
+        "pros": [
+          "Clear best offer price guide of $1,800,000",
+          "Four-car accommodation capacity",
+          "Four bedrooms for family living"
+        ],
+        "cons": [
+          "Only two bathrooms for four bedrooms",
+          "Land size is not disclosed",
+          "High interest rate increases holding costs"
+        ],
+        "fairValueLow": 1650000,
+        "fairValueHigh": 1850000,
+        "verdict": "Fair",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:32:34.542Z",
+        "priceText": "Best Offer 1.8m"
+      },
+      "imported": true
+    },
+    {
+      "id": "rea-152618996",
+      "url": "https://www.realestate.com.au/property-house-sa-glenunga-152618996",
+      "headline": null,
+      "address": "10 Taminga Avenue, Glenunga",
+      "suburb": "Glenunga",
+      "postcode": null,
+      "lat": -34.9547382,
+      "lng": 138.6420414,
+      "propertyType": "House",
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "carspaces": 6,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "Expression Of Interest",
+      "priceLow": null,
+      "priceHigh": null,
+      "saleMethod": "eoi",
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/937ce01039e5ca3a5dc807550db99273c0e4a82720fe55bd6942245edede3888/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "Expression Of Interest",
+          "priceLow": null,
+          "priceHigh": null
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "The asking price is not disclosed and is offered via Expression of Interest, requiring buyers to navigate unguided price expectations. Located directly in Glenunga, the home offers a substantial five-bedroom, three-bathroom configuration with extensive parking for family buyers. Without disclosed land size or historical suburb trends, the fair value is estimated broadly based on the home's size in a high-interest-rate environment.",
+        "pros": [
+          "Located directly in target suburb Glenunga",
+          "Generous 5-bedroom and 3-bathroom layout",
+          "Ample parking with space for 6 cars"
+        ],
+        "cons": [
+          "Price is not disclosed",
+          "Land size is unspecified in listing facts",
+          "Expression of Interest method creates pricing uncertainty",
+          "Current mortgage rates sit at 6.2%"
+        ],
+        "fairValueLow": 1500000,
+        "fairValueHigh": 2800000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:32:34.542Z",
+        "priceText": "Expression Of Interest"
+      },
+      "imported": true
+    },
+    {
+      "id": "rea-152618876",
+      "url": "https://www.realestate.com.au/property-house-sa-linden+park-152618876",
+      "headline": null,
+      "address": "1B Hewitt Ave, Linden Park",
+      "suburb": "Linden Park",
+      "postcode": null,
+      "lat": -34.9477406,
+      "lng": 138.6488417,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "carspaces": 2,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "Under Contract",
+      "priceLow": null,
+      "priceHigh": null,
+      "saleMethod": null,
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/dff0bcaec405503547da7ee4608a22eb6b7a9820c11d2d84b3dde7ffb434f608/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "Under Contract",
+          "priceLow": null,
+          "priceHigh": null
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "This property is situated directly in Linden Park with four bedrooms and two bathrooms, making it functionally suitable for school-focused family living. However, the home is already marked as Under Contract and the final sale price is not disclosed. Without land details or suburb median trends provided, fair value is framed across a wide baseline range should the contract fail.",
+        "pros": [
+          "Situated directly in target suburb Linden Park",
+          "Functional 4-bedroom, 2-bathroom layout",
+          "Secure two-car parking provision"
+        ],
+        "cons": [
+          "Currently listed as under contract",
+          "Price is not disclosed",
+          "Land size data is missing from listing"
+        ],
+        "fairValueLow": 1300000,
+        "fairValueHigh": 2400000,
+        "verdict": "Fair",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:32:34.542Z",
+        "priceText": "Under Contract"
+      },
+      "imported": true
+    },
+    {
+      "id": "rea-151768108",
+      "url": "https://www.realestate.com.au/property-house-sa-beaumont-151768108",
+      "headline": null,
+      "address": "27 Lascelles Avenue, Beaumont",
+      "suburb": "Beaumont",
+      "postcode": null,
+      "lat": -34.9540632,
+      "lng": 138.6545609,
+      "propertyType": "House",
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "carspaces": 2,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "Contact Agent",
+      "priceLow": null,
+      "priceHigh": null,
+      "saleMethod": null,
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/f5e20d3d3ffb65791c8228fca7f87f1ca2f956c8341353663f4274d7d91760be/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "Contact Agent",
+          "priceLow": null,
+          "priceHigh": null
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "The asking price is withheld under a 'Contact Agent' campaign, leaving pricing open to speculation. Situated in Beaumont, it provides an expansive five-bedroom, four-bathroom accommodation ideal for large families seeking eastern suburbs schooling access. Due to the lack of disclosed land dimensions and median data, a wide fair value estimate is applied.",
+        "pros": [
+          "Expansive 5-bedroom and 4-bathroom accommodation",
+          "Close proximity to Linden Park and Glenunga",
+          "Offers two dedicated vehicle parking spaces"
+        ],
+        "cons": [
+          "Price is undisclosed by the agent",
+          "Land size is not stated",
+          "High 6.2% mortgage rates constrain borrowing capacity"
+        ],
+        "fairValueLow": 1400000,
+        "fairValueHigh": 2600000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:32:34.542Z",
+        "priceText": "Contact Agent"
+      },
+      "imported": true
+    },
+    {
+      "id": "rea-152914368",
+      "url": "https://www.realestate.com.au/property-house-sa-frewville-152914368",
+      "headline": null,
+      "address": "85 Conyngham Street, Frewville",
+      "suburb": "Frewville",
+      "postcode": null,
+      "lat": -34.9487488,
+      "lng": 138.6343035,
+      "propertyType": "House",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "carspaces": 2,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "BEST OFFER BY TUESDAY 8TH DECEMBER AT 2:00PM (USP)",
+      "priceLow": null,
+      "priceHigh": null,
+      "saleMethod": null,
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/200x200-crop,gravity=north/542b0483a52a454d0cb290a05b3c33d2336e4b2f99354fcad1df3b0baa7e0aba/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "BEST OFFER BY TUESDAY 8TH DECEMBER AT 2:00PM (USP)",
+          "priceLow": null,
+          "priceHigh": null
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "Offered via a Best Offer campaign, the property does not disclose an asking price or price guide. The four-bedroom, two-bathroom house sits in Frewville, just adjacent to Glenunga, offering straightforward access to key local school zones. Lacking land area and suburb trend metrics, fair value is kept conservatively wide against the broader macroeconomic backdrop.",
+        "pros": [
+          "Located in Frewville adjacent to Glenunga",
+          "Practical 4-bedroom, 2-bathroom family layout",
+          "Double car parking space included"
+        ],
+        "cons": [
+          "Asking price is not disclosed",
+          "Land area is not provided",
+          "Fixed deadline restricts protracted negotiation"
+        ],
+        "fairValueLow": 1200000,
+        "fairValueHigh": 2200000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T12:32:34.542Z",
+        "priceText": "BEST OFFER BY TUESDAY 8TH DECEMBER AT 2:00PM (USP)"
+      },
       "imported": true
     }
   ]

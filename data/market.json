@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-11-23T12:25:47.338Z",
+  "generatedAt": "2026-11-23T12:32:34.542Z",
   "model": "gemini-flash-latest",
-  "headline": "Elevated borrowing costs and softening economic indicators cloud Adelaide's tightly held eastern suburbs",
-  "outlook": "Purchasing a home across Linden Park, Glenunga, Tusmore, Toorak Gardens, St Georges, and Beaumont requires navigating significant macroeconomic headwinds alongside strong local price resilience. While recent 2026 medians reflect sustained high price levels—ranging from $1,885,000 in Beaumont to $2,920,000 in Toorak Gardens—sales volumes remain historically low, introducing statistical volatility (as seen in Tusmore's median shifting from $2,378,190 in 2025 down to $2,050,000 across 8 sales in 2026). At the macro level, the Reserve Bank of Australia cash rate sits at 4.85%, driving average mortgage rates to 6.2%, while annual inflation remains elevated at 3.9%. Concurrently, broader economic warnings highlight slowing growth, potential recession risks, and expectations for unemployment to rise from 4.9% past 5.0%. Although the active local market appears tight with just 21 listings, a median asking price of $1,995,000, and zero recorded price reductions, the balance between constrained local supply and national economic strain makes future property price movements highly uncertain.",
-  "timing": "For a family purchasing a home to live in, timing the market based on prospective price falls or rate cuts involves considerable risk and cannot be guaranteed. Cash rate forecasts indicate policy rates may remain around 4.80% through mid-to-late 2027, with forecast bounds spanning widely from 3.41% to 5.83%, meaning meaningful borrowing relief is not guaranteed in the near term. Rather than waiting for speculative price corrections that may not materialize given tight listing counts (21 active properties and 0 median days on market), buyers should prioritize personal balance-sheet health. Decisions should be grounded in long-term family stability and stress-testing serviceability against prevailing 6.2% mortgage rates and rising economic headwinds, proceeding only when a suitable home emerges that fits within a conservative financial buffer.",
+  "headline": "Adelaide Eastern Suburbs Face Macroeconomic Headwinds Amid Elevated Borrowing Costs and Tight Local Supply",
+  "outlook": "The property landscape across Adelaide's premier eastern suburbs—including Linden Park, Glenunga, Tusmore, Toorak Gardens, St Georges, and Beaumont—presents a complex balance between constrained market depth and significant macroeconomic pressure. While recent 2026 data reflects continued nominal strength in suburbs like Toorak Gardens ($2,920,000 median) and Glenunga ($2,271,111 median), others like Tusmore have seen medians pull back to $2,050,000 from $2,378,190 in 2025, demonstrating localized volatility across thin transaction numbers. At the macro level, the RBA cash rate sits elevated at 4.85% with standard mortgage rates at 6.2%, and headline inflation remains sticky at 3.9%. Forecast ranges for the cash rate in 2027 span widely from 3.41% to 5.83%, underscoring deep macroeconomic uncertainty. With rising national unemployment (currently 4.9% and projected to surpass 5%) and warnings of broader economic slowdown, the capacity of buyers to sustain recent price levels remains untested, despite supply remaining remarkably tight with only 39 active listings.",
+  "timing": "For a family purchasing a long-term home, decision-making should be grounded in household balance-sheet resilience rather than attempting to time price shifts in an unpredictable interest rate environment. With borrowing costs at multi-year highs and active inventory tightly constrained, buyers must rigorously stress-test mortgage serviceability well above the current 6.2% rate, allowing for potential economic disruption or further rate adjustments. The current low stock environment (39 active listings across these suburbs) means prime family properties in preferred school zones remain scarce, which may justify purchasing when the right home emerges. However, given softening national conditions and the prospect of rising unemployment, rushing into leveraged bidding without conservative financial buffers carries elevated risk.",
   "risks": [
-    "Mortgage serviceability pressure, with the RBA cash rate at 4.85% and retail mortgage rates averaging 6.2%.",
-    "Rising macroeconomic instability and risk of recession as unemployment is forecast by Treasury to exceed 5%.",
-    "Persistent inflation (CPI at 3.9%) and potential policy changes, such as proposed CGT reforms, threatening to prolong elevated interest rates.",
-    "Thin transaction volumes in premium pockets (such as Tusmore with only 8 sales in 2026), which can mask underlying volatility in achievable asset values."
+    "Mortgage serviceability pressure stemming from a 4.85% cash rate and 6.2% standard home loan rate, with forecast upper bounds reaching up to 5.83% in 2027.",
+    "Macroeconomic contraction and rising joblessness, with national unemployment already at 4.9% and projected by Treasury to exceed 5%.",
+    "Persistently high inflation (CPI at 3.9%) potentially prolonging restrictive monetary policy settings.",
+    "Thin transaction volumes in prestige pockets (e.g., Tusmore recording only 8 sales in 2026 to date), making median price benchmarks volatile and sensitive to compositional mix."
   ],
   "watch": [
-    "RBA cash rate announcements and movement within the wide forecast range (3.41% to 5.83% by September 2027).",
-    "National unemployment figures as they approach and potentially surpass the 5% mark.",
-    "Eastern suburbs active inventory and days on market to observe whether the current tight supply of 21 listings begins to expand.",
-    "Vendor discounting behavior and the emergence of listings with price cuts (currently sitting at zero)."
+    "RBA monetary policy decisions to see whether the cash rate stabilizes near the projected 4.80% or faces renewed upward pressure.",
+    "Quarterly CPI releases to track progress toward the forecasted 3.36% level over the next four quarters.",
+    "Labor market data, specifically whether national unemployment crosses above the anticipated 5.0% mark.",
+    "Local inventory levels and days on market across the eastern suburbs to detect any build-up from the current 39 active listings."
   ],
   "disclaimer": "Not financial advice."
 }
