@@ -7,6 +7,7 @@ import { renderMacroStrip, renderNewsStrip, emptyState, renderOutlook, renderFin
 import { createMap } from './map.js';
 import { getFile, putFile, updateJson, dispatchFetch } from './github.js';
 import { mergeImport } from './bookmarklet.js';
+import { estimatePrices } from './estimate.js';
 
 const $ = (sel, el = document) => el.querySelector(sel);
 const ALERTS_URL = 'https://house-alerts.alipourmousavi.workers.dev';
@@ -55,6 +56,7 @@ async function reloadData({ bust }) {
   root.setAttribute('aria-busy', 'true');
   const data = await loadAll({ bust });
   state.data = data;
+  if (data.listings) estimatePrices(data.listings.listings, data.suburbs);
   state.areas = effectiveAreas();
   if (store.getAreasLocal() && data.listings) {
     loadZones().then((z) => {

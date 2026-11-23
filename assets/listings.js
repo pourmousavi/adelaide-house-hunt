@@ -122,6 +122,8 @@ export function renderCard(l, ctx) {
   body.append(h('div', { class: 'card-head' },
     h('div', { class: 'card-price-row' },
       h('span', { class: `card-price${l.priceLow == null && l.priceHigh == null ? ' is-unknown' : ''}`, text: l.priceText || 'Price on request' }),
+      l.estimate && h('span', { class: 'badge badge-estimate', title: estimateNote(l.estimate) },
+        h('b', { text: 'Estimated' }), ` ${fmtMoney(l.estimate.low)} – ${fmtMoney(l.estimate.high)}`),
       pc && h('span', { class: `badge badge-price dir-${pc.dir}`, title: `Guide changed ${fmtDate(pc.date)}` },
         pc.dir === 'down' ? icon('arrow-down') : pc.dir === 'up' ? icon('arrow-up') : null,
         pc.delta != null ? `${pc.dir === 'down' ? 'Cut' : 'Up'} ${fmtMoney(Math.abs(pc.delta))}` : 'Guide changed', ` · ${fmtDate(pc.date, { year: undefined })}`),
@@ -351,6 +353,8 @@ function buildDetails(l, ctx) {
   return out;
 }
 
+export const estimateNote = (e) => `Estimated by this app, not by the agent: a model fitted to ${e.n} priced listings in your areas, using ${e.basis.join(', ')}. Roughly two in three homes like this would be guided inside this range.`;
+
 function aiBlock(l) {
   const ai = l.ai;
   const asking = l.priceLow != null || l.priceHigh != null ? [l.priceLow ?? l.priceHigh, l.priceHigh ?? l.priceLow] : null;
@@ -362,14 +366,15 @@ function aiBlock(l) {
     h('div', {}, h('h5', { text: 'For' }), h('ul', {}, (ai.pros || []).map((p) => h('li', { text: p })))),
     h('div', {}, h('h5', { text: 'Against' }), h('ul', {}, (ai.cons || []).map((p) => h('li', { text: p })))),
   ));
-  if (fair || asking) frag.push(rangeBar(asking, fair));
+  if (fair || asking || l.estimate) frag.push(rangeBar(asking, fair, l.estimate));
   const gen = ai.generatedAt ? ` · ${fmtDate(ai.generatedAt)}` : '';
   frag.push(h('p', { class: 'muted small', text: `${ai.model || 'AI model'}${gen}. AI opinion, not a valuation.` }));
   return frag;
 }
 
-function rangeBar(asking, fair) {
-  const vals = [...(asking || []), ...(fair || [])];
+function rangeBar(asking, fair, est) {
+  const estR = est ? [est.low, est.high] : null;
+  const vals = [...(asking || []), ...(fair || []), ...(estR || [])];
   const lo = Math.min(...vals) * 0.97;
   const hi = Math.max(...vals) * 1.03;
   const pct = (v) => `${(((v - lo) / (hi - lo)) * 100).toFixed(1)}%`;
@@ -385,18 +390,20 @@ function rangeBar(asking, fair) {
     const d = ((am - fm) / fm) * 100;
     note = h('p', { class: 'small muted', text: Math.abs(d) < 1.5 ? 'Asking guide sits on the AI fair-value midpoint.' : `Asking guide is ${Math.abs(d).toFixed(0)}% ${d > 0 ? 'above' : 'below'} the AI fair-value midpoint.` });
   }
-  return h('div', { class: 'range-bars' }, row('Asking', asking, 'f-asking'), row('Fair value', fair, 'f-fair'), note);
+  const estNote = est && h('p', { class: 'small muted', text: `Estimated range: ${estimateNote(est)}` });
+  return h('div', { class: 'range-bars' }, row('Asking', asking, 'f-asking'), row('Estimated', estR, 'f-estimate'), row('Fair value', fair, 'f-fair'), note, estNote);
 }
 
 function financeMini(l, ctx) {
-  const price = askingMid(l);
+  const price = askingMid(l) ?? l.estimate?.mid ?? null;
   if (price == null) return h('p', { class: 'muted', text: 'No price guide, so nothing to calculate yet. Use the Finance tab with your own figure.' });
+  const basis = askingMid(l) != null ? 'asking midpoint' : 'ESTIMATED price, no guide published';
   const fin = store.getFinance();
   const r = computeFinance({ ...fin, price }, ctx.macro);
   const cell = (label, value, sub) => h('div', { class: 'stat' }, h('span', { class: 'stat-label', text: label }), h('span', { class: 'stat-value', text: value }), sub && h('span', { class: 'stat-sub', text: sub }));
   const depositNote = fin.depositMode === 'pct' ? `${fin.depositPct}% deposit` : `${fmtMoney(r.deposit)} deposit`;
   return h('div', { class: 'finance-mini' },
-    h('p', { class: 'small muted', text: `At ${fmtMoneyFull(price)} (asking midpoint), ${depositNote}, ${r.termYears} yrs at ${fmtPct(r.ratePct, 2)} P&I.` }),
+    h('p', { class: 'small muted', text: `At ${fmtMoneyFull(price)} (${basis}), ${depositNote}, ${r.termYears} yrs at ${fmtPct(r.ratePct, 2)} P&I.` }),
     h('div', { class: 'stat-grid' },
       cell('Monthly repayment', fmtMoneyFull(r.monthly)),
       cell('Loan', fmtMoney(r.loan), `LVR ${fmtPct(r.lvrPct, 0)}${r.lvrPct > 80 ? ' · LMI likely' : ''}`),

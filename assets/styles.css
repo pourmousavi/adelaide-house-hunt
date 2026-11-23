@@ -395,6 +395,8 @@ input::placeholder, textarea::placeholder { color: var(--ink-3); opacity: 1; }
 .badge-price.dir-up { background: var(--warn-soft); color: var(--warn-text); }
 .badge-status.s-underOffer { background: var(--warn-soft); color: var(--warn-text); }
 .badge-status.s-removed { background: var(--danger-soft); color: var(--danger); }
+.badge-estimate { background: transparent; border: 1px dashed var(--ink-3); padding: 4px 8px; color: var(--ink-2); font-variant-numeric: tabular-nums; cursor: help; }
+.badge-estimate b { font-weight: 650; text-transform: uppercase; letter-spacing: 0.04em; font-size: 10px; }
 .badge-auction { box-shadow: inset 0 0 0 1px var(--line-strong); background: transparent; }
 .badge-zone { box-shadow: inset 0 0 0 1px var(--line-strong); background: transparent; color: var(--ink-3); }
 .badge-zone.is-target { box-shadow: none; background: var(--accent-soft); color: var(--accent); }
@@ -441,6 +443,7 @@ input::placeholder, textarea::placeholder { color: var(--ink-3); opacity: 1; }
 .range-fill { position: absolute; top: 0; bottom: 0; border-radius: 999px; min-width: 8px; }
 .range-fill.f-asking { background: var(--chart-2); }
 .range-fill.f-fair { background: var(--chart-3); }
+.range-fill.f-estimate { background: repeating-linear-gradient(135deg, var(--ink-3) 0 4px, transparent 4px 8px); box-shadow: inset 0 0 0 1px var(--ink-3); }
 .range-val { font-variant-numeric: tabular-nums; white-space: nowrap; font-weight: 500; }
 .finance-mini { display: grid; gap: 10px; }
 .stat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }
