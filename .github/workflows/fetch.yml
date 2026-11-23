@@ -12,7 +12,6 @@ on:
 
 permissions:
   contents: write
-  models: read
 
 concurrency:
   group: fetch-data
@@ -34,7 +33,9 @@ jobs:
         env:
           DOMAIN_CLIENT_ID: ${{ secrets.DOMAIN_CLIENT_ID }}
           DOMAIN_CLIENT_SECRET: ${{ secrets.DOMAIN_CLIENT_SECRET }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          AI_BASE_URL: ${{ vars.AI_BASE_URL }}
+          AI_MODEL: ${{ vars.AI_MODEL }}
       - uses: actions/setup-python@v5
         continue-on-error: true
         with:

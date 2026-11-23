@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Data pipeline: RBA macro + forecast, news, Domain listings, GitHub Models analysis -> data/*.json
+// Data pipeline: RBA macro + forecast, news, Domain listings, AI analysis (Gemini free tier) -> data/*.json
 // Node 20+, no dependencies. Each step is independent; a failing step keeps its previous JSON.
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
 import { dirname, join } from "node:path";
@@ -28,8 +28,9 @@ const DOMAIN_API = "https://api.domain.com.au";
 const DOMAIN_CALL_BUDGET = 150; // free tier is 500/day and we run ~2x/day plus manual runs
 const SUBURB_CACHE_DAYS = 7, AGENT_CACHE_DAYS = 30;
 const PROPERTY_LOOKUPS_PER_RUN = 15;
-const MODELS_URL = "https://models.github.ai/inference/chat/completions";
-const MODEL = "openai/gpt-4.1-mini";
+// Any OpenAI-compatible chat endpoint. Default: Google Gemini free tier (GitHub Models was retired 30 Jul 2026).
+const AI_URL = process.env.AI_BASE_URL || "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions";
+const MODEL = process.env.AI_MODEL || "gemini-flash-latest";
 const AI_BATCH = 5, AI_MAX_REQUESTS = 8;
 
 // ---- io helpers ----
@@ -107,7 +108,11 @@ function blendOnly() {
 
 // ---- c. news ----
 async function newsStep() {
-  const results = await Promise.allSettled(FEEDS.map(async (f) => ({ ...f, items: L.parseRss(await (await http(f.url)).text()) })));
+  // staggered: Google News returns 429 when hit in parallel
+  const results = await Promise.allSettled(FEEDS.map(async (f, i) => {
+    await new Promise((r) => setTimeout(r, i * 1500));
+    return { ...f, items: L.parseRss(await (await http(f.url)).text()) };
+  }));
   const feeds = results.filter((r) => r.status === "fulfilled").map((r) => r.value);
   results.forEach((r, i) => r.status === "rejected" && warn(`feed ${FEEDS[i].url}: ${r.reason.message}`));
   const items = L.buildNews(feeds);
@@ -264,15 +269,15 @@ async function listingsStep(areas, geojson) {
 class AiUnavailable extends Error {}
 
 async function chat(token, system, user) {
-  const r = await fetch(MODELS_URL, {
+  const r = await fetch(AI_URL, {
     method: "POST",
-    headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json", Accept: "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28" },
+    headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
     body: JSON.stringify({ model: MODEL, temperature: 0.3, max_tokens: 3000, response_format: { type: "json_object" },
       messages: [{ role: "system", content: system }, { role: "user", content: JSON.stringify(user) }] }),
     signal: AbortSignal.timeout(90000),
   });
-  if ([401, 403, 429].includes(r.status)) throw new AiUnavailable(`GitHub Models HTTP ${r.status}`);
-  if (!r.ok) throw new Error(`GitHub Models HTTP ${r.status}`);
+  if ([401, 403, 429].includes(r.status)) throw new AiUnavailable(`AI HTTP ${r.status}`);
+  if (!r.ok) throw new Error(`AI HTTP ${r.status}`);
   return L.parseJsonLoose((await r.json()).choices[0].message.content);
 }
 
@@ -365,8 +370,8 @@ await step("news", newsStep);
 const listingsRes = geojson ? await step("listings", () => listingsStep(areas, geojson)) : null;
 const news = readJson("news.json");
 
-const ghToken = process.env.GITHUB_TOKEN;
-if (!ghToken) console.log("[ai]\n  no GITHUB_TOKEN; keeping previous AI values");
+const ghToken = process.env.AI_API_KEY;
+if (!ghToken) console.log("[ai]\n  no AI_API_KEY secret; keeping previous AI values");
 else {
   if (listingsRes && !listingsRes.sample) { await step("ai listings", () => aiListingsStep(listingsRes, macro, ghToken)); }
   const real = listingsRes && !listingsRes.sample ? listingsRes : { listings: [], suburbs: {} }; // never feed sample data to the model

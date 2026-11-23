@@ -511,7 +511,7 @@ export function sampleListings(zones, today, nowIso) {
       zones: zones.map((z) => z.name),
       status: i === 3 ? "underOffer" : "active",
       ai: {
-        summary: "SAMPLE analysis. Real summaries appear once Domain and GitHub Models are configured.",
+        summary: "SAMPLE analysis. Real summaries appear once the Domain and AI keys are configured.",
         pros: ["Sample pro"], cons: ["Sample con"],
         fairValueLow: priceLow ? Math.round(priceLow * 0.95) : 1000000, fairValueHigh: priceHigh ? Math.round(priceHigh * 1.02) : 1150000,
         verdict, model: "sample", generatedAt: nowIso, priceText,
