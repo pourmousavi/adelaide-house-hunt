@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T12:58:38.840Z",
+  "generatedAt": "2026-11-23T13:05:14.004Z",
   "source": "alerts",
   "listings": [
     {
@@ -6056,7 +6056,25 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "The asking price is not disclosed for this 3-bedroom, 1-bathroom home on Hay Road in Linden Park. Without reported land size or suburb trend data, value must be estimated broadly based solely on its room count. High prevailing mortgage rates of 6.2% warrant careful cost assessment for prospective buyers.",
+        "pros": [
+          "Located directly in Linden Park",
+          "Includes 2 dedicated parking spaces",
+          "Newly listed with zero days on market"
+        ],
+        "cons": [
+          "Asking price is not disclosed",
+          "Single bathroom limits family convenience",
+          "Land size is not specified"
+        ],
+        "fairValueLow": 1100000,
+        "fairValueHigh": 1600000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:05:14.004Z",
+        "priceText": "Contact Agent"
+      },
       "imported": true
     },
     {
@@ -6107,7 +6125,25 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "This Linden Park home offers a functional 4-bedroom, 2-bathroom configuration suited for family living with an asking price of $1,700,000. No land dimensions are provided in the listing facts, making on-site physical evaluation necessary. Financing this purchase requires managing high annual borrowing costs at a 6.2% mortgage rate.",
+        "pros": [
+          "Desirable Linden Park location",
+          "4 bedrooms ideal for family living",
+          "Two bathrooms and double parking spaces",
+          "Transparent asking price provided"
+        ],
+        "cons": [
+          "Land size is undisclosed",
+          "Significant debt commitment at 6.2% interest"
+        ],
+        "fairValueLow": 1550000,
+        "fairValueHigh": 1750000,
+        "verdict": "Fair",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:05:14.004Z",
+        "priceText": "$1,700,000"
+      },
       "imported": true
     },
     {
@@ -6158,7 +6194,25 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "The asking price is not disclosed for this 3-bedroom, 2-bathroom property in neighbouring Glenside. It provides a practical two-bathroom layout and two parking spaces suited to a growing household. In the absence of median historical data or land size metrics, fair value remains an estimate over a wide range.",
+        "pros": [
+          "Situated in neighbouring Glenside",
+          "Two bathrooms accommodate family routines",
+          "Includes two car parking spaces"
+        ],
+        "cons": [
+          "Price is undisclosed by the agent",
+          "Land area is not provided",
+          "High interest rate environment increases servicing costs"
+        ],
+        "fairValueLow": 1150000,
+        "fairValueHigh": 1650000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:05:14.004Z",
+        "priceText": "Contact Agent"
+      },
       "imported": true
     },
     {
@@ -6209,7 +6263,25 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "Located in Glen Osmond, this 4-bedroom, 2-bathroom home is offered at an asking price of $2,750,000. It provides generous room count and double vehicle accommodation for a family, though land size is omitted. At current 6.2% mortgage rates, this represents a major financial undertaking requiring thorough price justification.",
+        "pros": [
+          "Generous 4-bedroom family configuration",
+          "Two bathrooms and two car spaces",
+          "Located in adjacent Glen Osmond"
+        ],
+        "cons": [
+          "High asking price of $2,750,000",
+          "Land size is not disclosed",
+          "Substantial interest burden at 6.2% mortgage rates"
+        ],
+        "fairValueLow": 2400000,
+        "fairValueHigh": 2800000,
+        "verdict": "Fair",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:05:14.004Z",
+        "priceText": "$2,750,000"
+      },
       "imported": true
     },
     {
@@ -6260,7 +6332,25 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "Priced between $825,000 and $875,000, this Glenside property presents an entry-level price point for the district. However, offering only 2 bedrooms and 1 parking spot, it provides restricted utility for family requirements. It functions better as a compact residence than a long-term family base.",
+        "pros": [
+          "Clear advertised price guide",
+          "Lower capital requirement under $900,000",
+          "Two bathrooms provide internal convenience"
+        ],
+        "cons": [
+          "Only 2 bedrooms for family living",
+          "Restricted to a single car space",
+          "No land size or outdoor yard noted"
+        ],
+        "fairValueLow": 800000,
+        "fairValueHigh": 875000,
+        "verdict": "Fair",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:05:14.004Z",
+        "priceText": "$825,000 - $875,000"
+      },
       "imported": true
     },
     {
@@ -6311,7 +6401,25 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "The asking price is not disclosed for this four-bedroom, three-bathroom property in Linden Park. Without disclosed land size, feature details, or suburb median trends, valuation parameters must remain broad. Given high prevailing mortgage rates of 6.2%, buyers should obtain price guidance before committing resources.",
+        "pros": [
+          "Four bedrooms and three bathrooms",
+          "Two dedicated parking spaces",
+          "Located in Linden Park"
+        ],
+        "cons": [
+          "Asking price is not disclosed",
+          "Land size is not provided",
+          "No property features detailed"
+        ],
+        "fairValueLow": 1400000,
+        "fairValueHigh": 2000000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:05:14.004Z",
+        "priceText": "Contact Agent"
+      },
       "imported": true
     },
     {
@@ -6362,7 +6470,25 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "This Glenside residence offers four bedrooms, two bathrooms, and double parking with an asking price guide of $1.55m to $1.59m. The transparent price range assists budgeting amid elevated borrowing costs of 6.2%. However, the lack of land dimensions makes direct land-rate comparison impossible.",
+        "pros": [
+          "Clear asking price guide provided",
+          "Four bedrooms suitable for families",
+          "Double car accommodation"
+        ],
+        "cons": [
+          "Land size is not specified",
+          "No detailed features listed",
+          "Mortgage rates remain high at 6.2%"
+        ],
+        "fairValueLow": 1500000,
+        "fairValueHigh": 1650000,
+        "verdict": "Fair",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:05:14.004Z",
+        "priceText": "$1.55m - $1.59m"
+      },
       "imported": true
     },
     {
@@ -6413,7 +6539,25 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "This four-bedroom, three-bathroom home in St Georges has an undisclosed asking price. With missing lot size figures and absent suburb median trends, valuation requires a cautious and wide estimate. Buyers facing 6.2% interest rates should request price expectations early.",
+        "pros": [
+          "Four bedrooms and three bathrooms",
+          "Two car spaces",
+          "Located in St Georges"
+        ],
+        "cons": [
+          "Asking price is not disclosed",
+          "Land size is not specified",
+          "No interior features documented"
+        ],
+        "fairValueLow": 1500000,
+        "fairValueHigh": 2200000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:05:14.004Z",
+        "priceText": "Contact Agent"
+      },
       "imported": true
     },
     {
@@ -6464,7 +6608,25 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "This St Georges home provides four bedrooms and substantial four-car parking, seeking offers around $1.8m. While vehicle accommodation is generous, no land dimensions or specific features are provided to substantiate the premium. Financing at 6.2% mortgage rates suggests buyers should negotiate carefully.",
+        "pros": [
+          "Generous four-car parking capacity",
+          "Four bedrooms for family living",
+          "Established St Georges location"
+        ],
+        "cons": [
+          "Higher asking guide of $1.8m",
+          "Land size is not disclosed",
+          "Macro financing costs are elevated"
+        ],
+        "fairValueLow": 1650000,
+        "fairValueHigh": 1850000,
+        "verdict": "Fair",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:05:14.004Z",
+        "priceText": "Best Offer 1.8m"
+      },
       "imported": true
     },
     {
@@ -6515,7 +6677,25 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "Offering four bedrooms and three bathrooms in Glenside, this property carries an asking guide of $1.6m to $1.75m. It features one more bathroom than nearby 41 Lomandra Avenue, which accounts for part of the price premium. The top of the guide demands scrutiny in a 6.2% mortgage rate market.",
+        "pros": [
+          "Four bedrooms and three bathrooms",
+          "Two parking spaces",
+          "Clear asking guide provided"
+        ],
+        "cons": [
+          "Upper guide extends to $1.75m",
+          "Land size is not provided",
+          "Elevated 6.2% mortgage rates"
+        ],
+        "fairValueLow": 1550000,
+        "fairValueHigh": 1750000,
+        "verdict": "Fair",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:05:14.004Z",
+        "priceText": "Price Guide $1,600,000- $1,750,000"
+      },
       "imported": true
     },
     {
@@ -6566,7 +6746,25 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "The asking price is not disclosed for this three-bedroom, two-bathroom family property in Glenside. Situated close to Glenunga International High School, it provides functional family accommodation. In the absence of land size and pricing data, a broad valuation range is estimated.",
+        "pros": [
+          "Desirable Glenside location close to schools",
+          "Functional layout with three bedrooms and two bathrooms",
+          "Secure parking space for two vehicles"
+        ],
+        "cons": [
+          "Asking price is not disclosed",
+          "Land size is unspecified",
+          "Prevailing 6.2 percent mortgage rates increase borrowing costs"
+        ],
+        "fairValueLow": 1000000,
+        "fairValueHigh": 1450000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:05:14.004Z",
+        "priceText": "Contact Agent"
+      },
       "imported": true
     },
     {
@@ -6617,7 +6815,25 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "This two-bedroom property is located directly in Linden Park but is already under contract. No asking price or land size is disclosed, and the two-bedroom configuration offers limited space for an expanding family.",
+        "pros": [
+          "Prime Linden Park school zone location",
+          "Includes two allocated car spaces"
+        ],
+        "cons": [
+          "Property is already under contract",
+          "Asking price is not disclosed",
+          "Two bedrooms may be tight for a family",
+          "Land size is unspecified"
+        ],
+        "fairValueLow": 450000,
+        "fairValueHigh": 650000,
+        "verdict": "Fair",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:05:14.004Z",
+        "priceText": "Under Contract"
+      },
       "imported": true
     },
     {
@@ -6668,7 +6884,24 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "This four-bedroom, three-bathroom home in Frewville offers ample accommodation suitable for a family near Glenunga International High. The asking guide of $1,399,000 to $1,488,000 aligns with market expectations for large dwellings in this precinct, though land size is unlisted.",
+        "pros": [
+          "Four bedrooms and three bathrooms suit family requirements",
+          "Convenient access to Linden Park and Glenunga schools",
+          "Provides two car spaces"
+        ],
+        "cons": [
+          "Land size is not disclosed",
+          "Requires significant capital outlay amid 6.2 percent borrowing rates"
+        ],
+        "fairValueLow": 1350000,
+        "fairValueHigh": 1500000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:05:14.004Z",
+        "priceText": "$1,399,000 - $1,488,000"
+      },
       "imported": true
     },
     {
@@ -6719,7 +6952,25 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "A large five-bedroom, three-bathroom property in Glen Osmond well-suited to larger families. The asking price is undisclosed and subject to a best-offer campaign, necessitating a wide fair value estimate without land size details.",
+        "pros": [
+          "Generous five-bedroom and three-bathroom accommodation",
+          "Well positioned in Glen Osmond near key schools",
+          "Two car spaces provided"
+        ],
+        "cons": [
+          "Price is not disclosed by the vendor",
+          "Best offer deadline sale method creates price uncertainty",
+          "Land size is not specified"
+        ],
+        "fairValueLow": 1300000,
+        "fairValueHigh": 1800000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:05:14.004Z",
+        "priceText": "Best Offer By Monday 7th December @ 2:00PM"
+      },
       "imported": true
     },
     {
@@ -6770,7 +7021,25 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "This two-bedroom unit in Glenside is guided between $480,000 and $520,000, offering an accessible entry point near Glenunga International High School. However, the two-bedroom footprint and Portrush Road address present notable space and traffic considerations for families.",
+        "pros": [
+          "Accessible price guide under current macro conditions",
+          "Located in Glenside close to target high school"
+        ],
+        "cons": [
+          "Address on high-traffic Portrush Road",
+          "Two bedrooms and one bathroom limit family utility",
+          "Only one car space provided",
+          "Land size is unspecified"
+        ],
+        "fairValueLow": 460000,
+        "fairValueHigh": 520000,
+        "verdict": "Fair",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:05:14.004Z",
+        "priceText": "$480K - $520K"
+      },
       "imported": true
     },
     {
@@ -6821,7 +7090,25 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "This St Georges home offers generous family accommodation with four bedrooms and three bathrooms. The listing does not disclose land size or structural features, requiring further enquiry before committing. At an asking range of $2,250,000 to $2,475,000, it represents a substantial outlay under current 6.2% mortgage rates.",
+        "pros": [
+          "Four bedrooms and three bathrooms",
+          "Two off-street car spaces",
+          "Clear private treaty price guide"
+        ],
+        "cons": [
+          "Land size is not disclosed",
+          "High capital outlay in high-rate environment",
+          "Property type and features are omitted"
+        ],
+        "fairValueLow": 2200000,
+        "fairValueHigh": 2500000,
+        "verdict": "Fair",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:05:14.004Z",
+        "priceText": "$2,250,000-$2,475,000"
+      },
       "imported": true
     },
     {
@@ -6872,7 +7159,25 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "This Glenside listing provides two bedrooms, one bathroom, and parking space for two vehicles. With an asking guide of $899,000 to $949,000, the two-bedroom configuration may prove restrictive for a family. Key details such as land size and property type remain unspecified in the listing.",
+        "pros": [
+          "Two dedicated vehicle spaces",
+          "Glenside location near key eastern amenities",
+          "Transparent private treaty asking range"
+        ],
+        "cons": [
+          "Only two bedrooms limit family growth",
+          "Single bathroom configuration",
+          "Land area is not provided"
+        ],
+        "fairValueLow": 880000,
+        "fairValueHigh": 950000,
+        "verdict": "Fair",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:05:14.004Z",
+        "priceText": "$899K — $949K"
+      },
       "imported": true
     },
     {
@@ -6923,7 +7228,25 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "The asking price is not disclosed for this Glen Osmond home, which is offered through a best offers campaign closing 7 December. It provides practical family scale with four bedrooms, two bathrooms, and parking for five cars. Because price, land dimensions, and features are omitted, a wide valuation range is warranted.",
+        "pros": [
+          "Four bedrooms suit family requirements",
+          "Substantial parking for five vehicles",
+          "Two full bathrooms"
+        ],
+        "cons": [
+          "Asking price is not disclosed",
+          "Sale by deadline introduces pricing ambiguity",
+          "Land size is omitted from details"
+        ],
+        "fairValueLow": 1300000,
+        "fairValueHigh": 1900000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:05:14.004Z",
+        "priceText": "Best Offers By 7/12 (USP)"
+      },
       "imported": true
     },
     {
@@ -6974,7 +7297,24 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "Located in Glenside, this property comprises two bedrooms, one bathroom, and a single car space for $725,000 to $785,000. Its unit-style layout may be too compact for a family seeking long-term accommodation. Missing land dimensions and property features require confirmation during due diligence.",
+        "pros": [
+          "Accessible entry price point for Glenside",
+          "Private treaty terms set clear expectations"
+        ],
+        "cons": [
+          "Two bedrooms may constrain family living",
+          "Single bathroom and single car space",
+          "Land size and features not disclosed"
+        ],
+        "fairValueLow": 720000,
+        "fairValueHigh": 790000,
+        "verdict": "Fair",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:05:14.004Z",
+        "priceText": "$725,000 - $785,000"
+      },
       "imported": true
     },
     {
@@ -7025,7 +7365,25 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "This Frewville residence is listed between $600,000 and $640,000, representing the lowest price point among the evaluated options. However, offering only two bedrooms, one bathroom, and one car space, it provides limited living capacity for a family. No land area or descriptive features are included in the listing facts.",
+        "pros": [
+          "Affordable price bracket under $650,000",
+          "Frewville location close to inner-east amenities",
+          "Straightforward private treaty process"
+        ],
+        "cons": [
+          "Two bedrooms restrict growing family utility",
+          "Single bathroom setup",
+          "Land size is not disclosed"
+        ],
+        "fairValueLow": 600000,
+        "fairValueHigh": 650000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:05:14.004Z",
+        "priceText": "$600k - $640k"
+      },
       "imported": true
     },
     {
@@ -7076,7 +7434,26 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "This Glenunga property offers a family-friendly layout of three bedrooms, two bathrooms, and two car spaces near Glenunga International High School. The disclosed asking range of $890,000 to $960,000 provides clear budget expectations amid 6.2% mortgage rates. However, specific land dimensions and property classification are omitted from the listing.",
+        "pros": [
+          "Located in target Glenunga school catchment",
+          "Disclosed price guide between $890,000 and $960,000",
+          "Practical layout with three bedrooms and two bathrooms",
+          "Two car parking spaces included"
+        ],
+        "cons": [
+          "Land size is not disclosed",
+          "Unit numbering suggests community or strata title",
+          "Mortgage rates of 6.2% tighten family budgets"
+        ],
+        "fairValueLow": 880000,
+        "fairValueHigh": 970000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:05:14.004Z",
+        "priceText": "$890,000 - $960,000"
+      },
       "imported": true
     },
     {
@@ -7127,7 +7504,25 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "Well positioned directly in Linden Park, this four-bedroom, two-bathroom residence suits family requirements near Linden Park Primary School. The home is currently under contract, and no asking or sale price is disclosed in the data. With undisclosed land area and pricing, any valuation must remain wide.",
+        "pros": [
+          "Situated in desired suburb of Linden Park",
+          "Four bedrooms offer ample room for families",
+          "Provides two full bathrooms and two car spaces"
+        ],
+        "cons": [
+          "Currently listed as under contract",
+          "Asking price is not disclosed",
+          "Land size is completely omitted"
+        ],
+        "fairValueLow": 1100000,
+        "fairValueHigh": 1850000,
+        "verdict": "Fair",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:05:14.004Z",
+        "priceText": "Under Contract"
+      },
       "imported": true
     },
     {
@@ -7178,7 +7573,25 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "This three-bedroom, two-bathroom home sits on Glenunga Avenue within easy reach of the local high school. It is already marked under contract, restricting immediate purchase opportunities. Because no pricing or land metrics are provided, fair value is estimated broadly.",
+        "pros": [
+          "Prime Glenunga address near target schools",
+          "Three bedrooms and two bathrooms suit family living",
+          "Includes two off-street parking spots"
+        ],
+        "cons": [
+          "Property is already under contract",
+          "Price is undisclosed in the listing",
+          "Total land area is not provided"
+        ],
+        "fairValueLow": 950000,
+        "fairValueHigh": 1600000,
+        "verdict": "Fair",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:05:14.004Z",
+        "priceText": "Under Contract"
+      },
       "imported": true
     },
     {
@@ -7229,7 +7642,25 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "Positioned in Frewville adjacent to Glenunga, this home features two bedrooms, one bathroom, and an extensive five parking spaces. The $695,000 to $750,000 price guide provides an accessible entry point near eastern suburb schools. Nonetheless, the two-bedroom capacity may be limiting for an expanding family.",
+        "pros": [
+          "Accessible price guide of $695,000 to $750,000",
+          "Exceptional parking capacity with five car spaces",
+          "Close proximity to Glenunga school zone"
+        ],
+        "cons": [
+          "Only two bedrooms may constrain family living",
+          "Single bathroom configuration",
+          "Land size is not specified"
+        ],
+        "fairValueLow": 690000,
+        "fairValueHigh": 760000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:05:14.004Z",
+        "priceText": "$695,000 - $750,000"
+      },
       "imported": true
     },
     {
@@ -7280,7 +7711,25 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "Located in St Georges near both Linden Park Primary and Glenunga International High, this home offers three bedrooms, two bathrooms, and two car spots. The price is withheld behind a contact agent status, reducing transparency for buyers managing 6.2% mortgage rates. Without disclosed land size or pricing, fair value must be viewed with a wide margin.",
+        "pros": [
+          "Desirable St Georges setting near school zones",
+          "Three bedrooms and two bathrooms suit families",
+          "Accommodates two vehicles"
+        ],
+        "cons": [
+          "Price is undisclosed by the vendor",
+          "Land area is not documented",
+          "Current 6.2% mortgage rates demand cautious borrowing"
+        ],
+        "fairValueLow": 950000,
+        "fairValueHigh": 1700000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:05:14.004Z",
+        "priceText": "contact agent"
+      },
       "imported": true
     },
     {
@@ -7331,7 +7780,26 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "The asking price is not disclosed for this 2-bedroom, 1-bathroom Glenunga unit being sold via best offers. While located in a prime school zone suburb, the compact footprint may prove tight for family living. Fair value is estimated with a wide range due to the absence of disclosed pricing and land area.",
+        "pros": [
+          "Located in Glenunga near target schools",
+          "Low-maintenance 2-bedroom footprint",
+          "Includes dedicated single car space"
+        ],
+        "cons": [
+          "Price is not disclosed by agent",
+          "Only 1 bathroom for the home",
+          "Two bedrooms may limit family usability",
+          "Land size is not specified"
+        ],
+        "fairValueLow": 550000,
+        "fairValueHigh": 750000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:05:14.004Z",
+        "priceText": "Best Offers by 1/12/26 12pm USP"
+      },
       "imported": true
     },
     {
@@ -7382,7 +7850,25 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "This St Georges home offers a functional 3-bedroom, 2-bathroom configuration with an asking range of $1,350,000 to $1,485,000. It sits in a high-demand suburb adjacent to Glenunga and Linden Park, making it practical for school access. However, it only provides parking for one car, and land dimensions are not specified.",
+        "pros": [
+          "Convenient St Georges location",
+          "Functional 3-bedroom and 2-bathroom layout",
+          "Clear asking price guide provided"
+        ],
+        "cons": [
+          "Only 1 car parking space",
+          "Land size is not disclosed",
+          "Current 6.2% mortgage rates elevate repayments"
+        ],
+        "fairValueLow": 1350000,
+        "fairValueHigh": 1500000,
+        "verdict": "Fair",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:05:14.004Z",
+        "priceText": "$1,350,000 - $1,485,000"
+      },
       "imported": true
     },
     {
@@ -7433,7 +7919,25 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "Located directly in Linden Park, this 4-bedroom, 2-bathroom home provides 3 car spaces and is guided at $1,425,000 to $1,485,000. The layout is well-proportioned for family requirements within walking distance of local schooling. At this price point for a 4-bedroom home in Linden Park, it presents an appealing proposition.",
+        "pros": [
+          "Prime Linden Park family location",
+          "4 bedrooms ideal for family living",
+          "Ample parking with 3 car spaces",
+          "Two full bathrooms provided"
+        ],
+        "cons": [
+          "Land size is not specified",
+          "High interest rate environment constrains borrowing"
+        ],
+        "fairValueLow": 1400000,
+        "fairValueHigh": 1520000,
+        "verdict": "Strong value",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:05:14.004Z",
+        "priceText": "$1,425,000 - $1,485,000"
+      },
       "imported": true
     },
     {
@@ -7484,7 +7988,25 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "This Glenunga property provides 3 bedrooms, 2 bathrooms, and 2 parking spaces with a defined price guide of $900,000 to $950,000. It offers an attainable entry point into the Glenunga school precinct for a family needing multiple bedrooms and bathrooms. As a unit dwelling, overall parcel size is not stated.",
+        "pros": [
+          "Glenunga address close to key schools",
+          "3 bedrooms and 2 bathrooms layout",
+          "Dedicated parking for 2 vehicles",
+          "Accessible sub-million dollar price guide"
+        ],
+        "cons": [
+          "Unit title format limits outdoor space",
+          "Land size is not disclosed"
+        ],
+        "fairValueLow": 880000,
+        "fairValueHigh": 960000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:05:14.004Z",
+        "priceText": "$900,000 - $950,000"
+      },
       "imported": true
     },
     {
@@ -7535,7 +8057,26 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "Situated in St Georges, this property features 4 bedrooms, 4 car spaces, and an asking price of $1,998,888. While the bedroom count and extensive parking suit family logistics, having only 1 bathroom is a significant operational bottleneck at this price level. Without land size details, the near-$2M price tag appears steep in a 6.2% mortgage environment.",
+        "pros": [
+          "Well-regarded St Georges location",
+          "4 bedrooms accommodate a family",
+          "Generous 4-car parking capacity"
+        ],
+        "cons": [
+          "Only 1 bathroom for four bedrooms",
+          "High asking price near two million",
+          "Land size is not disclosed",
+          "Substantial mortgage costs at current rates"
+        ],
+        "fairValueLow": 1750000,
+        "fairValueHigh": 1920000,
+        "verdict": "Overpriced",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:05:14.004Z",
+        "priceText": "$1,998,888"
+      },
       "imported": true
     },
     {
@@ -7586,7 +8127,24 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "This property is situated in Glenunga near key schooling options with an asking range of $900,000 to $935,000. However, the listing omits core physical details including bedroom count, bathrooms, and land size. A cautious approach is necessary to verify the dwelling type and physical condition against the price guide.",
+        "pros": [
+          "Located in Glenunga near target schools",
+          "Clear private treaty price guide provided"
+        ],
+        "cons": [
+          "Bedroom and bathroom counts are undisclosed",
+          "Land size is omitted",
+          "Mortgage rates at 6.2% increase holding costs"
+        ],
+        "fairValueLow": 850000,
+        "fairValueHigh": 950000,
+        "verdict": "Fair",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:05:14.004Z",
+        "priceText": "$900,000-$935,000"
+      },
       "imported": true
     },
     {
@@ -7637,7 +8195,24 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "Positioned on Brooker Street in Glenunga, this listing has an asking price of $1.825m. The property details provide no land size, bedroom count, or architectural type to evaluate directly. Due to the high price point and missing specifications, extensive due diligence is required before inspecting.",
+        "pros": [
+          "Located in desirable Glenunga school zone",
+          "Fixed asking price via private treaty"
+        ],
+        "cons": [
+          "Zero data on bedrooms or bathrooms",
+          "Land size is completely undisclosed",
+          "High capital outlay in high-rate climate"
+        ],
+        "fairValueLow": 1650000,
+        "fairValueHigh": 1900000,
+        "verdict": "Fair",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:05:14.004Z",
+        "priceText": "$1.825m"
+      },
       "imported": true
     },
     {
@@ -7688,7 +8263,24 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "The asking price is not disclosed by the agent for this Glenunga property. It offers a 2-bedroom, 1-bathroom configuration with single-car parking near local schools. Because land size and price are withheld, fair value must be framed broadly until further details emerge.",
+        "pros": [
+          "Desirable Glenunga address near top schools",
+          "Functional 2-bedroom layout with dedicated parking"
+        ],
+        "cons": [
+          "Price is not disclosed",
+          "Land size is not stated",
+          "Two bedrooms may constrain a growing family"
+        ],
+        "fairValueLow": 550000,
+        "fairValueHigh": 750000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:05:14.004Z",
+        "priceText": "CONTACT AGENT"
+      },
       "imported": true
     },
     {
@@ -7739,7 +8331,25 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "The asking price is not disclosed for this 2-bedroom, 1-bathroom home in Linden Park. Its address offers proximity to Linden Park Primary School, which is a major benefit for families. Due to absent price and allotment dimensions, fair value is estimated broadly based on limited dwelling features.",
+        "pros": [
+          "Situated directly in Linden Park",
+          "Includes 2 bedrooms and allocated parking",
+          "Close to Linden Park Primary School"
+        ],
+        "cons": [
+          "Price is not disclosed",
+          "Land size and type are omitted",
+          "Two bedrooms may limit family accommodation"
+        ],
+        "fairValueLow": 550000,
+        "fairValueHigh": 750000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:05:14.004Z",
+        "priceText": "Contact Agent"
+      },
       "imported": true
     },
     {
@@ -7790,7 +8400,24 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "Listed at $955,000, this Glenunga property features 3 bedrooms, 2 bathrooms, and 1 car space. The layout offers practical family accommodation within reach of Glenunga International High School. The exact land area is unlisted, but the confirmed specs support genuine buyer inspection.",
+        "pros": [
+          "Family-appropriate 3-bedroom, 2-bathroom layout",
+          "Situated in prime Glenunga school catchment",
+          "Clear asking price provided"
+        ],
+        "cons": [
+          "Land area is not specified",
+          "Prevailing 6.2% mortgage rates lift borrowing costs"
+        ],
+        "fairValueLow": 900000,
+        "fairValueHigh": 1000000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:05:14.004Z",
+        "priceText": "$955,000"
+      },
       "imported": true
     },
     {
@@ -7841,7 +8468,25 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "This allotment on Allawah Avenue in Glen Osmond is offered between $875,000 and $925,000. No details are provided regarding dwelling type, bedroom count, or land dimensions, necessitating full verification for family suitability. The location sits within reach of high-demand eastern suburb schools.",
+        "pros": [
+          "Accessible sub-$1M price point for Glen Osmond",
+          "Glen Osmond location convenient to targeted schools",
+          "Private treaty enables direct negotiation"
+        ],
+        "cons": [
+          "Bed, bath, and car counts are omitted",
+          "Land size and dwelling type are unspecified",
+          "Mortgage rates at 6.2% increase borrowing costs"
+        ],
+        "fairValueLow": 850000,
+        "fairValueHigh": 925000,
+        "verdict": "Fair",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:05:14.004Z",
+        "priceText": "$875,000 - $925,000"
+      },
       "imported": true
     },
     {
@@ -7892,7 +8537,24 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "Offered with an asking guide of $1,025,000 to $1,075,000, this Glen Osmond address is situated well for local schooling. However, the listing omits all structural details, including room counts and block size. Buyers must clarify what improvements or land area are included before progressing.",
+        "pros": [
+          "Positioned in desirable Glen Osmond school zone",
+          "Private treaty method allows standard conditions"
+        ],
+        "cons": [
+          "No bedroom or bathroom numbers provided",
+          "Land area is completely undisclosed",
+          "Priced notably higher than neighboring Lot 3"
+        ],
+        "fairValueLow": 975000,
+        "fairValueHigh": 1075000,
+        "verdict": "Fair",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:05:14.004Z",
+        "priceText": "$1,025,000 - 1,075,000"
+      },
       "imported": true
     },
     {
@@ -7943,7 +8605,25 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "This Glen Osmond property offers three bedrooms, one bathroom, and three vehicle spaces, guiding at $1,550,000 to $1,650,000. While the bedroom and car accommodation suit family living, a single bathroom may create bottlenecks for a growing household. Land size is not disclosed in the listing data.",
+        "pros": [
+          "Three bedrooms suit a growing family",
+          "Three parking spaces provide ample vehicle storage",
+          "Glen Osmond address offers school proximity"
+        ],
+        "cons": [
+          "Single bathroom is restrictive for families",
+          "Land size is not stated",
+          "High interest rate climate demands careful budgeting"
+        ],
+        "fairValueLow": 1500000,
+        "fairValueHigh": 1650000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:05:14.004Z",
+        "priceText": "$1,550,000 - $1,650,000"
+      },
       "imported": true
     },
     {
@@ -7994,7 +8674,25 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "The asking price is not disclosed for this Frewville property, which provides three bedrooms, two bathrooms, and four car spaces. Because no price guide or historical median data is supplied, the estimated fair value is kept wide based strictly on its family-oriented layout and inner-east location. It offers practical features for family buyers targeting nearby Glenunga and Linden Park schools.",
+        "pros": [
+          "Three bedrooms and two bathrooms suit families",
+          "Four car spaces provide generous parking",
+          "Frewville offers excellent school catchment proximity"
+        ],
+        "cons": [
+          "Asking price is not disclosed by agent",
+          "Land measurement is not provided",
+          "Sale method is not stated"
+        ],
+        "fairValueLow": 1150000,
+        "fairValueHigh": 1750000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:05:14.004Z",
+        "priceText": "Contact Agent"
+      },
       "imported": true
     },
     {
@@ -8045,7 +8743,25 @@
       "lastSeen": "2026-11-23",
       "origin": "domain",
       "via": "alerts",
-      "ai": null,
+      "ai": {
+        "summary": "Located directly on Portrush Road in Glenunga, this property is advertised at a fixed price of $1.65 million. While placed in the primary school and high school zones, arterial road traffic will be a persistent issue for families. No details are supplied concerning bedroom, bathroom, or land dimensions to justify the asking figure.",
+        "pros": [
+          "Located directly within Glenunga school catchment",
+          "Private treaty offers clear price expectations"
+        ],
+        "cons": [
+          "Main road frontage on busy Portrush Road",
+          "No bedroom or bathroom data provided",
+          "Land size is entirely omitted",
+          "Firm $1.65M price lacks supporting property specifications"
+        ],
+        "fairValueLow": 1450000,
+        "fairValueHigh": 1650000,
+        "verdict": "Overpriced",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-23T13:05:14.004Z",
+        "priceText": "$1.65m"
+      },
       "imported": true
     },
     {
@@ -8337,6 +9053,57 @@
           "priceText": "Contact Agent",
           "priceLow": null,
           "priceHigh": null
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-23",
+      "origin": "domain",
+      "via": "alerts",
+      "ai": null,
+      "imported": true
+    },
+    {
+      "id": "2020897567",
+      "url": "https://www.domain.com.au/258-glen-osmond-road-fullarton-sa-5063-2020897567",
+      "headline": null,
+      "address": "258 Glen Osmond Road, Fullarton",
+      "suburb": "Fullarton",
+      "postcode": null,
+      "lat": -34.9542,
+      "lng": 138.6364244,
+      "propertyType": null,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "carspaces": 2,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "$795,000",
+      "priceLow": 795000,
+      "priceHigh": 795000,
+      "saleMethod": "privateTreaty",
+      "auctionDate": null,
+      "photos": [
+        "https://rimh2.domainstatic.com.au/rilU5rg_HmfeJ4IUIH22deDbJUI=/720x540/filters:format(webp):quality(85)/2020897567_11_3_260605_055005-w658-h481"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 0,
+      "firstSeen": "2026-11-23",
+      "priceHistory": [
+        {
+          "date": "2026-11-23",
+          "priceText": "$795,000",
+          "priceLow": 795000,
+          "priceHigh": 795000
         }
       ],
       "salesHistory": [],

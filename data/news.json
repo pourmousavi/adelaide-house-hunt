@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T12:58:38.840Z",
+  "generatedAt": "2026-11-23T13:05:14.004Z",
   "items": [
     {
       "title": "Treasurer’s forecast makes for an unhappy new year",
@@ -102,17 +102,6 @@
       "topics": [
         "rates",
         "inflation"
-      ],
-      "importance": 2.25
-    },
-    {
-      "title": "Australian Dollar: RBA tightening raises recession risks – Rabobank",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaGdoY0hmMG5DSTcyOHNuNHFNNFAzZW5CQnl0eWMtTFd4RW1qY2NzZVJCSWpidEpzNHBZcFl1Q0d6QmtsUnZwSnlhUkRLN3J1Y1lqcUJIUHc0ZG44RjhJcmhxOEU3Q3A1ZHFPWGRtZkdGLVptQnU5Z21ad3hxSS1wQTVTblNiVTFZaV9aTGI4ZEVhV0swbWRuYXhfMWlrQTV0Wk9EejY3SjNLY0E?oc=5",
-      "source": "FXStreet",
-      "date": "2026-11-23T06:44:03.000Z",
-      "category": "rba",
-      "topics": [
-        "rates"
       ],
       "importance": 2.25
     },
@@ -276,6 +265,17 @@
       "importance": 1.25
     },
     {
+      "title": "RBA chief admits Australia feels like it’s in recession",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQUGMtRWVZSVhMeW9MNVJiRlBsZ3pKNXVLVXp5M2pmejZEZ3Z2SGhHWXVobEF2N1dQeWZnblJleWVYX2MxRElwRGxSXzVCdFJsSDhmWmZFZDRsZ2c4SEhubkM4aThMbVNZUkI0T0RFdDNENFlaRDdZSkVzbkJUVG9kMWlOdkx6dEJnOW1LRkZET0N0XzF3czNVYVUzTG81ZDNUbEJwUFE5d1NTbzdzUG5xZ2pLVkdmX3JwUzJPOS0tc0VFX013eXlVQmtjcnpzdVFyMWt4UmhoYnppX2xB?oc=5",
+      "source": "The Nightly",
+      "date": "2026-11-21T20:05:49.000Z",
+      "category": "rba",
+      "topics": [
+        "rates"
+      ],
+      "importance": 2.25
+    },
+    {
       "title": "Has the RBA gone too far? Australia’s unemployment shock raises serious questions about interest rates",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcGhXTkI1TUZZZXlWSnZucGdTWXl0VXpCRUp1ZmNrUmFqbm1PSTBQT1I1aG52cmd2U3pjZ1BrWEFsc2c1ZWY5S05RTDVydTBTMnI0bjFZQTEzeE9tUXpDN0dPUUtHVXJCUlljdWg5QmZMWmRkZi1hUi1ILTgxbFJJNDlqMG9KZEpHZVljTzNPbXdXZzg2Y1NqWkNHeWxDUWVPaEQzR3NqNFBxMGJid1JkaXlwTlc4NHFjbzZkelVRUk5QTC1Wc0VmTS1hQQ?oc=5",
       "source": "Property Update",
@@ -287,10 +287,10 @@
       "importance": 2
     },
     {
-      "title": "How RBA and Fed Divergence Pressures AUD/JPY in Risk-Off Markets",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSHV4LXRhV1RyWC1HT1BQcjRCbTJHYUVJOXBPNnFfWHdIZm51azNSN1didktZYUtIQUg4Q20zSElXNUpmZUg5TzZTRDN4WFFac0thWF9NVzU1S0MxQ203M2NPQ283WV9Ea2ZPSEZUSmpyOFpTelh0eWw4Z1UwZkVxRDdSTkhmT044Vk9NUXkxQzBnVWVLQkZqRUUtZWR4azFMLUE?oc=5",
-      "source": "StoneX",
-      "date": "2026-11-20T15:30:23.000Z",
+      "title": "RBA Rate Hike November 2026: Home Loan Announcements",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9nSkp5S002SDNPVlNEeVFhR1psMzBJdEs1XzM4RHp0QUNYcmVaYkVvVkpfWlNJall3NEQ3WG93VXB4WFpPOVE2a2ZfVDZVcENqM3VUU0s4SE1rNlJvNTVoS253?oc=5",
+      "source": "Savings.com.au",
+      "date": "2026-11-20T08:00:00.000Z",
       "category": "rba",
       "topics": [
         "rates"
