@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T12:56:22.578Z",
+  "generatedAt": "2026-11-23T12:58:38.840Z",
   "items": [
     {
       "title": "Treasurer’s forecast makes for an unhappy new year",
@@ -46,7 +46,7 @@
       "title": "Enough with your whining, Jim, just put out the fire",
       "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPbnlFYzdlM1Nqa0Q1VVpVOEV6MXZ3ZTBCN2tvTEtlcElwbnJUTVFGRkNJS0VQTUVsUkltWXBfdDRGdG9jY2Nrc052aU1jLXBveTJZcjU4SjNYVWI4R2N0X05sZTlsMTByTkMyazlsSUFZdTZmS1drdFlycWxWZ1NMZXFQTW1rUGFranlEbng1d2xmLVlQRXlIRlYyZEhVZW9wTTNGRmdEazlnMnBwYnZuLWFHU1RYczBOVVRmZjdxMlJEUWhabzJfeUF4YVRsRkdLR0NqcjVENy0yeGIzcVJBcVlFSnVwNldBRm00RnFSdG0ydw?oc=5",
       "source": "The Australian",
-      "date": "2026-11-23T09:17:12.000Z",
+      "date": "2026-11-23T09:56:57.000Z",
       "category": "economy",
       "topics": [],
       "importance": 0.75
@@ -220,18 +220,6 @@
       "category": "economy",
       "topics": [],
       "importance": 0.75
-    },
-    {
-      "title": "‘No use pretending otherwise’: Chalmers warns of tough year ahead as jobless and inflation forecasts worsen",
-      "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE0tRkowSFc4cEo3WnlsbjFLdkRXQmNLN2wzRFZNWlQwWlNkWXVlRV9Od3I2Mnl0QXVtY25V?oc=5",
-      "source": "Howl.Link",
-      "date": "2026-11-23T04:07:17.000Z",
-      "category": "economy",
-      "topics": [
-        "inflation",
-        "budget"
-      ],
-      "importance": 2.25
     },
     {
       "title": "Australian borrowers face threat of further rate hikes before relief in late 2027",
@@ -430,6 +418,17 @@
         "adelaide"
       ],
       "importance": 1.25
+    },
+    {
+      "title": "Young couple score $676k coastal home as Aussie property prices plunge first time in years: 'Got lucky'",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQcjV1alNTRFFVS1hhU212RTh0QTFIaWpBX0Q4cmNINElEYmdsTnNtcEFPdl82bmFfdi12OWl2dU1iOUZ6bkNCTzlSQ2I2T1BONU1MSXBpSVZVNzF3REtvVHZNQ0R0LWtsdk15NW92ZkIyUV9Td1VURldmSlptdWl2QjE4WnFBSXIzd254a2VObmpobE9PMWFiYTZ3OHVzblhUd25zY2Qzd2hnNkxuOG5fdTlPTGljR3NKVk9kSDU3d0Y3RzBOejVqVjBlUEJuYy1uMGtTSTJZQQ?oc=5",
+      "source": "Yahoo News Australia",
+      "date": "2026-11-15T02:10:00.000Z",
+      "category": "property",
+      "topics": [
+        "housing"
+      ],
+      "importance": 0.75
     }
   ]
 }

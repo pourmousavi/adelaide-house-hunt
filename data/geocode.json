@@ -1,4 +1,16 @@
 {
+  "1 486 portrush road linden park": {
+    "lat": -34.9480019,
+    "lng": 138.6434574
+  },
+  "1 5 crossing street st georges": {
+    "lat": -34.9548468,
+    "lng": 138.6459713
+  },
+  "1 6 hollard street frewville": {
+    "lat": -34.9478088,
+    "lng": 138.6300717
+  },
   "1 fowlers road glenunga": {
     "lat": -34.9563262,
     "lng": 138.6409763
@@ -11,13 +23,29 @@
     "lat": -34.9475892,
     "lng": 138.6319807
   },
+  "10 cranwell street glenside": {
+    "lat": -34.9408882,
+    "lng": 138.6380949
+  },
   "10 eton street malvern": {
     "lat": -34.9566063,
     "lng": 138.6117355
   },
+  "10 gulfview avenue st georges": {
+    "lat": -34.9495311,
+    "lng": 138.6503454
+  },
+  "10 lebanon avenue glenunga": {
+    "lat": -34.9552265,
+    "lng": 138.6411049
+  },
   "10 taminga avenue glenunga": {
     "lat": -34.9547382,
     "lng": 138.6420414
+  },
+  "100 sydney street glenunga": {
+    "lat": -34.9469336,
+    "lng": 138.6414638
   },
   "102 statenborough st erindale": {
     "lat": -34.9297364,
@@ -26,6 +54,10 @@
   "102 sydney street glenunga": {
     "lat": -34.9469336,
     "lng": 138.6414638
+  },
+  "106 young street parkside": {
+    "lat": -34.9440429,
+    "lng": 138.6167885
   },
   "107 queen street norwood": {
     "lat": -34.9210646,
@@ -43,6 +75,10 @@
     "lat": -34.9603095,
     "lng": 138.6312987
   },
+  "11 463a portrush road glenside": {
+    "lat": -34.9432413,
+    "lng": 138.6422634
+  },
   "11 bonython avenue beaumont": {
     "lat": -34.9453858,
     "lng": 138.6627738
@@ -50,6 +86,10 @@
   "11 duncan road beaumont": {
     "lat": -34.9487587,
     "lng": 138.6651453
+  },
+  "11 fulton crescent glen osmond": {
+    "lat": -34.9612919,
+    "lng": 138.6489603
   },
   "11 parker terrace clarence park": {
     "lat": -34.9621461,
@@ -83,6 +123,10 @@
     "lat": -34.9333395,
     "lng": 138.6620947
   },
+  "12 4 collyer court linden park": {
+    "lat": -34.9477672,
+    "lng": 138.6506524
+  },
   "12 dulwich avenue dulwich": {
     "lat": -34.93551,
     "lng": 138.626022
@@ -107,6 +151,10 @@
     "lat": -34.9475797,
     "lng": 138.6597583
   },
+  "14 montpelier street parkside": {
+    "lat": -34.9421366,
+    "lng": 138.6107393
+  },
   "14 tennyson drive beaumont": {
     "lat": -34.9527587,
     "lng": 138.6566237
@@ -127,6 +175,14 @@
     "lat": -34.9223263,
     "lng": 138.6292801
   },
+  "15 hay road linden park": {
+    "lat": -34.9471083,
+    "lng": 138.6450698
+  },
+  "15 holton street glenside": {
+    "lat": -34.9433021,
+    "lng": 138.6402071
+  },
   "15 katherine street fullarton": {
     "lat": -34.9519813,
     "lng": 138.6329609
@@ -134,6 +190,14 @@
   "15 martindale avenue toorak gardens": {
     "lat": -34.9355298,
     "lng": 138.6402638
+  },
+  "15 montpelier street parkside": {
+    "lat": -34.9421366,
+    "lng": 138.6107393
+  },
+  "15 wootoona terrace st georges": {
+    "lat": -34.9550202,
+    "lng": 138.6481268
   },
   "158 yarrabee road greenhill": {
     "lat": -34.9496345,
@@ -163,6 +227,10 @@
     "lat": -34.937638,
     "lng": 138.6485898
   },
+  "17 fuller street parkside": {
+    "lat": -34.9468936,
+    "lng": 138.6199927
+  },
   "17 jellicoe street linden park": {
     "lat": -34.9401719,
     "lng": 138.646014
@@ -191,6 +259,10 @@
     "lat": -34.9751815,
     "lng": 138.6343489
   },
+  "19 l estrange street glenside": {
+    "lat": -34.9422714,
+    "lng": 138.6352456
+  },
   "192 fisher street malvern": {
     "lat": -34.9573168,
     "lng": 138.6162603
@@ -203,6 +275,18 @@
     "lat": -34.9477406,
     "lng": 138.6488417
   },
+  "2 135 allinga avenue glenunga": {
+    "lat": -34.9501214,
+    "lng": 138.6379249
+  },
+  "2 53 kyle street glenside": {
+    "lat": -34.9442818,
+    "lng": 138.6388314
+  },
+  "2 6 hollard street frewville": {
+    "lat": -34.9478088,
+    "lng": 138.6300717
+  },
   "2 60 chapel street norwood": {
     "lat": -34.9166126,
     "lng": 138.6250243
@@ -211,9 +295,17 @@
     "lat": -34.9682108,
     "lng": 138.6403498
   },
+  "2 blyth street parkside": {
+    "lat": -34.9515024,
+    "lng": 138.6189612
+  },
   "2 crossley st erindale": {
     "lat": -34.9305706,
     "lng": 138.6629813
+  },
+  "2 glenunga avenue glenunga": {
+    "lat": -34.9532364,
+    "lng": 138.6395935
   },
   "2 montrose place beaumont": {
     "lat": -34.9515945,
@@ -231,6 +323,14 @@
     "lat": -34.9281702,
     "lng": 138.647009
   },
+  "20 l estrange street glenside": {
+    "lat": -34.9411418,
+    "lng": 138.635485
+  },
+  "205 5 harriet lucy drive glenside": {
+    "lat": -34.9410794,
+    "lng": 138.6265839
+  },
   "21 ailsa street fullarton": {
     "lat": -34.9516229,
     "lng": 138.6302076
@@ -246,6 +346,14 @@
   "21a highfield avenue st georges": {
     "lat": -34.9484466,
     "lng": 138.6512769
+  },
+  "22 banksia street glenside": {
+    "lat": -34.9452647,
+    "lng": 138.6259638
+  },
+  "22 cator street glenside": {
+    "lat": -34.9426018,
+    "lng": 138.6382213
   },
   "22a sherwood terrace glen osmond": {
     "lat": -34.9555664,
@@ -299,6 +407,10 @@
     "lat": -34.9487587,
     "lng": 138.6651453
   },
+  "29 robsart street parkside": {
+    "lat": -34.9450753,
+    "lng": 138.617085
+  },
   "2a austin crescent st georges": {
     "lat": -34.9503815,
     "lng": 138.6443078
@@ -311,9 +423,17 @@
     "lat": -34.9492753,
     "lng": 138.6561152
   },
+  "3 22 seaforth avenue hazelwood park": {
+    "lat": -34.9440854,
+    "lng": 138.6563854
+  },
   "3 27 stannington avenue heathpool": {
     "lat": -34.9318562,
     "lng": 138.6445373
+  },
+  "3 40 windsor road glenunga": {
+    "lat": -34.9458867,
+    "lng": 138.6407368
   },
   "3 evelyn court beaumont": {
     "lat": -34.9480265,
@@ -331,9 +451,21 @@
     "lat": -34.947223,
     "lng": 138.6633853
   },
+  "302 5 harriet lucy drive glenside": {
+    "lat": -34.9410794,
+    "lng": 138.6265839
+  },
   "31 beatty street linden park": {
     "lat": -34.9428063,
     "lng": 138.6440608
+  },
+  "31 lomandra avenue glenside": {
+    "lat": -34.9409525,
+    "lng": 138.6287626
+  },
+  "32 anglesey avenue st georges": {
+    "lat": -34.9514779,
+    "lng": 138.6467769
   },
   "32a wootoona terrace st georges": {
     "lat": -34.9550202,
@@ -382,20 +514,68 @@
     "lat": -34.9707032,
     "lng": 138.6285189
   },
+  "39a glenunga avenue glenunga": {
+    "lat": -34.9532364,
+    "lng": 138.6395935
+  },
   "39c high street kensington": {
     "miss": "2026-11-23T12:54:41.670Z"
+  },
+  "3a jellicoe street linden park": {
+    "lat": -34.9401719,
+    "lng": 138.646014
+  },
+  "4 21 flemington street glenside": {
+    "lat": -34.945811,
+    "lng": 138.6338831
+  },
+  "4 28 bevington road glenunga": {
+    "lat": -34.9514638,
+    "lng": 138.6406809
+  },
+  "4 463a portrush road glenside": {
+    "lat": -34.9432413,
+    "lng": 138.6422634
+  },
+  "4 6 collyer court linden park": {
+    "lat": -34.9475904,
+    "lng": 138.650262
+  },
+  "4 brooker street glenunga": {
+    "lat": -34.9465959,
+    "lng": 138.6378565
+  },
+  "4 elinor terrace glen osmond": {
+    "lat": -34.9602691,
+    "lng": 138.6455529
+  },
+  "4 leslie street glen osmond": {
+    "lat": -34.9628322,
+    "lng": 138.6484142
   },
   "4 swift avenue dulwich": {
     "lat": -34.936039,
     "lng": 138.6272922
   },
+  "404 9 banksia street glenside": {
+    "lat": -34.9456974,
+    "lng": 138.6256978
+  },
   "41 lomandra avenue glenside": {
     "lat": -34.9409525,
     "lng": 138.6287626
   },
+  "43 flemington street glenside": {
+    "lat": -34.9456619,
+    "lng": 138.6334992
+  },
   "435 greenhill road tusmore": {
     "lat": -34.9391147,
     "lng": 138.6433
+  },
+  "48 inverness avenue st georges": {
+    "lat": -34.9500072,
+    "lng": 138.6494823
   },
   "48 yarrabee road greenhill": {
     "lat": -34.9496345,
@@ -409,6 +589,14 @@
     "lat": -34.9629967,
     "lng": 138.6570511
   },
+  "5 135 allinga avenue glenunga": {
+    "lat": -34.9501214,
+    "lng": 138.6379249
+  },
+  "5 22 sturdee street linden park": {
+    "lat": -34.945506,
+    "lng": 138.6458894
+  },
   "5 bradfield street burnside": {
     "lat": -34.9355398,
     "lng": 138.6658961
@@ -416,6 +604,10 @@
   "5 norwich avenue burnside": {
     "lat": -34.9366485,
     "lng": 138.6660598
+  },
+  "5 windsor road glenside": {
+    "lat": -34.9455286,
+    "lng": 138.6347495
   },
   "50 elizabeth street norwood": {
     "lat": -34.9228631,
@@ -449,6 +641,10 @@
     "lat": -34.9471698,
     "lng": 138.6507649
   },
+  "573 portrush road glenunga": {
+    "lat": -34.9552134,
+    "lng": 138.64356
+  },
   "58 marlborough street malvern": {
     "lat": -34.9585521,
     "lng": 138.6130208
@@ -464,6 +660,10 @@
   "6 338 portrush road heathpool": {
     "lat": -34.9321991,
     "lng": 138.6418944
+  },
+  "6 6 collyer court linden park": {
+    "lat": -34.9475904,
+    "lng": 138.650262
   },
   "6 allawah avenue glen osmond": {
     "lat": -34.960984,
@@ -485,6 +685,10 @@
     "lat": -34.9730801,
     "lng": 138.6301418
   },
+  "608 9 banksia street glenside": {
+    "lat": -34.9456974,
+    "lng": 138.6256978
+  },
   "60a dover street malvern": {
     "lat": -34.9614737,
     "lng": 138.6128452
@@ -505,6 +709,10 @@
     "lat": -34.9331739,
     "lng": 138.6766028
   },
+  "7 jane street frewville": {
+    "lat": -34.9506124,
+    "lng": 138.6339264
+  },
   "7 moorcroft court burnside": {
     "lat": -34.9321191,
     "lng": 138.6623482
@@ -517,6 +725,10 @@
     "lat": -34.9642923,
     "lng": 138.6130002
   },
+  "77 anglesey avenue st georges": {
+    "lat": -34.9514779,
+    "lng": 138.6467769
+  },
   "79 conyngham street frewville": {
     "lat": -34.9487488,
     "lng": 138.6343035
@@ -524,6 +736,18 @@
   "7a avenue road frewville": {
     "lat": -34.9486188,
     "lng": 138.6305535
+  },
+  "7a elinor terrace glen osmond": {
+    "lat": -34.9602691,
+    "lng": 138.6455529
+  },
+  "8 115 allinga avenue glenunga": {
+    "lat": -34.9501214,
+    "lng": 138.6379249
+  },
+  "8 25 bevington road glenunga": {
+    "lat": -34.9514638,
+    "lng": 138.6406809
   },
   "8 brierbank terrace stonyfell": {
     "lat": -34.932167,
@@ -548,6 +772,10 @@
   "80 cheltenham street malvern": {
     "lat": -34.9596685,
     "lng": 138.6115853
+  },
+  "805 9 banksia street glenside": {
+    "lat": -34.9456974,
+    "lng": 138.6256978
   },
   "82 yarrabee road greenhill": {
     "lat": -34.9496345,
@@ -585,6 +813,14 @@
     "lat": -34.9321277,
     "lng": 138.6343355
   },
+  "95a conyngham street frewville": {
+    "lat": -34.9487488,
+    "lng": 138.6343035
+  },
+  "lot 1 4 allawah avenue glen osmond": {
+    "lat": -34.960984,
+    "lng": 138.6433106
+  },
   "lot 20 glenrowan avenue myrtle bank": {
     "lat": -34.9615008,
     "lng": 138.6352259
@@ -592,6 +828,10 @@
   "lot 21 glenrowan avenue myrtle bank": {
     "lat": -34.9615008,
     "lng": 138.6352259
+  },
+  "lot 3 4 allawah avenue glen osmond": {
+    "lat": -34.960984,
+    "lng": 138.6433106
   },
   "lot 51 549 fullarton road netherby": {
     "lat": -34.9663443,
