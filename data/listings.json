@@ -2948,23 +2948,24 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "The property is situated directly in Linden Park and offers four bedrooms and three bathrooms for family buyers. The asking price is not disclosed by the agent, requiring a broad valuation estimate based on the room count and suburb. With missing land size data, prospective buyers must perform thorough due diligence before committing.",
+        "summary": "This four-bedroom, three-bathroom home is situated directly in Linden Park near preferred schooling options. The price is not disclosed, so fair value is estimated broadly around the suburb's rising median trend ($1.95M in 2026). Given the generous bedroom and bathroom configuration, it warrants attention once pricing details are clarified.",
         "pros": [
-          "Desirable Linden Park school catchment location",
-          "Four bedrooms suited to family requirements",
-          "Three bathrooms avoid morning congestion"
+          "Located directly in target suburb Linden Park",
+          "Four bedrooms and three bathrooms suit families",
+          "Two dedicated vehicle parking spaces"
         ],
         "cons": [
-          "Price guide is not disclosed",
-          "Land area is completely omitted",
-          "No feature or condition information provided"
+          "Asking price is not disclosed",
+          "Land size is not provided",
+          "Elevated mortgage rates constrain purchasing power"
         ],
-        "fairValueLow": 1400000,
-        "fairValueHigh": 1900000,
+        "fairValueLow": 1750000,
+        "fairValueHigh": 2200000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:45:38.941Z",
-        "priceText": "Contact Agent"
+        "generatedAt": "2026-11-23T14:33:58.584Z",
+        "priceText": "Contact Agent",
+        "inputVersion": 2
       },
       "imported": true,
       "alsoAt": [
@@ -3021,23 +3022,24 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "Positioned on Devereux Road in Linden Park, this four-bedroom house sits in immediate proximity to local schooling. The property is scheduled for auction with no price guide disclosed, requiring a cautious wide fair value range. Without land dimensions or descriptive details, the exact value proposition will depend on auction conditions.",
+        "summary": "Offering four bedrooms and two bathrooms on Devereux Road, this Linden Park house matches core family requirements. The property is scheduled for auction without an advertised price guide. Based on recent suburb median growth from $1.635M in 2025 to $1.95M in 2026, a wide estimated value range applies.",
         "pros": [
-          "Prime location within Linden Park",
-          "Four-bedroom layout fits typical family needs",
-          "Two car spaces provided"
+          "Located in desirable suburb Linden Park",
+          "Practical four-bedroom and two-bathroom layout",
+          "Provides two car spaces"
         ],
         "cons": [
-          "Price guide is withheld for auction",
-          "Land measurement is not provided",
-          "Auction terms remove cooling-off flexibility"
+          "Auction sale method with undisclosed price",
+          "Land size is not disclosed",
+          "Cash rate environment adds auction finance risk"
         ],
-        "fairValueLow": 1350000,
-        "fairValueHigh": 1850000,
+        "fairValueLow": 1650000,
+        "fairValueHigh": 2100000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:45:38.941Z",
-        "priceText": "Auction Mon 30 Nov"
+        "generatedAt": "2026-11-23T14:33:58.584Z",
+        "priceText": "Auction Mon 30 Nov",
+        "inputVersion": 2
       },
       "imported": true,
       "alsoAt": [
@@ -3094,23 +3096,24 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "This St Georges home offers a substantial five-bedroom, four-bathroom layout with extensive six-car parking. At a fixed asking price of $4,000,000, it sits at the high end of the local market where a 6.2% borrowing rate implies substantial holding costs. Crucial land size figures and specific feature details are not supplied in the listing.",
+        "summary": "This large St Georges residence features five bedrooms, four bathrooms, and six car spaces with a $4,000,000 asking price. While the home offers substantial accommodation, the asking price sits nearly double the suburb's 2026 median of $2,060,000. Without disclosed land area or comparable sales to justify the premium, it appears stretched.",
         "pros": [
-          "Extensive five-bedroom, four-bathroom accommodation",
-          "Exceptional six-car vehicle capacity",
-          "Prestigious St Georges location near schools"
+          "Five bedrooms and four bathrooms accommodate large families",
+          "Substantial six-car parking capacity",
+          "Positioned in neighbouring suburb St Georges"
         ],
         "cons": [
-          "High $4,000,000 purchase price point",
-          "Total land area is unlisted",
-          "Specific architectural features are omitted"
+          "Asking price sits well above suburb median",
+          "Land size is not disclosed",
+          "Elevated 6.2 percent mortgage rates raise borrowing costs"
         ],
-        "fairValueLow": 3700000,
-        "fairValueHigh": 4100000,
-        "verdict": "Fair",
+        "fairValueLow": 2800000,
+        "fairValueHigh": 3400000,
+        "verdict": "Overpriced",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:45:38.941Z",
-        "priceText": "$4,000,000"
+        "generatedAt": "2026-11-23T14:33:58.584Z",
+        "priceText": "$4,000,000",
+        "inputVersion": 2
       },
       "imported": true,
       "alsoAt": [
@@ -3167,23 +3170,24 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "Located in Beaumont, this four-bedroom home offers three bathrooms and parking for up to six vehicles. The asking price is set at $2,100,000, but no land size or interior descriptions are provided to justify the pricing tier. Families will appreciate the generous room count and vehicle accommodation close to school catchments.",
+        "summary": "Located in Beaumont, this four-bedroom, three-bathroom house offers extensive six-car parking for an asking price of $2,100,000. Beaumont's median price reached $1,885,000 in 2026, making this modest premium reasonable for the extra bathrooms and vehicle capacity. It represents a balanced option close to Linden Park amenities.",
         "pros": [
-          "Substantial six-car parking capacity",
-          "Four bedrooms and three bathrooms",
-          "Close to eastern suburbs school network"
+          "Exceptional six-car parking capacity",
+          "Three bathrooms support busy family routines",
+          "Close proximity to Linden Park"
         ],
         "cons": [
-          "Land size is completely unspecified",
-          "No property features or descriptions provided",
-          "Substantial $2,100,000 capital outlay required"
+          "Priced above Beaumont median of $1,885,000",
+          "Land size is not disclosed",
+          "High interest rate climate limits borrowing"
         ],
         "fairValueLow": 1900000,
-        "fairValueHigh": 2150000,
+        "fairValueHigh": 2200000,
         "verdict": "Fair",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:45:38.941Z",
-        "priceText": "$2.1m"
+        "generatedAt": "2026-11-23T14:33:58.584Z",
+        "priceText": "$2.1m",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -3234,24 +3238,24 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "The asking price is not disclosed for this 4-bedroom, 3-bathroom house in Beaumont. Without land size, property description, or historical suburb trends provided, precise valuation is difficult amid 6.2% mortgage rates. The family-friendly layout in Beaumont makes it worth pursuing further details.",
+        "summary": "This four-bedroom, three-bathroom house in Beaumont provides a functional configuration for families looking near Linden Park. The listing does not disclose an asking price or land size, requiring a broad valuation range based on Beaumont's 2026 median of $1,885,000. It is a solid candidate for inspection once agent pricing guidance is obtained.",
         "pros": [
-          "Four bedrooms and three bathrooms",
-          "Two dedicated car spaces",
-          "Beaumont location near eastern schools"
+          "Four bedrooms and three bathrooms suit families",
+          "Two car spaces provided",
+          "Located in adjacent Beaumont near key schools"
         ],
         "cons": [
           "Asking price is not disclosed",
-          "Land size is not specified",
-          "No suburb trend data available",
-          "High 6.2% mortgage interest rates"
+          "Land size is not provided",
+          "High 6.2 percent mortgage rate environment"
         ],
-        "fairValueLow": 1300000,
-        "fairValueHigh": 2300000,
+        "fairValueLow": 1700000,
+        "fairValueHigh": 2050000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:45:38.941Z",
-        "priceText": "Contact Agent"
+        "generatedAt": "2026-11-23T14:33:58.584Z",
+        "priceText": "Contact Agent",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -3302,24 +3306,24 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "This listing offers a 4-bedroom, 3-bathroom house in Beaumont with undisclosed pricing. Critical information including land area and property features is omitted from the listing data. Given the desirable Beaumont location near target schools, direct inspection is necessary to assess true value.",
+        "summary": "The asking price is not disclosed for this four-bedroom, three-bathroom house in Beaumont. Beaumont medians have steadily grown from $1.76M in 2024 to $1.885M in 2026. Given the family-friendly room count, an inspection is recommended to confirm land size and condition.",
         "pros": [
-          "Four bedrooms suit family living",
-          "Three bathrooms prevent morning bottlenecks",
-          "Beaumont location close to schools"
+          "Four bedrooms and three bathrooms",
+          "Established Beaumont location near key schools",
+          "Two dedicated car spaces"
         ],
         "cons": [
           "Asking price is not disclosed",
-          "Land size is omitted",
-          "No suburb median trend data",
-          "Macro mortgage rate headwinds"
+          "Land size is not specified",
+          "Elevated mortgage rates impact borrowing capacity"
         ],
-        "fairValueLow": 1300000,
-        "fairValueHigh": 2300000,
+        "fairValueLow": 1650000,
+        "fairValueHigh": 1950000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:45:38.941Z",
-        "priceText": "Contact Agent"
+        "generatedAt": "2026-11-23T14:33:58.584Z",
+        "priceText": "Contact Agent",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -3370,24 +3374,24 @@
       "origin": "rea",
       "via": "alerts",
       "ai": {
-        "summary": "The property provides 4 bedrooms, 3 bathrooms, and 4 car spaces in Frewville, but the asking price is not disclosed. Property type and allotment size are also absent from the data. Its prime positioning near Glenunga International High School justifies inspection despite the lack of initial data.",
+        "summary": "Pricing is undisclosed for this four-bedroom, three-bathroom property in Frewville. Frewville medians have risen to $2.05M in 2026, though annual transaction volumes are very low. The generous four-car allocation and bathroom count suit family requirements well.",
         "pros": [
-          "Four car parking spaces",
           "Four bedrooms and three bathrooms",
-          "Frewville location adjacent to Glenunga"
+          "Ample parking for four vehicles",
+          "Close proximity to Glenunga High School"
         ],
         "cons": [
           "Asking price is not disclosed",
-          "Property type and land unspecified",
-          "No suburb trend data provided",
-          "High borrowing costs at 6.2%"
+          "Property type and land area missing",
+          "Low suburb sales volume increases volatility"
         ],
-        "fairValueLow": 1200000,
-        "fairValueHigh": 2200000,
+        "fairValueLow": 1700000,
+        "fairValueHigh": 2100000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:45:38.941Z",
-        "priceText": "Contact Agent"
+        "generatedAt": "2026-11-23T14:33:58.584Z",
+        "priceText": "Contact Agent",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -3438,23 +3442,24 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "This Glen Osmond property has a transparent asking price of $1,100,000 for three bedrooms and three parking spaces. Having only one bathroom is a notable drawback for family routines. The fixed pricing gives budget clarity in a high interest rate environment.",
+        "summary": "Priced at $1,100,000, this three-bedroom home sits significantly below Glen Osmond's 2025–2026 median range of $1.61M to $2.1M. The single bathroom suggests a compact or courtyard layout, but it offers affordable school-zone access. Buyers should inspect to assess land dimensions and layout suitability.",
         "pros": [
-          "Transparent asking price of $1,100,000",
-          "Three dedicated car spaces provided",
-          "Private treaty provides clear terms"
+          "Asking price is well below median",
+          "Three-car parking capacity",
+          "Budget-friendly entry to desired school zones"
         ],
         "cons": [
           "Only one bathroom for three bedrooms",
-          "Land size is not stated",
-          "Current 6.2% mortgage rate elevates servicing"
+          "Land size is not provided",
+          "Property type is unspecified"
         ],
-        "fairValueLow": 1000000,
-        "fairValueHigh": 1150000,
-        "verdict": "Fair",
+        "fairValueLow": 1050000,
+        "fairValueHigh": 1250000,
+        "verdict": "Strong value",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:58:38.840Z",
-        "priceText": "$1,100,000"
+        "generatedAt": "2026-11-23T14:33:58.584Z",
+        "priceText": "$1,100,000",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -3505,23 +3510,24 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "The vendor has not disclosed a price, calling for best offers by early December. The layout features three bedrooms, two bathrooms, and four car spaces in high-demand Linden Park. Without land dimensions or median trend data, prudent buyers must allow for a wide value bracket.",
+        "summary": "Offered via best offers with an undisclosed price, this home sits in high-demand Linden Park. Suburb medians have climbed from $1.635M in 2025 to $1.95M in 2026. The three-bedroom, two-bathroom configuration with four car spaces provides practical utility for families.",
         "pros": [
-          "Located in target suburb Linden Park",
-          "Two bathrooms support three bedrooms",
-          "Substantial four-vehicle parking capacity"
+          "Located directly in Linden Park",
+          "Two bathrooms and four parking spaces",
+          "Walking distance to local schooling"
         ],
         "cons": [
-          "Asking price is not disclosed",
-          "Land size is missing from listing",
-          "Macro cash rate remains elevated"
+          "Price guide is not disclosed",
+          "Land size is not recorded",
+          "High cash rate environment limits leverage"
         ],
-        "fairValueLow": 1050000,
-        "fairValueHigh": 1600000,
+        "fairValueLow": 1550000,
+        "fairValueHigh": 1900000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:58:38.840Z",
-        "priceText": "Best Offers By 7th Dec @ 3pm (USP)"
+        "generatedAt": "2026-11-23T14:33:58.584Z",
+        "priceText": "Best Offers By 7th Dec @ 3pm (USP)",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -3572,23 +3578,24 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "Positioned in Glenunga, this three-bedroom home asks between $1,295,000 and $1,425,000. It offers three parking spaces, but features only one bathroom for family use. Given current 6.2% mortgage rates and missing land metrics, the upper asking price requires careful scrutiny.",
+        "summary": "Guided between $1,295,000 and $1,425,000, this property sits below Glenunga's median benchmark of $1.77M in 2025 and $2.27M in 2026. The single bathroom reflects the discount against higher suburb medians. It provides a viable entry into Glenunga International High zone.",
         "pros": [
-          "Desirable Glenunga address near high school",
-          "Clear asking price guide provided",
-          "Three parking spaces available"
+          "Price guide below Glenunga median",
+          "Immediate access to Glenunga International High",
+          "Accommodates three vehicles off-street"
         ],
         "cons": [
-          "Single bathroom limits family convenience",
-          "Upper guide of $1,425,000 is high",
-          "Land size is not disclosed"
+          "Single bathroom may constrain family living",
+          "Land size is not stated",
+          "Subdued macro conditions with 6.2% mortgage rates"
         ],
-        "fairValueLow": 1150000,
-        "fairValueHigh": 1350000,
+        "fairValueLow": 1275000,
+        "fairValueHigh": 1450000,
         "verdict": "Fair",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:58:38.840Z",
-        "priceText": "$1,295,000 to $1,425,000"
+        "generatedAt": "2026-11-23T14:33:58.584Z",
+        "priceText": "$1,295,000 to $1,425,000",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -3639,24 +3646,25 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "This Glenside property offers three bedrooms, two bathrooms, and double parking with an asking guide of $1,200,000 to $1,300,000. It presents an accessible entry point to surrounding schools, though three bedrooms may limit growing families. The asking price reflects current market expectations within this pocket.",
+        "summary": "This three-bedroom, two-bathroom home in Glenside offers a practical family configuration with double parking. The asking guide of $1,200,000 to $1,300,000 sits well below Glenside's recent suburb median sales levels of $1.85M to $2.02M. With land size unspecified, buyers should verify the title type and allotment size during inspection.",
         "pros": [
-          "Clear asking price guide provided",
-          "Two bathrooms and two parking spaces",
-          "Convenient Glenside address near amenities"
+          "Desirable three-bedroom, two-bathroom family layout",
+          "Two dedicated car parking spaces",
+          "Guide sits well below the suburb median",
+          "Located in high-demand eastern school zones"
         ],
         "cons": [
-          "Three bedrooms may limit larger families",
-          "Land size is not stated",
-          "Suburb median trend data is missing",
-          "Mortgage interest rate sits at 6.2%"
+          "Land size is not disclosed",
+          "Property type and internal condition unspecified",
+          "Elevated mortgage rates impact borrowing capacity"
         ],
         "fairValueLow": 1200000,
-        "fairValueHigh": 1300000,
-        "verdict": "Fair",
+        "fairValueHigh": 1350000,
+        "verdict": "Strong value",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:58:38.840Z",
-        "priceText": "$1,200,000 - $1,300,000"
+        "generatedAt": "2026-11-23T14:33:58.584Z",
+        "priceText": "$1,200,000 - $1,300,000",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -3707,23 +3715,25 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "The asking price is not disclosed for this best-offer campaign in Glenside. Offering 3 bedrooms, 2 bathrooms, and 2 parking spaces, it presents practical sizing for a family. In the absence of land size and suburb trend data, a wide valuation range is prudent given prevailing 6.2% mortgage rates.",
+        "summary": "Positioned in sought-after Glenside, this home provides three bedrooms, two bathrooms, and two car spaces. The price is not disclosed and is offered via a best offers campaign. Based on the configuration and Glenside's rising median price trend, a wide valuation range is warranted until land and dwelling specifics are confirmed.",
         "pros": [
-          "Three bedrooms and two bathrooms suit family living.",
-          "Double car spaces included.",
-          "Located in Glenside."
+          "Practical three-bedroom, two-bathroom configuration",
+          "Double parking accommodation provided",
+          "Strong capital growth trend in Glenside",
+          "Sought-after school catchment location"
         ],
         "cons": [
-          "Asking price is not disclosed.",
-          "Land size and property features are missing.",
-          "High 6.2% mortgage rates impact borrowing capacity."
+          "Price guide is not disclosed",
+          "Land size and building condition unknown",
+          "Best offer process creates price uncertainty"
         ],
-        "fairValueLow": 900000,
-        "fairValueHigh": 1350000,
+        "fairValueLow": 1300000,
+        "fairValueHigh": 1800000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:58:38.840Z",
-        "priceText": "BEST OFFER BY TUESDAY 1ST DECEMBER 2026 AT 2:00PM"
+        "generatedAt": "2026-11-23T14:33:58.584Z",
+        "priceText": "BEST OFFER BY TUESDAY 1ST DECEMBER 2026 AT 2:00PM",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -3774,23 +3784,25 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "Listed between $550,000 and $600,000, this Linden Park property offers a clear price guide. The 2-bedroom, 1-bathroom footprint may be compact for a family, but it presents an entry-level price point. Buyers should factor in the 6.2% mortgage rate against their borrowing budget.",
+        "summary": "This unit provides an entry-level pathway into premium Linden Park with two bedrooms and single parking. The asking guide of $550,000 to $600,000 offers affordable access into premier school catchments where the suburb house median has climbed to $1.95M in 2026. However, two bedrooms and a single bathroom may be restrictive for growing families.",
         "pros": [
-          "Clear price guide provided.",
-          "Affordable entry price for Linden Park.",
-          "Includes one allocated car space."
+          "Highly affordable entry point into Linden Park",
+          "Zoned for sought-after local primary and high schools",
+          "Asking guide aligns with unit pricing",
+          "Low maintenance footprint"
         ],
         "cons": [
-          "Two bedrooms may be small for family needs.",
-          "Only one bathroom.",
-          "Land size is not disclosed."
+          "Only two bedrooms and one bathroom",
+          "Single car space may limit convenience",
+          "Compact size limits long-term family utility"
         ],
         "fairValueLow": 550000,
-        "fairValueHigh": 600000,
-        "verdict": "Fair",
+        "fairValueHigh": 620000,
+        "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:58:38.840Z",
-        "priceText": "$550,000 - $600,000"
+        "generatedAt": "2026-11-23T14:33:58.584Z",
+        "priceText": "$550,000 - $600,000",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -3841,23 +3853,25 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "Price is not disclosed for this 2-bedroom, 1-bathroom unit in Glenside, requiring direct agent contact. The smaller configuration may restrict growing families needing more living area and bedrooms. A cautious, broad value range is advised due to missing property features and 6.2% interest rates.",
+        "summary": "This two-bedroom, one-bathroom apartment offers low-maintenance living in Glenside. The price is not disclosed and requires contacting the agent. Because Glenside's suburb medians of $1.85M to $2.02M reflect predominantly detached dwellings, fair value for this apartment is estimated across a wider range based on typical local unit stock.",
         "pros": [
-          "Two-bedroom layout offers lower-maintenance living.",
-          "Includes dedicated parking space.",
-          "Located in Glenside."
+          "Low-maintenance apartment living",
+          "Situated in prime eastern suburbs school zone",
+          "Includes one dedicated car space"
         ],
         "cons": [
-          "Price is undisclosed.",
-          "Only one bathroom and two bedrooms.",
-          "Land size and features are not specified."
+          "Price is not disclosed by agent",
+          "Only one bathroom and two bedrooms",
+          "Strata fees and land area not provided",
+          "Limited living space for expanding families"
         ],
-        "fairValueLow": 480000,
-        "fairValueHigh": 680000,
-        "verdict": "Fair",
+        "fairValueLow": 550000,
+        "fairValueHigh": 700000,
+        "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:58:38.840Z",
-        "priceText": "Contact Agent"
+        "generatedAt": "2026-11-23T14:33:58.584Z",
+        "priceText": "Contact Agent",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -3908,23 +3922,25 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "Positioned in Glen Osmond, this property features 3 bedrooms, 2 bathrooms, and 4 car spaces with a guide of $1,500,000 to $1,650,000. The layout and substantial vehicle capacity suit family requirements well. Prospective buyers should carefully stress-test payments given the $1.5M+ guide and 6.2% mortgage rates.",
+        "summary": "Located in Glen Osmond, this home features three bedrooms, two bathrooms, and generous parking for four vehicles. The price guide of $1,500,000 to $1,650,000 closely matches the suburb's 2024-2025 median range of $1.55M to $1.61M. It offers a well-proportioned option for families targeting nearby school zones.",
         "pros": [
-          "Exceptional four-car parking capacity.",
-          "Three bedrooms and two bathrooms suit family living.",
-          "Transparent price guide provided."
+          "Substantial four-car parking capacity",
+          "Three-bedroom, two-bathroom family layout",
+          "Asking guide aligns closely with recent suburb medians",
+          "Convenient access to premium eastern schools"
         ],
         "cons": [
-          "Higher purchase price requires substantial financing.",
-          "Land size is not disclosed.",
-          "High 6.2% mortgage rates increase repayments."
+          "Land size is not stated in listing",
+          "Property type and condition details omitted",
+          "Current mortgage rates remain elevated at 6.2%"
         ],
-        "fairValueLow": 1450000,
+        "fairValueLow": 1500000,
         "fairValueHigh": 1650000,
         "verdict": "Fair",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:58:38.840Z",
-        "priceText": "$1,500,000 - $1,650,000"
+        "generatedAt": "2026-11-23T14:33:58.584Z",
+        "priceText": "$1,500,000 - $1,650,000",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -3975,23 +3991,24 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "This three-bedroom, two-bathroom home in St Georges is guided at $1.25M to $1.375M. With current mortgage rates at 6.2%, financing costs will be significant, and the listing omits land size details. Nonetheless, the functional layout provides a viable entry point into a tightly held eastern suburb for families.",
+        "summary": "This three-bedroom, two-bathroom home in St Georges offers an entry price point well below the suburb median of over $2,000,000. However, the property only offers single-car parking and specific land or dwelling size details are undisclosed. It merits inspection for families seeking access to premier eastern suburbs school zones on a moderate budget.",
         "pros": [
-          "Three bedrooms and two bathrooms suit families",
-          "Located in desirable suburb of St Georges",
-          "Reasonable price guide relative to family accommodation"
+          "Three bedrooms and two bathrooms suit family living",
+          "Guide price is well below St Georges median",
+          "Positioned in a highly sought-after eastern suburb"
         ],
         "cons": [
           "Only one car space provided",
-          "Land size is not disclosed",
-          "High interest rate increases holding costs"
+          "Land size and property type are not disclosed",
+          "Elevated mortgage rates increase borrowing costs"
         ],
         "fairValueLow": 1200000,
         "fairValueHigh": 1400000,
-        "verdict": "Fair",
+        "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:58:38.840Z",
-        "priceText": "Best Offers Guide $1.25M - $1.375M"
+        "generatedAt": "2026-11-23T14:33:58.584Z",
+        "priceText": "Best Offers Guide $1.25M - $1.375M",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -4042,23 +4059,24 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "Priced between $950,000 and $990,000, this Frewville listing is an accessible sub-million option in the inner east. However, offering only two bedrooms, one bathroom, and unspecified parking, it may be too tight for many growing families. Missing land size and trend data warrant a cautious approach before bidding.",
+        "summary": "Priced under $1,000,000, this two-bedroom home provides an affordable entry into Frewville, where recent medians exceed $1.6M. The layout features only two bedrooms and a single bathroom, which may restrict growing families. In addition, no dedicated car parking or land dimensions are specified in the listing data.",
         "pros": [
-          "Sub-million price guide in Frewville",
-          "Close proximity to city-fringe eastern amenities"
+          "Asking price is significantly below Frewville median",
+          "Sub-$1M entry point near key school zones",
+          "Brand new listing with zero price adjustments"
         ],
         "cons": [
-          "Two bedrooms limit family living space",
-          "Single bathroom creates morning bottlenecks",
-          "Car parking capacity is not specified",
-          "Land size is completely unlisted"
+          "Only two bedrooms may limit family longevity",
+          "No dedicated car spaces listed",
+          "Land size and building condition are undisclosed"
         ],
-        "fairValueLow": 900000,
-        "fairValueHigh": 1000000,
+        "fairValueLow": 920000,
+        "fairValueHigh": 1020000,
         "verdict": "Fair",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:58:38.840Z",
-        "priceText": "$950,000 - $990,000"
+        "generatedAt": "2026-11-23T14:33:58.584Z",
+        "priceText": "$950,000 - $990,000",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -4109,23 +4127,24 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "Situated in Glenunga with a guide of $695,000 to $715,000, this unit-style property is the lowest-priced option presented. The two-bedroom, one-bathroom footprint is compact, making it better suited for smaller families prioritizing location over space. Essential details like block size and historical suburb data are not provided.",
+        "summary": "Offering a very accessible price guide around $700,000, this two-bedroom unit offers entry directly into Glenunga. The property is smaller with two bedrooms and one bathroom, suited primarily to a smaller family or single child. Given Glenunga's median prices sit above $2M, this represents an economical avenue into the local school zones.",
         "pros": [
-          "Lowest price point among available options",
-          "Situated directly in Glenunga",
-          "Allocated car parking space included"
+          "Low entry price point for prime Glenunga",
+          "Includes one dedicated car parking space",
+          "Direct access to top eastern suburbs amenities"
         ],
         "cons": [
-          "Two bedrooms restrict long-term family use",
-          "Single bathroom limits household convenience",
-          "Unit configuration limits outdoor space"
+          "Two bedrooms and one bathroom restrict growing families",
+          "Unit living typically lacks substantial private outdoor yard",
+          "Land dimensions and strata details are undisclosed"
         ],
-        "fairValueLow": 670000,
+        "fairValueLow": 680000,
         "fairValueHigh": 730000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:58:38.840Z",
-        "priceText": "Best Offer | $695,000 - $715,000"
+        "generatedAt": "2026-11-23T14:33:58.584Z",
+        "priceText": "Best Offer | $695,000 - $715,000",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -4176,23 +4195,24 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "This Glenside residence offers three bedrooms, two bathrooms, and double parking, providing good functional utility for family life. The asking price of $1.75M to $1.85M sits at the upper end, carrying substantial debt servicing requirements in a 6.2% mortgage environment. Without land dimensions or median price history, careful due diligence is recommended.",
+        "summary": "This three-bedroom, two-bathroom home in Glenside includes two parking spaces and a guide closely aligned with the local median of $1.85M–$2.02M. The three-bedroom, two-car configuration meets standard family requirements in this high-demand pocket. Key physical parameters such as land area remain undisclosed and warrant verification.",
         "pros": [
-          "Three bedrooms and two bathrooms suit families",
-          "Two car spaces provide practical parking",
-          "Positioned in popular suburb of Glenside"
+          "Practical three-bedroom, two-bathroom family layout",
+          "Double car accommodation provided",
+          "Price guide reflects prevailing Glenside median values"
         ],
         "cons": [
-          "High guide demands significant borrowing capacity",
-          "Land size is not stated",
-          "Current 6.2% mortgage rates elevate repayments"
+          "Land size and property type are undisclosed",
+          "Higher capital outlay at current mortgage rates",
+          "Premium pricing leaves less room for short-term upside"
         ],
-        "fairValueLow": 1700000,
+        "fairValueLow": 1720000,
         "fairValueHigh": 1880000,
         "verdict": "Fair",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:58:38.840Z",
-        "priceText": "$1,750,000.00 - $1,850,000.00"
+        "generatedAt": "2026-11-23T14:33:58.584Z",
+        "priceText": "$1,750,000.00 - $1,850,000.00",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -4243,23 +4263,24 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "Offered at a fixed asking price of $1.47M, this Glenside property provides three bedrooms, two bathrooms, and two car spaces. It delivers a solid family-friendly layout at a noticeably lower price point than neighboring 5 Windsor Road. The lack of land size and suburb trend metrics requires buyers to verify physical land value before making an offer.",
+        "summary": "Asking a fixed $1.47M, this three-bedroom, two-bathroom Glenside property with double parking is priced notably below the suburb's recent $1.85M–$2.02M median sales levels. The practical accommodation suits school-focused families looking for good value in Glenside. Undisclosed land dimensions and building condition should be clarified upon inspection.",
         "pros": [
-          "Clear single asking price of $1.47M",
-          "Family-friendly three-bedroom, two-bathroom floorplan",
-          "Two dedicated vehicle parking spaces"
+          "Priced substantially below Glenside median price",
+          "Full three-bedroom, two-bathroom family accommodation",
+          "Includes two dedicated car spaces"
         ],
         "cons": [
-          "Land size is not disclosed",
-          "Historical suburb price trends are unavailable",
-          "High interest rate climate tests affordability"
+          "Land size and property type are unspecified",
+          "Current borrowing costs remain elevated at 6.2 percent",
+          "Reason for lower relative pricing warrants physical inspection"
         ],
-        "fairValueLow": 1400000,
-        "fairValueHigh": 1520000,
-        "verdict": "Worth inspecting",
+        "fairValueLow": 1420000,
+        "fairValueHigh": 1550000,
+        "verdict": "Strong value",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:58:38.840Z",
-        "priceText": "$1.47M"
+        "generatedAt": "2026-11-23T14:33:58.584Z",
+        "priceText": "$1.47M",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -4312,23 +4333,24 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "This St Georges property offers a substantial 5-bedroom, 3-bathroom, and 6-car layout. However, it carries an exceptionally high asking price of $11,000,000 with no land size or additional features disclosed in the listing. Given high borrowing costs with mortgage rates at 6.2%, this represents a major financial commitment without verified land metrics.",
+        "summary": "This large property features 5 bedrooms, 3 bathrooms, and 6 car spaces in St Georges. The asking price of $11,000,000 is more than five times the suburb median of $2,060,000. Without land size or architectural details provided, the asking price represents an extreme premium over standard suburb metrics.",
         "pros": [
-          "Spacious 5-bedroom, 3-bathroom configuration",
-          "Substantial 6-car parking capacity",
-          "Zero days on market"
+          "Substantial 5-bedroom, 3-bathroom accommodation",
+          "Ample 6-car parking capacity",
+          "Positioned in prestigious St Georges"
         ],
         "cons": [
-          "Very high asking price of $11,000,000",
+          "Asking price massively exceeds suburb median",
           "Land size is not disclosed",
-          "No specific property features provided"
+          "High interest rate environment increases holding costs"
         ],
-        "fairValueLow": 7000000,
-        "fairValueHigh": 11000000,
+        "fairValueLow": 5000000,
+        "fairValueHigh": 7500000,
         "verdict": "Overpriced",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:58:38.840Z",
-        "priceText": "$11,000,000"
+        "generatedAt": "2026-11-23T14:33:58.584Z",
+        "priceText": "$11,000,000",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -4381,23 +4403,23 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "Located in Glenside, this home provides 4 bedrooms and 3 parking spaces with an asking price of $1,601,888. The single bathroom is a practical limitation for a family of this size, and land dimensions are not specified. It presents a viable family footprint, though value should be confirmed against unlisted block dimensions.",
+        "summary": "Offering 4 bedrooms and 3 car spaces, this Glenside property is listed at $1,601,888. This asking price sits comfortably below Glenside's recent median price levels of $1,855,000 to $2,023,750. However, having only a single bathroom is a functional drawback for a 4-bedroom family home.",
         "pros": [
-          "Four bedrooms suitable for family living",
-          "Ample 3-car parking accommodation",
-          "Clearly listed asking price"
+          "Priced below Glenside median price",
+          "Four bedrooms suitable for family needs",
+          "Three parking spaces available"
         ],
         "cons": [
           "Only one bathroom for four bedrooms",
-          "Land size is not disclosed",
-          "Mortgage rates remain elevated at 6.2%"
+          "Land size is not disclosed"
         ],
-        "fairValueLow": 1400000,
-        "fairValueHigh": 1650000,
-        "verdict": "Fair",
+        "fairValueLow": 1550000,
+        "fairValueHigh": 1750000,
+        "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:58:38.840Z",
-        "priceText": "$1,601,888"
+        "generatedAt": "2026-11-23T14:33:58.584Z",
+        "priceText": "$1,601,888",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -4450,23 +4472,24 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "This Glenside listing is an entry-level option asking $541,000 with 2 bedrooms, 1 bathroom, and 1 car space. While affordable under current macroeconomic conditions, the small configuration will likely be tight for a growing family. Land size and property features are not provided.",
+        "summary": "This 2-bedroom, 1-bathroom home is priced at $541,000, offering an accessible entry point into Glenside. The compact layout with a single car space provides affordable access to top school catchments. However, the 2-bedroom footprint will be restrictive for most growing families.",
         "pros": [
-          "Accessible asking price of $541,000",
-          "Low entry cost in Glenside",
-          "Dedicated off-street parking space"
+          "Low entry price of $541,000",
+          "Affordable entry into eastern school zones",
+          "Low maintenance requirements"
         ],
         "cons": [
-          "Only 2 bedrooms may constrain families",
+          "Two bedrooms may be tight for families",
           "Single bathroom and single car space",
-          "Land size is undisclosed"
+          "Land size is not disclosed"
         ],
-        "fairValueLow": 480000,
+        "fairValueLow": 500000,
         "fairValueHigh": 560000,
         "verdict": "Fair",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:58:38.840Z",
-        "priceText": "$541,000"
+        "generatedAt": "2026-11-23T14:33:58.584Z",
+        "priceText": "$541,000",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -4517,23 +4540,23 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "Located in Glenside, this home features 3 bedrooms, 2 bathrooms, and 2 parking spaces with an asking range of $1,395,000 to $1,450,000. The listing provides no details regarding land size, layout, or home features. Families should weigh the 3-bedroom accommodation against their long-term space requirements.",
+        "summary": "This 3-bedroom, 2-bathroom residence with 2 car spaces is quoted at $1,395,000 to $1,450,000. It offers a practical family layout well below Glenside's suburb median of $1,855,000 to $2,023,750. It represents attractive value for the area if the parcel size and condition are sound.",
         "pros": [
-          "Two full bathrooms available",
-          "Two designated parking spaces",
-          "Clear asking price range provided"
+          "Quoted well below Glenside median price",
+          "Practical 3-bedroom, 2-bathroom configuration",
+          "Dedicated two-car parking accommodation"
         ],
         "cons": [
-          "Three bedrooms may limit growing families",
           "Land size is not disclosed",
-          "Property features are completely omitted"
+          "Elevated mortgage rates increase borrowing costs"
         ],
-        "fairValueLow": 1350000,
-        "fairValueHigh": 1475000,
-        "verdict": "Fair",
+        "fairValueLow": 1400000,
+        "fairValueHigh": 1600000,
+        "verdict": "Strong value",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:58:38.840Z",
-        "priceText": "$1,395,000 - $1,450,000"
+        "generatedAt": "2026-11-23T14:33:58.584Z",
+        "priceText": "$1,395,000 - $1,450,000",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -4584,24 +4607,24 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "The asking price is not disclosed for this Glen Osmond home, requiring direct agent contact. It offers 3 bedrooms, 1 bathroom, and 4 car spaces, but contains no land size or descriptive details. Given the single bathroom and undisclosed pricing, a wide valuation range is warranted.",
+        "summary": "The asking price is not disclosed for this 3-bedroom, 1-bathroom Glen Osmond home. Glen Osmond medians have tracked between $1,614,500 and $2,107,500 over the past two years. With only one bathroom and missing land dimensions, fair value is estimated conservatively across a wide range.",
         "pros": [
-          "Four parking spaces provide good utility",
-          "Three bedrooms provide baseline family accommodation",
-          "Newly listed with zero days on market"
+          "Generous four-car parking space",
+          "Functional 3-bedroom layout",
+          "Located in desirable Glen Osmond"
         ],
         "cons": [
           "Asking price is not disclosed",
-          "Single bathroom creates family bottlenecks",
-          "Land size is not provided",
-          "Missing property description and features"
+          "Only one bathroom servicing three bedrooms",
+          "Land size is not disclosed"
         ],
-        "fairValueLow": 950000,
-        "fairValueHigh": 1350000,
+        "fairValueLow": 1450000,
+        "fairValueHigh": 1850000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:58:38.840Z",
-        "priceText": "CONTACT AGENT"
+        "generatedAt": "2026-11-23T14:33:58.584Z",
+        "priceText": "CONTACT AGENT",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -4652,23 +4675,26 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "The asking price is not disclosed, with the property offered via Expressions of Interest. It features 4 bedrooms, 2 bathrooms, and 2 parking spaces in St Georges. Because land size and features are omitted, extensive due diligence is required.",
+        "summary": "The asking price is not disclosed for this 4-bedroom, 2-bathroom home in St Georges. With the suburb median hovering between $2,040,000 and $2,060,000, family-sized homes command high values here. Due to missing land size and property type details, a cautious approach is necessary.",
         "pros": [
-          "Four bedrooms accommodate family living requirements",
-          "Provides two designated vehicle spaces",
-          "Situated in sought-after St Georges"
+          "Four bedrooms suit family requirements",
+          "Two dedicated car spaces",
+          "Located in high-demand St Georges",
+          "Fresh to market at one day"
         ],
         "cons": [
           "Asking price is not disclosed",
-          "Land size is unspecified in listing",
-          "Mortgage rate of 6.2% strains borrowing"
+          "Land size is not provided",
+          "High 6.2 percent mortgage rates",
+          "Property type is unspecified"
         ],
-        "fairValueLow": 1400000,
-        "fairValueHigh": 2400000,
+        "fairValueLow": 1750000,
+        "fairValueHigh": 2350000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:58:38.840Z",
-        "priceText": "Expressions of Interest"
+        "generatedAt": "2026-11-23T14:33:58.584Z",
+        "priceText": "Expressions of Interest",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -4719,23 +4745,26 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "This home is offered via Expressions of Interest with no price disclosed. It provides 4 bedrooms, 3 bathrooms, and 2 parking spaces, which suits a growing household. Block dimensions and historical trends are not supplied in the listing data.",
+        "summary": "This 4-bedroom, 3-bathroom property offers generous accommodations for a family, but the asking price is undisclosed. The St Georges suburb median sits around $2,060,000, providing an indicative benchmark for the neighborhood. Buyers should seek clarity on title, land size, and build type before committing.",
         "pros": [
-          "Four bedrooms with three full bathrooms",
-          "Double car accommodation included",
-          "Convenient location in St Georges"
+          "Four bedrooms and three bathrooms",
+          "Two car parking spaces",
+          "Desirable St Georges location",
+          "Newly listed property"
         ],
         "cons": [
-          "Vendor has not disclosed asking price",
-          "Land area is not provided",
-          "Current high interest rate environment"
+          "Asking price is undisclosed",
+          "Land size is not specified",
+          "No direct comparable sales provided",
+          "Unclear dwelling and title type"
         ],
-        "fairValueLow": 1500000,
-        "fairValueHigh": 2600000,
+        "fairValueLow": 1800000,
+        "fairValueHigh": 2450000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:58:38.840Z",
-        "priceText": "Expressions of Interest"
+        "generatedAt": "2026-11-23T14:33:58.584Z",
+        "priceText": "Expressions of Interest",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -4786,23 +4815,26 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "This Hazelwood Park property offers two bedrooms and one bathroom with an asking price of $780,000 to $820,000. The layout is compact for a growing family, and no land size or detailed property features are disclosed. It represents an entry-level price point within the eastern suburbs near key school zones.",
+        "summary": "Priced between $780,000 and $820,000, this 2-bedroom residence provides an affordable entry into Hazelwood Park where the suburb median is $1,890,000. However, the 2-bedroom, 1-bathroom footprint may prove too small for a growing school-aged family. The asking price is aligned with entry-level strata homes in the eastern suburbs.",
         "pros": [
-          "Entry-level pricing for the eastern suburbs",
-          "Located in desirable Hazelwood Park",
-          "Includes one car parking space"
+          "Clear price guide provided",
+          "Affordable entry into Hazelwood Park",
+          "Two bedrooms reduce total capital outlay",
+          "Just listed on the market"
         ],
         "cons": [
-          "Two bedrooms provide tight accommodation for families",
-          "Only one bathroom available",
-          "Land size is not disclosed"
+          "Only two bedrooms and one bath",
+          "Single car space",
+          "Likely too small for larger families",
+          "Land size not disclosed"
         ],
         "fairValueLow": 750000,
-        "fairValueHigh": 820000,
+        "fairValueHigh": 840000,
         "verdict": "Fair",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:58:38.840Z",
-        "priceText": "$780,000 - $820,000"
+        "generatedAt": "2026-11-23T14:33:58.584Z",
+        "priceText": "$780,000 - $820,000",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -4853,22 +4885,26 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "Positioned in St Georges, this home offers three bedrooms, two bathrooms, and two car spaces with a set asking price of $1,450,000. Its configuration provides a practical layout for family living close to Linden Park. However, specific land dimensions and property condition details are not provided.",
+        "summary": "Asking $1,450,000 for a 3-bedroom, 2-bathroom property in St Georges places this home well below the suburb median of $2,060,000. It offers functional family accommodations with double parking in an expensive eastern suburb. Buyers should inspect closely to confirm whether land size or condition explains the competitive price point.",
         "pros": [
-          "Desirable St Georges location near Linden Park",
-          "Functional three-bedroom and two-bathroom layout",
-          "Includes two car spaces"
+          "Asking price clearly disclosed",
+          "Priced well below suburb median",
+          "Three bedrooms with two bathrooms",
+          "Double car accommodation"
         ],
         "cons": [
-          "Land size is not disclosed",
-          "Fixed asking price without a guidance range"
+          "Land size is not specified",
+          "May have a compact land allotment",
+          "Elevated 6.2 percent borrowing costs",
+          "No recent neighborhood sales supplied"
         ],
-        "fairValueLow": 1380000,
-        "fairValueHigh": 1480000,
-        "verdict": "Worth inspecting",
+        "fairValueLow": 1400000,
+        "fairValueHigh": 1650000,
+        "verdict": "Strong value",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:58:38.840Z",
-        "priceText": "$1,450,000"
+        "generatedAt": "2026-11-23T14:33:58.584Z",
+        "priceText": "$1,450,000",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -4919,23 +4955,26 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "This Glenside residence features two bedrooms, two bathrooms, and one car space, being offered via best offers by November 24th. The asking price is not disclosed, requiring broad estimate parameters based on its two-bedroom scale. The layout includes an extra bathroom but may be constrained for longer-term family needs.",
+        "summary": "The asking price is undisclosed for this 2-bedroom, 2-bathroom unit in Glenside, which is being sold via best offers. Glenside's median of $2,023,750 reflects houses, so unit valuations will sit significantly lower. A 2-bedroom layout with a single car space offers limited long-term capacity for a family.",
         "pros": [
-          "Two full bathrooms provide functional convenience",
-          "Glenside location sits close to target schools",
-          "Includes dedicated single car space"
+          "Two bathrooms offer good utility",
+          "Located in convenient Glenside",
+          "Recently placed on market",
+          "Low-maintenance living"
         ],
         "cons": [
-          "Asking price is not disclosed",
-          "Two bedrooms offer limited space for families",
-          "Land size is not specified"
+          "Price is not disclosed",
+          "Only two bedrooms for a family",
+          "Single parking space",
+          "Land size is not provided"
         ],
-        "fairValueLow": 600000,
-        "fairValueHigh": 780000,
-        "verdict": "Fair",
+        "fairValueLow": 620000,
+        "fairValueHigh": 850000,
+        "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:58:38.840Z",
-        "priceText": "Best offers by November 24th"
+        "generatedAt": "2026-11-23T14:33:58.584Z",
+        "priceText": "Best offers by November 24th",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -4986,23 +5025,24 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "Located in Glenside, this unit provides a single bedroom, one bathroom, and one car space with a fixed asking price of $625,000. A one-bedroom layout does not meet the space requirements of a family household. At $625,000, it carries a high cost per bedroom in the current macroeconomic climate.",
+        "summary": "This one-bedroom apartment in Glenside is listed at a fixed price of $625,000. While located within reach of sought-after school zones, a single-bedroom layout is generally unsuitable for a family. With current mortgage rates at 6.2%, ongoing holding costs should also be factored in.",
         "pros": [
-          "Located in popular eastern suburb of Glenside",
-          "Includes an allocated car parking space"
+          "Affordable entry point into Glenside",
+          "Includes one allocated car space",
+          "Low maintenance living"
         ],
         "cons": [
-          "Single bedroom is unsuitable for family living",
-          "Only one bathroom provided",
-          "Asking price is steep for one-bedroom accommodation",
-          "Land size is not specified"
+          "Only one bedroom, unsuitable for families",
+          "Single bathroom limits practicality",
+          "Land size is not provided"
         ],
-        "fairValueLow": 540000,
-        "fairValueHigh": 600000,
-        "verdict": "Overpriced",
+        "fairValueLow": 550000,
+        "fairValueHigh": 625000,
+        "verdict": "Fair",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T12:58:38.840Z",
-        "priceText": "$625,000.00"
+        "generatedAt": "2026-11-23T14:33:58.584Z",
+        "priceText": "$625,000.00",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -5053,23 +5093,24 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "The asking price is not disclosed for this 3-bedroom, 1-bathroom home on Hay Road in Linden Park. Without reported land size or suburb trend data, value must be estimated broadly based solely on its room count. High prevailing mortgage rates of 6.2% warrant careful cost assessment for prospective buyers.",
+        "summary": "This three-bedroom home is located directly in Linden Park, ideal for access to Linden Park Primary School. The asking price is not disclosed, requiring a broad valuation range based on suburb medians reaching $1,635,000 to $1,950,000. A single bathroom may require future updates to comfortably support a growing household.",
         "pros": [
-          "Located directly in Linden Park",
-          "Includes 2 dedicated parking spaces",
-          "Newly listed with zero days on market"
+          "Situated in prime Linden Park location",
+          "Three bedrooms suitable for family living",
+          "Provides two parking spaces"
         ],
         "cons": [
           "Asking price is not disclosed",
-          "Single bathroom limits family convenience",
+          "Only one bathroom for three bedrooms",
           "Land size is not specified"
         ],
-        "fairValueLow": 1100000,
-        "fairValueHigh": 1600000,
+        "fairValueLow": 1350000,
+        "fairValueHigh": 1750000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:05:14.004Z",
-        "priceText": "Contact Agent"
+        "generatedAt": "2026-11-23T14:33:58.584Z",
+        "priceText": "Contact Agent",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -5120,23 +5161,24 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "The asking price is not disclosed for this 3-bedroom, 2-bathroom property in neighbouring Glenside. It provides a practical two-bathroom layout and two parking spaces suited to a growing household. In the absence of median historical data or land size metrics, fair value remains an estimate over a wide range.",
+        "summary": "Offering three bedrooms, two bathrooms, and two car spaces, this Glenside property fits family requirements well. The price is not disclosed by the agent, so fair value is estimated broadly against Glenside's median price trend of $1,855,000 to $2,023,750. Its proximity to Glenunga International High School makes it an appealing prospect.",
         "pros": [
-          "Situated in neighbouring Glenside",
-          "Two bathrooms accommodate family routines",
-          "Includes two car parking spaces"
+          "Functional three-bedroom, two-bathroom family layout",
+          "Two dedicated car spaces",
+          "Located in high-demand Glenside suburb"
         ],
         "cons": [
-          "Price is undisclosed by the agent",
+          "Price is not disclosed",
           "Land area is not provided",
-          "High interest rate environment increases servicing costs"
+          "High interest rate environment impacts borrowing"
         ],
-        "fairValueLow": 1150000,
-        "fairValueHigh": 1650000,
+        "fairValueLow": 1400000,
+        "fairValueHigh": 1850000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:05:14.004Z",
-        "priceText": "Contact Agent"
+        "generatedAt": "2026-11-23T14:33:58.584Z",
+        "priceText": "Contact Agent",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -5187,23 +5229,24 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "Priced between $825,000 and $875,000, this Glenside property presents an entry-level price point for the district. However, offering only 2 bedrooms and 1 parking spot, it provides restricted utility for family requirements. It functions better as a compact residence than a long-term family base.",
+        "summary": "This two-bedroom, two-bathroom apartment is guided at $825,000 to $875,000 in Glenside. While two bathrooms add convenience, a two-bedroom apartment offers tight quarters for a family seeking long-term accommodation. The price sits well below Glenside's house medians but aligns closely with newer medium-density stock.",
         "pros": [
-          "Clear advertised price guide",
-          "Lower capital requirement under $900,000",
-          "Two bathrooms provide internal convenience"
+          "Two full bathrooms provide convenience",
+          "Significantly cheaper than suburb house median",
+          "Low maintenance apartment living"
         ],
         "cons": [
-          "Only 2 bedrooms for family living",
-          "Restricted to a single car space",
-          "No land size or outdoor yard noted"
+          "Two bedrooms may constrain growing families",
+          "Only one car space provided",
+          "No private land holding"
         ],
-        "fairValueLow": 800000,
-        "fairValueHigh": 875000,
+        "fairValueLow": 780000,
+        "fairValueHigh": 860000,
         "verdict": "Fair",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:05:14.004Z",
-        "priceText": "$825,000 - $875,000"
+        "generatedAt": "2026-11-23T14:33:58.584Z",
+        "priceText": "$825,000 - $875,000",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -5254,23 +5297,24 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "The asking price is not disclosed for this three-bedroom, two-bathroom family property in Glenside. Situated close to Glenunga International High School, it provides functional family accommodation. In the absence of land size and pricing data, a broad valuation range is estimated.",
+        "summary": "This Glenside property provides a practical three-bedroom, two-bathroom configuration with two parking spaces for a family. Because the asking price is not disclosed, value must be estimated broadly against Glenside's recent median prices which exceed $1.85M. It offers strong potential for school zoning access subject to contract terms.",
         "pros": [
-          "Desirable Glenside location close to schools",
-          "Functional layout with three bedrooms and two bathrooms",
-          "Secure parking space for two vehicles"
+          "Three bedrooms and two bathrooms",
+          "Two secure car spaces",
+          "Well situated for east-side schooling"
         ],
         "cons": [
-          "Asking price is not disclosed",
-          "Land size is unspecified",
-          "Prevailing 6.2 percent mortgage rates increase borrowing costs"
+          "Price is not disclosed",
+          "Land size details are missing",
+          "Elevated suburb medians limit affordability"
         ],
-        "fairValueLow": 1000000,
-        "fairValueHigh": 1450000,
+        "fairValueLow": 1450000,
+        "fairValueHigh": 1900000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:05:14.004Z",
-        "priceText": "Contact Agent"
+        "generatedAt": "2026-11-23T14:33:58.584Z",
+        "priceText": "Contact Agent",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -5321,23 +5365,25 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "This two-bedroom property is located directly in Linden Park but is already under contract. No asking price or land size is disclosed, and the two-bedroom configuration offers limited space for an expanding family.",
+        "summary": "This two-bedroom, one-bathroom unit in Linden Park includes two car spaces and is already listed as under contract. The asking price is undisclosed, so valuation must consider the broader suburb median trend where medians exceed $1.6M for predominantly detached homes. For a family, the two-bedroom unit format is restrictive but offers immediate access to the school zone.",
         "pros": [
-          "Prime Linden Park school zone location",
-          "Includes two allocated car spaces"
+          "Located directly in Linden Park",
+          "Includes two car spaces",
+          "Zoned for sought-after eastern suburbs schools"
         ],
         "cons": [
-          "Property is already under contract",
+          "Currently under contract",
           "Asking price is not disclosed",
-          "Two bedrooms may be tight for a family",
-          "Land size is unspecified"
+          "Two bedrooms offer limited living space",
+          "Undisclosed land size indicates strata living"
         ],
-        "fairValueLow": 450000,
-        "fairValueHigh": 650000,
+        "fairValueLow": 550000,
+        "fairValueHigh": 850000,
         "verdict": "Fair",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:05:14.004Z",
-        "priceText": "Under Contract"
+        "generatedAt": "2026-11-23T14:33:58.584Z",
+        "priceText": "Under Contract",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -5390,23 +5436,25 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "This two-bedroom unit in Glenside is guided between $480,000 and $520,000, offering an accessible entry point near Glenunga International High School. However, the two-bedroom footprint and Portrush Road address present notable space and traffic considerations for families.",
+        "summary": "Priced at $480,000 to $520,000, this two-bedroom unit provides an entry-level price point into Glenside well below the suburb median. Situated on Portrush Road, it compromises on traffic noise and space with just one bathroom and single car space. It represents an accessible school catchment option for budget-conscious buyers facing current 6.2% mortgage rates.",
         "pros": [
-          "Accessible price guide under current macro conditions",
-          "Located in Glenside close to target high school"
+          "Highly affordable entry into Glenside",
+          "Well below the suburb median price",
+          "Provides an allocated car space"
         ],
         "cons": [
-          "Address on high-traffic Portrush Road",
-          "Two bedrooms and one bathroom limit family utility",
-          "Only one car space provided",
-          "Land size is unspecified"
+          "Located on busy Portrush Road",
+          "Only one bathroom for occupants",
+          "Compact two-bedroom layout for families",
+          "Land size is not specified"
         ],
-        "fairValueLow": 460000,
-        "fairValueHigh": 520000,
-        "verdict": "Fair",
+        "fairValueLow": 470000,
+        "fairValueHigh": 525000,
+        "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:05:14.004Z",
-        "priceText": "$480K - $520K"
+        "generatedAt": "2026-11-23T14:33:58.584Z",
+        "priceText": "$480K - $520K",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -5459,23 +5507,25 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "This Glenside listing provides two bedrooms, one bathroom, and parking space for two vehicles. With an asking guide of $899,000 to $949,000, the two-bedroom configuration may prove restrictive for a family. Key details such as land size and property type remain unspecified in the listing.",
+        "summary": "Guided between $899,000 and $949,000, this two-bedroom, one-bathroom Glenside property offers two car spaces on Flemington Street. The asking price is considerably higher than other two-bedroom units currently available in the suburb. For a growing family, paying near $950,000 for only two bedrooms and one bathroom represents poor value.",
         "pros": [
-          "Two dedicated vehicle spaces",
-          "Glenside location near key eastern amenities",
-          "Transparent private treaty asking range"
+          "Provides two dedicated car spaces",
+          "Situated on a residential Glenside street",
+          "Direct access to required school zones"
         ],
         "cons": [
-          "Only two bedrooms limit family growth",
-          "Single bathroom configuration",
-          "Land area is not provided"
+          "High asking price near $950,000",
+          "Only one bathroom provided",
+          "Two bedrooms limit family growth",
+          "Land area is not disclosed"
         ],
-        "fairValueLow": 880000,
-        "fairValueHigh": 950000,
-        "verdict": "Fair",
+        "fairValueLow": 780000,
+        "fairValueHigh": 860000,
+        "verdict": "Overpriced",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:05:14.004Z",
-        "priceText": "$899K — $949K"
+        "generatedAt": "2026-11-23T14:33:58.584Z",
+        "priceText": "$899K — $949K",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -5528,22 +5578,25 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "Located in Glenside, this property comprises two bedrooms, one bathroom, and a single car space for $725,000 to $785,000. Its unit-style layout may be too compact for a family seeking long-term accommodation. Missing land dimensions and property features require confirmation during due diligence.",
+        "summary": "This apartment on Banksia Street offers two bedrooms, one bathroom, and one car park with an asking price of $725,000 to $785,000. Positioned in a modern multi-level complex in Glenside, it sits between the budget units and high-end listings in the area. While modern, it provides limited accommodation and vehicle capacity for family living.",
         "pros": [
-          "Accessible entry price point for Glenside",
-          "Private treaty terms set clear expectations"
+          "Situated in popular Glenside precinct",
+          "Asking price sits below suburb median",
+          "Close to Glenunga International High"
         ],
         "cons": [
-          "Two bedrooms may constrain family living",
-          "Single bathroom and single car space",
-          "Land size and features not disclosed"
+          "High-density apartment living environment",
+          "Only one bathroom and car space",
+          "Substantial price tag for an apartment",
+          "Tight quarters for a family"
         ],
-        "fairValueLow": 720000,
-        "fairValueHigh": 790000,
+        "fairValueLow": 710000,
+        "fairValueHigh": 775000,
         "verdict": "Fair",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:05:14.004Z",
-        "priceText": "$725,000 - $785,000"
+        "generatedAt": "2026-11-23T14:33:58.584Z",
+        "priceText": "$725,000 - $785,000",
+        "inputVersion": 2
       },
       "imported": true
     },
@@ -5596,23 +5649,25 @@
       "origin": "domain",
       "via": "alerts",
       "ai": {
-        "summary": "This Frewville residence is listed between $600,000 and $640,000, representing the lowest price point among the evaluated options. However, offering only two bedrooms, one bathroom, and one car space, it provides limited living capacity for a family. No land area or descriptive features are included in the listing facts.",
+        "summary": "Guided at $600,000 to $640,000, this two-bedroom unit in Frewville offers an affordable entry into a high-median suburb adjacent to Glenunga. It features one bathroom and one parking space, making it a viable entry point into the target school catchment. However, buyers should weigh the modest accommodation against the needs of family living.",
         "pros": [
-          "Affordable price bracket under $650,000",
-          "Frewville location close to inner-east amenities",
-          "Straightforward private treaty process"
+          "Accessible price guide under $650,000",
+          "Substantially below Frewville median price",
+          "Prime location near high-demand schools"
         ],
         "cons": [
-          "Two bedrooms restrict growing family utility",
-          "Single bathroom setup",
-          "Land size is not disclosed"
+          "Only one bathroom provided",
+          "Single car space available",
+          "Two-bedroom layout is tight for families",
+          "No land size provided"
         ],
-        "fairValueLow": 600000,
-        "fairValueHigh": 650000,
+        "fairValueLow": 590000,
+        "fairValueHigh": 645000,
         "verdict": "Worth inspecting",
         "model": "gemini-flash-latest",
-        "generatedAt": "2026-11-23T13:05:14.004Z",
-        "priceText": "$600k - $640k"
+        "generatedAt": "2026-11-23T14:33:58.584Z",
+        "priceText": "$600k - $640k",
+        "inputVersion": 2
       },
       "imported": true
     },
