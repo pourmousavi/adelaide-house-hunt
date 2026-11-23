@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T12:54:41.670Z",
+  "generatedAt": "2026-11-23T12:56:22.578Z",
   "items": [
     {
       "title": "Treasurer’s forecast makes for an unhappy new year",
@@ -170,6 +170,18 @@
       "importance": 2.25
     },
     {
+      "title": "Treasurer flags budget cuts as inflation risks loom",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYmh2WDlXVFpnaVVsSDU5T25NTXBvM3FTRlM0Y29SRWtTc0R5WVppbzdSdmxPM3JPUjU1MTdMUmtWLTlJN1Ewb0lXT1Q4dWwzdkg1aGsxNjhiSVI5SE5CNU1mMzJLNTZNeFdkMkdNcHVNd2FKMFdreXMyT0F2QkpsMGktdjBGcG5G?oc=5",
+      "source": "Yahoo Finance Australia",
+      "date": "2026-11-23T05:12:00.000Z",
+      "category": "economy",
+      "topics": [
+        "inflation",
+        "budget"
+      ],
+      "importance": 2.25
+    },
+    {
       "title": "Chalmers Warns of Slowdown and Rising Unemployment",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNS0tiemV3ZXREQnZ2ZXlEQjFURHJ5ZE1ULTlZekVIMFdCTmtmei1yYW5tX0sxaTZubGJIcUJIa0lSb01vMl80Tm9LbVlpckN0Zm1RcFRBcF83OF9yNGZUQm9DUHF0ZGdHT2tlM3lwbmZudFRRbWRkRDBhRjhLaDB3WXpvMVJ4Z0RhbUgzd1QwUFc?oc=5",
       "source": "Wisevoter",
@@ -208,6 +220,18 @@
       "category": "economy",
       "topics": [],
       "importance": 0.75
+    },
+    {
+      "title": "‘No use pretending otherwise’: Chalmers warns of tough year ahead as jobless and inflation forecasts worsen",
+      "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE0tRkowSFc4cEo3WnlsbjFLdkRXQmNLN2wzRFZNWlQwWlNkWXVlRV9Od3I2Mnl0QXVtY25V?oc=5",
+      "source": "Howl.Link",
+      "date": "2026-11-23T04:07:17.000Z",
+      "category": "economy",
+      "topics": [
+        "inflation",
+        "budget"
+      ],
+      "importance": 2.25
     },
     {
       "title": "Australian borrowers face threat of further rate hikes before relief in late 2027",
@@ -406,28 +430,6 @@
         "adelaide"
       ],
       "importance": 1.25
-    },
-    {
-      "title": "Young couple score $676k coastal home as Aussie property prices plunge first time in years: 'Got lucky'",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQcjV1alNTRFFVS1hhU212RTh0QTFIaWpBX0Q4cmNINElEYmdsTnNtcEFPdl82bmFfdi12OWl2dU1iOUZ6bkNCTzlSQ2I2T1BONU1MSXBpSVZVNzF3REtvVHZNQ0R0LWtsdk15NW92ZkIyUV9Td1VURldmSlptdWl2QjE4WnFBSXIzd254a2VObmpobE9PMWFiYTZ3OHVzblhUd25zY2Qzd2hnNkxuOG5fdTlPTGljR3NKVk9kSDU3d0Y3RzBOejVqVjBlUEJuYy1uMGtTSTJZQQ?oc=5",
-      "source": "Yahoo News Australia",
-      "date": "2026-11-15T02:10:00.000Z",
-      "category": "property",
-      "topics": [
-        "housing"
-      ],
-      "importance": 0.75
-    },
-    {
-      "title": "Will this North Adelaide house break its second record?",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTDhpY2w4VTVKbjFEM0FTb2FTT1NLbS13eFFqTk9UU0M3NWJnR3hydG1iaWYtQmNqbnFqY0ZNbVFxWUFYYnVVM2NFQzZnbEJvNy1samoxMlRwWWxLaDhwN2FuNEF4MUg1VmFkcy1FRzRMbHpkSUxFbXRGZEl3a3N4cFg4WWVnVnNQQ0xiNXMyV2NHX0Nwc0FTZnhRcFd5UjlNM0hsWTZ6SGM0dU1IY2lieUxyMWRxSTB6?oc=5",
-      "source": "Domain",
-      "date": "2026-11-08T08:00:00.000Z",
-      "category": "adelaide",
-      "topics": [
-        "adelaide"
-      ],
-      "importance": 0.75
     }
   ]
 }

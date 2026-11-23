@@ -11,6 +11,10 @@
     "lat": -34.9475892,
     "lng": 138.6319807
   },
+  "10 eton street malvern": {
+    "lat": -34.9566063,
+    "lng": 138.6117355
+  },
   "10 taminga avenue glenunga": {
     "lat": -34.9547382,
     "lng": 138.6420414
@@ -26,6 +30,10 @@
   "107 queen street norwood": {
     "lat": -34.9210646,
     "lng": 138.6387916
+  },
+  "108a william street norwood": {
+    "lat": -34.9244539,
+    "lng": 138.6311703
   },
   "10a adnunda place beaumont": {
     "lat": -34.9460693,
@@ -55,6 +63,10 @@
     "lat": -34.9492731,
     "lng": 138.6533738
   },
+  "112 watson avenue toorak gardens": {
+    "lat": -34.9291948,
+    "lng": 138.6394309
+  },
   "113 devereux road beaumont": {
     "lat": -34.9494444,
     "lng": 138.6535336
@@ -62,6 +74,10 @@
   "114 swaine avenue toorak gardens": {
     "lat": -34.9331053,
     "lng": 138.6363171
+  },
+  "119 121 sturt street adelaide": {
+    "lat": -34.8558049,
+    "lng": 138.5486875
   },
   "12 12a chisholm avenue burnside": {
     "lat": -34.9333395,
@@ -95,6 +111,10 @@
     "lat": -34.9527587,
     "lng": 138.6566237
   },
+  "142 fisher street malvern": {
+    "lat": -34.9573168,
+    "lng": 138.6162603
+  },
   "144 fisher street malvern": {
     "lat": -34.9573168,
     "lng": 138.6162603
@@ -122,6 +142,10 @@
   "15a salop street beulah park": {
     "lat": -34.9159733,
     "lng": 138.647162
+  },
+  "16 hill street burnside": {
+    "lat": -34.939289,
+    "lng": 138.6635527
   },
   "16 sprod avenue toorak gardens": {
     "lat": -34.933122,
@@ -151,6 +175,10 @@
     "lat": -34.9371541,
     "lng": 138.6706378
   },
+  "18 albert street dulwich": {
+    "lat": -34.9379568,
+    "lng": 138.6262931
+  },
   "18 florence street fullarton": {
     "lat": -34.9506094,
     "lng": 138.6305277
@@ -179,6 +207,10 @@
     "lat": -34.9166126,
     "lng": 138.6250243
   },
+  "2 barr smith drive urrbrae": {
+    "lat": -34.9682108,
+    "lng": 138.6403498
+  },
   "2 crossley st erindale": {
     "lat": -34.9305706,
     "lng": 138.6629813
@@ -187,13 +219,25 @@
     "lat": -34.9515945,
     "lng": 138.6599948
   },
+  "20 22 olive street parkside": {
+    "lat": -34.9497545,
+    "lng": 138.6233924
+  },
   "20 collingwood avenue hazelwood park": {
     "lat": -34.9441075,
     "lng": 138.6542652
   },
+  "20 hackett terrace marryatville": {
+    "lat": -34.9281702,
+    "lng": 138.647009
+  },
   "21 ailsa street fullarton": {
     "lat": -34.9516229,
     "lng": 138.6302076
+  },
+  "21 gertrude street norwood": {
+    "lat": -34.9256429,
+    "lng": 138.63804
   },
   "21 mingara avenue stonyfell": {
     "lat": -34.9332154,
@@ -223,6 +267,18 @@
     "lat": -34.9565516,
     "lng": 138.6321197
   },
+  "26 mayfair street maylands": {
+    "lat": -34.9088483,
+    "lng": 138.6349511
+  },
+  "26 salter street kensington": {
+    "lat": -34.9220419,
+    "lng": 138.6477147
+  },
+  "26 william street norwood": {
+    "lat": -34.9243459,
+    "lng": 138.6333792
+  },
   "26 wootoona terrace st georges": {
     "lat": -34.9550202,
     "lng": 138.6481268
@@ -234,6 +290,10 @@
   "274 east terrace adelaide": {
     "lat": -34.9342778,
     "lng": 138.6174123
+  },
+  "28 5 mount barker road urrbrae": {
+    "lat": -34.964318,
+    "lng": 138.6454127
   },
   "28 duncan road beaumont": {
     "lat": -34.9487587,
@@ -250,6 +310,10 @@
   "2b bennett avenue beaumont": {
     "lat": -34.9492753,
     "lng": 138.6561152
+  },
+  "3 27 stannington avenue heathpool": {
+    "lat": -34.9318562,
+    "lng": 138.6445373
   },
   "3 evelyn court beaumont": {
     "lat": -34.9480265,
@@ -279,6 +343,10 @@
     "lat": -34.9346931,
     "lng": 138.6548278
   },
+  "337 magill road trinity gardens": {
+    "lat": -34.9147403,
+    "lng": 138.6416255
+  },
   "34 wellington terrace fullarton": {
     "lat": -34.9522203,
     "lng": 138.6288408
@@ -303,6 +371,10 @@
     "lat": -34.937005,
     "lng": 138.6425275
   },
+  "388 kensington road erindale": {
+    "lat": -34.9255092,
+    "lng": 138.6624028
+  },
   "394a kensington road erindale": {
     "miss": "2026-11-23T12:49:38.655Z"
   },
@@ -312,6 +384,10 @@
   },
   "39c high street kensington": {
     "miss": "2026-11-23T12:54:41.670Z"
+  },
+  "4 swift avenue dulwich": {
+    "lat": -34.936039,
+    "lng": 138.6272922
   },
   "41 lomandra avenue glenside": {
     "lat": -34.9409525,
@@ -332,6 +408,14 @@
   "49 mount osmond road mount osmond": {
     "lat": -34.9629967,
     "lng": 138.6570511
+  },
+  "5 bradfield street burnside": {
+    "lat": -34.9355398,
+    "lng": 138.6658961
+  },
+  "5 norwich avenue burnside": {
+    "lat": -34.9366485,
+    "lng": 138.6660598
   },
   "50 elizabeth street norwood": {
     "lat": -34.9228631,
@@ -365,9 +449,17 @@
     "lat": -34.9471698,
     "lng": 138.6507649
   },
+  "58 marlborough street malvern": {
+    "lat": -34.9585521,
+    "lng": 138.6130208
+  },
   "58a hay road linden park": {
     "lat": -34.9472116,
     "lng": 138.6509755
+  },
+  "58a high street burnside": {
+    "lat": -34.9363635,
+    "lng": 138.6670317
   },
   "6 338 portrush road heathpool": {
     "lat": -34.9321991,
@@ -380,6 +472,14 @@
   "6 allinga avenue glenside": {
     "lat": -34.9411223,
     "lng": 138.6372327
+  },
+  "6 hamilton street erindale": {
+    "lat": -34.9284272,
+    "lng": 138.6624712
+  },
+  "6 kitchener street netherby": {
+    "lat": -34.9708857,
+    "lng": 138.6248291
   },
   "6 montrose avenue netherby": {
     "lat": -34.9730801,
@@ -429,6 +529,10 @@
     "lat": -34.932167,
     "lng": 138.6697542
   },
+  "8 fern avenue fullarton": {
+    "lat": -34.9557503,
+    "lng": 138.6175998
+  },
   "8 gilles road glen osmond": {
     "lat": -34.9573033,
     "lng": 138.6481698
@@ -444,6 +548,10 @@
   "80 cheltenham street malvern": {
     "lat": -34.9596685,
     "lng": 138.6115853
+  },
+  "82 yarrabee road greenhill": {
+    "lat": -34.9496345,
+    "lng": 138.6923865
   },
   "85 conyngham street frewville": {
     "lat": -34.9487488,
@@ -461,9 +569,33 @@
     "lat": -34.9468926,
     "lng": 138.6444525
   },
+  "9 medway street fullarton": {
+    "lat": -34.9526012,
+    "lng": 138.6302832
+  },
   "9 sturt place beaumont": {
     "lat": -34.9461282,
     "lng": 138.6539239
+  },
+  "90 hewitt avenue toorak gardens": {
+    "lat": -34.9282785,
+    "lng": 138.6371128
+  },
+  "94 grant avenue toorak gardens": {
+    "lat": -34.9321277,
+    "lng": 138.6343355
+  },
+  "lot 20 glenrowan avenue myrtle bank": {
+    "lat": -34.9615008,
+    "lng": 138.6352259
+  },
+  "lot 21 glenrowan avenue myrtle bank": {
+    "lat": -34.9615008,
+    "lng": 138.6352259
+  },
+  "lot 51 549 fullarton road netherby": {
+    "lat": -34.9663443,
+    "lng": 138.6266287
   },
   "lot 800 23 wootoona terrace st georges": {
     "lat": -34.9550202,
