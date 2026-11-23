@@ -1,5 +1,5 @@
 // Secondary views: macro indicator strip, Outlook + News, Finance page, Areas manager, Settings, More.
-import { h, icon, fmtMoney, fmtMoneyFull, fmtPct, fmtDate, fmtMonthYear, relTime, parseDate, signed, toast, downloadText } from './util.js';
+import { h, icon, fmtMoney, fmtMoneyFull, fmtPct, fmtDate, fmtMonthYear, relTime, parseDate, signed, toast, downloadText, moneyHint } from './util.js';
 import { renderChart } from './charts.js';
 import { computeFinance } from './finance.js';
 import * as store from './store.js';
@@ -119,7 +119,7 @@ export function renderOutlook(root, market, news, errors = {}) {
     Array.isArray(items) && items.length ? h('ul', {}, items.map((i) => h('li', { text: i }))) : h('p', { class: 'muted', text: 'Nothing listed.' }));
   const sec = h('section', { class: 'outlook', 'aria-labelledby': 'outlook-h' }, h('h2', { id: 'outlook-h', class: 'section-title', text: 'Market outlook' }));
   if (!market) {
-    sec.append(emptyState('No market view yet', errors.market ? `market.json could not be loaded (${errors.market}). It is written by the data pipeline on each fetch.` : 'The pipeline writes one on each fetch.'));
+    sec.append(emptyState('No market view yet', 'AI market view appears after the AI key is added.'));
   } else {
     sec.append(
       h('p', { class: 'outlook-headline', text: market.headline || 'Market view' }),
@@ -134,7 +134,7 @@ export function renderOutlook(root, market, news, errors = {}) {
   const ns = h('section', { class: 'news', 'aria-labelledby': 'news-h' }, h('h2', { id: 'news-h', class: 'section-title', text: 'News' }));
   const items = news?.items || [];
   if (!items.length) {
-    ns.append(emptyState('No headlines yet', errors.news ? `news.json could not be loaded (${errors.news}).` : 'Headlines appear after the first fetch.'));
+    ns.append(emptyState('No headlines yet', 'Headlines appear after the first fetch.'));
   } else {
     const groups = new Map();
     for (const it of items) { const c = it.category || 'other'; if (!groups.has(c)) groups.set(c, []); groups.get(c).push(it); }
@@ -160,18 +160,22 @@ export function renderFinancePage(root, macro, { price } = {}) {
   if (price != null) fin.price = Math.round(price);
   const field = (id, label, input, hint) => h('div', { class: 'field' }, h('label', { for: id, text: label }), input, hint && h('span', { class: 'hint', text: hint }));
   const num = (id, value, attrs = {}) => h('input', { id, name: id, type: 'number', inputmode: 'decimal', value: value ?? '', oninput: update, ...attrs });
+  const money = (id, label, value, attrs = {}) => {
+    const input = num(id, value, { inputmode: 'numeric', autocomplete: 'off', ...attrs });
+    return h('div', { class: 'field' }, h('label', { for: id, text: label }), input, moneyHint(input));
+  };
   const radio = (value, label, checked) => h('label', { class: 'seg-item' }, h('input', { type: 'radio', name: 'depositMode', value, checked, onchange: update }), h('span', { text: label }));
   const curRate = macro?.mortgageRate?.current;
   const form = h('form', { class: 'fin-form', onsubmit: (e) => e.preventDefault(), 'aria-label': 'Finance inputs' },
-    field('fin-price', 'Purchase price ($)', num('fin-price', fin.price, { min: '0', step: '10000' })),
+    money('fin-price', 'Purchase price ($)', fin.price, { min: '0', step: '10000' }),
     h('fieldset', { class: 'field' }, h('legend', { text: 'Deposit' }),
       h('div', { class: 'seg' }, radio('amount', 'Dollar amount', fin.depositMode !== 'pct'), radio('pct', 'Percent of price', fin.depositMode === 'pct')),
       h('div', { class: 'field-row' },
-        field('fin-deposit', 'Deposit ($)', num('fin-deposit', fin.deposit, { min: '0', step: '10000' })),
+        money('fin-deposit', 'Deposit ($)', fin.deposit, { min: '0', step: '10000' }),
         field('fin-depositPct', 'Deposit (%)', num('fin-depositPct', fin.depositPct, { min: '0', max: '100', step: '1' })))),
     h('div', { class: 'field-row' },
-      field('fin-income1', 'Income 1 ($ gross / yr)', num('fin-income1', fin.incomes?.[0], { min: '0', step: '1000' })),
-      field('fin-income2', 'Income 2 ($ gross / yr)', num('fin-income2', fin.incomes?.[1], { min: '0', step: '1000' }))),
+      money('fin-income1', 'Income 1 ($ gross / yr)', fin.incomes?.[0], { min: '0', step: '1000' }),
+      money('fin-income2', 'Income 2 ($ gross / yr)', fin.incomes?.[1], { min: '0', step: '1000' })),
     h('div', { class: 'field-row' },
       field('fin-term', 'Term (years)', num('fin-term', fin.termYears, { min: '1', max: '40', step: '1' })),
       field('fin-rate', 'Interest rate (% p.a.)', num('fin-rate', fin.ratePct, { min: '0', max: '20', step: '0.05', placeholder: curRate != null ? String(curRate) : '6.0' }),
@@ -214,7 +218,7 @@ function renderFinanceOutputs(out, r, macro) {
       stat('Loan', fmtMoneyFull(r.loan), `LVR ${fmtPct(r.lvrPct, 1)}`),
       stat('SA stamp duty', fmtMoneyFull(r.stampDuty), 'estimate, check RevenueSA'),
       stat('Transfer + mortgage registration', fmtMoneyFull(r.transferFee + r.mortgageRegistration), 'LSSA 2025-26, rough'),
-      stat('Lenders mortgage insurance', lmiWarn ? fmtMoneyFull(r.lmi) : '$0', lmiWarn ? `LVR over 80% — very rough estimate` : 'not needed at 80% LVR or below', lmiWarn ? 'is-warn' : ''),
+      stat('Lenders mortgage insurance', fmtMoneyFull(lmiWarn ? r.lmi : 0), lmiWarn ? `LVR over 80% — very rough estimate` : 'not needed at 80% LVR or below', lmiWarn ? 'is-warn' : ''),
       stat('Cash needed at settlement', fmtMoneyFull(r.cashNeeded), 'deposit + duty + fees + LMI'),
       stat('Total interest over the term', fmtMoneyFull(r.interest)),
       r.repayToIncome != null ? stat('Repayments as share of income', fmtPct(r.repayToIncome, 1), `on ${fmtMoney(r.incomeAnnual)} gross a year`) : stat('Repayments as share of income', '—', 'add an income to see this'),

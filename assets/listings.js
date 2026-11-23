@@ -1,6 +1,6 @@
 // Listing filtering/sorting, the card (carousel + facts + chart + expandable details),
 // the filters panel, and .ics export.
-import { h, icon, fmtMoney, fmtMoneyFull, fmtNum, fmtPct, fmtDate, fmtDateTime, fmtInspection, parseDate, downloadText, debounce } from './util.js';
+import { h, icon, fmtMoney, fmtMoneyFull, fmtNum, fmtPct, fmtDate, fmtDateTime, fmtInspection, parseDate, downloadText, debounce, moneyHint } from './util.js';
 import { renderChart } from './charts.js';
 import { computeFinance } from './finance.js';
 import * as store from './store.js';
@@ -214,11 +214,15 @@ function renderCarousel(l) {
     const prev = h('button', { type: 'button', class: 'carousel-btn prev', 'aria-label': 'Previous photo', onclick: () => go(-1) }, icon('chevron-left'));
     const next = h('button', { type: 'button', class: 'carousel-btn next', 'aria-label': 'Next photo', onclick: () => go(1) }, icon('chevron-right'));
     let raf = 0;
+    let lastIdx = 1;
     track.addEventListener('scroll', () => {
       cancelAnimationFrame(raf);
       raf = requestAnimationFrame(() => {
         const i = Math.round(track.scrollLeft / Math.max(1, track.clientWidth)) + 1;
-        counter.textContent = `${Math.min(photos.length, Math.max(1, i))} / ${photos.length}`;
+        const idx = Math.min(photos.length, Math.max(1, i));
+        if (idx === lastIdx) return;
+        lastIdx = idx;
+        counter.textContent = `${idx} / ${photos.length}`;
       });
     }, { passive: true });
     track.addEventListener('keydown', (e) => {
@@ -398,15 +402,16 @@ export function downloadIcs(l, start, end, title) {
 export function renderFilters(root, prefs, onChange, { typeOptions = Object.keys(TYPE_LABELS) } = {}) {
   root.replaceChildren();
   const emit = debounce(() => onChange(read()), 250);
-  const numInput = (id, label, value, attrs = {}) => h('div', { class: 'field' },
-    h('label', { for: id, text: label }),
-    h('input', { id, name: id, type: 'number', inputmode: 'numeric', min: '0', value: value ?? '', oninput: emit, ...attrs }));
+  const numInput = (id, label, value, attrs = {}, hint = false) => {
+    const input = h('input', { id, name: id, type: 'number', inputmode: 'numeric', min: '0', value: value ?? '', oninput: emit, ...attrs });
+    return h('div', { class: 'field' }, h('label', { for: id, text: label }), input, hint && moneyHint(input));
+  };
   const form = h('form', { class: 'filters', onsubmit: (e) => { e.preventDefault(); onChange(read()); } });
   form.append(
     h('div', { class: 'field-row' },
       numInput('f-beds', 'Min beds', prefs.minBeds || ''), numInput('f-baths', 'Min baths', prefs.minBaths || ''), numInput('f-cars', 'Min cars', prefs.minCars || '')),
     h('div', { class: 'field-row' },
-      numInput('f-price', 'Max price ($)', prefs.maxPrice || '', { step: '10000', placeholder: 'any' }),
+      numInput('f-price', 'Max price ($)', prefs.maxPrice || '', { step: '10000', placeholder: 'any', autocomplete: 'off' }, true),
       numInput('f-land', 'Min land (m²)', prefs.minLand || '', { step: '10', placeholder: 'any' })),
     h('fieldset', { class: 'field' }, h('legend', { text: 'Property types' }),
       h('div', { class: 'checks' }, typeOptions.map((t) => h('label', { class: 'check' },
@@ -420,7 +425,7 @@ export function renderFilters(root, prefs, onChange, { typeOptions = Object.keys
       h('label', { for: 'f-notes', text: 'Our notes' }),
       h('textarea', { id: 'f-notes', rows: '3', placeholder: 'What matters to us…', oninput: emit }, prefs.notes || '')),
     h('div', { class: 'row-between' },
-      h('button', { type: 'button', class: 'btn btn-ghost btn-sm', onclick: () => { onChange({ ...store.DEFAULT_PREFS, sort: prefs.sort, view: prefs.view, notes: form.querySelector('#f-notes').value }); } }, 'Clear filters')),
+      h('button', { type: 'button', class: 'btn btn-ghost btn-sm', onclick: () => { onChange({ ...store.DEFAULT_PREFS, sort: prefs.sort, view: prefs.view, notes: form.querySelector('#f-notes').value }, { rerender: true }); } }, 'Clear filters')),
   );
   root.append(form);
   function read() {

@@ -53,6 +53,7 @@ export const clamp = (n, lo, hi) => Math.min(hi, Math.max(lo, n));
 
 // ---------- numbers ----------
 
+const AUD = new Intl.NumberFormat('en-AU', { style: 'currency', currency: 'AUD', maximumFractionDigits: 0 });
 export function fmtMoney(n, { compact = true } = {}) {
   if (n == null || !Number.isFinite(Number(n))) return '—';
   const v = Number(n);
@@ -61,7 +62,7 @@ export function fmtMoney(n, { compact = true } = {}) {
     if (abs >= 1e6) return `${v < 0 ? '-' : ''}$${trimZeros((abs / 1e6).toFixed(abs >= 10e6 ? 1 : 2))}m`;
     if (abs >= 1e3) return `${v < 0 ? '-' : ''}$${trimZeros((abs / 1e3).toFixed(abs >= 1e5 ? 0 : 1))}k`;
   }
-  return `${v < 0 ? '-' : ''}$${Math.round(Math.abs(v)).toLocaleString('en-AU')}`;
+  return AUD.format(v);
 }
 const trimZeros = (s) => (s.includes('.') ? s.replace(/\.?0+$/, '') : s);
 
@@ -185,3 +186,12 @@ export const prefersDark = () => {
   if (t === 'light') return false;
   return window.matchMedia?.('(prefers-color-scheme: dark)').matches ?? false;
 };
+
+/** A small "$1,500,000" hint that tracks a money input's value. */
+export function moneyHint(input) {
+  const el = h('span', { class: 'hint', 'aria-hidden': 'true' });
+  const sync = () => { const n = Number(input.value); el.textContent = input.value !== '' && Number.isFinite(n) && n > 0 ? fmtMoneyFull(n) : ''; };
+  input.addEventListener('input', sync);
+  sync();
+  return el;
+}

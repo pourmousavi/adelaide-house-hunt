@@ -23,7 +23,7 @@
 </script>
 </head>
 <body>
-<svg hidden aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+<svg hidden style="display:none" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
   <symbol id="i-bed" viewBox="0 0 24 24"><path d="M3 18v-6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6M3 15h18M6 10V7a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v3M13 10V7a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v3"/></symbol>
   <symbol id="i-bath" viewBox="0 0 24 24"><path d="M4 12h16v3a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4zM6 12V6a2 2 0 0 1 4 0M7 19v2M17 19v2"/></symbol>
   <symbol id="i-car" viewBox="0 0 24 24"><path d="M5 16l1.6-5.2A1.5 1.5 0 0 1 8 9.7h8a1.5 1.5 0 0 1 1.4 1.1L19 16M3 16h18v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-1H7v1a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"/><circle cx="7.5" cy="16.5" r=".6"/><circle cx="16.5" cy="16.5" r=".6"/></symbol>
@@ -75,7 +75,7 @@
     </nav>
     <div class="topbar-tools">
       <span id="updated" class="updated">Loading…</span>
-      <button id="fetch-btn" type="button" class="btn btn-primary">
+      <button id="fetch-btn" type="button" class="btn btn-primary" aria-label="Fetch new listings">
         <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-refresh"/></svg>
         <span>Fetch new listings</span>
       </button>
@@ -91,7 +91,7 @@
   <section id="view-listings" class="view" aria-label="Listings">
     <div class="listings-layout">
       <aside class="filters-aside">
-        <button type="button" class="btn btn-secondary filters-toggle" aria-expanded="false" aria-controls="filters-panel" onclick="var p=document.getElementById('filters-panel');var o=p.classList.toggle('is-open');this.setAttribute('aria-expanded',o)">
+        <button type="button" id="filters-toggle" class="btn btn-secondary filters-toggle" aria-expanded="false" aria-controls="filters-panel">
           <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-search"/></svg>
           <span>Filters &amp; preferences</span>
           <span id="filters-count" class="count" aria-label="active filters"></span>

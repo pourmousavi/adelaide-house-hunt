@@ -28,6 +28,10 @@ const effectiveAreas = () => store.getAreasLocal() || state.data?.areas || DEFAU
 async function boot() {
   applyTheme(store.get(store.KEYS.theme, 'auto'));
   $('#fetch-btn').addEventListener('click', onFetch);
+  $('#filters-toggle').addEventListener('click', (e) => {
+    const open = $('#filters-panel').classList.toggle('is-open');
+    e.currentTarget.setAttribute('aria-expanded', String(open));
+  });
   window.matchMedia('(prefers-color-scheme: dark)').addEventListener?.('change', () => { if (state.mapApi) toast('Reload to switch the map tiles to the new theme.'); });
   await reloadData({ bust: false });
   route();
@@ -81,7 +85,7 @@ function renderBanner() {
         h('li', { text: 'In the GitHub repo open Settings → Secrets and variables → Actions and add two secrets: DOMAIN_CLIENT_ID and DOMAIN_CLIENT_SECRET (and AI_API_KEY from aistudio.google.com/apikey for the AI analysis).' }),
         h('li', { text: 'Press "Fetch new listings" (with a token in Settings) or wait for the next scheduled run.' }))))));
   }
-  const errs = Object.entries(d?.errors || {});
+  const errs = Object.entries(d?.errors || {}).filter(([k]) => k === 'listings' || k === 'macro');
   if (errs.length) {
     const names = { areas: 'areas.json', listings: 'listings.json', suburbs: 'suburbs.json', macro: 'macro.json', news: 'news.json', market: 'market.json' };
     el.append(h('div', { class: 'banner banner-error', role: 'status' }, icon('alert'), h('div', {},
@@ -171,7 +175,7 @@ function renderFiltersPanel() {
   const n = activeFilterCount(state.prefs);
   $('#filters-count').textContent = n ? String(n) : '';
   if (root.dataset.rendered === JSON.stringify([state.prefs.minBeds, state.prefs.minBaths, state.prefs.minCars, state.prefs.maxPrice, state.prefs.minLand, state.prefs.types, state.prefs.mustHave, state.prefs.includeRemoved, state.prefs.notes])) return;
-  renderFilters(root, state.prefs, (p) => setPrefs(p, { rerenderFilters: false }), { typeOptions: state.data?.areas?.propertyTypes?.length ? state.data.areas.propertyTypes : DEFAULT_AREAS.propertyTypes });
+  renderFilters(root, state.prefs, (p, o) => setPrefs(p, { rerenderFilters: !!o?.rerender }), { typeOptions: state.data?.areas?.propertyTypes?.length ? state.data.areas.propertyTypes : DEFAULT_AREAS.propertyTypes });
   root.dataset.rendered = JSON.stringify([state.prefs.minBeds, state.prefs.minBaths, state.prefs.minCars, state.prefs.maxPrice, state.prefs.minLand, state.prefs.types, state.prefs.mustHave, state.prefs.includeRemoved, state.prefs.notes]);
 }
 
