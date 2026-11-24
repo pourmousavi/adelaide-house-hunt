@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-11-23T19:59:14.159Z",
+  "generatedAt": "2026-11-24T05:08:07.916Z",
   "model": "gemini-flash-latest",
-  "headline": "Adelaide eastern suburbs show persistent demand despite tightening macro headwinds and elevated debt costs",
-  "outlook": "Prospective buyers across Linden Park, Glenunga, Tusmore, Toorak Gardens, St Georges, and Beaumont face a complex market characterized by sharp divergence between macroeconomic strain and localized market tightness. Broad economic indicators highlight increasing pressure, with the RBA cash rate at 4.85%, mortgage rates averaging 6.2%, annual CPI at 3.9%, and unemployment climbing to 4.9% alongside widespread warnings of an economic slump. Despite these headwinds, on-the-ground listing metrics reflect acute tightness, showing 104 active listings, zero recorded price cuts, and a rapid median of just 1 day on market. Suburb medians in 2026 reflect high nominal values—ranging from approximately $1,885,000 in Beaumont and $1,950,000 in Linden Park to $2,920,000 in Toorak Gardens—though smaller transaction samples (such as Tusmore's 8 sales and Toorak Gardens' 12 sales through three quarters) introduce statistical volatility, as evidenced by Tusmore's median shifting from $2,378,190 in 2025 to $2,050,000 in 2026. Whether local eastern suburbs values will remain insulated or eventually adjust to broader affordability constraints remains highly uncertain.",
-  "timing": "For a family purchasing a home, timing should be guided by household borrowing safety buffers and family dwelling needs rather than attempts to anticipate market peaks or troughs. While current market conditions indicate rapid absorption and absence of discounting, financing costs remain elevated with cash rates projected to hold near 4.80% over the coming year within a broad forecast band (3.41% to 5.83% by September 2027). If your borrowing capacity comfortably accommodates mortgage rates of 6.2% or higher without straining reserves against rising unemployment risks, proceeding when a structurally suitable property appears is sensible. Conversely, if your budget is stretched near maximum capacity, exercising caution until economic conditions stabilize and supply widens may help mitigate exposure to debt service stress.",
+  "headline": "Elevated borrowing costs and macro headwinds meet exceptionally tight supply in Adelaide's eastern suburbs",
+  "outlook": "Prospective buyers across Linden Park, Glenunga, Tusmore, Toorak Gardens, St Georges, and Beaumont face a complex market characterized by restrictive monetary policy alongside constrained local inventory. With the cash rate sitting at 4.85% and prevailing mortgage rates around 6.2%, financing conditions remain demanding. Historical medians across 2026 highlight sustained pricing in several pockets—such as Toorak Gardens ($2,920,000) and Glenunga ($2,271,111)—while others show price fluctuations, including Tusmore moving from $2,378,190 in 2025 to $2,050,000 across 8 recorded sales in 2026. Local market conditions reflect tight stock, evidenced by 104 active listings, a median of 1 day on market, and zero reported price reductions. However, low transaction counts in these premium suburbs create considerable statistical variance, making broad price trajectory predictions inherently uncertain against broader warnings of softening economic conditions and rising national unemployment (4.9%).",
+  "timing": "For a family seeking a long-term home, timing should be guided by household borrowing resilience rather than attempts to anticipate market peaks or troughs. While financial institutions project potential cash rate easing from mid-2027 onward, prevailing inflation (3.9%) and broad forecast intervals (ranging from 3.41% to 5.83% over the next four quarters) mean that borrowing relief cannot be guaranteed. Given how tightly held family homes are in these school zones, securing a suitable property remains viable whenever the right asset appears, provided serviceability is stress-tested against higher rates and potential economic downturns. Stretching budgets on the assumption that interest rate cuts will arrive soon carries significant risk.",
   "risks": [
-    "Sustained cash rates at 4.85% and mortgage rates of 6.2% constraining borrowing power and increasing family debt servicing pressure.",
-    "Rising national unemployment (currently 4.9% with expectations to exceed 5%) and recession warnings potentially weakening broader household stability.",
-    "Statistical volatility in premium eastern suburbs due to low turnover volumes, where small sample sizes can obscure true underlying price trends.",
-    "Risk of purchasing at high nominal entry levels ($1.88M to $2.92M) if broader economic cooling eventually spills into premium micro-markets."
+    "High mortgage rates (currently averaging 6.2%) limiting borrowing capacity and increasing serviceability stress under a 4.85% cash rate.",
+    "Macroeconomic strain and rising unemployment (currently 4.9%), with headlines pointing to heightened recession risks nationally.",
+    "Sparse sales volume across premium eastern suburbs (e.g., Tusmore recording just 8 sales to date in 2026), which increases price volatility and valuation uncertainty.",
+    "Persistent inflation (CPI currently 3.9%) potentially extending restrictive monetary policy beyond forecast timelines."
   ],
   "watch": [
-    "RBA cash rate adjustments against the central forecast of 4.80% across late 2026 and 2027.",
-    "Changes in local liquidity, specifically whether median days on market extends beyond the current 1 day.",
-    "Appearance of discounting or price reductions across the current pool of 104 active listings.",
-    "Labor market data, particularly whether national unemployment accelerates past 5.0% as Treasury forecasts warn."
+    "RBA monetary policy decisions and shifts in the cash rate forecast band (projected at 4.80% in 12 months, with a 3.41%–5.83% range).",
+    "Local listing volume and days on market (currently tight at 104 active listings and a 1-day median).",
+    "Quarterly CPI updates to evaluate whether inflation continues to track down toward the projected 3.36% 4-quarter figure.",
+    "Unemployment rate trends, particularly any sharp increases above the current 4.9% level."
   ],
   "disclaimer": "Not financial advice."
 }
