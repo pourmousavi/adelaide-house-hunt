@@ -40,3 +40,16 @@ test('suburbKey falls back to the name when postcode is missing', async () => {
   assert.equal(suburbKey({ suburb: 'glenunga', postcode: 5064 }, S), 'Glenunga|5064');
   assert.equal(suburbKey({ suburb: 'Nowhere' }, S), null);
 });
+
+test('unit, subdivided lot and vacant-land rules', async () => {
+  const { isAttached, isSubdivided, estimatePrices } = await import('./estimate.js');
+  assert.equal(isAttached({ address: '6/6 Collyer Court, Linden Park' }), 1);
+  assert.equal(isAttached({ address: 'Lot 806/23 Wootoona Terrace' }), 0);
+  assert.equal(isAttached({ address: '12 Main St', propertyType: 'Townhouse' }), 1);
+  assert.equal(isSubdivided({ address: '22A Sherwood Terrace' }), 1);
+  assert.equal(isSubdivided({ address: '22 Sherwood Terrace' }), 0);
+  const comps = Array.from({ length: 12 }, (_, i) => ({ address: `${i} X St`, bedrooms: 3 + (i % 2), priceLow: 1e6 + i * 1e4, priceHigh: 1e6 + i * 1e4 }));
+  const land = { address: 'Lot 3/4 Allawah Ave', bedrooms: null, priceLow: null };
+  estimatePrices([...comps, land, { address: '1 Y St', bedrooms: 0, priceLow: 5e5, priceHigh: 5e5 }], null);
+  assert.equal(land.estimate, undefined);
+});

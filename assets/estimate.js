@@ -3,6 +3,8 @@
 // ponytail: asking prices, not sale prices, and ~70 comps; a guide, not a valuation. Feed sold prices
 // in as training rows if the pipeline ever gets them.
 
+// Vacant land / lots with no bedroom count are a different market: never learned from, never estimated.
+const dwelling = (l) => l.bedrooms > 0 && !['Land', 'Acreage'].includes(l.propertyType);
 const mid = (l) => (l.priceLow != null && l.priceHigh != null ? (l.priceLow + l.priceHigh) / 2 : (l.priceLow ?? l.priceHigh ?? null));
 const text = (l) => `${l.headline || ''} ${l.description || ''} ${(l.features || []).join(' ')}`;
 
@@ -32,13 +34,18 @@ function suburbMedian(l, suburbs) {
 }
 
 // Raw feature row; null = unknown (imputed with the training mean, so it neither helps nor hurts).
-const FEATURES = ['bedrooms', 'bathrooms', 'car spaces', 'land size', 'pool', 'build year', 'house vs unit', 'suburb median'];
+const FEATURES = ['bedrooms', 'bathrooms', 'car spaces', 'land size', 'pool', 'build year', 'unit/townhouse', 'subdivided lot', 'suburb median'];
+const ATTACHED = ['Unit', 'ApartmentUnitFlat', 'Townhouse', 'Villa', 'Duplex', 'SemiDetached', 'Terrace'];
+// Alert emails often omit the type: "6/6 Collyer Ct" is a unit (but "Lot 806/23 ..." is a house lot).
+export const isAttached = (l) => (ATTACHED.includes(l.propertyType) || (!l.propertyType && /^\s*\d+[a-z]?\s*\//i.test(l.address || ''))) ? 1 : 0;
+// "22A Sherwood Tce": a lettered street number usually means a subdivided (smaller) block. Rough land-size proxy.
+export const isSubdivided = (l) => (/^\s*\d+[a-z]\b/i.test(l.address || '') && !isAttached(l) ? 1 : 0);
 function row(l, suburbs) {
   const sm = suburbMedian(l, suburbs);
   return [
     l.bedrooms ?? null, l.bathrooms ?? null, l.carspaces == null ? null : Math.min(l.carspaces, 4),
     l.landArea > 0 ? Math.log(l.landArea) : null, hasPool(l), buildYear(l),
-    ['Unit', 'ApartmentUnitFlat'].includes(l.propertyType) ? 0 : 1, sm ? Math.log(sm) : null,
+    isAttached(l), isSubdivided(l), sm ? Math.log(sm) : null,
   ];
 }
 
@@ -78,7 +85,7 @@ function fit(train, suburbs, lambda) {
 /** Sets l.estimate = { low, mid, high, n, basis } on every listing without a price. Returns the count. */
 export function estimatePrices(listings, suburbs, { lambda = 1, minComps = 8 } = {}) {
   for (const l of listings) delete l.estimate;
-  let train = listings.filter((l) => mid(l) > 0);
+  let train = listings.filter((l) => mid(l) > 0 && dwelling(l));
   if (train.length < minComps) return 0;
   let m = fit(train, suburbs, lambda);
   // One robust pass: drop comps the features can't explain (an $11m estate with undisclosed land) and refit.
@@ -87,7 +94,7 @@ export function estimatePrices(listings, suburbs, { lambda = 1, minComps = 8 } =
   const round = (v) => Math.round(v / 10000) * 10000;
   let count = 0;
   for (const l of listings) {
-    if (mid(l) > 0) continue;
+    if (mid(l) > 0 || !dwelling(l)) continue;
     const r = row(l, suburbs);
     const p = m.pred(r);
     const basis = m.cols.filter((c) => r[c.j] != null).map((c) => FEATURES[c.j]);
