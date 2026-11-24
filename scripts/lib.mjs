@@ -393,7 +393,7 @@ export function mapAlertItem(it, today) {
     lat: null, lng: null,
     propertyType: it.propertyType ?? null,
     bedrooms: it.beds ?? null, bathrooms: it.baths ?? null, carspaces: it.cars ?? null,
-    landArea: null, buildingArea: null,
+    landArea: it.land > 0 ? it.land : null, buildingArea: null,
     priceText: it.priceText ?? null, priceLow, priceHigh,
     saleMethod: SALE_WORDS.test(it.priceText ?? "") ? "auction" : /expression|eoi/i.test(it.priceText ?? "") ? "eoi" : priceLow ? "privateTreaty" : null,
     auctionDate: null,
@@ -430,7 +430,7 @@ export function manualToAlertItem(m, today) {
     source: u.source, id: u.id, url: u.url, address,
     suburb: a?.suburb ?? u.suburb ?? null, postcode: a?.postcode ?? address.match(/\b(5\d{3})\b/)?.[1] ?? null,
     propertyType: u.propertyType, priceText: m.priceText?.trim() || null,
-    beds: n(m.beds), baths: n(m.baths), cars: n(m.cars),
+    beds: n(m.beds), baths: n(m.baths), cars: n(m.cars), land: n(m.land),
     image: m.image && !isAgentPhoto(m.image) ? m.image : null,
     firstSeen: m.addedAt ?? today, lastSeen: m.via === "bookmarklet" ? (m.seenAt ?? m.addedAt ?? today) : today, alertKind: null,
     ...(m.sold && { sold: true, soldAt: m.soldDate ?? m.seenAt ?? today, soldPriceText: m.soldPriceText ?? null }),
@@ -458,7 +458,7 @@ export function dedupeByAddress(listings) {
     const k = addressKey(l.address);
     const keep = k && /^\S*\d/.test(k) ? byKey.get(k) : null; // only street-numbered addresses are matched
     if (!keep) { if (k) byKey.set(k, l); out.push(l); continue; }
-    for (const f of ["priceText", "priceLow", "priceHigh", "saleMethod", "propertyType", "bedrooms", "bathrooms", "carspaces", "lat", "lng", "postcode"]) keep[f] ??= l[f];
+    for (const f of ["priceText", "priceLow", "priceHigh", "saleMethod", "propertyType", "bedrooms", "bathrooms", "carspaces", "landArea", "lat", "lng", "postcode"]) keep[f] ??= l[f];
     if (!keep.photos?.length && l.photos?.length) keep.photos = l.photos;
     if (l.sold && !keep.sold && (!keep.firstSeen || (l.removedDate ?? "") >= daysAgo(keep.firstSeen, 30)))
       Object.assign(keep, { sold: true, status: "removed", removedDate: l.removedDate, soldPriceText: l.soldPriceText ?? null, soldPrice: l.soldPrice ?? null });

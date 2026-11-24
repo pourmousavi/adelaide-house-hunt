@@ -363,7 +363,7 @@ function buildDetails(l, ctx) {
   return out;
 }
 
-export const estimateNote = (e) => `Estimated by this app, not by the agent: a model fitted to ${e.n} priced listings in your areas, using ${e.basis.join(', ')}. Roughly two in three homes like this would be guided inside this range.`;
+export const estimateNote = (e) => `Estimated by this app, not by the agent: a model fitted to ${e.n} priced listings in your areas${e.sold ? ` (${e.sold} of them recorded sales)` : ''}, using ${e.basis.join(', ')}. Roughly two in three homes like this would be guided inside this range.`;
 
 function aiBlock(l) {
   const ai = l.ai;

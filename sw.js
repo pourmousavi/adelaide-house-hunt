@@ -1,6 +1,6 @@
 // Minimal service worker for installability. Network-first for the app shell with a cache
 // fallback when offline; data/*.json is never cached here so a reload always shows fresh data.
-const CACHE = 'hh-shell-v8';
+const CACHE = 'hh-shell-v9';
 const SHELL = ['./', 'index.html', 'assets/styles.css', 'assets/app.js', 'assets/util.js', 'assets/data.js', 'assets/store.js',
   'assets/charts.js', 'assets/listings.js', 'assets/views.js', 'assets/map.js', 'assets/finance.js', 'assets/github.js', 'assets/bookmarklet.js', 'assets/inflation.js', 'assets/estimate.js', 'assets/icon.svg', 'manifest.webmanifest'];
 

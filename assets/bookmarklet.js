@@ -57,6 +57,12 @@ export function grab(APP) {
       ...(sold && { sold: true, soldDate: soldDateOf(soldText || texts.join(' ')), soldPriceText: priceText && /\$\s?\d|withheld|undisclosed/i.test(priceText) ? priceText : null }),
       beds: num(/(\d+)\s*(?:beds?|bedrooms?)(?![a-z])/i), baths: num(/(\d+)\s*(?:baths?|bathrooms?)(?![a-z])/i),
       cars: num(/(\d+)\s*(?:cars?|car spaces?|parking(?: spaces?)?|garages?)(?![a-z])/i),
+      // land size: "650m²", "650 sqm", "1,012m2"; building/floor/internal sizes are removed first
+      land: (() => {
+        const t = feat.replace(/\b(?:building|floor|internal|house)\s*(?:size|area)?\s*:?\s*[\d,.]+\s*(?:m²|m2|sqm)/gi, ' ');
+        const m = t.match(/(?<![\d,.])(\d{1,3}(?:,\d{3})+|\d+)(?:\.\d+)?\s*(?:m²|m2|sqm)(?![a-z])/i);
+        return m ? +m[1].replace(/,/g, '') : null;
+      })(),
       image: img || null,
     });
   }
@@ -81,7 +87,7 @@ export function mergeImport(list, items, today) {
     if (!k || !it.address) { skipped++; continue; }
     const soldFields = it.sold ? { sold: true, soldDate: it.soldDate ?? null, soldPriceText: it.soldPriceText ?? null } : {};
     if (it.sold) sold++;
-    const row = { url: it.url, address: it.address, beds: it.beds ?? null, baths: it.baths ?? null, cars: it.cars ?? null, image: it.image ?? null };
+    const row = { url: it.url, address: it.address, beds: it.beds ?? null, baths: it.baths ?? null, cars: it.cars ?? null, land: it.land ?? null, image: it.image ?? null };
     if (at.has(k)) {
       const m = out[at.get(k)];
       if (m.via !== 'bookmarklet') { if (!it.sold) { skipped++; continue; } Object.assign(m, soldFields); updated++; continue; } // added by hand: only the sale is recorded

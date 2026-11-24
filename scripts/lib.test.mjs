@@ -320,3 +320,8 @@ test("sold: imported sale carries price/date, keeps 12 months, and folds into th
   assert.ok(L.manualToAlertItem({ ...soldM, seenAt: "2026-01-01" }, "2026-11-24"), "sold entries ignore the 60-day re-import rule");
   assert.equal(L.recentSales({ id: "x", suburb: "Glenunga" }, [{ ...sold, suburb: "Glenunga" }], "2026-11-24")[0].soldPrice, 1850000);
 });
+
+test("land size from a bookmarklet import reaches landArea", () => {
+  const it = L.manualToAlertItem({ url: "https://www.realestate.com.au/property-house-sa-glenunga-123456789", address: "2 B St, Glenunga", beds: 3, land: 650, via: "bookmarklet", addedAt: "2026-11-20", seenAt: "2026-11-20" }, "2026-11-24");
+  assert.equal(L.mapAlertItem(it, "2026-11-24").landArea, 650);
+});

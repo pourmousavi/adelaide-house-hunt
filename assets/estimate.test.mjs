@@ -53,3 +53,13 @@ test('unit, subdivided lot and vacant-land rules', async () => {
   estimatePrices([...comps, land, { address: '1 Y St', bedrooms: 0, priceLow: 5e5, priceHigh: 5e5 }], null);
   assert.equal(land.estimate, undefined);
 });
+
+test('recorded sales train the model; sold homes are not estimated', async () => {
+  const { estimatePrices } = await import('./estimate.js');
+  const sales = Array.from({ length: 10 }, (_, i) => ({ address: `${i} S St`, bedrooms: 3 + (i % 2), sold: true, soldPrice: 1e6 + i * 2e4 }));
+  const target = { address: '1 T St', bedrooms: 3, priceLow: null };
+  const withheld = { address: '2 T St', bedrooms: 3, sold: true, soldPrice: null };
+  estimatePrices([...sales, target, withheld], null);
+  assert.equal(target.estimate.sold, 10);
+  assert.equal(withheld.estimate, undefined);
+});

@@ -5,7 +5,9 @@
 
 // Vacant land / lots with no bedroom count are a different market: never learned from, never estimated.
 const dwelling = (l) => l.bedrooms > 0 && !['Land', 'Acreage'].includes(l.propertyType);
-const mid = (l) => (l.priceLow != null && l.priceHigh != null ? (l.priceLow + l.priceHigh) / 2 : (l.priceLow ?? l.priceHigh ?? null));
+const asking = (l) => (l.priceLow != null && l.priceHigh != null ? (l.priceLow + l.priceHigh) / 2 : (l.priceLow ?? l.priceHigh ?? null));
+// Training price: a recorded sale beats an asking guide (import sold-results pages with the bookmarklet to add these).
+const mid = (l) => (l.sold ? l.soldPrice ?? null : asking(l));
 const text = (l) => `${l.headline || ''} ${l.description || ''} ${(l.features || []).join(' ')}`;
 
 export function hasPool(l) { return /\b(swimming |in-?ground |solar[- ]heated )?pool\b(?!\s*table)/i.test(text(l)) ? 1 : 0; }
@@ -94,11 +96,11 @@ export function estimatePrices(listings, suburbs, { lambda = 1, minComps = 8 } =
   const round = (v) => Math.round(v / 10000) * 10000;
   let count = 0;
   for (const l of listings) {
-    if (mid(l) > 0 || !dwelling(l)) continue;
+    if (l.sold || asking(l) > 0 || !dwelling(l)) continue;
     const r = row(l, suburbs);
     const p = m.pred(r);
     const basis = m.cols.filter((c) => r[c.j] != null).map((c) => FEATURES[c.j]);
-    l.estimate = { low: round(Math.exp(p - m.sigma)), mid: round(Math.exp(p)), high: round(Math.exp(p + m.sigma)), n: train.length, basis };
+    l.estimate = { low: round(Math.exp(p - m.sigma)), mid: round(Math.exp(p)), high: round(Math.exp(p + m.sigma)), n: train.length, sold: train.filter((t) => t.sold).length, basis };
     count++;
   }
   return count;
