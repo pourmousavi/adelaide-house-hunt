@@ -1,7 +1,1328 @@
 {
-  "generatedAt": "2026-11-23T13:50:09.168Z",
+  "generatedAt": "2026-11-24T19:26:17.119Z",
   "source": "alerts",
   "listings": [
+    {
+      "id": "rea-r12r4zy8",
+      "url": null,
+      "headline": null,
+      "address": "19a Woodcroft Avenue, St Georges SA",
+      "suburb": "St Georges",
+      "postcode": null,
+      "lat": -34.9518185,
+      "lng": 138.6451918,
+      "propertyType": null,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "carspaces": 2,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "$2,250,000 - $2,475,000",
+      "priceLow": 2250000,
+      "priceHigh": 2475000,
+      "saleMethod": "privateTreaty",
+      "auctionDate": null,
+      "photos": [
+        "https://bucket-api.domain.com.au/v1/bucket/image/2021308697_1_1_261106_044911-w8127-h5421"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 1,
+      "firstSeen": "2026-11-24",
+      "priceHistory": [
+        {
+          "date": "2026-11-24",
+          "priceText": "$2,250,000 - $2,475,000",
+          "priceLow": 2250000,
+          "priceHigh": 2475000
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-24",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "This four-bedroom, two-bathroom home in St Georges offers generous accommodation for family living. The asking range of $2.25M to $2.475M sits noticeably above the suburb's recent median trend of roughly $2.04M to $2.06M. With land size undisclosed, buyers should negotiate carefully against prevailing suburb benchmarks.",
+        "pros": [
+          "Four bedrooms suitable for growing families",
+          "Two-car parking spaces provided",
+          "Desirable St Georges location"
+        ],
+        "cons": [
+          "Asking guide exceeds recent suburb median",
+          "Land size is not disclosed",
+          "Property type and condition details missing"
+        ],
+        "fairValueLow": 2000000,
+        "fairValueHigh": 2250000,
+        "verdict": "Overpriced",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-24T19:26:17.119Z",
+        "priceText": "$2,250,000 - $2,475,000",
+        "inputVersion": 2
+      }
+    },
+    {
+      "id": "rea-r17ej2dn",
+      "url": null,
+      "headline": null,
+      "address": "85 Conyngham Street, Frewville SA",
+      "suburb": "Frewville",
+      "postcode": null,
+      "lat": -34.9487488,
+      "lng": 138.6343035,
+      "propertyType": null,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "carspaces": 2,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "$550,000 - $600,000",
+      "priceLow": 550000,
+      "priceHigh": 600000,
+      "saleMethod": "privateTreaty",
+      "auctionDate": null,
+      "photos": [
+        "https://bucket-api.domain.com.au/v1/bucket/image/2021316763_1_1_261110_062742-w2048-h1365"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 1,
+      "firstSeen": "2026-11-24",
+      "priceHistory": [
+        {
+          "date": "2026-11-24",
+          "priceText": "$550,000 - $600,000",
+          "priceLow": 550000,
+          "priceHigh": 600000
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-24",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "Offering four bedrooms and two bathrooms in Frewville, this listing carries an asking guide of $550,000 to $600,000. This price point is extraordinarily below the suburb median of over $1.6M to $2.0M, indicating possible title restrictions, structural issues, or special sale conditions. An immediate inspection and title verification are essential.",
+        "pros": [
+          "Significantly below Frewville median prices",
+          "Generous four-bedroom, two-bathroom layout",
+          "Provides two off-street parking spaces"
+        ],
+        "cons": [
+          "Extreme price discount warrants thorough due diligence",
+          "Land size is not specified",
+          "Potential structural or tenure complications"
+        ],
+        "fairValueLow": 1300000,
+        "fairValueHigh": 1800000,
+        "verdict": "Strong value",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-24T19:26:17.119Z",
+        "priceText": "$550,000 - $600,000",
+        "inputVersion": 2
+      }
+    },
+    {
+      "id": "rea-r17mx6rv",
+      "url": null,
+      "headline": null,
+      "address": "15 Holton Street, Glenside SA",
+      "suburb": "Glenside",
+      "postcode": null,
+      "lat": -34.9433021,
+      "lng": 138.6402071,
+      "propertyType": null,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "carspaces": 2,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "$1,500,000 - $1,590,000",
+      "priceLow": 1500000,
+      "priceHigh": 1590000,
+      "saleMethod": "privateTreaty",
+      "auctionDate": null,
+      "photos": [
+        "https://bucket-api.domain.com.au/v1/bucket/image/2021278516_9_1_261027_055907-w7008-h4672"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 1,
+      "firstSeen": "2026-11-24",
+      "priceHistory": [
+        {
+          "date": "2026-11-24",
+          "priceText": "$1,500,000 - $1,590,000",
+          "priceLow": 1500000,
+          "priceHigh": 1590000
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-24",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "This Glenside residence features three bedrooms, two bathrooms, and double parking. The asking guide of $1,500,000 to $1,590,000 compares favorably against Glenside's median prices of $1.85M in 2025 and $2.02M in 2026. It presents an attractive entry point for families seeking this school zone.",
+        "pros": [
+          "Guide is below recent suburb median",
+          "Two bathrooms offer good family convenience",
+          "Double garage or carport included"
+        ],
+        "cons": [
+          "Land size is unlisted",
+          "Building condition and features not provided",
+          "Limited to three bedrooms"
+        ],
+        "fairValueLow": 1550000,
+        "fairValueHigh": 1750000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-24T19:26:17.119Z",
+        "priceText": "$1,500,000 - $1,590,000",
+        "inputVersion": 2
+      }
+    },
+    {
+      "id": "rea-r18n27el",
+      "url": null,
+      "headline": null,
+      "address": "4 Leslie Street, Glen Osmond SA",
+      "suburb": "Glen Osmond",
+      "postcode": null,
+      "lat": -34.9628322,
+      "lng": 138.6484142,
+      "propertyType": null,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "carspaces": 4,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "$1,200,000 - $1,300,000",
+      "priceLow": 1200000,
+      "priceHigh": 1300000,
+      "saleMethod": "privateTreaty",
+      "auctionDate": null,
+      "photos": [
+        "https://bucket-api.domain.com.au/v1/bucket/image/2021288629_1_1_261030_042734-w1920-h1280"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 1,
+      "firstSeen": "2026-11-24",
+      "priceHistory": [
+        {
+          "date": "2026-11-24",
+          "priceText": "$1,200,000 - $1,300,000",
+          "priceLow": 1200000,
+          "priceHigh": 1300000
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-24",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "Located in Glen Osmond, this property offers three bedrooms, four vehicle spaces, and a single bathroom. The asking range of $1.20M to $1.30M is positioned well below the suburb's recent medians of $1.61M to $2.10M. The single bathroom may limit family functionality, but the entry price is competitive.",
+        "pros": [
+          "Well below prevailing Glen Osmond medians",
+          "Ample four-vehicle parking capacity",
+          "Competitive entry price into the area"
+        ],
+        "cons": [
+          "Only one bathroom for three bedrooms",
+          "Land size not disclosed",
+          "Higher mortgage rates increase financing costs"
+        ],
+        "fairValueLow": 1350000,
+        "fairValueHigh": 1550000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-24T19:26:17.119Z",
+        "priceText": "$1,200,000 - $1,300,000",
+        "inputVersion": 2
+      }
+    },
+    {
+      "id": "rea-r1f1quio",
+      "url": null,
+      "headline": null,
+      "address": "10 Lebanon Avenue, Glenunga SA",
+      "suburb": "Glenunga",
+      "postcode": null,
+      "lat": -34.9552265,
+      "lng": 138.6411049,
+      "propertyType": null,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "carspaces": 3,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "BEST OFFER BY TUESDAY 1ST DECEMBER 2026 AT 2:00PM",
+      "priceLow": null,
+      "priceHigh": null,
+      "saleMethod": null,
+      "auctionDate": null,
+      "photos": [
+        "https://bucket-api.domain.com.au/v1/bucket/image/2021324454_1_1_261112_054045-w5777-h3851"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 1,
+      "firstSeen": "2026-11-24",
+      "priceHistory": [
+        {
+          "date": "2026-11-24",
+          "priceText": "BEST OFFER BY TUESDAY 1ST DECEMBER 2026 AT 2:00PM",
+          "priceLow": null,
+          "priceHigh": null
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-24",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "The asking price is not disclosed for this three-bedroom, one-bathroom home in Glenunga, which is being sold by best offer. Suburb medians have climbed from $1.77M in 2025 to $2.27M in 2026, though the single bathroom may temper bidding. Based on the suburb trend and standard features, fair value sits within a wide range.",
+        "pros": [
+          "Directly in sought-after Glenunga location",
+          "Three-car parking capacity",
+          "Strong long-term suburb capital growth"
+        ],
+        "cons": [
+          "Price guide is not disclosed",
+          "Single bathroom limits family convenience",
+          "Land size is not provided"
+        ],
+        "fairValueLow": 1650000,
+        "fairValueHigh": 2100000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-24T19:26:17.119Z",
+        "priceText": "BEST OFFER BY TUESDAY 1ST DECEMBER 2026 AT 2:00PM",
+        "inputVersion": 2
+      }
+    },
+    {
+      "id": "rea-r1fhsctr",
+      "url": null,
+      "headline": null,
+      "address": "18B Fifeshire Avenue, St Georges SA",
+      "suburb": "St Georges",
+      "postcode": null,
+      "lat": -34.950507,
+      "lng": 138.6483107,
+      "propertyType": null,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "carspaces": 3,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "Auction | Friday 4th Dec @ 1pm USP",
+      "priceLow": null,
+      "priceHigh": null,
+      "saleMethod": "auction",
+      "auctionDate": null,
+      "photos": [
+        "https://bucket-api.domain.com.au/v1/bucket/image/2021343943_1_1_261124_060748-w6000-h4000"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 1,
+      "firstSeen": "2026-11-24",
+      "priceHistory": [
+        {
+          "date": "2026-11-24",
+          "priceText": "Auction | Friday 4th Dec @ 1pm USP",
+          "priceLow": null,
+          "priceHigh": null
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-24",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "This three-bedroom, two-bathroom home in St Georges is being offered via auction with no disclosed asking price. With the suburb median sitting around $2.04M to $2.06M in recent years, buyers should expect competitive bidding. Given the lack of specific land dimensions and property description, thorough physical inspection and contract review are essential.",
+        "pros": [
+          "Desirable St Georges location",
+          "Ample three-car parking accommodation",
+          "Functional three-bedroom, two-bathroom configuration"
+        ],
+        "cons": [
+          "Price is undisclosed ahead of auction",
+          "Land size is not specified",
+          "High interest rate environment pressures borrowing"
+        ],
+        "fairValueLow": 1750000,
+        "fairValueHigh": 2200000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-24T19:26:17.119Z",
+        "priceText": "Auction | Friday 4th Dec @ 1pm USP",
+        "inputVersion": 2
+      },
+      "alsoAt": [
+        {
+          "origin": "rea",
+          "url": null
+        }
+      ]
+    },
+    {
+      "id": "rea-r1khgo3e",
+      "url": null,
+      "headline": null,
+      "address": "3A Jellicoe Street, Linden Park SA",
+      "suburb": "Linden Park",
+      "postcode": null,
+      "lat": -34.9401719,
+      "lng": 138.646014,
+      "propertyType": null,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "carspaces": 4,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "$2,250,000 - $2,475,000",
+      "priceLow": 2250000,
+      "priceHigh": 2475000,
+      "saleMethod": "privateTreaty",
+      "auctionDate": null,
+      "photos": [
+        "https://bucket-api.domain.com.au/v1/bucket/image/2021320562_1_1_261111_060926-w2000-h1333"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 1,
+      "firstSeen": "2026-11-24",
+      "priceHistory": [
+        {
+          "date": "2026-11-24",
+          "priceText": "$2,250,000 - $2,475,000",
+          "priceLow": 2250000,
+          "priceHigh": 2475000
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-24",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "This three-bedroom residence in Linden Park carries an asking guide of $2,250,000 to $2,475,000 with four car spaces. The quote sits well above the suburb's historical median of $1,635,000 in 2025 and $1,950,000 in 2026. Without land size or building specifications to justify the premium, it appears priced above prevailing market benchmarks.",
+        "pros": [
+          "Generous four-car parking capacity",
+          "Prime Linden Park school zone address",
+          "Newly listed with minimal market fatigue"
+        ],
+        "cons": [
+          "Asking guide sits substantially above median",
+          "Land size is undisclosed",
+          "High price point amid 6.2% mortgage rates"
+        ],
+        "fairValueLow": 1750000,
+        "fairValueHigh": 2100000,
+        "verdict": "Overpriced",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-24T19:26:17.119Z",
+        "priceText": "$2,250,000 - $2,475,000",
+        "inputVersion": 2
+      }
+    },
+    {
+      "id": "rea-r1lpusoo",
+      "url": null,
+      "headline": null,
+      "address": "5 Windsor Road, Glenside SA",
+      "suburb": "Glenside",
+      "postcode": null,
+      "lat": -34.9455286,
+      "lng": 138.6347495,
+      "propertyType": null,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "carspaces": 2,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "Expression Of Interest",
+      "priceLow": null,
+      "priceHigh": null,
+      "saleMethod": "eoi",
+      "auctionDate": null,
+      "photos": [
+        "https://bucket-api.domain.com.au/v1/bucket/image/2021237053_1_1_261013_100545-w1536-h1024"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 1,
+      "firstSeen": "2026-11-24",
+      "priceHistory": [
+        {
+          "date": "2026-11-24",
+          "priceText": "Expression Of Interest",
+          "priceLow": null,
+          "priceHigh": null
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-24",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "Offered via Expression of Interest, this three-bedroom home in Glenside does not disclose a price guide. Glenside's median price has steadily climbed from $1.73M in 2024 to over $2.0M in 2026 across limited transactions. Due to the withheld price and unstated land area, a broad valuation range is prudent.",
+        "pros": [
+          "Sought-after eastern suburbs address in Glenside",
+          "Practical three-bedroom, two-bathroom floorplan",
+          "Two-car parking provided"
+        ],
+        "cons": [
+          "Price undisclosed under EOI campaign",
+          "Land size details are omitted",
+          "Suburb transaction volumes are relatively low"
+        ],
+        "fairValueLow": 1650000,
+        "fairValueHigh": 2100000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-24T19:26:17.119Z",
+        "priceText": "Expression Of Interest",
+        "inputVersion": 2
+      }
+    },
+    {
+      "id": "rea-r1luvdqx",
+      "url": null,
+      "headline": null,
+      "address": "22 Banksia Street, Glenside SA",
+      "suburb": "Glenside",
+      "postcode": null,
+      "lat": -34.9452647,
+      "lng": 138.6259638,
+      "propertyType": null,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "carspaces": 2,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "$550,000 - $600,000",
+      "priceLow": 550000,
+      "priceHigh": 600000,
+      "saleMethod": "privateTreaty",
+      "auctionDate": null,
+      "photos": [
+        "https://bucket-api.domain.com.au/v1/bucket/image/2021320843_1_1_261111_064505-w8204-h5469"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 1,
+      "firstSeen": "2026-11-24",
+      "priceHistory": [
+        {
+          "date": "2026-11-24",
+          "priceText": "$550,000 - $600,000",
+          "priceLow": 550000,
+          "priceHigh": 600000
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-24",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "Quoting $550,000 to $600,000, this three-bedroom, two-bathroom Glenside listing is priced far below the suburb's typical $1.85M to $2.02M median. Such a steep discount warrants cautious investigation into title type, property condition, and underlying restrictions. If legitimate and unencumbered, it represents exceptional relative value for family buyers in this catchment.",
+        "pros": [
+          "Exceptionally low entry price for Glenside",
+          "Provides three bedrooms and two bathrooms",
+          "Includes two dedicated car spaces"
+        ],
+        "cons": [
+          "Severe price anomaly requires cautious due diligence",
+          "Property type and land size unspecified",
+          "Potential undisclosed structural or title limitations"
+        ],
+        "fairValueLow": 650000,
+        "fairValueHigh": 1200000,
+        "verdict": "Strong value",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-24T19:26:17.119Z",
+        "priceText": "$550,000 - $600,000",
+        "inputVersion": 2
+      }
+    },
+    {
+      "id": "rea-r1t8z42h",
+      "url": null,
+      "headline": null,
+      "address": "17 Jellicoe Street, Linden Park SA",
+      "suburb": "Linden Park",
+      "postcode": null,
+      "lat": -34.9401719,
+      "lng": 138.646014,
+      "propertyType": null,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "carspaces": 2,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "$1,100,000",
+      "priceLow": 1100000,
+      "priceHigh": 1100000,
+      "saleMethod": "privateTreaty",
+      "auctionDate": null,
+      "photos": [
+        "https://bucket-api.domain.com.au/v1/bucket/image/2021342588_1_1_261119_031045-w3800-h2533"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 1,
+      "firstSeen": "2026-11-24",
+      "priceHistory": [
+        {
+          "date": "2026-11-24",
+          "priceText": "$1,100,000",
+          "priceLow": 1100000,
+          "priceHigh": 1100000
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-24",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "This four-bedroom, two-bathroom property on Jellicoe Street is listed at a fixed asking price of $1,100,000. That figure is sharply beneath Linden Park's median sale price of $1,635,000 in 2025 and $1,950,000 in 2026. Given the four-bedroom family scale, it presents a compelling purchasing opportunity subject to verification of condition and allotment size.",
+        "pros": [
+          "Generous four-bedroom family layout",
+          "Asking price sits well below suburb median",
+          "Desirable Linden Park school catchment location",
+          "Two-car parking available"
+        ],
+        "cons": [
+          "Land size is not disclosed",
+          "Substantial price discount warrants structural due diligence",
+          "Elevated interest rate environment limits leverage"
+        ],
+        "fairValueLow": 1300000,
+        "fairValueHigh": 1750000,
+        "verdict": "Strong value",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-24T19:26:17.119Z",
+        "priceText": "$1,100,000",
+        "inputVersion": 2
+      }
+    },
+    {
+      "id": "rea-r1y86m0t",
+      "url": null,
+      "headline": null,
+      "address": "6 Allawah Avenue, Glen Osmond SA",
+      "suburb": "Glen Osmond",
+      "postcode": null,
+      "lat": -34.960984,
+      "lng": 138.6433106,
+      "propertyType": null,
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "carspaces": 2,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "$1.395M",
+      "priceLow": 1395000,
+      "priceHigh": 1395000,
+      "saleMethod": "privateTreaty",
+      "auctionDate": null,
+      "photos": [
+        "https://bucket-api.domain.com.au/v1/bucket/image/2021240721_1_1_261014_055743-w1920-h1280"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 1,
+      "firstSeen": "2026-11-24",
+      "priceHistory": [
+        {
+          "date": "2026-11-24",
+          "priceText": "$1.395M",
+          "priceLow": 1395000,
+          "priceHigh": 1395000
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-24",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "This five-bedroom, three-bathroom home in Glen Osmond is offered at an asking price of $1.395M. This price sits well below the recent Glen Osmond median prices of $1.61M in 2025 and $2.11M in 2026. Given the substantial accommodation for a family, it presents strong relative value for the area.",
+        "pros": [
+          "Substantial five-bedroom and three-bathroom accommodation",
+          "Priced significantly below the suburb median",
+          "Two dedicated car spaces provided",
+          "Desirable Glen Osmond location near quality schools"
+        ],
+        "cons": [
+          "Land size is not disclosed",
+          "Property type and condition details are omitted",
+          "High interest rate environment may limit borrowing"
+        ],
+        "fairValueLow": 1400000,
+        "fairValueHigh": 1650000,
+        "verdict": "Strong value",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-24T19:26:17.119Z",
+        "priceText": "$1.395M",
+        "inputVersion": 2
+      }
+    },
+    {
+      "id": "rea-r3pimhn",
+      "url": null,
+      "headline": null,
+      "address": "7A Elinor Terrace, Glen Osmond SA",
+      "suburb": "Glen Osmond",
+      "postcode": null,
+      "lat": -34.9602691,
+      "lng": 138.6455529,
+      "propertyType": null,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "carspaces": 3,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "Best Offers By 7th Dec @ 3pm (USP)",
+      "priceLow": null,
+      "priceHigh": null,
+      "saleMethod": null,
+      "auctionDate": null,
+      "photos": [
+        "https://bucket-api.domain.com.au/v1/bucket/image/2021340390_1_1_261119_011303-w6000-h4000"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 1,
+      "firstSeen": "2026-11-24",
+      "priceHistory": [
+        {
+          "date": "2026-11-24",
+          "priceText": "Best Offers By 7th Dec @ 3pm (USP)",
+          "priceLow": null,
+          "priceHigh": null
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-24",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "The asking price for this three-bedroom, one-bathroom home is not disclosed, being offered by best offers. Glen Osmond medians have climbed from $1.61M in 2025 to $2.11M in 2026 across recent sales. Without disclosed pricing or land area, fair value should be estimated broadly based on modest single-bathroom specifications.",
+        "pros": [
+          "Three car spaces available",
+          "Family-friendly three-bedroom configuration",
+          "Located in high-demand Glen Osmond"
+        ],
+        "cons": [
+          "Price is not disclosed by the vendor",
+          "Only one bathroom for three bedrooms",
+          "Land size and building type not provided"
+        ],
+        "fairValueLow": 1150000,
+        "fairValueHigh": 1450000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-24T19:26:17.119Z",
+        "priceText": "Best Offers By 7th Dec @ 3pm (USP)",
+        "inputVersion": 2
+      }
+    },
+    {
+      "id": "rea-r4qj92q",
+      "url": null,
+      "headline": null,
+      "address": "48 Inverness Avenue, St Georges SA",
+      "suburb": "St Georges",
+      "postcode": null,
+      "lat": -34.9500072,
+      "lng": 138.6494823,
+      "propertyType": null,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "carspaces": 1,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "Best Offer | $695,000 - $715,000",
+      "priceLow": 695000,
+      "priceHigh": 715000,
+      "saleMethod": "privateTreaty",
+      "auctionDate": null,
+      "photos": [
+        "https://bucket-api.domain.com.au/v1/bucket/image/2021244579_2_1_261015_041759-w8192-h5464"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 1,
+      "firstSeen": "2026-11-24",
+      "priceHistory": [
+        {
+          "date": "2026-11-24",
+          "priceText": "Best Offer | $695,000 - $715,000",
+          "priceLow": 695000,
+          "priceHigh": 715000
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-24",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "This three-bedroom home in St Georges is listed between $695,000 and $715,000, which is drastically below the suburb median exceeding $2.0M. The entry price is exceptional for the suburb, though the single car space and lack of land data suggest compact living. It offers an affordable entry into an otherwise expensive school-zone suburb.",
+        "pros": [
+          "Entry price far below St Georges median",
+          "Three bedrooms and two bathrooms included",
+          "Very accessible price point in premier suburb"
+        ],
+        "cons": [
+          "Only one car parking space",
+          "Land size is not specified in listing",
+          "Property type is not specified"
+        ],
+        "fairValueLow": 700000,
+        "fairValueHigh": 850000,
+        "verdict": "Strong value",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-24T19:26:17.119Z",
+        "priceText": "Best Offer | $695,000 - $715,000",
+        "inputVersion": 2
+      }
+    },
+    {
+      "id": "rea-r7t6nwo",
+      "url": null,
+      "headline": null,
+      "address": "6/6 Collyer Court, Linden Park SA",
+      "suburb": "Linden Park",
+      "postcode": null,
+      "lat": -34.9475904,
+      "lng": 138.650262,
+      "propertyType": null,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "carspaces": 1,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "$1,500,000 - $1,650,000",
+      "priceLow": 1500000,
+      "priceHigh": 1650000,
+      "saleMethod": "privateTreaty",
+      "auctionDate": null,
+      "photos": [
+        "https://bucket-api.domain.com.au/v1/bucket/image/2021294433_1_1_261102_071329-w1920-h1280"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 1,
+      "firstSeen": "2026-11-24",
+      "priceHistory": [
+        {
+          "date": "2026-11-24",
+          "priceText": "$1,500,000 - $1,650,000",
+          "priceLow": 1500000,
+          "priceHigh": 1650000
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-24",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "Asking $1,500,000 to $1,650,000 for a two-bedroom, one-bathroom unit in Linden Park is exceedingly high. While Linden Park medians range between $1.63M and $1.95M, those figures reflect full-sized family houses rather than two-bedroom dwellings. For a small two-bedroom footprint with a single car space, this guide appears significantly elevated.",
+        "pros": [
+          "Located in sought-after Linden Park suburb",
+          "Fresh to market with zero price changes"
+        ],
+        "cons": [
+          "Extremely high asking guide for two bedrooms",
+          "Only one bathroom and one parking space",
+          "Unit living may not suit growing families",
+          "Land area is not provided"
+        ],
+        "fairValueLow": 750000,
+        "fairValueHigh": 950000,
+        "verdict": "Overpriced",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-24T19:26:17.119Z",
+        "priceText": "$1,500,000 - $1,650,000",
+        "inputVersion": 2
+      }
+    },
+    {
+      "id": "rea-r9s95q6",
+      "url": null,
+      "headline": null,
+      "address": "55 L'Estrange Street, Glenside SA",
+      "suburb": "Glenside",
+      "postcode": null,
+      "lat": -34.9411418,
+      "lng": 138.635485,
+      "propertyType": null,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "carspaces": 3,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "$1,100,000",
+      "priceLow": 1100000,
+      "priceHigh": 1100000,
+      "saleMethod": "privateTreaty",
+      "auctionDate": null,
+      "photos": [
+        "https://bucket-api.domain.com.au/v1/bucket/image/2021341708_1_1_261119_013542-w4500-h3000"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 1,
+      "firstSeen": "2026-11-24",
+      "priceHistory": [
+        {
+          "date": "2026-11-24",
+          "priceText": "$1,100,000",
+          "priceLow": 1100000,
+          "priceHigh": 1100000
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-24",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "Offering four bedrooms, two bathrooms, and three car spaces, this Glenside property has an asking price of $1,100,000. This is substantially beneath Glenside's median sales trend of $1.85M in 2025 and $2.02M in 2026. Assuming standard residential condition, it provides remarkable value for a family seeking access to nearby schools.",
+        "pros": [
+          "Generous four bedrooms and two bathrooms",
+          "Asking price far below Glenside median",
+          "Three parking spaces available",
+          "Prime location close to desired schools"
+        ],
+        "cons": [
+          "Land size is not stated",
+          "Property type is undisclosed",
+          "Elevated mortgage rates increase repayment burden"
+        ],
+        "fairValueLow": 1350000,
+        "fairValueHigh": 1650000,
+        "verdict": "Strong value",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-24T19:26:17.119Z",
+        "priceText": "$1,100,000",
+        "inputVersion": 2
+      }
+    },
+    {
+      "id": "rea-roikglp",
+      "url": null,
+      "headline": null,
+      "address": "8/25 Bevington Road, Glenunga SA",
+      "suburb": "Glenunga",
+      "postcode": null,
+      "lat": -34.9514638,
+      "lng": 138.6406809,
+      "propertyType": null,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "carspaces": 1,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "$1,750,000.00 - $1,850,000.00",
+      "priceLow": 1750000,
+      "priceHigh": 1850000,
+      "saleMethod": "privateTreaty",
+      "auctionDate": null,
+      "photos": [
+        "https://bucket-api.domain.com.au/v1/bucket/image/2021244014_1_1_261028_022924-w1920-h1280"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 1,
+      "firstSeen": "2026-11-24",
+      "priceHistory": [
+        {
+          "date": "2026-11-24",
+          "priceText": "$1,750,000.00 - $1,850,000.00",
+          "priceLow": 1750000,
+          "priceHigh": 1850000
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-24",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "This two-bedroom, one-bathroom unit in Glenunga is priced between $1,750,000 and $1,850,000, which approaches the suburb's overall median house price. Without land size details and offering only modest accommodation, it represents poor relative value for family buyers. More suitable family-sized homes can typically be found at or near this price point.",
+        "pros": [
+          "Located in high-demand Glenunga",
+          "Includes one dedicated car space",
+          "Brand new to the market"
+        ],
+        "cons": [
+          "Heavily overpriced for two bedrooms",
+          "Only one bathroom provided",
+          "Land size is not disclosed",
+          "Likely too small for growing families"
+        ],
+        "fairValueLow": 900000,
+        "fairValueHigh": 1150000,
+        "verdict": "Overpriced",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-24T19:26:17.119Z",
+        "priceText": "$1,750,000.00 - $1,850,000.00",
+        "inputVersion": 2
+      }
+    },
+    {
+      "id": "rea-rr6zzxy",
+      "url": null,
+      "headline": null,
+      "address": "528 Portrush Road, St Georges SA",
+      "suburb": "St Georges",
+      "postcode": null,
+      "lat": -34.9560582,
+      "lng": 138.643728,
+      "propertyType": null,
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "carspaces": 2,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "$1,295,000 to $1,425,000",
+      "priceLow": 1295000,
+      "priceHigh": 1425000,
+      "saleMethod": "privateTreaty",
+      "auctionDate": null,
+      "photos": [
+        "https://bucket-api.domain.com.au/v1/bucket/image/2021333805_1_1_261117_013123-w2100-h1400"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 1,
+      "firstSeen": "2026-11-24",
+      "priceHistory": [
+        {
+          "date": "2026-11-24",
+          "priceText": "$1,295,000 to $1,425,000",
+          "priceLow": 1295000,
+          "priceHigh": 1425000
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-24",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "Offering five bedrooms and three bathrooms, this home provides substantial space for a family well below St Georges' median price of over $2,000,000. However, the address on Portrush Road entails exposure to heavy arterial traffic noise and access constraints. If road noise is manageable for the family, it offers exceptional accommodation per dollar.",
+        "pros": [
+          "Substantial five-bedroom and three-bathroom configuration",
+          "Priced well below suburb median",
+          "Accommodates two vehicles off-street"
+        ],
+        "cons": [
+          "Situated on busy arterial Portrush Road",
+          "Traffic noise impacts lifestyle and resale",
+          "Land size is not specified"
+        ],
+        "fairValueLow": 1300000,
+        "fairValueHigh": 1500000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-24T19:26:17.119Z",
+        "priceText": "$1,295,000 to $1,425,000",
+        "inputVersion": 2
+      }
+    },
+    {
+      "id": "rea-rrin6v4",
+      "url": null,
+      "headline": null,
+      "address": "43 Flemington Street, Glenside SA",
+      "suburb": "Glenside",
+      "postcode": null,
+      "lat": -34.9456619,
+      "lng": 138.6334992,
+      "propertyType": null,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "carspaces": 2,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "$1,900,000 -$2,090,000",
+      "priceLow": 1900000,
+      "priceHigh": 2090000,
+      "saleMethod": "privateTreaty",
+      "auctionDate": null,
+      "photos": [
+        "https://bucket-api.domain.com.au/v1/bucket/image/2021221626_2_1_261008_124253-w4239-h2826"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 1,
+      "firstSeen": "2026-11-24",
+      "priceHistory": [
+        {
+          "date": "2026-11-24",
+          "priceText": "$1,900,000 -$2,090,000",
+          "priceLow": 1900000,
+          "priceHigh": 2090000
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-24",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "Positioned in Glenside, this three-bedroom, two-bathroom home is priced between $1,900,000 and $2,090,000, which closely aligns with the suburb's rising median trend. The property provides a standard family layout and two car spaces, though land dimensions are not disclosed. It represents fair market pricing for a sought-after eastern suburbs pocket.",
+        "pros": [
+          "Practical three-bedroom, two-bathroom family layout",
+          "Double parking accommodation included",
+          "Asking price aligns with suburb medians"
+        ],
+        "cons": [
+          "Land size is not disclosed",
+          "Upper end of historical Glenside pricing",
+          "High interest rate environment demands caution"
+        ],
+        "fairValueLow": 1800000,
+        "fairValueHigh": 2050000,
+        "verdict": "Fair",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-24T19:26:17.119Z",
+        "priceText": "$1,900,000 -$2,090,000",
+        "inputVersion": 2
+      }
+    },
+    {
+      "id": "rea-rtek6yp",
+      "url": null,
+      "headline": null,
+      "address": "11 Fulton Crescent, Glen Osmond SA",
+      "suburb": "Glen Osmond",
+      "postcode": null,
+      "lat": -34.9612919,
+      "lng": 138.6489603,
+      "propertyType": null,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "carspaces": 4,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "Best Offers Guide $1.25M - $1.375M",
+      "priceLow": 1250000,
+      "priceHigh": 1375000,
+      "saleMethod": "privateTreaty",
+      "auctionDate": null,
+      "photos": [
+        "https://bucket-api.domain.com.au/v1/bucket/image/2021284268_3_1_261029_010950-w4500-h3000"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 1,
+      "firstSeen": "2026-11-24",
+      "priceHistory": [
+        {
+          "date": "2026-11-24",
+          "priceText": "Best Offers Guide $1.25M - $1.375M",
+          "priceLow": 1250000,
+          "priceHigh": 1375000
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-24",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "This three-bedroom, two-bathroom home in Glen Osmond features a competitive guide of $1,250,000 to $1,375,000 alongside rare four-car capacity. This asking range sits significantly below recent Glen Osmond medians of $1.6M to $2.1M. It warrants an immediate inspection, though competitive bidding may push the final sale price higher.",
+        "pros": [
+          "Guide price well below suburb median",
+          "Exceptional four-car parking capacity",
+          "Situated in a quieter crescent setting"
+        ],
+        "cons": [
+          "Best offers format may drive competition",
+          "Land size is not stated",
+          "Internal condition details are unspecified"
+        ],
+        "fairValueLow": 1350000,
+        "fairValueHigh": 1550000,
+        "verdict": "Strong value",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-24T19:26:17.119Z",
+        "priceText": "Best Offers Guide $1.25M - $1.375M",
+        "inputVersion": 2
+      }
+    },
     {
       "id": "rea-151467608",
       "url": "https://www.realestate.com.au/property-house-sa-st+georges-151467608",
@@ -28,7 +1349,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -103,7 +1424,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -172,7 +1493,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -242,7 +1563,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -318,7 +1639,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -393,7 +1714,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -466,7 +1787,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -540,7 +1861,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -614,7 +1935,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -687,7 +2008,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -755,7 +2076,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -823,7 +2144,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -891,7 +2212,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -965,7 +2286,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -1039,7 +2360,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -1107,7 +2428,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -1183,7 +2504,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -1259,7 +2580,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -1327,7 +2648,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -1403,7 +2724,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -1477,7 +2798,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -1551,7 +2872,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -1619,7 +2940,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -1693,7 +3014,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -1763,7 +3084,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -1837,7 +3158,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -1911,7 +3232,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -1984,7 +3305,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -2054,7 +3375,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -2127,7 +3448,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -2194,7 +3515,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -2269,7 +3590,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -2343,7 +3664,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -2411,7 +3732,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -2485,7 +3806,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -2559,7 +3880,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -2635,7 +3956,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -2709,7 +4030,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -2777,7 +4098,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -2851,7 +4172,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -2925,7 +4246,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -2999,7 +4320,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3073,7 +4394,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3147,7 +4468,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3215,7 +4536,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3283,7 +4604,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3351,7 +4672,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3419,7 +4740,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3487,7 +4808,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3555,7 +4876,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3623,7 +4944,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3692,7 +5013,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3761,7 +5082,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3830,7 +5151,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3899,7 +5220,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3968,7 +5289,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4036,7 +5357,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4104,7 +5425,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4172,7 +5493,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4240,7 +5561,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4310,7 +5631,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4380,7 +5701,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4449,7 +5770,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4517,7 +5838,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4584,7 +5905,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4652,7 +5973,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4722,7 +6043,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4792,7 +6113,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4862,7 +6183,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4932,7 +6253,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5002,7 +6323,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5070,7 +6391,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5138,7 +6459,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5206,7 +6527,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5274,7 +6595,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5342,7 +6663,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5413,7 +6734,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5484,7 +6805,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5555,7 +6876,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5626,7 +6947,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5697,7 +7018,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5767,7 +7088,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5836,7 +7157,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5906,7 +7227,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5976,7 +7297,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6046,7 +7367,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6116,7 +7437,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6186,7 +7507,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6256,7 +7577,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6325,7 +7646,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6396,7 +7717,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6467,7 +7788,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6538,7 +7859,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6610,7 +7931,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6682,7 +8003,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6753,7 +8074,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6823,7 +8144,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6893,7 +8214,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6963,7 +8284,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -7033,7 +8354,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -7103,7 +8424,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -7175,7 +8496,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -7246,7 +8567,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -7317,7 +8638,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {

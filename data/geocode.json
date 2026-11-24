@@ -47,6 +47,10 @@
     "lat": -34.9552265,
     "lng": 138.6411049
   },
+  "10 lebanon avenue glenunga sa": {
+    "lat": -34.9552265,
+    "lng": 138.6411049
+  },
   "10 taminga avenue glenunga": {
     "lat": -34.9547382,
     "lng": 138.6420414
@@ -104,6 +108,10 @@
     "lng": 138.6651453
   },
   "11 fulton crescent glen osmond": {
+    "lat": -34.9612919,
+    "lng": 138.6489603
+  },
+  "11 fulton crescent glen osmond sa": {
     "lat": -34.9612919,
     "lng": 138.6489603
   },
@@ -222,6 +230,10 @@
     "lat": -34.9433021,
     "lng": 138.6402071
   },
+  "15 holton street glenside sa": {
+    "lat": -34.9433021,
+    "lng": 138.6402071
+  },
   "15 katherine street fullarton": {
     "lat": -34.9519813,
     "lng": 138.6329609
@@ -278,6 +290,10 @@
     "lat": -34.9401719,
     "lng": 138.646014
   },
+  "17 jellicoe street linden park sa": {
+    "lat": -34.9401719,
+    "lng": 138.646014
+  },
   "17 undelcarra road burnside": {
     "lat": -34.9323254,
     "lng": 138.6651232
@@ -298,6 +314,14 @@
     "lat": -34.9436385,
     "lng": 138.6700744
   },
+  "1803 6 penaluna place adelaide sa 5000": {
+    "lat": -34.9284878,
+    "lng": 138.5976862
+  },
+  "18b fifeshire avenue st georges sa": {
+    "lat": -34.950507,
+    "lng": 138.6483107
+  },
   "19 balfour road springfield": {
     "lat": -34.9751815,
     "lng": 138.6343489
@@ -311,6 +335,10 @@
     "lng": 138.6162603
   },
   "19a woodcroft avenue st georges": {
+    "lat": -34.9518185,
+    "lng": 138.6451918
+  },
+  "19a woodcroft avenue st georges sa": {
     "lat": -34.9518185,
     "lng": 138.6451918
   },
@@ -403,6 +431,10 @@
     "lng": 138.6512769
   },
   "22 banksia street glenside": {
+    "lat": -34.9452647,
+    "lng": 138.6259638
+  },
+  "22 banksia street glenside sa": {
     "lat": -34.9452647,
     "lng": 138.6259638
   },
@@ -644,6 +676,10 @@
     "lat": -34.9401719,
     "lng": 138.646014
   },
+  "3a jellicoe street linden park sa": {
+    "lat": -34.9401719,
+    "lng": 138.646014
+  },
   "4 21 ferguson avenue myrtle bank": {
     "lat": -34.9603095,
     "lng": 138.6312987
@@ -676,7 +712,15 @@
     "lat": -34.9602691,
     "lng": 138.6455529
   },
+  "4 evelyn court beaumont sa 5066": {
+    "lat": -34.9480265,
+    "lng": 138.6649804
+  },
   "4 leslie street glen osmond": {
+    "lat": -34.9628322,
+    "lng": 138.6484142
+  },
+  "4 leslie street glen osmond sa": {
     "lat": -34.9628322,
     "lng": 138.6484142
   },
@@ -712,11 +756,19 @@
     "lat": -34.9456619,
     "lng": 138.6334992
   },
+  "43 flemington street glenside sa": {
+    "lat": -34.9456619,
+    "lng": 138.6334992
+  },
   "435 greenhill road tusmore": {
     "lat": -34.9391147,
     "lng": 138.6433
   },
   "48 inverness avenue st georges": {
+    "lat": -34.9500072,
+    "lng": 138.6494823
+  },
+  "48 inverness avenue st georges sa": {
     "lat": -34.9500072,
     "lng": 138.6494823
   },
@@ -768,6 +820,10 @@
     "lat": -34.9455286,
     "lng": 138.6347495
   },
+  "5 windsor road glenside sa": {
+    "lat": -34.9455286,
+    "lng": 138.6347495
+  },
   "50 elizabeth street norwood": {
     "lat": -34.9228631,
     "lng": 138.6299017
@@ -788,11 +844,19 @@
     "lat": -34.9529213,
     "lng": 138.6434708
   },
+  "528 portrush road st georges sa": {
+    "lat": -34.9560582,
+    "lng": 138.643728
+  },
   "549 fullarton road netherby": {
     "lat": -34.9663443,
     "lng": 138.6266287
   },
   "55 l estrange street glenside": {
+    "lat": -34.9411418,
+    "lng": 138.635485
+  },
+  "55 l estrange street glenside sa": {
     "lat": -34.9411418,
     "lng": 138.635485
   },
@@ -840,7 +904,15 @@
     "lat": -34.9475904,
     "lng": 138.650262
   },
+  "6 6 collyer court linden park sa": {
+    "lat": -34.9475904,
+    "lng": 138.650262
+  },
   "6 allawah avenue glen osmond": {
+    "lat": -34.960984,
+    "lng": 138.6433106
+  },
+  "6 allawah avenue glen osmond sa": {
     "lat": -34.960984,
     "lng": 138.6433106
   },
@@ -928,6 +1000,10 @@
     "lat": -34.9602691,
     "lng": 138.6455529
   },
+  "7a elinor terrace glen osmond sa": {
+    "lat": -34.9602691,
+    "lng": 138.6455529
+  },
   "8 115 allinga avenue glenunga": {
     "lat": -34.9501214,
     "lng": 138.6379249
@@ -937,6 +1013,10 @@
     "lng": 138.6269045
   },
   "8 25 bevington road glenunga": {
+    "lat": -34.9514638,
+    "lng": 138.6406809
+  },
+  "8 25 bevington road glenunga sa": {
     "lat": -34.9514638,
     "lng": 138.6406809
   },
@@ -973,6 +1053,10 @@
     "lng": 138.6923865
   },
   "85 conyngham street frewville": {
+    "lat": -34.9487488,
+    "lng": 138.6343035
+  },
+  "85 conyngham street frewville sa": {
     "lat": -34.9487488,
     "lng": 138.6343035
   },
