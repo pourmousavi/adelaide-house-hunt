@@ -31,6 +31,10 @@
     "lat": -34.9475892,
     "lng": 138.6319807
   },
+  "10 corryton street adelaide sa 5000": {
+    "lat": -34.9329574,
+    "lng": 138.6130077
+  },
   "10 cranwell street glenside": {
     "lat": -34.9408882,
     "lng": 138.6380949
@@ -322,6 +326,10 @@
     "lat": -34.950507,
     "lng": 138.6483107
   },
+  "18b fifeshire avenue st georges sa 5064": {
+    "lat": -34.950507,
+    "lng": 138.6483107
+  },
   "19 balfour road springfield": {
     "lat": -34.9751815,
     "lng": 138.6343489
@@ -522,6 +530,14 @@
     "lat": -34.9450753,
     "lng": 138.617085
   },
+  "29 robsart street parkside sa": {
+    "lat": -34.9450753,
+    "lng": 138.617085
+  },
+  "2901 17 austin street adelaide sa 5000": {
+    "lat": -34.9219973,
+    "lng": 138.6048101
+  },
   "2a austin crescent st georges": {
     "lat": -34.9503815,
     "lng": 138.6443078
@@ -550,9 +566,21 @@
     "lat": -34.9535886,
     "lng": 138.630611
   },
+  "3 40 alfred street norwood sa 5067": {
+    "lat": -34.9259503,
+    "lng": 138.6315037
+  },
   "3 40 windsor road glenunga": {
     "lat": -34.9458867,
     "lng": 138.6407368
+  },
+  "3 6 flemington street frewville sa": {
+    "lat": -34.9461993,
+    "lng": 138.6298576
+  },
+  "3 6 flemington street frewville sa 5063": {
+    "lat": -34.9461993,
+    "lng": 138.6298576
   },
   "3 evelyn court beaumont": {
     "lat": -34.9480265,
@@ -626,6 +654,14 @@
     "lat": -34.9423021,
     "lng": 138.6713418
   },
+  "36 young street parkside sa 5063": {
+    "lat": -34.9440429,
+    "lng": 138.6167885
+  },
+  "37 brandreth street tusmore sa": {
+    "lat": -34.9359233,
+    "lng": 138.645006
+  },
   "37 godfrey terrace leabrook": {
     "lat": -34.9273833,
     "lng": 138.6575207
@@ -650,6 +686,10 @@
     "lat": -34.9255092,
     "lng": 138.6624028
   },
+  "38a ferguson avenue myrtle bank sa": {
+    "lat": -34.9603095,
+    "lng": 138.6312987
+  },
   "39 blyth street parkside": {
     "lat": -34.9515024,
     "lng": 138.6189612
@@ -669,6 +709,10 @@
     "miss": "2026-11-23T12:54:41.670Z"
   },
   "3a gladstone street fullarton": {
+    "lat": -34.9483271,
+    "lng": 138.627741
+  },
+  "3a gladstone street fullarton sa": {
     "lat": -34.9483271,
     "lng": 138.627741
   },
@@ -1059,6 +1103,10 @@
   "85 conyngham street frewville sa": {
     "lat": -34.9487488,
     "lng": 138.6343035
+  },
+  "86 alfred street parkside sa 5063": {
+    "lat": -34.9432433,
+    "lng": 138.6173568
   },
   "89 fisher street fullarton": {
     "lat": -34.9565516,

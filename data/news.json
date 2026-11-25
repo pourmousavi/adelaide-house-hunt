@@ -1,11 +1,45 @@
 {
-  "generatedAt": "2026-11-25T03:56:07.502Z",
+  "generatedAt": "2026-11-25T18:33:16.663Z",
   "items": [
     {
-      "title": "Australian politics live: Two Nationals kicked out of question time as Taylor slams ‘dirty deal’ with Greens; NSW responds to fire ant threat in Sydney",
-      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQSkE4VW53NldUeHRwZ3p2ZEZqTEdha3d1RmRyZlJrN1NsVUt3VmU3Sy1aX1VNQTVmQ1U0ZWRaTEJ1Qm5IUUtTUF9zYTNDZEtIWnZ0ZF9FNFUzdHZUV2VZMjhpQnF5T3Vhd2tZNUdNOUtIOEJSWWlMQmE4cEFPdUtwMnd3Z2tNejgzY3ltV004OWVpaFBneDZqY2o3VkN1d1Qyb2Q0WWtyOHlEXzB6Z1JWTmIyQVozNG11TkdNbzBSS1QxSFJlX3NkNXFucEUySi1tZFhDNHdBNURFbk81UlpvN19lYkpSVkhUcGdLRHpWQ1B0NGJhWnhPRlNQV2l1NE02SWpreHdn?oc=5",
-      "source": "The Guardian",
-      "date": "2026-11-25T03:47:26.000Z",
+      "title": "‘Worst nightmare’ becomes reality as households cop another inflation curveball",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSlgyeWdXRm9UNW1nMTF3bGdJNEpwNmdfeGNLSENEWEllUjNMcm9VdmpyRFkwSHZOVWlGZ2htLVBWbTl3S3Voand3VGJTZGg0RFZZbVo2X2ctZ3NGOTRCR250VmdYejlHYjdyWEhIQXRDN0Vuc2tPZVpERzhXckNaZGNxeWNCVnpxaVlvMERRQ1BLU0pDVV83RUZEVzctdjZHVEFfS3hleEFZYnl2QkE?oc=5",
+      "source": "Nine.com.au",
+      "date": "2026-11-25T18:16:46.000Z",
+      "category": "economy",
+      "topics": [
+        "inflation"
+      ],
+      "importance": 2.25
+    },
+    {
+      "title": "Economist warns rising unemployment and surging inflation create unique 30-year economic crisis",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTE56d3F1VGhpX2tLUlJLV0RJQkVXVXo1ZGZZZ1JLVmJaUm5UcU5VeUdpVFlUaHJVdmZyYy05NjBXWHhveDZzSlhQUjFSZGhvV1dFSkdZcVJMbmZTdEhHTVlvdFMtdFRpN001ajh6VUgzcmNhUTlMTjMwVWxzc0FWemxjcXpEV19wSWpocUptUGZoZWg0WXN4NFphMkJRbXdzRExBOXJBcDVOeVRjX3laUUlBZ1N2Q0NybWx4aVVDbEdvVHhrdDU3bTVn?oc=5",
+      "source": "Real Estate",
+      "date": "2026-11-25T18:13:26.000Z",
+      "category": "economy",
+      "topics": [
+        "inflation"
+      ],
+      "importance": 2.25
+    },
+    {
+      "title": "Adelaide property prices set for major correction in 2027",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaEJlR1VzZjJyRU1HOS1mNVgxLVI2ajJPRExwSV9DV0JCaG9vdzNPSkVpMG5udEcwVnZWb0d3WkMtNzJLQnZnTWEtc1dBU1IwNnFvVWR6Rl94M05IY2Z1ZWszWTZ2YkVsTHRBOGtpa1RjS0p0c1UtSjJjeEw1LXprX1owY2VKcU91R3U3TmNyYjJCeHZwNnhZSA?oc=5",
+      "source": "Real Estate",
+      "date": "2026-11-25T18:08:53.000Z",
+      "category": "adelaide",
+      "topics": [
+        "housing",
+        "adelaide"
+      ],
+      "importance": 1.75
+    },
+    {
+      "title": "Shaun Carney: Everyone always says we’re ‘doing it tough’. Now it’s actually true",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVEpHbEl1bU9hRzdOTzA5QXNzYTE3aThnQWtmdlNZRTV1andpQU5UYmJxLWVLMHdOM0piQmJwbTlxWDcyV2FxQVZBWVdQWGYxZUlHS2lXbHRhYmtKajJfcjVuNTcxZDlJRkZhSDRpbHV2Y2ZoaGZrcVZnTlg3R092dVhRM05DLTBGaHczTTZfOWFNUjd2UUJhY2E3LTdRYjJmd0I1cVNLMmM2Zm9Pc2VHUkFvUWdmZlJVOS1iZXpNSWF0QldObDZF?oc=5",
+      "source": "The Age",
+      "date": "2026-11-25T18:00:00.000Z",
       "category": "economy",
       "topics": [],
       "importance": 0.75
@@ -14,7 +48,7 @@
       "title": "Bolt: Failed Treasurer’s inflation excuses prove he still just doesn’t get it",
       "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPU19fRENZT3MwRjNnczU2eFNUWVBfSHVfVXVNY0h6UUNqbEJydnhHLTF5ZGtPNlZGd0FhcXZRZzNwSENzY0NuaDEyOW1pUENVVEhKZmJYQk9SWkpDdFBKYTBJR1FPZ2Y0a0xpSF9RbWotWkg3TGRScHJTY2pNbm16ZlBWT0t3OVZmVTMtTGg5VmFvaHFNdWQ1d1pVQURpcDk4M1NuWDQzaEdlUzZ2X1pNRHc2LUpOZXEtTmg2alc3ZDRFc3FPdVZydnROYjU2TE9vREZLVFZ1S3RxanZOazJ4TTBvNWdXRUZIUWNQZWxMOA?oc=5",
       "source": "Herald Sun",
-      "date": "2026-11-25T03:44:21.000Z",
+      "date": "2026-11-25T17:09:18.000Z",
       "category": "economy",
       "topics": [
         "inflation"
@@ -22,13 +56,169 @@
       "importance": 2.25
     },
     {
-      "title": "‘More pain’: Dire rates call, inflation shocker",
-      "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNcExQQ1ZQMEhILXEzdklSXzVoYmhLNk1CYVg3bnRNY29wdEk1T2p3QnlBNlM2SGR6ZUpBdEVWTjh6ZWhzaXpLT1RHNVpGaXkwZUVVQ0NmNDJReWs1eHhQQnkzSG5lM05SenpaN21kX2JoaHl4d0c0RkNMTXJFajBxRVVJdmJTS0pTcU9qSlF0N2RJZkVHRko0VzZNeFhkdHRGeXloOG1SYzBSdEtqeFYzSThnbE5TYk9Jb3lmV0UtYXVLeTRaN0ZfdmVVRmlWX1U4X0FwRHVsWlNqNVRZU1FRejdYZUZNRVl2OWNWekhzN3NPNHNUYVZHSGUxQ0ZjU0ExbWFKbjltWnJjTGtJOGc?oc=5",
-      "source": "Herald Sun",
-      "date": "2026-11-25T03:42:22.000Z",
+      "title": "Our inflation is homegrown in Canberra",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQREhWSHk0ZzJQY3ZQVWxlSVVPZHNFcDdGMTlWUVB0R0ptdTVvb0pqMlA0TlpmSXVtWjZTM3ZJQ0Y5SE84TGJOMDl1c1JuQmcwa1JSVklXUFExaC1kVHBfOGZLZTI2VHNubHF6YkVDeXdZaEZTbV9ubHRBaVJVcnVXbnRB?oc=5",
+      "source": "The Spectator Australia",
+      "date": "2026-11-25T17:02:36.000Z",
       "category": "economy",
       "topics": [
         "inflation"
+      ],
+      "importance": 2.25
+    },
+    {
+      "title": "Jimflation soars",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBDNzkzbnF6RUZWRVZfekNXdF8tVEJXMm9rYlNoUlV6WHRVQlh4VkhreTNMTFVTLW83OWJOeXBIbTNRMGNBM2hMOVRoNnRqNERzTG1uNjBGNDVUd2xXM3IwX05qS0w?oc=5",
+      "source": "The Spectator Australia",
+      "date": "2026-11-25T17:02:34.000Z",
+      "category": "economy",
+      "topics": [],
+      "importance": 0.75
+    },
+    {
+      "title": "Has inflation peaked? New house prices may hold the key",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOaDlMUGpfWlo4MW1IeF9JRkF6dF9FeWVTZmpTeEMzYTNXMmhQaGJXVDlxc2hkTUs5bWpIZzVIUnozYUNtWTRrRU9vaDRWN3R3UU5UUWtFWUo5N2hmUVltZEFmc0lkSTVLQWZUWHl1Nl9vbDl1dkpieDhweXV2S2dOby1heDFiZy0zeEE?oc=5",
+      "source": "Yahoo Finance Australia",
+      "date": "2026-11-25T16:30:00.000Z",
+      "category": "property",
+      "topics": [
+        "inflation",
+        "housing"
+      ],
+      "importance": 2.75
+    },
+    {
+      "title": "Australian Dollar falls despite Australian inflation jumping to 4.9%",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQSUo1bF9WVU1YSFRHVVhMWUl0OWJRSkUzX1ljdFpYOTFDVi1kQldmTTFTVi1QUmUtUDlCbDFnOVNqb3NkT090bzBFMVVqNlg5cy1QNVdITmhyWU9WNHlSRi1udTNKRVV0ZE9faFJ2bVFjbFdnZUN1YWhMQlE3Qzc1MmM3aUJhS3FETXcxYVU2RVJlWTFBTlc3cGhTdWs5cmRoZGFjd1dPUWVIam8tTGxjbzNhblhBdTB6VE1FWld3YktZdjdvSWNXSDEtdkJGQTJJNUJjOHMzckZLeGd2Tmc?oc=5",
+      "source": "www.tmgm.com",
+      "date": "2026-11-25T15:53:38.000Z",
+      "category": "economy",
+      "topics": [
+        "inflation"
+      ],
+      "importance": 2.25
+    },
+    {
+      "title": "‘SA is not immune’: Kouts signals state debt blowout",
+      "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQQ3FNMndHYlBtSDZlYWRscTNRbnJ0Mi1TMW96UXA4U20xWWEydV96bnFLMGJVY3NPWGI2VW5QR2tsdEpEUGp2MTR4TnFOVmEyV0ZIcEtrMmtTQ1YwTUVWN0hIbjZ4cGM2UURVSHl2cEQ4a0IzclUtZC1VZmJ2ZnFWbU1BYXNteUtYNUJId0EtdTdsM0txX0RBeWxSTHpsN1gxVVpTWDNXQU90WThNTHFlQVpPYnEzM0puWUxQdzRQNnFaN2tUcnhWQ2ZpMzFBR0RxU3pTUnNqR013d3pJM0hrcEFOU1JKTGJoazRLNTEyYU0wM2ttWXZqdC1KZHpfRmoteTYxdDFEZkxSbXN4eGc?oc=5",
+      "source": "Adelaide Now",
+      "date": "2026-11-25T14:44:37.000Z",
+      "category": "adelaide",
+      "topics": [
+        "adelaide"
+      ],
+      "importance": 1.25
+    },
+    {
+      "title": "Australian inflation jumps to 4.9%: Why the Australian Dollar is falling anyway",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTGJ5STZJV0RNQkNMc0ctamphX25jZHRfVlE1cG81NVlkcmJudTNmZlN3MXd3NlhjTXVMT2NqZkhweGVwSlNRaEwyUVluTWsweDM5b3RiRkFoS2tMRi11ZzNOY1dHREtiaVpHRGgtU2RlZEdMaE5WQ2dVMzVGcnM4bnRHbkhONmpJRTVLb1BnVktOdDB6ek0xaDN1YWplRTVMR1dyeVdPUTRWaXpnZi1TbHFKSTh3R2g5YWZv?oc=5",
+      "source": "FXStreet",
+      "date": "2026-11-25T14:27:03.000Z",
+      "category": "economy",
+      "topics": [
+        "inflation"
+      ],
+      "importance": 2.25
+    },
+    {
+      "title": "Hot inflation sinks ASX, rate cut hopes",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNeWpNdk1TVnYxVVJ1TWFVQnVSUWU3NEhObmMzLXFHZ3oxZkxnbDZ0ZVZwMlhzLVNJWDVsVXo4cXN5ekZnVW1IUnhLUll3b05iUWJaUUEyeUpyenR3THhwb1AtTGJwUGdvSmcyZHlLWTBibURLR19pZkNqVVVVUkZJcTg1aldiam9QYTBmYUF0ejZNOXEzc1F1UTZxMjNQMDY1ak9qMVBKUzd0VnVRMWppUC1menhjRDhldk1lLUwydk1jX2w0dkthT3ZpZHNSOFp4SkF1NzhZc3l0bkRBQzlabFRxdVhKZ2VEX053UVNvMzE0ZXFmZ0ZBTVVB?oc=5",
+      "source": "NT News",
+      "date": "2026-11-25T13:37:48.000Z",
+      "category": "rba",
+      "topics": [
+        "rates",
+        "inflation"
+      ],
+      "importance": 2.25
+    },
+    {
+      "title": "Australian Inflation Hots Up in October, Core Hits Two-Year High",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPOW1XY3pnbExXSmp2MWxwOHFKVmMtN2RkQmppZmp0a0hNRGpQTEZRVmJRd0JxRmk0UVIwN2dNODVJbDZrbFNVMU9YdXBmS0NaUHc2Rjg2RHdEaWhGWGNPZmtCRWV5U2huNW9NZS1kQVpDYS1taTZYMF8zMU5lZl90S1FZMkpjeUlId1ZlRzFGY1VRYTZ1VWp1cUJ3T3JycDl5S0hVQkk4QXNqa1AzV2xOUF80V0xsVGvSAbwBQVVfeXFMUGRtOTN0ZWQ0LTJQV2pPcXRSSE9XbnExemxDTkd4d3FrSjlUYTJQM3dNR0VobmE5UjRacEctb1BJMDBlVWhHWDBoYzBoLWVWbk9KZUNaR1htN1B1WlU2NXhvcGpOLU1JMF9MWjRpZXZJODZZMjUxQTkzYlRsOUlXemlOWnd4NDlONEhqNm85S3BFYkpUVW9EdUk1OEUtczFUZE1MckhFOEtpX1lRRjJRbXR3a3ViNlFPMy1ndV8?oc=5",
+      "source": "تسنیم",
+      "date": "2026-11-25T13:07:09.000Z",
+      "category": "economy",
+      "topics": [
+        "inflation"
+      ],
+      "importance": 2.25
+    },
+    {
+      "title": "RBA Rate Decision Looms as Australian Inflation Hits 4.9%",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONjZWLTFuUGtYYVYzUFF4Nnp6VUFEMWpJWkVOWFZkMVBMUVU1QWdEbUVwdlVJMEVxeEFoV2djMnp5YTNZbXpNWVVWV0lFVlROMDktdTZ6LXR1c0lCUVd5cXdvTDFSYllhS0RaUV9WRVZLMGgzV2Zpc05DNUIxMmNPSnlMbHoxcmhTZDhrQ0xaY2k0SWkwN2c?oc=5",
+      "source": "Gotrade",
+      "date": "2026-11-25T12:30:00.000Z",
+      "category": "rba",
+      "topics": [
+        "rates",
+        "inflation"
+      ],
+      "importance": 2.25
+    },
+    {
+      "title": "Interest rate increase still an option for RBA",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5JOG5tMFh5M1ZqNWNnal84NFBiN3gyclgzdFRTWkNfYmszTzRBS2s0WTh2eU9ZZ09TcHdCbVVTTDVTUHhGY29vWVYwclA4WWdXNWVxTFFxVEZ4YlloYXNlcG9PamZSbzBSMUhaSjNHb0FNTEJzd0JUT2NB?oc=5",
+      "source": "3AW",
+      "date": "2026-11-25T12:27:04.000Z",
+      "category": "rba",
+      "topics": [
+        "rates"
+      ],
+      "importance": 2.25
+    },
+    {
+      "title": "‘Pretty much has to happen’: Gerry Harvey warns Australia is heading towards recession as inflation bites",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOZFliOEVnbTFOQVFPY0xERmFnRVRDdkNWMzZ1NGtEZHdHeXoyUHlBMHdIMGlOVzBmZGxhRjBWVTdHS0JVYXpHSDBXbWdjWC1aem5VaFRwREJmSmJUZTRnMjhEZ3dBMHJ1OGtjVFFaUWNtOUVhMHBrd1NPXzM0bVJ4TzA2NFRlSXFUUWh3SlQ4Mld6TlV0cFdMY3ZENHNGX1pGVmQ2REUybVBkalpnSFpldHM1V0txVmtwcGNOVDh2MnRQcWNsZjdHOENULUY4UjRhRmNDZnR2YUxQRkFKSWY2Yy1RWHk5MGU0R1BSMDBqejNkS2drY0HSAfsBQVVfeXFMT1RmRGlDcHNPWl9TZlE2QXRoQ0d1NDJPMnE2cjNmTGo5Sjh0WEhhVi0taTlUVUtfMVhuOVp4M0h0ek5ORkp5T3J5djVhOE5ERHJsdUtsdXJxWVNYNjBXUTBLc2tMc0Q4bGt6LVNHTnpuR1lPTWV2X3Q1YlFoc19uN3lULS1EUnZjdEpDdGhvVEFVcm5WbkJreEVaNGphV3kzamN2eXY0LV9oeXZZVXhDMjhuMjRqUGt4dmtmUHExdS0xLUNMcXhBT2dfaEI1OGJTeE5TcU1vM094OUdfdXlpRnVMSjl4dTJUdkpybHR3YktxNERYcDhCUjlwNTA?oc=5",
+      "source": "News24",
+      "date": "2026-11-25T11:00:44.000Z",
+      "category": "economy",
+      "topics": [
+        "inflation"
+      ],
+      "importance": 2.25
+    },
+    {
+      "title": "Andrew Bolt blasts Chalmers over shocking inflation data",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPd290Sm4xV0paNGpHV2NRdE52UzFtUU9wV194M0dOQmtENkhFTlNzaHF6d1d4UXlFQ0s1Q2NIVEpCNzVQN0ZKeFFEOExHTlRRR1FXSHNMY0lPNEJ5ZTJKSFpLRkhaWDE5RkF2MF9ENExSU2hLbVFWeDZzbU83aUNzX0c5eV9KaDZLSTZnTTNGYkNrQUtjNDExOVBxSVRNbnN5QzE2RjNHeUo1R3RwV25HWUk3bDVYTDFwdlh0UXVFOWc4OHJpT1dmZjBtdkpzV3QtMTFmcFg5WmFVaFRmeHBrNm16bFTSAeoBQVVfeXFMTUhhZUIyYnhGOE8zV1JEaVJzRTlQMmY4ZE55TklKN2dZQ0QyRWpLaGFMejJzOUtab2l6dzFrQWdwbi1NaFhWWWFDRjNiVTlVWDBLdXhldGdLcE1JYTM1Qm9TbGpaNk9fakhkcWNxajVoTlU2c28tSDJNTF9ZWnp2R3BkMGxxc3dRZmxsb2RDU2Qyc3lZSExCZTRVbFk1UklPVFpab3dIcnRqNU9KeldkS2U2UjRrcG9yUWE2Vk92aFZPQldRdGp0cTdaTTNFcGYxTkVoVGlaVnVLcHpMXzFjc1dOVDVSRF94Unpn?oc=5",
+      "source": "News24",
+      "date": "2026-11-25T10:43:24.000Z",
+      "category": "economy",
+      "topics": [
+        "inflation",
+        "budget"
+      ],
+      "importance": 2.25
+    },
+    {
+      "title": "Macro pulse: The Australian dollar can't catch a break, even with inflation running hot",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOX1ZPQ3pVa2ZwaDlVSlRmdnQzZDktVWVYSDVGaUNnbFpfYkEwd1VpWnJxTFVtNUtuWEtGTDFZcS1uUVozbEl4UFBzVVgxekZ4eGJwQzV0ZVE4VnFzMWtzT1podGNTYzRPdUk5VUM2enluVFQtRnBNQnRaT08zRHNyZjBHMnFORHhSRUExenEyeFpyZ25rNHZRZXpDbWJYREtrdHR4alB2UUVxemZ0cC1qWGRWdG1LZm81QkZrZDk0WQ?oc=5",
+      "source": "investingLive",
+      "date": "2026-11-25T10:22:35.000Z",
+      "category": "economy",
+      "topics": [
+        "inflation"
+      ],
+      "importance": 2.25
+    },
+    {
+      "title": "Harvey Norman’s Gerry Harvey warns of more pain after inflation soars in CPI data",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOUTNhVV9TdU5fZmNrRWxyUFVyeFdxNTlGS0ktVVNoVUpnaWY5YzVqRmxEdXJ3eWlnRy1JdUJBcUlPbk16OHVudGx4VWxKNnM3cm9OdzdzRDVOdE8tbnVHVmRRMThiRi0tdHNNVnQ0WWNSakc4V0lRaXJ4ZmozQl9BdHdWdkc1MGg5dE1uYVh5d1FreFd2RElzdjhjVlB5R2h6OXJWcWM4X2FWX2JydjNjdlBFTW1kS2JJcnhOejJhYmRoOUgtQnVTcWplVW9DNkdGMUdCclVLNXNINWtoeWJMSF9LN1NnSGxtWlBVNlJpMWYwWFZJWmZDQ0MtM1AxYTg?oc=5",
+      "source": "The Australian",
+      "date": "2026-11-25T10:03:14.000Z",
+      "category": "economy",
+      "topics": [
+        "inflation"
+      ],
+      "importance": 2.25
+    },
+    {
+      "title": "Editorial: Why Chalmers is like the frog in boiling water",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOT01qVWtOMU9LVXBiajFCOWNIcnBoczR0M09UN2h2S0pETVBGSEllR2loOXplb3NVMkZOQ1dCOTAzSFIzYjRpUFFZRTI0RjBGa05GTVdwY2RDNWgxd1g5OWlPZEZnRmUyMmxEQmRqemluQjRqMV9OY0xFeWdZU1I1NlFDX1ZLbkFhLWRWNi1sZ0RpaE93akpxSi1pcDQ3Tjk3RGlJaXcwSlAtRk13UVE?oc=5",
+      "source": "The West Australian",
+      "date": "2026-11-25T10:00:00.000Z",
+      "category": "economy",
+      "topics": [
+        "budget"
       ],
       "importance": 2.25
     },
@@ -36,7 +226,7 @@
       "title": "Shock as inflation hits three-year high",
       "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQT2FFOWVUQXkxUnpnM0lPSWdFOTBuSkU2QklNSjRJQ0k0cXZxRUNmVF9mMTRuVjRwbDhGNGdLdjJDZVV4SVk3cFdSLWpRRmp0QTJOblJvM25OZ0ZCY2xBUTdOR3ZuSjdTcGo0cW9pam91ZEk0SGo3aWt4cTlzQmFuYTVpZFhxX3JNeml0LWRvaUZ6YmZ3alM4ZVNpaGZGTEpFTWdIblBLaDhHZ0pWS2llRHBWaGhhUGh6Sldwd2w5emlUZ2ZXWDdjU0NLbTBuNDA3bVFpYmxjM1NFdnJ2NXdEcV9lUFZmV0dO?oc=5",
       "source": "The Nightly",
-      "date": "2026-11-25T03:37:37.000Z",
+      "date": "2026-11-25T09:30:15.000Z",
       "category": "economy",
       "topics": [
         "inflation"
@@ -44,60 +234,144 @@
       "importance": 2.25
     },
     {
-      "title": "‘Prepare yourself’: Inflation double shock pours more misery on weary households",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMWxULTU3THFIZlNhZVh6X0ZCbHBBLTZSLWJBeDBLdm9wc2RGazBCRVNaaENsdm1hOW1JdUxJN09yajI5eF9DTGFRT1NWc0FNMHhZem5MenFWSzhPTERfaXI5RmdvWWVaalF4QVdDVTJtSnE5Q004bUtHaGhYemlaYTA0UVV6aWp2bzJmYVptUUNCZjZENjRlbnV1SkVzcTRTQWwwZzhn?oc=5",
-      "source": "Nine.com.au",
-      "date": "2026-11-25T03:33:45.000Z",
-      "category": "economy",
-      "topics": [
-        "inflation"
-      ],
-      "importance": 2.25
-    },
-    {
-      "title": "Chalmers accused of adding $100bn in spending as inflation soars to 4.9% and job fears grow",
-      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPc0lmRFB0TUVoVXAxMmVtNi1hVEFvQ3JQdF9rYUJtb1B2REJGMWV1YUtwRlpycDdIVlR3ZFNzWEN0LWJPQ2owckJEclQ5U05ZTlpVU3Zob3ZXdFd0ZFVqMFpLeDZ3UGFFWThDeUVYVDFGOFVDM2laVzBtYkhVSFFKWVNoVW1aUUs4b2x1WVpfYnBVSU0yM3F0ekVIczdSdXRQZEhsN1c2bHVBZzZwclBSZHBVbTR6bFJDT0htTlByZm45dW9IWDh1c25ndHFEUDBHNExQZ3A0R1gzYzNvSklvdFFDU1NGYmE2NXA0NE9hemt4M0xNUk5XaGFURUhGdw?oc=5",
+      "title": "The walking dead show perky signs of life",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNOXh2VE9lazlZRnBLMml4amZNekplM3BNMnVxWS1pb0NOZlY3LWhoSHAtTEs5WnFTOXg2NWcyTUtla0d5eXUtTGxNckFMWlUySVZhandaQTBCb3g3Y3JlSmVIb3Z5V1FBZ1ZxRXBRS19LeVBFUVNiaWh4RW43S1BrZHA4ZDRBQk5FNzJjNkhfcHFIaTNmdzFGUVVOZ0JqSU94bUd2YllLUjN2dm5ONExjNGNTRDhIYTNDeGhHY3R3ekxQMmFxY1dFaUFjMU5Md05oVWNN?oc=5",
       "source": "The Australian",
-      "date": "2026-11-25T03:30:55.000Z",
+      "date": "2026-11-25T09:17:17.000Z",
+      "category": "economy",
+      "topics": [],
+      "importance": 0.75
+    },
+    {
+      "title": "VIDEO: Chris Bowen breaks down the COP31 deadlock, inflation hits a three-year high",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdGptRExrZXBncEZGZUpQMWY5M0UzRDJoRHBlVTUzQTlod2RqWHZ0dEt5RHdfLUVTdGd6MVFUcWdUckpQNk9BUEtBODBTRDRqUWc3WGw2akRZblphc1FWYXU2T1ZZdUpBWFhuMVZWRGwxT24wN2pEMkJ2azR2bkktWjlIVGJndw?oc=5",
+      "source": "ABC News & Headlines – Australian Broadcasting Corporation",
+      "date": "2026-11-25T09:14:18.000Z",
       "category": "economy",
       "topics": [
-        "inflation",
+        "inflation"
+      ],
+      "importance": 2.25
+    },
+    {
+      "title": "Why Chalmers is like the frog in boiling water",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSWNmTU03dTd3bmpFcDJxTi1BZzhYLV9PNWN1cU9iTV9GNGp6TmF0Yi1UQUZ4OGNyV3o2bmRxcUFBQ01ncnlOUmJuSHZCWFV3LTdqNS00Q1BxOEdpUmFkWF9Id2ljYk1GUzRKeE1BY0tnc2xZR2RVdkpUb19WeEF2ejF0RGk5OFgzWmxXWGRUcWNQbDEwdHdNdDQxbjBDM1E?oc=5",
+      "source": "The Nightly",
+      "date": "2026-11-25T09:00:00.000Z",
+      "category": "economy",
+      "topics": [
         "budget"
       ],
       "importance": 2.25
     },
     {
-      "title": "Australian inflation heats up in October, core hits two-year high",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdkkzRi1ES21OQXNPRFdEYU54NmdSdF80S1dOMzdHZVRHTTJpdWZsbWRna2tuRml0b2VQd294ckstdDlJU3UtcGxYVV91Q3h5bEZDemRscndnMExCRG05X3NPX0pJUThMdW81VnhnSE1PR3Nlci16eEZPaHB4eTllXzFfemUyMmVHLS1yUThDVm9SYUNNa291LUw5NWZ6Sk5uOGlBXw?oc=5",
-      "source": "The Straits Times",
-      "date": "2026-11-25T03:20:00.000Z",
+      "title": "IPF Calls on Parliament to Reject Over-Optimistic 2027 Budget Forecasts",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPcW0tNkRVb0ZkcFRDZE5Ddk5UbTNMenJaMEJUT3JGUUQzWGNwQlFybE9HWlZPNDlXa2lKckpxQzNGX2o1RW9NVmRwNUJyZmFaNnJuMzdxS3FOVTRYQ1VLTjNKSVNHc2NvLS1xMzM5WmtRWm1TWFRPdkw3ZzFkMExEcUdOOFFvSFpWckJyQWZHSHJSSWNEUk1JcA?oc=5",
+      "source": "Signs Tv",
+      "date": "2026-11-25T08:16:22.000Z",
       "category": "economy",
       "topics": [
+        "budget"
+      ],
+      "importance": 2.25
+    },
+    {
+      "title": "Fears for Aussie mortgage holders with a sixth interest rate hike back on the table as inflation nears 5 per cent",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxON1p5VFhOS3JGZF80TVJuQlhzWjBLVlozQ0RtM3VtT2o5ZnBOZFZlT2pWd3Q3dFFIa1JYOFFtOTNYZnBJdFpmaEVYa1IzcGhhdlhxcm51V0VKTVNyRlJ0STYzVjdsTTdEMGtLaExNWmRCOV9DNnJnQTBtLTdoUURhWVczSzRVXzJyejJvRHlwS3diYTTSAZgBQVVfeXFMTVZzZW9KTmFBMmcwTTVJZ2RLa3V2ZFJrRDNjZHkzNEE5eUNZQUV5alJZZXpUNXdDdEdpMFRjV1hWWkRjQlZfUE9NXzI3eW5jMXFUeXlRdV9jWmlDTUc1b1NUZEdQRXdKbERxM1Z1Qy1Gc1RfeHZuLVBQZnBjODJZNE9WZFVCYXU4dGdPR1ExU05MckdXZmlEdms?oc=5",
+      "source": "Daily Mail",
+      "date": "2026-11-25T08:14:45.000Z",
+      "category": "rba",
+      "topics": [
+        "rates",
         "inflation"
       ],
       "importance": 2.25
     },
     {
-      "title": "Politics live: Chalmers says economy faces ‘serious moment’ amid inflation; NSW ‘scaling up’ response after fire ants found in Sydney",
+      "title": "The grim statistic that shows the extent of the cost of living crisis",
+      "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxQTDRBN28zNzdaSEFxa1o5R21yNm91WUpUWUQwLVFGcTd3OS1UUi1mMlVsNDFRSU1RS0g3WmVseHhLc1FqNXZnd3RrdXhnbldDWjFSVThaMEZYaFdJWDRBc19YV21NUDhJU3VrQU9YYjFSSWNOblU2M3A1TlNpcWNkZ3p4cGZaN28zS0JZZk1tNUpNTElNNVhxMU5WZTg2LUxaX3lDRURHZldQMG5oR2tzdGRUdHMtdS04aldCNG9Qcng4OEg2TFpJVUhvM0t4ZHFINHEzTUZJa3pObUJ1VEI1NUNPZXdtd0NrYnFUdTFuOXFtNkk2YkVxaHEzME5Bc1pWS2IzRzJTRjlQS0VCQlpGUDJGV0RsM3FhQ3Q0dU05VGd4UXpxNmZaYlZTcjlwR0tFZzZxQkRR0gG7AkFVX3lxTFBvZUJwbXJ1TTdjc1BZNnVZQTdtOUR3OXc0bmh6bHQ5OWxzY0tRQkRYNEZJYlAxTElWb2owaUJ3Q1pvaU5yRGR5YjRCdmM3cjNvT3hRaUhzSVFHd3ladmtLc0hEeUZfRkNsZFo5eWNkb3ZzOXhBc3ZyN0FkcU9fVGV2dk5STG8wV3dxUnhPLTRxbnJxcUxJNk1HNmFmUWUtV24xYlYzcXA0bG01RFZPaUxrTmdiVVZXaDNTSVNuQjVxcHhyek9zZ0pxOGRuQTZZVTRKMDRqdGwxVHlBVXU0Uk5HT29SU2s4MkFMWGJBbE1oMHNlT0Z4ZjJKZWk0aXg5clNieDVQc01KMjFaeWdsRjhZRE5JUTlKV25TaU56aVJQWmNpdlNWanZUTUFxaUIxVjBkOXdYRzhuQWpUZw?oc=5",
+      "source": "News24",
+      "date": "2026-11-25T07:49:36.000Z",
+      "category": "economy",
+      "topics": [
+        "inflation"
+      ],
+      "importance": 0.75
+    },
+    {
+      "title": "‘You’re protecting Trump’: Hanson-Young clashes with Liberal senator before digital duty of care legislation passes – as it happened",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOM012RWoxT2ZfTzNZSVczT0tyU0VkRTBCYXRkOHRxQm5sSkd4Y2dqRm9HcUR2SlBGRHdkbnlYU1JjdjI5bmc3Ujh5aW43X0hsaHpvT2RmcVBjNGI4MDZqY2tCQkdOUmxtWDF5SG40YTVkQjFOMnFSNEczMFp6OHdHWk9lREgwODF4NFlSWGV5ZjdodHN0OXlMSkhCOEstU0UxVUxkdEhlTnFtNFcwUGlEUEZybTVmbUZOMDRRLUw3ei16N3dpZzVqaDkxdjd5ZHM?oc=5",
       "source": "The Guardian",
-      "date": "2026-11-25T03:18:04.000Z",
+      "date": "2026-11-25T07:34:00.000Z",
+      "category": "economy",
+      "topics": [],
+      "importance": 0.75
+    },
+    {
+      "title": "\"And people say CT is expensive!\": SA reacts to rates gap on R1m homes",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVGNTYncwS2hILXRpUUVQX2FVSjFocUVvc1pObHdPZmVHSHBaX0hKT3J3Tm9IN1hoNDRHSWY0WUJMLUMwbUFKdDJnUTFfcG8weW91dktDa1VGb0xMLWJpZkJLT1pMdnZET3RfbEhURzVueklVRUF5RnpEMXdydVpTOEo2NGEwcXhwZVhGYlR3cTFZZThHbGJndUM1MkQ0YzczeUJWdk5fUkRrMWM?oc=5",
+      "source": "Briefly News",
+      "date": "2026-11-25T07:02:05.000Z",
+      "category": "adelaide",
+      "topics": [
+        "adelaide"
+      ],
+      "importance": 1.25
+    },
+    {
+      "title": "Inflation keeps rising in Australia",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPLS1SR21qWjVldVNoaUpyenAtRGNCQ0tSMFBBdlMtbVRPUTFMVkhvck53RmIxTkdrQnFMbWpDTHpJb1ZyZmdDcHJmaDBLQmtDOTBqOGdYSlRqbXB1T3hXZ05sTVdiQXBxU0t6cE1CSHVzOTlEbEFBbnVvSi1pOTlqblh5dllmeFM3Tm8zeW5wWmVaSGRMcG55ejFnZG0?oc=5",
+      "source": "Australian Broker News",
+      "date": "2026-11-25T06:34:22.000Z",
       "category": "economy",
       "topics": [
-        "inflation",
-        "budget"
+        "inflation"
       ],
       "importance": 2.25
     },
     {
-      "title": "Australia news LIVE: Inflation hits highest level since start of Iran war; Treasurer Jim Chalmers acknowledges ‘very serious moment for our economy’",
-      "link": "https://news.google.com/rss/articles/CBMitwJBVV95cUxQQmFmdURIMWVEeUpOWlpWY0hXNUNlZzNZc1FfM3BpVmNPcTBmZWtSeEdtSjRmSllSbXFYekxaTmlQcmd1SVRvS0hNOHFIc3h1cWwyT1RCTWdiTHJ3UFFTS01xUndfUFQxQ1NyamkyY2dDREczZnUtd2I3cmFLaXBfZERLbTFKSUZRUlB4bTV2MlpiNjYtNHpOU3E1WTlxTTNKYmh0VHBadVJxX2lYZTQ4bzFnUkVadUNRbGNWUVozLVRfR0MzaGotb3JRZ08wUm5IbGQybHFTN2x0NzBOR0J4NTJqaDNRallFeVFISXVqX2V4ZVBuTWJqbFJoR0kzaFlLSnFqaU5PdUVoOURud3ZoY0htNGI2UEwxN3FkeXYzNTl2dF9Xd3hjeVQ2NEFLR0F0bDdha2Z4Zw?oc=5",
-      "source": "The Age",
-      "date": "2026-11-25T03:13:54.000Z",
+      "title": "Sixth hike back on the table as inflation nudges 5%",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdXFfWE03WGdPQUdTeW5JeXpaT3V5cWhzaHNqWGNfTWJfbDg0Q09YVjJaQzl0bDdkeEJqN3ljd1JxTHV3aWQ1RXVoejRJRlYtLWpmVUZMamlBQV9pUjQ5OGdXT0hiX1BnNnNrZ1lHbVhHNDNDcWpMb2o5T0U2amZyWk9lZmJleEVHYVd3?oc=5",
+      "source": "Canstar",
+      "date": "2026-11-25T05:02:58.000Z",
       "category": "economy",
       "topics": [
-        "inflation",
-        "budget"
+        "inflation"
+      ],
+      "importance": 2.25
+    },
+    {
+      "title": "Inflation hits three-year high, RBA faces tough choices",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNmJ1N1MwTmhINU1NN05YQkhUbjBfRko3Y1FSQUFiMTFvdWNxVEs1ZjZpTTNZazZiZzhTanBJc1UyUEMtYklqdmFEZzBGOWNwR001X05idzVVRkIyZFdTa0swWmxDZnpYWjA1VGxHdmxsTWdxY3Uyb0VSLTFoSUxhZnNGVQ?oc=5",
+      "source": "Ticker News",
+      "date": "2026-11-25T04:45:22.000Z",
+      "category": "rba",
+      "topics": [
+        "rates",
+        "inflation"
+      ],
+      "importance": 2.25
+    },
+    {
+      "title": "Recession fears spark calls for Albanese to overturn RBA rate rise",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaDlSTWlPdVJwVDA1Q1FUXzVxeTV2NXBmTk90WjFPODFXMHlHYkJ6NHUtc2JPQlRJWUhVUEFxSThjQURjQVQzQ1F4ZUlQcjNLUmg4MnExLUVOVHNhdlVmUFBJRTBfbEhyTkpqS1BfbXJDaGxXb2Frb3ZsTkt6b1FXUEVLZUVsb1QxdWlkOEZvbG1Oa0x4cGVDaDJ3?oc=5",
+      "source": "https://thepoint.com.au/",
+      "date": "2026-11-25T04:26:18.000Z",
+      "category": "rba",
+      "topics": [
+        "rates"
+      ],
+      "importance": 2.25
+    },
+    {
+      "title": "Sharp inflation jump puts 5.10% cash rate on the table before Christmas",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPamdPMGtjVVI0QnBSOGdDS3NBcktTTGlJWVZVVUtzNmZZNFNzSGNvdUh0YlhKbkpRNDktSGpGWm0xRTVlS2FsYkJhSk00c2hUQzgwMVM4UGlPd0RlU0FrV0k3VXBBazNXUHJ3cHFzalhZemNhT3pVUUZrcF9hRy1VRGkycTdzaTM4aUNRWnI2cGpWbG4xMmlBTkh3S0UyLWlXSElqeGJ4cGF1dw?oc=5",
+      "source": "Real Estate",
+      "date": "2026-11-25T03:35:40.000Z",
+      "category": "rba",
+      "topics": [
+        "rates",
+        "inflation"
       ],
       "importance": 2.25
     },
@@ -113,18 +387,6 @@
       "importance": 0.75
     },
     {
-      "title": "Australian Inflation Accelerates, RBA Cut Hopes Get Reality Check",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWDZibXJJVFF2RXk3TFhhSnVWTlE4elBtWHNqbFBwcWhkNDBuZmtqbGh1RndUZEF6SGRfUjZBeVgwbWE2c0tzZ2E3YXhWa0NIZjloUkwyMUpRdjBOT0NjOGJOdW9WaW5HY2g5X3ZidDBxR1pldzc0bXY3amVMMHFXYkRmNGd5MzItN2p3ZnJLY0ZJbVJLWEpERkVjbnVOVWd2QUdfa0hYUXc3V3VTMHNmRtIBvAFBVV95cUxQQkV6Vzk5LWdpZjRvYWcxM2NqVHk0WWRobHdlb1RuS09iYzhvVjZQS0ZjOS1EUGVzX0JpRkd5MF9HbmV0b3ByUnp5Mm14WXMybzREWlAxTDF0Q0l5eElUdXdqV1MtSEZ2TkdXM29YZ1c2NTRUNDBMSkJ6aC14bFdGaGpNVG9GdU1mSnNRMUw1R282bTVDRnNQVXhpZTBLcWM1d3M4d3Q3MGpzSVRndHdYZDJvTnMyTlhzRGltYg?oc=5",
-      "source": "FOREX.com",
-      "date": "2026-11-25T02:56:33.000Z",
-      "category": "rba",
-      "topics": [
-        "rates",
-        "inflation"
-      ],
-      "importance": 2.25
-    },
-    {
       "title": "Surprising city overtakes Sydney as least affordable property market",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbFBzUFRfUzJyeWN3YzFyQTRjZDFmNkZidkxtODJGX3N2bE5zeHhXLWdqRlZNQ1lNaVdId0RLTFNQa3pyRXYyMFY1ZE54NmtvUGtlN3V2V0oteFdDMldrZlY1RERxOFY3SVphQ0NXeElhc25UajdpOXdtYy1jdl9NRWVDeXZHbUEtWjRrNVU4U3JRdHpKS2NzNFdBRGQzZ09PTnB4M2pqa3F4V3lB?oc=5",
       "source": "Domain",
@@ -136,18 +398,6 @@
       "importance": 1.25
     },
     {
-      "title": "MYEFO must take up the fight against inflation",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMG9LMG5zLVVjVVBhTWlfaEhxVDhlc3I3Mkl5cWZtamZ0eFAzdVNqNkdjbVFLQ2EycWxvbHFvSHFSbVdwaFV2b1g0SWRmNVh0YWtzdGxqVWVTd0d4bi03WTBoZ3c0ZVBZS2dTcnVFVVpmN29pNFdvWTIwaUJrYm1vS0ZGcWxVa0NqNmVMeW8zVk83MmxNdEttalFMcmlPeVRtU1paTGZLVE80V1FsdjJRTjBLbw?oc=5",
-      "source": "Australian Industry Group",
-      "date": "2026-11-25T02:47:09.000Z",
-      "category": "economy",
-      "topics": [
-        "inflation",
-        "budget"
-      ],
-      "importance": 2.25
-    },
-    {
       "title": "Inflation jumps to 4.9% as fuel prices surge, but the RBA should hold rates steady",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPck1WYWtSVW9FUWQzSHhmQkxtZkpKMnBIVUZGbE5UOTRFLUl5d0JZSUVIa00wYktvV2JBMUJWS3l6a2p0Rm9rMEsyb0NtSUVsU2JmTHNkdHlqZzU3OWJxdW9uc3otakRVYjRoY3RCMVQ0N25uMHlNYU1KOTc4OGFRZ1JLQ242NzZNQ21CQzFlWDlTdjY4NzVnekl4MURmQzVyOXhxN3J0SjZxTm1WekxYQ2NhLXI2dw?oc=5",
       "source": "The Conversation",
@@ -155,190 +405,6 @@
       "category": "rba",
       "topics": [
         "rates",
-        "inflation"
-      ],
-      "importance": 2.25
-    },
-    {
-      "title": "‘SA is not immune’: Kouts signals state debt blowout",
-      "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQQ3FNMndHYlBtSDZlYWRscTNRbnJ0Mi1TMW96UXA4U20xWWEydV96bnFLMGJVY3NPWGI2VW5QR2tsdEpEUGp2MTR4TnFOVmEyV0ZIcEtrMmtTQ1YwTUVWN0hIbjZ4cGM2UURVSHl2cEQ4a0IzclUtZC1VZmJ2ZnFWbU1BYXNteUtYNUJId0EtdTdsM0txX0RBeWxSTHpsN1gxVVpTWDNXQU90WThNTHFlQVpPYnEzM0puWUxQdzRQNnFaN2tUcnhWQ2ZpMzFBR0RxU3pTUnNqR013d3pJM0hrcEFOU1JKTGJoazRLNTEyYU0wM2ttWXZqdC1KZHpfRmoteTYxdDFEZkxSbXN4eGc?oc=5",
-      "source": "Adelaide Now",
-      "date": "2026-11-25T02:44:36.000Z",
-      "category": "adelaide",
-      "topics": [
-        "adelaide"
-      ],
-      "importance": 1.25
-    },
-    {
-      "title": "Soaring inflation defeats Treasurer, Australians set to make tougher choices at supermarket, kitchen table",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOYWlsOEg2ZkVITVR1dDhwMTJZdzdGNXYyN3g3b3hCbW5ieWhwdXdCMWp6VmE0TDdGbkpGT2ZQZG95SUM1b0lBbzA5aEJvQ01ULV9hUi1pQndOY2REdkFaRXhjWjdnV3lEel8zN09vbVFSNVN5Zll2eTUxY19MejdFeFdLSmtXOGlxR3dzMDU4d0lrQzFiTTlRUkxGa2c1eV9tc2MzUlpjME9jX2cxT2E4cVNFYWtrazJ6cXRRZThvbDBsUmg2SjQ4SG5fdmlLclBuRWZ1d3JuWQ?oc=5",
-      "source": "The National Tribune",
-      "date": "2026-11-25T02:43:36.000Z",
-      "category": "economy",
-      "topics": [
-        "inflation"
-      ],
-      "importance": 2.25
-    },
-    {
-      "title": "Inflation jumps to 4.9 per cent as hopes for rate relief clouded",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRmFfRVRtV0JOamVSdEdxamhiYlRKTWIwMF84ZGF0QlJRLUNxbHh6NmlPZDhuWXcxOEUxZXZsTmVUeDdnMDFvbHViMmlOM1dJdEp0T1p5SnlRUERrdUVJcWNRQVRFU0ZkRVFIb0EwUWUtMUtmN1RuUG84S3VMZXVpc3lrQlVkUQ?oc=5",
-      "source": "Elite Agent",
-      "date": "2026-11-25T02:33:48.000Z",
-      "category": "economy",
-      "topics": [
-        "inflation"
-      ],
-      "importance": 2.25
-    },
-    {
-      "title": "RBA 'worst nightmare' as inflation hits three-year high",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRUw3bEt6MlBGTWNFMS1WWkNPTTg1S0dpWk1RcDBiYkhyV1lGRlZIQWtWZXRVV0hwUkR1TTAxRld6bVk5WmZxaThBYjM0aXBRTy1sZ1pJWlp6bzJxci1QT0ZjaWxLNzBPd3A0XzdlMk5aNlhQZE9Lam5UUDNSM0RVYURJLS1hM0hSTWVELUJtd0pGZTFUakVUaWFwT1dPWnZYOFp3?oc=5",
-      "source": "The Canberra Times",
-      "date": "2026-11-25T02:32:54.000Z",
-      "category": "rba",
-      "topics": [
-        "rates",
-        "inflation"
-      ],
-      "importance": 2.25
-    },
-    {
-      "title": "Sharp inflation jump puts 5.10% cash rate on the table before Christmas",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPamdPMGtjVVI0QnBSOGdDS3NBcktTTGlJWVZVVUtzNmZZNFNzSGNvdUh0YlhKbkpRNDktSGpGWm0xRTVlS2FsYkJhSk00c2hUQzgwMVM4UGlPd0RlU0FrV0k3VXBBazNXUHJ3cHFzalhZemNhT3pVUUZrcF9hRy1VRGkycTdzaTM4aUNRWnI2cGpWbG4xMmlBTkh3S0UyLWlXSElqeGJ4cGF1dw?oc=5",
-      "source": "Real Estate",
-      "date": "2026-11-25T02:28:48.000Z",
-      "category": "rba",
-      "topics": [
-        "rates",
-        "inflation"
-      ],
-      "importance": 2.25
-    },
-    {
-      "title": "Rising unemployment and persistent inflation push Australia towards stagflation as rate cuts loom",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbDYtb2xIQkRtd3dIZU9DX3B4X29McDd4T3VHZ2lWbTZsWW5HZGx6THBTUk9kUGMtXzJHU2RoUnRoZWJjVl9SSDdTN3RBVU5SbmpyaENaeFpOc2FCSlZzR2JXYm1nVmJGakJMY2haZXVQSk9Zd1BjRkxNeUdHYXNGZEhEaFc3X2cwSjk3a1JyRi1lRTBKb0N3N1J1TkR0RF96STNZNHJPdE5yVmJzc0I2dlpxVUtWcW1vdmRWbmhGaXNTWmtITkYxTl9RNHh6QQ?oc=5",
-      "source": "Real Estate",
-      "date": "2026-11-25T02:27:56.000Z",
-      "category": "rba",
-      "topics": [
-        "rates",
-        "inflation"
-      ],
-      "importance": 2.25
-    },
-    {
-      "title": "Treasurer Jim Chalmers grilled as inflation spikes to 4.9 per cent",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNRWMtazVjV2phWFZ4SjJFMF9XbWpESFE1dG80ZjA0SVJDZTdBclh5eDRnWjV5R2trLU1KdWJXQnU4dDJIcnVZNHlJNjJHMTE2cVZHSlpLRDVadDBrQlQ2cUZDQ3J6VG41UXdwZ3hzRXJESGFQdExCc0p1UUh6NndWa2VOblhuNTZjZzFjaUQ0elZTbnJ3Vno1QjlUcUFiSVI1NzlhdmdDSFZJaXFISTQ2VHdfX2N0N0x3dy1lQUNPNXF0VTZrZGVHNDlfVXBrX3NRdmhRT3VzQS1FMVhRSU1rR0h4ZUlieEM0ZEpHQUQ4c3jSAfYBQVVfeXFMT21MVkZkRTN0bi16dDllRUZYbzQxYXcxMDlWUy04U0x4QzJrM1BuRl83cGotSnc1b2s1cU5pXzNjX09TT1B1akx1QlZDclluQnlOYmVUaElrRmNyRlh3ZE42bWtCdUlpbW52THhLY1pzNXJ0LVhvbWJ3SVBnM0Z4X0piT3Bzb3BhaDRFc0JrOV9TQzNzY1lXbmduSVNIT2x1ck9BbWtGMEdtRDFFeGxlZ2dKZ0EzRFZjTUI5QnFaQ0lyRkNqdkx3bTEyU1FNdk1maGJHLUZ4RjlnWDY1dGlreVkxQ3o3RVo0U0ZiVzRoRlhlckJWb1NR?oc=5",
-      "source": "News24",
-      "date": "2026-11-25T02:26:35.000Z",
-      "category": "economy",
-      "topics": [
-        "inflation",
-        "budget"
-      ],
-      "importance": 2.25
-    },
-    {
-      "title": "| Benalla Ensign",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZF9vOTFNMm1xVExRNzJLVTBMNmVMTTBoZFJ0SzZ2dnFTejF3SE1qcmtjRDhJLTZNWU04aEw0aUdma01zcUZ6SEZ3NDBtT2dSTTNYYlVUdGlWRUV2LTZFUEROSmhSX0d0QUFxLTBIZThBVC0yZGRMRWVfYXNTTXRNOWZ6YUEwTEswbFZNanNGN25vQ283UFZMcU9MOXc?oc=5",
-      "source": "Benalla Ensign",
-      "date": "2026-11-25T02:24:39.000Z",
-      "category": "economy",
-      "topics": [],
-      "importance": 0.75
-    },
-    {
-      "title": "Brutal inflation increase throws interest rate pause into doubt - latest finance news - API Magazine",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQY2pwVlVuVWlqV0MzN2Y0TUhVNkp4bmJRRWRiMHJTZ2RvRTE2dXgyZWFFUFlGU19TTVZPTFhVZTFRNnpzU25vNW0yWTZWcExMcG9QYnh6YXRZY1hwaW9BcmhVT3U3QmI3cDd6Q1g0R1RRN0FwVk02R1lnUGpZMkR4eURURTlHVmhlR01Va2NIV2pKYlMyelctVjZ4emtZMmJDU1BNSWNnTTB1LTA?oc=5",
-      "source": "Australian Property Investor Magazine",
-      "date": "2026-11-25T02:19:05.000Z",
-      "category": "economy",
-      "topics": [
-        "rates",
-        "inflation"
-      ],
-      "importance": 2.25
-    },
-    {
-      "title": "Shocking surge in inflation throws doubts on mortgage pain relief",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOazBxNVVDWDFSN3JmUFNYamJhMGZrYWZBLXJYMHgyaEdIUVdOQjdDTDU5aTRvVE1fYS1HMUxYeWFFNXFUT3VwZU50RENHMXVVWFRTb05ldnJiNmhBTVlWdEIwT0t4QWNYNWJfRENyeG5ZMVE0VFJrTGU3WUNzMGc0M1QzVjRYbGZicTV2TEdaZXUzTnRPVjRRT1NGbmFjWjZPaXFkaVBzWUk0ZWxNdTB5V1ZQUkw2Z1BJSkZWTEdR?oc=5",
-      "source": "Domain",
-      "date": "2026-11-25T02:17:18.000Z",
-      "category": "property",
-      "topics": [
-        "rates",
-        "inflation"
-      ],
-      "importance": 2.25
-    },
-    {
-      "title": "Aus rocked by nasty inflation surprise",
-      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOVVotNzlqeS1PeWphQlNNTmJvVDlHckJCSHBkX1NMT3FBcHhhcURCWGtPVzEwNWxNRXhjT0ZpYnhhVExRemRzNGpfeGRxdkJwVXRpa21ST2xJTmphUWRjbTNnd2xtSnNwbnNvcG9qZkxfOUFkd3kwemtMUlNMSGw4emJkYTgyS28wWVUxcXhhNlo3ZWlZSWt0LUdZa2xiU09nSFdta29EQ1Vya2RyMExUZHpJSGdIdlY1NTZ5a2NMWW9mdUcxTW9FQzBUc3BaNk9GVTZ6NGhtZnhDNW9WYXVWOFBIR09OeUo2SFBBVGNZWE5vZnRBUWJhbWc5VG9BR1ZCMWtYT20tNWxpcUZCYTZFcHhqN0I?oc=5",
-      "source": "The Daily Telegraph",
-      "date": "2026-11-25T01:52:30.000Z",
-      "category": "economy",
-      "topics": [
-        "inflation"
-      ],
-      "importance": 2.25
-    },
-    {
-      "title": "Australian Inflation Accelerates, Even After RBA Rate Hikes",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSmZnclVsakZpNHFUSWtSVk4walE3M0V1bkM0RHgyWFVpRjVzVHM0TTI4TWhTYnNjQXJSTWkzdWZ2clZiVmEyaTEtSjlheHZTUURJWXB6TF9mc1JrcEZxbjlfWUJTLTlieWpSa2dzWHNPem1IVEdCVFNwSmFqYW95cTI0ak4wSUE2UC1EV19WZVU5MUpSRUNPeUUtYWNHb3AyazFodU9qVzNMbmJZZVE?oc=5",
-      "source": "Bloomberg.com",
-      "date": "2026-11-25T01:44:00.000Z",
-      "category": "rba",
-      "topics": [
-        "rates",
-        "inflation"
-      ],
-      "importance": 2.25
-    },
-    {
-      "title": "RBA on a knife’s edge as inflation and unemployment rises: VanEck",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPM0ZOZl9EbkphZWdrbXVMTEo0VDlxZ2d1bnNMNXdxTlZJWUFCZmtxMjRFaVI3ZXViUElGWWd5bnBpWXdQQi1fXy13aHRqenNlTmtWanZVenVLZnlkWlkwN3VuMVRtcWw2b2ZyQTV5N0hoeGxFa0MxZjdmWUxfWXkxclJ5TkFaVUZYV3dkNzh3R0ViX0FJWHNNdkYtSE9DUFBqUnY0bkNuQzJVUU03Z3FkTFVQOHZFcW8tMlJCaW9RdUp4YklLYUJfb3hvN0hSYUVx?oc=5",
-      "source": "Proactive financial news",
-      "date": "2026-11-25T01:22:00.000Z",
-      "category": "rba",
-      "topics": [
-        "rates",
-        "inflation"
-      ],
-      "importance": 2.25
-    },
-    {
-      "title": "October 2026 CPI: Quick take and RBA (non-)implications",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE40bmEyZ1FSUm90ZWt6dVpGYTJDYWpITnkzdVhPTnMycjRTN1oyWlFNWklyeTM1d2h3LWxJd0NDWXR5cGUwUWFxNVJhRFdwTlhKQWYtSGVkbTNHbXdTMUNZRk5SRm42RDAyd1lpeEFuTE1KUGYtTkZR?oc=5",
-      "source": "Westpac IQ",
-      "date": "2026-11-25T01:19:13.000Z",
-      "category": "rba",
-      "topics": [
-        "rates",
-        "inflation"
-      ],
-      "importance": 2.25
-    },
-    {
-      "title": "Australia’s October Inflation Surges, Keeping RBA on Alert for Further Rate Hikes",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeUFxM2lLUEx5bmFNdndwak03ZFY0WXF3VmhiYjc5eWVhVmVRVU1KMkdGNC1PaWdRODdkdndNUDVkQ1pCWVdELV9pUGUwbEhaLUJsclgtZFdhaE1ycEdsNGxIVmpFZTB2TW9RTDNvMmdFa3daekRsck9fUF9yRGQ0SlVYQjZUMTloOFFkUy1hM3c3VzhqNno1TlB5X1pRQzVOdHQ2Mm8zV2hWcnV5RTVCT1o2RGVHTWs?oc=5",
-      "source": "WSJ",
-      "date": "2026-11-25T01:16:00.000Z",
-      "category": "rba",
-      "topics": [
-        "rates",
-        "inflation"
-      ],
-      "importance": 2.25
-    },
-    {
-      "title": "Devastating blow for households as inflation surges above expectations",
-      "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPNlZyUlpXM0ltekdQMW1mRl9yV1V2SGFqWG1yeXh5ZWY5ZHVvQXg5emtfMFlJZVl6S1ZxTUFYRlJlTFQxa08zS0RXVU9mZGxGTnFQa2R3X25lWV82c3VZUWlCRDM3b1l2bUZ1WmFqdHZwRE41TXhWZXJhYjJUa1hVZjVJSG93ejRzU3VpRnJoT2lsLVJxN3R3Z2dXdFBVdWxEYi1yX2pLcjl4cGxxR3hpbUF2RlBLLUh4NHF1ZTQzRzBPWGdKRlNEX3dBdF9nZUVQck9KN1NQZk1OZGxETGdIa1FZSGNNcXZ6Q1pzZEtVdnFBRFhJOFVLMDJ2bVFrSzN5V1BMeS0xYWYxWTdsUm9sb0NjNExiNmdGazJvTHgteS1rOVYy0gGqAkFVX3lxTFBTdjVzdEZvTXNPdnNqeWd6ZVNidEdIekNPdHpxWkdENVVIR29zY0hTMUtnRENwa2d6Z1B5LS1jOXdFYzdILTNRSDVTc0dpZlk4Z3RfaXpJSy1ISU9QTTR2UHpGNnJ2Ti1BWlFJZXJrdEVLUVE0U1BWZmRxdnVwd18wbmFONW94M3YyZDRoaWZvM1Y3bC1xM2VKMDlsVjZKbzVzVzJVNUpLLVNCdXoxcjhMRUJJREJUMXhIMjNoTG1MdGpUQ1FmeU4zWDFsRkFPeDR3a3Z3SmYzcFVZZTNuczNTUjRhUW55TFphWWxDS1Y4bmJ4OTZDbnU3SGEzUjRaZmwwY1g2YlQ5N2FXQVBaUkVRNVZOQlNlQkV5dE84NnJCaXJoQmlpWVhiVUE?oc=5",
-      "source": "News24",
-      "date": "2026-11-25T01:12:53.000Z",
-      "category": "economy",
-      "topics": [
         "inflation"
       ],
       "importance": 2.25
@@ -377,84 +443,6 @@
         "adelaide"
       ],
       "importance": 1.25
-    },
-    {
-      "title": "Treasurer Jim Chalmers rejects recession fears but says Aussie economy faces 'very serious moment'",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPOGItV2pEaDlNWU9TZkx5M1ZCaTlpV1RsUmNuMFRnTkdTM1F0c2FuMVNPOWEyWVJpbnk1OUxLOXNna1BVUzJFeV93N0dRS1FfNTBJWmQ2bGttX2ZuN1JxaHVPY29zOXZfa0g4cWg3YlplNmExaE9tb3FPQWxaZENPWWs5XzBseWw4dTJUZmdVVjBMVzV1VExyTWVsMkhJLWltYk9XczRhNDI5amtwODVWb01ZekJxVmRNQWU1RF95TTFsNWFaTV82YVFac19LclhfTDV1Z3hyN0l4ckFEcWc?oc=5",
-      "source": "Yahoo Finance Australia",
-      "date": "2026-11-24T23:01:29.000Z",
-      "category": "economy",
-      "topics": [
-        "budget"
-      ],
-      "importance": 2.25
-    },
-    {
-      "title": "Adelaide overtakes Sydney as least affordable capital city",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVFN3TDhfaEQwOUZsaFhzUEFGeUNmS1pvRUpTV2d3a3c2QlBtdEVRODN6SjdOY1pHQWhKX1lUTDhxb2dmNGFjVC1SeHJsVHdIcHRKRUlNWjlTTElqZGVNbGJDTGFDSG13dzZuMWlKZU1OWC1MODFaTkp6WFJZdUdfdVRYdDVMWEpKLXdhNVBlcUxyem0yaDRqc1U5ckZOVEMyNVE?oc=5",
-      "source": "Broker Daily",
-      "date": "2026-11-24T19:25:33.000Z",
-      "category": "adelaide",
-      "topics": [
-        "adelaide"
-      ],
-      "importance": 1.25
-    },
-    {
-      "title": "Shock city overtakes Sydney as least affordable property market",
-      "link": "https://news.google.com/rss/articles/CBMirAJBVV95cUxOUGxzV0NYV2EwR1VmTFhiSENaRUpIUzNHU2VyQmQtUVUydzBnWWtpNWE5aUU0Q3lXVGZVOGFfMXlVTnAwNFlDemJrZUZhMGtVTktTLW9JdGdsd3h2WE45UW5wa0lXa2JIXy0xTFloaE5BV2NVVm80amJiYjlKbjRLM3pvSVlxQnJlYmVrNHBSZWtQYkRYVlNTQ3AtTWpUbWtJQm5aMGlrMmdaRTREYVlMOWIzTE94V3pBWk1YNEtqeFMydFlMc0VDeHM0YlRXQXhJQ293TmhfU1FrUFp2dkFYRUhzWjN6cENVY3pBZjVaM19mVGxEajAxbWlQRGpCR3ZibHU0aEk4WXpaUVRrdlhfRDRHcGVxeVU0YXlXTkJtWEx6VW44d1YtTGRSaVrSAbICQVVfeXFMT2tJRDdYOTQ1SjRJbWVQSTJ6TVFmNXI5TEYtdXFsZ2hmNWo3NEpUNjlCR0FVTUFhMEVpSHF4WGtid2dzOXFwMFJFV1oxRTE4TTNpTDliYTFUQW14NlppVXlSWGQ5UUQxUFI1T0lRNUdYa01HTzRsZjJhUmhxdlFZNm1qQXdUTGotYjlsV2lZSGtEbjREVG9lOTNRN1lsa01kc2xCSDdTODlnY0RkbnR3UFpqdzVTM3FrZ1B2eTI5Z0NfOUNoLTRycGVxTTl1MWl0YkpEWHNUZEI2MnR3UVFwSmpmMmRGLUtUeXRyZy1HdDliR3ZmcEYyczYwWFJlWEVLbUtXZmlPR19pXzUwelZHN29Ic3RtUldhOTdybHl2X0o2RzY4WC1UOXVFbGVDS3gzNHJ3?oc=5",
-      "source": "News24",
-      "date": "2026-11-24T18:00:44.000Z",
-      "category": "property",
-      "topics": [
-        "housing"
-      ],
-      "importance": 1.25
-    },
-    {
-      "title": "Adelaide overtakes Sydney as least affordable capital city for housing",
-      "link": "https://www.abc.net.au/news/2026-11-25/housing-market-downturn-fails-to-deliver-relief-for-buyers/107422726",
-      "source": "ABC News",
-      "date": "2026-11-24T13:08:42.000Z",
-      "category": "adelaide",
-      "topics": [
-        "housing",
-        "adelaide"
-      ],
-      "importance": 1.75
-    },
-    {
-      "title": "Win for homeowners as major bank predicts two rate cuts sooner than expected",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVENsZHlFZEdTZGVoMEVzMWF2Um16VW0zUEZkRVJ6ZkRraFhjMnlfQm0yZ2tqT2xTV29Nd0FpUjRnbkFDNkVtX3pKUEVXZElCbHlEejdxQ0xBTmQ3OTRYbWc1OHQtX3V4TzhicEd4MS1IMXhIRkNGRW9wOFZCRjdrM0tsUW90NDUtLXl2U3Z4azNmZkk4Q2xFdFhEQWtoSFc2X1A4ZnR2ZUJIZ0dCN1RvSTN2Sno5VUhWa1ZsQjJZVWVHdVk?oc=5",
-      "source": "Yahoo Finance Australia",
-      "date": "2026-11-24T04:30:00.000Z",
-      "category": "rba",
-      "topics": [
-        "rates"
-      ],
-      "importance": 2.25
-    },
-    {
-      "title": "ANZ Forecasts RBA Rate Cuts From June 2027",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1jZTZVREVMQm5iZXFoWUR5RWE5bHVSbGFYWUxEY05GZHBBa3ZtbEhsX0ZmUlNUUldWNWhZeVZacm1UN3pPRFppTll0ZUNiOGtDM1RQcEtVLXlPRWRqTGkteWZoRWZZMGlQMDhaag?oc=5",
-      "source": "www.suaralandak.co.id",
-      "date": "2026-11-24T03:45:37.000Z",
-      "category": "rba",
-      "topics": [
-        "rates"
-      ],
-      "importance": 2.25
-    },
-    {
-      "title": "Chalmers flags budget cuts, $180bn in savings",
-      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNWjlqRV9CdUJIUC1NM3E0bVhha0Q5SjZ3TEpvaHU3NUVzNU5wdno2VGpOVlFydy1IV1kxODExREd5NGZIOG1Wb1RrQ3pkVElLd2owQXZCNUZBNmVvMmhYWVFWSjYtUzRvQVdYVXJ3QTFqMHR3cU5oT1lkLVpGR2VTR3NaV0dQME9vRE01aW9abUJ6ZDlrdkhocmpvQWJSQTZiUmg3MTgySXppbXJRUVhkM19xT1V6RURrd3RQOEprazJDeUNMc0pfTUJGUFk4azg4TVd5TlNCZHVNTHlNNWpLSXRqMXVlZXJKZUFFam51QTB3ZG5Fb1paZFd5ZnFuR2pzZkZXa2gzT1Jzbm_SAZACQVVfeXFMUGljaVNxZFZhbHdXejJsSVlhSUF0LWhndUoyaVNTRTZiZjZhUjBpVXNfS0tXNnR2SHh6V2ZEbmdCVWxIUGRrUzRhRFA3dHRXVUU0TU1zNldaUkNjMm1DSDl3cXJkV1dYa08tVnRhSmxrSnM5bEh2VE91Ul9Rbm5MeUhNTU9RTklsODdWa0c1WkdwVmZZZUpCRGVrNUx1ak84dUppMnFBQ010WXFIaUpHd2dFOFVxRUstTEljNkhuVllKeHl2Ry1nOWFsa3NXcV81eW5VR3BCX0Rrbkd4Y0JnUDFLeXF3dndfZkxUemdBajZtbXJqWTQteEJGZFhiWFJRVnRvamJhVm9zMFcwWjRMaXY?oc=5",
-      "source": "News24",
-      "date": "2026-11-24T03:27:10.000Z",
-      "category": "economy",
-      "topics": [
-        "budget"
-      ],
-      "importance": 2.25
     }
   ]
 }

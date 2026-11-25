@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-11-25T03:56:07.502Z",
+  "generatedAt": "2026-11-25T18:33:16.663Z",
   "model": "gemini-flash-latest",
-  "headline": "Elevated borrowing costs confront exceptionally tight eastern suburbs supply and persistent inflation",
-  "outlook": "Purchasing a family home across Adelaide’s premium eastern pocket—including Beaumont, Glenunga, Linden Park, St Georges, Toorak Gardens, and Tusmore—involves balancing tight listing dynamics against macroeconomic pressure. Current listing figures show rapid turnover with a median of just 2 days on market, 123 active listings, and zero recorded price reductions, even as mortgage rates sit at 6.20% and the RBA cash rate stands at 4.85%. While 2026 median prices show high nominal figures—such as $1.885M in Beaumont, $1.95M in Linden Park, $2.05M in Tusmore, $2.06M in St Georges, $2.271M in Glenunga, and $2.92M in Toorak Gardens—sales volumes remain relatively low (ranging from 8 sales in Tusmore to 28 in Beaumont across three quarters), which introduces significant statistical volatility. Furthermore, macroeconomic uncertainty is heightened by recent headlines reporting inflation accelerating to 4.9%, contrasting with forecast expectations of CPI easing to 3.36% over four quarters, while cash rate projections span a wide band between 3.41% and 5.83% through late 2027.",
-  "timing": "For a family evaluating when to enter the market, timing is clouded by opposing forces. On one hand, current market speed offers buyers little time for due diligence, with properties trading in a median of 2 days and sellers not offering price cuts. On the other hand, attempting to wait for softer conditions carries no guarantees, as prospective RBA policy paths remain highly dispersed. Rather than trying to pick a market trough or peak, purchasing timing should be anchored to your household’s borrowing resilience: ensure your budget can absorb extended mortgage rates at or above 6.20%, particularly if upper-bound scenarios near 5.83% cash rates eventuate, and only proceed when an appropriate family home surfaces that fits long-term living needs.",
+  "headline": "High Eastern Suburbs Demand Clashes with Escalating Macroeconomic and Interest Rate Headwinds",
+  "outlook": "Purchasing in Adelaide's blue-chip eastern ring presents conflicting signals. Local demand across suburbs like Glenunga (2026 median $2.27m), Toorak Gardens ($2.92m), and Linden Park ($1.95m) remains visibly competitive, evidenced by an ultra-low median of 3 days on market and virtually absent discounting (1 cut across 126 active listings). However, broader fundamentals are under visible strain: the RBA cash rate sits at 4.85% following successive increases, benchmark mortgage rates are at 6.2%, and unemployment has reached 4.9%. While baseline models project cash rates could ease slightly toward 4.65% by late 2027, the forecast range is exceptionally wide (3.20% to 5.68%), and recent inflation reports of 4.9% keep further rate tightening on the table. With economic commentary highlighting the risk of a broader Adelaide correction in 2027, the trajectory of premium eastern suburb prices remains fundamentally uncertain.",
+  "timing": "For a family seeking a long-term home, a cautious approach is warranted rather than rushing in fear of missing out. The current market moves rapidly—selling within days—forcing buyers into high-pressure decisions precisely as debt costs sit at cyclical highs. Rather than stretching borrowing limits to win bidding contests, prioritize financial stability: stress-test mortgage repayments well above current 6.2% levels, insist on full structural due diligence despite fast turnover, and be prepared to pause if stock quality does not justify premium asking figures, especially as macroeconomic headwinds may alter market leverage heading into 2027.",
   "risks": [
-    "Potential for further monetary tightening or prolonged high rates, with cash rate forecast models showing an upper bound of 5.83% by September 2027.",
-    "Resurgent headline inflation reaching 4.9%, which constrains broader household budgets and erodes real borrowing capacity.",
-    "Erratic price signals caused by low transaction counts in micro-markets like Tusmore (8 sales) and Toorak Gardens (12 sales in 2026 to date).",
-    "Stretched local affordability as media reports identify Adelaide among the least affordable metropolitan markets."
+    "Further monetary tightening or delayed rate relief driven by stubborn inflation (headline CPI recently reaching 4.9%).",
+    "Adelaide market correction risk in 2027 as rising unemployment (4.9%) and high debt servicing curtail household purchasing power.",
+    "Very low sales volumes in tightly held pockets (e.g., only 8 sales in Tusmore in 2026) creating price volatility and appraisal uncertainty.",
+    "Serviceability compression if mortgage rates rise further from the current 6.2% average."
   ],
   "watch": [
-    "Shifts in median days on market from the current tight baseline of 2 days.",
-    "Emergence of price discounting, which currently registers at zero listings with cuts.",
-    "RBA cash rate decisions and revisions to the central 4.80% 4-quarter forecast.",
-    "Quarterly CPI releases to verify whether inflation tracks toward the projected 3.36% or remains elevated."
+    "RBA cash rate determinations and inflation readings to determine whether the 4.85% rate has peaked.",
+    "Median days on market (currently 3 days) and frequency of vendor discounting for signs of buyer exhaustion.",
+    "Total active listings in the 5064, 5065, and 5066 postcodes relative to buyer absorption rates.",
+    "State and national unemployment trends impacting higher-tier household borrowing capacity."
   ],
   "disclaimer": "Not financial advice."
 }

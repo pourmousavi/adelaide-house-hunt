@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T19:26:17.119Z",
+  "generatedAt": "2026-11-25T18:33:16.663Z",
   "source": "alerts",
   "listings": [
     {
@@ -28,7 +28,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-24",
       "priceHistory": [
         {
@@ -97,7 +97,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-24",
       "priceHistory": [
         {
@@ -166,7 +166,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-24",
       "priceHistory": [
         {
@@ -235,7 +235,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-24",
       "priceHistory": [
         {
@@ -279,6 +279,88 @@
       }
     },
     {
+      "id": "rea-r1e3vmqb",
+      "url": "https://ablink.campaign.realestate.com.au/uni/ss/c/u001.NE3lvwpckgDoHAGf9DjdBznLUkRQDXWoBLSDzBlISdUK0wTcStNt3FSHhauCbQ_J_srQx6rbaeLJYst2TDepr5xsN_6Op2egTdvopPLPaZZwRyGLcviYa8isIPBN0IjSBGdwlviZaqv4UKaWhA_x_AGmRD-uDPXfKOgq20SUFJTfCwcen0HLJU0CBETWe4LQEqmrkritHqUbuVcgP1oP5b8nBK41DghrJonHG3xPRdE-azo0R_ySD8-trj08ho3g/4w1/3fgxD6pISEa-YQF4w2oBwQ/h91/h001.hZpmvZuQ9uFJSChlXwHeB8GO-WTo9ZIbweO7Gjd6ZCI",
+      "urlIsRedirect": true,
+      "headline": null,
+      "address": "3/6 Flemington Street, Frewville SA 5063",
+      "suburb": "Frewville",
+      "postcode": "5063",
+      "lat": -34.9461993,
+      "lng": 138.6298576,
+      "propertyType": null,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "carspaces": 2,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "$1.59m",
+      "priceLow": 1590000,
+      "priceHigh": 1590000,
+      "saleMethod": "privateTreaty",
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/80x80,gravity=north,quality=70/ed3818801c84dced9533c39e9d2d3d5b276baae11543027a7a37c3256e8eaefb/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 1,
+      "firstSeen": "2026-11-24",
+      "priceHistory": [
+        {
+          "date": "2026-11-25",
+          "priceText": "Best Offers By 8/12 (USP)",
+          "priceLow": null,
+          "priceHigh": null
+        },
+        {
+          "date": "2026-11-25",
+          "priceText": "$1.59m",
+          "priceLow": 1590000,
+          "priceHigh": 1590000
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": "new",
+      "lastSeen": "2026-11-25",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "This three-bedroom, one-bathroom property in Frewville is offered at a fixed price of $1.59m following an initial price adjustment. The asking price is consistent with Frewville's recent median sales benchmarks, which sat at $1.64m in 2025. However, missing land details and a single bathroom warrant careful verification during inspection.",
+        "pros": [
+          "Offers three bedrooms and two car spaces.",
+          "Asking price aligns closely with suburb median trends.",
+          "Has already undergone an initial price adjustment."
+        ],
+        "cons": [
+          "Only one bathroom for a three-bedroom layout.",
+          "Land size and dwelling type are not disclosed.",
+          "Frewville data reflects low annual sales volumes."
+        ],
+        "fairValueLow": 1400000,
+        "fairValueHigh": 1650000,
+        "verdict": "Fair",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-25T18:33:16.663Z",
+        "priceText": "$1.59m",
+        "inputVersion": 2
+      },
+      "alsoAt": [
+        {
+          "origin": "rea",
+          "url": "https://ablink.campaign.realestate.com.au/uni/ss/c/u001.NE3lvwpckgDoHAGf9DjdBznLUkRQDXWoBLSDzBlISdUK0wTcStNt3FSHhauCbQ_J_srQx6rbaeLJYst2TDepr5xsN_6Op2egTdvopPLPaZZwRyGLcviYa8isIPBN0IjSBGdwlviZaqv4UKaWhA_x_AGmRD-uDPXfKOgq20SUFJTfCwcen0HLJU0CBETWe4LQEqmrkritHqUbuVcgP1oP5b8nBK41DghrJonHG3xPRdE-azo0R_ySD8-trj08ho3g/4w1/3fgxD6pISEa-YQF4w2oBwQ/h92/h001.kdp3o8wLI7zQ_w6knPKcBJEy5hO1_YQLOuZrh2QEd0c"
+        }
+      ]
+    },
+    {
       "id": "rea-r1f1quio",
       "url": null,
       "headline": null,
@@ -304,7 +386,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-24",
       "priceHistory": [
         {
@@ -373,7 +455,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-24",
       "priceHistory": [
         {
@@ -448,7 +530,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-24",
       "priceHistory": [
         {
@@ -517,7 +599,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-24",
       "priceHistory": [
         {
@@ -586,7 +668,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-24",
       "priceHistory": [
         {
@@ -630,6 +712,74 @@
       }
     },
     {
+      "id": "rea-r1ndpqpf",
+      "url": null,
+      "headline": null,
+      "address": "3/6 Flemington Street, Frewville SA",
+      "suburb": "Frewville",
+      "postcode": null,
+      "lat": -34.9461993,
+      "lng": 138.6298576,
+      "propertyType": null,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "carspaces": 2,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "$2,300,000 - $2,500,000",
+      "priceLow": 2300000,
+      "priceHigh": 2500000,
+      "saleMethod": "privateTreaty",
+      "auctionDate": null,
+      "photos": [
+        "https://bucket-api.domain.com.au/v1/bucket/image/2021356688_1_1_261125_053044-w2046-h1365"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 1,
+      "firstSeen": "2026-11-25",
+      "priceHistory": [
+        {
+          "date": "2026-11-25",
+          "priceText": "$2,300,000 - $2,500,000",
+          "priceLow": 2300000,
+          "priceHigh": 2500000
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": null,
+      "lastSeen": "2026-11-25",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "Listed at the same address as another listing, this entry asks a significantly higher price guide of $2,300,000 to $2,500,000. This upper range substantially exceeds Frewville's recent median prices of $1.64m in 2025 and $2.05m in 2026 for a property with only one bathroom. Without documented land size or premium features, the asking price appears excessively high.",
+        "pros": [
+          "Provides three bedrooms and two vehicle spaces."
+        ],
+        "cons": [
+          "Asking guide substantially exceeds recent suburb medians.",
+          "Identical address is listed separately for $1.59m.",
+          "Only one bathroom provided.",
+          "Land size is completely unspecified."
+        ],
+        "fairValueLow": 1400000,
+        "fairValueHigh": 1650000,
+        "verdict": "Overpriced",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-25T18:33:16.663Z",
+        "priceText": "$2,300,000 - $2,500,000",
+        "inputVersion": 2
+      }
+    },
+    {
       "id": "rea-r1t8z42h",
       "url": null,
       "headline": null,
@@ -655,7 +805,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-24",
       "priceHistory": [
         {
@@ -725,7 +875,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-24",
       "priceHistory": [
         {
@@ -770,6 +920,75 @@
       }
     },
     {
+      "id": "rea-r2h3pza",
+      "url": "https://ablink.campaign.realestate.com.au/uni/ss/c/u001.NE3lvwpckgDoHAGf9DjdBznLUkRQDXWoBLSDzBlISdUK0wTcStNt3FSHhauCbQ_JjbY430IQBCSDRYanHTuYzvcib7Irp_Tuqm3bEipPClzxx2gg6b162QhIlNFL8PU5JEnPA-qaIPd8cCIh3C-jkw1YeR8SlxWewJVuqe1dZbR6sVn5C2GVcvIHcdpvjpBDwWiZljWHSZT5j5BHYW65zOnqAwQUEjrSRis75LWd6f25x6zFoP4jiaI9_F1-YzMm/4w1/3fgxD6pISEa-YQF4w2oBwQ/h99/h001.yfCy_F6JhdcyPF9c_nSTv8B8vO9PWH9f3xK2uJprHgA",
+      "urlIsRedirect": true,
+      "headline": null,
+      "address": "18B Fifeshire Avenue, St Georges SA 5064",
+      "suburb": "St Georges",
+      "postcode": "5064",
+      "lat": -34.950507,
+      "lng": 138.6483107,
+      "propertyType": null,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "carspaces": 3,
+      "landArea": null,
+      "buildingArea": null,
+      "priceText": "EOI - By 5PM Tuesday 15th December, USP",
+      "priceLow": null,
+      "priceHigh": null,
+      "saleMethod": "eoi",
+      "auctionDate": null,
+      "photos": [
+        "https://i2.au.reastatic.net/80x80,gravity=north,quality=70/4fc0cde5d784e6b8d48b3901a74fbf5ef77ac561da0539ea78bceef0b85e218b/main.jpg"
+      ],
+      "description": "",
+      "features": [],
+      "dateListed": null,
+      "daysOnMarket": 1,
+      "firstSeen": "2026-11-25",
+      "priceHistory": [
+        {
+          "date": "2026-11-25",
+          "priceText": "EOI - By 5PM Tuesday 15th December, USP",
+          "priceLow": null,
+          "priceHigh": null
+        }
+      ],
+      "salesHistory": [],
+      "inspections": [],
+      "agents": [],
+      "zones": [
+        "Linden Park Primary School",
+        "Glenunga International High School"
+      ],
+      "status": "active",
+      "alertKind": "new",
+      "lastSeen": "2026-11-25",
+      "origin": "rea",
+      "via": "alerts",
+      "ai": {
+        "summary": "This St Georges property offers three bedrooms, two bathrooms, and three car spaces, marketed via an Expressions of Interest campaign. The listing price is not disclosed, requiring a broad valuation range based on St Georges' steady median of roughly $2.04m to $2.06m from 2023 to 2026. Buyers should request the vendor statement to clarify land size and property type before submitting an offer.",
+        "pros": [
+          "Provides three bedrooms, two bathrooms, and three car spots.",
+          "St Georges displays consistent median price stability around $2m."
+        ],
+        "cons": [
+          "Price guide is completely undisclosed.",
+          "Land size and building type are not provided.",
+          "Current 6.2% mortgage rates demand strict budget discipline."
+        ],
+        "fairValueLow": 1850000,
+        "fairValueHigh": 2250000,
+        "verdict": "Worth inspecting",
+        "model": "gemini-flash-latest",
+        "generatedAt": "2026-11-25T18:33:16.663Z",
+        "priceText": "EOI - By 5PM Tuesday 15th December, USP",
+        "inputVersion": 2
+      }
+    },
+    {
       "id": "rea-r3pimhn",
       "url": null,
       "headline": null,
@@ -795,7 +1014,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-24",
       "priceHistory": [
         {
@@ -864,7 +1083,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-24",
       "priceHistory": [
         {
@@ -933,7 +1152,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-24",
       "priceHistory": [
         {
@@ -1002,7 +1221,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-24",
       "priceHistory": [
         {
@@ -1072,7 +1291,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-24",
       "priceHistory": [
         {
@@ -1142,7 +1361,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-24",
       "priceHistory": [
         {
@@ -1211,7 +1430,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-24",
       "priceHistory": [
         {
@@ -1280,7 +1499,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 1,
+      "daysOnMarket": 2,
       "firstSeen": "2026-11-24",
       "priceHistory": [
         {
@@ -1349,7 +1568,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -1424,7 +1643,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -1493,7 +1712,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -1563,7 +1782,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -1639,7 +1858,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -1714,7 +1933,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -1787,7 +2006,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -1861,7 +2080,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -1935,7 +2154,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -2008,7 +2227,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -2076,7 +2295,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -2144,7 +2363,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -2212,7 +2431,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -2286,7 +2505,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -2360,7 +2579,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -2428,7 +2647,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -2504,7 +2723,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -2580,7 +2799,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -2648,7 +2867,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -2724,7 +2943,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -2798,7 +3017,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -2872,7 +3091,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -2940,7 +3159,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3014,7 +3233,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3084,7 +3303,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3158,7 +3377,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3232,7 +3451,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3305,7 +3524,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3375,7 +3594,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3448,7 +3667,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3515,7 +3734,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3590,7 +3809,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3664,7 +3883,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3732,7 +3951,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3806,7 +4025,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3880,7 +4099,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -3956,7 +4175,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4030,7 +4249,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4098,7 +4317,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4172,7 +4391,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4246,7 +4465,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4320,7 +4539,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4394,7 +4613,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4468,7 +4687,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4536,7 +4755,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4604,7 +4823,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4672,7 +4891,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4740,7 +4959,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4808,7 +5027,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4876,7 +5095,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -4944,7 +5163,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5013,7 +5232,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5082,7 +5301,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5151,7 +5370,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5220,7 +5439,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5289,7 +5508,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5357,7 +5576,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5425,7 +5644,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5493,7 +5712,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5561,7 +5780,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5631,7 +5850,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5701,7 +5920,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5770,7 +5989,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5838,7 +6057,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5905,7 +6124,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -5973,7 +6192,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6043,7 +6262,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6113,7 +6332,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6183,7 +6402,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6253,7 +6472,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6323,7 +6542,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6391,7 +6610,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6459,7 +6678,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6527,7 +6746,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6595,7 +6814,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6663,7 +6882,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6734,7 +6953,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6805,7 +7024,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6876,7 +7095,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -6947,7 +7166,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -7018,7 +7237,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -7088,7 +7307,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -7157,7 +7376,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -7227,7 +7446,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -7297,7 +7516,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -7367,7 +7586,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -7437,7 +7656,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -7507,7 +7726,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -7577,7 +7796,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -7646,7 +7865,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -7717,7 +7936,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -7788,7 +8007,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -7859,7 +8078,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -7931,7 +8150,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -8003,7 +8222,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -8074,7 +8293,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -8144,7 +8363,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -8214,7 +8433,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -8284,7 +8503,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -8354,7 +8573,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -8424,7 +8643,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -8496,7 +8715,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -8567,7 +8786,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
@@ -8638,7 +8857,7 @@
       "description": "",
       "features": [],
       "dateListed": null,
-      "daysOnMarket": 2,
+      "daysOnMarket": 3,
       "firstSeen": "2026-11-23",
       "priceHistory": [
         {
