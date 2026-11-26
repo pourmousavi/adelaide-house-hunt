@@ -282,6 +282,10 @@
     "lat": -34.9522203,
     "lng": 138.6288408
   },
+  "17 11 davaar place adelaide sa 5000": {
+    "lat": -34.9341669,
+    "lng": 138.6118776
+  },
   "17 burke street tusmore": {
     "lat": -34.937638,
     "lng": 138.6485898
@@ -309,6 +313,10 @@
   "18 albert street dulwich": {
     "lat": -34.9379568,
     "lng": 138.6262931
+  },
+  "18 charles street norwood sa 5067": {
+    "lat": -34.9262903,
+    "lng": 138.6257311
   },
   "18 florence street fullarton": {
     "lat": -34.9506094,
@@ -361,6 +369,14 @@
   "2 17 fern avenue fullarton": {
     "lat": -34.9557503,
     "lng": 138.6175998
+  },
+  "2 18 birdwood avenue frewville sa": {
+    "lat": -34.9474838,
+    "lng": 138.6310115
+  },
+  "2 18 birdwood avenue frewville sa 5063": {
+    "lat": -34.9474838,
+    "lng": 138.6310115
   },
   "2 2a ferguson avenue myrtle bank": {
     "lat": -34.9603095,
@@ -417,6 +433,10 @@
   "20 l estrange street glenside": {
     "lat": -34.9411418,
     "lng": 138.635485
+  },
+  "20 seaforth avenue hazelwood park sa 5066": {
+    "lat": -34.9439138,
+    "lng": 138.6564528
   },
   "205 5 harriet lucy drive glenside": {
     "lat": -34.9410794,
@@ -622,6 +642,10 @@
     "lat": -34.9514779,
     "lng": 138.6467769
   },
+  "32 porter street parkside sa 5063": {
+    "lat": -34.9425871,
+    "lng": 138.6098845
+  },
   "32a wootoona terrace st georges": {
     "lat": -34.9550202,
     "lng": 138.6481268
@@ -690,6 +714,10 @@
     "lat": -34.9603095,
     "lng": 138.6312987
   },
+  "38a ferguson avenue myrtle bank sa 5064": {
+    "lat": -34.9603095,
+    "lng": 138.6312987
+  },
   "39 blyth street parkside": {
     "lat": -34.9515024,
     "lng": 138.6189612
@@ -737,6 +765,10 @@
     "lng": 138.6406809
   },
   "4 34 fisher street fullarton": {
+    "lat": -34.9565516,
+    "lng": 138.6321197
+  },
+  "4 34 fisher street fullarton sa": {
     "lat": -34.9565516,
     "lng": 138.6321197
   },
@@ -808,6 +840,10 @@
     "lat": -34.9391147,
     "lng": 138.6433
   },
+  "44 howard terrace hazelwood park sa 5066": {
+    "lat": -34.9349024,
+    "lng": 138.6584016
+  },
   "48 inverness avenue st georges": {
     "lat": -34.9500072,
     "lng": 138.6494823
@@ -829,6 +865,10 @@
     "lng": 138.6570511
   },
   "5 105 grant avenue toorak gardens": {
+    "lat": -34.9313991,
+    "lng": 138.636359
+  },
+  "5 105 grant avenue toorak gardens sa": {
     "lat": -34.9313991,
     "lng": 138.636359
   },
@@ -856,9 +896,17 @@
     "lat": -34.9366485,
     "lng": 138.6660598
   },
+  "5 richmond street kensington sa 5068": {
+    "lat": -34.9238714,
+    "lng": 138.6439872
+  },
   "5 way avenue myrtle bank": {
     "lat": -34.9622613,
     "lng": 138.6376346
+  },
+  "5 winchester street highgate sa": {
+    "lat": -34.9602607,
+    "lng": 138.6181909
   },
   "5 windsor road glenside": {
     "lat": -34.9455286,
@@ -875,6 +923,10 @@
   "50 wyatt road burnside": {
     "lat": -34.9430578,
     "lng": 138.6663215
+  },
+  "501 14 gilbert street adelaide sa 5000": {
+    "lat": -34.934143,
+    "lng": 138.5996267
   },
   "51 dover street malvern": {
     "lat": -34.9614737,
