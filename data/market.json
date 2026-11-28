@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-11-27T03:28:30.565Z",
+  "generatedAt": "2026-11-28T03:04:11.235Z",
   "model": "gemini-flash-latest",
-  "headline": "Adelaide Eastern Suburbs: Persistent Prestige Demand Amid Macroeconomic Uncertainty and Tight Borrowing Conditions",
-  "outlook": "Purchasing a family home across Adelaide’s premium eastern pocket—encompassing Linden Park, Glenunga, Tusmore, Toorak Gardens, St Georges, and Beaumont—involves navigating starkly divergent local and macroeconomic signals. While 2026 recorded median price points ranging from approximately $1,885,000 in Beaumont to upwards of $2,920,000 in Toorak Gardens, broader financial headwinds remain substantial. Current headline inflation sits elevated at 3.9%, and the RBA cash rate of 4.85% (carrying an indicative mortgage rate of 6.2%) has driven borrowing costs up significantly over 2026. Micro-level data across active listings indicates high initial turnover and tightness, with a median of just 4 days on market across 127 active properties. However, macroeconomic forecasts show wide uncertainty intervals, with cash rate projections ranging between 3.41% and 5.83% over the coming 12 months, and international bodies suggesting potential further tightening if inflation persists. Consequently, whether current price levels across these tightly held school zones and lifestyle suburbs will expand, stabilize, or soften remains subject to considerable macro volatility.",
-  "timing": "For a family seeking a long-term home, the decision to purchase should be governed by household borrowing capacity and tenure rather than attempting to time price troughs or peaks. High mortgage rates (6.2%) and elevated unemployment readings nationally (4.9%) highlight that debt serviceability must be stress-tested against the upper bounds of rate projections (which extend past 5.8% in cash rate forecast modeling). With local listings trading rapidly—evidenced by the 4-day median time on market—competition for premium eastern suburbs family allotments remains active despite high financing costs. If you locate an appropriate property that fits school catchment requirements and your budget accommodates conservative interest rate buffers, transacting on a 7- to 10-year view is prudent; however, buyers reliant on maximum leverage should exercise extreme caution and consider waiting for macroeconomic stability before over-committing.",
+  "headline": "Persistent Eastern Suburbs Competition Meets Macro Uncertainty and Elevated Borrowing Costs",
+  "outlook": "Purchasing in Adelaide's eastern suburbs—encompassing Linden Park, Glenunga, Tusmore, Toorak Gardens, St Georges, and Beaumont—places buyers in a high-value corridor where 2026 medians range from around $1.885M in Beaumont to over $2.92M in Toorak Gardens. Local conditions reflect exceptionally rapid turnover, underscored by a median of just 5 days on market across 127 active listings and minimal price discounting (only 3 price cuts recorded). However, this local resilience is set against substantial macroeconomic friction. The RBA cash rate currently sits at 4.85% with mortgage rates averaging 6.2%, national unemployment has climbed to 4.9%, and inflation remains elevated at 3.9%. Furthermore, annual transaction volumes across these select pockets are relatively low (ranging from 8 sales in Tusmore to 28 in Beaumont across three quarters in 2026), meaning median figures can fluctuate significantly and market depth remains uncertain if higher debt-servicing costs increasingly constrain buyer borrowing capacity.",
+  "timing": "For a family seeking a long-term principal residence, purchasing decisions should be driven by borrowing buffers and asset suitability rather than attempting to pick market inflections. Extremely brief selling campaigns (5 days on market) mean premium eastern homes still clear quickly, giving prepared buyers little room to hesitate when suitable stock arises. That said, cash rate forecast ranges remain wide—with modeled upper bounds extending to 5.42% by year-end and higher into 2027—meaning financing conditions could tighten further before any projected monetary easing materialises. If your household finances are robustly stress-tested against interest rates well above current 6.2% levels, securing a home that fits family requirements is viable, but stretching to absolute borrowing limits carries heightened risk in this uncertain economic climate.",
   "risks": [
-    "Further monetary tightening or extended 'higher-for-longer' cash rates beyond 4.85%, as suggested by IMF commentary and 3.9% CPI figures.",
-    "Borrowing power degradation from prevailing 6.2% mortgage rates affecting upper-bracket Adelaide eastern suburbs pricing.",
-    "Rising national unemployment (currently 4.9%), which may gradually weaken broader consumer sentiment and housing liquidity.",
-    "Volatility and small sample sizes in premium suburb sales figures (e.g., Tusmore recording 8 sales to Q3 2026), which can distort perceived valuation baselines."
+    "Prolonged cash rate elevation or unexpected hikes, with model forecasts showing potential upper cash rate bounds exceeding 5.4% if inflation remains sticky.",
+    "Thin transaction volumes in premium suburbs (e.g., 8 sales in Tusmore, 12 in Toorak Gardens in 2026), which can distort price indications and elevate downside appraisal risks.",
+    "Macroeconomic deterioration, with national unemployment rising to 4.9% and broader forecasts warning of slower domestic growth.",
+    "Cash flow strain from high mortgage servicing costs, with prevailing home loan rates around 6.2%."
   ],
   "watch": [
-    "RBA cash rate announcements and monetary policy statements regarding sticky inflation.",
-    "Quarterly Consumer Price Index (CPI) releases relative to the 3.36% 4-quarter projection.",
-    "Days on market and price-reduction counts (currently 3 out of 127 listings) to detect emerging vendor fatigue.",
-    "Sales volume and auction clearance outcomes in key Burnside council catchments (Glenunga, Linden Park, Toorak Gardens)."
+    "RBA cash rate announcements and movement relative to the 4.80% four-quarter projection.",
+    "Sub-market liquidity and listing velocity, particularly any shift from the current rapid 5 median days on market.",
+    "Domestic inflation trajectory, tracking whether CPI trends down toward the 3.36% forecast from its current 3.9% level.",
+    "Shifts in discounting activity beyond the current low baseline of 3 asking price reductions."
   ],
   "disclaimer": "Not financial advice."
 }
